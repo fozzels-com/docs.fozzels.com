@@ -1,0 +1,89 @@
+// @ts-check
+// `@type` JSDoc annotations allow editor autocompletion and type checking
+// (when paired with `@ts-check`).
+// See: https://docusaurus.io/docs/api/docusaurus-config
+
+import {themes as prismThemes} from 'prism-react-renderer';
+
+// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
+  title: 'Fozzels Help Center',
+  tagline: 'Guides and documentation for Fozzels',
+  favicon: 'img/favicon.ico',
+
+  future: {
+    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+  },
+
+  url: 'https://docs.fozzels.com',
+  baseUrl: '/',
+
+  organizationName: 'fozzels',
+  projectName: 'docs.fozzels.com',
+
+  onBrokenLinks: 'throw',
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'de', 'nl', 'es', 'pt-BR'],
+    localeConfigs: {
+      en: {label: 'English'},
+      de: {label: 'Deutsch'},
+      nl: {label: 'Nederlands'},
+      es: {label: 'Español'},
+      'pt-BR': {label: 'Português (Brasil)'},
+    },
+  },
+
+  presets: [
+    [
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        docs: {
+          sidebarPath: './sidebars.js',
+          routeBasePath: '/', // Serve the docs at the site root (help-center style)
+        },
+        blog: false,
+        theme: {
+          customCss: './src/css/custom.css',
+        },
+      }),
+    ],
+  ],
+
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      image: 'img/docusaurus-social-card.jpg',
+      colorMode: {
+        respectPrefersColorScheme: true,
+      },
+      navbar: {
+        title: 'Fozzels Help Center',
+        logo: {
+          alt: 'Fozzels',
+          src: 'img/logo.svg',
+        },
+        items: [
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
+        ],
+      },
+      footer: {
+        style: 'dark',
+        links: [],
+        copyright: `Copyright © ${new Date().getFullYear()} Fozzels.`,
+      },
+      prism: {
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
+      },
+    }),
+};
+
+export default config;
