@@ -17,8 +17,10 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  url: 'https://docs.fozzels.com',
-  baseUrl: '/',
+  // Overridable per environment. GitHub Pages preview sets these to the
+  // qlicks.github.io/docs.fozzels.com/ URL; production (Cloudflare) uses the defaults.
+  url: process.env.SITE_URL ?? 'https://docs.fozzels.com',
+  baseUrl: process.env.BASE_URL ?? '/',
 
   organizationName: 'fozzels',
   projectName: 'docs.fozzels.com',
