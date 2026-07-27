@@ -22,7 +22,7 @@ collections:
     description: Help Center articles. Organized into folders shown in the sidebar.
     folder: docs
     create: true
-    extension: mdx
+    extension: md
     format: frontmatter
     nested:
       depth: 4
@@ -33,6 +33,8 @@ collections:
     fields:
       - {label: Title, name: title, widget: string}
       - {label: Sidebar position, name: sidebar_position, widget: number, required: false}
-      - {label: Slug (URL), name: slug, widget: string, required: false}
-      - {label: Description, name: description, widget: string, required: false}
+      - {label: Description, name: description, widget: text, required: false}
       - {label: Body, name: body, widget: markdown}
+      # Preserved, not edited by writers (changing these would alter URLs/identity).
+      - {label: Slug, name: slug, widget: hidden, required: false}
+      - {label: ID, name: id, widget: hidden, required: false}

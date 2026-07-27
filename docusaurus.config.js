@@ -4,6 +4,9 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import {createRequire} from 'module';
+
+const require = createRequire(import.meta.url);
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -46,6 +49,21 @@ const config = {
       'pt-BR': {label: 'Português (Brasil)'},
     },
   },
+
+  // Offline, build-time search (no external service / API keys).
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      /** @type {import('@easyops-cn/docusaurus-search-local').PluginOptions} */
+      ({
+        hashed: true,
+        indexBlog: false,
+        docsRouteBasePath: '/',
+        language: ['en', 'de', 'es', 'nl', 'pt'],
+        highlightSearchTermsOnTargetPage: true,
+      }),
+    ],
+  ],
 
   presets: [
     [
