@@ -58,13 +58,6 @@
       "newPath": "/account-core-resources/resources-prompt-templates-locating-and-using-saved-templates"
     },
     {
-      "type": "article",
-      "freshdeskId": 103000400448,
-      "title": "4.5.2. User Guide: Automated Video Flow",
-      "oldPathPrefix": "/support/solutions/articles/103000400448",
-      "newPath": "/account-core-resources/user-guide-automated-video-flow"
-    },
-    {
       "type": "folder",
       "freshdeskId": 103000643888,
       "oldPathPrefix": "/support/solutions/folders/103000643888",
@@ -97,13 +90,6 @@
       "title": "2.3.2. Connecting Shopify stores to Fozzels via Shopify Dev Platform for 2026",
       "oldPathPrefix": "/support/solutions/articles/103000385597",
       "newPath": "/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026"
-    },
-    {
-      "type": "article",
-      "freshdeskId": 103000367854,
-      "title": "2.3.3. Full Integration Setup with Shopify.",
-      "oldPathPrefix": "/support/solutions/articles/103000367854",
-      "newPath": "/integration-connectivity/full-integration-setup-with-shopify"
     },
     {
       "type": "article",
@@ -438,20 +424,6 @@
       "title": "\"Recursion detected\" warning when creating a Flow",
       "oldPathPrefix": "/support/solutions/articles/103000313152",
       "newPath": "/content-creation-flows/recursion-detected-warning-when-creating-a-flow"
-    },
-    {
-      "type": "article",
-      "freshdeskId": 103000403992,
-      "title": "Auto-Regenerate Content on Product Changes",
-      "oldPathPrefix": "/support/solutions/articles/103000403992",
-      "newPath": "/content-creation-flows/auto-regenerate-content-on-product-changes"
-    },
-    {
-      "type": "article",
-      "freshdeskId": 103000403991,
-      "title": "Daily Product Content Limit",
-      "oldPathPrefix": "/support/solutions/articles/103000403991",
-      "newPath": "/content-creation-flows/daily-product-content-limit"
     },
     {
       "type": "article",
