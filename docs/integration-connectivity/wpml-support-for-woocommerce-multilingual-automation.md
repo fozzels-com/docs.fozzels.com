@@ -21,11 +21,11 @@ Fozzels’ integration with WPML enables you to manage complex multilingual stru
 
 -   **Flexible Mapping:** Direct content to the correct language versions of your products, including:
 
-    -   **Standard fields** (Title, Description, Short Description);
+-   **Standard fields** (Title, Description, Short Description);
 
-    -   **SEO Plugins** (**[Yoast SEO](https://fozzels.freshdesk.com/a/solutions/articles/103000388046)** or **[All in One SEO](https://fozzels.freshdesk.com/a/solutions/articles/103000386882)**);
+-   **SEO Plugins** (**[Yoast SEO](https://fozzels.freshdesk.com/a/solutions/articles/103000388046)** or **[All in One SEO](https://fozzels.freshdesk.com/a/solutions/articles/103000386882)**);
 
-    -   **Custom Fields** (**[ACF - Advanced Custom Fields](https://fozzels.freshdesk.com/a/solutions/articles/103000385832)**).
+-   **Custom Fields** (**[ACF - Advanced Custom Fields](https://fozzels.freshdesk.com/a/solutions/articles/103000385832)**).
 
 -   **Workflow Efficiency:** Manage global catalogs from a single interface.
 

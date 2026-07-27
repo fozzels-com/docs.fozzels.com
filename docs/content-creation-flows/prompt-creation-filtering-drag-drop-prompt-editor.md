@@ -58,8 +58,8 @@ Active Condition (if-block) - Yellow-orange
 
 #### Data Density Percent
 Every attribute is linked to a **data density percent -** the percentage of data availability across the entire integration.
-    **Hover** over the attribute to view its data density percentage in the tooltip.
-    **Use** attributes with high density (closer to 100%) to ensure successful content generation across most of your products.
+**Hover** over the attribute to view its data density percentage in the tooltip.
+**Use** attributes with high density (closer to 100%) to ensure successful content generation across most of your products.
 ![](./images/prompt-creation-filtering-drag-drop-prompt-editor/x-1OzeZAjTMnJ0UwMl8MW3nuBRADUaDtbA.png)
 ![](./images/prompt-creation-filtering-drag-drop-prompt-editor/qq-rfN44U1KguTDHRUx4nMlmBYUMPgTCzw.png)
 

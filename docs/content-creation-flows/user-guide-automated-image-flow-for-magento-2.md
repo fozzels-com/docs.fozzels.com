@@ -42,27 +42,27 @@ Select your processing network and specific model from the interactive cards on 
 
 -   **Google | Gemini:**
 
-    -   **Gemini 2.5 Flash | Nano Banana:** A fast and efficient model optimized for high-volume, low-latency tasks. Supports **up to 3 reference presets**.
+-   **Gemini 2.5 Flash | Nano Banana:** A fast and efficient model optimized for high-volume, low-latency tasks. Supports **up to 3 reference presets**.
 
-    -   **Gemini 3 Pro | Nano Banana Pro:** Designed for professional asset production and complex instructions. Features a default "Thinking" process that refines composition and supports **up to 14 reference presets**.
+-   **Gemini 3 Pro | Nano Banana Pro:** Designed for professional asset production and complex instructions. Features a default "Thinking" process that refines composition and supports **up to 14 reference presets**.
 
-    -   **Gemini 3.1 Flash | Nano Banana 2:** An updated, highly efficient model balanced for high-volume asset creation. Supports **up to 14 reference presets**.
+-   **Gemini 3.1 Flash | Nano Banana 2:** An updated, highly efficient model balanced for high-volume asset creation. Supports **up to 14 reference presets**.
 
-    -   **Virtual Try-On `NEW`:** A specialized model for generating photorealistic images showing how clothing looks on a person (requires a person image preset and a product garment image).
+-   **Virtual Try-On `NEW`:** A specialized model for generating photorealistic images showing how clothing looks on a person (requires a person image preset and a product garment image).
 
 -   **OpenAI | ChatGPT:**
 
-    -   **GPT Image 1:** A precise, high-fidelity image generation model utilizing the latest multimodal frameworks.
+-   **GPT Image 1:** A precise, high-fidelity image generation model utilizing the latest multimodal frameworks.
 
-    -   **GPT Image 1 Mini `NEW`:** A highly cost-efficient image generation and editing engine—offering the best value for high-volume use cases.
+-   **GPT Image 1 Mini `NEW`:** A highly cost-efficient image generation and editing engine—offering the best value for high-volume use cases.
 
-    -   **GPT Image 2 `NEW`:** A state-of-the-art generation model built for fast, high-quality rendering with flexible resolutions up to 3840px.
+-   **GPT Image 2 `NEW`:** A state-of-the-art generation model built for fast, high-quality rendering with flexible resolutions up to 3840px.
 
 -   **xAI:**
 
-    -   **Grok Imagine Image:** The standard image generation model from xAI, delivering high-quality images from text prompts. Supports **up to 5 reference presets**.
+-   **Grok Imagine Image:** The standard image generation model from xAI, delivering high-quality images from text prompts. Supports **up to 5 reference presets**.
 
-    -   **Grok Imagine Image Pro `PRO`:** Premium xAI architecture delivering superior image quality with enhanced detail and texture accuracy. Supports **up to 5 reference presets**.
+-   **Grok Imagine Image Pro `PRO`:** Premium xAI architecture delivering superior image quality with enhanced detail and texture accuracy. Supports **up to 5 reference presets**.
 
 ###
 **The Interactive Output Format Grid**
@@ -88,13 +88,13 @@ This section acts as the creative brain of your Magento flow, allowing you to fi
 
 -   **Adding References:** Click the large **\[+\] Add preset** box to open the native dropdown menu and select your reference type:
 
-    1.  **Model:** Choose a fashion model asset from the integrated Fozzels library to set poses and human styling.
+1.  **Model:** Choose a fashion model asset from the integrated Fozzels library to set poses and human styling.
 
-    2.  **Scene:** Select a background style or environment template.
+2.  **Scene:** Select a background style or environment template.
 
-    3.  **Product:** Inject an additional reference photo of your product to give the AI more angles or details.
+3.  **Product:** Inject an additional reference photo of your product to give the AI more angles or details.
 
-    4.  **Image:** Upload any custom image or reference file directly from your computer layout.
+4.  **Image:** Upload any custom image or reference file directly from your computer layout.
 
     5.  **Generated Media:** Choose an image that has already been successfully rendered in Fozzels to maintain consistency.
         ![](./images/user-guide-automated-image-flow-for-magento-2/poqeQbutVP7nGAfD5MDN1F9aCnQ23CE6iw.png)
@@ -140,9 +140,9 @@ Once you have completed all mapping fields on Tab 4, your automated pipeline is 
 
 2.  **Launch Generation (Plan & Close / Run Now):**
 
-    -   Click the green split-button in the bottom-right corner of the screen.
+-   Click the green split-button in the bottom-right corner of the screen.
 
-    -   Select **Run Now** from the dropdown options. The system will lock in your final configuration layout, close the builder workspace, and immediately trigger the background engine to process your Magento product data batch.
+-   Select **Run Now** from the dropdown options. The system will lock in your final configuration layout, close the builder workspace, and immediately trigger the background engine to process your Magento product data batch.
 
 3.  **Monitor Progress:** To view the rendering status in real time or jump straight into the moderation queue, click the turquoise **\[Batch List\]** button in the bottom-left corner. This instantly routes you to your chronological processing logs.
 
@@ -165,17 +165,17 @@ Clicking the **Eye icon** launches our streamlined, side-by-side overlay designe
 
 -   **Magento Metadata Override Console:** Located directly beneath the image cards, this allows you to fine-tune specific storefront settings for the selected product before pushing it live:
 
-    -   **POSITION:** Manually change the gallery order text box (e.g., lower from `101` if you want this specific render to be the main thumbnail).
+-   **POSITION:** Manually change the gallery order text box (e.g., lower from `101` if you want this specific render to be the main thumbnail).
 
-    -   **ROLES:** Click the interactive toggle badges (`Base`, `Small`, `Thumbnail`, `Swatch`) to dynamically assign or remove native Magento presentation values for this specific file.
+-   **ROLES:** Click the interactive toggle badges (`Base`, `Small`, `Thumbnail`, `Swatch`) to dynamically assign or remove native Magento presentation values for this specific file.
 
-    -   **HIDE ON PDP:** Check this box to hide only this individual asset from the product detail page carousel.
+-   **HIDE ON PDP:** Check this box to hide only this individual asset from the product detail page carousel.
 
 -   **The Control Loop:**
 
-    -   **Regenerate:** Triggers an immediate, unrestricted rerun for an alternative visual variation if the layout needs a redesign.
+-   **Regenerate:** Triggers an immediate, unrestricted rerun for an alternative visual variation if the layout needs a redesign.
 
-    -   **Accept & next:** Approves the version, locks in your customized Magento metadata overrides, and **instantly swipes open the next image** in your batch queue.
+-   **Accept & next:** Approves the version, locks in your customized Magento metadata overrides, and **instantly swipes open the next image** in your batch queue.
 
 ##
 ![](./images/user-guide-automated-image-flow-for-magento-2/fghCPbvdab9wtI-u0AWAUQPsuXIrvMCEPg.png)
@@ -189,9 +189,9 @@ Fozzels provides total data portability over your visual inventory. You can push
 
 2.  Open the **Actions** dropdown menu located directly above the data grid headers and choose your routine:
 
-    -   **Show Selected:** Filters your working screen to isolate only your marked Magento product rows.
+-   **Show Selected:** Filters your working screen to isolate only your marked Magento product rows.
 
-    -   **Download images (ZIP):** Triggers the background compilation of all marked high-resolution, AI-generated assets into a single compressed package.
+-   **Download images (ZIP):** Triggers the background compilation of all marked high-resolution, AI-generated assets into a single compressed package.
 
 ### **Where to Find Your Downloaded Archives**
 

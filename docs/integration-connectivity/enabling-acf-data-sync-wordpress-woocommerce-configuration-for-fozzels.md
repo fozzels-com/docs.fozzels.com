@@ -66,10 +66,10 @@ In the **Field Group** editing window, verify the location rules and enable API 
 
 2.  Ensure both toggles are enabled (switched to **ON**):
 
-    -   **Active**
+-   **Active**
 
     -   **Show in REST API**
-        **![](./images/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/ZJ8EJ6QyJdSfjnZQSXdDXHEAvHmtDBbEKg.png)**
+**![](./images/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/ZJ8EJ6QyJdSfjnZQSXdDXHEAvHmtDBbEKg.png)**
 
 3.  Save the changes by clicking **Update** or **Publish**.
     ![](./images/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/lIgfpHeR7YI8Bf6W-4UvdIqtW2AQz9kqcw.png)
@@ -119,11 +119,11 @@ Fozzels treats ACF attributes as **regular product attributes**, and you work wi
 
 1.  After activating the **"Enable ACF"** toggle and clicking **"Save"**, you must **run the data import process**:
 
-    -   **If you are updating an existing integration:** Restart the product and attribute pool. This will refresh the data in the Fozzels catalog and import the new ACF fields.
+-   **If you are updating an existing integration:** Restart the product and attribute pool. This will refresh the data in the Fozzels catalog and import the new ACF fields.
 
     -   **If this is your first integration:** Simply run the product pool according to the general integration setup rules.
         ![](./images/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/EYnK1qxy-p-r_jWSJDDxh9P0gDCTf_BU1g.png)
 
 2.  After the pool successfully completes, navigate to section **3 Attributes,** check new attributes and their configurations**.**
-    **![](./images/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/4iRp-AUe2mr4IFsN_I9b6AEtM5f9iGTgtA.png)**
+**![](./images/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/4iRp-AUe2mr4IFsN_I9b6AEtM5f9iGTgtA.png)**
     If you have any questions or need assistance with setting up the ACF integration, our support team is always happy to help! Please contact us viа **support@fozzels.com**.

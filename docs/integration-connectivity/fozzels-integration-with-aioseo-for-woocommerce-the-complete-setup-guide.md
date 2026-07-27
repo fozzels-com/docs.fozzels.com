@@ -39,7 +39,7 @@ Ensure the core SEO plugin is active on your WooCommerce site:
 
 3.  Locate **All in One SEO** in the list:
 
-    -   If disabled, click **Activate**.
+-   If disabled, click **Activate**.
 
     -   If active, you can click **Check this plugin** to verify its current health and settings.
         ![](./images/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/5q_-m07C0l66Y1y8tZMlv1uyERFDutkKw.png)
@@ -57,7 +57,7 @@ Standard AIOSEO settings only allow external tools to read data. To **sync** gen
 2.  Click **Upload Plugin** at the top of the page.
     ![](./images/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/ZG-31kBmUBaPZlnqtypSNs9D7jSG46WyMw.png)
 
-    ![](./images/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/fiS_w3svH6l0p23ej9ucBI9Az8vFWEzwTg.png)
+![](./images/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/fiS_w3svH6l0p23ej9ucBI9Az8vFWEzwTg.png)
 
 3.  Select the provided ZIP file (**AIOSEO API Sync by Fozzels**), click **Install Now**, and then **Activate**.
     ![](./images/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/fIwvpqBdF3ECGhP7YykBhDO6byfL9Jd1Mw.png)
@@ -86,11 +86,11 @@ Once activated, all SEO-related fields will automatically appear in your general
 
 -   **Default Settings:** For your convenience, these attributes are automatically set to:
 
-    -   **Active**
+-   **Active**
 
-    -   **Allowed HTML**
+-   **Allowed HTML**
 
-    -   **Filterable**
+-   **Filterable**
 
 -   **Social Media:** You can also manage social previews via attributes like `_aioseo_twitter_title` or `_aioseo_og_title`.
     ![](./images/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/5cwx5hdb55GXqa3DZHBqsSsqPrvgUZnq2w.png)

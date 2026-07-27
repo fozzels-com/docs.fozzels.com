@@ -31,9 +31,9 @@ Navigate to the **Automation** tab within your Flow settings and configure the f
 
 -   **Fully Automatic Mode (Optional):**
 
-    -   **Enabled:** Generated content automatically gets approved and synchronized to your webshop (except items flagged by suspicious words or validation checks).
+-   **Enabled:** Generated content automatically gets approved and synchronized to your webshop (except items flagged by suspicious words or validation checks).
 
-    -   **Disabled:** Content is generated automatically, but remains in pending status for manual review and approval before syncing.
+-   **Disabled:** Content is generated automatically, but remains in pending status for manual review and approval before syncing.
 
 -   **Create New Content When Attribute Values Change (Optional):** When enabled, Fozzels automatically regenerates content whenever an attribute used in your prompt is updated in your store. This keeps your content fresh with zero manual work.
 

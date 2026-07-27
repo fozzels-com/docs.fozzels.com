@@ -68,7 +68,7 @@ Yoast SEO needs two things to work with Fozzels: the **Yoast SEO** plugin and ou
 
 -   **"Yoast SEO is not active."** The connector is there but Yoast SEO isn't running. Go to **Plugins** and activate **Yoast SEO**.
 -   **"Your connector plugin is outdated."** _(just a heads-up)_ Everything still works, but we recommend updating the connector to the latest version for the best experience. Download it from **app.fozzels.com**.
-    **Just enabled Yoast SEO?** Re-run **Pull Stores/Websites** and **Pull Products** so Fozzels can load your SEO fields.
+**Just enabled Yoast SEO?** Re-run **Pull Stores/Websites** and **Pull Products** so Fozzels can load your SEO fields.
 
 * * *
 

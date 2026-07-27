@@ -50,7 +50,7 @@ We've enhanced the UX to make managing large catalogs faster and working with co
 
 -   **Enhanced Image Filtering (Image Flow):** New powerful tools have been added for sorting and filtering images in the Image Flow setup blocks:
 
-    -   Special filters allow switching between default and your own uploaded images (sorting by **Source**).
+-   Special filters allow switching between default and your own uploaded images (sorting by **Source**).
 
     -   Sorting by **Upload Date** and **Name** has been added.
         ![](./images/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/q6optXQOc2cONrSBq2hAYJmFT-kVtuUMIA.png)

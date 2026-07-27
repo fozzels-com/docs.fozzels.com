@@ -61,7 +61,7 @@ Gemini models utilize an interactive **Output format** grid for precise control 
 -   **Technical Limits**: The maximum input file size is **7–10 MB**.
 
 -   **Virtual Try-On**: A specialized model for fashion.
-    **Note:** For this model, the output grid is disabled as the system automatically uses a fixed, optimized format to ensure realistic garment fitting.
+**Note:** For this model, the output grid is disabled as the system automatically uses a fixed, optimized format to ensure realistic garment fitting.
 
 ![](./images/user-guide-automated-image-flow/Ydm8oxLyvSgZ7H_x5R1Uf0kb_u7RxmIXRw.png)
 
@@ -118,9 +118,9 @@ Click the **"Add preset"** button to choose a type. Use the **Filter System** to
 
 -   **Product (Additional Angles):** Helps the AI understand complex items (e.g., the texture of a fabric or the sole of a shoe).
 
-    -   **Search:** Use the catalog filter (which works exactly like the main **Catalog** section) to search by Title, SKU, or Category.
+-   **Search:** Use the catalog filter (which works exactly like the main **Catalog** section) to search by Title, SKU, or Category.
 
-    -   **Image Selection:** Once you find a representative product, you can select **any of its images** (e.g., a back view or a close-up). Simply mark the desired image with a **green checkmark** and save.
+-   **Image Selection:** Once you find a representative product, you can select **any of its images** (e.g., a back view or a close-up). Simply mark the desired image with a **green checkmark** and save.
 
 -   **Image:** Used for textures, logos, or specific branding elements.
     ![](./images/user-guide-automated-image-flow/UBYhntqBETFRErz_N1DJPPrNu8VI8_uh-A.png)
@@ -154,9 +154,9 @@ The block displays a grid of your product cards.
 
 -   **Choosing the Base Image:** Click on a product card to open the gallery pop-up. Select the most suitable photo to serve as the "Base Image" for generation (this is the reserved slot sent to the AI alongside your presets).
 
-    -   By default, the system uses the **first** image from your catalog.
+-   By default, the system uses the **first** image from your catalog.
 
-    -   To change it, simply select a different photo and click **Save** in the pop-up.
+-   To change it, simply select a different photo and click **Save** in the pop-up.
 
 #### ![](./images/user-guide-automated-image-flow/BsDYOnyD0cPg_dl35r0HT6YgOmKmffLBWQ.png)
 **2\. Requirements: Products with Images**
@@ -228,7 +228,7 @@ Switch to the **Attributes (if filled)** tab to see exactly which data is curren
 
 * * *
 
- **Pro Tip:** A high-quality universal prompt should describe the **environment, lighting, and mood** defined by your presets, while leaving the specific **product details** to the dynamic attributes.
+**Pro Tip:** A high-quality universal prompt should describe the **environment, lighting, and mood** defined by your presets, while leaving the specific **product details** to the dynamic attributes.
 
 **⚠️ Final Step for Tab 3:** After finalizing your prompt click the **Save** button. This action links your presets, product selection, and prompt instructions into a single functional automation.
 
@@ -263,17 +263,17 @@ Once the flow is active, you have two ways to initiate generation:
 
 -   **Plan & Close**:
 
-    -   This button schedules the flow to run automatically.
+-   This button schedules the flow to run automatically.
 
-    -   **Timing**: Generation will not start instantly; it will initiate only after the next **daily product pool synchronization** (the system-wide update of your store's catalog).
+-   **Timing**: Generation will not start instantly; it will initiate only after the next **daily product pool synchronization** (the system-wide update of your store's catalog).
 
 -   **Run Now**:
 
-    -   This button appears as an additional option once the flow is activated.
+-   This button appears as an additional option once the flow is activated.
 
-    -   **Timing**: Clicking **Run Now** bypasses the daily pool wait and starts the generation **immediately** for the current day's limit.
+-   **Timing**: Clicking **Run Now** bypasses the daily pool wait and starts the generation **immediately** for the current day's limit.
 
-    -   _Note_: A manual run counts as your daily quota. The following scheduled run will occur the next day after the standard pool sync.
+-   _Note_: A manual run counts as your daily quota. The following scheduled run will occur the next day after the standard pool sync.
 
 ### **5\. Generation Logic & Efficiency**
 

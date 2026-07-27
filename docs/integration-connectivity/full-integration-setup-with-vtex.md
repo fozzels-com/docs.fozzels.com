@@ -27,21 +27,21 @@ To allow Fozzels to read your catalog structure and write generated content back
 
 5.  Under the permissions list, add access for the following resources:
 
-    -   **Catalog (License Manager):**
+-   **Catalog (License Manager):**
 
-        -   `Category` — Read / Write
+-   `Category` — Read / Write
 
-        -   `Brand` — Read / Write
+-   `Brand` — Read / Write
 
-        -   `Product` — Read / Write
+-   `Product` — Read / Write
 
-        -   `SKU` — Read / Write
+-   `SKU` — Read / Write
 
-        -   `Specification / Attributes` — Read / Write
+-   `Specification / Attributes` — Read / Write
 
-    -   **CMS (if used for media/images):**
+-   **CMS (if used for media/images):**
 
-        -   `Read` / `Write` access
+-   `Read` / `Write` access
 
 6.  Save the new role.
 
@@ -57,9 +57,9 @@ To allow Fozzels to read your catalog structure and write generated content back
 
 5.  The system will generate two credentials:
 
-    -   **Application Key** (remains visible in your list).
+-   **Application Key** (remains visible in your list).
 
-    -   **Application Token** (displayed **only once** upon creation).
+-   **Application Token** (displayed **only once** upon creation).
 
 6.  **Important:** Copy and store the **Application Token** in a safe place immediately. Once you close the modal window, it cannot be retrieved again!
 
@@ -107,11 +107,11 @@ Fill out the connection form:
 
 -   **Pull Throttling / API Delays** _(optional)_:
 
-    -   **Delay between pages:** Set a pause duration after each fetched page of results during a pull (`100–15,000 ms`). Leave empty to use the platform default.
+-   **Delay between pages:** Set a pause duration after each fetched page of results during a pull (`100–15,000 ms`). Leave empty to use the platform default.
 
-    -   **Delay between requests:** Set a pause duration between individual API calls during a pull (`100–15,000 ms`). Leave empty to use the platform default.
+-   **Delay between requests:** Set a pause duration between individual API calls during a pull (`100–15,000 ms`). Leave empty to use the platform default.
 
-    -   ⚠️ **Note:** Setting these values below the platform defaults may trigger rate limiting from VTEX and cause catalog pulls to fail.
+-   ⚠️ **Note:** Setting these values below the platform defaults may trigger rate limiting from VTEX and cause catalog pulls to fail.
 
 Click **Save** in the bottom-left corner.
 
@@ -119,9 +119,9 @@ Click **Save** in the bottom-left corner.
 
 1.  Verify that all status indicators in the top-right corner are active:
 
-    -   **Active** — Enabled (green toggle).
+-   **Active** — Enabled (green toggle).
 
-    -   **Authorized** — Green checkmark.
+-   **Authorized** — Green checkmark.
 
     -   **REST API Connected** — Green checkmark.
         ![](./images/full-integration-setup-with-vtex/RnG46ot4A8YtvTAhatBAQIynkoXI8pbdJQ.png)
@@ -139,18 +139,18 @@ Click **Save** in the bottom-left corner.
 
 2.  You can trigger data sync for specific entities or run them sequentially:
 
-    -   **Product Attribute**
+-   **Product Attribute**
 
-    -   **Category Attribute**
+-   **Category Attribute**
 
-    -   **Brand Attribute**
+-   **Brand Attribute**
 
-    -   **Category**
+-   **Category**
 
-    -   **Brand**
+-   **Brand**
 
     -   **Product**
-        **![](./images/full-integration-setup-with-vtex/A-WrFZksz5q1Ml-MXGaobf-Sn_rKBjsNEA.png)**
+**![](./images/full-integration-setup-with-vtex/A-WrFZksz5q1Ml-MXGaobf-Sn_rKBjsNEA.png)**
 
 3.  Wait for the sync to finish. Each entity status will turn green showing **100%**.
     ![](./images/full-integration-setup-with-vtex/NamLSz4d9IyB6p3k94ULepvi0njfq465sQ.png)

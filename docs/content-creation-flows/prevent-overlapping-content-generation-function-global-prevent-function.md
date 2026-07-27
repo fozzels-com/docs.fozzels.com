@@ -23,7 +23,7 @@ This is the **Global setting** that applies to all your Flows unless otherwise s
 -   **Older than:** You set a **time limit** (e.g., 1 week). Generation is allowed **if** the existing content was already created once before by another Flow, but **before** the set duration.
     ![](./images/prevent-overlapping-content-generation-function-global-prevent-function/Hgb-Xa4MFVO-KaMNOrtEtfyA1I8RT_6haA.png)
 
-    ![](./images/prevent-overlapping-content-generation-function-global-prevent-function/r-Ikv5eI5COJQMRwp9HXF1M2OOPYShjDXw.png)
+![](./images/prevent-overlapping-content-generation-function-global-prevent-function/r-Ikv5eI5COJQMRwp9HXF1M2OOPYShjDXw.png)
 
 ## 1.1. Managing the Global settings (Setup Steps)
 
@@ -35,11 +35,11 @@ This is the **Global setting** that applies to all your Flows unless otherwise s
 
 2.  You control the Global Rule using the **"Use duration limit"** toggle:
 
-    -   **To engage the duration rule (Older than):** **Turn the "Use duration limit" toggle ON**, **enter the required period value** (e.g., 1 week), and **Save**.
+-   **To engage the duration rule (Older than):** **Turn the "Use duration limit" toggle ON**, **enter the required period value** (e.g., 1 week), and **Save**.
 
-    -   **To set the strictest rule (Content was not generated yet):** **Turn the "Use duration limit" toggle OFF** and **Save**.
+-   **To set the strictest rule (Content was not generated yet):** **Turn the "Use duration limit" toggle OFF** and **Save**.
 
-    -   _Result:_ All Flows using the **Inherit** option will automatically apply this new restriction.
+-   _Result:_ All Flows using the **Inherit** option will automatically apply this new restriction.
 
 ![](./images/prevent-overlapping-content-generation-function-global-prevent-function/et0MwVwvnIfg8GhM-81qMk3ADOAD3_M02g.png)
 
@@ -69,7 +69,7 @@ In the settings of each individual Flow (section **4 Automation**), you decide w
 
 4.  Save changes.
 
-    -   _Result:_ This Flow will generate content regardless of whether content already exists from other Flows.
+-   _Result:_ This Flow will generate content regardless of whether content already exists from other Flows.
 
 ![](./images/prevent-overlapping-content-generation-function-global-prevent-function/M18xs-NWnNKM3KW_n1iAHroIpfoIW3ztfg.png)
 
@@ -88,7 +88,7 @@ In the settings of each individual Flow (section **4 Automation**), you decide w
 
 4.  Save changes.
 
-    -   _Result:_ The Flow will use **only** this new, individual rule.
+-   _Result:_ The Flow will use **only** this new, individual rule.
 
 ![](./images/prevent-overlapping-content-generation-function-global-prevent-function/chc6WFPZCDobr_ICKuYawfRnxRTy36Oi3g.png)
 

@@ -13,28 +13,28 @@ The integration consists of two parts:
 
 # Part 1: Create an Integration in Shopware 6
 
-    In this part, you will create an API integration inside your Shopware 6 administration panel. This generates the credentials that Fozzels needs to communicate with your store.
+In this part, you will create an API integration inside your Shopware 6 administration panel. This generates the credentials that Fozzels needs to communicate with your store.
 
 ### 1\. Introduction
 
-    Go to your Shopware 6 Administration panel. You can usually find it at [your store URL](https://shopware6.fozzels.com/admin).
+Go to your Shopware 6 Administration panel. You can usually find it at [your store URL](https://shopware6.fozzels.com/admin).
 
 ### 2\. Click "Settings"
 
-    Click on "Settings".
+Click on "Settings".
 
 ![](./images/full-integration-setup-with-shopware/_APoVDYMLEb_oPJsWrg4Fj9HOyB2FWI6g.png)
 
 ### 3\. Click on "System"
 
-    Navigate to the system settings.
+Navigate to the system settings.
 
 ![](./images/full-integration-setup-with-shopware/NE3HjkKRNa353OQJJBzR8eeF_Y9XA9Mi_w.png)
 
 ###
 4\. Click "Users & permissions"
 
-    Select the Integrations option from the System menu.
+Select the Integrations option from the System menu.
 
 ![](./images/full-integration-setup-with-shopware/XBGWZJstYupsn7hsyrU1stHBQK9Hh8igVA.png)
 
@@ -46,7 +46,7 @@ The integration consists of two parts:
 
 ### 6. Fill in the role name
 
-    On the "General" tab, enter a name for the role.
+On the "General" tab, enter a name for the role.
 
 ![](./images/full-integration-setup-with-shopware/NUafBeJNC09Mi86jv-EVOFyWLidctjzadA.png)
 
@@ -85,7 +85,7 @@ You will see the permissions table with all checkboxes unchecked. Enable the fol
 
 ### 8. Save the role
 
-    After setting all permissions, click "Save" to save the role.
+After setting all permissions, click "Save" to save the role.
 
 ![](./images/full-integration-setup-with-shopware/A8MHLjtMTc9IvBEae-ZW8vUS8I4hag_G8A.png)
 
@@ -93,7 +93,7 @@ You will see the permissions table with all checkboxes unchecked. Enable the fol
 ![](./images/full-integration-setup-with-shopware/A3DBstBn6Ru1Z0789w5hnvK7skD1VrNVhA.png)
 **10.** **Click "Add integration"**
 
-    Click the "Add integration" button. The "Create integration" dialog will appear:
+Click the "Add integration" button. The "Create integration" dialog will appear:
 
 ![](./images/full-integration-setup-with-shopware/URMEvVMGXkTNtDY6_YIfXEesdx7AwYJJ2g.png)
 
@@ -101,32 +101,32 @@ You will see the permissions table with all checkboxes unchecked. Enable the fol
 
 **11.** Fill in the integration details
 
-    Enter a name for the integration. Then open the "Roles" dropdown and select the role you created in previously.
+Enter a name for the integration. Then open the "Roles" dropdown and select the role you created in previously.
 
 ![](./images/full-integration-setup-with-shopware/DZY9Dx_ZSKux2NMqdZxEYkFXqeT3JeZVlg.png)
 
 ###
 12\.  Copy the Access Key ID
 
-    Click the copy icon next to the **Access Key ID** to copy it to your clipboard. Paste this key into a text document for safekeeping - you will need it in Part 2.
+Click the copy icon next to the **Access Key ID** to copy it to your clipboard. Paste this key into a text document for safekeeping - you will need it in Part 2.
 
 ![](./images/full-integration-setup-with-shopware/Um8SIf9NDPTA8bYzQbm-H73d4wuiGheBbQ.png)
 
 **13\.**  **Copy the Secret Access Key**
 
-    Do the same for the **Secret access key**: click to copy the Secret access key to your clipboard. Then paste this code into some text document so that you can access and copy the code later.
+Do the same for the **Secret access key**: click to copy the Secret access key to your clipboard. Then paste this code into some text document so that you can access and copy the code later.
 
 ![](./images/full-integration-setup-with-shopware/ngrN_TmIbSpPn4vdjAU2urPJ3Orh3b1hcw.png)
 
 ### 14\. Click "Save integration"
 
-    Save the integration settings.
+Save the integration settings.
 
 ![](./images/full-integration-setup-with-shopware/zFiTXyoLwZk0YUyHGn98o27cXlHx8DSBgA.png)
 
 ### 15\. Confirm the success message
 
-    The integration is now created and active.
+The integration is now created and active.
 
 ![](./images/full-integration-setup-with-shopware/ddwo4oRoStm6_leYM-OMhtbNWvrs2B5OkA.png)
 
@@ -134,7 +134,7 @@ You will see the permissions table with all checkboxes unchecked. Enable the fol
 
 # Part 2: Connect Fozzels to Shopware 6
 
-    Now that you have created the integration in Shopware, you will configure the connection on the Fozzels side using the credentials from Part 1.
+Now that you have created the integration in Shopware, you will configure the connection on the Fozzels side using the credentials from Part 1.
 
 ### **1.** Go to [Fozzels.com](https://fozzels.com/)
 
@@ -149,7 +149,7 @@ You will see the permissions table with all checkboxes unchecked. Enable the fol
 ![](./images/full-integration-setup-with-shopware/pEdr2LbjwEBHYCnp6d9LPSj4r3fXHoqSRA.png)
 4\. Select the Shopware logo
 
-    Choose Shopware as the integration type by clicking on the Shopware logo.
+Choose Shopware as the integration type by clicking on the Shopware logo.
 
 ### ![](./images/full-integration-setup-with-shopware/wutV5JMQpq7oa9KVz1xOFlxcjZe7RktGOg.png)5\. Fill in the integration details
 

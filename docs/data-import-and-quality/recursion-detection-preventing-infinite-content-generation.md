@@ -29,6 +29,6 @@ When this configuration is used in conjunction with the "Automatically regenerat
 
 While using the Target Attribute as an input is sometimes intentional (e.g., appending information to existing text), it is critical to manage the automation settings to prevent this endless loop.
 
-**Action 1**: Disable Automatic Regeneration The most effective way to break the loop is to turn off the "Automatically regenerate when product attribute changed" option. This ensures that even though the Flow causes a change in the target attribute, the automation does not automatically schedule a rerun based on that specific change.
+- **Action 1**: Disable Automatic Regeneration The most effective way to break the loop is to turn off the "Automatically regenerate when product attribute changed" option. This ensures that even though the Flow causes a change in the target attribute, the automation does not automatically schedule a rerun based on that specific change.
+- **Action 2**: Remove the Recursive Input If the existing content is not strictly necessary for the prompt logic, remove the recursive variable (e.g., remove {Description}) from your prompt. Instead, rely only on static product attributes (like Brand, Material, Color) to guarantee that the content generation is based on immutable data, thus preventing the triggering of continuous updates.
 
-**Action 2**: Remove the Recursive Input If the existing content is not strictly necessary for the prompt logic, remove the recursive variable (e.g., remove {Description}) from your prompt. Instead, rely only on static product attributes (like Brand, Material, Color) to guarantee that the content generation is based on immutable data, thus preventing the triggering of continuous updates.

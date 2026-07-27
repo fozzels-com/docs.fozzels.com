@@ -104,10 +104,10 @@ If you have multiple cards and need to change your primary card, follow these st
         ![](./images/how-to-set-up-auto-top-up-and-add-or-change-your-default-payment-method-card-in-/YMdO4L7ylwvRbMSgaqXXOJWSmXmzDkFVJQ.png)
         Important Information!
 
-        Security: Stripe ensures that your payment card details are never stored on Fozzels servers, providing maximum protection.
+Security: Stripe ensures that your payment card details are never stored on Fozzels servers, providing maximum protection.
 
-        Billing Address: Your billing address information is available in the "Billing Information" section. You can update it by clicking "Update information".
+Billing Address: Your billing address information is available in the "Billing Information" section. You can update it by clicking "Update information".
 
-        Terms: By providing your card details, you agree to the Fozzels Terms of Service and Privacy Policy.
+Terms: By providing your card details, you agree to the Fozzels Terms of Service and Privacy Policy.
 
-        Invoice History: You can review all previous transactions in the "Invoice History" section.
+Invoice History: You can review all previous transactions in the "Invoice History" section.

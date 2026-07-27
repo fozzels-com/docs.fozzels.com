@@ -31,13 +31,13 @@ We are taking a strategic leap forward by scaling the platform's core capabiliti
 
 -   **Reengineered Pool Architecture:** To accommodate category integration, we have entirely rebuilt our external system data import workflows. The basic 2-stage sync has been replaced with a **progressive 4-stage synchronization cycle**:
 
-    1.  _Product Attributes_
+1.  _Product Attributes_
 
-    2.  _Category Attributes_
+2.  _Category Attributes_
 
-    3.  _Categories_
+3.  _Categories_
 
-    4.  _Products_
+4.  _Products_
 
 -   **Absolute Transparency & Flexibility:** Each stage is now completely isolated. You can monitor precise, real-time progress using standalone status bars and access dedicated log views (`View logs`) for every individual step.
 
@@ -55,13 +55,13 @@ Based directly on user feedback, we have fully reimagined and overhauled the ima
 
 -   **Centralized Media Asset Management:** Directly within the review window, you can instantly execute core operations for the current asset in a single click:
 
-    -   Assign the asset's order in the image gallery (`Position`).
+-   Assign the asset's order in the image gallery (`Position`).
 
-    -   Designate system-specific behaviors (`Roles`).
+-   Designate system-specific behaviors (`Roles`).
 
-    -   Control visibility on the product page (`Hide on PDP`).
+-   Control visibility on the product page (`Hide on PDP`).
 
-    -   Trigger manual asset regeneration (`Regenerate`) if fine-tuning is required.
+-   Trigger manual asset regeneration (`Regenerate`) if fine-tuning is required.
 
 -   **Batch Processing Carousel:** The bottom of the interface features a visual timeline tracking all objects in the active session. Enhanced with color-coded status markers (`Accepted`, `Regenerate`, `Left`), it keeps your overall project progress perfectly clear at a glance.
 
@@ -71,9 +71,9 @@ Based directly on user feedback, we have fully reimagined and overhauled the ima
 
 -   **Expanding the AI Toolkit:** Fozzels officially welcomes the latest bleeding-edge models from Anthropic into its core lineup:
 
-    -   **Claude Sonnet 5** — Delivers top-tier intelligence, advanced reasoning capabilities, and high-velocity output optimized for high-volume content generation.
+-   **Claude Sonnet 5** — Delivers top-tier intelligence, advanced reasoning capabilities, and high-velocity output optimized for high-volume content generation.
 
-    -   **Claude Fable 5** — Our most sophisticated model yet, built to tackle hyper-complex content parameters, deep semantic mapping, and prolonged autonomous execution over intricate catalog hierarchies.
+-   **Claude Fable 5** — Our most sophisticated model yet, built to tackle hyper-complex content parameters, deep semantic mapping, and prolonged autonomous execution over intricate catalog hierarchies.
 
 -   **Live Web Search Integration:** We have unlocked real-time Web Search capabilities for both new models. The AI can now fetch live external data to ensure absolute factual accuracy, prompt verification, and instant compliance with the latest market trends.
 
@@ -100,9 +100,9 @@ Ecosystem & Integrations
 
 -   **Intelligent ALT Text Generation:** Fozzels now maps the presence of `alt` metadata tags across your entire Magento product gallery. Media optimization can be executed in two distinct modes:
 
-    1.  _Fill-In Mode:_ The AI targets and generates relevant ALT strings exclusively where they are missing.
+1.  _Fill-In Mode:_ The AI targets and generates relevant ALT strings exclusively where they are missing.
 
-    2.  _Force Mode:_ A complete rewrite and optimization cycle executed across all image assets in the selected batch.
+2.  _Force Mode:_ A complete rewrite and optimization cycle executed across all image assets in the selected batch.
 
 ####
 **Shopify & Shopware: Streamlined Attribute Filtering**

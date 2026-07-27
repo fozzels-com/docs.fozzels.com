@@ -48,19 +48,19 @@ If Fozzels requests product data too quickly, your store's server might return a
 
 -   **Delay between pages (`100–15,000 ms`):**
 
-    -   **What it does:** Adds a pause (in milliseconds) after Fozzels finishes fetching each batch/page of products before asking for the next page.
+-   **What it does:** Adds a pause (in milliseconds) after Fozzels finishes fetching each batch/page of products before asking for the next page.
 
     -   **Default / Recommendation:** `2000 ms` (2 seconds). Leaving this blank uses your platform’s default speed.
         ![](./images/how-to-configure-global-pull-schedule-api-throttling/qGkARWiCzUokf8PHJJpaRRRuivORM_DQIw.png)
 
 -   **Delay between requests (`100–15,000 ms`):**
 
-    -   **What it does:** Adds a pause between individual API calls made while processing items on a page.
+-   **What it does:** Adds a pause between individual API calls made while processing items on a page.
 
     -   **Default / Recommendation:** `200 ms`.
         ![](./images/how-to-configure-global-pull-schedule-api-throttling/mfKk2L61sB_fdhQoGQ9o3zxmuUyFh5m0fQ.png)
 
     -   Don't forget to save your changes - click **SAVE** button.
-        **![](./images/how-to-configure-global-pull-schedule-api-throttling/qdZ3Boaa9oUyxzPTfvoV8zbP2N_diVhAkw.png)**
+**![](./images/how-to-configure-global-pull-schedule-api-throttling/qdZ3Boaa9oUyxzPTfvoV8zbP2N_diVhAkw.png)**
 
 > ⚠️ **Caution:** Setting delays **below** your e-commerce platform’s recommended defaults can trigger rate-limiting errors from your store server, which may cause catalog pulls to fail prematurely. If you experience failed pulls or rate-limit warnings, gradually increase these delay values to give your store server more time between requests.

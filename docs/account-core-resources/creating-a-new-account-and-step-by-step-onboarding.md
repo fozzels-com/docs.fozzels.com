@@ -40,22 +40,22 @@ Onboarding Checklist
 
 1.  **Choose a subscription:** Select the plan that best fits your needs. You will be redirected to Stripe Checkout to finalize your purchase. **Note:** Your account is not fully active without a subscription.![](./images/creating-a-new-account-and-step-by-step-onboarding/1VAfPFAxhCRTQDBavzc66f5GO5BB83wx5A.png)
 
-    -   For detailed information on plan features, pricing, and limits, read more here.
+-   For detailed information on plan features, pricing, and limits, read more here.
 
 2.  **Plan your onboarding call:** Use the embedded Calendly widget to quickly schedule a consultation call with a Fozzels specialist.
     ![](./images/creating-a-new-account-and-step-by-step-onboarding/n43vTKiaoWj63UolWL8CcpBg1Bv4g88lfA.png)
 
 3.  **Add an integration:** Connect your online store or PIM system. This is essential for automatically syncing the content Fozzels generates.
 
-    -   For step-by-step instructions on connecting your store or PIM, read more [here](/integration-connectivity).
+-   For step-by-step instructions on connecting your store or PIM, read more [here](/integration-connectivity).
 
 4.  **Add a small balance for AI tokens usage:** Navigate to Payments Settings and click the **"Charge Now"** button to top up your account.
-    **Note:** A positive balance is required to generate content, as token usage is billed based on your plan and selected AI model.
+**Note:** A positive balance is required to generate content, as token usage is billed based on your plan and selected AI model.
 
-    -   For details on managing your balance, payment methods, and auto-top-up settings, read more here.
+-   For details on managing your balance, payment methods, and auto-top-up settings, read more here.
 
 5.  **Create your first Flow:** Design your content generation scenario (Flow). You can start from a template or fully customize it (language, tone, structure, etc.).
 
-    -   For a full guide on creating, configuring, and testing your first content flow, read more [here](/content-creation-flows).
+-   For a full guide on creating, configuring, and testing your first content flow, read more [here](/content-creation-flows).
 
 6.  **Start the Flow and start syncing back to your online store:** Launch your Flow. Once running, and with your integration active, the generated texts will automatically synchronize with your store or PIM.

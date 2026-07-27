@@ -107,7 +107,7 @@ If your server has a firewall, WAF, or security service (Cloudflare, Sucuri, etc
 
 1.  Request the current list of Fozzels IP addresses from **[support@fozzels.com](mailto:support@fozzels.com)**.
     For whitelisting, you can use the Fozzels IP address:
-    **49.13.117.118**
+**49.13.117.118**
 
 2.  Forward this list to your hosting provider or server administrator to add them to the whitelist.
 

@@ -51,7 +51,7 @@ This section contains two checkboxes:
 -   Allow Fozzels emails: When unchecked, no product-related email communication (e.g., updates, system alerts) will be sent. When checked, the user agrees to receive these emails.
 
 -   Receive balance notifications: When unchecked, no email communication will be sent. When checked, the user agrees to receive notifications when their balance reaches 0 or less, with a reminder to top up to continue work.
-    **Click Update** to save preferences.
+**Click Update** to save preferences.
 
 ![](./images/profile-security-and-notifications-settings/JuH6V-gxtu1SYR1gzZ0qfO6fSEuVDSSVxQ.png)
 1.1.4. Open AI Token Settings

@@ -15,20 +15,16 @@ The Dashboards (or Daily total batch list) serves as your command center, provid
 
 The main view is a data table grouped by the date of content generation.
 
-    1.1 Key Metrics
+1.1 Key Metrics
 
 The main table displays six key metrics that help monitor content status for a specific day:
 
-        **Date**: The date on which the content was generated.
-        **Product Count**: The total number of products scheduled for content generation.
-
-        **Completion Count**: The number of content units that have been successfully generated.
-
-        **Synchronized Count**: The number of content units that have been successfully synchronized.
-
-        **Warning Count**: The number of content units with remarks that may require user attention.
-
-        **Failed Count**: The number of content units that failed to generate or synchronize due to critical errors.
+- **Date**: The date on which the content was generated.
+- **Product Count**: The total number of products scheduled for content generation.
+- **Completion Count**: The number of content units that have been successfully generated.
+- **Synchronized Count**: The number of content units that have been successfully synchronized.
+- **Warning Count**: The number of content units with remarks that may require user attention.
+- **Failed Count**: The number of content units that failed to generate or synchronize due to critical errors.
 
 Users can click on the date or the Completion Count to access a detailed view of all completions for that specific day.
 ![](./images/tracking-of-the-generated-results-dashboard/3eVmE5L69-qrrXE1wrp9l5KjD88-GmSH0A.png)
@@ -62,13 +58,10 @@ Tools above the table allow you to customize your data view for efficiency:
 
 Each column incorporates a built-in filtering tool for rapid search and sorting:
 
-**Flow**: Filters products by one or more selected Flows (selection from a list).
-
-**SKU**: Used for searching for a specific product by its SKU (text search).
-
-**Thumbnail**: Filters products based on image presence ("Image Missing" or "Image Exists") (toggle/selection).
-
-**Date Columns**: Date columns (Created At, Executed At, Synchronized At) feature "From" and "To" fields for selecting a date range.
+- **Flow**: Filters products by one or more selected Flows (selection from a list).
+- **SKU**: Used for searching for a specific product by its SKU (text search).
+- **Thumbnail**: Filters products based on image presence ("Image Missing" or "Image Exists") (toggle/selection).
+- **Date Columns**: Date columns (Created At, Executed At, Synchronized At) feature "From" and "To" fields for selecting a date range.
 
 1.3. Column Detail and Interaction
 
@@ -100,9 +93,8 @@ Selection Mechanism: Users select items using checkboxes or the Select All on Th
 Available Actions: The Actions menu offers the following functions for batch processing:
 ![](./images/tracking-of-the-generated-results-dashboard/HW2UYiSK33CeIRz6osXy6htBVLzkTpk0pA.png)
 
-**Confirm all, Save & Sync**: Approves and initiates synchronization for the selected content.
-
-**Regenerate, Save & Sync**: Initiates content re-generation for the selected products and their subsequent synchronization.
+- **Confirm all, Save & Sync**: Approves and initiates synchronization for the selected content.
+- **Regenerate, Save & Sync**: Initiates content re-generation for the selected products and their subsequent synchronization.
 
 1.4.2. "Show Selected" Functionality
 

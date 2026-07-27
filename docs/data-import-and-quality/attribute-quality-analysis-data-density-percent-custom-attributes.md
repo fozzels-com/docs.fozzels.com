@@ -113,7 +113,7 @@ Technical Flags
 2.  In the **"Create New Attribute"** pop-up window, define:
     ![](./images/attribute-quality-analysis-data-density-percent-custom-attributes/2nTs3mBYNoxGTi61kVLJbWfr45SFrAV-Qg.png)
 
-    -   **Name:** A descriptive name for the interface.
+-   **Name:** A descriptive name for the interface.
 
     -   **Code:** A unique technical identifier.
         ![](./images/attribute-quality-analysis-data-density-percent-custom-attributes/39sh5ONkvBeaLHia--kl0pSjQC34K3wHTQ.png)

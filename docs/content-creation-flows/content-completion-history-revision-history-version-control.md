@@ -30,9 +30,9 @@ Fozzels now automatically archives every iteration of your text - whether genera
 
 -   **Two Rendering Modes:**
 
-    1.  **Rendered (Show HTML):** See exactly how the content will look on your live website front-end.
+1.  **Rendered (Show HTML):** See exactly how the content will look on your live website front-end.
 
-    2.  **Raw Tags:** View the text with HTML tags for precise technical control over the formatting.
+2.  **Raw Tags:** View the text with HTML tags for precise technical control over the formatting.
 
 ## How to Restore and Save Versions?
 

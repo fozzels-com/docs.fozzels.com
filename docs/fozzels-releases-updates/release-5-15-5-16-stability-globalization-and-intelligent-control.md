@@ -48,7 +48,7 @@ Integration setup is now transparent and foolproof:
 
 -   **GPT 5.4 Support:** Integrated the latest and fastest AI model for top-tier content quality.
 
-    ![](./images/release-5-15-5-16-stability-globalization-and-intelligent-control/CwyidVIOLNA1iTY-O0gNEvKRWqvByuuTUQ.png)
+![](./images/release-5-15-5-16-stability-globalization-and-intelligent-control/CwyidVIOLNA1iTY-O0gNEvKRWqvByuuTUQ.png)
 
 -   **Enhanced Discover Mode:** Our "Try it out" feature is now powered by **Claude**, using expanded prompts to deliver deep, structured, and high-quality sample descriptions.
 

@@ -39,11 +39,11 @@ Step 2. Flow Initialization & Attribute Mapping
 
 2.  Inside **Tab 1: New Flow**, configure your environment parameters:
 
-    -   **Store / Integration:** Select your specific Magento instance, website setup, and target Store View from the dropdowns.
+-   **Store / Integration:** Select your specific Magento instance, website setup, and target Store View from the dropdowns.
 
-    -   **Name:** Provide a clear, technical title for your flow.
+-   **Name:** Provide a clear, technical title for your flow.
 
-    -   **Entity Type:** This defaults automatically to `Product`.
+-   **Entity Type:** This defaults automatically to `Product`.
 
 3.  **Target Attribute:** Click into the **Attribute\*** selection dropdown, type `media`, and select the system attribute **Media Gallery**. This safely pipes the upcoming AI-generated strings directly into the image gallery database schema rather than standard description blocks.
 

@@ -52,7 +52,7 @@ The Content Flow is the core of automation within Fozzels. It is an instruction 
     ![](./images/creating-a-new-content-flow-and-initial-settings/h9tWKVAiOCFtONtDB2tWqYyXwNm8CJR4-g.png)
 
 7.  **Set** the maximum token value (**Max tokens**) for generation.
-    **_![](./images/creating-a-new-content-flow-and-initial-settings/TRNywCO8dEOrABpWxX3SZsrBiU9IPpD3Bw.png)_**
+**_![](./images/creating-a-new-content-flow-and-initial-settings/TRNywCO8dEOrABpWxX3SZsrBiU9IPpD3Bw.png)_**
 
 8.  **Select** the desired text style (**Text styles**) from the dropdown list (e.g., _Advertising_ or _Creative_)**.**
     ![](./images/creating-a-new-content-flow-and-initial-settings/6COvPEOCPMjqptoEaqLECdel__NHP7_q6w.png)
@@ -74,7 +74,7 @@ The Content Flow is the core of automation within Fozzels. It is an instruction 
 4.  Apply filtering:
     4.1. **Use** the filters section to limit the products for which content will be generated.
     4.2. **Select** an attribute (e.g., _Color_ or _SKU_), define the operator (Equal, Contains, Is empty, etc.), and enter the value. 4.3. Caution: If filters are not applied, content will be generated for **ALL** products currently in your store.
-    **![](./images/creating-a-new-content-flow-and-initial-settings/vv-HKjbxUtsGgQ1_c0yv_cdOSFcWpAzKDQ.png)**
+**![](./images/creating-a-new-content-flow-and-initial-settings/vv-HKjbxUtsGgQ1_c0yv_cdOSFcWpAzKDQ.png)**
 
 5.  **Create** the instruction (prompt) for the AI:
     5.1. **Write** the core prompt text in the central Prompt field. _The prompt field cannot be empty._
@@ -106,7 +106,7 @@ The Content Flow is the core of automation within Fozzels. It is an instruction 
 
 6.  **Enable** the content overlap prevention feature (if it's not your first content flow) (optional)
 
-    -   You can set a time period (**hours, days, weeks, months, or years**) to prevent the system from generating new content for the specific product attribute if a previous flow has already handled it.
+-   You can set a time period (**hours, days, weeks, months, or years**) to prevent the system from generating new content for the specific product attribute if a previous flow has already handled it.
 
     -   **Good to know:** We will still count past generation results to prevent duplicates, even if the flow that created them was deleted or archived.
         ![](./images/creating-a-new-content-flow-and-initial-settings/bKuoDyZad0Su9sGZC5HVmzZt78JZK3cag.png)
@@ -115,7 +115,7 @@ The Content Flow is the core of automation within Fozzels. It is an instruction 
 
 8.  **Run** the flow:
 
-    -   **Plan & Close:** The generation will be added to the queue and will launch the next day, after the automatic nightly product pool.
+-   **Plan & Close:** The generation will be added to the queue and will launch the next day, after the automatic nightly product pool.
 
     -   **Run Now:** The generation will start immediately (for the number of products specified in the _Amount of products to create content per day_ field).
         ![](./images/creating-a-new-content-flow-and-initial-settings/DR3WD6p7OkbQJcJEUgwKTj-yuvy7HCtong.png)
@@ -136,6 +136,6 @@ The Content Flow is the core of automation within Fozzels. It is an instruction 
 5.  **Note:** If Fozzels flags the content as **"suspicious,"** it cannot be synchronized without prior regeneration. **Regenerate** the content until it meets verification requirements.
     ![](./images/creating-a-new-content-flow-and-initial-settings/VlcFFEZm3jLMa2CfL0wyEj6i5l4B1n9sYA.png)
 
-    ![](./images/creating-a-new-content-flow-and-initial-settings/lSusJ64-jIyhQStOHHai5u5y8pwWE2YoWw.png)
+![](./images/creating-a-new-content-flow-and-initial-settings/lSusJ64-jIyhQStOHHai5u5y8pwWE2YoWw.png)
 
-    6\. **Read** more about reviewing results, manual synchronization, and handling errors in the generated content [here](https://fozzels.freshdesk.com/a/solutions/articles/103000369091).
+6\. **Read** more about reviewing results, manual synchronization, and handling errors in the generated content [here](https://fozzels.freshdesk.com/a/solutions/articles/103000369091).

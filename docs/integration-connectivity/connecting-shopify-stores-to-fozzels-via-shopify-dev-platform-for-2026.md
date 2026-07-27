@@ -15,11 +15,11 @@ Starting January 1, 2026, Shopify is officially changing its rules for applicati
 
 1.  Authorization
 
-        1.1. Log in to the official Shopify Developer Dashboard: [https://dev.shopify.com/dashboard](https://dev.shopify.com/dashboard)
+1.1. Log in to the official Shopify Developer Dashboard: [https://dev.shopify.com/dashboard](https://dev.shopify.com/dashboard)
 
 2.  Accessing the App Creation Menu
 
-        2.1. Once logged in to the dashboard:
+2.1. Once logged in to the dashboard:
 
 -   Select the Apps section from the left-hand sidebar.
 
@@ -30,7 +30,7 @@ Starting January 1, 2026, Shopify is officially changing its rules for applicati
 
 3.  Choosing the Creation Method and Naming
 
-        3.1. On the selection screen:
+3.1. On the selection screen:
 
 -   Choose the second option on the right — Start from Dev Dashboard.
     This method allows you to generate API credentials quickly without using a command-line interface.
@@ -45,13 +45,13 @@ Starting January 1, 2026, Shopify is officially changing its rules for applicati
         4.1. After clicking Create, you will be redirected to the Create a version page.
  ![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/5WoUJ-Qq7qALDUUuzlNBWf0V0lxaSjhlbQ.png)
 
-        4.2. Name & App URL
+4.2. Name & App URL
 
 -   Enter App's name
 
 -   Enter your store’s URL (e.g., [https://your-store-name.myshopify.com](https://your-store-name.myshopify.com)).
 
-        4.3. Mandatory setting
+4.3. Mandatory setting
 
 -   Embed app in Shopify admin: must be enabled.
     This ensures the Fozzels interface appears inside your Shopify admin panel.
@@ -59,16 +59,16 @@ Starting January 1, 2026, Shopify is officially changing its rules for applicati
 
 5.  Configuring API Access (Scopes)
 
-        5.1. Scroll down to the Access section to define what data Fozzels can manage.
+5.1. Scroll down to the Access section to define what data Fozzels can manage.
 
-        5.2. In the Scopes block:
+5.2. In the Scopes block:
 
 -   Click the Select scopes link in the top right corner.
     ![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/RgsEpex9lyPaJ8AyOjR4-So8df3QeQ6Fcw.png)
 
 6.  Selecting Permissions
 
-        6.1. In the Select scopes modal window:
+6.1. In the Select scopes modal window:
 
 -   Use the search bar to find specific permissions.
     ![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/wQoW7bQIW9fqRTTnrHwUO9bIMpWZ6tDL_w.png)
@@ -76,13 +76,13 @@ Starting January 1, 2026, Shopify is officially changing its rules for applicati
     6.2. Required permissions
     This list is mandatory for all store types, including stores using Shopify Markets and Language Pages.
 
-    Products: read\_product\_listings, read\_products, write\_products, read\_product\_feeds.
+Products: read\_product\_listings, read\_products, write\_products, read\_product\_feeds.
 
-    Metadata: read\_metaobject\_definitions, read\_metaobjects.
+Metadata: read\_metaobject\_definitions, read\_metaobjects.
 
-    Translations: read\_translations, write\_translations.
+Translations: read\_translations, write\_translations.
 
-    Locales: read\_locales.
+Locales: read\_locales.
 
     Markets: read\_markets, write\_markets.
     or copy/paste this
@@ -94,25 +94,25 @@ Starting January 1, 2026, Shopify is officially changing its rules for applicati
 
 -   Before clicking the Release button, verify the following:
 
-    -   App URL: a valid store URL is entered (e.g., [https://store-name.myshopify.com](https://store-name.myshopify.com)).
+-   App URL: a valid store URL is entered (e.g., [https://store-name.myshopify.com](https://store-name.myshopify.com)).
 
-    -   API Version: the Webhooks API Version is set to the latest stable release (e.g., 2025-10).
+-   API Version: the Webhooks API Version is set to the latest stable release (e.g., 2025-10).
 
-    -   Embedded Interface: “Embed app in Shopify admin” is enabled (required for Fozzels).
+-   Embedded Interface: “Embed app in Shopify admin” is enabled (required for Fozzels).
 
-    -   Mandatory Scopes: all required permissions are present:
+-   Mandatory Scopes: all required permissions are present:
 
-        -   Products: read\_product\_listings, read\_products, write\_products, read\_product\_feeds
+-   Products: read\_product\_listings, read\_products, write\_products, read\_product\_feeds
 
-        -   Metadata: read\_metaobject\_definitions, read\_metaobjects
+-   Metadata: read\_metaobject\_definitions, read\_metaobjects
 
-        -   Translations: read\_translations, write\_translations
+-   Translations: read\_translations, write\_translations
 
-        -   Locales: read\_locales
+-   Locales: read\_locales
 
-        -   Markets: read\_markets, write\_markets
+-   Markets: read\_markets, write\_markets
 
-    -   Scope Verification: all permissions include the required read and write access where applicable.
+-   Scope Verification: all permissions include the required read and write access where applicable.
 
 ![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/nE6aiS2K21Vs_e5K45UMqgI7KjTAAvev9g.png)
 
@@ -144,9 +144,9 @@ The version status will change to **Active**.
 
 9.  Retrieving API Credentials
 
-        9.1. In the Shopify Dev Dashboard, go to **Settings** in the left-hand sidebar.
+9.1. In the Shopify Dev Dashboard, go to **Settings** in the left-hand sidebar.
 
-        9.2. In the **App credentials** (API keys) section, copy the following:
+9.2. In the **App credentials** (API keys) section, copy the following:
 
 -   Client ID (API Key)
 
@@ -156,13 +156,13 @@ The version status will change to **Active**.
 
 10.  A Launching the Installation
 
-    10.1. After release, GO to the app Home tab.
+10.1. After release, GO to the app Home tab.
 
     10.2. Make sure you are on the Home tab.
 If your account has only one website and you plan to use Fozzels exclusively for that website, simply click **Install App**. The app will be installed automatically.
 If you have a Partner account or manage multiple websites, you'll need to configure the distribution settings for the Fozzels app.
 
-    10.3. In the left-hand sidebar, open the Distribution tab.
+10.3. In the left-hand sidebar, open the Distribution tab.
 
     10.4. Click Select distribution method and choose **Custom Distribution**.
 ![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/pa4OKRyCk3kJpPajX3ZzHmcMAbZkGU_7Eg.png)
@@ -191,7 +191,7 @@ If you have a Partner account or manage multiple websites, you'll need to config
 
 11.  Create Integration in Fozzels.
 
-        11.1. Connection Setup
+11.1. Connection Setup
 
 -   Log in to your Fozzels account: [https://app.fozzels.com](https://app.fozzels.com)
 
@@ -219,7 +219,7 @@ Example: teststore.myshopify.com
 
 12.  Enter API Credentials in Fozzels
 
-        12.1. Copy and paste the credentials into Fozzels:
+12.1. Copy and paste the credentials into Fozzels:
 
 -   API Key → API key field
 
@@ -237,7 +237,7 @@ Example: teststore.myshopify.com
 13.5 Click the Pull Websites & Stores button to get them.
 13.6 The system will automatically generate the Access Token after successful authorization.
 
-        14. Activation and Synchronization
+14. Activation and Synchronization
 
 14.1. Activate Websites and Languages using toggles. The default language is marked with a star.
 

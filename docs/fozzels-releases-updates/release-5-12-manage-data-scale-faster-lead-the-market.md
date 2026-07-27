@@ -40,11 +40,11 @@ Choose the "intellect" that best fits your creative vision. Image Flow now suppo
 
 -   **New "Completion Options" Tab:** Get a detailed breakdown for every item in your flow. This new tab, available in both Flow configuration and the Batch list, includes:
 
-    -   **Technical Specs:** Time of creation, Image count, Quality settings, and exact Image Size.
+-   **Technical Specs:** Time of creation, Image count, Quality settings, and exact Image Size.
 
-    -   **AI Context:** AI Vendor, AI Model (with applied filters), and the specific Scenes used.
+-   **AI Context:** AI Vendor, AI Model (with applied filters), and the specific Scenes used.
 
-    -   **Source & Result:** A list of used products with their images and the exact **Text Prompt** used for the generation.
+-   **Source & Result:** A list of used products with their images and the exact **Text Prompt** used for the generation.
 
 -   **Batch List Tracking:** Every generated image is now tagged with the specific model used, allowing for effortless A/B testing and quality comparison within a single workflow.
 
@@ -56,7 +56,7 @@ We have improved the communication within our interface to ensure you always kno
 
 -   **Shopify: 2026 Standards Compliance:** We have updated our integration engine to meet the mandatory **Shopify Dev Platform** security standards for 2026.
 
-    -   _Important:_ New integrations will use the updated secure connection form, while all existing connections established before 2026 will continue to function seamlessly without any action required.
+-   _Important:_ New integrations will use the updated secure connection form, while all existing connections established before 2026 will continue to function seamlessly without any action required.
 
 ### Bug Fixes & Performance Improvements
 

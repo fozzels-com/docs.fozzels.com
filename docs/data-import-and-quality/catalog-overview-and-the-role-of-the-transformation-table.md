@@ -54,9 +54,8 @@ The Catalog offers two **powerful ways** to filter your product set before creat
 3.1. Direct Column Filtering You can filter products by interacting directly with the column headers in the table:
 ![](./images/catalog-overview-and-the-role-of-the-transformation-table/c6Z48CIdVWFbxX7y-CDbDD0cWbSjXeQwXw.png)
 
-**Text Inputs**: Use the search input at the top of any text-based attribute column to filter products dynamically as you type.
-
-**Dropdowns and Selections**: For attributes with defined values (like 'Brand' or 'Size'), you can type to search for options, or select and remove one or more options.
+- **Text Inputs**: Use the search input at the top of any text-based attribute column to filter products dynamically as you type.
+- **Dropdowns and Selections**: For attributes with defined values (like 'Brand' or 'Size'), you can type to search for options, or select and remove one or more options.
 
 **Category Filtering:** For the "Categories" attribute (if correctly configured with "_Category tree_" and "_Filterable_"), you can expand the tree structure and select multiple categories to narrow the product list.
 ![](./images/catalog-overview-and-the-role-of-the-transformation-table/2yny31P2rsrxdVzC07rzVaJr-RwO7xCA9w.png)

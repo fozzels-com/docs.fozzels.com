@@ -72,6 +72,6 @@ A multi-stage control system is implemented before executing resource-intensive 
     -   Content from Fully Automated Flows will be auto-approved upon generation.
         ![](./images/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/K8O5z-M1sAS6I6awArA51TqfE2SC1Yfbtw.png)
 
-    -   Content from Standard Flows will only be regenerated, requiring subsequent manual approval before synchronization is permitted.
+-   Content from Standard Flows will only be regenerated, requiring subsequent manual approval before synchronization is permitted.
 
 -   Resource Check: The system verifies the operational status of the Flow and Integration before starting any Mass Action: generation will not initiate if the source Flow is inactive, and synchronization will not execute if the target integration is inactive.

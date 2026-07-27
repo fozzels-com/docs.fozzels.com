@@ -37,7 +37,7 @@ These features will completely change how you interact with the app, opening new
     _Claude 4.5 Sonnet_
     ![](./images/release-5-11-the-content-revolution-world-class-models-and-unprecedented-data-co/yB7S8YH8AR9Plvv3r2pgSN2du4t1TsOhqQ.png)
 
-    **3\. Breakthrough in Global E-commerce: LangShop in** **Shopify** **Support!**
+**3\. Breakthrough in Global E-commerce: LangShop in** **Shopify** **Support!**
 
 -   **Benefits:** This is the biggest update for our Shopify users! Now, AI-generated content is **automatically translated and synced** with all active languages in your store. You can scale your business without manual translation and **reach customers all over the world**.
 

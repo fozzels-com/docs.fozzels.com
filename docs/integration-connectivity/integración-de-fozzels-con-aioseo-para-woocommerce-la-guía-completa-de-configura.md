@@ -41,7 +41,7 @@ Asegúrate de que el plugin SEO principal esté activo en tu sitio de WooCommerc
     ##
     Paso 2: Instalar el plugin "AIOSEO API Sync by Fozzels"
 
-    La configuración estándar de AIOSEO solo permite que herramientas externas lean los datos. Para **sincronizar** el contenido generado de vuelta a tu tienda, debes instalar nuestro conector especializado:
+La configuración estándar de AIOSEO solo permite que herramientas externas lean los datos. Para **sincronizar** el contenido generado de vuelta a tu tienda, debes instalar nuestro conector especializado:
 
     1.  En el menú de WordPress, ve a **Plugins** > **Añadir plugin**.
     2.  Haz clic en **Subir plugin** en la parte superior de la página.
@@ -50,9 +50,9 @@ Asegúrate de que el plugin SEO principal esté activo en tu sitio de WooCommerc
     3.  Selecciona el archivo ZIP proporcionado (**AIOSEO API Sync by Fozzels**), haz clic en **Instalar ahora** y luego en **Activar**.
         ![](./images/integración-de-fozzels-con-aioseo-para-woocommerce-la-guía-completa-de-configura/vNHwUUnxn7pYnYZoT4nTeYhE-PtDy6UKSw.png)
 
-    4.  Este plugin habilita la transferencia bidireccional y segura de los metadatos SEO a través de la API de WordPress.
+4.  Este plugin habilita la transferencia bidireccional y segura de los metadatos SEO a través de la API de WordPress.
 
-        ####
+####
 
 #### **\*\*\* Puedes descargar el archivo ZIP necesario para el plugin "AIOSEO API Sync by Fozzels", adjunto al final de este artículo.**
 

@@ -29,9 +29,9 @@ The **Image Resize** feature automatically optimizes large images to meet the te
    ![](./images/ai-configuration-image-optimization-resize-rationale-and-implementation/ZDcGWszXAjy6POiHs75NMe0FsBeIK14pfg.png)
 
     When to Use:
-            **Enable (Default):** Recommended for all Flows where you use product images for AI Analysis or Image Generation.
+**Enable (Default):** Recommended for all Flows where you use product images for AI Analysis or Image Generation.
 This guarantees generation success and reduces token costs.
-            **Disable:** If you do not plan to use any image analysis or generation in this specific Flow. _Please note: Disabling may lead to an increase in content generation errors if you upload images that exceed the limits._
+**Disable:** If you do not plan to use any image analysis or generation in this specific Flow. _Please note: Disabling may lead to an increase in content generation errors if you upload images that exceed the limits._
 
 **2\. Technical Details and Cost Tracking**
 
@@ -44,14 +44,14 @@ The image resizing mechanism is activated **only** when _both_ conditions are me
 
 2\. **AND** width or height of the image **exceeds 2048 pixels**.
 
-    Where the Feature Applies
+Where the Feature Applies
 
 The Image Resize feature works for two main use cases:
 
         1. Image Usage (Analysis): Images you add for AI analysis within your Flows.
         2. Image Flow (Generation): Images sent along with the prompt for new content generation.
 
-    Cost and Expense Tracking
+Cost and Expense Tracking
 
 1\. The cost for resizing a single image is **€0.0025 per image**.
 
@@ -63,7 +63,7 @@ The Image Resize feature works for two main use cases:
 
 **3\. Key Benefits**
 
-    The active Image Resize feature is a key element of reliability and savings:
+The active Image Resize feature is a key element of reliability and savings:
 
 1\. Prevents Failed Generations: You are guaranteed to **avoid failures** related to large image sizes, saving you time.
 

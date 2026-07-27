@@ -46,11 +46,11 @@ The settings page for the new connection will open automatically. You **must** s
 1.  **Ensure** that read and write permissions are granted for the following sections:
     -   Content  → read and write
 
-    -   Products → read and write
+-   Products → read and write
 
-    -   Settings → read and write
+-   Settings → read and write
 
-        Note: Granting "Write" access allows Fozzels to update data in your Lightspeed store, ensuring two-way sync.)
+Note: Granting "Write" access allows Fozzels to update data in your Lightspeed store, ensuring two-way sync.)
 
 ####
 ![](./images/full-integration-setup-with-lightspeed/qQg2365EfWu2BevBccdOrXyc1jnZs_p1Pg.png)**Step 4: Activation and Copying the Keys**

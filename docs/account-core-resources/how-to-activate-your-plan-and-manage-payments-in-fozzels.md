@@ -27,13 +27,13 @@ You will be redirected to the secure Stripe Checkout page.
 
 -   **As a Business (B2B):**
 
-    1.  Check the box **"I'm purchasing as a business"**.
+1.  Check the box **"I'm purchasing as a business"**.
 
-    2.  Enter your **Business name** (legal entity name).
+2.  Enter your **Business name** (legal entity name).
 
-    3.  Select your tax country and enter your **VAT number** (e.g., `NL123456789B01` for the Netherlands). This ensures you receive a valid invoice and applies the Reverse Charge rule (0% VAT) for eligible EU businesses.
+3.  Select your tax country and enter your **VAT number** (e.g., `NL123456789B01` for the Netherlands). This ensures you receive a valid invoice and applies the Reverse Charge rule (0% VAT) for eligible EU businesses.
 
-    4.  Finally, check the **Terms of Service** agreement box and click **Subscribe**.
+4.  Finally, check the **Terms of Service** agreement box and click **Subscribe**.
 
 ![](./images/how-to-activate-your-plan-and-manage-payments-in-fozzels/rrMpJDqK7uu7im4sgfgNtGZxrsIKQCB1yQ.png)
 

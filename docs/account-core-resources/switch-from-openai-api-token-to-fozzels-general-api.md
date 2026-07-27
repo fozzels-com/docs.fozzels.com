@@ -22,9 +22,9 @@ Contents:
 3.  Advantages
 4.  ## What to do, step by step
 
-    -   ### Set up payment
+-   ### Set up payment
 
-    -   ### Remove your current OpenAI key
+-   ### Remove your current OpenAI key
 
 5.  ### Ready
 
