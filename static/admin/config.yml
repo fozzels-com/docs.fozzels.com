@@ -3,7 +3,7 @@
 
 backend:
   name: github
-  repo: qlicks/docs.fozzels.com
+  repo: fozzels-com/docs.fozzels.com
   branch: main
   # OAuth handler (Cloudflare Worker running sveltia-cms-auth). Set after deploying it.
   base_url: https://REPLACE-WITH-AUTH-WORKER.workers.dev

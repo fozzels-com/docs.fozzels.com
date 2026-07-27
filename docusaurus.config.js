@@ -22,7 +22,7 @@ const config = {
   url: process.env.SITE_URL ?? 'https://docs.fozzels.com',
   baseUrl: process.env.BASE_URL ?? '/',
 
-  organizationName: 'fozzels',
+  organizationName: 'fozzels-com',
   projectName: 'docs.fozzels.com',
 
   onBrokenLinks: 'throw',

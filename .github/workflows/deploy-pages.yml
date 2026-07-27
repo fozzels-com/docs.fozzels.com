@@ -26,7 +26,7 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn build
         env:
-          SITE_URL: https://qlicks.github.io
+          SITE_URL: https://fozzels-com.github.io
           BASE_URL: /docs.fozzels.com/
       - uses: actions/upload-pages-artifact@v3
         with:
