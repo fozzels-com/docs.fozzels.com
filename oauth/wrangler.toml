@@ -7,4 +7,4 @@ compatibility_date = "2023-03-24"
 
 [vars]
 # Only allow the CMS login to complete for our site's hostname.
-ALLOWED_DOMAINS = "fozzels-com.github.io"
+ALLOWED_DOMAINS = "docs.fozzels.com"
