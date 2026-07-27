@@ -52,13 +52,6 @@
     },
     {
       "type": "article",
-      "freshdeskId": 103000357947,
-      "title": "1.4.2. Overschakelen van OpenAI API-token naar algemene API van Fozzels",
-      "oldPathPrefix": "/support/solutions/articles/103000357947",
-      "newPath": "/account-core-resources/overschakelen-van-openai-api-token-naar-algemene-api-van-fozzels"
-    },
-    {
-      "type": "article",
       "freshdeskId": 103000367846,
       "title": "1.5. Resources. Prompt Templates: Locating and using saved templates.",
       "oldPathPrefix": "/support/solutions/articles/103000367846",
