@@ -104,7 +104,14 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [],
+        links: [
+          {
+            title: 'Fozzels',
+            items: [
+              {label: 'fozzels.com', href: 'https://www.fozzels.com'},
+            ],
+          },
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} Fozzels.`,
       },
       prism: {
