@@ -104,15 +104,8 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Fozzels',
-            items: [
-              {label: 'fozzels.com', href: 'https://www.fozzels.com'},
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Fozzels.`,
+        links: [],
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://www.fozzels.com" target="_blank" rel="noopener noreferrer">fozzels.com</a>`,
       },
       prism: {
         theme: prismThemes.github,
