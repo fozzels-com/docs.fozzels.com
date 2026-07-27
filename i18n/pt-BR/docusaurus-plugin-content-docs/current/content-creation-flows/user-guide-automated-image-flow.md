@@ -18,10 +18,10 @@ description: >-
 Esta aba trata da identidade básica e conexão de sua automação. Existem duas formas principais de iniciar um novo fluxo:
 
 -   **Opção A: Via o Menu Fluxos de Imagem** - Navegue até a seção **Fluxos de Imagem** na barra de navegação superior e clique no botão **Novo Fluxo de Imagem**. Selecione sua Integração, Website e Loja sequencialmente nos menus suspensos.
-    ![](./images/user-guide-automated-image-flow/aGysMRzpl5ijAiHFUH5TFnasSdIEP1py9w.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/aGysMRzpl5ijAiHFUH5TFnasSdIEP1py9w.png)
 
 -   **Opção B: Do Catálogo de Produtos** - Na seção **Catálogo → Produtos**, filtre os produtos que deseja processar, selecione-os e clique em **Ações → Criar Fluxo de Imagem**. Este método é mais rápido pois preenche antecipadamente seu contexto de seleção de loja e produto automaticamente.
-    ![](./images/user-guide-automated-image-flow/WVP7KcJNwsPTLqIzLSQQwGsAoBCdxAdqLg.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/WVP7KcJNwsPTLqIzLSQQwGsAoBCdxAdqLg.png)
 
 **Etapas Essenciais:**
 
@@ -29,7 +29,7 @@ Esta aba trata da identidade básica e conexão de sua automação. Existem duas
 
 2.  **Salve seu progresso:** Quaisquer mudanças feitas no nome do fluxo ou seleção de loja devem ser confirmadas clicando no botão **Enviar** na parte inferior da página.
 
-![](./images/user-guide-automated-image-flow/XUm-rzBUqRa_mFIUflBlrrZlaYzDnRHgMw.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/XUm-rzBUqRa_mFIUflBlrrZlaYzDnRHgMw.png)
 
 ##
 2\. Configuração de IA (Aba 2)
@@ -48,9 +48,9 @@ Ao selecionar o modelo **GPT Image 1**, você tem acesso aos seguintes parâmetr
 
 -   **Limites Técnicos**: O tamanho máximo do arquivo de entrada para GPT é **50 MB**.
 
-![](./images/user-guide-automated-image-flow/6Id3aPkXYEb0MEhxve0-510480uvgB2VrA.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/6Id3aPkXYEb0MEhxve0-510480uvgB2VrA.png)
 
-### ![](./images/user-guide-automated-image-flow/5NYWCV_4Lb3wxJ4MwkVOe96Mk4o5LU4NVg.png)![](./images/user-guide-automated-image-flow/oiDXnZOLp3NVu3waNL4ZREtyriHjNEvGgQ.png)![](./images/user-guide-automated-image-flow/eQxo8gJitU9Q5Zp7y3BE4FljSNrHhgqITw.png)Google | Gemini
+### ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/5NYWCV_4Lb3wxJ4MwkVOe96Mk4o5LU4NVg.png)![](/img/kb/content-creation-flows/user-guide-automated-image-flow/oiDXnZOLp3NVu3waNL4ZREtyriHjNEvGgQ.png)![](/img/kb/content-creation-flows/user-guide-automated-image-flow/eQxo8gJitU9Q5Zp7y3BE4FljSNrHhgqITw.png)Google | Gemini
 
 Os modelos Gemini utilizam uma grade de **Formato de Saída** interativa para controle preciso sobre seus resultados.
 
@@ -63,7 +63,7 @@ Os modelos Gemini utilizam uma grade de **Formato de Saída** interativa para co
 -   **Prova Virtual**: Um modelo especializado para moda.
 **Nota:** Para este modelo, a grade de saída está desativada pois o sistema utiliza automaticamente um formato fixo e otimizado para garantir ajuste realista de peças de vestuário.
 
-![](./images/user-guide-automated-image-flow/Ydm8oxLyvSgZ7H_x5R1Uf0kb_u7RxmIXRw.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/Ydm8oxLyvSgZ7H_x5R1Uf0kb_u7RxmIXRw.png)
 
 > Para aprender mais sobre modelos de IA e suas capacidades técnicas específicas, leia mais aqui \[link a ser adicionado\].
 
@@ -81,11 +81,11 @@ A grade permite que você defina a "forma" exata e qualidade de suas imagens ger
 
 **⚠️ Aviso:** Certifique-se de clicar no botão **Salvar** após selecionar seu modelo e configurações de saída para armazenar estas preferências. Seu fluxo não aplicará estas mudanças a menos que sejam salvas.
 
-![](./images/user-guide-automated-image-flow/gkfM9PdTV36LEV-UL7SN9obfvD3AOKt7_Q.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/gkfM9PdTV36LEV-UL7SN9obfvD3AOKt7_Q.png)
 
 ##
 3\. Seleção de Fluxo e Prompt (Aba 3)
-![](./images/user-guide-automated-image-flow/H3B5OOvEGyTufKlUAsFd_uzfwAVXLbVcEA.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/H3B5OOvEGyTufKlUAsFd_uzfwAVXLbVcEA.png)
 
 Esta aba é o coração de sua criação de conteúdo. O primeiro e mais crítico passo é configurar seus **Presets**.
 
@@ -99,7 +99,7 @@ Presets são imagens de referência visual que funcionam como instruções para 
 >
 
 ####
-![](./images/user-guide-automated-image-flow/FJlYttezkuyQFvSp16LDTSwFhOa5MFopmw.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/FJlYttezkuyQFvSp16LDTSwFhOa5MFopmw.png)
 **1\. Limites e Capacidade**
 
 No topo do bloco, você verá um contador (por exemplo, **8/13**).
@@ -123,7 +123,7 @@ Clique no botão **"Adicionar preset"** para escolher um tipo. Use o **Sistema d
 -   **Seleção de Imagem:** Uma vez que você encontre um produto representativo, você pode selecionar **qualquer uma de suas imagens** (por exemplo, uma visão traseira ou um close-up). Simplesmente marque a imagem desejada com uma **marca de seleção verde** e salve.
 
 -   **Imagem:** Utilizada para texturas, logos ou elementos específicos de marca.
-    ![](./images/user-guide-automated-image-flow/UBYhntqBETFRErz_N1DJPPrNu8VI8_uh-A.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/UBYhntqBETFRErz_N1DJPPrNu8VI8_uh-A.png)
 
 ####
 **3\. Enviando Seus Próprios Ativos (+ Adicionar)**
@@ -135,7 +135,7 @@ Se você enviar sua própria imagem (para tipos Modelo, Cena ou Imagem) via o bo
 #### **4\. Deletando e Finalizando**
 
 -   Para remover uma referência, clique no **ícone lixeira** no cartão de preset.
-    ![](./images/user-guide-automated-image-flow/i37UkovmY_SDzeW_4IjJEJGW6g7337yjEg.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/i37UkovmY_SDzeW_4IjJEJGW6g7337yjEg.png)
 
 -   **Importante:** Após adicionar ou remover presets, você **DEVE** clicar no botão **Salvar** na parte inferior da página. O assistente de IA não reconhecerá o conjunto de referência atualizado até que as mudanças sejam salvas.
 
@@ -158,7 +158,7 @@ O bloco exibe uma grade de seus cartões de produto.
 
 -   Para mudá-la, simplesmente selecione uma foto diferente e clique **Salvar** na pop-up.
 
-#### ![](./images/user-guide-automated-image-flow/BsDYOnyD0cPg_dl35r0HT6YgOmKmffLBWQ.png)
+#### ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/BsDYOnyD0cPg_dl35r0HT6YgOmKmffLBWQ.png)
 **2\. Requisitos: Produtos com Imagens**
 
 Produtos que **não possuem nenhuma imagem** em seu banco de dados são automaticamente excluídos deste bloco. A geração de IA através de fluxos requer uma base visual para funcionar corretamente.
@@ -166,7 +166,7 @@ Produtos que **não possuem nenhuma imagem** em seu banco de dados são automati
 #### **3\. Usando Filtros (Condições)**
 
 Para selecionar um grupo específico de produtos (por exemplo, apenas "Vestidos" de uma marca específica), use o bloco de filtro. A lógica funciona de forma idêntica à seção **Catálogo** principal. Apenas produtos atendendo a estes critérios permanecerão no fluxo.
-![](./images/user-guide-automated-image-flow/c_yGlTAqTpbYt9K8gCiBwMDPPLqEkUbqUQ.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/c_yGlTAqTpbYt9K8gCiBwMDPPLqEkUbqUQ.png)
 
 #### **4\. Gerenciamento de Conjunto Manual**
 
@@ -177,7 +177,7 @@ Você pode refinar ainda mais sua lista após aplicar filtros usando os seguinte
 -   ✅ **Incluir apenas selecionados:** Marque produtos específicos que deseja manter; todos os outros serão removidos do fluxo.
 
 -   **Botão Atualizar:** Se você cometer um erro durante a seleção manual, clique em **Atualizar**. Isto redefine o conjunto de volta ao estado definido por seus filtros, desfazendo quaisquer ações de "Excluir" ou "Incluir" manuais.
-    ![](./images/user-guide-automated-image-flow/ekGLld7o3QbwkYFOEmsqTUrlioP8xJlXtA.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/ekGLld7o3QbwkYFOEmsqTUrlioP8xJlXtA.png)
 
 #### **5\. Sincronização de Catálogo Dinâmico**
 
@@ -232,12 +232,12 @@ Mude para a aba **Atributos (se preenchidos)** para ver exatamente quais dados e
 
 **⚠️ Etapa Final para Aba 3:** Após finalizar seu prompt clique no botão **Salvar**. Esta ação vincula seus presets, seleção de produto e instruções de prompt em uma única automação funcional.
 
-![](./images/user-guide-automated-image-flow/9UcxVcuz2XFcQkCC4qSqfhHb7P0EZOtl3w.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/9UcxVcuz2XFcQkCC4qSqfhHb7P0EZOtl3w.png)
 
 ## ****4\. Automação (Aba 4)****
 
 A aba **Automação** serve como a "Torre de Controle" para seu fluxo. Isto é onde você define o ritmo de criação de conteúdo, gerencia políticas de publicação e oficialmente inicia o processo de geração.
-![](./images/user-guide-automated-image-flow/FYJ_qkFMdxjFIhXpgfz3GkHZs7AhNpgpwA.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/FYJ_qkFMdxjFIhXpgfz3GkHZs7AhNpgpwA.png)
 
 ### **1\. Limites de Processamento Diário**
 
@@ -297,7 +297,7 @@ Aqui está o guia completo para a seção **Lista de Lotes** em Inglês, incorpo
 **Lista de Lotes**
 
 A **Lista de Lotes** é seu hub para controle de qualidade e moderação. Cada execução de fluxo (se automática ou manual via botão _Executar Agora_) cria uma nova entrada de lote na lista à esquerda.
-![](./images/user-guide-automated-image-flow/LIJVpWk3sHHmcIRCOQIvCJACgNLRBBIHRw.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/LIJVpWk3sHHmcIRCOQIvCJACgNLRBBIHRw.png)
 
 ### **1\. Navegação e Monitoramento**
 
@@ -318,13 +318,13 @@ A tabela principal à direita exibe os resultados para cada produto específico:
 -   **Resultados**: A imagem gerada. Passando o cursor sobre a foto revela botões de ação rápida:
 
     -   **Ver (ícone Olho)**: Abre a janela de inspeção detalhada.
-        ![](./images/user-guide-automated-image-flow/PExqbyx61jYHouA1Q6gS-Quy1Ea-rWQ9Iw.png)
+        ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/PExqbyx61jYHouA1Q6gS-Quy1Ea-rWQ9Iw.png)
 
     -   **Baixar (ícone Seta)**: Salva o arquivo diretamente em seu dispositivo.
-        ![](./images/user-guide-automated-image-flow/a8L2H8t07YmOsC9exAXCkS0ORMRCAR9ANA.png)
+        ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/a8L2H8t07YmOsC9exAXCkS0ORMRCAR9ANA.png)
 
     -   **Sincronizar (ícone Marca)**: Instantaneamente envia esta foto específica para seu site.
-        ![](./images/user-guide-automated-image-flow/JnEq8veB5PUb88yklirTqpIJncbmCmtUNw.png)
+        ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/JnEq8veB5PUb88yklirTqpIJncbmCmtUNw.png)
 
 ###
 **3\. Inspeção e Análise (Visualização de Conclusão)**
@@ -336,9 +336,9 @@ Clicar em **Ver** abre uma janela para verificação final:
 -   **Painel Direito**: Contém uma coluna de todos os dados de entrada. A primeira imagem é sempre a foto do produto original, seguida por um feed rolável de todos os presets usados (referências de modelo, fundos, etc.).
 
 -   **Opções de Conclusão**: O ícone "olho" verde-azulado na coluna `Ações` abre uma pop-up com metadados técnicos: o modelo de IA específico, resolução e o prompt final completo com atributos dinâmicos já preenchidos.
-    ![](./images/user-guide-automated-image-flow/AgSQKU_4s6dTTRl2n8Uh7u8u__XcDx23FA.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/AgSQKU_4s6dTTRl2n8Uh7u8u__XcDx23FA.png)
 
-![](./images/user-guide-automated-image-flow/fy3a6eQD7I0VTvO9a0bMe2FSSrBLMGe4_A.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/fy3a6eQD7I0VTvO9a0bMe2FSSrBLMGe4_A.png)
 
 ###
 **4\. Ajustes e Regeneração**
@@ -350,9 +350,9 @@ Se você não estiver satisfeito com um resultado, use o ícone **Regenerar** (s
 -   **Sem Limites**: Você pode regenerar uma imagem quantas vezes necessário até alcançar o resultado desejado.
 
 -   **⚠️ Importante**: Uma nova geração **permanentemente deleta** a versão anterior da imagem.
-    ![](./images/user-guide-automated-image-flow/CEgHxH_y3eClyY2jxcXg1pAUpocdbFQwbQ.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/CEgHxH_y3eClyY2jxcXg1pAUpocdbFQwbQ.png)
 
-![](./images/user-guide-automated-image-flow/ipoM6y0fgh9G7Rpm1mmCt7mWXvyDn2JikQ.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/ipoM6y0fgh9G7Rpm1mmCt7mWXvyDn2JikQ.png)
 
 ###
 **5\. Sincronização de Loja**
@@ -366,7 +366,7 @@ Como automação completa está atualmente desativada para garantir qualidade, v
 -   **⚠️ Aviso**: Sincronização é **irreversível -** não pode ser cancelada uma vez iniciada.
 
 ##
-![](./images/user-guide-automated-image-flow/c9uHBa_kSFHkR_YXg2rBCu-uOXq4xMWgVw.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/c9uHBa_kSFHkR_YXg2rBCu-uOXq4xMWgVw.png)
 
 ###
 **Boa Sorte e Feliz Criação!**

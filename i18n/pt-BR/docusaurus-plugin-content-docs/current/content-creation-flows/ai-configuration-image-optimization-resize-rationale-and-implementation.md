@@ -26,7 +26,7 @@ O recurso **Redimensionamento de Imagem** otimiza automaticamente imagens grande
 
 4. Gerencie o recurso usando a caixa de seleção **"Ativar Redimensionamento de Imagem"**.
 
-   ![](./images/ai-configuration-image-optimization-resize-rationale-and-implementation/ZDcGWszXAjy6POiHs75NMe0FsBeIK14pfg.png)
+   ![](/img/kb/content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation/ZDcGWszXAjy6POiHs75NMe0FsBeIK14pfg.png)
 
     Quando Usar:
 **Ativado (Padrão):** Recomendado para todos os Fluxos onde você usa imagens de produtos para Análise de IA ou Geração de Imagem.

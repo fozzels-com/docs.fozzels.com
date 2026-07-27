@@ -14,20 +14,20 @@ Este guia descreve o processo simples, passo a passo, para ativar sua conta Fozz
 ### 2.1. Registro de Conta
 
 1.  Acesse a plataforma: Abra o site da Fozzels em `https://app.fozzels.com/` e selecione a opção **Cadastrar-se**.
-    ![](./images/creating-a-new-account-and-step-by-step-onboarding/bPpJonP_jIYHCKV6HNgysUiMU053Kc0TVQ.png)
+    ![](/img/kb/account-core-resources/creating-a-new-account-and-step-by-step-onboarding/bPpJonP_jIYHCKV6HNgysUiMU053Kc0TVQ.png)
 
 2.  Escolha seu método: Você pode criar sua conta usando seu e-mail e senha (cadastro manual) ou conectar instantaneamente via sua **conta do Google** ou **Apple ID**.
-    ![](./images/creating-a-new-account-and-step-by-step-onboarding/2P8ArbN4rMcTPMnkS_MPs7iNLHQdou_Hdw.png)
+    ![](/img/kb/account-core-resources/creating-a-new-account-and-step-by-step-onboarding/2P8ArbN4rMcTPMnkS_MPs7iNLHQdou_Hdw.png)
 
 3.  Preencha o formulário: Se você se cadastrar manualmente, é obrigatório inserir seu **Nome** e **E-mail**. Os campos Razão Social, Número de Telefone e "Sobre a empresa" são opcionais.
-    ![](./images/creating-a-new-account-and-step-by-step-onboarding/oGUbPHNi92FJAa24Okzfxr7mOvT0wZ9Rlw.png)
+    ![](/img/kb/account-core-resources/creating-a-new-account-and-step-by-step-onboarding/oGUbPHNi92FJAa24Okzfxr7mOvT0wZ9Rlw.png)
 
 ### 2.2. Verificação de E-mail
 
 1.  Receba a Confirmação: Após enviar o formulário, verifique sua caixa de entrada em busca de um e-mail com o assunto: **"Confirme Seu Endereço de E-mail – Verificação Importante de Conta Necessária"**. Será enviado pelo bot de IA do Fozzels [bot@app.fozzels.com](mailto:bot@app.fozzels.com).
 
 2.  Ative a Conta: Clique no botão **Verificar E-mail** ou no link alternativo fornecido. Esta ação ativa imediatamente sua conta, permitindo que você faça login.
-    ![](./images/creating-a-new-account-and-step-by-step-onboarding/n1sMdIlXrSiAR-paFY5KgmUb9tkNxvnedQ.png)
+    ![](/img/kb/account-core-resources/creating-a-new-account-and-step-by-step-onboarding/n1sMdIlXrSiAR-paFY5KgmUb9tkNxvnedQ.png)
 
 ### 2.3. Lista de Verificação de Onboarding: Seu Caminho para Ativação Completa
 
@@ -35,15 +35,15 @@ Após verificar seu e-mail, você será redirecionado para a tela de Boas-vindas
 
 -   Mensagem de Boas-vindas: A tela exibirá: "Seu e-mail foi verificado e sua conta estará ativa após escolher uma assinatura".
 
-![](./images/creating-a-new-account-and-step-by-step-onboarding/_RWq59qUuV9OGEUhuwTTDpFCj4Zq4_I4sA.png)
+![](/img/kb/account-core-resources/creating-a-new-account-and-step-by-step-onboarding/_RWq59qUuV9OGEUhuwTTDpFCj4Zq4_I4sA.png)
 Lista de Verificação de Onboarding
 
-1.  **Escolha uma assinatura:** Selecione o plano que melhor se adequa às suas necessidades. Você será redirecionado para o Stripe Checkout para finalizar sua compra. **Nota:** Sua conta não está totalmente ativa sem uma assinatura.![](./images/creating-a-new-account-and-step-by-step-onboarding/1VAfPFAxhCRTQDBavzc66f5GO5BB83wx5A.png)
+1.  **Escolha uma assinatura:** Selecione o plano que melhor se adequa às suas necessidades. Você será redirecionado para o Stripe Checkout para finalizar sua compra. **Nota:** Sua conta não está totalmente ativa sem uma assinatura.![](/img/kb/account-core-resources/creating-a-new-account-and-step-by-step-onboarding/1VAfPFAxhCRTQDBavzc66f5GO5BB83wx5A.png)
 
 -   Para informações detalhadas sobre recursos do plano, preços e limites, leia mais aqui.
 
 2.  **Planeje sua chamada de onboarding:** Use o widget incorporado do Calendly para agendar rapidamente uma consulta com um especialista da Fozzels.
-    ![](./images/creating-a-new-account-and-step-by-step-onboarding/n43vTKiaoWj63UolWL8CcpBg1Bv4g88lfA.png)
+    ![](/img/kb/account-core-resources/creating-a-new-account-and-step-by-step-onboarding/n43vTKiaoWj63UolWL8CcpBg1Bv4g88lfA.png)
 
 3.  **Adicione uma integração:** Conecte sua loja online ou sistema PIM. Isso é essencial para sincronizar automaticamente o conteúdo gerado pelo Fozzels.
 

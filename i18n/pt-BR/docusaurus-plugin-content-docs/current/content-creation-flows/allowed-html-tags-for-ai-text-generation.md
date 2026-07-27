@@ -11,11 +11,11 @@ description: >-
 
 Este recurso permite que você defina com precisão quais tags HTML podem ser usadas e preservadas no conteúdo gerado por Inteligência Artificial. Esta funcionalidade está ativa para atributos onde a opção **"Permitir HTML"** está ativada.
 
-![](./images/allowed-html-tags-for-ai-text-generation/2zl4WJfftt48X66FBs1W8zAn4rbNhhqk1A.png)
+![](/img/kb/content-creation-flows/allowed-html-tags-for-ai-text-generation/2zl4WJfftt48X66FBs1W8zAn4rbNhhqk1A.png)
 
 Ao definir essa lista, você desbloqueia possibilidades poderosas para gerar conteúdo com formatação específica ou incorporar multimídia diretamente no texto gerado.
 
-## ![](./images/allowed-html-tags-for-ai-text-generation/KsO3jFsp7Ytx48uE5alhlIVzvjfJd8Trzw.png)
+## ![](/img/kb/content-creation-flows/allowed-html-tags-for-ai-text-generation/KsO3jFsp7Ytx48uE5alhlIVzvjfJd8Trzw.png)
 Como o Sistema Processa Tags
 
 O sistema funciona como um filtro de segurança:
@@ -49,11 +49,11 @@ Se você precisar de tags para incorporar vídeo, imagens ou qualquer outra form
 **Como Adicionar Tags Personalizadas:**
 
 1.  Digite o nome da tag que você deseja permitir (por exemplo, `iframe`, `img`, `video`) no campo.
-    ![](./images/allowed-html-tags-for-ai-text-generation/17FvSVXKcc6eW4AU0v9BhkCkRR-NUtg57w.png)
+    ![](/img/kb/content-creation-flows/allowed-html-tags-for-ai-text-generation/17FvSVXKcc6eW4AU0v9BhkCkRR-NUtg57w.png)
 
 2.  Pressione Enter (se necessário, remova clicando no botão 'x').
 
 3.  Clique no botão **Salvar**.
-    ![](./images/allowed-html-tags-for-ai-text-generation/kMmnyMamV-Ef9IEE1_naDJ0llLk7bnh5YA.png)
+    ![](/img/kb/content-creation-flows/allowed-html-tags-for-ai-text-generation/kMmnyMamV-Ef9IEE1_naDJ0llLk7bnh5YA.png)
 
 > **Bom saber!** Este bloco é usado para adicionar tags extras não padrão que são críticas para realizar sua visão criativa no frontend. Adicione apenas as tags necessárias para garantir a segurança do código.

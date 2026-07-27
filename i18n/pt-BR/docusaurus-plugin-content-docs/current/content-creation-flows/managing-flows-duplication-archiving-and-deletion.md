@@ -27,7 +27,7 @@ A Duplicação permite reutilizar configurações abrangentes (filtros, prompts,
 
 4.  **Selecione** **"Duplicar"** no menu suspenso.
 
-![](./images/managing-flows-duplication-archiving-and-deletion/SQ3APzXi6qMf8Vz9_U8bAVr6_tdKhvNCRg.png)
+![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/SQ3APzXi6qMf8Vz9_U8bAVr6_tdKhvNCRg.png)
 
 ####
 1.2. Seleção de Loja (Se Aplicável)
@@ -35,12 +35,12 @@ A Duplicação permite reutilizar configurações abrangentes (filtros, prompts,
 -   **Integração de Loja Única:** Se apenas uma loja está integrada, o Fluxo duplicado é criado imediatamente.
 
 -   **Integração de Múltiplas Lojas:** Se múltiplas lojas estão vinculadas, um popup aparece. Você deve **selecionar a loja de destino** para a qual o novo Fluxo será criado e **clique em "Duplicar"**.
-    ![](./images/managing-flows-duplication-archiving-and-deletion/qtwYWP_c4W7aBzd49RLMNik4Pgdse79-yQ.png)
+    ![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/qtwYWP_c4W7aBzd49RLMNik4Pgdse79-yQ.png)
 
 #### 1.3. Convenção de Nomenclatura de Fluxo
 
 -   O Fluxo duplicado automaticamente terá o texto **(duplicado)** adicionado ao seu nome para distingui-lo claramente do Fluxo original.
-    ![](./images/managing-flows-duplication-archiving-and-deletion/LfO44gQa0Ba6tGFg-nMgCyE6mCfT_c99MQ.png)
+    ![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/LfO44gQa0Ba6tGFg-nMgCyE6mCfT_c99MQ.png)
 
 #### 1.4. Configurações Herdadas (O que é Clonado)
 
@@ -64,16 +64,16 @@ O Arquivamento permite ocultar temporariamente um Fluxo da lista ativa principal
 
 4.  Fluxos Arquivados são movidos para um local separado, acessível através do botão **"Arquivo"** na página principal Fluxos.
 
-![](./images/managing-flows-duplication-archiving-and-deletion/jhuJATuiVcYqLgL-2-ggTsKKXGOIFOj3fQ.png)
+![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/jhuJATuiVcYqLgL-2-ggTsKKXGOIFOj3fQ.png)
 
-![](./images/managing-flows-duplication-archiving-and-deletion/PRkxwqVNLhu-MtRt9BjGFa7Gg_0W_j20Ww.png)
+![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/PRkxwqVNLhu-MtRt9BjGFa7Gg_0W_j20Ww.png)
 
 #### 2.1. Gerenciando Fluxos Arquivados
 
 -   **Restaurar:** Na seção **Fluxos arquivados**, você pode restaurar um fluxo arquivado de volta à lista ativa principal clicando em **"Restaurar"**.
 
 -   **Excluir:** Você também pode optar por excluir permanentemente um fluxo arquivado clicando em **"Excluir"**.
-    ![](./images/managing-flows-duplication-archiving-and-deletion/J17t4SXZjsrIDu1Gi7xnOOzaIieIR_OoSQ.png)
+    ![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/J17t4SXZjsrIDu1Gi7xnOOzaIieIR_OoSQ.png)
 
 ### 3\. Excluindo um Fluxo de Conteúdo
 
@@ -86,6 +86,6 @@ A Exclusão remove permanentemente um Fluxo do sistema.
 3.  **Selecione** **"Excluir"** no menu suspenso.
 
 4.  **Confirme** a exclusão no popup resultante.
-    ![](./images/managing-flows-duplication-archiving-and-deletion/XzaWMHcYgI8ml6u0QTYw0O9LE9UbbWrakg.png)
+    ![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/XzaWMHcYgI8ml6u0QTYw0O9LE9UbbWrakg.png)
 
 -   **Ação Permanente:** Uma vez que um Fluxo é excluído, **não pode ser restaurado**. Se você pode precisar do Fluxo novamente no futuro, use a função **Arquivamento** em vez disso.

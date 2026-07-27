@@ -24,8 +24,8 @@ Você deve criar uma nova integração e definir permissões específicas no seu
 
 3.  **Clique** no botão **"Add New Integration"**.
 
-![](./images/full-integration-setup-with-magento-2/gr4UpPbx41G2Oy6OOEdyCKol_ENow66ITg.png)
-![](./images/full-integration-setup-with-magento-2/N7zrOrdp8o6CvLgUlZhpQuMcQs5r7OVmWw.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/gr4UpPbx41G2Oy6OOEdyCKol_ENow66ITg.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/N7zrOrdp8o6CvLgUlZhpQuMcQs5r7OVmWw.png)
 
 ### Etapa 2: Preencha as Informações da Integração
 
@@ -38,9 +38,9 @@ Você deve criar uma nova integração e definir permissões específicas no seu
 
 3.  **Ignore** campos opcionais (Callback URL, Identity link URL).
 
-![](./images/full-integration-setup-with-magento-2/EM4ivAqLXVniXYWdiyAMElpusFWgWjUgvQ.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/EM4ivAqLXVniXYWdiyAMElpusFWgWjUgvQ.png)
 
-![](./images/full-integration-setup-with-magento-2/6vzO74ehADcyuIaahKWVOQtYVvHWVkD_vg.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/6vzO74ehADcyuIaahKWVOQtYVvHWVkD_vg.png)
 
 ### Etapa 3: Configure Permissões de API (Escopos)
 
@@ -53,10 +53,10 @@ Você deve criar uma nova integração e definir permissões específicas no seu
     3.2. **Stores**: Settings, All Stores.
     3.3. **Attributes**: Product, Attribute Set.
 
-![](./images/full-integration-setup-with-magento-2/QphCzWE1SkWWnk3rdvVZReWcdPfHny5hsQ.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/QphCzWE1SkWWnk3rdvVZReWcdPfHny5hsQ.png)
 
-![](./images/full-integration-setup-with-magento-2/TXQWFfKyYyQlNwHODT_3OsVgEHngoyaPXg.png)
-![](./images/full-integration-setup-with-magento-2/j3iFU0HffLd73Kzc_rQEt62o2oTsVpxF2g.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/TXQWFfKyYyQlNwHODT_3OsVgEHngoyaPXg.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/j3iFU0HffLd73Kzc_rQEt62o2oTsVpxF2g.png)
 
 ### Etapa 4: Salve e Ative a Integração
 
@@ -68,9 +68,9 @@ Você deve criar uma nova integração e definir permissões específicas no seu
 
 4.  Na página de detalhe de ativação, **verifique** se as APIs corretas (da Etapa 3) foram selecionadas e **clique** em **"Allow"**.
 
-![](./images/full-integration-setup-with-magento-2/_C1d9Jr1A4136F6oEoNWIM2R2fnU0SwdvA.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/_C1d9Jr1A4136F6oEoNWIM2R2fnU0SwdvA.png)
 
-![](./images/full-integration-setup-with-magento-2/cBnv6FpiV0647eqHlNbNHIyCXcA_kHEx5A.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/cBnv6FpiV0647eqHlNbNHIyCXcA_kHEx5A.png)
 
 ### Etapa 5: Copie e Armazene as Chaves de API
 
@@ -86,9 +86,9 @@ Você deve criar uma nova integração e definir permissões específicas no seu
 
 4.  **Verifique** ou **edite** detalhes de integração mais tarde ao **pressionar** o botão **"Edit"** na página Integrations.
 
-![](./images/full-integration-setup-with-magento-2/NOrDSAhjlO7hXjU2J1fafMmXfcMy-Lypwg.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/NOrDSAhjlO7hXjU2J1fafMmXfcMy-Lypwg.png)
 
-![](./images/full-integration-setup-with-magento-2/Pj-HIMnlhJNvqDzEYmDckrL3xvLalFhsfw.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/Pj-HIMnlhJNvqDzEYmDckrL3xvLalFhsfw.png)
 
 ##
 
@@ -136,11 +136,11 @@ Após confirmar as alterações, prossiga para criar a integração no Fozzels.
 
 4.  **Escolha** **"Magento"** das opções disponíveis.
 
-![](./images/full-integration-setup-with-magento-2/M9c13tHfbMEfpo7QsFt_Q6DvUljm-1jM1Q.png)![](./images/full-integration-setup-with-magento-2/UvSS02f-tz_5sjBViKw7tq0kWJRti5mSvA.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/M9c13tHfbMEfpo7QsFt_Q6DvUljm-1jM1Q.png)![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/UvSS02f-tz_5sjBViKw7tq0kWJRti5mSvA.png)
 
 ####
 
-![](./images/full-integration-setup-with-magento-2/RrDkikq2qamOno3s8JmMIrJfno5S5gpIew.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/RrDkikq2qamOno3s8JmMIrJfno5S5gpIew.png)
 
 ####
 
@@ -156,7 +156,7 @@ Você usará as chaves da Parte 1 para conectar Fozzels e iniciar a importação
 
 4.  **Clique** em **"Save"**.
 
-![](./images/full-integration-setup-with-magento-2/o_z4KRc-z_zOvcPpPvDV5evmBRJNZO-4vQ.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/o_z4KRc-z_zOvcPpPvDV5evmBRJNZO-4vQ.png)
 
 ### Etapa 10: Ative e Sincronize Lojas
 
@@ -170,16 +170,16 @@ Você usará as chaves da Parte 1 para conectar Fozzels e iniciar a importação
 
 5.  **Ative** os sites e lojas atuais usando o **toggle** para continuar.
 
-_![](./images/full-integration-setup-with-magento-2/FvECiFfTlviQFFK2fJ8FF2Uoa9iBogloGg.png)_
-![](./images/full-integration-setup-with-magento-2/d3dKR2OUZS7d-iiP2ptuZXFlu9JQKqz93A.png)
-![](./images/full-integration-setup-with-magento-2/gjRG-nmFAybUytQo_B_QzBZew6ZY5FygNQ.png)
+_![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/FvECiFfTlviQFFK2fJ8FF2Uoa9iBogloGg.png)_
+![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/d3dKR2OUZS7d-iiP2ptuZXFlu9JQKqz93A.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/gjRG-nmFAybUytQo_B_QzBZew6ZY5FygNQ.png)
 
 ####
 
 ### Etapa 11: Extraia Produtos e Verifique
 
 1.  **Clique** no botão **"Pull Products"** para iniciar o processo de importação do seu catálogo de produtos.
-    ![](./images/full-integration-setup-with-magento-2/s372RDIQcyC9gZU1pE-mNmKjoV3tHwE2XQ.png)
+    ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/s372RDIQcyC9gZU1pE-mNmKjoV3tHwE2XQ.png)
 
 2.  **Aguarde** até que os produtos sejam carregados (o progresso será mostrado na barra de progresso).
 

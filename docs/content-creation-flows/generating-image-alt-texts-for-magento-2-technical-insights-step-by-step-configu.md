@@ -29,8 +29,8 @@ To grant the system permission to overwrite and inject data into this slot, you 
 
 5.  Click the blue **Save** button in the bottom right corner.
 
-![](./images/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/ryugiLjaej08TONBWZC6dvmgdeHvEKzJOA.png)
-![](./images/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/vj3HVtE0gIyKK1lMzn0NeLCwxHle8IT1Cg.png)
+![](/img/kb/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/ryugiLjaej08TONBWZC6dvmgdeHvEKzJOA.png)
+![](/img/kb/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/vj3HVtE0gIyKK1lMzn0NeLCwxHle8IT1Cg.png)
 
 ##
 Step 2. Flow Initialization & Attribute Mapping
@@ -47,7 +47,7 @@ Step 2. Flow Initialization & Attribute Mapping
 
 3.  **Target Attribute:** Click into the **Attribute\*** selection dropdown, type `media`, and select the system attribute **Media Gallery**. This safely pipes the upcoming AI-generated strings directly into the image gallery database schema rather than standard description blocks.
 
-![](./images/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/Btu-8xXR_jSHpiFqqxtTZJBUXcu0hyrmTQ.png)
+![](/img/kb/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/Btu-8xXR_jSHpiFqqxtTZJBUXcu0hyrmTQ.png)
 
 ## Step 3. Selecting the Vision Model & Scanning Mode (Delta vs. Full Overwrite)
 
@@ -59,7 +59,7 @@ In **Tab 2: AI Configuration**, select your underlying provider and model (e.g.,
 
 > ? **Technical Recommendation:** Leave the **Enable Image Resize** checkbox enabled. If an image file in Magento is larger than 2MB or exceeds a resolution of 2048px, Fozzels will automatically downscale it to standard vision model input constraints. This actively safeguards your pipeline against payload errors (Failed generations) and optimizes token credits.
 
-![](./images/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/cbKMN8kS6jIqV-wZJGv_TV9zC74UxTrCFg.png)
+![](/img/kb/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/cbKMN8kS6jIqV-wZJGv_TV9zC74UxTrCFg.png)
 
 ## Step 4. Prompt Engineering
 

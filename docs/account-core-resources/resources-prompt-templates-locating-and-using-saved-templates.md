@@ -20,7 +20,7 @@ The main table provides an overview of all created templates.
 Each entry includes: the unique identifier (ID), the type of template rule (Kind, currently only Product Attribute is available), the product attribute the prompt is linked to (Attribute, e.g., descriptions, meta titles), the template's name (Name), the actual prompt text, and a Shared icon, indicating if the template is visible to and shared across other users in your project.
 
 Available actions include: View, Edit, and Delete.
-![](./images/resources-prompt-templates-locating-and-using-saved-templates/5LRXIMOwIb-G8vgFQIGjxXsovlESPjZRYA.png)
+![](/img/kb/account-core-resources/resources-prompt-templates-locating-and-using-saved-templates/5LRXIMOwIb-G8vgFQIGjxXsovlESPjZRYA.png)
 
 Locating and Filtering Templates
 
@@ -38,7 +38,7 @@ Clicking on any cell within the **Prompt** column opens a modal window displayin
 -   The Copy to Clipboard button, which copies the full prompt text for external use or editing.
 
 -   The Close button, which closes the modal window.
-    ![](./images/resources-prompt-templates-locating-and-using-saved-templates/_NS3hQVxBRRo9EBlkjZjD9wrjEloxWjA3A.png)
+    ![](/img/kb/account-core-resources/resources-prompt-templates-locating-and-using-saved-templates/_NS3hQVxBRRo9EBlkjZjD9wrjEloxWjA3A.png)
 
 Creating a New Prompt Template
 
@@ -51,7 +51,7 @@ To create a new template, click the **New Prompt Template** button at the top of
 3.  **Kind** (Required): Select the rule kind. Currently, only Product Attribute is available.
 
 4.  **Template** (Required): Enter the core prompt content here. This text, combined with dynamic variables (e.g., $brand, if $color), forms the instruction sent to the AI for generation.
-    ![](./images/resources-prompt-templates-locating-and-using-saved-templates/MqPK3HDwXl7cBuruSGQhTcI2GMYLzXfHOQ.png)
+    ![](/img/kb/account-core-resources/resources-prompt-templates-locating-and-using-saved-templates/MqPK3HDwXl7cBuruSGQhTcI2GMYLzXfHOQ.png)
 
 Prompt Logic and Best Practices
 

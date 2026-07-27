@@ -59,7 +59,7 @@ Doing this has the following advantages:
 
 You can currently choose from the following AI models:
 
-![All AI models available in Fozzels](./images/switch-from-openai-api-token-to-fozzels-general-api/AU9GwQ3QT_bYnbdVWdVFZXcOrtjOBOSAAQ.jpg)
+![All AI models available in Fozzels](/img/kb/account-core-resources/switch-from-openai-api-token-to-fozzels-general-api/AU9GwQ3QT_bYnbdVWdVFZXcOrtjOBOSAAQ.jpg)
 
 ##
 
@@ -71,25 +71,25 @@ You can currently choose from the following AI models:
 2.  In the drop down, click on **Settings**.
 3.  In the Settings menu on the left, click [**Payments**](https://app.fozzels.com/user/settings/payments).
 4.  You will see the following screen. Click on the button "**Charge Credit now**".
-    ![Fozzels Payment screen](./images/switch-from-openai-api-token-to-fozzels-general-api/tcgrCp0izWkeJxIjlmzD6xS5OZByebIyHg.png)
+    ![Fozzels Payment screen](/img/kb/account-core-resources/switch-from-openai-api-token-to-fozzels-general-api/tcgrCp0izWkeJxIjlmzD6xS5OZByebIyHg.png)
 
 5.  You will see a pop-up window, requesting an amount. Enter any amount you would like to add to your balance. The default is € 50, but you can change this if you would like. Then click the button "**Charge Now**".
-    ![Charge Credits now Popup](./images/switch-from-openai-api-token-to-fozzels-general-api/drZn1vvSyjH8rRfhLn8mWW_HuhAo2tTs-w.png)
+    ![Charge Credits now Popup](/img/kb/account-core-resources/switch-from-openai-api-token-to-fozzels-general-api/drZn1vvSyjH8rRfhLn8mWW_HuhAo2tTs-w.png)
 
 6.  You will be redirected to the Stripe payment page, where you can enter your payment details.
     Please note that no payment details are saved at Fozzels; only at Stripe.
     You can use the following payment methods: iDEAL, Credit Cards (VISA, American Express, Mastercard, Discover), Amazon Pay, Paypal, Revolut Pay and Bancontact.
-    ![Stripe payment screen](./images/switch-from-openai-api-token-to-fozzels-general-api/BRJcSSvdJ5LBFl1zVDZ0UyhLPh4URCTO1w.png)
+    ![Stripe payment screen](/img/kb/account-core-resources/switch-from-openai-api-token-to-fozzels-general-api/BRJcSSvdJ5LBFl1zVDZ0UyhLPh4URCTO1w.png)
 
 7.  Please remember -- if this payment is for your company account -- to also enter your **company name** and **VAT-id**.
-    ![Add VAT info on stripe](./images/switch-from-openai-api-token-to-fozzels-general-api/ZlO4Se712OMvnGl-aiWPNytLfwhRuRKerQ.png)
+    ![Add VAT info on stripe](/img/kb/account-core-resources/switch-from-openai-api-token-to-fozzels-general-api/ZlO4Se712OMvnGl-aiWPNytLfwhRuRKerQ.png)
 
 8.  After succesful payment, you will be redirected back to Fozzels, and see your current balance on the Payments page.
-    ![Updated balance on Payments page](./images/switch-from-openai-api-token-to-fozzels-general-api/Own2E9SNmWHQ1UHAoPh9oA1cXL0Sz8BkLQ.png)
+    ![Updated balance on Payments page](/img/kb/account-core-resources/switch-from-openai-api-token-to-fozzels-general-api/Own2E9SNmWHQ1UHAoPh9oA1cXL0Sz8BkLQ.png)
 
 9.  Next, \[_optional_\], if you want to automatically "recharge" your account balance when your balance reaches a low amount, you can set that by clicking on the button "**Configure Charge Credits**". This way, the content generation via the Flows that you have set up, will never be interrupted.
     Enter the amounts you would like to set, enable the checkbox "_Yes, automatically recharge my card when my credit balance falls below a threshold_" and click on the **Save** button.
-    ![Automatic Recharge settings pop-up](./images/switch-from-openai-api-token-to-fozzels-general-api/3BrEoNMQNNw7wOSkoZGXdLG3l9cyJwGeQ.png)
+    ![Automatic Recharge settings pop-up](/img/kb/account-core-resources/switch-from-openai-api-token-to-fozzels-general-api/3BrEoNMQNNw7wOSkoZGXdLG3l9cyJwGeQ.png)
 
 ### B) Remove your current OpenAI key
 
@@ -97,10 +97,10 @@ After you have setup your payment details, remember to **remove** the current Op
 This way, Fozzels will use our own API keys to all AI vendors.
 
 1.  To activate this, click on "**Open AI Token**" in the left menu.
-    ![Fozzels settings menu](./images/switch-from-openai-api-token-to-fozzels-general-api/zFcW_bCeIp8XohHkBB2EQ8E7ZbEkvU1xTg.png)
+    ![Fozzels settings menu](/img/kb/account-core-resources/switch-from-openai-api-token-to-fozzels-general-api/zFcW_bCeIp8XohHkBB2EQ8E7ZbEkvU1xTg.png)
 
 2.  Select your token in the field Token, **delete everything in the field**, and click on the **Save** button.
-    ![Fozzels OpenAI API Token field](./images/switch-from-openai-api-token-to-fozzels-general-api/z6eQMCzEGgNDu4KJsBT_QlGBwDiOAHKsTg.png)
+    ![Fozzels OpenAI API Token field](/img/kb/account-core-resources/switch-from-openai-api-token-to-fozzels-general-api/z6eQMCzEGgNDu4KJsBT_QlGBwDiOAHKsTg.png)
 
 You are now ready.
 

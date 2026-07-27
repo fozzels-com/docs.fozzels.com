@@ -15,10 +15,10 @@ Bem-vindo ao Fozzels! Para desbloquear todo o potencial da nossa IA sem limites,
 ## 1. Escolha Seu Plano
 
 1.  Clique no seu **Avatar** (canto superior direito) -> **Configurações -> Faturamento -> Assinatura**
-    ![](./images/how-to-activate-your-plan-and-manage-payments-in-fozzels/apqbrw9cqulwAkDiD2ki0DHHkl3XdgL21w.png)
+    ![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/apqbrw9cqulwAkDiD2ki0DHHkl3XdgL21w.png)
 
 2.  Selecione seu nível preferido (por exemplo, **Ilimitado**) e clique em **Começar**.
-    ![](./images/how-to-activate-your-plan-and-manage-payments-in-fozzels/hI9pV0Wrf73NTMCo_vQ9WIysG-C42luJQ.png)
+    ![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/hI9pV0Wrf73NTMCo_vQ9WIysG-C42luJQ.png)
 
 ## 2. Stripe Checkout (Pessoal vs. Empresarial)
 
@@ -36,7 +36,7 @@ Você será redirecionado para a página segura do Stripe Checkout.
 
 4.  Por fim, marque a caixa de concordância com os **Termos de Serviço** e clique em **Assinar**.
 
-![](./images/how-to-activate-your-plan-and-manage-payments-in-fozzels/rrMpJDqK7uu7im4sgfgNtGZxrsIKQCB1yQ.png)
+![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/rrMpJDqK7uu7im4sgfgNtGZxrsIKQCB1yQ.png)
 
 ## 3. Verificando Status e Transações
 
@@ -46,9 +46,9 @@ Após o processamento do pagamento, você verá uma confirmação **"Você se in
 
 -   **Pagamentos:** Sua transação aparecerá na aba **Pagamentos** com status **pago**. Você pode rastrear todos os seus recibos aqui.
 
-![](./images/how-to-activate-your-plan-and-manage-payments-in-fozzels/KbGbZ8Xmlxey6HYrk4Iy0MznV0cnuznI-g.png)
+![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/KbGbZ8Xmlxey6HYrk4Iy0MznV0cnuznI-g.png)
 
-![](./images/how-to-activate-your-plan-and-manage-payments-in-fozzels/TwL5l_IjHl8aPrnfHVCfozMfYbSfgZh8Ag.png)
+![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/TwL5l_IjHl8aPrnfHVCfozMfYbSfgZh8Ag.png)
 
 ## 4. Configurando Pagamentos Automáticos (Recomendado)
 
@@ -59,11 +59,11 @@ Para garantir que seu serviço permaneça ininterrupto no próximo mês, defina 
 2.  Na interface do Stripe, localize seu cartão, clique no menu (`...`), e selecione **Tornar padrão**.
 
 3.  Um rótulo cinza **Padrão** aparecerá ao lado do cartão. Os pagamentos futuros agora serão cobrados automaticamente.
-    ![](./images/how-to-activate-your-plan-and-manage-payments-in-fozzels/ip8KYvL2-11rWYW6yHng58OUCD6DTcHtgg.png)
+    ![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/ip8KYvL2-11rWYW6yHng58OUCD6DTcHtgg.png)
 
-![](./images/how-to-activate-your-plan-and-manage-payments-in-fozzels/OmqcI4zPQ1vnSB4ODWYmbTN6fBp4tYPFYw.png)
+![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/OmqcI4zPQ1vnSB4ODWYmbTN6fBp4tYPFYw.png)
 
-![](./images/how-to-activate-your-plan-and-manage-payments-in-fozzels/wS4QU57IRK0D6eaZvxrbuxMHPFBhOq6bew.png)
+![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/wS4QU57IRK0D6eaZvxrbuxMHPFBhOq6bew.png)
 
 ## 5. Recarregando Seu Saldo (Créditos)
 
@@ -79,13 +79,13 @@ Se você precisar de recursos adicionais além dos limites do seu plano:
 
 5.  Após o pagamento, seu **Saldo** será atualizado imediatamente e uma entrada **Recarga** aparecerá no seu histórico de transações.
 
-![](./images/how-to-activate-your-plan-and-manage-payments-in-fozzels/C-Hhcx-8JFsTTsHalosb_LdjJ6Zv4leJiA.png)
+![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/C-Hhcx-8JFsTTsHalosb_LdjJ6Zv4leJiA.png)
 
-![](./images/how-to-activate-your-plan-and-manage-payments-in-fozzels/zF-QhIJLTP9ddnXyVjy8xAhWbej3s2e0dg.png)
+![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/zF-QhIJLTP9ddnXyVjy8xAhWbej3s2e0dg.png)
 
-![](./images/how-to-activate-your-plan-and-manage-payments-in-fozzels/87VeVtAcu1lE3eXuxl5_smJXfNqzykXVyQ.png)
+![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/87VeVtAcu1lE3eXuxl5_smJXfNqzykXVyQ.png)
 
-![](./images/how-to-activate-your-plan-and-manage-payments-in-fozzels/L36vavbmmSf4HV6yBvuoBEVGDYMjqs1oOg.png)
+![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/L36vavbmmSf4HV6yBvuoBEVGDYMjqs1oOg.png)
 
 ## 6. Pronto!
 

@@ -17,12 +17,12 @@ You are no longer restricted to a single system cycle that previously started at
 ### 1\. Configuration Levels:
 
 -   **Global Integration Level:** Set a single schedule for the entire integration (configured in the **Configuration** tab).
-    ![](./images/custom-pull-schedules-automation-logic/OIDrHQUvFDLOAW6VRq6bmDqVGmzw-Sx_WQ.png)
+    ![](/img/kb/data-import-and-quality/custom-pull-schedules-automation-logic/OIDrHQUvFDLOAW6VRq6bmDqVGmzw-Sx_WQ.png)
 
 -   **Individual Store Level:** Set a unique schedule for a specific store (configured in the **Websites & Stores** tab via the **"Overwrite On Store Level"** option).
-    ![](./images/custom-pull-schedules-automation-logic/rzTnb5R6tAHqj6TuLjncrbuJn2jhIhf-A.png)
+    ![](/img/kb/data-import-and-quality/custom-pull-schedules-automation-logic/rzTnb5R6tAHqj6TuLjncrbuJn2jhIhf-A.png)
 
-![](./images/custom-pull-schedules-automation-logic/4TXxigKSz9G6RrXZnbgqjQ0N7TTKYwiwMQ.png)
+![](/img/kb/data-import-and-quality/custom-pull-schedules-automation-logic/4TXxigKSz9G6RrXZnbgqjQ0N7TTKYwiwMQ.png)
 
 ##
 How It Works: The Automation Chain Reaction

@@ -18,17 +18,17 @@ description: >-
 This tab handles the primary connection and identity of your Magento automation sequence.
 
 -   **Option A: Via the Image Flows Menu** — Navigate to **Image Flows** in the top navigation bar, click **New Image Flow**, and sequentially select your **Magento Integration**, Website, and Store View from the dropdown menus.
-    ![](./images/user-guide-automated-image-flow-for-magento-2/3sMs1RpGzJC1CfMq-OPKPRx6S7bvaX80XQ.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/3sMs1RpGzJC1CfMq-OPKPRx6S7bvaX80XQ.png)
 
 -   **Option B: From the Product Catalog** — Go to **Catalog → Products**, filter the specific Magento SKUs you wish to process, select them, and click **Actions → Create Image Flow**. This pre-fills your Magento store view and product context automatically.
-    ![](./images/user-guide-automated-image-flow-for-magento-2/FYFCs9P6ybHQ4OrlVaSn9YmgmftqIdhxAw.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/FYFCs9P6ybHQ4OrlVaSn9YmgmftqIdhxAw.png)
 
 **Essential Steps:**
 
 1.  **Name your Flow:** Give your flow a clear, descriptive name (e.g., "Magento Store -Autumn 2026 - Gemini Pro").
 
 2.  **Confirm Selection:** Confirm your Magento store parameters by clicking the **Submit** button at the bottom of the page.
-    ![](./images/user-guide-automated-image-flow-for-magento-2/liZ6uL_K1ryZ9ltZQsCUAhG6jAYP4UqhrQ.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/liZ6uL_K1ryZ9ltZQsCUAhG6jAYP4UqhrQ.png)
 
 ##
 2\. AI Configuration & Media Grid (Tab 2)
@@ -38,7 +38,7 @@ On this tab, you define the core AI model engine and the exact visual layout cha
 ### **AI Provider & Model Selection**
 
 Select your processing network and specific model from the interactive cards on the screen:
-![](./images/user-guide-automated-image-flow-for-magento-2/3eMz8tYlXhUnC_8wEhgtjjig_7FHQP_x-w.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/3eMz8tYlXhUnC_8wEhgtjjig_7FHQP_x-w.png)
 
 -   **Google | Gemini:**
 
@@ -75,7 +75,7 @@ Magento themes rely heavily on precise image dimensions to prevent layout shifti
 
 3.  **The Preview Panel:** The interactive right panel dynamically renders a visual crop frame, the target file format, and calculates the **Est. size** (file weight) and **Est. tokens** (generation cost) per image request.
 
-## ![](./images/user-guide-automated-image-flow-for-magento-2/Ked7uS5641FdzLgFJkkyBLIIB44pYiuh5Q.png)
+## ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/Ked7uS5641FdzLgFJkkyBLIIB44pYiuh5Q.png)
 3\. Magento Catalog Filtering & Prompting (Tab 3)
 
 This section acts as the creative brain of your Magento flow, allowing you to filter products dynamically and inject native attributes into your prompts.
@@ -97,19 +97,19 @@ This section acts as the creative brain of your Magento flow, allowing you to fi
 4.  **Image:** Upload any custom image or reference file directly from your computer layout.
 
     5.  **Generated Media:** Choose an image that has already been successfully rendered in Fozzels to maintain consistency.
-        ![](./images/user-guide-automated-image-flow-for-magento-2/poqeQbutVP7nGAfD5MDN1F9aCnQ23CE6iw.png)
+        ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/poqeQbutVP7nGAfD5MDN1F9aCnQ23CE6iw.png)
 
 ### **Section B: Advanced Magento Rule Builder (Filter & Select Products)**
 
 -   **Logical Operators:** Combine multiple criteria parameters through `AND` or `OR` logical paths.
 
 -   **Targeted SKU Lookups:** Use conditions like `SKU` `in` `[Value, Value]` to map your flow directly onto explicit, comma-separated Magento attribute rows. The interactive preview below updates instantly to display matched items.
-    ![](./images/user-guide-automated-image-flow-for-magento-2/l4Ka92XutqmJkQgI3uopMdusTJwSckSEIw.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/l4Ka92XutqmJkQgI3uopMdusTJwSckSEIw.png)
 
 ### **Section C: Dynamic Attribute Prompts**
 
 -   **Magento Attribute Injection:** Write your design instructions inside the main terminal window, then leverage the **Attributes panel** on the right side. You can click or drag-and-drop native Magento data fields (such as `Categoria`, `Color`, or `Material`) straight into your text. Fozzels will dynamically replace these placeholders with unique values for every individual product processed in the batch.
-    ![](./images/user-guide-automated-image-flow-for-magento-2/hSKoFNYycQr--RrbjrFaaNum4tvErHYsHA.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/hSKoFNYycQr--RrbjrFaaNum4tvErHYsHA.png)
 
 ##
 4\. Magento Automation & Image Naming Configurations (Tab 4)
@@ -128,7 +128,7 @@ This tab controls how your media assets are initially queued for processing and 
 
 -   **Fully automatic \[Coming Soon\]:** This feature is currently under development. Once active, enabling this checkmark will allow you to completely bypass human validation, publishing images directly to your live Magento store views the second they finish rendering.
 
-![](./images/user-guide-automated-image-flow-for-magento-2/zAHGFiGSaSobL-Deg00nawI92l2RDf4wzw.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/zAHGFiGSaSobL-Deg00nawI92l2RDf4wzw.png)
 
 ##
 
@@ -153,9 +153,9 @@ If the **Fully automatic** option is disabled, all assets are routed directly to
 ### **Navigating the Batches Index**
 
 Click the **Batch List** button to load your execution logs. Select your session chronologically in the left table, and use the main **Image Completion List** panel to monitor product processing row-by-row alongside their original Magento SKUs.
-![](./images/user-guide-automated-image-flow-for-magento-2/oXCxEay_94461PqsajzJPS4wYBlWEgCZjA.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/oXCxEay_94461PqsajzJPS4wYBlWEgCZjA.png)
 
-![](./images/user-guide-automated-image-flow-for-magento-2/5r4iWyzzfg14_CTFejOGP9ZVint4EoOtnw.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/5r4iWyzzfg14_CTFejOGP9ZVint4EoOtnw.png)
 
 ### **The Consolidated Review Interface ("Swipe-and-Sync")**
 
@@ -178,7 +178,7 @@ Clicking the **Eye icon** launches our streamlined, side-by-side overlay designe
 -   **Accept & next:** Approves the version, locks in your customized Magento metadata overrides, and **instantly swipes open the next image** in your batch queue.
 
 ##
-![](./images/user-guide-automated-image-flow-for-magento-2/fghCPbvdab9wtI-u0AWAUQPsuXIrvMCEPg.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/fghCPbvdab9wtI-u0AWAUQPsuXIrvMCEPg.png)
 6\. Bulk Actions & Local ZIP Exports
 
 Fozzels provides total data portability over your visual inventory. You can push batches directly to Magento, or export folders locally.
@@ -205,8 +205,8 @@ Because processing large batches of high-resolution images can take a few moment
 
 > ⚠️ **Important Note:** Generated ZIP files are kept on the server and available for **24 hours only**. Don't forget to download your assets before the link expires!
 
-![](./images/user-guide-automated-image-flow-for-magento-2/EqkvThCVlPgUbKnTorc6vQ3Ilx2CxPOccg.png)
-![](./images/user-guide-automated-image-flow-for-magento-2/b3yz16xNhZFEKIfuUAB_xhtCTPD7feQp6w.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/EqkvThCVlPgUbKnTorc6vQ3Ilx2CxPOccg.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/b3yz16xNhZFEKIfuUAB_xhtCTPD7feQp6w.png)
 
 ##
 7\. SEO Optimization: Generating Alt Texts for New Images

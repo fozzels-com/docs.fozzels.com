@@ -30,8 +30,8 @@ Para conceder ao sistema permissão para sobrescrever e injetar dados neste slot
 
 5.  Clique no botão azul **Salvar** no canto inferior direito.
 
-![](./images/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/ryugiLjaej08TONBWZC6dvmgdeHvEKzJOA.png)
-![](./images/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/vj3HVtE0gIyKK1lMzn0NeLCwxHle8IT1Cg.png)
+![](/img/kb/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/ryugiLjaej08TONBWZC6dvmgdeHvEKzJOA.png)
+![](/img/kb/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/vj3HVtE0gIyKK1lMzn0NeLCwxHle8IT1Cg.png)
 
 ##
 Etapa 2. Inicialização de Fluxo e Mapeamento de Atributo
@@ -48,7 +48,7 @@ Etapa 2. Inicialização de Fluxo e Mapeamento de Atributo
 
 3.  **Atributo de Destino:** Clique no dropdown de seleção **Atributo\***, digite `media` e selecione o atributo do sistema **Galeria de Mídia**. Isso canaliza com segurança as strings geradas por IA para o próximo estágio diretamente no esquema de banco de dados de galeria de imagens em vez de blocos de descrição padrão.
 
-![](./images/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/Btu-8xXR_jSHpiFqqxtTZJBUXcu0hyrmTQ.png)
+![](/img/kb/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/Btu-8xXR_jSHpiFqqxtTZJBUXcu0hyrmTQ.png)
 
 ## Etapa 3. Seleção do Modelo de Visão e Modo de Digitalização (Delta vs. Sobrescrita Completa)
 
@@ -60,7 +60,7 @@ Na **Aba 2: Configuração de IA**, selecione seu provedor e modelo subjacentes 
 
 > ? **Recomendação Técnica:** Deixe a caixa de seleção **Habilitar Redimensionamento de Imagem** ativada. Se um arquivo de imagem no Magento for maior que 2MB ou exceder uma resolução de 2048px, o Fozzels o redimensionará automaticamente para restrições de entrada de modelo de visão padrão. Isso protege ativamente seu pipeline contra erros de carga (Gerações Falhadas) e otimiza créditos de token.
 
-![](./images/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/cbKMN8kS6jIqV-wZJGv_TV9zC74UxTrCFg.png)
+![](/img/kb/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/cbKMN8kS6jIqV-wZJGv_TV9zC74UxTrCFg.png)
 
 ## Etapa 4. Engenharia de Prompt
 

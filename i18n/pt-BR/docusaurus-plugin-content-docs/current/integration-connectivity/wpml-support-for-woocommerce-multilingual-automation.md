@@ -40,7 +40,7 @@ Para ativar o suporte multilíngue, siga este algoritmo passo a passo:
 3.  Ative **"Ativar suporte multilíngue WPML"**.
 
 4.  **Crucial:** Clique no botão **"SALVAR"** para confirmar essas alterações em sua configuração.
-    ![](./images/wpml-support-for-woocommerce-multilingual-automation/4V_jMfihW94CP3CNHSo9yd7-LbwRCXJSJg.png)
+    ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/4V_jMfihW94CP3CNHSo9yd7-LbwRCXJSJg.png)
 
 ### 2\. Inicializar localidades (Sites e lojas)
 
@@ -51,8 +51,8 @@ Depois de salvo, você precisa buscar a lista de idiomas do seu site WordPress:
 2.  Clique no botão **"Puxar sites/lojas"**. O Fozzels consultará seu site WordPress para recuperar todos os idiomas configurados.
 
 3.  Na lista que aparece, **ative (alterne)** os idiomas específicos que você pretende gerenciar.
-    ![](./images/wpml-support-for-woocommerce-multilingual-automation/POzdAldcqgEXxkAsgSEbnJLTDF9nzoogmg.png)
-    ![](./images/wpml-support-for-woocommerce-multilingual-automation/rgGtdO9cFLCfJOPmQs1SQc5NKnlyOx59Ag.png)
+    ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/POzdAldcqgEXxkAsgSEbnJLTDF9nzoogmg.png)
+    ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/rgGtdO9cFLCfJOPmQs1SQc5NKnlyOx59Ag.png)
 
 ###
 3\. Sincronização de catálogo
@@ -61,7 +61,7 @@ Esta é a etapa final e mais importante para tornar os produtos visíveis:
 
 -   **RE-EXECUTE A PUXADA DE PRODUTOS.** Isso é obrigatório para que o sistema possa identificar os relacionamentos entre diferentes versões de idioma de seus produtos e **carregá-los em seus catálogos Fozzels** como objetos individuais para processamento. Sem essa etapa, produtos para novas localidades não aparecerão no sistema.
 
-![](./images/wpml-support-for-woocommerce-multilingual-automation/S0333OKK3WCPquO5CYoLzBkvWJVsJRbG4w.png)
+![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/S0333OKK3WCPquO5CYoLzBkvWJVsJRbG4w.png)
 
 ##
 A combinação super poderosa: WPML + ACF + AIOSEO

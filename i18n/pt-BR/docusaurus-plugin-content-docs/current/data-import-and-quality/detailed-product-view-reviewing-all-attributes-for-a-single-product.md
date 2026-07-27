@@ -12,8 +12,8 @@ description: >-
 
 A **Visualização Detalhada do Produto** oferece uma interface dedicada e consolidada para revisar todos os metadados associados a um único produto. Este recurso foi projetado para eliminar a complexidade do Catálogo principal, onde alguns atributos poderiam estar ocultos ou a estrutura da tabela ser muito incômoda para referência rápida.
 A Visualização Detalhada apresenta uma fonte de dados clara e abrangente e uma galeria de imagens completa, acessível de quase qualquer lugar na aplicação Fozzels.
-![](./images/detailed-product-view-reviewing-all-attributes-for-a-single-product/Y6d99F7m8alZx-La1jyfRP0DHNj4Qn4qNA.png)
-![](./images/detailed-product-view-reviewing-all-attributes-for-a-single-product/GPecd3ztvlI1KnKq4bB9i0h_ujlKxqbk0A.png)
+![](/img/kb/data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product/Y6d99F7m8alZx-La1jyfRP0DHNj4Qn4qNA.png)
+![](/img/kb/data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product/GPecd3ztvlI1KnKq4bB9i0h_ujlKxqbk0A.png)
 
 ###
 Acessando a Visualização Detalhada
@@ -21,10 +21,10 @@ Acessando a Visualização Detalhada
 A Visualização Detalhada do Produto é estrategicamente acessível através de múltiplas localizações na plataforma Fozzels para garantir acesso rápido aos dados principais do produto:
 
 1\. Catálogo e Dashboards: Os usuários podem abrir a visualização diretamente do Catálogo de produtos principal ou dos Dashboards de Fluxo.
-![](./images/detailed-product-view-reviewing-all-attributes-for-a-single-product/_15ma3e15kOEv7H6Zw8goXP94TLycjWCsQ.png)
+![](/img/kb/data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product/_15ma3e15kOEv7H6Zw8goXP94TLycjWCsQ.png)
 
 2\. Navegação Direta: O acesso geralmente é iniciado clicando em um identificador único do produto (como o SKU ou ID do Produto) ou simplesmente clicando na miniatura de imagem do produto.
-![](./images/detailed-product-view-reviewing-all-attributes-for-a-single-product/QPXZYuU1rbS9KlQlcpm_jYQK6E3G_-9z3A.png)
+![](/img/kb/data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product/QPXZYuU1rbS9KlQlcpm_jYQK6E3G_-9z3A.png)
 
 ###
 Proposta de Valor para o Usuário

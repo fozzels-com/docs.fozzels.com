@@ -21,9 +21,9 @@ Esta é a **Configuração Global** que se aplica a todos os seus Fluxos, a meno
 -   **Conteúdo ainda não foi gerado:** A geração é permitida **apenas se** o conteúdo para este produto ainda não foi criado por **nenhum** outro Fluxo anteriormente. Esta é a verificação mais rigorosa.
 
 -   **Mais antigo que:** Você define um **limite de tempo** (por exemplo, 1 semana). A geração é permitida **se** o conteúdo existente já foi criado uma vez antes por outro Fluxo, mas **antes** da duração configurada.
-    ![](./images/prevent-overlapping-content-generation-function-global-prevent-function/Hgb-Xa4MFVO-KaMNOrtEtfyA1I8RT_6haA.png)
+    ![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/Hgb-Xa4MFVO-KaMNOrtEtfyA1I8RT_6haA.png)
 
-![](./images/prevent-overlapping-content-generation-function-global-prevent-function/r-Ikv5eI5COJQMRwp9HXF1M2OOPYShjDXw.png)
+![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/r-Ikv5eI5COJQMRwp9HXF1M2OOPYShjDXw.png)
 
 ## 1.1. Gerenciando as Configurações Globais (Etapas de Configuração)
 
@@ -41,7 +41,7 @@ Esta é a **Configuração Global** que se aplica a todos os seus Fluxos, a meno
 
 -   _Resultado:_ Todos os Fluxos usando a opção **Herdar** aplicarão automaticamente esta nova restrição.
 
-![](./images/prevent-overlapping-content-generation-function-global-prevent-function/et0MwVwvnIfg8GhM-81qMk3ADOAD3_M02g.png)
+![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/et0MwVwvnIfg8GhM-81qMk3ADOAD3_M02g.png)
 
 ##
 2\. Sobrescrevendo a Regra para um Fluxo Específico (Cenários Práticos)
@@ -71,7 +71,7 @@ Nas configurações de cada Fluxo individual (seção **4 Automação**), você 
 
 -   _Resultado:_ Este Fluxo gerará conteúdo independentemente de já existir conteúdo de outros Fluxos.
 
-![](./images/prevent-overlapping-content-generation-function-global-prevent-function/M18xs-NWnNKM3KW_n1iAHroIpfoIW3ztfg.png)
+![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/M18xs-NWnNKM3KW_n1iAHroIpfoIW3ztfg.png)
 
 ####
 **Cenário B: Definindo um Limite de Tempo Personalizado (Sobrescrever)**
@@ -90,7 +90,7 @@ Nas configurações de cada Fluxo individual (seção **4 Automação**), você 
 
 -   _Resultado:_ O Fluxo usará **apenas** esta nova regra individual.
 
-![](./images/prevent-overlapping-content-generation-function-global-prevent-function/chc6WFPZCDobr_ICKuYawfRnxRTy36Oi3g.png)
+![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/chc6WFPZCDobr_ICKuYawfRnxRTy36Oi3g.png)
 
 **Cenário C: Recomeçando (Removendo Todas as Restrições)**
 
@@ -106,8 +106,8 @@ Nas configurações de cada Fluxo individual (seção **4 Automação**), você 
 
 4.  _Resultado:_ Todos os Fluxos configurados como **Herdar** começarão a funcionar **sem restrições de duplicação**, pois a Regra Global está efetivamente desativada. Se você deseja que um Fluxo configurado como **Sobrescrever** também funcione sem restrições, **mude-o para Herdar** ou **desative a restrição usando Desativar**.
 
-![](./images/prevent-overlapping-content-generation-function-global-prevent-function/8rlkBmppY5nU7t7ZkdTHVSWoFeNWkYYOeA.png)
+![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/8rlkBmppY5nU7t7ZkdTHVSWoFeNWkYYOeA.png)
 
 ou
 
-![](./images/prevent-overlapping-content-generation-function-global-prevent-function/_nWCPZi_Y8CUrS6FiIQZPgxQ0eip7jdWeg.png)
+![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/_nWCPZi_Y8CUrS6FiIQZPgxQ0eip7jdWeg.png)

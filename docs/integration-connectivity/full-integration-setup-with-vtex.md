@@ -79,11 +79,11 @@ Once your API credentials are ready, set up the connection inside Fozzels.
 1.  Log in to **Fozzels** and open **Integrations** from the top navigation menu.
 
 2.  Click the green **\+ Create** button.
-    ![](./images/full-integration-setup-with-vtex/gr4ewlKqt8412XMEVryYBDav3OrTYjV3cA.png)
+    ![](/img/kb/integration-connectivity/full-integration-setup-with-vtex/gr4ewlKqt8412XMEVryYBDav3OrTYjV3cA.png)
 
 3.  Select **VTEX** from the list of available integration platforms.
 
-![](./images/full-integration-setup-with-vtex/XhEgu0COlAJDugphXl_XiaSkCKfS7TXueg.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-vtex/XhEgu0COlAJDugphXl_XiaSkCKfS7TXueg.png)
 
 ### Step 2. Enter Configuration Details (Tab 1: Configuration)
 
@@ -103,7 +103,7 @@ Fill out the connection form:
 
 -   **Global Pull Schedule** _(optional)_: Set a custom automated pull schedule or leave default settings.
 
-![](./images/full-integration-setup-with-vtex/pWrF-JFfW_Q5FelNCSz3IuA9l86yXEdItw.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-vtex/pWrF-JFfW_Q5FelNCSz3IuA9l86yXEdItw.png)
 
 -   **Pull Throttling / API Delays** _(optional)_:
 
@@ -124,14 +124,14 @@ Click **Save** in the bottom-left corner.
 -   **Authorized** — Green checkmark.
 
     -   **REST API Connected** — Green checkmark.
-        ![](./images/full-integration-setup-with-vtex/RnG46ot4A8YtvTAhatBAQIynkoXI8pbdJQ.png)
+        ![](/img/kb/integration-connectivity/full-integration-setup-with-vtex/RnG46ot4A8YtvTAhatBAQIynkoXI8pbdJQ.png)
 
 2.  Click the **PULL WEBSITES AND STORES** button in the bottom-left corner.
-    ![](./images/full-integration-setup-with-vtex/pywm-NKYAWTD0xkGPKQYZPH5WI5LKQCwIw.png)
+    ![](/img/kb/integration-connectivity/full-integration-setup-with-vtex/pywm-NKYAWTD0xkGPKQYZPH5WI5LKQCwIw.png)
 
 3.  Your websites and store locales will appear in the table. Toggle the **Status** switches to active for the websites and stores you plan to process.
 
-![](./images/full-integration-setup-with-vtex/Nv3b_PjszS4fHUfa_V2atIDZe_Sx838pAA.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-vtex/Nv3b_PjszS4fHUfa_V2atIDZe_Sx838pAA.png)
 
 ### Step 4. Pull Catalog Data (Pull Products)
 
@@ -150,14 +150,14 @@ Click **Save** in the bottom-left corner.
 -   **Brand**
 
     -   **Product**
-**![](./images/full-integration-setup-with-vtex/A-WrFZksz5q1Ml-MXGaobf-Sn_rKBjsNEA.png)**
+**![](/img/kb/integration-connectivity/full-integration-setup-with-vtex/A-WrFZksz5q1Ml-MXGaobf-Sn_rKBjsNEA.png)**
 
 3.  Wait for the sync to finish. Each entity status will turn green showing **100%**.
-    ![](./images/full-integration-setup-with-vtex/NamLSz4d9IyB6p3k94ULepvi0njfq465sQ.png)
+    ![](/img/kb/integration-connectivity/full-integration-setup-with-vtex/NamLSz4d9IyB6p3k94ULepvi0njfq465sQ.png)
 
 4.  Click the eye icon (**View**) next to any entity block to inspect the pulled data.
 
-![](./images/full-integration-setup-with-vtex/e6KLPc8LFKplzkHemoeoNUVVG1SLMjnF7w.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-vtex/e6KLPc8LFKplzkHemoeoNUVVG1SLMjnF7w.png)
 
 Congratulations! Your **VTEX** integration is now fully set up and ready to go. Fozzels will now seamlessly sync your catalog data, allowing you to generate high-quality AI product descriptions, localized content, and metadata with ease. If you need to make any adjustments later, you can always return to the Integration Settings page.
 

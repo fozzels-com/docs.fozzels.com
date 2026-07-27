@@ -18,17 +18,17 @@ description: >-
 Esta aba trata da conexão primária e identidade de sua sequência de automação Magento.
 
 -   **Opção A: Via o Menu Fluxos de Imagem** — Navegue até **Fluxos de Imagem** na barra de navegação superior, clique em **Novo Fluxo de Imagem**, e selecione sequencialmente sua **Integração Magento**, Website e Visualização de Loja nos menus suspensos.
-    ![](./images/user-guide-automated-image-flow-for-magento-2/3sMs1RpGzJC1CfMq-OPKPRx6S7bvaX80XQ.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/3sMs1RpGzJC1CfMq-OPKPRx6S7bvaX80XQ.png)
 
 -   **Opção B: Do Catálogo de Produtos** — Vá para **Catálogo → Produtos**, filtre os SKUs Magento específicos que deseja processar, selecione-os, e clique em **Ações → Criar Fluxo de Imagem**. Isto preenche antecipadamente sua visualização de loja Magento e contexto de produto automaticamente.
-    ![](./images/user-guide-automated-image-flow-for-magento-2/FYFCs9P6ybHQ4OrlVaSn9YmgmftqIdhxAw.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/FYFCs9P6ybHQ4OrlVaSn9YmgmftqIdhxAw.png)
 
 **Etapas Essenciais:**
 
 1.  **Nomeie seu Fluxo:** Dê ao seu fluxo um nome claro e descritivo (por exemplo, "Loja Magento - Outono 2026 - Gemini Pro").
 
 2.  **Confirme a Seleção:** Confirme seus parâmetros de loja Magento clicando no botão **Enviar** na parte inferior da página.
-    ![](./images/user-guide-automated-image-flow-for-magento-2/liZ6uL_K1ryZ9ltZQsCUAhG6jAYP4UqhrQ.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/liZ6uL_K1ryZ9ltZQsCUAhG6jAYP4UqhrQ.png)
 
 ##
 2\. Configuração de IA e Grade de Mídia (Aba 2)
@@ -38,7 +38,7 @@ Nesta aba, você define o mecanismo de modelo de IA principal e as característi
 ### **Seleção de Provedor e Modelo de IA**
 
 Selecione sua rede de processamento e modelo específico dos cartões interativos na tela:
-![](./images/user-guide-automated-image-flow-for-magento-2/3eMz8tYlXhUnC_8wEhgtjjig_7FHQP_x-w.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/3eMz8tYlXhUnC_8wEhgtjjig_7FHQP_x-w.png)
 
 -   **Google | Gemini:**
 
@@ -75,7 +75,7 @@ Os temas Magento dependem muito de dimensões de imagem precisas para evitar mud
 
 3.  **O Painel de Visualização:** O painel direito interativo renderiza dinamicamente um marco de recorte visual, o formato de arquivo de destino e calcula o **Est. tamanho** (peso do arquivo) e **Est. tokens** (custo de geração) por solicitação de imagem.
 
-## ![](./images/user-guide-automated-image-flow-for-magento-2/Ked7uS5641FdzLgFJkkyBLIIB44pYiuh5Q.png)
+## ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/Ked7uS5641FdzLgFJkkyBLIIB44pYiuh5Q.png)
 3\. Filtragem de Catálogo Magento e Criação de Prompt (Aba 3)
 
 Esta seção funciona como o cérebro criativo de seu fluxo Magento, permitindo que você filtre produtos dinamicamente e injete atributos nativos em seus prompts.
@@ -97,19 +97,19 @@ Esta seção funciona como o cérebro criativo de seu fluxo Magento, permitindo 
 4.  **Imagem:** Envie qualquer imagem personalizada ou arquivo de referência diretamente de seu layout de computador.
 
     5.  **Mídia Gerada:** Escolha uma imagem que já foi renderizada com sucesso em Fozzels para manter consistência.
-        ![](./images/user-guide-automated-image-flow-for-magento-2/poqeQbutVP7nGAfD5MDN1F9aCnQ23CE6iw.png)
+        ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/poqeQbutVP7nGAfD5MDN1F9aCnQ23CE6iw.png)
 
 ### **Seção B: Construtor de Regra Magento Avançado (Filtrar e Selecionar Produtos)**
 
 -   **Operadores Lógicos:** Combine múltiplos parâmetros de critérios através de caminhos lógicos `AND` ou `OR`.
 
 -   **Pesquisas de SKU Direcionadas:** Use condições como `SKU` `in` `[Valor, Valor]` para mapear seu fluxo diretamente em linhas de atributo Magento explícitas e separadas por vírgula. A visualização interativa abaixo se atualiza instantaneamente para exibir itens correspondidos.
-    ![](./images/user-guide-automated-image-flow-for-magento-2/l4Ka92XutqmJkQgI3uopMdusTJwSckSEIw.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/l4Ka92XutqmJkQgI3uopMdusTJwSckSEIw.png)
 
 ### **Seção C: Prompts de Atributo Dinâmico**
 
 -   **Injeção de Atributo Magento:** Escreva suas instruções de design dentro da janela de terminal principal, depois aproveite o **painel Atributos** no lado direito. Você pode clicar ou arrastar e soltar campos de dados nativos Magento (como `Categoria`, `Cor` ou `Material`) diretamente em seu texto. Fozzels substituirá dinamicamente estes marcadores de posição com valores únicos para cada produto individual processado no lote.
-    ![](./images/user-guide-automated-image-flow-for-magento-2/hSKoFNYycQr--RrbjrFaaNum4tvErHYsHA.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/hSKoFNYycQr--RrbjrFaaNum4tvErHYsHA.png)
 
 ##
 4\. Configurações de Automação Magento e Nomeação de Imagem (Aba 4)
@@ -128,7 +128,7 @@ Esta aba controla como seus ativos de mídia são inicialmente enfileirados para
 
 -   **Totalmente automático \[Em Breve\]:** Este recurso está atualmente em desenvolvimento. Uma vez ativo, ativar esta caixa de seleção permitirá que você ignore completamente a validação humana, publicando imagens diretamente para suas visualizações Magento ativas no segundo em que terminarem de renderizar.
 
-![](./images/user-guide-automated-image-flow-for-magento-2/zAHGFiGSaSobL-Deg00nawI92l2RDf4wzw.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/zAHGFiGSaSobL-Deg00nawI92l2RDf4wzw.png)
 
 ##
 
@@ -153,9 +153,9 @@ Se a opção **Totalmente automático** estiver desativada, todos os ativos ser�
 ### **Navegando no Índice de Lotes**
 
 Clique no botão **Lista de Lotes** para carregar seus logs de execução. Selecione sua sessão cronologicamente na tabela esquerda e use o painel principal **Lista de Conclusão de Imagem** para monitorar o processamento de produto linha por linha ao lado de seus SKUs Magento originais.
-![](./images/user-guide-automated-image-flow-for-magento-2/oXCxEay_94461PqsajzJPS4wYBlWEgCZjA.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/oXCxEay_94461PqsajzJPS4wYBlWEgCZjA.png)
 
-![](./images/user-guide-automated-image-flow-for-magento-2/5r4iWyzzfg14_CTFejOGP9ZVint4EoOtnw.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/5r4iWyzzfg14_CTFejOGP9ZVint4EoOtnw.png)
 
 ### **A Interface de Revisão Consolidada ("Deslizar e Sincronizar")**
 
@@ -178,7 +178,7 @@ Clicar no **ícone Olho** abre nossa sobreposição simplificada lado a lado pro
 -   **Aceitar e próximo:** Aprova a versão, bloqueia suas sobrescritas de metadados Magento customizadas e **instantaneamente desliza aberta a próxima imagem** em sua fila de lote.
 
 ##
-![](./images/user-guide-automated-image-flow-for-magento-2/fghCPbvdab9wtI-u0AWAUQPsuXIrvMCEPg.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/fghCPbvdab9wtI-u0AWAUQPsuXIrvMCEPg.png)
 6\. Ações em Massa e Exportações ZIP Locais
 
 Fozzels fornece portabilidade de dados total sobre seu inventário visual. Você pode enviar lotes diretamente para Magento ou exportar pastas localmente.
@@ -205,8 +205,8 @@ Como processar lotes grandes de imagens de alta resolução pode levar alguns mo
 
 > ⚠️ **Nota Importante:** Arquivos ZIP gerados são mantidos no servidor e disponíveis por **24 horas apenas**. Não se esqueça de baixar seus ativos antes que o link expire!
 
-![](./images/user-guide-automated-image-flow-for-magento-2/EqkvThCVlPgUbKnTorc6vQ3Ilx2CxPOccg.png)
-![](./images/user-guide-automated-image-flow-for-magento-2/b3yz16xNhZFEKIfuUAB_xhtCTPD7feQp6w.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/EqkvThCVlPgUbKnTorc6vQ3Ilx2CxPOccg.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/b3yz16xNhZFEKIfuUAB_xhtCTPD7feQp6w.png)
 
 ##
 7\. Otimização de SEO: Gerando Textos Alt para Novas Imagens

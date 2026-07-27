@@ -21,9 +21,9 @@ This is the **Global setting** that applies to all your Flows unless otherwise s
 -   **Content was not generated yet:** Generation is allowed **only if** content for this product has not been created by **any** other Flow previously. This is the strictest check.
 
 -   **Older than:** You set a **time limit** (e.g., 1 week). Generation is allowed **if** the existing content was already created once before by another Flow, but **before** the set duration.
-    ![](./images/prevent-overlapping-content-generation-function-global-prevent-function/Hgb-Xa4MFVO-KaMNOrtEtfyA1I8RT_6haA.png)
+    ![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/Hgb-Xa4MFVO-KaMNOrtEtfyA1I8RT_6haA.png)
 
-![](./images/prevent-overlapping-content-generation-function-global-prevent-function/r-Ikv5eI5COJQMRwp9HXF1M2OOPYShjDXw.png)
+![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/r-Ikv5eI5COJQMRwp9HXF1M2OOPYShjDXw.png)
 
 ## 1.1. Managing the Global settings (Setup Steps)
 
@@ -41,7 +41,7 @@ This is the **Global setting** that applies to all your Flows unless otherwise s
 
 -   _Result:_ All Flows using the **Inherit** option will automatically apply this new restriction.
 
-![](./images/prevent-overlapping-content-generation-function-global-prevent-function/et0MwVwvnIfg8GhM-81qMk3ADOAD3_M02g.png)
+![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/et0MwVwvnIfg8GhM-81qMk3ADOAD3_M02g.png)
 
 ##
 2\. Overriding the Rule for a Specific Flow (Practical Scenarios)
@@ -71,7 +71,7 @@ In the settings of each individual Flow (section **4 Automation**), you decide w
 
 -   _Result:_ This Flow will generate content regardless of whether content already exists from other Flows.
 
-![](./images/prevent-overlapping-content-generation-function-global-prevent-function/M18xs-NWnNKM3KW_n1iAHroIpfoIW3ztfg.png)
+![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/M18xs-NWnNKM3KW_n1iAHroIpfoIW3ztfg.png)
 
 ####
 **Scenario B: Setting a Custom Time Limit (Override)**
@@ -90,7 +90,7 @@ In the settings of each individual Flow (section **4 Automation**), you decide w
 
 -   _Result:_ The Flow will use **only** this new, individual rule.
 
-![](./images/prevent-overlapping-content-generation-function-global-prevent-function/chc6WFPZCDobr_ICKuYawfRnxRTy36Oi3g.png)
+![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/chc6WFPZCDobr_ICKuYawfRnxRTy36Oi3g.png)
 
 **Scenario C: Starting Over (Removing All Restrictions)**
 
@@ -106,8 +106,8 @@ In the settings of each individual Flow (section **4 Automation**), you decide w
 
 4.  _Result:_ All Flows set to **Inherit** will begin running **without duplication restrictions**, as the Global Rule is effectively disabled. If you want a Flow set to **Override** to also run without restrictions, **change it to Inherit** or **disable the restriction using Turn Off**.
 
-![](./images/prevent-overlapping-content-generation-function-global-prevent-function/8rlkBmppY5nU7t7ZkdTHVSWoFeNWkYYOeA.png)
+![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/8rlkBmppY5nU7t7ZkdTHVSWoFeNWkYYOeA.png)
 
 or
 
-![](./images/prevent-overlapping-content-generation-function-global-prevent-function/_nWCPZi_Y8CUrS6FiIQZPgxQ0eip7jdWeg.png)
+![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/_nWCPZi_Y8CUrS6FiIQZPgxQ0eip7jdWeg.png)

@@ -24,7 +24,7 @@ A partir de 1º de janeiro de 2026, a Shopify está oficialmente mudando suas re
 -   Selecione a seção Aplicativos na barra lateral esquerda.
 
 -   No canto superior direito, clique no botão Criar aplicativo (dependendo do tipo da sua conta, sua interface pode parecer ligeiramente diferente. Se você não vir este botão, role para o final da página. Deverá haver um link clicável rotulado **"Criar aplicativo")**
-    ![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/e9TIxK8eDP1_39W_QK6q8V792TllGbJshg.png)
+    ![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/e9TIxK8eDP1_39W_QK6q8V792TllGbJshg.png)
 
 ###
 
@@ -38,12 +38,12 @@ A partir de 1º de janeiro de 2026, a Shopify está oficialmente mudando suas re
 -   No campo Nome do aplicativo, digite um nome descritivo (por exemplo, Fozzels\_APP).
 
 -   Clique no botão Criar.
-    ![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/aOyMompGNxvMk8AwTspY6_RThyDKNEsWcw.png)
+    ![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/aOyMompGNxvMk8AwTspY6_RThyDKNEsWcw.png)
 
 4.  Configuração de Versão e Configurações Obrigatórias
 
         4.1. Após clicar em Criar, você será redirecionado para a página Criar uma versão.
- ![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/5WoUJ-Qq7qALDUUuzlNBWf0V0lxaSjhlbQ.png)
+ ![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/5WoUJ-Qq7qALDUUuzlNBWf0V0lxaSjhlbQ.png)
 
 4.2. Nome e URL do Aplicativo
 
@@ -55,7 +55,7 @@ A partir de 1º de janeiro de 2026, a Shopify está oficialmente mudando suas re
 
 -   Incorporar aplicativo no painel de administração Shopify: deve estar habilitado.
     Isso garante que a interface Fozzels apareça dentro do seu painel de administração Shopify.
-    ![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/fCpNrLVZblbWTWkIntCgl86EmrjmORG6BQ.png)
+    ![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/fCpNrLVZblbWTWkIntCgl86EmrjmORG6BQ.png)
 
 5.  Configurando Acesso à API (Escopos)
 
@@ -64,14 +64,14 @@ A partir de 1º de janeiro de 2026, a Shopify está oficialmente mudando suas re
 5.2. No bloco Escopos:
 
 -   Clique no link Selecionar escopos no canto superior direito.
-    ![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/RgsEpex9lyPaJ8AyOjR4-So8df3QeQ6Fcw.png)
+    ![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/RgsEpex9lyPaJ8AyOjR4-So8df3QeQ6Fcw.png)
 
 6.  Selecionando Permissões
 
 6.1. Na janela modal Selecionar escopos:
 
 -   Use a barra de pesquisa para encontrar permissões específicas.
-    ![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/wQoW7bQIW9fqRTTnrHwUO9bIMpWZ6tDL_w.png)
+    ![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/wQoW7bQIW9fqRTTnrHwUO9bIMpWZ6tDL_w.png)
 
     6.2. Permissões necessárias
     Esta lista é obrigatória para todos os tipos de loja, incluindo lojas que usam Shopify Markets e Language Pages.
@@ -89,7 +89,7 @@ Locales: read\_locales.
 
     read\_locales,read\_markets,write\_markets,read\_metaobject\_definitions,read\_metaobjects,read\_product\_feeds,read\_product\_listings,read\_products,write\_products,read\_translations,write\_translations
     6.3. Clique em Concluído após selecionar todos os escopos necessários.
-    ![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/Y-HyRqCHeriVdpYrrHm2aJyi7Y8OUVBTDw.png)
+    ![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/Y-HyRqCHeriVdpYrrHm2aJyi7Y8OUVBTDw.png)
     7\. Lista de Verificação Pré-Lançamento: Configuração de Aplicativo
 
 -   Antes de clicar no botão Lançar, verifique o seguinte:
@@ -114,7 +114,7 @@ Locales: read\_locales.
 
 -   Verificação de Escopo: todas as permissões incluem o acesso de leitura e escrita necessário onde aplicável.
 
-![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/nE6aiS2K21Vs_e5K45UMqgI7KjTAAvev9g.png)
+![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/nE6aiS2K21Vs_e5K45UMqgI7KjTAAvev9g.png)
 
 8\. Lançando a Versão
 
@@ -124,7 +124,7 @@ Locales: read\_locales.
 
 -   **Clique em Lançar.**
 
-![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/lMRrK6F1zY287cIilwfdL7zuoi-eQJsO2A.png)
+![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/lMRrK6F1zY287cIilwfdL7zuoi-eQJsO2A.png)
 
 8.2. Na janela pop-up:
 
@@ -137,10 +137,10 @@ Locales: read\_locales.
 
 O status da versão será alterado para **Active**.
 
-![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/m8pxnVX5dNifvnh6z0IXZfDMkkMqS2RQwA.png)
+![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/m8pxnVX5dNifvnh6z0IXZfDMkkMqS2RQwA.png)
 
 ###
-![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/BA5mQQb2jWU5J80LBoSsUOIs1OoRl3M3EA.png)
+![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/BA5mQQb2jWU5J80LBoSsUOIs1OoRl3M3EA.png)
 
 9.  Recuperando Credenciais de API
 
@@ -152,7 +152,7 @@ O status da versão será alterado para **Active**.
 
 -   Client Secret (Chave de Secret da API)
 
-![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/VAGvtjJ3zAMPYkyQu6vUbofnGVh7jLqYyw.png)
+![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/VAGvtjJ3zAMPYkyQu6vUbofnGVh7jLqYyw.png)
 
 10.  A Lançando a Instalação
 
@@ -165,9 +165,9 @@ Se você tiver uma conta de parceiro ou gerenciar vários sites, você precisar�
 10.3. Na barra lateral esquerda, abra a guia Distribution.
 
     10.4. Clique em Selecionar método de distribuição e escolha **Distribuição personalizada**.
-![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/pa4OKRyCk3kJpPajX3ZzHmcMAbZkGU_7Eg.png)
-![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/XfVKpSARlwl_mvRyvXXrMLHhUdvZ7M7Suw.png)
-![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/eq2IpYTVXtyGiP9Pxu2xCSHWHkNCpmP1CA.png)
+![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/pa4OKRyCk3kJpPajX3ZzHmcMAbZkGU_7Eg.png)
+![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/XfVKpSARlwl_mvRyvXXrMLHhUdvZ7M7Suw.png)
+![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/eq2IpYTVXtyGiP9Pxu2xCSHWHkNCpmP1CA.png)
 
 10.6. Após a autorização, você voltará à página de Distribuição Personalizada.
 
@@ -183,9 +183,9 @@ Se você tiver uma conta de parceiro ou gerenciar vários sites, você precisar�
 
 -   Confirme a mensagem "Este aplicativo é exclusivo para sua loja".
 
-![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/tCyXVtYOydxTaxoxfZezfHkC0FxDe9xsBw.png)
+![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/tCyXVtYOydxTaxoxfZezfHkC0FxDe9xsBw.png)
 
-![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/R8WiM6_-2NXlrFjFg29bxZA7IkZVz9oISQ.png)
+![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/R8WiM6_-2NXlrFjFg29bxZA7IkZVz9oISQ.png)
 
 10.8. Para completar a sincronização, volte para sua conta Fozzels para inserir as credenciais e finalizar a conexão.
 
@@ -211,11 +211,11 @@ Nota:
 Para os campos URL e Nome do Host do Aplicativo, sempre use o domínio .myshopify.com, não a URL da loja pública.
 Exemplo: teststore.myshopify.com
 
-![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/sF_OsmKhLhv87WeuVC4_yxL77LH9O2-uAw.png)
+![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/sF_OsmKhLhv87WeuVC4_yxL77LH9O2-uAw.png)
 
-![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/XLCPhjqaC_s3HQuyjSEhw6SsdnMZDal0vA.png)
+![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/XLCPhjqaC_s3HQuyjSEhw6SsdnMZDal0vA.png)
 
-![](./images/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/TzMbd_ReJA8hdEjYW1EFgKWryHEquafa0w.png)
+![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/TzMbd_ReJA8hdEjYW1EFgKWryHEquafa0w.png)
 
 12.  Inserir Credenciais de API no Fozzels
 

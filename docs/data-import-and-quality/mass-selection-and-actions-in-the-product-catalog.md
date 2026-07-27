@@ -20,7 +20,7 @@ Product Selection Mechanism
 
 -   Main Checkbox: Located in the table header, next to the selected product counter and the Actions menu.
 
-![](./images/mass-selection-and-actions-in-the-product-catalog/QsPDsolCil1Rvb5VzI-Q3A2AACTcj6cHIg.png)
+![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/QsPDsolCil1Rvb5VzI-Q3A2AACTcj6cHIg.png)
 
 2\. Mass Selection Options Click the Main Checkbox to open a dropdown menu with options for managing your selection:
 
@@ -32,14 +32,14 @@ Product Selection Mechanism
 
 -   Deselect All on This Page: Clears the selection only on the current page.
 
-![](./images/mass-selection-and-actions-in-the-product-catalog/xjmc7qV4l0UZau5sdUS3Gq4XsSlKOQIZhw.png)
+![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/xjmc7qV4l0UZau5sdUS3Gq4XsSlKOQIZhw.png)
 3\. Preserving Selection State The system automatically saves the count and state of selected products even when navigating between pages (pagination).
 
 -   Combined Selection: You can manually select one product, then select all products on the next page using the button, and then manually exclude one product. The total selected product counter will update correctly.
 
 -   Counter Display: The number of selected products is displayed next to the **Actions** menu.
 
-![](./images/mass-selection-and-actions-in-the-product-catalog/_InM7cpH0oQlYi0_agOrC4lE4yKF171ZXw.png)
+![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/_InM7cpH0oQlYi0_agOrC4lE4yKF171ZXw.png)
 
 ##
 Executing Batch Actions
@@ -54,16 +54,16 @@ Click **"Show Selected"** to isolate the chosen items into a separate table, cre
 
 -   Management: Further working with this subset of data while retaining full filtering and detail viewing functionality.
 
-![](./images/mass-selection-and-actions-in-the-product-catalog/HSaKozYsbruYBg5Fm3KliSuX2-bSk0Y-yw.png)
+![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/HSaKozYsbruYBg5Fm3KliSuX2-bSk0Y-yw.png)
 
 2\. Returning to the Full Catalog (Exiting "Show Selected" Mode) To exit the "Show Selected" mode and return to the full Catalog view, click the **"X"** icon located next to the Actions counter.
 
 -   Important: Upon returning to the full table, the state of the selected products **remains preserved**, allowing you to continue working with them.
-    ![](./images/mass-selection-and-actions-in-the-product-catalog/0ipFVcg9l1fgJJ8kI_yP7D8B_ZiZPBlhPQ.png)
+    ![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/0ipFVcg9l1fgJJ8kI_yP7D8B_ZiZPBlhPQ.png)
 
 3\. Create Flow On Selected Products Click **"Create Flow On Selected Products"** to immediately proceed to the new Flow creation page.
 
 -   Automatic Initialization: The selected store will be automatically chosen, and all selected products will be used as the target set, populating the necessary Flow creation step.
-    ![](./images/mass-selection-and-actions-in-the-product-catalog/M8KICV3T-VkDDGObUUfGD-28t-7ymdre4w.png)
+    ![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/M8KICV3T-VkDDGObUUfGD-28t-7ymdre4w.png)
 
-![](./images/mass-selection-and-actions-in-the-product-catalog/Z_VcZfggemIXkvSfj0T8E6vjWKBjzTTxVQ.png)
+![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/Z_VcZfggemIXkvSfj0T8E6vjWKBjzTTxVQ.png)

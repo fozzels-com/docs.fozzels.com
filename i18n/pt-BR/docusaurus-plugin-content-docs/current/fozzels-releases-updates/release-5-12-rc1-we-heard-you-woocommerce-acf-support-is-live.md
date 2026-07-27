@@ -11,7 +11,7 @@ description: >-
 ---
 
 Esta semana, nos concentramos em um dos recursos mais solicitados pela nossa comunidade WooCommerce: suporte completo para **Campos Personalizados Avançados (ACF)**.
-![](./images/release-5-12-rc1-we-heard-you-woocommerce-acf-support-is-live/z6JN78dr_DHIuf_IaNC5oJxTXh83aqwExg.png)
+![](/img/kb/fozzels-releases-updates/release-5-12-rc1-we-heard-you-woocommerce-acf-support-is-live/z6JN78dr_DHIuf_IaNC5oJxTXh83aqwExg.png)
 
 **Por que isso é revolucionário:**
 
@@ -24,5 +24,5 @@ Esta semana, nos concentramos em um dos recursos mais solicitados pela nossa com
 **Como começar?**
 
 Simplesmente alterne o switch **"Habilitar ACF"** nas configurações de integração, atualize seu pool de produtos e seus campos personalizados estarão prontos para funcionar!
-![](./images/release-5-12-rc1-we-heard-you-woocommerce-acf-support-is-live/QYUp9N-xC3deXrXG8AEv4D-tkVdhVXJPgQ.png)
+![](/img/kb/fozzels-releases-updates/release-5-12-rc1-we-heard-you-woocommerce-acf-support-is-live/QYUp9N-xC3deXrXG8AEv4D-tkVdhVXJPgQ.png)
 Veja o Guia de Configuração Passo a Passo - clique [aqui](/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels).

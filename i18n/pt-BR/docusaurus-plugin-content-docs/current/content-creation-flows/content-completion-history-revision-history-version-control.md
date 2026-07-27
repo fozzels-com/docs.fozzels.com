@@ -37,16 +37,16 @@ O Fozzels agora arquiva automaticamente cada iteração do seu texto - seja gera
 ## Como Restaurar e Salvar Versões?
 
 1.  Abra a janela de edição (**Editar resultado da conclusão**).
-    ![](./images/content-completion-history-revision-history-version-control/x0RhydNJRqSB3NHvfd6Tum-DuVwc-uMz3Q.png)
+    ![](/img/kb/content-creation-flows/content-completion-history-revision-history-version-control/x0RhydNJRqSB3NHvfd6Tum-DuVwc-uMz3Q.png)
 
 2.  Clique no botão **"Mostrar Revisões"** no painel inferior.
 
 3.  Na janela **Histórico de Conclusão de Conteúdo**, use os menus suspensos para selecionar as versões que você deseja comparar. Alterne **Mostrar HTML** para verificar o layout visual versus código bruto.
 
 4.  Encontrou a versão que mais gostou no dropdown.
-    ![](./images/content-completion-history-revision-history-version-control/lnFuy7eKjWn76r40fwRZfxRouc637479Og.png)
+    ![](/img/kb/content-creation-flows/content-completion-history-revision-history-version-control/lnFuy7eKjWn76r40fwRZfxRouc637479Og.png)
 
 5.  Clique em **"Aplicar MAIS ANTIGA"** ou **"Aplicar MAIS NOVA"**. O popup fechará e o texto selecionado preencherá o editor principal.
-    ![](./images/content-completion-history-revision-history-version-control/dG5D7muDx0lCl7O22l0Rvx1P5YV74bK6PA.png)
+    ![](/img/kb/content-creation-flows/content-completion-history-revision-history-version-control/dG5D7muDx0lCl7O22l0Rvx1P5YV74bK6PA.png)
 
 6.  **⚠️ Etapa Crucial:** Quando o popup fecha, a versão escolhida é carregada no editor mas **ainda não foi salva** no banco de dados. Você **DEVE clicar SALVAR** para armazenar as alterações ou **SALVAR & SINCRONIZAR** para enviá-las para seu site imediatamente.

@@ -34,20 +34,20 @@ We have implemented logic where every pixel is based on real product characteris
 
 -   **Smart Regeneration Pop-up**: If a result needs adjustment, you can update the prompt or add new attributes directly in the regeneration pop-up without changing the main flow settings.
 
-![](./images/release-7-0-total-automation-deep-personalization-infinite-scale/bzqIt2okOqlFDpJ9s62L7JPk3nA0TBO5dQ.png)
+![](/img/kb/fozzels-releases-updates/release-7-0-total-automation-deep-personalization-infinite-scale/bzqIt2okOqlFDpJ9s62L7JPk3nA0TBO5dQ.png)
 
 ### 3\. Virtual Try-On and Visual Creativity: New Horizons for Your Imagination
 
 We haven't just added new models - we've provided the tools to create a unique visual universe for your brand. This is a space where technological precision meets your creative vision.
 
 -   **Gemini Virtual Try-On**: This is a true breakthrough in the Fashion segment. Now you can create photorealistic images of how clothes look on a real person using only a product photo and a selected model preset. The AI meticulously reproduces fabric texture, shadows, and natural fit, allowing for professional content creation without complex photo shoots.
-    ![](./images/release-7-0-total-automation-deep-personalization-infinite-scale/dKB8v-Q5D7vYV9Woh29Fmh1YwMF3T_fZ1A.png)
+    ![](/img/kb/fozzels-releases-updates/release-7-0-total-automation-deep-personalization-infinite-scale/dKB8v-Q5D7vYV9Woh29Fmh1YwMF3T_fZ1A.png)
 
 -   **Limitless Creativity with Presets 2.0**: We have expanded the reference limit to 13 images simultaneously. This is your digital mood board: upload photos with specific lighting, angles, or color schemes. The AI synchronizes these details, creating a cohesive visual story that fully matches your brand's DNA.
-    ![](./images/release-7-0-total-automation-deep-personalization-infinite-scale/ZGKdvyEiSR5ysuGlNAMUAuj-9G2WAuU8ig.png)
+    ![](/img/kb/fozzels-releases-updates/release-7-0-total-automation-deep-personalization-infinite-scale/ZGKdvyEiSR5ysuGlNAMUAuj-9G2WAuU8ig.png)
 
 -   **Interactive Visualization (Model-Specific Grids)**: For every model, including the advanced **Gemini 3.1 Flash** or **Nano Banana 2 or Pro**, the system automatically generates a convenient format grid. You can visually evaluate resolution and proportions, and immediately see an estimated resource cost before clicking "Generate".
-    ![](./images/release-7-0-total-automation-deep-personalization-infinite-scale/fIfzSL0NKdguOVGwIV3nrX82MRsk45bc6Q.png)
+    ![](/img/kb/fozzels-releases-updates/release-7-0-total-automation-deep-personalization-infinite-scale/fIfzSL0NKdguOVGwIV3nrX82MRsk45bc6Q.png)
 
 -   **Creativity as a Strategy**: Now you can experiment with styles, backgrounds, and product presentations in minutes. This allows your brand to stay relevant, react instantly to trends, and create attention-grabbing content without spending weeks on preparation.
 

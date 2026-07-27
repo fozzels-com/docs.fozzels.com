@@ -26,7 +26,7 @@ The **Image Resize** feature automatically optimizes large images to meet the te
 
 4\. Manage the feature using the **"Enable Image Resize"** checkbox.
 
-   ![](./images/ai-configuration-image-optimization-resize-rationale-and-implementation/ZDcGWszXAjy6POiHs75NMe0FsBeIK14pfg.png)
+   ![](/img/kb/content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation/ZDcGWszXAjy6POiHs75NMe0FsBeIK14pfg.png)
 
     When to Use:
 **Enable (Default):** Recommended for all Flows where you use product images for AI Analysis or Image Generation.

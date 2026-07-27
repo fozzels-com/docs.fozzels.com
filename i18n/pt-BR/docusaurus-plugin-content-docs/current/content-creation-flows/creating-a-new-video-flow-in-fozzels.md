@@ -14,9 +14,9 @@ O recurso de Fluxo de Vídeo é um Fluxo de Conteúdo especializado dedicado à 
 1.  Iniciando o Fluxo de Vídeo
 
 1.1 Acesso e Seleção de Loja Para começar, navegue até a aba "Fluxos de Vídeo" no cabeçalho principal do Fozzels. Na página Fluxos de Vídeo, você deve primeiro selecionar a loja no menu suspenso "Escolher loja" para garantir que o vídeo gerado esteja vinculado à instância de catálogo de produtos correta. Clique no botão "Novo Fluxo de Vídeo" para prosseguir.
-![](./images/creating-a-new-video-flow-in-fozzels/dhsYmY2Ex4slpTZPdudcNOVCe9nEhoPHyg.png)
+![](/img/kb/content-creation-flows/creating-a-new-video-flow-in-fozzels/dhsYmY2Ex4slpTZPdudcNOVCe9nEhoPHyg.png)
 
-![](./images/creating-a-new-video-flow-in-fozzels/l9D27YTXULoQgwNoai2p9a3wY9wBuD0rxA.png)
+![](/img/kb/content-creation-flows/creating-a-new-video-flow-in-fozzels/l9D27YTXULoQgwNoai2p9a3wY9wBuD0rxA.png)
 
 1.2 Configuração Básica (Etapa 1) Você será redirecionado para a tela de configuração onde define a identidade do fluxo e o mecanismo principal.
 
@@ -32,7 +32,7 @@ Esta configuração confirma que o sistema gerará ativos visuais e apresentaç�
 
 1.2.4 **Clique** no botão **"Enviar"** para salvar essas configurações fundamentais e mover para o próximo estágio.
 
-![](./images/creating-a-new-video-flow-in-fozzels/ocwd1m8bDjLUbvNWQQ15jP7-oy92bMKZxw.png)
+![](/img/kb/content-creation-flows/creating-a-new-video-flow-in-fozzels/ocwd1m8bDjLUbvNWQQ15jP7-oy92bMKZxw.png)
 
 2.  Configurando Ativos e Engenharia de Prompt
 
@@ -42,13 +42,13 @@ Após a configuração básica, você é direcionado para a página de definiç�
 No lado esquerdo da tela, **selecione o produto específico** da lista de catálogo para o qual o vídeo será gerado.
 
 Seleção de Imagem: O bloco central exibe o produto selecionado e sua galeria de imagens. Você deve **escolher** a única imagem mais adequada da galeria, pois essa âncora visual guiará o processo de geração de vídeo da IA.
-![](./images/creating-a-new-video-flow-in-fozzels/y1tWTQrZy2gjdG9yduMpGv4A3xQevUN6-g.png)
+![](/img/kb/content-creation-flows/creating-a-new-video-flow-in-fozzels/y1tWTQrZy2gjdG9yduMpGv4A3xQevUN6-g.png)
 
 2.2 Engenharia de Prompt (A Etapa Crítica) O prompt é a única entrada controlando o conteúdo, estilo e narrativa do vídeo.
 
 Requisito de Entrada: O campo "Prompt" não pode ficar vazio. Deve conter instruções detalhadas e descritivas delineando o resultado de vídeo desejado (por exemplo, cenário, clima, ação, movimentos de câmera).
 **Leia** a próxima seção, **[Dicas para Criar um Prompt Eficaz + Exemplos](https://fozzels.freshdesk.com/a/solutions/articles/103000370386)**, antes de escrever seu prompt para garantir qualidade de vídeo ideal.
-![](./images/creating-a-new-video-flow-in-fozzels/ZGiO6GR7CNBTRPTFYBz1RRmNNRTwD_WW6A.png)
+![](/img/kb/content-creation-flows/creating-a-new-video-flow-in-fozzels/ZGiO6GR7CNBTRPTFYBz1RRmNNRTwD_WW6A.png)
 Gerenciamento de Modelo de Prompt: Para promover consistência e eficiência, **use** o botão "Salvar" acima do campo de prompt para salvar sua instrução como modelo reutilizável. Isso economiza tempo ao criar fluxos subsequentes.
 
 3.  Ativação, Execução e Gerenciamento
@@ -62,14 +62,14 @@ Após definir o produto, imagem e prompt, o fluxo está pronto para execução.
 3.2 Iniciando a Geração de Vídeo a partir da Lista de Lotes Na página Lista de lotes, localize o produto que você acabou de configurar.
 Confirmação Manual: Para enviar a solicitação para a IA, você deve manualmente **alternar a chave** na coluna **"Confirmado"** para a posição "ativada".
 Iniciar Geração: Finalmente, **clique** no ícone ao lado da chave. Apenas esta ação envia a solicitação confirmada ao mecanismo de IA para iniciar a renderização de vídeo. O sistema rastreará o status de geração.
-![](./images/creating-a-new-video-flow-in-fozzels/4M5pPg3JaDfvqdgAQ_109lMCWqpJpbt8gQ.png)
+![](/img/kb/content-creation-flows/creating-a-new-video-flow-in-fozzels/4M5pPg3JaDfvqdgAQ_109lMCWqpJpbt8gQ.png)
 
-![](./images/creating-a-new-video-flow-in-fozzels/1NwPEnPYEC3N6fbBX63dOizDPR3J6G4EVA.png)
+![](/img/kb/content-creation-flows/creating-a-new-video-flow-in-fozzels/1NwPEnPYEC3N6fbBX63dOizDPR3J6G4EVA.png)
 
-![](./images/creating-a-new-video-flow-in-fozzels/LJon-h82hu4do0c1tI3oVznHeXvSifWXjg.png)
+![](/img/kb/content-creation-flows/creating-a-new-video-flow-in-fozzels/LJon-h82hu4do0c1tI3oVznHeXvSifWXjg.png)
 
-![](./images/creating-a-new-video-flow-in-fozzels/YwJ6UJ7VzaDPedpbnlZBIqzyNhO1yIuz6g.png)
+![](/img/kb/content-creation-flows/creating-a-new-video-flow-in-fozzels/YwJ6UJ7VzaDPedpbnlZBIqzyNhO1yIuz6g.png)
 
-![](./images/creating-a-new-video-flow-in-fozzels/Fb0QFQE1i1hJoK8U4rpyysLV_UwftKGWYQ.png)
+![](/img/kb/content-creation-flows/creating-a-new-video-flow-in-fozzels/Fb0QFQE1i1hJoK8U4rpyysLV_UwftKGWYQ.png)
 
 3.3 Acessando o Vídeo Gerado Após a conclusão, o arquivo de vídeo final fica disponível para visualização e download direto da Lista de lotes. O ativo de vídeo também é armazenado automaticamente em seu repositório de mídia pessoal, que pode ser acessado em: user/settings/generated media.

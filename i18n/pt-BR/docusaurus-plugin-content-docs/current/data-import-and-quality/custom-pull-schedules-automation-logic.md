@@ -18,12 +18,12 @@ Você não está mais restrito a um único ciclo de sistema que anteriormente in
 ### 1\. Níveis de Configuração:
 
 -   **Nível de Integração Global:** Defina um único agendamento para toda a integração (configurado na aba **Configuration**).
-    ![](./images/custom-pull-schedules-automation-logic/OIDrHQUvFDLOAW6VRq6bmDqVGmzw-Sx_WQ.png)
+    ![](/img/kb/data-import-and-quality/custom-pull-schedules-automation-logic/OIDrHQUvFDLOAW6VRq6bmDqVGmzw-Sx_WQ.png)
 
 -   **Nível de Loja Individual:** Defina um agendamento único para uma loja específica (configurado na aba **Websites & Stores** via a opção **"Overwrite On Store Level"**).
-    ![](./images/custom-pull-schedules-automation-logic/rzTnb5R6tAHqj6TuLjncrbuJn2jhIhf-A.png)
+    ![](/img/kb/data-import-and-quality/custom-pull-schedules-automation-logic/rzTnb5R6tAHqj6TuLjncrbuJn2jhIhf-A.png)
 
-![](./images/custom-pull-schedules-automation-logic/4TXxigKSz9G6RrXZnbgqjQ0N7TTKYwiwMQ.png)
+![](/img/kb/data-import-and-quality/custom-pull-schedules-automation-logic/4TXxigKSz9G6RrXZnbgqjQ0N7TTKYwiwMQ.png)
 
 ##
 Como Funciona: A Reação em Cadeia de Automação

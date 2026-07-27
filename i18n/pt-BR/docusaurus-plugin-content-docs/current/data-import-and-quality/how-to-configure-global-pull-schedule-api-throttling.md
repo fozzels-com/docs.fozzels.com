@@ -19,10 +19,10 @@ Onde Encontrar Essas Configurações
 1.  Faça login em **Fozzels**.
 
 2.  Vá para **Configuration** da sua integração ativa.
-    ![](./images/how-to-configure-global-pull-schedule-api-throttling/THubHvyaWacy8WwlR5pMdGsfkPW-WZmcPw.png)
+    ![](/img/kb/data-import-and-quality/how-to-configure-global-pull-schedule-api-throttling/THubHvyaWacy8WwlR5pMdGsfkPW-WZmcPw.png)
 
 3.  Role para baixo até a seção **Global Pull Schedule**.
-    ![](./images/how-to-configure-global-pull-schedule-api-throttling/P9fCQ7RwxIcI7AqCgCPyUCa_PbCy3PI4Ww.png)
+    ![](/img/kb/data-import-and-quality/how-to-configure-global-pull-schedule-api-throttling/P9fCQ7RwxIcI7AqCgCPyUCa_PbCy3PI4Ww.png)
 
 ## 1\. Agendamento de Pull Global
 
@@ -37,7 +37,7 @@ O Agendamento de Pull Global permite que você defina um único horário mestre 
 > ? **Melhor Prática:** Defina seu agendamento de pull durante horas de pico (por exemplo, tarde da noite ou início da manhã) quando o tráfego do website é mais baixo para minimizar qualquer carga potencial no backend da sua loja.
 
 ##
-![](./images/how-to-configure-global-pull-schedule-api-throttling/fyrAZkK-2BnIOTIwMM32cLL1domLcyE4rg.png)
+![](/img/kb/data-import-and-quality/how-to-configure-global-pull-schedule-api-throttling/fyrAZkK-2BnIOTIwMM32cLL1domLcyE4rg.png)
 2\. Pull Throttling (Atrasos Entre Requisições)
 
 Limites de Taxa de API são restrições impostas por plataformas como Shopify, Magento, VTEX ou outras para evitar que servidores sejam sobrecarregados por muitas requisições ao mesmo tempo.
@@ -51,16 +51,16 @@ Se Fozzels solicitar dados de produtos muito rapidamente, o servidor da sua loja
 -   **O que faz:** Adiciona uma pausa (em milissegundos) depois que Fozzels termina de buscar cada lote/página de produtos antes de pedir a próxima página.
 
     -   **Padrão / Recomendação:** `2000 ms` (2 segundos). Deixar isso em branco usa a velocidade padrão da sua plataforma.
-        ![](./images/how-to-configure-global-pull-schedule-api-throttling/qGkARWiCzUokf8PHJJpaRRRuivORM_DQIw.png)
+        ![](/img/kb/data-import-and-quality/how-to-configure-global-pull-schedule-api-throttling/qGkARWiCzUokf8PHJJpaRRRuivORM_DQIw.png)
 
 -   **Atraso entre requisições (`100–15.000 ms`):**
 
 -   **O que faz:** Adiciona uma pausa entre chamadas individuais de API feitas ao processar itens em uma página.
 
     -   **Padrão / Recomendação:** `200 ms`.
-        ![](./images/how-to-configure-global-pull-schedule-api-throttling/mfKk2L61sB_fdhQoGQ9o3zxmuUyFh5m0fQ.png)
+        ![](/img/kb/data-import-and-quality/how-to-configure-global-pull-schedule-api-throttling/mfKk2L61sB_fdhQoGQ9o3zxmuUyFh5m0fQ.png)
 
     -   Não esqueça de salvar suas alterações - clique no botão **SAVE**.
-**![](./images/how-to-configure-global-pull-schedule-api-throttling/qdZ3Boaa9oUyxzPTfvoV8zbP2N_diVhAkw.png)**
+**![](/img/kb/data-import-and-quality/how-to-configure-global-pull-schedule-api-throttling/qdZ3Boaa9oUyxzPTfvoV8zbP2N_diVhAkw.png)**
 
 > ⚠️ **Cuidado:** Definir atrasos **abaixo** dos padrões recomendados da sua plataforma de e-commerce pode desencadear erros de limite de taxa do seu servidor de loja, o que pode causar falhas no pull do catálogo prematuramente. Se você experimentar falhas de pull ou avisos de limite de taxa, aumente gradualmente esses valores de atraso para dar ao servidor de sua loja mais tempo entre requisições.

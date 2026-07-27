@@ -20,27 +20,27 @@ Configuration in WooCommerce
 1\. Go to the "**Settings**" / Advanced / REST API tab in the main WooCommerce menu.
 2\. Select "**Add Keys**".
 
-![](./images/full-integration-setup-with-woocommerce/8hyIPD4Wb1FFvgYBaXywZ2Xs18Lh-bvT4Q.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/8hyIPD4Wb1FFvgYBaXywZ2Xs18Lh-bvT4Q.png)
 
-![](./images/full-integration-setup-with-woocommerce/gQDALB5owHDmdRHVghvUxrIVGr9XLh00iA.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/gQDALB5owHDmdRHVghvUxrIVGr9XLh00iA.png)
 
 **Step 3: Creating a New API Key**1\. Add the Description and choose the needed permissions "**Read and Write**" from the dropdown in the **new API Key**.
 
 2\. Press the "**Generate API KEY**" button.
-![](./images/full-integration-setup-with-woocommerce/LNqOK_83FuQdSlwU4GQ0k9hPLpjPOMhitw.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/LNqOK_83FuQdSlwU4GQ0k9hPLpjPOMhitw.png)
 Note: Granting "Write" access allows Fozzels to not only read data but also update data in your WooCommerce store, ensuring two-way synchronization.
 If you have done everything correctly, a window with the generated keys for the new integration will open. You will also receive the message: 'API Key generated successfully. Make sure to copy your new keys now, as the secret key will be hidden once you leave this page.' Transfer these keys to the integration settings in Fozzels.
 
-![](./images/full-integration-setup-with-woocommerce/zNaRYoJwobBx3j5TEjYQOR-iVDLfWwFk_w.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/zNaRYoJwobBx3j5TEjYQOR-iVDLfWwFk_w.png)
 Configuration in Fozzels
 **Step 4:** **Starting a New Integration**
 1\. Log in to your Fozzels account.
 2\. Go to the Integrations page.
 3\. Click the "**New Integration**" button.
-![](./images/full-integration-setup-with-woocommerce/0oMe6Sytpwp09lVWoNbVjCMY2Gr5Ii3l4w.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/0oMe6Sytpwp09lVWoNbVjCMY2Gr5Ii3l4w.png)
 
 4\. Select "**WooCommerce**" from the list of available services.
-![](./images/full-integration-setup-with-woocommerce/VygL8-i0y-Ufor6pSGr_Zfk9ob9PmWAybw.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/VygL8-i0y-Ufor6pSGr_Zfk9ob9PmWAybw.png)
 
 5\. Fill in Configuration Fields
 
@@ -58,15 +58,15 @@ Configuration in Fozzels
 
 10\. If you want to import custom meta data fields from WooCommerce, please fill in the WooCommerce Meta Data Sync Fields field. Enter the meta key prefixes or exact meta field names you want to sync. Only matching fields will be imported as product attributes in Fozzels. For example, enter _my\_plugin_ to sync all keys starting with this prefix, or \_custom\_field for a specific field. [Read more about this feature.](https://fozzels.freshdesk.com/a/solutions/articles/103000399653)
 11\. If you want to enable multilingual synchronization, please enable the WPML Multilingual Support toggle. This allows Fozzels to sync product data across all configured languages when using the WPML plugin. [Read more about how to configure this setup.](/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation)
- ![](./images/full-integration-setup-with-woocommerce/d1v4xCqxV-0DN-7Uj85ucSblMez28V1klw.png)![](./images/full-integration-setup-with-woocommerce/7XoFo9SE40F3Tgm0RjSqZFcqPUoE-6dFHA.png)
+ ![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/d1v4xCqxV-0DN-7Uj85ucSblMez28V1klw.png)![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/7XoFo9SE40F3Tgm0RjSqZFcqPUoE-6dFHA.png)
 **Step 5: Activate and Save the Integration**1\. Activate the integration by switching **ON** the "Active" toggle in the top right corner.
 
 2\. Click the "**Save**" button to save the changes.
 After successful saving, you will proceed to the next configuration steps in Fozzels ("Websites & Stores" and "Attributes"), where you can set up product and attribute synchronization.
-![](./images/full-integration-setup-with-woocommerce/8pwl3nO-DvkTHXjdP3kCZwH6esC012DXYg.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/8pwl3nO-DvkTHXjdP3kCZwH6esC012DXYg.png)
 **Step 6: Websites & Stores Setup**
 1\. Click the "**Pull Websites and Stores**" button. This will retrieve and display all associated websites and stores from your WooCommerce account.
 2\. Activate the required websites and stores by switching the corresponding Status toggles to **ON**.
 3\. Click the "**Pull products**" button for each necessary store. This action initiates the initial load of product data into Fozzels. Read more about pulling products [here](https://fozzels.freshdesk.com/a/solutions/articles/103000368950).
-![](./images/full-integration-setup-with-woocommerce/OT8f7hDzpyxRkabdwOZz9-0ph8-2UMGMnA.png)![](./images/full-integration-setup-with-woocommerce/pXfqdGQaJ_kePo3JmAj2P43ZxhaPZWFnMg.png)Once the product loading process is complete, Fozzels is ready for work!
+![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/OT8f7hDzpyxRkabdwOZz9-0ph8-2UMGMnA.png)![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/pXfqdGQaJ_kePo3JmAj2P43ZxhaPZWFnMg.png)Once the product loading process is complete, Fozzels is ready for work!
 Now you can proceed to the "Attributes" tab to configure them. Read more about managing attributes [here](https://fozzels.freshdesk.com/a/solutions/articles/103000368952).

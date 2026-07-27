@@ -20,7 +20,7 @@ Mecanismo de Seleção de Produtos
 
 -   Checkbox Principal: Localizado no cabeçalho da tabela, ao lado do contador de produtos selecionados e do menu Ações.
 
-![](./images/mass-selection-and-actions-in-the-product-catalog/QsPDsolCil1Rvb5VzI-Q3A2AACTcj6cHIg.png)
+![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/QsPDsolCil1Rvb5VzI-Q3A2AACTcj6cHIg.png)
 
 2\. Opções de Seleção em Massa Clique no Checkbox Principal para abrir um menu suspenso com opções para gerenciar sua seleção:
 
@@ -32,14 +32,14 @@ Mecanismo de Seleção de Produtos
 
 -   Desselecionar Tudo nesta Página: Limpa a seleção apenas na página atual.
 
-![](./images/mass-selection-and-actions-in-the-product-catalog/xjmc7qV4l0UZau5sdUS3Gq4XsSlKOQIZhw.png)
+![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/xjmc7qV4l0UZau5sdUS3Gq4XsSlKOQIZhw.png)
 3\. Preservando o Estado da Seleção O sistema salva automaticamente a contagem e o estado dos produtos selecionados mesmo ao navegar entre páginas (paginação).
 
 -   Seleção Combinada: Você pode selecionar manualmente um produto, depois selecionar todos os produtos na próxima página usando o botão, e então excluir manualmente um produto. O contador total de produtos selecionados será atualizado corretamente.
 
 -   Exibição de Contador: O número de produtos selecionados é exibido ao lado do menu **Ações**.
 
-![](./images/mass-selection-and-actions-in-the-product-catalog/_InM7cpH0oQlYi0_agOrC4lE4yKF171ZXw.png)
+![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/_InM7cpH0oQlYi0_agOrC4lE4yKF171ZXw.png)
 
 ##
 Executando Ações em Lote
@@ -54,16 +54,16 @@ Clique em **"Show Selected"** para isolar os itens escolhidos em uma tabela sepa
 
 -   Gerenciamento: Trabalhar ainda mais com este subconjunto de dados mantendo a funcionalidade completa de filtragem e visualização de detalhes.
 
-![](./images/mass-selection-and-actions-in-the-product-catalog/HSaKozYsbruYBg5Fm3KliSuX2-bSk0Y-yw.png)
+![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/HSaKozYsbruYBg5Fm3KliSuX2-bSk0Y-yw.png)
 
 2\. Voltando para o Catálogo Completo (Saindo do Modo "Show Selected") Para sair do modo "Show Selected" e retornar à visualização completa do Catálogo, clique no ícone **"X"** localizado ao lado do contador de Ações.
 
 -   Importante: Ao retornar para a tabela completa, o estado dos produtos selecionados **permanece preservado**, permitindo que você continue trabalhando com eles.
-    ![](./images/mass-selection-and-actions-in-the-product-catalog/0ipFVcg9l1fgJJ8kI_yP7D8B_ZiZPBlhPQ.png)
+    ![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/0ipFVcg9l1fgJJ8kI_yP7D8B_ZiZPBlhPQ.png)
 
 3\. Criar Fluxo em Produtos Selecionados Clique em **"Create Flow On Selected Products"** para imediatamente prosseguir para a página de criação do novo Fluxo.
 
 -   Inicialização Automática: A loja selecionada será automaticamente escolhida, e todos os produtos selecionados serão usados como conjunto de destino, preenchendo a etapa de criação de Fluxo necessária.
-    ![](./images/mass-selection-and-actions-in-the-product-catalog/M8KICV3T-VkDDGObUUfGD-28t-7ymdre4w.png)
+    ![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/M8KICV3T-VkDDGObUUfGD-28t-7ymdre4w.png)
 
-![](./images/mass-selection-and-actions-in-the-product-catalog/Z_VcZfggemIXkvSfj0T8E6vjWKBjzTTxVQ.png)
+![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/Z_VcZfggemIXkvSfj0T8E6vjWKBjzTTxVQ.png)

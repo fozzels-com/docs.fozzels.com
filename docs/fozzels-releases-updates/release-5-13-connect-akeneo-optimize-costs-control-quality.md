@@ -18,7 +18,7 @@ We’ve expanded our ecosystem to support **Akeneo**, a world-leading Product In
 -   **Enterprise Scalability:** Seamlessly connect your Akeneo PIM to Fozzels to automate content enrichment for thousands of SKUs while maintaining the integrity of your core product data.
 
 -   **Seamless Sync:** Map complex attribute structures directly to our AI flows for a unified data workflow.
-    ![](./images/release-5-13-connect-akeneo-optimize-costs-control-quality/RyP45s-aFn544MfTLAtqzhEMIfE7bv9q4w.png)
+    ![](/img/kb/fozzels-releases-updates/release-5-13-connect-akeneo-optimize-costs-control-quality/RyP45s-aFn544MfTLAtqzhEMIfE7bv9q4w.png)
 
 ### **2\. Cost-Efficiency: Intelligent Media Caching**
 

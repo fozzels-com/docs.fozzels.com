@@ -77,11 +77,11 @@ Depois que suas credenciais de API estiverem prontas, configure a conexão dentr
 1.  Faça login em **Fozzels** e abra **Integrações** no menu de navegação superior.
 
 2.  Clique no botão verde **\+ Criar**.
-    ![](./images/full-integration-setup-with-vtex/gr4ewlKqt8412XMEVryYBDav3OrTYjV3cA.png)
+    ![](/img/kb/integration-connectivity/full-integration-setup-with-vtex/gr4ewlKqt8412XMEVryYBDav3OrTYjV3cA.png)
 
 3.  Selecione **VTEX** da lista de plataformas de integração disponíveis.
 
-![](./images/full-integration-setup-with-vtex/XhEgu0COlAJDugphXl_XiaSkCKfS7TXueg.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-vtex/XhEgu0COlAJDugphXl_XiaSkCKfS7TXueg.png)
 
 ### Passo 2. Insira detalhes de configuração (Aba 1: Configuração)
 
@@ -101,7 +101,7 @@ Preencha o formulário de conexão:
 
 -   **Agendamento de puxada global** _(opcional)_: Defina um agendamento de puxada automatizado personalizado ou deixe as configurações padrão.
 
-![](./images/full-integration-setup-with-vtex/pWrF-JFfW_Q5FelNCSz3IuA9l86yXEdItw.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-vtex/pWrF-JFfW_Q5FelNCSz3IuA9l86yXEdItw.png)
 
 -   **Limitação de puxada / Atrasos de API** _(opcional)_:
 
@@ -122,14 +122,14 @@ Clique em **Salvar** no canto inferior esquerdo.
 -   **Autorizado** — marca de seleção verde.
 
     -   **API REST conectado** — marca de seleção verde.
-        ![](./images/full-integration-setup-with-vtex/RnG46ot4A8YtvTAhatBAQIynkoXI8pbdJQ.png)
+        ![](/img/kb/integration-connectivity/full-integration-setup-with-vtex/RnG46ot4A8YtvTAhatBAQIynkoXI8pbdJQ.png)
 
 2.  Clique no botão **PUXAR SITES E LOJAS** no canto inferior esquerdo.
-    ![](./images/full-integration-setup-with-vtex/pywm-NKYAWTD0xkGPKQYZPH5WI5LKQCwIw.png)
+    ![](/img/kb/integration-connectivity/full-integration-setup-with-vtex/pywm-NKYAWTD0xkGPKQYZPH5WI5LKQCwIw.png)
 
 3.  Seus sites e locales de loja aparecerão na tabela. Alterne os botões **Status** para ativo para os sites e lojas que você planeja processar.
 
-![](./images/full-integration-setup-with-vtex/Nv3b_PjszS4fHUfa_V2atIDZe_Sx838pAA.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-vtex/Nv3b_PjszS4fHUfa_V2atIDZe_Sx838pAA.png)
 
 ### Passo 4. Puxe dados de catálogo (Puxar produtos)
 
@@ -148,14 +148,14 @@ Clique em **Salvar** no canto inferior esquerdo.
 -   **Marca**
 
     -   **Produto**
-**![](./images/full-integration-setup-with-vtex/A-WrFZksz5q1Ml-MXGaobf-Sn_rKBjsNEA.png)**
+**![](/img/kb/integration-connectivity/full-integration-setup-with-vtex/A-WrFZksz5q1Ml-MXGaobf-Sn_rKBjsNEA.png)**
 
 3.  Aguarde a conclusão da sincronização. O status de cada entidade ficará verde mostrando **100%**.
-    ![](./images/full-integration-setup-with-vtex/NamLSz4d9IyB6p3k94ULepvi0njfq465sQ.png)
+    ![](/img/kb/integration-connectivity/full-integration-setup-with-vtex/NamLSz4d9IyB6p3k94ULepvi0njfq465sQ.png)
 
 4.  Clique no ícone de olho (**Visualizar**) ao lado de qualquer bloco de entidade para inspecionar os dados puxados.
 
-![](./images/full-integration-setup-with-vtex/e6KLPc8LFKplzkHemoeoNUVVG1SLMjnF7w.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-vtex/e6KLPc8LFKplzkHemoeoNUVVG1SLMjnF7w.png)
 
 Parabéns! Sua integração **VTEX** agora está totalmente configurada e pronta para usar. Fozzels agora sincronizará perfeitamente os dados do seu catálogo, permitindo que você gere descrições de produtos de alta qualidade, conteúdo localizado e metadados com facilidade. Se precisar fazer ajustes posteriormente, você sempre pode voltar à página Configurações de integração.
 

@@ -11,7 +11,7 @@ description: >-
 
 Este guia mostra como você configura o **Campo de Prompt -** a ferramenta principal para criar instruções dinâmicas para geração de texto de produto - usando atributos de produto disponíveis, lógica condicional e configurações de localização.
 
-![](./images/prompt-creation-filtering-drag-drop-prompt-editor/psn6waVbTI-sOgG8K_n_-XihT1sjhb4AUg.png)
+![](/img/kb/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor/psn6waVbTI-sOgG8K_n_-XihT1sjhb4AUg.png)
 **1\. Componentes da Aba Configuração de Prompt**
 
 A aba da interface é dividida em cinco seções principais para máxima eficiência na construção da lógica do seu prompt:
@@ -22,9 +22,9 @@ A aba da interface é dividida em cinco seções principais para máxima eficiê
 3\. **Atributos (se preenchidos) Seção**. Uma lista de condições (**blocos if**) que podem ser usadas para conteúdo dinâmico. **Inserir** lógica de conteúdo dinâmico (por exemplo, _SE_ Cor é Azul _ENTÃO_ gerar conteúdo 'Apenas Azul').
 
 4\. **Entradas de Pesquisa Separadas**. Você pode livremente **alternar** entre as seções de atributos e condições.
-![](./images/prompt-creation-filtering-drag-drop-prompt-editor/EDjHQgzURl0i0nmUnAyYimUlW-FvXAQNlw.png)
+![](/img/kb/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor/EDjHQgzURl0i0nmUnAyYimUlW-FvXAQNlw.png)
 
-![](./images/prompt-creation-filtering-drag-drop-prompt-editor/1J6uMJo933Qd572KPGbVIQr86A9B-BBJng.png)
+![](/img/kb/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor/1J6uMJo933Qd572KPGbVIQr86A9B-BBJng.png)
 5\. Seção Modelos. O bloco **Modelo de Prompt** contém **Carregar** (para importar um modelo) e **Salvar** (para salvar o prompt atual como um modelo).
 **2\. O Campo de Prompt (Lógica Central)**
 
@@ -60,8 +60,8 @@ Condição Ativa (bloco if) - Amarelo-laranja
 Cada atributo está vinculado a um **percentual de densidade de dados -** a percentagem de disponibilidade de dados em toda a integração.
 **Passe o cursor** sobre o atributo para ver seu percentual de densidade de dados na dica de ferramenta.
 **Use** atributos com alta densidade (mais próximos a 100%) para garantir geração de conteúdo bem-sucedida na maioria dos seus produtos.
-![](./images/prompt-creation-filtering-drag-drop-prompt-editor/x-1OzeZAjTMnJ0UwMl8MW3nuBRADUaDtbA.png)
-![](./images/prompt-creation-filtering-drag-drop-prompt-editor/qq-rfN44U1KguTDHRUx4nMlmBYUMPgTCzw.png)
+![](/img/kb/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor/x-1OzeZAjTMnJ0UwMl8MW3nuBRADUaDtbA.png)
+![](/img/kb/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor/qq-rfN44U1KguTDHRUx4nMlmBYUMPgTCzw.png)
 
 Localização de Atributo
 1\. **SELECIONE** a loja desejada para ver os nomes de atributos localizados nas listas (por exemplo, `product_name` para en-US, `product_naam` para nl-NL).
@@ -69,9 +69,9 @@ Localização de Atributo
 2\. Se um nome de atributo não estiver disponível para uma versão de idioma, o nome da loja padrão (marcado com um asterisco `*`) será usado.
 
 3\. Você pode **alterar** o nome localizado nas configurações de integração → atributo → localidade.
-![](./images/prompt-creation-filtering-drag-drop-prompt-editor/bbfwJyznmpbxED-ZSOB2WHgKynrMD8sVHA.png)
+![](/img/kb/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor/bbfwJyznmpbxED-ZSOB2WHgKynrMD8sVHA.png)
 
-![](./images/prompt-creation-filtering-drag-drop-prompt-editor/KVJCJb6ASEbmnAJE5T92lf8pj73VAn6hjA.png)
+![](/img/kb/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor/KVJCJb6ASEbmnAJE5T92lf8pj73VAn6hjA.png)
 
 Revisão e Salvamento
 

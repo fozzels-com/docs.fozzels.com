@@ -19,27 +19,27 @@ Configuração no WooCommerce
 1\. Vá para a aba "**Configurações**" / Avançado / API REST no menu principal do WooCommerce.
 2\. Selecione "**Adicionar chaves**".
 
-![](./images/full-integration-setup-with-woocommerce/8hyIPD4Wb1FFvgYBaXywZ2Xs18Lh-bvT4Q.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/8hyIPD4Wb1FFvgYBaXywZ2Xs18Lh-bvT4Q.png)
 
-![](./images/full-integration-setup-with-woocommerce/gQDALB5owHDmdRHVghvUxrIVGr9XLh00iA.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/gQDALB5owHDmdRHVghvUxrIVGr9XLh00iA.png)
 
 **Passo 3: Criando uma nova chave de API**1\. Adicione a descrição e escolha as permissões necessárias "**Leitura e escrita**" no menu suspenso na **nova chave de API**.
 
 2\. Pressione o botão "**Gerar chave de API**".
-![](./images/full-integration-setup-with-woocommerce/LNqOK_83FuQdSlwU4GQ0k9hPLpjPOMhitw.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/LNqOK_83FuQdSlwU4GQ0k9hPLpjPOMhitw.png)
 Nota: Conceder acesso "Escrita" permite que o Fozzels não apenas leia dados, mas também atualize dados em sua loja WooCommerce, garantindo sincronização bidirecional.
 Se você fez tudo corretamente, uma janela com as chaves geradas para a nova integração será aberta. Você também receberá a mensagem: 'Chave de API gerada com sucesso. Certifique-se de copiar suas novas chaves agora, pois a chave secreta será ocultada quando você sair desta página.' Transfira essas chaves para as configurações de integração no Fozzels.
 
-![](./images/full-integration-setup-with-woocommerce/zNaRYoJwobBx3j5TEjYQOR-iVDLfWwFk_w.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/zNaRYoJwobBx3j5TEjYQOR-iVDLfWwFk_w.png)
 Configuração no Fozzels
 **Passo 4:** **Iniciando uma nova integração**
 1\. Faça login em sua conta Fozzels.
 2\. Vá para a página Integrações.
 3\. Clique no botão "**Nova integração**".
-![](./images/full-integration-setup-with-woocommerce/0oMe6Sytpwp09lVWoNbVjCMY2Gr5Ii3l4w.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/0oMe6Sytpwp09lVWoNbVjCMY2Gr5Ii3l4w.png)
 
 4\. Selecione "**WooCommerce**" da lista de serviços disponíveis.
-![](./images/full-integration-setup-with-woocommerce/VygL8-i0y-Ufor6pSGr_Zfk9ob9PmWAybw.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/VygL8-i0y-Ufor6pSGr_Zfk9ob9PmWAybw.png)
 
 5\. Preencha os campos de configuração
 
@@ -57,15 +57,15 @@ Configuração no Fozzels
 
 10\. Se você deseja importar campos de metadados personalizados do WooCommerce, preencha o campo campos de sincronização de metadados do WooCommerce. Insira os prefixos de chave de meta ou nomes de campos de meta exatos que você deseja sincronizar. Apenas campos correspondentes serão importados como atributos de produto no Fozzels. Por exemplo, insira _my\_plugin_ para sincronizar todas as chaves começando com este prefixo, ou \_custom\_field para um campo específico. [Leia mais sobre este recurso.](https://fozzels.freshdesk.com/a/solutions/articles/103000399653)
 11\. Se você deseja ativar a sincronização multilíngue, ative a alternância suporte multilíngue WPML. Isso permite que o Fozzels sincronize dados de produtos em todos os idiomas configurados ao usar o plugin WPML. [Leia mais sobre como configurar esta instalação.](/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation)
- ![](./images/full-integration-setup-with-woocommerce/d1v4xCqxV-0DN-7Uj85ucSblMez28V1klw.png)![](./images/full-integration-setup-with-woocommerce/7XoFo9SE40F3Tgm0RjSqZFcqPUoE-6dFHA.png)
+ ![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/d1v4xCqxV-0DN-7Uj85ucSblMez28V1klw.png)![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/7XoFo9SE40F3Tgm0RjSqZFcqPUoE-6dFHA.png)
 **Passo 5: Ative e salve a integração**1\. Ative a integração ativando a alternância "Ativo" no canto superior direito.
 
 2\. Clique no botão "**Salvar**" para salvar as alterações.
 Após salvar com sucesso, você prosseguirá para as próximas etapas de configuração no Fozzels ("Sites e lojas" e "Atributos"), onde você pode configurar a sincronização de produtos e atributos.
-![](./images/full-integration-setup-with-woocommerce/8pwl3nO-DvkTHXjdP3kCZwH6esC012DXYg.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/8pwl3nO-DvkTHXjdP3kCZwH6esC012DXYg.png)
 **Passo 6: Configuração de sites e lojas**
 1\. Clique no botão "**Puxar sites e lojas**". Isso recuperará e exibirá todos os sites e lojas associados da sua conta WooCommerce.
 2\. Ative os sites e lojas necessários ativando as alternâncias de status correspondentes para **ATIVADO**.
 3\. Clique no botão "**Puxar produtos**" para cada loja necessária. Esta ação inicia o carregamento inicial de dados de produtos no Fozzels. Leia mais sobre puxar produtos [aqui](https://fozzels.freshdesk.com/a/solutions/articles/103000368950).
-![](./images/full-integration-setup-with-woocommerce/OT8f7hDzpyxRkabdwOZz9-0ph8-2UMGMnA.png)![](./images/full-integration-setup-with-woocommerce/pXfqdGQaJ_kePo3JmAj2P43ZxhaPZWFnMg.png)Depois que o processo de carregamento de produtos for concluído, o Fozzels estará pronto para trabalhar!
+![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/OT8f7hDzpyxRkabdwOZz9-0ph8-2UMGMnA.png)![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/pXfqdGQaJ_kePo3JmAj2P43ZxhaPZWFnMg.png)Depois que o processo de carregamento de produtos for concluído, o Fozzels estará pronto para trabalhar!
 Agora você pode prosseguir para a aba "Atributos" para configurá-los. Leia mais sobre como gerenciar atributos [aqui](https://fozzels.freshdesk.com/a/solutions/articles/103000368952).

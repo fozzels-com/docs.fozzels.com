@@ -28,7 +28,7 @@ Gerenciando Conteúdo com Ações em Massa Os Painéis (ou Lista de Lotes) é su
 
 -   Desselecionar Tudo Nesta Página: Limpa a seleção apenas na página atual.
 
-![](./images/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/TAT_uWcG5-SzeI8SRjjmN51nhZWuNPhNqw.png)
+![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/TAT_uWcG5-SzeI8SRjjmN51nhZWuNPhNqw.png)
 2\. Ações Disponíveis Após selecionar itens, o **menu Ações** fica ativo, oferecendo as seguintes funções para processamento em lote:
 
 -   **Mostrar Selecionados**: Esta ação filtra a grade de produtos para exibir apenas os itens que você selecionou no momento, permitindo uma revisão focada antes de executar ações em massa.
@@ -39,7 +39,7 @@ Gerenciando Conteúdo com Ações em Massa Os Painéis (ou Lista de Lotes) é su
 
 -   **Regenerar, Salvar e Sincronizar**: Isto inicia uma nova solicitação de geração de conteúdo para os produtos selecionados e agenda automaticamente sua sincronização subsequente após a conclusão bem-sucedida.
 
-## ![](./images/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/6chuzawhzMkzp4kjQAs-Xh2lfJQ8D0uTnw.png)
+## ![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/6chuzawhzMkzp4kjQAs-Xh2lfJQ8D0uTnw.png)
 Gerenciando o Espaço de Trabalho Focado ("Mostrar Selecionados")
 
 A função **"Mostrar Selecionados"** é uma ferramenta essencial para revisar e preparar subconjuntos específicos de dados.
@@ -47,14 +47,14 @@ A função **"Mostrar Selecionados"** é uma ferramenta essencial para revisar e
 -   Espaço de Trabalho Direcionado: Ativar **"Mostrar Selecionados"** isola os itens selecionados no momento em uma visualização de tabela separada, criando efetivamente um espaço de trabalho focado.
 
 -   Retenção de Funcionalidade Completa: Mesmo neste modo isolado, você retém todas as funções da tabela padrão, incluindo filtragem adicional, visualização de detalhes e execução de Ações em Massa no subconjunto menor e específico de dados. Isto permite seleção e processamento em múltiplos estágios.
-    ![](./images/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/83gkMs5df4-VpiuZavFc2jvbQWWHXo5BwQ.png)
+    ![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/83gkMs5df4-VpiuZavFc2jvbQWWHXo5BwQ.png)
 
 ## Recomendações: Otimizando o Tratamento de Erros e Avisos
 
 Recomendamos usar a função Ações em Massa não apenas para aprovação padrão de conteúdo, mas também para corrigir rapidamente erros.
 
 -   Utilizando Filtros: Você pode usar o filtro **"Exibir apenas com erros"** ou filtrar os **resultados do conteúdo** que receberam avisos ou erros (verificando as métricas "Contagem de Avisos" e "Contagem de Falhas" na visão geral diária).
-    ![](./images/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/Q-x6xQXNSMvvctnZfgceHCf1568U90a42A.png)
+    ![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/Q-x6xQXNSMvvctnZfgceHCf1568U90a42A.png)
 
 -   Regeneração Rápida: Após aplicar o filtro e selecionar os itens problemáticos, use a ação **"Regenerar, Salvar e Sincronizar"** para re-executar eficientemente o processo de geração para todos os elementos com falha simultaneamente.
 
@@ -63,14 +63,14 @@ Recomendamos usar a função Ações em Massa não apenas para aprovação padr�
 Um sistema de controle em múltiplos estágios é implementado antes de executar ações em massa que consomem muitos recursos para garantir a precisão e evitar despesas não intencionais:
 
 -   Pop-up de Confirmação Obrigatória: Antes de executar ações como "Resincronizar Conteúdo Gerado", "Confirmar e Sincronizar" ou "Regenerar e Sincronizar," uma pop-up de aviso aparece, exigindo sua confirmação explícita.
-    ![](./images/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/XdxTZ96w4KYIJMlmO4Q1e0OGo9Lp4moHMA.png)
-    ![](./images/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/QtxE2PertdWwBPbWXypF36AadNNOWCYfQ.png)
-    ![](./images/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/WJXrUQG2D70RbZ2Zt2nXR284tuODnhGu_w.png)
+    ![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/XdxTZ96w4KYIJMlmO4Q1e0OGo9Lp4moHMA.png)
+    ![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/QtxE2PertdWwBPbWXypF36AadNNOWCYfQ.png)
+    ![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/WJXrUQG2D70RbZ2Zt2nXR284tuODnhGu_w.png)
 
 -   Nota de Lógica do Fluxo: Essas pop-ups incluem uma nota crucial sobre o comportamento de sincronização esperado com base no tipo de Fluxo:
 
     -   Conteúdo de Fluxos Totalmente Automatizados será aprovado automaticamente após a geração.
-        ![](./images/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/K8O5z-M1sAS6I6awArA51TqfE2SC1Yfbtw.png)
+        ![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/K8O5z-M1sAS6I6awArA51TqfE2SC1Yfbtw.png)
 
     -   Conteúdo de Fluxos Padrão será apenas regenerado, exigindo aprovação manual subsequente antes que a sincronização seja permitida.
 

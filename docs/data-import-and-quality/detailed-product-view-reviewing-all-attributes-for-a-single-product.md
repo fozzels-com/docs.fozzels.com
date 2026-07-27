@@ -12,8 +12,8 @@ description: >-
 
 The **Detailed Product View** offers a dedicated, consolidated interface for reviewing all metadata associated with a single product. This feature is designed to eliminate the complexity of the main Catalog, where some attributes might be hidden or the table structure is too cumbersome for quick reference.
 The Detailed View presents a clear, comprehensive data source and a full image gallery, accessible from almost anywhere in the Fozzels application.
-![](./images/detailed-product-view-reviewing-all-attributes-for-a-single-product/Y6d99F7m8alZx-La1jyfRP0DHNj4Qn4qNA.png)
-![](./images/detailed-product-view-reviewing-all-attributes-for-a-single-product/GPecd3ztvlI1KnKq4bB9i0h_ujlKxqbk0A.png)
+![](/img/kb/data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product/Y6d99F7m8alZx-La1jyfRP0DHNj4Qn4qNA.png)
+![](/img/kb/data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product/GPecd3ztvlI1KnKq4bB9i0h_ujlKxqbk0A.png)
 
 ###
 Accessing the Detailed View
@@ -21,10 +21,10 @@ Accessing the Detailed View
 The Detailed Product View is strategically accessible across multiple locations within the Fozzels platform to ensure rapid access to core product data:
 
 1\. Catalog and Dashboards: Users can open the view directly from the main product Catalog or the Flow Dashboards.
-![](./images/detailed-product-view-reviewing-all-attributes-for-a-single-product/_15ma3e15kOEv7H6Zw8goXP94TLycjWCsQ.png)
+![](/img/kb/data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product/_15ma3e15kOEv7H6Zw8goXP94TLycjWCsQ.png)
 
 2\. Direct Navigation: Access is typically initiated by clicking on a unique product identifier (such as the SKU or Product ID) or by simply clicking on the product's image thumbnail.
-![](./images/detailed-product-view-reviewing-all-attributes-for-a-single-product/QPXZYuU1rbS9KlQlcpm_jYQK6E3G_-9z3A.png)
+![](/img/kb/data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product/QPXZYuU1rbS9KlQlcpm_jYQK6E3G_-9z3A.png)
 
 ###
 Value Proposition for the User

@@ -18,7 +18,7 @@ A Lista de Lotes é onde você revisa, edita e aprova o conteúdo gerado pelos s
 3.  **Localize** o produto que deseja editar no lote.
 4.  **Clique** no conteúdo gerado na coluna **Atributo de Destino** para abrir o painel de edição
 
-![](./images/editing-content-in-the-batch-list-rich-text-editor/FKtHSS6RvegXJWbRcCdgQHsdD65GlDZauQ.png)
+![](/img/kb/content-creation-flows/editing-content-in-the-batch-list-rich-text-editor/FKtHSS6RvegXJWbRcCdgQHsdD65GlDZauQ.png)
 
 ###
 2\. Visão Geral da Barra de Ferramentas do Editor de Texto
@@ -47,14 +47,14 @@ Os títulos permitem criar uma clara hierarquia de conteúdo dentro da descriç�
     -   **Título 3** — usado para subseções aninhadas dentro de um bloco Título 2.
     -   **Normal** — texto de parágrafo de corpo padrão.
 -   **Verifique** se o texto selecionado muda sua aparência visual no editor para refletir o estilo escolhido
-    ![](./images/editing-content-in-the-batch-list-rich-text-editor/67aW3FD4R7aCqr-WFFzlqlKTnkFAJJNmKw.png)
+    ![](/img/kb/content-creation-flows/editing-content-in-the-batch-list-rich-text-editor/67aW3FD4R7aCqr-WFFzlqlKTnkFAJJNmKw.png)
     4\. Inserindo um Link no Conteúdo
     -   **Selecione** a palavra ou frase que você deseja transformar em um link clicável.
     -   **Clique** no **ícone de link** (ícone de corrente) na barra de ferramentas.
     -   **Digite** a URL de destino no diálogo que aparece.
     -   **Confirme** o link. O texto selecionado agora será exibido como um hiperlink no editor
 
-![](./images/editing-content-in-the-batch-list-rich-text-editor/38DkbEYQMRMS8CKm0qlCemE5YpIrJ0w3ZQ.png)
+![](/img/kb/content-creation-flows/editing-content-in-the-batch-list-rich-text-editor/38DkbEYQMRMS8CKm0qlCemE5YpIrJ0w3ZQ.png)
 
 ### 5\. Salvando e Sincronizando o Conteúdo Editado
 
@@ -64,6 +64,6 @@ Após fazer suas edições:
 2.  **Clique** em **Salvar & Sincronizar** para salvar as alterações e enviar imediatamente o conteúdo atualizado para sua loja.
 3.  **Clique** em **Regenerar** se você quiser descartar suas edições manuais e fazer a IA gerar uma nova versão do texto do zero.
 4.  **Clique** em **Mostrar Revisões** para ver o histórico de versões anteriormente geradas ou salvas deste conteúdo e restaurar uma versão anterior se necessário
-    ![](./images/editing-content-in-the-batch-list-rich-text-editor/q6_EG3_J3tZRcON9KaxcEhibx3S_grQdfA.png)
+    ![](/img/kb/content-creation-flows/editing-content-in-the-batch-list-rich-text-editor/q6_EG3_J3tZRcON9KaxcEhibx3S_grQdfA.png)
 
 **Nota:** O toggle **Mostrar HTML** alterna a visualização do modo de texto rico visual para o código-fonte HTML bruto. Use essa opção se você precisar verificar ou ajustar manualmente a marcação HTML do conteúdo.

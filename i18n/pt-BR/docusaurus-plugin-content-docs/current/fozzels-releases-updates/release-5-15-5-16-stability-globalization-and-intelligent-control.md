@@ -35,10 +35,10 @@ A configuração de integração agora é transparente e à prova de erros:
 ## Interface & Eficiência (v5.15 & v5.16)
 
 -   **Filtros Embutidos (v5.15):** A **Lista de Conclusão de Conteúdo** agora apresenta filtragem embutida. Você pode pesquisar e classificar produtos diretamente dentro de colunas específicas, não apenas por Atributo de Destino.
-    ![](./images/release-5-15-5-16-stability-globalization-and-intelligent-control/2uzvcc8k7RbyCI06htFACyS1d5T-DvpDzw.png)
+    ![](/img/kb/fozzels-releases-updates/release-5-15-5-16-stability-globalization-and-intelligent-control/2uzvcc8k7RbyCI06htFACyS1d5T-DvpDzw.png)
 
 -   **Atualização de Relatório Diário (v5.16):** Adicionado um botão **Atualizar** manual e um **intervalo de atualização automática** personalizável (por exemplo, a cada 3s, 5s ou 10s). Perfeito para monitoramento em tempo real de grandes lotes.
-    ![](./images/release-5-15-5-16-stability-globalization-and-intelligent-control/EPrxpwS-4GTE8JJhyvJeGbJbwMGyQWg2XA.png)
+    ![](/img/kb/fozzels-releases-updates/release-5-15-5-16-stability-globalization-and-intelligent-control/EPrxpwS-4GTE8JJhyvJeGbJbwMGyQWg2XA.png)
 
 -   **Precisão do Status do Fluxo (v5.15):** Corrigidos os indicadores de status na Lista de Fluxos. As contagens "Gerado/Sincronizado" agora refletem com precisão o estado real de seus produtos.
 
@@ -46,16 +46,16 @@ A configuração de integração agora é transparente e à prova de erros:
 
 -   **Suporte para GPT 5.4:** Integração do modelo de IA mais recente e rápido para qualidade de conteúdo de nível superior.
 
-![](./images/release-5-15-5-16-stability-globalization-and-intelligent-control/CwyidVIOLNA1iTY-O0gNEvKRWqvByuuTUQ.png)
+![](/img/kb/fozzels-releases-updates/release-5-15-5-16-stability-globalization-and-intelligent-control/CwyidVIOLNA1iTY-O0gNEvKRWqvByuuTUQ.png)
 
 -   **Modo de Descoberta Aprimorado:** Nosso recurso "Experimente" agora é alimentado por **Claude**, usando prompts expandidos para fornecer descrições de amostra profundas, estruturadas e de alta qualidade.
 
 -   **Opções de Conclusão Avançadas:** Cada geração salva agora armazena seu "passaporte técnico" completo — todas as propriedades e configurações usadas para esse resultado específico estão disponíveis para revisão.
-    ![](./images/release-5-15-5-16-stability-globalization-and-intelligent-control/bu5FEW5IsZlKBrDmRl5KJ0y-_0eZtZmSTQ.png)
+    ![](/img/kb/fozzels-releases-updates/release-5-15-5-16-stability-globalization-and-intelligent-control/bu5FEW5IsZlKBrDmRl5KJ0y-_0eZtZmSTQ.png)
 
 ## Estabilidade do Sistema & Desempenho (v5.16)
 
 -   **Correção de Estabilidade do Fluxo (Janela de 20h):** Otimizamos o intervalo para re-executar fluxos de 24 para **20 horas**. Isso garante que mesmo com pequenas mudanças no cronograma de coleta, suas gerações diárias nunca serão ignoradas.
-    ![](./images/release-5-15-5-16-stability-globalization-and-intelligent-control/vYY-ckKhQ_LBeofBs8lAf_VF20AYWDTR3A.png)
+    ![](/img/kb/fozzels-releases-updates/release-5-15-5-16-stability-globalization-and-intelligent-control/vYY-ckKhQ_LBeofBs8lAf_VF20AYWDTR3A.png)
 
 -   **Correções de Fluxo de Imagem:** Melhoria na estabilidade do processamento de imagens e transferências entre Fozzels e sua loja.

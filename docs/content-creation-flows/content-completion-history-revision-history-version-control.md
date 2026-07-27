@@ -37,16 +37,16 @@ Fozzels now automatically archives every iteration of your text - whether genera
 ## How to Restore and Save Versions?
 
 1.  Open the editing window (**Edit completion result**).
-    ![](./images/content-completion-history-revision-history-version-control/x0RhydNJRqSB3NHvfd6Tum-DuVwc-uMz3Q.png)
+    ![](/img/kb/content-creation-flows/content-completion-history-revision-history-version-control/x0RhydNJRqSB3NHvfd6Tum-DuVwc-uMz3Q.png)
 
 2.  Click the **"Show Revisions"** button in the bottom panel.
 
 3.  In the **Content Completion History** window, use the dropdown menus to select the versions you want to compare. Toggle **Show HTML** to check the visual layout vs. raw code.
 
 4.  Found the version you like best from the dropdown.
-    ![](./images/content-completion-history-revision-history-version-control/lnFuy7eKjWn76r40fwRZfxRouc637479Og.png)
+    ![](/img/kb/content-creation-flows/content-completion-history-revision-history-version-control/lnFuy7eKjWn76r40fwRZfxRouc637479Og.png)
 
 5.  Hit **"Apply OLDER"** or **"Apply NEWER"**. The pop-up will close, and the selected text will fill the main editor.
-    ![](./images/content-completion-history-revision-history-version-control/dG5D7muDx0lCl7O22l0Rvx1P5YV74bK6PA.png)
+    ![](/img/kb/content-creation-flows/content-completion-history-revision-history-version-control/dG5D7muDx0lCl7O22l0Rvx1P5YV74bK6PA.png)
 
 6.  **⚠️ Crucial Step:** Once the pop-up closes, the chosen version is loaded into the editor but **not yet saved** to the database. You **MUST click SAVE** to store the changes or **SAVE & SYNC** to push them to your website immediately.

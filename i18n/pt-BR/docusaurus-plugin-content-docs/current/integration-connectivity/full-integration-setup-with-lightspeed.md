@@ -22,7 +22,7 @@ Você deve acessar sua conta Lightspeed para criar e ativar o par de chaves de A
 2.  No menu principal Lightspeed, **vá** até a seção "Settings".
 
 3.  **Encontre** e **selecione** "API Keys" ou "Developers".
-    ![](./images/full-integration-setup-with-lightspeed/MZv-XXhmVP6BJaa1Bodx1omwsE79Sz8QMg.png)
+    ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/MZv-XXhmVP6BJaa1Bodx1omwsE79Sz8QMg.png)
 
 ####
 **Etapa 2: Crie uma Nova Chave de API**
@@ -31,9 +31,9 @@ Você deve acessar sua conta Lightspeed para criar e ativar o par de chaves de A
 
 2.  **Nomeie** a integração claramente (por exemplo, Fozzels Integration).
 
-#### ![](./images/full-integration-setup-with-lightspeed/C88N5mBpcnAN8OkGn8_qwt9UDUb2JF1Z9w.png)
+#### ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/C88N5mBpcnAN8OkGn8_qwt9UDUb2JF1Z9w.png)
 
-![](./images/full-integration-setup-with-lightspeed/AzUkWXCCt69kJBjU9LTQpJgW0iLlNd56yw.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/AzUkWXCCt69kJBjU9LTQpJgW0iLlNd56yw.png)
 
 ####
 
@@ -41,7 +41,7 @@ Você deve acessar sua conta Lightspeed para criar e ativar o par de chaves de A
 **Etapa 3: Defina Permissões (Escopos)**
 
 A página de configurações para a nova conexão será aberta automaticamente. Você **deve** selecionar as permissões necessárias para o Fozzels.
-![](./images/full-integration-setup-with-lightspeed/CioSxLGTyO3ZE1aF8NeArPcp8qx-oz22mw.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/CioSxLGTyO3ZE1aF8NeArPcp8qx-oz22mw.png)
 
 1.  **Certifique-se** de que as permissões de leitura e escrita sejam concedidas para as seguintes seções:
     -   Content  → read and write
@@ -53,7 +53,7 @@ A página de configurações para a nova conexão será aberta automaticamente. 
 Nota: Conceder acesso "Write" permite que o Fozzels atualize dados em sua loja Lightspeed, garantindo sincronização bidirecional.)
 
 ####
-![](./images/full-integration-setup-with-lightspeed/qQg2365EfWu2BevBccdOrXyc1jnZs_p1Pg.png)**Etapa 4: Ativação e Cópia das Chaves**
+![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/qQg2365EfWu2BevBccdOrXyc1jnZs_p1Pg.png)**Etapa 4: Ativação e Cópia das Chaves**
 
 1.  No canto superior direito da página de configurações de permissões, **Ative** o toggle (Habilitar esta chave de API).
 
@@ -65,8 +65,8 @@ Nota: Conceder acesso "Write" permite que o Fozzels atualize dados em sua loja L
 
 5.  **Copie** ambas as chaves (**API Key** e **API Secret**) para a próxima etapa.
 
-![](./images/full-integration-setup-with-lightspeed/YDWX-BrATu6YaqEag_egzmNrIb_mD9VfJQ.png)
-![](./images/full-integration-setup-with-lightspeed/sjIxSoTRRX4BVp_klePTX0i1orEGgq1eFg.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/YDWX-BrATu6YaqEag_egzmNrIb_mD9VfJQ.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/sjIxSoTRRX4BVp_klePTX0i1orEGgq1eFg.png)
 Resultado Esperado: A lista Developers agora mostrará uma entrada para a conexão Fozzels criada e ativada com sucesso.)
 
 ### Parte 2: Ativação de Fozzels e Sincronização de Dados
@@ -80,10 +80,10 @@ Transfira as chaves copiadas para a plataforma Fozzels e inicie a sincronizaçã
 2.  **Vá para** a página Integrations.
 
 3.  **Clique** no botão "New Integration".
-    ![](./images/full-integration-setup-with-lightspeed/aXXjYseZEe8aGbAnzQXq0LsF6GCxXYmSCQ.png)
+    ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/aXXjYseZEe8aGbAnzQXq0LsF6GCxXYmSCQ.png)
 
 4.  **Selecione** "Lightspeed" da lista de serviços disponíveis.
-    ![](./images/full-integration-setup-with-lightspeed/aYuT19m6Pe5D1XRvGXFAKXPJF1jq5__j1g.png)
+    ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/aYuT19m6Pe5D1XRvGXFAKXPJF1jq5__j1g.png)
 
 #### **Etapa 6: Preencha os Campos de Configuração**
 
@@ -101,9 +101,9 @@ Na página "Create New Integration", **Preencha** os seguintes campos:
 
 6.  **Cluster:** **Selecione** o cluster apropriado (região) onde sua loja Lightspeed está hospedada.
 
-#### ![](./images/full-integration-setup-with-lightspeed/rmiVHOPB99FOtO7FZUQ0_YI_ma2jqnnB1w.png)
+#### ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/rmiVHOPB99FOtO7FZUQ0_YI_ma2jqnnB1w.png)
 
-![](./images/full-integration-setup-with-lightspeed/HY4qeR3DTL_8O1hm3il8lNhcNpKi2XECUw.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/HY4qeR3DTL_8O1hm3il8lNhcNpKi2XECUw.png)
 
 **Etapa 7: Ative e Salve a Integração**
 
@@ -118,9 +118,9 @@ Agora você prosseguirá para a guia "Websites & Stores" (Etapa 2) no Fozzels.
 1.  **Clique** no botão "Pull Websites and Stores".
 
 2.  **Ative** os sites e lojas necessários alternando os toggles de **Status** correspondentes para **On**.
-    ![](./images/full-integration-setup-with-lightspeed/FARHG3ynyx8xadPlNcxi8OeOH6UTmF3J7Q.png)
+    ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/FARHG3ynyx8xadPlNcxi8OeOH6UTmF3J7Q.png)
 
 3.  Para cada loja necessária, **Clique** no botão **"**Pull products**"**. Esta ação inicia o carregamento inicial dos dados de produto no Fozzels.
-    ![](./images/full-integration-setup-with-lightspeed/QuBZPoYbMSBquMmbbycLgRYnd-2U4mjjbA.png)
+    ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/QuBZPoYbMSBquMmbbycLgRYnd-2U4mjjbA.png)
 
 Assim que o processo de carregamento de produtos for concluído, o Fozzels está pronto! Você pode prosseguir para a guia "Attributes" para configurar suas regras de sincronização. Para instruções detalhadas sobre trabalhar com atributos de produtos e personalizar campos de dados, leia: 3.1. Importing and Catalog Overview.

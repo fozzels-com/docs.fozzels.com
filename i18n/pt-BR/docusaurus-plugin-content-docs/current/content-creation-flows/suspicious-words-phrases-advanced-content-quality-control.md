@@ -26,7 +26,7 @@ Fozzels vem pré-configurado com artefatos de IA comuns (`#html`, `note:`, `desc
 
 -   **Suporte Multilíngue:** Você pode adicionar "palavras de parada" em qualquer idioma. Isto é incrivelmente útil para lojas internacionais onde você precisa rastrear erros específicos para diferentes localizações (por exemplo, "desculpas" em inglês vs. "let op" em holandês) ao mesmo tempo.
 
-![](./images/suspicious-words-phrases-advanced-content-quality-control/NHbocGjhOveF2KEQmoSh5o7YOuzzP33eaA.png)
+![](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/NHbocGjhOveF2KEQmoSh5o7YOuzzP33eaA.png)
 
 ## Como Funciona: Gerenciamento Dinâmico de Status
 
@@ -46,7 +46,7 @@ O verdadeiro poder desta funcionalidade está em sua natureza dinâmica. Se um s
 
 2.  O sistema **atualiza instantaneamente o status** para todos os completamentos existentes. Eles perderão o sinalizador "Suspeito" e ficarão prontos para sincronização em massa imediatamente.
 
-![](./images/suspicious-words-phrases-advanced-content-quality-control/bnDUh3Fj25UmysKHVdUAyM4Kh5Ev2TWvzg.png)
+![](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/bnDUh3Fj25UmysKHVdUAyM4Kh5Ev2TWvzg.png)
 
 ##
 Eficiência na Lista de Lotes Total Diária

@@ -18,7 +18,7 @@ Temos o prazer de anunciar suporte para os modelos de vídeo mais avançados da 
 -   Qualidade Cinemática: Os modelos Sora e Sora 2 fornecem detalhes incríveis e dinâmica natural de movimento.
 
 -   Vídeo de Referências de IA: Use imagens geradas dentro da IA do Fozzels como base (Source Image) para seus vídeos. Perfeito para criar lookbooks consistentes e campanhas de marca de ponta.
-    ![](./images/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/A8OQGp-ucfpLX2OEw1bNNvP83BIOCaiXrw.png)
+    ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/A8OQGp-ucfpLX2OEw1bNNvP83BIOCaiXrw.png)
 
 ### Inteligência de Próxima Geração para Conteúdo: GPT 5.5
 
@@ -28,15 +28,15 @@ Seu conteúdo de texto agora é alimentado pelo modelo mais inteligente da OpenA
 
 -   Focado em Conversão: A saída é mais estruturada e orientada para vendas direto da caixa.
 
-![](./images/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/03PQtmF_aRDb8B4IMTC9_YicaX9RIUYH3A.png)
+![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/03PQtmF_aRDb8B4IMTC9_YicaX9RIUYH3A.png)
 
 ### Novos Modelos de Imagem (Grok & GPT)
 
 -   xAI Grok Imagine: Apresentando modelos Image e Image Pro para estilos artísticos únicos e produção de alta velocidade.
 
 -   Visuais OpenAI: Apresentando GPT Image 1 Mini para esboço rápido e GPT Image 2 para obras-primas fotorrealistas premium.
-    ![](./images/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/QgiXXgWh8uRblxVlJPWnO0vAtBH3ZTM0HA.png)
-    ![](./images/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/9CCw0Ti_4RYXpDSUvncFsYKMA8klixFvsA.png)
+    ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/QgiXXgWh8uRblxVlJPWnO0vAtBH3ZTM0HA.png)
+    ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/9CCw0Ti_4RYXpDSUvncFsYKMA8klixFvsA.png)
 
 ### O QUE TODOS ESTAVAM ESPERANDO: Editor de Texto Integrado!
 
@@ -48,7 +48,7 @@ Agora você pode editar e formatar descrições geradas diretamente dentro do Fo
 
 -   Redefinição com Um Clique: Use a ferramenta "Limpar formatação" para redefinir instantaneamente o texto para o estilo de corpo simples.
 
-![](./images/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/LFkCkbSdq7zSC98Z5shf1o9cRXrku-TJ5Q.png)
+![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/LFkCkbSdq7zSC98Z5shf1o9cRXrku-TJ5Q.png)
 
 ### Filtragem Inteligente de Catálogo (Shopify, Magento, Akeneo)
 
@@ -58,17 +58,17 @@ Você decide exatamente o que importar para o Fozzels.
 
 -   Catálogo Sem Desordem: Sem mais conteúdo desnecessário - trabalhe apenas com os itens que você precisa agora.
 
-### ![](./images/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/_PhMY1EsCrLuw_a8c60Xdt-kc4fMyZ6gfw.png)
+### ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/_PhMY1EsCrLuw_a8c60Xdt-kc4fMyZ6gfw.png)
 Avanço do WordPress (WooCommerce)
 
 -   Suporte Completo de Variação: Fomos mais fundo - sincronização completa (texto e visuais) agora está disponível para cada variação individual do produto (cor, tamanho, etc.).
-    ![](./images/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/wd5XzSMq0IWL9gok77gfbpO7IkCENWjIcQ.png)
-    ![](./images/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/cADqpAwG8klHhg6WvGQa_bQ1HPDmGAwpkQ.png)
+    ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/wd5XzSMq0IWL9gok77gfbpO7IkCENWjIcQ.png)
+    ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/cADqpAwG8klHhg6WvGQa_bQ1HPDmGAwpkQ.png)
 
 ### Coluna "Contagem de Produtos"
 
 -   Transparência de Fila: Uma nova coluna em listas de Image/Video Flow exibe o número total de produtos aguardando geração, não apenas a contagem de resultados concluídos.
-    ![](./images/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/YE3FxMEvIqP_3h-GUbSCc_oNJBkqI9wRfw.png)
+    ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/YE3FxMEvIqP_3h-GUbSCc_oNJBkqI9wRfw.png)
 
 ### Correções & Aprimoramentos
 

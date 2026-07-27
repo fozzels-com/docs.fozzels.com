@@ -42,7 +42,7 @@ To activate multilingual support, follow this step-by-step algorithm:
 3.  Toggle on **"Enable WPML Multilingual Support"**.
 
 4.  **Crucial:** Click the **"SAVE"** button to commit these changes to your configuration.
-    ![](./images/wpml-support-for-woocommerce-multilingual-automation/4V_jMfihW94CP3CNHSo9yd7-LbwRCXJSJg.png)
+    ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/4V_jMfihW94CP3CNHSo9yd7-LbwRCXJSJg.png)
 
 ### 2\. Initialize Locales (Websites & Stores)
 
@@ -53,8 +53,8 @@ Once saved, you need to fetch the language list from your WordPress site:
 2.  Click the **"Pull Stores/Websites"** button. Fozzels will query your WordPress site to retrieve all configured languages.
 
 3.  In the list that appears, **activate (toggle on)** the specific languages you intend to manage.
-    ![](./images/wpml-support-for-woocommerce-multilingual-automation/POzdAldcqgEXxkAsgSEbnJLTDF9nzoogmg.png)
-    ![](./images/wpml-support-for-woocommerce-multilingual-automation/rgGtdO9cFLCfJOPmQs1SQc5NKnlyOx59Ag.png)
+    ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/POzdAldcqgEXxkAsgSEbnJLTDF9nzoogmg.png)
+    ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/rgGtdO9cFLCfJOPmQs1SQc5NKnlyOx59Ag.png)
 
 ###
 3\. Catalog Synchronization
@@ -63,7 +63,7 @@ This is the final and most important step to make products visible:
 
 -   **RE-RUN THE PRODUCT PULL.** This is mandatory so the system can identify the relationships between different language versions of your products and **load them into your Fozzels catalogs** as individual objects for processing. Without this step, products for new locales will not appear in the system.
 
-![](./images/wpml-support-for-woocommerce-multilingual-automation/S0333OKK3WCPquO5CYoLzBkvWJVsJRbG4w.png)
+![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/S0333OKK3WCPquO5CYoLzBkvWJVsJRbG4w.png)
 
 ##
 The Super-Power Combo: WPML + ACF + AIOSEO

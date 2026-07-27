@@ -33,7 +33,7 @@ Para sincronização bem-sucedida, seu site WordPress deve ter **dois plugins at
 
 > **Importante:** A sincronização dos campos de SEO não é possível sem o plugin conector do Fozzels. Você pode baixá-lo na parte inferior deste artigo.
 
-### ![](./images/yoast-seo-support-for-woocommerce/x8U6ii3HyPbJrpm22XJ4KTrBPkYOpJMBqw.png)Passo 2: Ativação no Fozzels
+### ![](/img/kb/integration-connectivity/yoast-seo-support-for-woocommerce/x8U6ii3HyPbJrpm22XJ4KTrBPkYOpJMBqw.png)Passo 2: Ativação no Fozzels
 
 1.  Navegue até a seção **Integrações** e selecione sua integração do WooCommerce.
 
@@ -42,7 +42,7 @@ Para sincronização bem-sucedida, seu site WordPress deve ter **dois plugins at
 3.  Ative o alternador e clique em **SALVAR**.
 
 ###
-![](./images/yoast-seo-support-for-woocommerce/Q2vuNHpeZol7txxezMoTQmPyzT3To9Rwpw.png)
+![](/img/kb/integration-connectivity/yoast-seo-support-for-woocommerce/Q2vuNHpeZol7txxezMoTQmPyzT3To9Rwpw.png)
 
 ### Passo 3: Atualização da estrutura de dados
 
@@ -54,7 +54,7 @@ Para tornar os novos atributos visíveis na interface do Fozzels, você deve atu
 
 3.  Depois que a puxada for concluída, a lista de atributos será atualizada e campos com o prefixo `yoast_` estarão disponíveis para mapeamento em seus Flows.
 
-![](./images/yoast-seo-support-for-woocommerce/xD90y_FdSVGO0v5sAa1SAVmX1hHGTvb8Tw.png)
+![](/img/kb/integration-connectivity/yoast-seo-support-for-woocommerce/xD90y_FdSVGO0v5sAa1SAVmX1hHGTvb8Tw.png)
 
 ## O combo final: WPML + Yoast + ACF
 

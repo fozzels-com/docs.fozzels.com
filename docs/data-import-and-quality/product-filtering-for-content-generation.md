@@ -16,15 +16,15 @@ This guide explains how to effectively use the filtering mechanism within Fozzel
 Filtering options are available in two primary locations:
 
 1.  **Content Flow Creation:** To define the specific product batch a flow will process, **edit** an existing flow (or create a new one) and **go to** the **"Flow Selection & Prompt"** tab.
-    ![](./images/product-filtering-for-content-generation/M8M8DSbeTwyMCzVdPZg-AgTrZhknUKlMaA.png)
+    ![](/img/kb/data-import-and-quality/product-filtering-for-content-generation/M8M8DSbeTwyMCzVdPZg-AgTrZhknUKlMaA.png)
 
 2.  **Product Catalog:**
     2.1 Enable the **"Advanced filter"** toggle. This opens a panel where you can add **"Add condition"** and **"Add condition group"** for complex logic.
-    ![](./images/product-filtering-for-content-generation/PCVDp6xbmqaVBtncYNWlb_f76UC2MmUI-g.png)
-    ![](./images/product-filtering-for-content-generation/IOHTRc5oV_-sARYVDZ-D0orkvhDrAYcI8A.png)
-    ![](./images/product-filtering-for-content-generation/R1pQBNQNg8sWQ-DUNYyn1nSlXHg750rAUg.png)
+    ![](/img/kb/data-import-and-quality/product-filtering-for-content-generation/PCVDp6xbmqaVBtncYNWlb_f76UC2MmUI-g.png)
+    ![](/img/kb/data-import-and-quality/product-filtering-for-content-generation/IOHTRc5oV_-sARYVDZ-D0orkvhDrAYcI8A.png)
+    ![](/img/kb/data-import-and-quality/product-filtering-for-content-generation/R1pQBNQNg8sWQ-DUNYyn1nSlXHg750rAUg.png)
         2.2 **Inline Filtering:** Filter products using input fields or dropdown lists located directly in the column headers of the product table (available for attributes with the **Filterable** flag enabled).
-    ![](./images/product-filtering-for-content-generation/AgXgNaluOPoF0zxvvmWoytasp0fhtnppLg.png)
+    ![](/img/kb/data-import-and-quality/product-filtering-for-content-generation/AgXgNaluOPoF0zxvvmWoytasp0fhtnppLg.png)
 
 3.  _**Crucially:** In the Catalog, you can combine inline filters by applying conditions to multiple columns simultaneously (e.g., filtering by **SKU** **AND** by **Brand**)._
 
@@ -72,7 +72,7 @@ This special filtering type is available in the **Catalog** via the inline filte
 
 2.  **Image Missing:** Show only those products for which an image is missing.
 
-![](./images/product-filtering-for-content-generation/8QgVAeRUMysJuzJ8692EqmUBXsfxeJ-Leg.png)
+![](/img/kb/data-import-and-quality/product-filtering-for-content-generation/8QgVAeRUMysJuzJ8692EqmUBXsfxeJ-Leg.png)
 
 ### 5\. Grouping Conditions (Advanced Logic)
 

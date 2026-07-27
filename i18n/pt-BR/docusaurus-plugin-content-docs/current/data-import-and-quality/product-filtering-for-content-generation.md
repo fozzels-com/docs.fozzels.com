@@ -17,15 +17,15 @@ Este guia explica como usar efetivamente o mecanismo de filtragem no Fozzels par
 As opções de filtragem estão disponíveis em dois locais principais:
 
 1.  **Criação de Fluxo de Conteúdo:** Para definir o lote específico de produtos que um fluxo processará, **edite** um fluxo existente (ou crie um novo) e **vá para** a aba **"Seleção de Fluxo e Prompt"**.
-    ![](./images/product-filtering-for-content-generation/M8M8DSbeTwyMCzVdPZg-AgTrZhknUKlMaA.png)
+    ![](/img/kb/data-import-and-quality/product-filtering-for-content-generation/M8M8DSbeTwyMCzVdPZg-AgTrZhknUKlMaA.png)
 
 2.  **Catálogo de Produtos:**
     2.1 Habilite a opção **"Filtro avançado"**. Isso abre um painel onde você pode adicionar **"Adicionar condição"** e **"Adicionar grupo de condições"** para lógica complexa.
-    ![](./images/product-filtering-for-content-generation/PCVDp6xbmqaVBtncYNWlb_f76UC2MmUI-g.png)
-    ![](./images/product-filtering-for-content-generation/IOHTRc5oV_-sARYVDZ-D0orkvhDrAYcI8A.png)
-    ![](./images/product-filtering-for-content-generation/R1pQBNQNg8sWQ-DUNYyn1nSlXHg750rAUg.png)
+    ![](/img/kb/data-import-and-quality/product-filtering-for-content-generation/PCVDp6xbmqaVBtncYNWlb_f76UC2MmUI-g.png)
+    ![](/img/kb/data-import-and-quality/product-filtering-for-content-generation/IOHTRc5oV_-sARYVDZ-D0orkvhDrAYcI8A.png)
+    ![](/img/kb/data-import-and-quality/product-filtering-for-content-generation/R1pQBNQNg8sWQ-DUNYyn1nSlXHg750rAUg.png)
         2.2 **Filtragem Inline:** Filtre produtos usando campos de entrada ou listas suspensas localizadas diretamente nos cabeçalhos das colunas da tabela de produtos (disponível para atributos com a opção **Filtrável** habilitada).
-    ![](./images/product-filtering-for-content-generation/AgXgNaluOPoF0zxvvmWoytasp0fhtnppLg.png)
+    ![](/img/kb/data-import-and-quality/product-filtering-for-content-generation/AgXgNaluOPoF0zxvvmWoytasp0fhtnppLg.png)
 
 3.  _**Importante:** No Catálogo, você pode combinar filtros inline aplicando condições a várias colunas simultaneamente (por exemplo, filtrando por **SKU** **E** por **Marca**)._
 
@@ -73,7 +73,7 @@ Este tipo especial de filtragem está disponível no **Catálogo** através do f
 
 2.  **Imagem Ausente:** Mostrar apenas produtos para os quais uma imagem está ausente.
 
-![](./images/product-filtering-for-content-generation/8QgVAeRUMysJuzJ8692EqmUBXsfxeJ-Leg.png)
+![](/img/kb/data-import-and-quality/product-filtering-for-content-generation/8QgVAeRUMysJuzJ8692EqmUBXsfxeJ-Leg.png)
 
 ### 5\. Agrupamento de Condições (Lógica Avançada)
 

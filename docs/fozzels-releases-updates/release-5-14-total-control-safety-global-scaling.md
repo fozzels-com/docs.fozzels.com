@@ -22,9 +22,9 @@ Never fear losing a great idea or your original product description again.
 -   **GitHub-Style Comparison:** We’ve added a dedicated comparison mode where changes are highlighted. See exactly what was added, removed, or modified between any two versions.
 
 -   **Instant Restore:** Find the version you like best? Simply hit "Apply" to set it as the final result and prepare it for synchronization.
-    ![](./images/release-5-14-total-control-safety-global-scaling/ftjZSeWj8ZmiGEJSD0J5msqJmzHI42GRcQ.png)
+    ![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/ftjZSeWj8ZmiGEJSD0J5msqJmzHI42GRcQ.png)
 
-### ![](./images/release-5-14-total-control-safety-global-scaling/o4wyKSA37qAs86zH7062F7FDpxuQSMCDOw.png)
+### ![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/o4wyKSA37qAs86zH7062F7FDpxuQSMCDOw.png)
 
 ###
 
@@ -38,19 +38,19 @@ We’ve adapted the platform to fit your local rhythm and international market d
 
 -   **Localized Interface:** Stop calculating UTC offsets. Set your preferred time zone in your profile, and every log, schedule, and timestamp across the Fozzels UI will reflect your local time.
 
-### ![](./images/release-5-14-total-control-safety-global-scaling/r3azU1Ib34ZclmzFNk_Zq7SICltm5fXptA.png)
+### ![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/r3azU1Ib34ZclmzFNk_Zq7SICltm5fXptA.png)
 
 ###
 
-### ![](./images/release-5-14-total-control-safety-global-scaling/ca0pGrrJcmPpGFV95DEQCd36CcJisiZrkA.png)
+### ![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/ca0pGrrJcmPpGFV95DEQCd36CcJisiZrkA.png)
 
 ###
 
-### ![](./images/release-5-14-total-control-safety-global-scaling/Mk1ohtoHOSJosIZQ5zb-3zRlF752DHZwTQ.png)
+### ![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/Mk1ohtoHOSJosIZQ5zb-3zRlF752DHZwTQ.png)
 
 ###
 
-### ![](./images/release-5-14-total-control-safety-global-scaling/fTkJXbF6hWMtERPUZDr-nC2F7-b4SnUV8A.png)
+### ![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/fTkJXbF6hWMtERPUZDr-nC2F7-b4SnUV8A.png)
 
 ###
 
@@ -63,7 +63,7 @@ We’ve upgraded our "intellectual shield" to ensure your product pages remain p
 -   **Custom Trigger Lists:** You define the rules. Customize your own list of unwanted words or constructions at the integration level.
 
 -   **Smart Filtering:** The Daily Report now features a dedicated filter for "Suspicious Content," allowing you to isolate, fix, and sync flagged items in bulk within seconds.
-    ![](./images/release-5-14-total-control-safety-global-scaling/F2e5Uhg6gBllhtzhjzOHotT0t8KUFWY6kA.png)
+    ![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/F2e5Uhg6gBllhtzhjzOHotT0t8KUFWY6kA.png)
 
 ### 4\. Global Expansion: WPML Support for WooCommerce
 
@@ -72,7 +72,7 @@ Managing multilingual WordPress sites is now easier than ever.
 -   **One-Toggle Setup:** Activate WPML support in your settings, and Fozzels will automatically detect all website locales and languages.
 
 -   **Simultaneous Localization:** Generate unique, localized content for every language version simultaneously within a single integration.
-    ![](./images/release-5-14-total-control-safety-global-scaling/FUyaZLFhLaA0DvUMHxc6sSnV4I7ciiI54Q.png)
+    ![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/FUyaZLFhLaA0DvUMHxc6sSnV4I7ciiI54Q.png)
 
 ###
 

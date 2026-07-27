@@ -32,20 +32,20 @@ Implementamos uma lógica onde cada detalhe se baseia em características reais 
 
 -   **Pop-up de Regeneração Inteligente**: Se um resultado precisar de ajuste, você pode atualizar o prompt ou adicionar novos atributos diretamente no pop-up de regeneração sem alterar as configurações principais do fluxo.
 
-![](./images/release-7-0-total-automation-deep-personalization-infinite-scale/bzqIt2okOqlFDpJ9s62L7JPk3nA0TBO5dQ.png)
+![](/img/kb/fozzels-releases-updates/release-7-0-total-automation-deep-personalization-infinite-scale/bzqIt2okOqlFDpJ9s62L7JPk3nA0TBO5dQ.png)
 
 ### 3\. Virtual Try-On e Criatividade Visual: Novos Horizontes para Sua Imaginação
 
 Não apenas adicionamos novos modelos - fornecemos as ferramentas para criar um universo visual único para sua marca. Este é um espaço onde a precisão tecnológica encontra sua visão criativa.
 
 -   **Gemini Virtual Try-On**: Este é um verdadeiro avanço no segmento de Moda. Agora você pode criar imagens fotorrealistas de como as roupas ficam em uma pessoa real usando apenas uma foto do produto e um preset de modelo selecionado. A IA meticulosamente reproduz textura de tecido, sombras e ajuste natural, permitindo criação de conteúdo profissional sem fotografia complexa.
-    ![](./images/release-7-0-total-automation-deep-personalization-infinite-scale/dKB8v-Q5D7vYV9Woh29Fmh1YwMF3T_fZ1A.png)
+    ![](/img/kb/fozzels-releases-updates/release-7-0-total-automation-deep-personalization-infinite-scale/dKB8v-Q5D7vYV9Woh29Fmh1YwMF3T_fZ1A.png)
 
 -   **Criatividade Ilimitada com Presets 2.0**: Expandimos o limite de referência para 13 imagens simultaneamente. Este é seu mood board digital: carregue fotos com iluminação específica, ângulos ou esquemas de cor. A IA sincroniza esses detalhes, criando uma história visual coerente que corresponde perfeitamente ao DNA de sua marca.
-    ![](./images/release-7-0-total-automation-deep-personalization-infinite-scale/ZGKdvyEiSR5ysuGlNAMUAuj-9G2WAuU8ig.png)
+    ![](/img/kb/fozzels-releases-updates/release-7-0-total-automation-deep-personalization-infinite-scale/ZGKdvyEiSR5ysuGlNAMUAuj-9G2WAuU8ig.png)
 
 -   **Visualização Interativa (Grade Específica de Modelo)**: Para cada modelo, incluindo o avançado **Gemini 3.1 Flash** ou **Nano Banana 2 ou Pro**, o sistema gera automaticamente uma grade de formato conveniente. Você pode avaliar visualmente a resolução e proporções e ver imediatamente uma estimativa de custo de recursos antes de clicar em "Gerar".
-    ![](./images/release-7-0-total-automation-deep-personalization-infinite-scale/fIfzSL0NKdguOVGwIV3nrX82MRsk45bc6Q.png)
+    ![](/img/kb/fozzels-releases-updates/release-7-0-total-automation-deep-personalization-infinite-scale/fIfzSL0NKdguOVGwIV3nrX82MRsk45bc6Q.png)
 
 -   **Criatividade como Estratégia**: Agora você pode experimentar estilos, fundos e apresentações de produtos em minutos. Isso permite que sua marca permaneça relevante, reaja instantaneamente a tendências e crie conteúdo chamativo sem passar semanas em preparação.
 

@@ -25,7 +25,7 @@ Fozzels comes pre-configured with common AI artifacts (`#html`, `note:`, `sorry`
 
 -   **Multilingual Support:** You can add "stop-words" in any language. This is incredibly useful for international stores where you need to track specific errors for different localizations (e.g., English "sorry" vs. Dutch "let op") at the same time.
 
-![](./images/suspicious-words-phrases-advanced-content-quality-control/NHbocGjhOveF2KEQmoSh5o7YOuzzP33eaA.png)
+![](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/NHbocGjhOveF2KEQmoSh5o7YOuzzP33eaA.png)
 
 ## How It Works: Dynamic Status Management
 
@@ -45,7 +45,7 @@ The true power of this feature lies in its dynamic nature. If a "Suspicious" sta
 
 2.  The system **instantly updates the status** for all existing completions. They will lose the "Suspicious" flag and become ready for mass synchronization immediately.
 
-![](./images/suspicious-words-phrases-advanced-content-quality-control/bnDUh3Fj25UmysKHVdUAyM4Kh5Ev2TWvzg.png)
+![](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/bnDUh3Fj25UmysKHVdUAyM4Kh5Ev2TWvzg.png)
 
 ##
 Efficiency in the Daily Total Batch List

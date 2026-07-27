@@ -20,7 +20,7 @@ A tabela principal fornece uma visão geral de todos os modelos criados.
 Cada entrada inclui: o identificador único (ID), o tipo de regra de modelo (Tipo, atualmente apenas Atributo de Produto está disponível), o atributo de produto ao qual o prompt é vinculado (Atributo, por exemplo, descrições, meta títulos), o nome do modelo (Nome), o texto do prompt real e um ícone Compartilhado, indicando se o modelo é visível e compartilhado entre outros usuários em seu projeto.
 
 As ações disponíveis incluem: Visualizar, Editar e Deletar.
-![](./images/resources-prompt-templates-locating-and-using-saved-templates/5LRXIMOwIb-G8vgFQIGjxXsovlESPjZRYA.png)
+![](/img/kb/account-core-resources/resources-prompt-templates-locating-and-using-saved-templates/5LRXIMOwIb-G8vgFQIGjxXsovlESPjZRYA.png)
 
 Localizando e Filtrando Modelos
 
@@ -38,7 +38,7 @@ Clicar em qualquer célula dentro da coluna **Prompt** abre uma janela modal exi
 -   O botão Copiar para Área de Transferência, que copia o texto completo do prompt para uso externo ou edição.
 
 -   O botão Fechar, que fecha a janela modal.
-    ![](./images/resources-prompt-templates-locating-and-using-saved-templates/_NS3hQVxBRRo9EBlkjZjD9wrjEloxWjA3A.png)
+    ![](/img/kb/account-core-resources/resources-prompt-templates-locating-and-using-saved-templates/_NS3hQVxBRRo9EBlkjZjD9wrjEloxWjA3A.png)
 
 Criando um Novo Modelo de Prompt
 
@@ -51,7 +51,7 @@ Para criar um novo modelo, clique no botão **Novo Modelo de Prompt** no topo da
 3.  **Tipo** (Obrigatório): Selecione o tipo de regra. Atualmente, apenas Atributo de Produto está disponível.
 
 4.  **Modelo** (Obrigatório): Insira o conteúdo do prompt principal aqui. Este texto, combinado com variáveis dinâmicas (por exemplo, $marca, se $cor), forma a instrução enviada à IA para geração.
-    ![](./images/resources-prompt-templates-locating-and-using-saved-templates/MqPK3HDwXl7cBuruSGQhTcI2GMYLzXfHOQ.png)
+    ![](/img/kb/account-core-resources/resources-prompt-templates-locating-and-using-saved-templates/MqPK3HDwXl7cBuruSGQhTcI2GMYLzXfHOQ.png)
 
 Lógica de Prompt e Melhores Práticas
 

@@ -64,7 +64,7 @@ Step 4: Start a New Integration
 2.  Navigate to the **Integrations** tab.
 3.  Click **Create New Integration**.
 4.  Select **Akeneo**.
-    ![](./images/connecting-fozzels-to-akeneo-the-complete-setup-guide/H4jUsBP_CVGytKdGvILnXxxrewyuDwsEwA.png)
+    ![](/img/kb/integration-connectivity/connecting-fozzels-to-akeneo-the-complete-setup-guide/H4jUsBP_CVGytKdGvILnXxxrewyuDwsEwA.png)
 
 Step 5: Fill In Configuration Fields
 
@@ -75,7 +75,7 @@ On the integration setup page, fill in the following fields:
 -   **OUT connection (Data FROM Akeneo):** paste the credentials from the **Fozzels OUT** connection you created in Step 3
 -   **IN connection (Data TO Akeneo):** paste the credentials from the **Fozzels IN** connection you created in Step 2
 
-![](./images/connecting-fozzels-to-akeneo-the-complete-setup-guide/E3PznnpS3GxByBNHd8CfP3zkzZahhRaBWw.png)
+![](/img/kb/integration-connectivity/connecting-fozzels-to-akeneo-the-complete-setup-guide/E3PznnpS3GxByBNHd8CfP3zkzZahhRaBWw.png)
 Step 6: Save the Integration
 
 1.  Click the **Save** button at the bottom of the page.

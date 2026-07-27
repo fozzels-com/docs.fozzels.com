@@ -34,17 +34,17 @@ Certifique-se de que o plugin de SEO principal está ativo em seu site WooCommer
 1.  Faça login em seu Painel de Administração WordPress.
 
 2.  Navegue até **Plugins** > **Installed Plugins**.
-    ![](./images/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/lbncmRXXt5L0Woq-8hIeA8XIrhIO4yCdhA.png)
+    ![](/img/kb/integration-connectivity/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/lbncmRXXt5L0Woq-8hIeA8XIrhIO4yCdhA.png)
 
 3.  Localize **All in One SEO** na lista:
 
 -   Se desabilitado, clique em **Activate**.
 
     -   Se ativo, você pode clicar em **Check this plugin** para verificar seu status e configurações atuais.
-        ![](./images/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/5q_-m07C0l66Y1y8tZMlv1uyERFDutkKw.png)
+        ![](/img/kb/integration-connectivity/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/5q_-m07C0l66Y1y8tZMlv1uyERFDutkKw.png)
 
 4.  **Verifique os Campos:** Abra qualquer produto em **Products**. Role para baixo até o bloco **AIOSEO Settings**. Você deve ver os campos padrão para _Product Title_ e _Meta Description_.
-    ![](./images/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/4W7ZOYoadym76bmWhy2HAYsmk5KklKq6ZQ.png)
+    ![](/img/kb/integration-connectivity/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/4W7ZOYoadym76bmWhy2HAYsmk5KklKq6ZQ.png)
 
 ###
 Etapa 2: Instale o Plugin "AIOSEO API Sync by Fozzels"
@@ -54,12 +54,12 @@ Configurações padrão do AIOSEO apenas permitem que ferramentas externas leiam
 1.  Em seu menu WordPress, vá para **Plugins** > **Add Plugin**.
 
 2.  Clique em **Upload Plugin** no topo da página.
-    ![](./images/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/ZG-31kBmUBaPZlnqtypSNs9D7jSG46WyMw.png)
+    ![](/img/kb/integration-connectivity/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/ZG-31kBmUBaPZlnqtypSNs9D7jSG46WyMw.png)
 
-![](./images/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/fiS_w3svH6l0p23ej9ucBI9Az8vFWEzwTg.png)
+![](/img/kb/integration-connectivity/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/fiS_w3svH6l0p23ej9ucBI9Az8vFWEzwTg.png)
 
 3.  Selecione o arquivo ZIP fornecido (**AIOSEO API Sync by Fozzels**), clique em **Install Now** e depois em **Activate**.
-    ![](./images/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/fIwvpqBdF3ECGhP7YykBhDO6byfL9Jd1Mw.png)
+    ![](/img/kb/integration-connectivity/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/fIwvpqBdF3ECGhP7YykBhDO6byfL9Jd1Mw.png)
 
 4.  Este plugin habilita a transferência segura bidirecional de metadados de SEO via API do WordPress.
 
@@ -75,7 +75,7 @@ Ative a integração dentro da plataforma Fozzels:
 
 3.  Mude o toggle para **On e SALVE as alterações.**
 
-![](./images/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/axIH5QL6M4fRe0tX7YD6OrOJ0nDTbuxuzw.png)
+![](/img/kb/integration-connectivity/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/axIH5QL6M4fRe0tX7YD6OrOJ0nDTbuxuzw.png)
 
 ### Etapa 4: Identificação de Atributos de SEO
 
@@ -92,7 +92,7 @@ Uma vez ativados, todos os campos relacionados a SEO aparecerão automaticamente
 -   **Filterable**
 
 -   **Mídia Social:** Você também pode gerenciar visualizações sociais via atributos como `_aioseo_twitter_title` ou `_aioseo_og_title`.
-    ![](./images/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/5cwx5hdb55GXqa3DZHBqsSsqPrvgUZnq2w.png)
+    ![](/img/kb/integration-connectivity/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/5cwx5hdb55GXqa3DZHBqsSsqPrvgUZnq2w.png)
 
 ### Etapa 5: Content Flows e Sincronização
 

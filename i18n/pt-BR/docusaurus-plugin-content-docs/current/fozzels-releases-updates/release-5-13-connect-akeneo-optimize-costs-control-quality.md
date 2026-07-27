@@ -19,7 +19,7 @@ Expandimos nosso ecossistema para suportar **Akeneo**, um sistema de Gerenciamen
 -   **Escalabilidade Corporativa:** Conecte perfeitamente seu Akeneo PIM ao Fozzels para automatizar o enriquecimento de conteúdo para milhares de SKUs, mantendo a integridade dos dados do produto principal.
 
 -   **Sincronização Perfeita:** Mapeie estruturas de atributos complexas diretamente para nossos fluxos de IA para um fluxo de trabalho de dados unificado.
-    ![](./images/release-5-13-connect-akeneo-optimize-costs-control-quality/RyP45s-aFn544MfTLAtqzhEMIfE7bv9q4w.png)
+    ![](/img/kb/fozzels-releases-updates/release-5-13-connect-akeneo-optimize-costs-control-quality/RyP45s-aFn544MfTLAtqzhEMIfE7bv9q4w.png)
 
 ### **2\. Eficiência de Custos: Cache Inteligente de Mídia**
 

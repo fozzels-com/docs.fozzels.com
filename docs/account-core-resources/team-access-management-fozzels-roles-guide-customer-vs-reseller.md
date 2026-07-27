@@ -37,30 +37,30 @@ The connection between accounts is established via an invitation, which is **alw
 1.  **Role and Account Preparation:** Your colleague creates an account and obtains the Reseller role (by contacting Fozzels administrators).
 
 2.  **Invitation Tool Selection (Reseller Action):** The Reseller navigates to the **'Customers'** tab and selects **"New invitation"**.
-    ![](./images/team-access-management-fozzels-roles-guide-customer-vs-reseller/8_OheAOV-zWzEO2V2EbgtnGCGEONZXP7QA.png)
+    ![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/8_OheAOV-zWzEO2V2EbgtnGCGEONZXP7QA.png)
 
 3.  **Invitation Initiation (Reseller Action):**
 
 -   The Reseller enters your Customer account's Email into the **"Send Reseller Invitation"** pop-up and clicks **'Invite'**.
 
     -   **Result:** The Reseller sees the "Success" notification. In the 'Customers' table, the record for your account appears as **pending** (Verified: ❌). The Reseller also receives an email confirming the request has been sent.
-        ![](./images/team-access-management-fozzels-roles-guide-customer-vs-reseller/McV18IopZUnGCcH9fQEhTVk0aHKc7cThOQ.png)
+        ![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/McV18IopZUnGCcH9fQEhTVk0aHKc7cThOQ.png)
 
 4.  **Finalization and Activation (Customer Actions):**
 
 -   You (the Customer) receive an email with an access warning and click **"Accept Invitation"**.
 
     -   **Result:** The **Customer Control** icon appears in your header. The Reseller refreshes the page, sees **✅ Verified**, and the **"Impersonate"** button.
-        ![](./images/team-access-management-fozzels-roles-guide-customer-vs-reseller/iYodO_1wbFDJx3vZm5EpofGG_fL8OsFqwQ.png)
+        ![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/iYodO_1wbFDJx3vZm5EpofGG_fL8OsFqwQ.png)
 
-![](./images/team-access-management-fozzels-roles-guide-customer-vs-reseller/GPhuYGwM2TMwRMJ2Y-rOzT4Cv6QK-bQ0iw.png)
+![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/GPhuYGwM2TMwRMJ2Y-rOzT4Cv6QK-bQ0iw.png)
 
-![](./images/team-access-management-fozzels-roles-guide-customer-vs-reseller/mKMQyhtodo5204bprF1OVIW-uYbgxPYJXw.png)
+![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/mKMQyhtodo5204bprF1OVIW-uYbgxPYJXw.png)
 
-![](./images/team-access-management-fozzels-roles-guide-customer-vs-reseller/27tRV3zXZo-Sd-xnfdD2Npqj9U3_8fWR5A.png)
+![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/27tRV3zXZo-Sd-xnfdD2Npqj9U3_8fWR5A.png)
 
 ###
-![](./images/team-access-management-fozzels-roles-guide-customer-vs-reseller/qLafAoXrVGuUXACbhMPMEvQ7Gjf7Xg2kCw.png)
+![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/qLafAoXrVGuUXACbhMPMEvQ7Gjf7Xg2kCw.png)
 
 Scenario B: "We are a new team; how should we start?"
 
@@ -71,12 +71,12 @@ Scenario B: "We are a new team; how should we start?"
 2.  **Customer Creation (Reseller Action):**
 
     -   The Reseller selects **"New Customer"** on the 'Customers' tab.
-        ![](./images/team-access-management-fozzels-roles-guide-customer-vs-reseller/oYIs49AncfmABn90cBQtHIGuXk2HrbrVxw.png)
+        ![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/oYIs49AncfmABn90cBQtHIGuXk2HrbrVxw.png)
 
 -   In the **"Send New Customer Invitation"** pop-up, the Reseller fills in the data (Name, Company Name, E-mail) and clicks **'Invite'**.
 
     -   **Result:** A new record appears in the 'Customers' table with a **"Pending invitation"** label.
-        ![](./images/team-access-management-fozzels-roles-guide-customer-vs-reseller/l1eCmd-3F6KsiAofXve7As354yDBG0xTfg.png)
+        ![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/l1eCmd-3F6KsiAofXve7As354yDBG0xTfg.png)
 
 3.  **Customer Account Activation (New User Action):**
 
@@ -85,7 +85,7 @@ Scenario B: "We are a new team; how should we start?"
 -   The user clicks **"Join Now"**, is redirected to Fozzels, **sets a password**, and **must finalize their account setup**.
 
 4.  **Start of Work:** Once the new user completes the setup, their account becomes available to the Reseller. The Reseller will see the new Customer data, along with the **"Impersonate"** and **"Delete"** buttons.
-    ![](./images/team-access-management-fozzels-roles-guide-customer-vs-reseller/nyFMT1WCwU8yZ1p_dG224AX8Ogyy1rLBlg.png)
+    ![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/nyFMT1WCwU8yZ1p_dG224AX8Ogyy1rLBlg.png)
 
 ## 3\. Key Tool: Impersonate (Full Access and Management)
 

@@ -26,7 +26,7 @@ Duplication allows you to reuse comprehensive configurations (filters, prompts, 
 
 4.  **Select** **"Duplicate"** from the dropdown menu.
 
-![](./images/managing-flows-duplication-archiving-and-deletion/SQ3APzXi6qMf8Vz9_U8bAVr6_tdKhvNCRg.png)
+![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/SQ3APzXi6qMf8Vz9_U8bAVr6_tdKhvNCRg.png)
 
 ####
 1.2. Store Selection (If Applicable)
@@ -34,12 +34,12 @@ Duplication allows you to reuse comprehensive configurations (filters, prompts, 
 -   **Single Store Integration:** If only one store is integrated, the duplicate Flow is created immediately.
 
 -   **Multiple Store Integration:** If multiple stores are linked, a pop-up appears. You must **select the target store** for which the new Flow will be created, and then **click "Duplicate"**.
-    ![](./images/managing-flows-duplication-archiving-and-deletion/qtwYWP_c4W7aBzd49RLMNik4Pgdse79-yQ.png)
+    ![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/qtwYWP_c4W7aBzd49RLMNik4Pgdse79-yQ.png)
 
 #### 1.3. Flow Naming Convention
 
 -   The duplicated Flow will automatically have the text **(duplicate)** added to its name to clearly distinguish it from the original Flow.
-    ![](./images/managing-flows-duplication-archiving-and-deletion/LfO44gQa0Ba6tGFg-nMgCyE6mCfT_c99MQ.png)
+    ![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/LfO44gQa0Ba6tGFg-nMgCyE6mCfT_c99MQ.png)
 
 #### 1.4. Inherited Settings (What is Cloned)
 
@@ -63,16 +63,16 @@ Archiving allows you to temporarily hide a Flow from the main active list, usual
 
 4.  Archived Flows are moved to a separate location, accessible via the **"Archive"** button on the main Flows page.
 
-![](./images/managing-flows-duplication-archiving-and-deletion/jhuJATuiVcYqLgL-2-ggTsKKXGOIFOj3fQ.png)
+![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/jhuJATuiVcYqLgL-2-ggTsKKXGOIFOj3fQ.png)
 
-![](./images/managing-flows-duplication-archiving-and-deletion/PRkxwqVNLhu-MtRt9BjGFa7Gg_0W_j20Ww.png)
+![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/PRkxwqVNLhu-MtRt9BjGFa7Gg_0W_j20Ww.png)
 
 #### 2.1. Managing Archived Flows
 
 -   **Restore:** In the **Archived flows** section, you can restore an archived flow back to the main active list by clicking **"Restore"**.
 
 -   **Delete:** You can also choose to permanently delete an archived flow by clicking **"Delete"**.
-    ![](./images/managing-flows-duplication-archiving-and-deletion/J17t4SXZjsrIDu1Gi7xnOOzaIieIR_OoSQ.png)
+    ![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/J17t4SXZjsrIDu1Gi7xnOOzaIieIR_OoSQ.png)
 
 ### 3\. Deleting a Content Flow
 
@@ -85,6 +85,6 @@ Deletion permanently removes a Flow from the system.
 3.  **Select** **"Delete"** from the dropdown menu.
 
 4.  **Confirm** the deletion in the resulting pop-up.
-    ![](./images/managing-flows-duplication-archiving-and-deletion/XzaWMHcYgI8ml6u0QTYw0O9LE9UbbWrakg.png)
+    ![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/XzaWMHcYgI8ml6u0QTYw0O9LE9UbbWrakg.png)
 
 -   **Permanent Action:** Once a Flow is deleted, it **cannot be restored**. If you may need the Flow again in the future, use the **Archiving** function instead.

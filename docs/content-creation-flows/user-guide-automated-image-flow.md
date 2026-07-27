@@ -18,10 +18,10 @@ description: >-
 This tab handles the basic identity and connection of your automation. There are two primary ways to initiate a new flow:
 
 -   **Option A: Via the Image Flows Menu** - Navigate to the **Image Flows** section in the top navigation bar and click the **New Image Flow** button. Select your Integration, Website, and Store sequentially from the dropdown menus.
-    ![](./images/user-guide-automated-image-flow/aGysMRzpl5ijAiHFUH5TFnasSdIEP1py9w.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/aGysMRzpl5ijAiHFUH5TFnasSdIEP1py9w.png)
 
 -   **Option B: From the Product Catalog** - In the **Catalog → Products** section, filter the products you wish to process, select them, and click **Actions → Create Image Flow**. This method is faster as it automatically pre-fills your store and product selection context.
-    ![](./images/user-guide-automated-image-flow/WVP7KcJNwsPTLqIzLSQQwGsAoBCdxAdqLg.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/WVP7KcJNwsPTLqIzLSQQwGsAoBCdxAdqLg.png)
 
 **Essential Steps:**
 
@@ -29,7 +29,7 @@ This tab handles the basic identity and connection of your automation. There are
 
 2.  **Save your progress:** Any changes made to the flow name or store selection must be confirmed by clicking the **Submit** button at the bottom of the page.
 
-![](./images/user-guide-automated-image-flow/XUm-rzBUqRa_mFIUflBlrrZlaYzDnRHgMw.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/XUm-rzBUqRa_mFIUflBlrrZlaYzDnRHgMw.png)
 
 ##
 2\. AI Configuration (Tab 2)
@@ -48,9 +48,9 @@ When selecting the **GPT Image 1** model, you have access to the following param
 
 -   **Technical Limits**: The maximum input file size for GPT is **50 MB**.
 
-![](./images/user-guide-automated-image-flow/6Id3aPkXYEb0MEhxve0-510480uvgB2VrA.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/6Id3aPkXYEb0MEhxve0-510480uvgB2VrA.png)
 
-### ![](./images/user-guide-automated-image-flow/5NYWCV_4Lb3wxJ4MwkVOe96Mk4o5LU4NVg.png)![](./images/user-guide-automated-image-flow/oiDXnZOLp3NVu3waNL4ZREtyriHjNEvGgQ.png)![](./images/user-guide-automated-image-flow/eQxo8gJitU9Q5Zp7y3BE4FljSNrHhgqITw.png)Google | Gemini
+### ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/5NYWCV_4Lb3wxJ4MwkVOe96Mk4o5LU4NVg.png)![](/img/kb/content-creation-flows/user-guide-automated-image-flow/oiDXnZOLp3NVu3waNL4ZREtyriHjNEvGgQ.png)![](/img/kb/content-creation-flows/user-guide-automated-image-flow/eQxo8gJitU9Q5Zp7y3BE4FljSNrHhgqITw.png)Google | Gemini
 
 Gemini models utilize an interactive **Output format** grid for precise control over your results.
 
@@ -63,7 +63,7 @@ Gemini models utilize an interactive **Output format** grid for precise control 
 -   **Virtual Try-On**: A specialized model for fashion.
 **Note:** For this model, the output grid is disabled as the system automatically uses a fixed, optimized format to ensure realistic garment fitting.
 
-![](./images/user-guide-automated-image-flow/Ydm8oxLyvSgZ7H_x5R1Uf0kb_u7RxmIXRw.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/Ydm8oxLyvSgZ7H_x5R1Uf0kb_u7RxmIXRw.png)
 
 > To learn more about AI models and their specific technical capabilities, please read more here \[link to be added\].
 
@@ -81,11 +81,11 @@ The grid allows you to define the exact "shape" and quality of your generated im
 
 **⚠️ Reminder:** Ensure you click the **Save** button after selecting your model and output settings to store these preferences. Your flow will not apply these changes unless they are saved.
 
-![](./images/user-guide-automated-image-flow/gkfM9PdTV36LEV-UL7SN9obfvD3AOKt7_Q.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/gkfM9PdTV36LEV-UL7SN9obfvD3AOKt7_Q.png)
 
 ##
 3\. Flow Selection & Prompt (Tab 3)
-![](./images/user-guide-automated-image-flow/H3B5OOvEGyTufKlUAsFd_uzfwAVXLbVcEA.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/H3B5OOvEGyTufKlUAsFd_uzfwAVXLbVcEA.png)
 
 This tab is the heart of your content creation. The first and most critical step is configuring your **Presets**.
 
@@ -99,7 +99,7 @@ Presets are visual reference images that act as instructions for the AI. They es
 >
 
 ####
-![](./images/user-guide-automated-image-flow/FJlYttezkuyQFvSp16LDTSwFhOa5MFopmw.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/FJlYttezkuyQFvSp16LDTSwFhOa5MFopmw.png)
 **1\. Limits and Capacity**
 
 At the top of the block, you will see a counter (e.g., **8/13**).
@@ -123,7 +123,7 @@ Click the **"Add preset"** button to choose a type. Use the **Filter System** to
 -   **Image Selection:** Once you find a representative product, you can select **any of its images** (e.g., a back view or a close-up). Simply mark the desired image with a **green checkmark** and save.
 
 -   **Image:** Used for textures, logos, or specific branding elements.
-    ![](./images/user-guide-automated-image-flow/UBYhntqBETFRErz_N1DJPPrNu8VI8_uh-A.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/UBYhntqBETFRErz_N1DJPPrNu8VI8_uh-A.png)
 
 ####
 **3\. Uploading Your Own Assets (+ Add)**
@@ -135,7 +135,7 @@ If you upload your own image (for Model, Scene, or Image types) via the **\+ Add
 #### **4\. Deleting and Finalizing**
 
 -   To remove a reference, click the **trash icon** on the preset card.
-    ![](./images/user-guide-automated-image-flow/i37UkovmY_SDzeW_4IjJEJGW6g7337yjEg.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/i37UkovmY_SDzeW_4IjJEJGW6g7337yjEg.png)
 
 -   **Important:** After adding or removing presets, you **MUST** click the **Save** button at the bottom of the page. The AI assistant will not recognize the updated reference set until the changes are saved.
 
@@ -158,7 +158,7 @@ The block displays a grid of your product cards.
 
 -   To change it, simply select a different photo and click **Save** in the pop-up.
 
-#### ![](./images/user-guide-automated-image-flow/BsDYOnyD0cPg_dl35r0HT6YgOmKmffLBWQ.png)
+#### ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/BsDYOnyD0cPg_dl35r0HT6YgOmKmffLBWQ.png)
 **2\. Requirements: Products with Images**
 
 Products that **do not have any images** in your database are automatically excluded from this block. AI generation through flows requires a visual base to function correctly.
@@ -166,7 +166,7 @@ Products that **do not have any images** in your database are automatically excl
 #### **3\. Using Filters (Conditions)**
 
 To select a specific group of products (e.g., only "Dresses" from a specific brand), use the filter block. The logic functions identically to the main **Catalog** section. Only products meeting these criteria will remain in the flow.
-![](./images/user-guide-automated-image-flow/c_yGlTAqTpbYt9K8gCiBwMDPPLqEkUbqUQ.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/c_yGlTAqTpbYt9K8gCiBwMDPPLqEkUbqUQ.png)
 
 #### **4\. Manual Set Management**
 
@@ -177,7 +177,7 @@ You can further refine your list after applying filters using the following cont
 -   ✅ **Include only selected:** Check specific products you want to keep; all others will be removed from the flow.
 
 -   **Refresh Button:** If you make a mistake during manual selection, click **Refresh**. This resets the set back to the state defined by your filters, undoing any manual "Exclude" or "Include" actions.
-    ![](./images/user-guide-automated-image-flow/ekGLld7o3QbwkYFOEmsqTUrlioP8xJlXtA.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/ekGLld7o3QbwkYFOEmsqTUrlioP8xJlXtA.png)
 
 #### **5\. Dynamic Catalog Synchronization**
 
@@ -232,12 +232,12 @@ Switch to the **Attributes (if filled)** tab to see exactly which data is curren
 
 **⚠️ Final Step for Tab 3:** After finalizing your prompt click the **Save** button. This action links your presets, product selection, and prompt instructions into a single functional automation.
 
-![](./images/user-guide-automated-image-flow/9UcxVcuz2XFcQkCC4qSqfhHb7P0EZOtl3w.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/9UcxVcuz2XFcQkCC4qSqfhHb7P0EZOtl3w.png)
 
 ## ****4\. Automation (Tab 4)****
 
 The **Automation** tab serves as the "Control Tower" for your flow. This is where you define the pace of content creation, manage publishing policies, and officially launch the generation process.
-![](./images/user-guide-automated-image-flow/FYJ_qkFMdxjFIhXpgfz3GkHZs7AhNpgpwA.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/FYJ_qkFMdxjFIhXpgfz3GkHZs7AhNpgpwA.png)
 
 ### **1\. Daily Processing Limits**
 
@@ -297,7 +297,7 @@ Here is the complete guide for the **Batch List** section in English, incorporat
 **Batch List**
 
 The **Batch List** is your hub for quality control and moderation. Every flow execution (whether automatic or manual via the _Run Now_ button) creates a new batch entry in the list on the left.
-![](./images/user-guide-automated-image-flow/LIJVpWk3sHHmcIRCOQIvCJACgNLRBBIHRw.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/LIJVpWk3sHHmcIRCOQIvCJACgNLRBBIHRw.png)
 
 ### **1\. Navigation and Monitoring**
 
@@ -318,13 +318,13 @@ The main table on the right displays the outcomes for each specific product:
 -   **Results**: The generated image. Hovering over the photo reveals quick-action buttons:
 
     -   **View (Eye icon)**: Opens the detailed inspection window.
-        ![](./images/user-guide-automated-image-flow/PExqbyx61jYHouA1Q6gS-Quy1Ea-rWQ9Iw.png)
+        ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/PExqbyx61jYHouA1Q6gS-Quy1Ea-rWQ9Iw.png)
 
     -   **Download (Arrow icon)**: Saves the file directly to your device.
-        ![](./images/user-guide-automated-image-flow/a8L2H8t07YmOsC9exAXCkS0ORMRCAR9ANA.png)
+        ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/a8L2H8t07YmOsC9exAXCkS0ORMRCAR9ANA.png)
 
     -   **Sync (Checkmark icon)**: Instantly sends this specific photo to your website.
-        ![](./images/user-guide-automated-image-flow/JnEq8veB5PUb88yklirTqpIJncbmCmtUNw.png)
+        ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/JnEq8veB5PUb88yklirTqpIJncbmCmtUNw.png)
 
 ###
 **3\. Inspection and Analysis (Completion View)**
@@ -336,9 +336,9 @@ Clicking **View** opens a window for final verification:
 -   **Right Panel**: Contains a column of all input data. The first image is always the original product photo, followed by a scrollable feed of all used presets (model references, backgrounds, etc.).
 
 -   **Completion Options**: The teal "eye" icon in the `Actions` column opens a pop-up with technical metadata: the specific AI model, resolution, and the full final prompt with dynamic attributes already filled in.
-    ![](./images/user-guide-automated-image-flow/AgSQKU_4s6dTTRl2n8Uh7u8u__XcDx23FA.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/AgSQKU_4s6dTTRl2n8Uh7u8u__XcDx23FA.png)
 
-![](./images/user-guide-automated-image-flow/fy3a6eQD7I0VTvO9a0bMe2FSSrBLMGe4_A.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/fy3a6eQD7I0VTvO9a0bMe2FSSrBLMGe4_A.png)
 
 ###
 **4\. Adjustments and Regeneration**
@@ -350,9 +350,9 @@ If you are not satisfied with a result, use the **Regenerate** icon (circular ar
 -   **No Limits**: You can regenerate an image as many times as necessary until you achieve the desired result.
 
 -   **⚠️ Important**: A new generation **permanently deletes** the previous version of the image.
-    ![](./images/user-guide-automated-image-flow/CEgHxH_y3eClyY2jxcXg1pAUpocdbFQwbQ.png)
+    ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/CEgHxH_y3eClyY2jxcXg1pAUpocdbFQwbQ.png)
 
-![](./images/user-guide-automated-image-flow/ipoM6y0fgh9G7Rpm1mmCt7mWXvyDn2JikQ.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/ipoM6y0fgh9G7Rpm1mmCt7mWXvyDn2JikQ.png)
 
 ###
 **5\. Store Synchronization**
@@ -366,7 +366,7 @@ Since full automation is currently disabled to ensure quality, you decide when t
 -   **⚠️ Warning**: Synchronization is **irreversible -** it cannot be canceled once initiated.
 
 ##
-![](./images/user-guide-automated-image-flow/c9uHBa_kSFHkR_YXg2rBCu-uOXq4xMWgVw.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/c9uHBa_kSFHkR_YXg2rBCu-uOXq4xMWgVw.png)
 
 ###
 **Good Luck and Happy Creating!**

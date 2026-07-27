@@ -23,28 +23,28 @@ Melhoramos a experiência do usuário para tornar o gerenciamento de catálogos 
 ### 1\. Gerenciamento de Catálogo e Dados
 
 -   **Catálogo Acelerado (Novos Padrões):** Uma nova regra de visibilidade de coluna foi implementada no Catálogo. Aproximadamente 20 dos atributos mais importantes agora estão habilitados por padrão. Isso **simplifica significativamente o fluxo de trabalho** e **aumenta a velocidade de carregamento** e desempenho de exibição de catálogos grandes.
-    ![](./images/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/lKkJYdOEv5IMFHk7r6Mhn2Iv7R--LD6Bcg.png)
+    ![](/img/kb/fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/lKkJYdOEv5IMFHk7r6Mhn2Iv7R--LD6Bcg.png)
 
 -   **Precisão de Atributos (Arredondamento DDP):** A lógica para exibir o Percentual de Densidade de Dados (DDP) foi atualizada. O valor DDP agora é arredondado para **três casas decimais**. Isso garante a exibição precisa de atributos com DDP muito baixo (por exemplo, 0,040%), eliminando confusão causada pelo arredondamento para zero.
 
 -
-    ![](./images/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/2LTShrMQn-AwHW8xdptY0MjbZobK0D0Iig.png)
+    ![](/img/kb/fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/2LTShrMQn-AwHW8xdptY0MjbZobK0D0Iig.png)
 
 -   **Máxima Clareza de Atributo:** O bloco "Obter dados de exemplo aleatório" agora exibe o **nome completo do site e da loja** (em vez de abreviações). Você sempre terá confiança sobre os dados específicos com os quais está trabalhando.
-    ![](./images/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/_WOgxMxdZL8LDJJL80org__eblNuAp-nIA.png)
+    ![](/img/kb/fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/_WOgxMxdZL8LDJJL80org__eblNuAp-nIA.png)
 
 -   **Navegação de Tabela Flexível:** As opções de paginação para listas de atributos foram expandidas: suportando 50, 75, 100, 150 e **"200"** elementos. Gerencie facilmente conjuntos de dados massivos.
-    ![](./images/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/VwedlrpwTbYE7jTtQJKiU84KWL28R-__Rg.png)
+    ![](/img/kb/fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/VwedlrpwTbYE7jTtQJKiU84KWL28R-__Rg.png)
 
 -   **Atualização Automática do Log de Catálogo:** Nas tabelas de log que rastreiam alterações no pool de produtos e atributos (**Lista de Log de Estado**), a função de atualização automática (**Atualizar a cada X segundos**) agora está **ativa por padrão**, aumentando a conveniência de rastrear processos ativos.
-    ![](./images/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/k7wJs0gU52ThkvU06NRQiNCb052rvZNB3A.png)
+    ![](/img/kb/fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/k7wJs0gU52ThkvU06NRQiNCb052rvZNB3A.png)
     2\. Geração e Fluxos de Trabalho (UX)
 
 -   **Acesso Instantâneo às Configurações:** Um ícone de olho **"Visualizar atributo"** foi adicionado à tabela da lista de Lotes, ao lado do Nome do Atributo. Isso fornece uma maneira mais rápida de verificar as configurações e a configuração do atributo.
-    ![](./images/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/EStHK3i08CDJYcXd9nmAO1KRhxknIufVZw.png)
+    ![](/img/kb/fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/EStHK3i08CDJYcXd9nmAO1KRhxknIufVZw.png)
 
 -   **Controle de Coluna em "Salvar e Visualizar":** O bloco **"Visibilidade de coluna"** foi adicionado à tabela de visualização (**Salvar e Visualizar**). Isso permite que você exiba apenas os atributos necessários, resolvendo problemas com tabelas excessivamente grandes.
-    ![](./images/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/2xUkAX-SxZ6mayNDh5A91b3m2AkKS4mDFw.png)
+    ![](/img/kb/fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/2xUkAX-SxZ6mayNDh5A91b3m2AkKS4mDFw.png)
 
 ###
 3\. Gerenciamento de Imagem e Qualidade Visual
@@ -56,15 +56,15 @@ Melhoramos a experiência do usuário para tornar o gerenciamento de catálogos 
 -   Filtros especiais permitem alternar entre imagens padrão e suas próprias imagens carregadas (classificação por **Origem**).
 
     -   A classificação por **Data de Upload** e **Nome** foi adicionada.
-        ![](./images/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/q6optXQOc2cONrSBq2hAYJmFT-kVtuUMIA.png)
-        ![](./images/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/9Y5ObdDOni2-uTSMx1mbIb9eIkLRaWSRdw.png)
+        ![](/img/kb/fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/q6optXQOc2cONrSBq2hAYJmFT-kVtuUMIA.png)
+        ![](/img/kb/fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/9Y5ObdDOni2-uTSMx1mbIb9eIkLRaWSRdw.png)
 
 -   **Clareza de Terminologia:** Para maior clareza, "Modelo de IA" nas configurações de Fluxo de Imagem foi renomeado para **"Modelo Preset"**.
 
 ### 4\. Operações em Massa Aceleradas
 
 -   **"Mostrar Selecionados" Com Todos os Recursos (Catálogo e Relatório Diário):** Melhoramos significativamente a função "Mostrar Selecionados". Agora, tanto no **Catálogo** quanto no **Relatório Diário**, a tabela de itens selecionados permite que você execute **todas as mesmas ações da tabela comum**: visualizar, filtrar e aplicar **Ações em Massa**.
-    ![](./images/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/wVzkPiDgjCcZCYtSpCXgXA8rfbX5fqysPw.png)
+    ![](/img/kb/fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/wVzkPiDgjCcZCYtSpCXgXA8rfbX5fqysPw.png)
 
 -   **Confiabilidade em Ações em Massa:** Corrigimos um pequeno problema que ocasionalmente fazia a grade permanecer vazia se nenhum item fosse selecionado. Trabalhar com ações em massa agora é ainda mais confiável.
 
