@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Account & Core Resources",
+    "slug": "account-core-resources",
+    "description": "",
+    "count": 9
+  },
+  {
+    "label": "Integration & Connectivity",
+    "slug": "integration-connectivity",
+    "description": "",
+    "count": 20
+  },
+  {
+    "label": "Data Import And Quality",
+    "slug": "data-import-and-quality",
+    "description": "",
+    "count": 8
+  },
+  {
+    "label": "Content Creation (Flows)",
+    "slug": "content-creation-flows",
+    "description": "",
+    "count": 26
+  },
+  {
+    "label": "Fozzels Releases & Updates",
+    "slug": "fozzels-releases-updates",
+    "description": "",
+    "count": 15
+  }
+]

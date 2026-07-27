@@ -28,3 +28,14 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/**
+ * The navbar logo is a wordmark, so the title next to it reads as part of the
+ * same line: give it a matching weight/size and nudge it onto the wordmark's
+ * optical centre.
+ */
+.navbar__title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  transform: translateY(2px);
+}

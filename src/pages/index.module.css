@@ -1,0 +1,162 @@
+/* Fozzels Help Center — landing page */
+
+.hero {
+  background: linear-gradient(135deg, #1ba0d8 0%, #22c07a 100%);
+  color: #fff;
+  padding: 4rem 1rem 3.5rem;
+  text-align: center;
+}
+
+.heroInner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.heroTitle {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  margin: 0 0 0.5rem;
+  color: #fff;
+}
+
+.heroSubtitle {
+  font-size: 1.1rem;
+  opacity: 0.95;
+  margin: 0 0 2rem;
+}
+
+.searchForm {
+  display: flex;
+  gap: 0.5rem;
+  max-width: 560px;
+  margin: 0 auto 1.5rem;
+}
+
+.searchInput {
+  flex: 1;
+  padding: 0.9rem 1.1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #1c1e21;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.searchButton {
+  padding: 0.9rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.searchButton:hover {
+  background: rgba(0, 0, 0, 0.32);
+}
+
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.actionPrimary,
+.actionSecondary {
+  display: inline-block;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.1s ease, box-shadow 0.15s ease;
+}
+
+.actionPrimary {
+  background: #fff;
+  color: #1ba0d8;
+}
+
+.actionSecondary {
+  background: transparent;
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.actionPrimary:hover,
+.actionSecondary:hover {
+  transform: translateY(-1px);
+  text-decoration: none;
+  color: #1ba0d8;
+}
+
+.actionSecondary:hover {
+  background: #fff;
+}
+
+.main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 1rem 4rem;
+}
+
+.sectionHeading {
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 0 0 2rem;
+  scroll-margin-top: 80px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  background: var(--ifm-background-surface-color);
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.12s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+  border-color: #22c07a;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cardIcon {
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 0.75rem;
+}
+
+.cardTitle {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0 0 0.4rem;
+}
+
+.cardDesc {
+  flex: 1;
+  font-size: 0.95rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0 0 1rem;
+}
+
+.cardCount {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1ba0d8;
+}

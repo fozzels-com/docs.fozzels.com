@@ -295,12 +295,11 @@ async function run() {
     writeFileSync(join(item.folderDir, `${item.slug}.md`), matter.stringify('\n' + body, frontmatter));
   }
 
-  // Landing page.
-  const list = sections.map((s) => `- **[${s.label}](/${s.slug})** — ${s.count} articles`).join('\n');
-  writeFileSync(join(DOCS_DIR, 'index.md'), matter.stringify(
-    `\nWelcome to the Fozzels Help Center. Choose a topic to get started:\n\n${list}\n`,
-    {slug: '/', title: 'Fozzels Help Center', sidebar_position: 0, hide_table_of_contents: true},
-  ));
+  // Section data for the custom homepage (src/pages/index.js renders the cards).
+  mkdirSync('src/data', {recursive: true});
+  writeFileSync('src/data/sections.json', JSON.stringify(
+    sections.map((s) => ({label: s.label, slug: s.slug, description: s.description || '', count: s.count})),
+    null, 2) + '\n');
 
   // Old -> new URL map for redirect rules.
   writeFileSync('freshdesk-url-map.json', JSON.stringify({
