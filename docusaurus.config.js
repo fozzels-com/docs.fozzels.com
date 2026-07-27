@@ -90,10 +90,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Fozzels Help Center',
+        title: 'Help Center',
         logo: {
           alt: 'Fozzels',
-          src: 'img/logo.svg',
+          src: 'img/fozzels-logo.png',
         },
         items: [
           {
