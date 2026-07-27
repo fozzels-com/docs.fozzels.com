@@ -1,0 +1,23 @@
+{
+  "homepage.metaTitle": {"message": "Central de Ajuda"},
+  "homepage.metaDescription": {"message": "Central de Ajuda do Fozzels — guias e documentação"},
+  "homepage.heroTitle": {"message": "Como podemos ajudar?"},
+  "homepage.heroSubtitle": {"message": "Pesquise nos nossos guias ou navegue por tópico abaixo."},
+  "homepage.searchPlaceholder": {"message": "Pesquisar na base de conhecimento…"},
+  "homepage.searchAria": {"message": "Pesquisar na base de conhecimento"},
+  "homepage.searchButton": {"message": "Pesquisar"},
+  "homepage.browseArticles": {"message": "Explorar artigos"},
+  "homepage.submitTicket": {"message": "Abrir um ticket"},
+  "homepage.browseByTopic": {"message": "Navegar por tópico"},
+  "homepage.articleCount": {"message": "{count} artigos"},
+  "section.account-core-resources.label": {"message": "Conta e recursos principais"},
+  "section.account-core-resources.blurb": {"message": "Cadastro, integração, cobrança, acesso da equipe e configurações da conta."},
+  "section.integration-connectivity.label": {"message": "Integração e conectividade"},
+  "section.integration-connectivity.blurb": {"message": "Conecte sua loja ou PIM — Shopify, WooCommerce, Magento, Akeneo e mais."},
+  "section.data-import-and-quality.label": {"message": "Importação de dados e qualidade"},
+  "section.data-import-and-quality.blurb": {"message": "Importe seu catálogo e mantenha os dados de produto limpos, completos e detalhados."},
+  "section.content-creation-flows.label": {"message": "Criação de conteúdo (Flows)"},
+  "section.content-creation-flows.blurb": {"message": "Crie fluxos de conteúdo com IA para texto, imagens e vídeo."},
+  "section.fozzels-releases-updates.label": {"message": "Lançamentos e atualizações do Fozzels"},
+  "section.fozzels-releases-updates.blurb": {"message": "Novidades — lançamentos de produto e atualizações de recursos."}
+}

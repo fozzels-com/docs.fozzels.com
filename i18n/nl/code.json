@@ -1,0 +1,23 @@
+{
+  "homepage.metaTitle": {"message": "Helpcentrum"},
+  "homepage.metaDescription": {"message": "Fozzels Helpcentrum — handleidingen en documentatie"},
+  "homepage.heroTitle": {"message": "Hoe kunnen we helpen?"},
+  "homepage.heroSubtitle": {"message": "Doorzoek onze handleidingen of blader hieronder per onderwerp."},
+  "homepage.searchPlaceholder": {"message": "Doorzoek de kennisbank…"},
+  "homepage.searchAria": {"message": "Doorzoek de kennisbank"},
+  "homepage.searchButton": {"message": "Zoeken"},
+  "homepage.browseArticles": {"message": "Artikelen bekijken"},
+  "homepage.submitTicket": {"message": "Ticket indienen"},
+  "homepage.browseByTopic": {"message": "Bladeren op onderwerp"},
+  "homepage.articleCount": {"message": "{count} artikelen"},
+  "section.account-core-resources.label": {"message": "Account & kernbronnen"},
+  "section.account-core-resources.blurb": {"message": "Aanmelden, onboarding, facturering, teamtoegang en accountinstellingen."},
+  "section.integration-connectivity.label": {"message": "Integratie & connectiviteit"},
+  "section.integration-connectivity.blurb": {"message": "Koppel je webshop of PIM — Shopify, WooCommerce, Magento, Akeneo en meer."},
+  "section.data-import-and-quality.label": {"message": "Gegevensimport & kwaliteit"},
+  "section.data-import-and-quality.blurb": {"message": "Importeer je catalogus en houd productdata schoon, volledig en compleet."},
+  "section.content-creation-flows.label": {"message": "Contentcreatie (Flows)"},
+  "section.content-creation-flows.blurb": {"message": "Bouw AI-contentflows voor tekst, afbeeldingen en video."},
+  "section.fozzels-releases-updates.label": {"message": "Fozzels-releases & updates"},
+  "section.fozzels-releases-updates.blurb": {"message": "Wat is er nieuw — productreleases en functie-updates."}
+}
