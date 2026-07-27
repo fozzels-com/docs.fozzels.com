@@ -25,7 +25,15 @@ const config = {
   organizationName: 'fozzels-com',
   projectName: 'docs.fozzels.com',
 
-  onBrokenLinks: 'throw',
+  // Imported content may reference the old portal or draft articles; warn
+  // instead of failing the build on those.
+  onBrokenLinks: 'warn',
+
+  // Imported Freshdesk content is .md — use the lenient CommonMark parser
+  // (raw HTML passes through, curly braces don't need escaping).
+  markdown: {
+    format: 'detect',
+  },
 
   i18n: {
     defaultLocale: 'en',
