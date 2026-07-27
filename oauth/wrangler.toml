@@ -1,0 +1,10 @@
+# Cloudflare Worker that handles the GitHub OAuth handshake for Sveltia CMS.
+# Deploy with: cd oauth && yarn install && yarn deploy
+# The GitHub Client ID/Secret are set as secrets (not here) — see README.md.
+name = "sveltia-cms-auth"
+main = "src/index.js"
+compatibility_date = "2023-03-24"
+
+[vars]
+# Only allow the CMS login to complete for our site's hostname.
+ALLOWED_DOMAINS = "fozzels-com.github.io"
