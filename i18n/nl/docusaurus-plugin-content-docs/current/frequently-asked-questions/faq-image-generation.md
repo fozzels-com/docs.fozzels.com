@@ -7,6 +7,7 @@ description: Gegenereerde afbeeldingen synchroniseren naar uw webshop, single-im
 keywords:
 - afbeeldingsflow
 - beeldflow
+- afbeeldingsstroom
 ---
 
 ## Hoe synchroniseer ik gegenereerde afbeeldingen naar mijn webshop?
