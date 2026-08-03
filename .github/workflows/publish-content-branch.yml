@@ -1,0 +1,70 @@
+name: Publish content branch
+
+# The AI assistant consumes this repo as a git submodule but reads only the
+# markdown. static/img is ~28 MB of screenshots it never serves, and
+# sparse-checkout cannot be recorded in .gitmodules, so every clone would have to
+# opt out by hand. Mirroring just docs/ and i18n/ onto a content-only branch lets
+# the submodule track something small by default.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'i18n/**'
+  workflow_dispatch:
+
+concurrency:
+  group: content-branch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Mirror docs/ and i18n/ onto content-only
+        env:
+          SOURCE_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+
+          staging="$(mktemp -d)"
+          cp -a docs "$staging/docs"
+          cp -a i18n "$staging/i18n"
+
+          # History accumulates rather than being force-pushed: submodule pointers
+          # reference these commits, and rewriting them would leave the app repo
+          # pinned to a commit that no longer exists.
+          if git ls-remote --exit-code --heads origin content-only >/dev/null 2>&1; then
+            git fetch origin content-only
+            git checkout -B content-only origin/content-only
+          else
+            git checkout --orphan content-only
+          fi
+
+          git rm -rq --cached . || true
+          find . -maxdepth 1 -mindepth 1 ! -name .git -exec rm -rf {} +
+          cp -a "$staging/docs" docs
+          cp -a "$staging/i18n" i18n
+          rm -rf "$staging"
+
+          git add docs i18n
+
+          if git diff --cached --quiet; then
+            echo 'Content unchanged; nothing to publish.'
+            exit 0
+          fi
+
+          git commit -q -m "Content from ${SOURCE_SHA}"
+          git push origin content-only
+          echo "Published $(git rev-parse --short HEAD) from ${SOURCE_SHA}"
