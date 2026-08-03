@@ -48,7 +48,7 @@ Der Content Flow ist der Kern der Automatisierung in Fozzels. Es ist ein Anweisu
 5.  **Legen Sie** im Feld **Bildanzahl** die Anzahl der Bilder (von 1 bis 5) fest, die die KI für die Analyse und Inhaltsgen erierung verwenden wird (optional).
     ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/csny9IgMXvADkHUZbDWfxWYWVQcbXer2wg.png)
 
-6.  **Stellen Sie sicher**, dass die Funktion **Bildgröße ändern** aktiviert ist (empfohlen, um Fehler bei großen Dateien zu vermeiden, erfahren Sie mehr über die Bildgrößenänderung [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000367979)).
+6.  **Stellen Sie sicher**, dass die Funktion **Bildgröße ändern** aktiviert ist (empfohlen, um Fehler bei großen Dateien zu vermeiden, erfahren Sie mehr über die Bildgrößenänderung [hier](/content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation/)).
     ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/h9tWKVAiOCFtONtDB2tWqYyXwNm8CJR4-g.png)
 
 7.  **Legen Sie** den maximalen Token-Wert (**Max Tokens**) für die Generierung fest.
@@ -81,8 +81,8 @@ Der Content Flow ist der Kern der Automatisierung in Fozzels. Es ist ein Anweisu
     5.2. **Fügen Sie** statische Produktdaten (z. B. _Produktname_ oder _SKU_) ein, indem Sie Elemente aus dem Bereich „Attribute" anklicken oder ziehen.
     5.3. **Fügen Sie** dynamische Logik (z. B. _WENN Farbe Blau ist_) für bedingte Inhaltsgenerierung hinzu, indem Sie den Bereich „Attribute (falls ausgefüllt)" verwenden.
     5.4. **Priorisieren Sie** Elemente mit einem hohen Datendichte-Prozentsatz, um eine erfolgreiche Inhaltsgen erierung für die meisten Produkte sicherzustellen.
-    5.5 Erfahren Sie mehr über das Erstellen eines Prompts und die Verwendung des Drag-and-Drop-Tools [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000367983).
-    5.6 Erfahren Sie mehr über das Speichern und Laden eines erstellten Prompts als Vorlage [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000367846).
+    5.5 Erfahren Sie mehr über das Erstellen eines Prompts und die Verwendung des Drag-and-Drop-Tools [hier](/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor/).
+    5.6 Erfahren Sie mehr über das Speichern und Laden eines erstellten Prompts als Vorlage [hier](/account-core-resources/resources-prompt-templates-locating-and-using-saved-templates/).
     ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/1NaIIRbS4Q7wdMA8cA0jKSnoBsh-XUgdJg.png)
 
 6.  **Klicken Sie** auf **"Speichern und Vorschau"**, um die Produkte anzuzeigen, die die Bedingungen erfüllen (Sie sehen die Gesamtproduktanzahl).
@@ -138,4 +138,4 @@ Der Content Flow ist der Kern der Automatisierung in Fozzels. Es ist ein Anweisu
 
 ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/lSusJ64-jIyhQStOHHai5u5y8pwWE2YoWw.png)
 
-6\. **Erfahren Sie** mehr über die Überprüfung von Ergebnissen, die manuelle Synchronisierung und den Umgang mit Fehlern in den generierten Inhalten [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000369091).
+6\. **Erfahren Sie** mehr über die Überprüfung von Ergebnissen, die manuelle Synchronisierung und den Umgang mit Fehlern in den generierten Inhalten [hier](/content-creation-flows/tracking-of-the-generated-results-dashboard/).

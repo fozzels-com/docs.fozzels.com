@@ -240,6 +240,6 @@ Voorbeeld: teststore.myshopify.com
 
 14.2. Klik op Pull Products om te beginnen met het importeren van producten en attributen. De voortgang wordt weergegeven in de voortgangsbalk.
 
-14.3. Ga naar het tabblad Attributes om geïmporteerde attributen te bekijken, in te schakelen, uit te schakelen of bewerken. Meer informatie over het beheren van attributen vind je [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000368952).
+14.3. Ga naar het tabblad Attributes om geïmporteerde attributen te bekijken, in te schakelen, uit te schakelen of bewerken. Meer informatie over het beheren van attributen vind je [hier](/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/).
 
-Na het succesvol aanmaken van de integratie kunt u **beginnen** met het bouwen van flows en **genereren** uw **[eerste content](https://fozzels.freshdesk.com/a/solutions/articles/103000367976)**!
+Na het succesvol aanmaken van de integratie kunt u **beginnen** met het bouwen van flows en **genereren** uw **[eerste content](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/)**!

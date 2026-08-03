@@ -35,7 +35,7 @@ Every Flow consists of logical parts that you configure:
 
 2.  **Use** the powerful filtering system to select products by category, color, SKU, or status.
 
-3.  **Read** more about advanced product filtering [here](https://fozzels.freshdesk.com/a/solutions/articles/103000369006).
+3.  **Read** more about advanced product filtering [here](/data-import-and-quality/product-filtering-for-content-generation/).
 
 4.  **Result:** Only selected products will be passed to the next stage.
 
@@ -43,15 +43,15 @@ Every Flow consists of logical parts that you configure:
 
 1.  **Write** or **load** detailed instructions for the AI (the prompt).
 
-2.  **Use** dynamic attribute blocks so the AI can adapt content to specific product characteristics (e.g., color, size). **Read** more about attributes and their configuration [here](https://fozzels.freshdesk.com/a/solutions/articles/103000368952).
+2.  **Use** dynamic attribute blocks so the AI can adapt content to specific product characteristics (e.g., color, size). **Read** more about attributes and their configuration [here](/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/).
 
 3.  **Define** the required style, tone, language, and text limits (e.g., maximum token count).
 
 ### 3\. Additional Settings and Control
 
-1.  **Protection against Duplicates:** **Activate** the **Prevent overlapping content generation** feature to avoid redundant content generation for an attribute that has already been processed. **Read** more about preventing overlapping generation [here](https://fozzels.freshdesk.com/a/solutions/articles/103000369548).
+1.  **Protection against Duplicates:** **Activate** the **Prevent overlapping content generation** feature to avoid redundant content generation for an attribute that has already been processed. **Read** more about preventing overlapping generation [here](/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/).
 
-2.  **Image Optimization:** When working with images, **use** the **Image Resize** feature for automatic optimization of large files. **Read** more about the Image Resize feature [here](https://fozzels.freshdesk.com/a/solutions/articles/103000367979).
+2.  **Image Optimization:** When working with images, **use** the **Image Resize** feature for automatic optimization of large files. **Read** more about the Image Resize feature [here](/content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation/).
 
 ### 4\. Automation
 
@@ -86,8 +86,8 @@ Fozzels supports three main types of flows, each targeting a specific type of co
 ##
 Next Steps
 
--   **Read** our detailed guide on creating a **Content Flow** [here](https://fozzels.freshdesk.com/a/solutions/articles/103000367976).
+-   **Read** our detailed guide on creating a **Content Flow** [here](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 
--   **Read** our detailed guide on creating an **Image Flow** [here](https://fozzels.freshdesk.com/a/solutions/articles/103000369819).
+-   **Read** our detailed guide on creating an **Image Flow** [here](/content-creation-flows/user-guide-automated-image-flow/).
 
--   **Read** our detailed guide on creating a **Video Flow** [here](https://fozzels.freshdesk.com/a/solutions/articles/103000370066).
+-   **Read** our detailed guide on creating a **Video Flow** [here](/content-creation-flows/creating-a-new-video-flow-in-fozzels/).

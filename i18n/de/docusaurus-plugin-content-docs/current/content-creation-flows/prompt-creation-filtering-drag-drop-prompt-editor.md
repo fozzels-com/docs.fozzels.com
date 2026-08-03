@@ -77,4 +77,4 @@ Attribut-Lokalisierung
 
 2\. Klicken Sie auf **Speichern & Vorschau**, um für jedes Produkt in der Produkttabelle einen eindeutigen Prompt zu generieren und anzuzeigen, wobei verfügbare Attributwerte und angewendete Bedingungen berücksichtigt werden.
 3\. **Hinweis:** Obwohl das Hinzufügen von Attributen und Bedingungen nicht obligatorisch ist, wird es dringend **empfohlen**, um Texte für mehrere Produkte zu generieren, da dies hilft, Inhalte zu personalisieren und die Relevanz zu verbessern.
-Ratschläge zum Verfassen hochwertiger, effektiver Prompts finden Sie im Handbuch [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000368009).
+Ratschläge zum Verfassen hochwertiger, effektiver Prompts finden Sie im Handbuch [hier](/content-creation-flows/writing-effective-prompts-recommendations/).

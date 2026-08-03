@@ -48,7 +48,7 @@ O Fluxo de Conteúdo é o núcleo da automação dentro do Fozzels. É um conjun
 5.  **Defina** o número de imagens (de 1 a 5) no campo **Contagem de imagens** que a IA usará para análise e geração de conteúdo (opcional).
     ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/csny9IgMXvADkHUZbDWfxWYWVQcbXer2wg.png)
 
-6.  **Certifique-se** de que o recurso **Redimensionar Imagem** está ativado (recomendado para evitar erros com arquivos grandes, leia mais sobre Redimensionar Imagem [aqui](https://fozzels.freshdesk.com/a/solutions/articles/103000367979)).
+6.  **Certifique-se** de que o recurso **Redimensionar Imagem** está ativado (recomendado para evitar erros com arquivos grandes, leia mais sobre Redimensionar Imagem [aqui](/content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation/)).
     ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/h9tWKVAiOCFtONtDB2tWqYyXwNm8CJR4-g.png)
 
 7.  **Defina** o valor máximo de token (**Máximo de tokens**) para geração.
@@ -81,8 +81,8 @@ O Fluxo de Conteúdo é o núcleo da automação dentro do Fozzels. É um conjun
     5.2. **Insira** dados de produtos estáticos (por exemplo, _Nome do Produto_ ou _SKU_) clicando ou arrastando elementos da seção Atributos.
     5.3. **Adicione** lógica dinâmica (por exemplo, _IF Cor é Azul_) para geração de conteúdo condicional usando a seção Atributos (se preenchida).
     5.4. **Priorize** elementos com alta porcentagem de Data Density para garantir geração de conteúdo bem-sucedida na maioria dos produtos.
-    5.5 Leia mais sobre como criar um prompt e usar a ferramenta de arrastar e soltar [aqui](https://fozzels.freshdesk.com/a/solutions/articles/103000367983).
-    5.6 Leia mais sobre como salvar e carregar um prompt criado como modelo [aqui](https://fozzels.freshdesk.com/a/solutions/articles/103000367846).
+    5.5 Leia mais sobre como criar um prompt e usar a ferramenta de arrastar e soltar [aqui](/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor/).
+    5.6 Leia mais sobre como salvar e carregar um prompt criado como modelo [aqui](/account-core-resources/resources-prompt-templates-locating-and-using-saved-templates/).
     ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/1NaIIRbS4Q7wdMA8cA0jKSnoBsh-XUgdJg.png)
 
 6.  **Clique** em **"Salvar e Visualizar"** para ver os produtos que atendem às condições (você verá a contagem total de produtos).
@@ -138,4 +138,4 @@ O Fluxo de Conteúdo é o núcleo da automação dentro do Fozzels. É um conjun
 
 ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/lSusJ64-jIyhQStOHHai5u5y8pwWE2YoWw.png)
 
-6\. **Leia** mais sobre revisão de resultados, sincronização manual e tratamento de erros no conteúdo gerado [aqui](https://fozzels.freshdesk.com/a/solutions/articles/103000369091).
+6\. **Leia** mais sobre revisão de resultados, sincronização manual e tratamento de erros no conteúdo gerado [aqui](/content-creation-flows/tracking-of-the-generated-results-dashboard/).

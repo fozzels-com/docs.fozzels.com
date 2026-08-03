@@ -243,6 +243,6 @@ Exemplo: teststore.myshopify.com
 
 14.2. Clique em Pull Products para começar a importar produtos e atributos. O progresso será mostrado na barra de progresso.
 
-14.3. Vá para a guia Attributes para visualizar, ativar, desativar ou editar atributos importados. Leia mais sobre o gerenciamento de atributos [aqui](https://fozzels.freshdesk.com/a/solutions/articles/103000368952) .
+14.3. Vá para a guia Attributes para visualizar, ativar, desativar ou editar atributos importados. Leia mais sobre o gerenciamento de atributos [aqui](/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/) .
 
-Após criar com sucesso a integração, você pode **começar** a criar flows e **gerar** seu **[primeiro conteúdo](https://fozzels.freshdesk.com/a/solutions/articles/103000367976)** !
+Após criar com sucesso a integração, você pode **começar** a criar flows e **gerar** seu **[primeiro conteúdo](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/)** !

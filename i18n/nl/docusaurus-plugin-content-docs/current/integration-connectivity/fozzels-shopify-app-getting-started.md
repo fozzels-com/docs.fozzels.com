@@ -108,6 +108,6 @@ Zodra uw producten zijn opgehaald, kunt u:
 -   Gebruik **Video Flow** om automatisch productvideo's te maken
 
 → [Leer hoe u uw eerste Content Flow maakt](/content-creation-flows/creating-a-new-content-flow-and-initial-settings)
-→ [Leer over Image Flows](https://fozzels.freshdesk.com/support/solutions/articles/103000369819-4-5-1-creating-a-new-image-flow-and-initial-settings-)
+→ [Leer over Image Flows](/content-creation-flows/user-guide-automated-image-flow/)
 
 _Hulp nodig? Neem contact met ons op via [support@fozzels.com](mailto:support@fozzels.com)_

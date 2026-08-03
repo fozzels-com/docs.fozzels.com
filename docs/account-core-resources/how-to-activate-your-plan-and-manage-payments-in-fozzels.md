@@ -93,5 +93,5 @@ If you need extra resources beyond your plan's limits:
 You are now fully set up to scale your content production.
 For continuous generation, we highly recommend setting up **Auto-recharge**. Learn how to do it here:
 
-[_1.4.1 How to Set Up Auto Top-Up and Add or Change Your Default Payment Method (card) in Fozzels_](https://fozzels.freshdesk.com/a/solutions/articles/103000366656)
+[_1.4.1 How to Set Up Auto Top-Up and Add or Change Your Default Payment Method (card) in Fozzels_](/account-core-resources/how-to-set-up-auto-top-up-and-add-or-change-your-default-payment-method-card-in-/)
 Have questions? Contact our support channel (support@fozzels.com) we’re here to help!"

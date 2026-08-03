@@ -47,7 +47,7 @@ Afbeeldingkeuze: Het middelste blok geeft het geselecteerde product en de afbeel
 2.2 Promptengineering (de kritieke stap) De prompt is de uitsluitende invoer die de video's inhoud, stijl en verhaallijn bepaalt.
 
 Invoervereiste: Het veld "Prompt" mag niet leeg zijn. Het moet gedetailleerde, beschrijvende instructies bevatten met een overzicht van het gewenste videoresultaat (bijvoorbeeld instelling, stemming, actie, camerabeweging).
-**Lees** de volgende sectie, **[Tips voor het maken van een effectieve prompt + voorbeelden](https://fozzels.freshdesk.com/a/solutions/articles/103000370386)**, voordat u uw prompt schrijft om optimale videokwaliteit te garanderen.
+**Lees** de volgende sectie, **[Tips voor het maken van een effectieve prompt + voorbeelden](/content-creation-flows/tips-for-creating-an-effective-prompt-examples/)**, voordat u uw prompt schrijft om optimale videokwaliteit te garanderen.
 ![](/img/kb/content-creation-flows/creating-a-new-video-flow-in-fozzels/ZGiO6GR7CNBTRPTFYBz1RRmNNRTwD_WW6A.png)
 Beheer van promptsjabloon: Om consistentie en efficiëntie te bevorderen, **gebruikt** u de knop "Opslaan" boven het promptveld om uw instructie als een herbruikbare sjabloon op te slaan. Dit bespaart tijd bij het maken van volgende flows.
 

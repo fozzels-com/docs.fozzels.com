@@ -108,6 +108,6 @@ Once your products are pulled, you can:
 -   Use **Video Flow** to create product videos automatically
 
 → [Learn how to create your first Content Flow](/content-creation-flows/creating-a-new-content-flow-and-initial-settings)
-→ [Learn about Image Flows](https://fozzels.freshdesk.com/support/solutions/articles/103000369819-4-5-1-creating-a-new-image-flow-and-initial-settings-)
+→ [Learn about Image Flows](/content-creation-flows/user-guide-automated-image-flow/)
 
 _Need help? Contact us at [support@fozzels.com](mailto:support@fozzels.com)_

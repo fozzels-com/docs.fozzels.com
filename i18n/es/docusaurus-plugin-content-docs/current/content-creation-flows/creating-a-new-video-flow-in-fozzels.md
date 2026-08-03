@@ -47,7 +47,7 @@ Selección de Imagen: El bloque central muestra el producto seleccionado y su ga
 2.2 Ingeniería de Indicación (El Paso Crítico) La indicación es la entrada exclusiva que controla el contenido, estilo y narrativa del video.
 
 Requisito de Entrada: El campo "Indicación" no puede dejarse vacío. Debe contener instrucciones detalladas y descriptivas que describan el resultado del video deseado (por ejemplo, configuración, estado de ánimo, acción, movimientos de cámara).
-**Lea** la siguiente sección, **[Consejos para Crear una Indicación Efectiva + Ejemplos](https://fozzels.freshdesk.com/a/solutions/articles/103000370386)**, antes de escribir su indicación para garantizar calidad de video óptima.
+**Lea** la siguiente sección, **[Consejos para Crear una Indicación Efectiva + Ejemplos](/content-creation-flows/tips-for-creating-an-effective-prompt-examples/)**, antes de escribir su indicación para garantizar calidad de video óptima.
 ![](/img/kb/content-creation-flows/creating-a-new-video-flow-in-fozzels/ZGiO6GR7CNBTRPTFYBz1RRmNNRTwD_WW6A.png)
 Administración de Plantilla de Indicación: Para promover consistencia y eficiencia, **use** el botón "Guardar" encima del campo de indicación para guardar su instrucción como plantilla reutilizable. Esto ahorra tiempo al crear flujos posteriores.
 

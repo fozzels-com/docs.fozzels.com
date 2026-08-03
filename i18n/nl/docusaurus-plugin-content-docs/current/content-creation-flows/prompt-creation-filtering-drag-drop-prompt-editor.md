@@ -79,4 +79,4 @@ Beoordeling en opslaan
 
 2. Klik **Opslaan en voorbeeld bekijken** om voor elk product in de productentabel een unieke prompt te genereren en weer te geven, rekening houdend met beschikbare attribuutwaarden en toegepaste voorwaarden.
 3. **Opmerking:** hoewel het toevoegen van attributen en voorwaarden niet verplicht is, is het ten zeerste **aanbevolen** voor het genereren van teksten voor een reeks producten, omdat het helpt inhoud te personaliseren en de relevantie te verbeteren.
-Raadpleeg [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000368009) de gids voor advies over het schrijven van hoogwaardige, effectieve prompts.
+Raadpleeg [hier](/content-creation-flows/writing-effective-prompts-recommendations/) de gids voor advies over het schrijven van hoogwaardige, effectieve prompts.

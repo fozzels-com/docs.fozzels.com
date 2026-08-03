@@ -47,7 +47,7 @@ Seleção de Imagem: O bloco central exibe o produto selecionado e sua galeria d
 2.2 Engenharia de Prompt (A Etapa Crítica) O prompt é a única entrada controlando o conteúdo, estilo e narrativa do vídeo.
 
 Requisito de Entrada: O campo "Prompt" não pode ficar vazio. Deve conter instruções detalhadas e descritivas delineando o resultado de vídeo desejado (por exemplo, cenário, clima, ação, movimentos de câmera).
-**Leia** a próxima seção, **[Dicas para Criar um Prompt Eficaz + Exemplos](https://fozzels.freshdesk.com/a/solutions/articles/103000370386)**, antes de escrever seu prompt para garantir qualidade de vídeo ideal.
+**Leia** a próxima seção, **[Dicas para Criar um Prompt Eficaz + Exemplos](/content-creation-flows/tips-for-creating-an-effective-prompt-examples/)**, antes de escrever seu prompt para garantir qualidade de vídeo ideal.
 ![](/img/kb/content-creation-flows/creating-a-new-video-flow-in-fozzels/ZGiO6GR7CNBTRPTFYBz1RRmNNRTwD_WW6A.png)
 Gerenciamento de Modelo de Prompt: Para promover consistência e eficiência, **use** o botão "Salvar" acima do campo de prompt para salvar sua instrução como modelo reutilizável. Isso economiza tempo ao criar fluxos subsequentes.
 

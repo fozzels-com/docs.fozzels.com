@@ -21,9 +21,9 @@ A integração do Fozzels com WPML permite gerenciar estruturas multilíngues co
 
 -   **Campos padrão** (Título, Descrição, Descrição curta);
 
--   **Plugins de SEO** (**[Yoast SEO](https://fozzels.freshdesk.com/a/solutions/articles/103000388046)** ou **[All in One SEO](https://fozzels.freshdesk.com/a/solutions/articles/103000386882)**);
+-   **Plugins de SEO** (**[Yoast SEO](/integration-connectivity/yoast-seo-support-for-woocommerce/)** ou **[All in One SEO](/integration-connectivity/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/)**);
 
--   **Campos personalizados** (**[ACF - Campos personalizados avançados](https://fozzels.freshdesk.com/a/solutions/articles/103000385832)**).
+-   **Campos personalizados** (**[ACF - Campos personalizados avançados](/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/)**).
 
 -   **Eficiência do fluxo de trabalho:** Gerenciar catálogos globais de uma única interface.
 
@@ -68,8 +68,8 @@ A combinação super poderosa: WPML + ACF + AIOSEO
 
 O Fozzels permite combinar WPML com plugins líderes de mercado para automação máxima. Este é o "padrão ouro" para comércio eletrônico profissional:
 
--   **WPML + SEO ([Yoast](https://fozzels.freshdesk.com/a/solutions/articles/103000388046) ou [AIOSEO](https://fozzels.freshdesk.com/a/solutions/articles/103000386882)):** Gere palavras-chave localizadas únicas, títulos de meta e descrições para cada versão de idioma. _(Observação: Use apenas um plugin de SEO por vez para evitar conflitos)._
+-   **WPML + SEO ([Yoast](/integration-connectivity/yoast-seo-support-for-woocommerce/) ou [AIOSEO](/integration-connectivity/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/)):** Gere palavras-chave localizadas únicas, títulos de meta e descrições para cada versão de idioma. _(Observação: Use apenas um plugin de SEO por vez para evitar conflitos)._
 
--   **WPML + [ACF (Campos personalizados avançados)](https://fozzels.freshdesk.com/a/solutions/articles/103000385832):** Sincronize conteúdo localizado em campos personalizados (por exemplo, especificações técnicas, blocos de marketing ou perguntas frequentes) separadamente para cada idioma.
+-   **WPML + [ACF (Campos personalizados avançados)](/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/):** Sincronize conteúdo localizado em campos personalizados (por exemplo, especificações técnicas, blocos de marketing ou perguntas frequentes) separadamente para cada idioma.
 
 -   **O combo final (WPML + ACF + AIOSEO):** O cenário mais poderoso. Isso permite automatizar descrições profissionais, dados técnicos especializados e um núcleo de SEO completo para o mercado internacional simultaneamente.

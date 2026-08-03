@@ -77,4 +77,4 @@ Revisión y guardado
 
 2\. Haga clic en **Guardar y vista previa** para generar y mostrar una solicitud única para cada producto en la tabla de productos, considerando los valores de atributos disponibles y las condiciones aplicadas.
 3\. **Nota:** aunque agregar atributos y condiciones no es obligatorio, es fuertemente **recomendado** para generar textos para un conjunto de productos, ya que ayuda a personalizar el contenido y mejora la relevancia.
-Para obtener consejos sobre cómo escribir solicitudes de alta calidad y efectivas, lea la guía [aquí](https://fozzels.freshdesk.com/a/solutions/articles/103000368009).
+Para obtener consejos sobre cómo escribir solicitudes de alta calidad y efectivas, lea la guía [aquí](/content-creation-flows/writing-effective-prompts-recommendations/).

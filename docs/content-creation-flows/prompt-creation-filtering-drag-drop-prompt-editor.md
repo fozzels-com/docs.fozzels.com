@@ -79,4 +79,4 @@ Reviewing and Saving
 
 2\. Click **Save & Preview** to generate and display a unique prompt for each product in the product table, considering available attribute values and applied conditions.
 3\. **Note:** although adding attributes and conditions is not mandatory, it is strongly **recommended** for generating texts for a set of products, as it helps personalize content and improves relevance.
-For advice on how to write high-quality, effective prompts, read the guide [here](https://fozzels.freshdesk.com/a/solutions/articles/103000368009) .
+For advice on how to write high-quality, effective prompts, read the guide [here](/content-creation-flows/writing-effective-prompts-recommendations/) .

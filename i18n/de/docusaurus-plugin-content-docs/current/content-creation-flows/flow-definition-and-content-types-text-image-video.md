@@ -35,7 +35,7 @@ Jeder Flow besteht aus logischen Teilen, die Sie konfigurieren:
 
 2.  **Verwenden Sie** das leistungsstarke Filtersystem, um Produkte nach Kategorie, Farbe, SKU oder Status auszuwählen.
 
-3.  **Erfahren Sie** mehr über erweiterte Produktfilterung [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000369006).
+3.  **Erfahren Sie** mehr über erweiterte Produktfilterung [hier](/data-import-and-quality/product-filtering-for-content-generation/).
 
 4.  **Ergebnis:** Nur ausgewählte Produkte werden an die nächste Phase weitergegeben.
 
@@ -43,15 +43,15 @@ Jeder Flow besteht aus logischen Teilen, die Sie konfigurieren:
 
 1.  **Schreiben Sie** oder **laden Sie** detaillierte Anweisungen für die KI (den Prompt).
 
-2.  **Verwenden Sie** dynamische Attributblöcke, damit die KI Inhalte an spezifische Produkteigenschaften anpassen kann (z. B. Farbe, Größe). **Erfahren Sie** mehr über Attribute und ihre Konfiguration [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000368952).
+2.  **Verwenden Sie** dynamische Attributblöcke, damit die KI Inhalte an spezifische Produkteigenschaften anpassen kann (z. B. Farbe, Größe). **Erfahren Sie** mehr über Attribute und ihre Konfiguration [hier](/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/).
 
 3.  **Definieren Sie** den erforderlichen Stil, Ton, die Sprache und die Textlimits (z. B. maximale Token-Anzahl).
 
 ### 3\. Zusätzliche Einstellungen und Kontrolle
 
-1.  **Schutz vor Duplikaten:** **Aktivieren Sie** die Funktion **Überlappende Inhaltsgenerierung verhindern**, um redundante Inhaltsgenerierung für ein Attribut zu vermeiden, das bereits verarbeitet wurde. **Erfahren Sie** mehr über die Verhinderung von Überlappungsgenerierung [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000369548).
+1.  **Schutz vor Duplikaten:** **Aktivieren Sie** die Funktion **Überlappende Inhaltsgenerierung verhindern**, um redundante Inhaltsgenerierung für ein Attribut zu vermeiden, das bereits verarbeitet wurde. **Erfahren Sie** mehr über die Verhinderung von Überlappungsgenerierung [hier](/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/).
 
-2.  **Bildoptimierung:** Wenn Sie mit Bildern arbeiten, **verwenden Sie** die Funktion **Bildgröße ändern** für automatische Optimierung großer Dateien. **Erfahren Sie** mehr über die Funktion „Bildgröße ändern" [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000367979).
+2.  **Bildoptimierung:** Wenn Sie mit Bildern arbeiten, **verwenden Sie** die Funktion **Bildgröße ändern** für automatische Optimierung großer Dateien. **Erfahren Sie** mehr über die Funktion „Bildgröße ändern" [hier](/content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation/).
 
 ### 4\. Automatisierung
 
@@ -86,8 +86,8 @@ Fozzels unterstützt drei Haupttypen von Flows, die jeweils auf einen bestimmten
 ##
 Nächste Schritte
 
--   **Lesen Sie** unseren detaillierten Leitfaden zum Erstellen eines **Content Flows** [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000367976).
+-   **Lesen Sie** unseren detaillierten Leitfaden zum Erstellen eines **Content Flows** [hier](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 
--   **Lesen Sie** unseren detaillierten Leitfaden zum Erstellen eines **Image Flows** [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000369819).
+-   **Lesen Sie** unseren detaillierten Leitfaden zum Erstellen eines **Image Flows** [hier](/content-creation-flows/user-guide-automated-image-flow/).
 
--   **Lesen Sie** unseren detaillierten Leitfaden zum Erstellen eines **Video Flows** [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000370066).
+-   **Lesen Sie** unseren detaillierten Leitfaden zum Erstellen eines **Video Flows** [hier](/content-creation-flows/creating-a-new-video-flow-in-fozzels/).

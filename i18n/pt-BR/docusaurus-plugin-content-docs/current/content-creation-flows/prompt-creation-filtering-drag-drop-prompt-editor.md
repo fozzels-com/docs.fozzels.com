@@ -79,4 +79,4 @@ Revisão e Salvamento
 
 2\. Clique em **Salvar e Visualizar** para gerar e exibir um prompt único para cada produto na tabela de produtos, considerando os valores de atributo disponíveis e as condições aplicadas.
 3\. **Nota:** embora adicionar atributos e condições não seja obrigatório, é fortemente **recomendado** para gerar textos para um conjunto de produtos, pois ajuda a personalizar o conteúdo e melhora a relevância.
-Para dicas sobre como escrever prompts de alta qualidade e eficazes, leia o guia [aqui](https://fozzels.freshdesk.com/a/solutions/articles/103000368009) .
+Para dicas sobre como escrever prompts de alta qualidade e eficazes, leia o guia [aqui](/content-creation-flows/writing-effective-prompts-recommendations/) .

@@ -48,7 +48,7 @@ El Flujo de Contenido es el núcleo de la automatización dentro de Fozzels. Es 
 5.  **Establezca** la cantidad de imágenes (de 1 a 5) en el campo **Cantidad de imágenes** que la IA utilizará para análisis y generación de contenido (opcional).
     ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/csny9IgMXvADkHUZbDWfxWYWVQcbXer2wg.png)
 
-6.  **Asegúrese** de que la función **Cambio de Tamaño de Imagen** esté habilitada (recomendado para prevenir errores con archivos grandes, lea más sobre Cambio de tamaño de imagen [aquí](https://fozzels.freshdesk.com/a/solutions/articles/103000367979)).
+6.  **Asegúrese** de que la función **Cambio de Tamaño de Imagen** esté habilitada (recomendado para prevenir errores con archivos grandes, lea más sobre Cambio de tamaño de imagen [aquí](/content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation/)).
     ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/h9tWKVAiOCFtONtDB2tWqYyXwNm8CJR4-g.png)
 
 7.  **Establezca** el valor máximo de tokens (**Máx tokens**) para generación.
@@ -81,8 +81,8 @@ El Flujo de Contenido es el núcleo de la automatización dentro de Fozzels. Es 
     5.2. **Inserte** datos de productos estáticos (por ejemplo, _Nombre del Producto_ o _SKU_) haciendo clic o arrastrando elementos de la sección Atributos.
     5.3. **Agregue** lógica dinámica (por ejemplo, _SI Color es Azul_) para generación de contenido condicional utilizando la sección Atributos (si está completada).
     5.4. **Priorice** elementos con un porcentaje de Densidad de Datos alto para garantizar una generación de contenido exitosa en la mayoría de los productos.
-    5.5 Lea más sobre cómo crear una indicación y usar la herramienta Arrastrar y soltar [aquí](https://fozzels.freshdesk.com/a/solutions/articles/103000367983).
-    5.6 Lea más sobre cómo guardar y cargar una indicación creada como plantilla [aquí](https://fozzels.freshdesk.com/a/solutions/articles/103000367846).
+    5.5 Lea más sobre cómo crear una indicación y usar la herramienta Arrastrar y soltar [aquí](/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor/).
+    5.6 Lea más sobre cómo guardar y cargar una indicación creada como plantilla [aquí](/account-core-resources/resources-prompt-templates-locating-and-using-saved-templates/).
     ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/1NaIIRbS4Q7wdMA8cA0jKSnoBsh-XUgdJg.png)
 
 6.  **Haga clic** en **"Guardar y Vista Previa"** para ver los productos que cumplen con las condiciones (verá el conteo total de productos).
@@ -138,4 +138,4 @@ El Flujo de Contenido es el núcleo de la automatización dentro de Fozzels. Es 
 
 ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/lSusJ64-jIyhQStOHHai5u5y8pwWE2YoWw.png)
 
-6. **Lea** más sobre revisión de resultados, sincronización manual y manejo de errores en el contenido generado [aquí](https://fozzels.freshdesk.com/a/solutions/articles/103000369091).
+6. **Lea** más sobre revisión de resultados, sincronización manual y manejo de errores en el contenido generado [aquí](/content-creation-flows/tracking-of-the-generated-results-dashboard/).

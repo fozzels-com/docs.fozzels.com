@@ -62,8 +62,8 @@ Voer een volledige gegevenssynchronisatie uit om de nieuwe attributen zichtbaar 
 
 Met Fozzels kunt u de "Gouden Standaard" van e-commerce bereiken door het volgende te combineren:
 
--   **[WPML](https://fozzels.freshdesk.com/a/solutions/articles/103000389531) Ondersteuning:** Voor meertalig SEO.
+-   **[WPML](/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/) Ondersteuning:** Voor meertalig SEO.
 
--   **[ACF (Advanced Custom Fields)](https://fozzels.freshdesk.com/a/solutions/articles/103000385832):** Voor gespecialiseerde technische gegevens.
+-   **[ACF (Advanced Custom Fields)](/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/):** Voor gespecialiseerde technische gegevens.
 
 -   **Yoast SEO:** Voor zoekmachineheerschappij. U kunt al deze velden tegelijk automatiseren voor elke taalversie van uw winkel.
