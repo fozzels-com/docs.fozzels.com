@@ -1,7 +1,7 @@
 ---
 id: '103000313152'
 title: '"Recursion detected" warning when creating a Flow'
-sidebar_position: 23
+sidebar_position: 25
 slug: /content-creation-flows/recursion-detected-warning-when-creating-a-flow
 description: >-
   When you see this warning, it means that you are using the variable to input

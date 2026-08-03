@@ -73,6 +73,7 @@ In the settings of each individual Flow (section **4 Automation**), you decide w
 
 ![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/M18xs-NWnNKM3KW_n1iAHroIpfoIW3ztfg.png)
 
+
 ####
 **Scenario B: Setting a Custom Time Limit (Override)**
 
