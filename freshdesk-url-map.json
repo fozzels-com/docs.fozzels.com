@@ -420,6 +420,20 @@
     },
     {
       "type": "article",
+      "freshdeskId": 103000410121,
+      "title": "4.9.1 How to Create a Content Flow for Categories in Fozzels",
+      "oldPathPrefix": "/support/solutions/articles/103000410121",
+      "newPath": "/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels"
+    },
+    {
+      "type": "article",
+      "freshdeskId": 103000410130,
+      "title": "4.10.1 Generating Complex HTML Content in Fozzels (FAQ): Best Practices",
+      "oldPathPrefix": "/support/solutions/articles/103000410130",
+      "newPath": "/content-creation-flows/generating-complex-html-content-in-fozzels-faq-best-practices"
+    },
+    {
+      "type": "article",
       "freshdeskId": 103000313152,
       "title": "\"Recursion detected\" warning when creating a Flow",
       "oldPathPrefix": "/support/solutions/articles/103000313152",
@@ -542,6 +556,13 @@
       "title": "Release 7.6 - VTEX Integration, Category Metadata Mapping, Custom Pull Schedules, and Upgraded Image Workflows",
       "oldPathPrefix": "/support/solutions/articles/103000408975",
       "newPath": "/fozzels-releases-updates/release-7-6-vtex-integration-category-metadata-mapping-custom-pull-schedules-and"
+    },
+    {
+      "type": "article",
+      "freshdeskId": 103000409878,
+      "title": "Release 8.0-8.1 - Category & Brand Content, Workflow Builder, UI Refresh",
+      "oldPathPrefix": "/support/solutions/articles/103000409878",
+      "newPath": "/fozzels-releases-updates/release-8-0-8-1-category-brand-content-workflow-builder-ui-refresh"
     }
   ]
 }

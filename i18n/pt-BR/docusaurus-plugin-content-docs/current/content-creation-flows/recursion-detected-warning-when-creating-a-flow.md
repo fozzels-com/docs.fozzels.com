@@ -1,7 +1,7 @@
 ---
 id: '103000313152'
 title: Aviso "Recursão detectada" ao criar um Fluxo
-sidebar_position: 23
+sidebar_position: 25
 slug: /content-creation-flows/recursion-detected-warning-when-creating-a-flow
 description: >-
   Quando você vê este aviso, significa que você está usando a variável para

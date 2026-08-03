@@ -1,5 +1,5 @@
 ---
-id: ‘103000408982’
+id: '103000408982'
 title: 3.1.2 Como Configurar Agendamento de Pull Global e API Throttling
 sidebar_position: 3
 slug: /data-import-and-quality/how-to-configure-global-pull-schedule-api-throttling
