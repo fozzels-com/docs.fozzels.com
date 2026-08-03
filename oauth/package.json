@@ -9,6 +9,9 @@
     "deploy": "wrangler deploy",
     "dev": "wrangler dev"
   },
+  "resolutions": {
+    "undici": "7.29.0"
+  },
   "devDependencies": {
     "wrangler": "4.112.0"
   }
