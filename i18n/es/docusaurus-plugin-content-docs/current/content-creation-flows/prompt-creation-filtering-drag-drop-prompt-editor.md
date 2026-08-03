@@ -4,9 +4,6 @@ title: 4.3.2 Creación de solicitudes y filtrado. Editor de solicitudes con arra
 sidebar_position: 8
 slug: /content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor
 description: Esta guía le muestra cómo configurar el campo de solicitud, la herramienta principal para crear instrucciones dinámicas para generación de texto de productos, utilizando atributos de productos disponibles
-keywords:
-- indicación
-- instrucción
 ---
 
 Esta guía le muestra cómo configurar el **campo de solicitud, ** la herramienta principal para crear instrucciones dinámicas para generación de texto de productos, utilizando atributos de productos disponibles, lógica condicional y configuración de localización.

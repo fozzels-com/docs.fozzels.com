@@ -4,10 +4,6 @@ title: 3.1  Agendamentos Personalizados de Pull & Lógica de Automação
 sidebar_position: 1
 slug: /data-import-and-quality/custom-pull-schedules-automation-logic
 description: Atualizamos a plataforma Fozzels para se alinhar com seu ritmo de negócios local. Você agora tem controle total sobre quando seu ciclo de atualização de conteúdo começa, permitindo
-keywords:
-- instrução
-- comando
-- extração
 ---
 
 Atualizamos a plataforma Fozzels para se alinhar com seu ritmo de negócios local. Você agora tem controle total sobre quando seu ciclo de atualização de conteúdo começa, permitindo que você sincronize operações de IA com suas atualizações de estoque e capacidade de servidor.

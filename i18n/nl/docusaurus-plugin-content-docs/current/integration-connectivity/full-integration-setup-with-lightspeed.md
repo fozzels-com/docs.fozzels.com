@@ -4,8 +4,6 @@ title: 2.6. Volledige integratieinstelling met Lightspeed.
 sidebar_position: 16
 slug: /integration-connectivity/full-integration-setup-with-lightspeed
 description: In deze handleiding wordt gedetailleerd beschreven hoe u een beveiligde tweerichtings-API-verbinding tussen uw Lightspeed eCom-winkel en Fozzels tot stand brengt door de vereiste API-sleutel en
-keywords:
-- ophalen
 ---
 
 In deze handleiding wordt gedetailleerd beschreven hoe u een beveiligde tweerichtings-API-verbinding tussen uw Lightspeed eCom-winkel en Fozzels tot stand brengt door de vereiste API-sleutel en API-geheim in Lightspeed Manager te genereren.

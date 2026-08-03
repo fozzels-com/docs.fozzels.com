@@ -3,10 +3,7 @@ id: '103000380488'
 title: 4.7.3 Zulässige HTML-Tags für KI-Textgenerierung
 sidebar_position: 19
 slug: /content-creation-flows/allowed-html-tags-for-ai-text-generation
-description: >-
-  Diese Funktion ermöglicht es Ihnen, genau zu definieren, welche HTML-Tags in
-  den von künstlicher Intelligenz generierten Inhalten verwendet und erhalten
-  bleiben können. Diese Funktio
+description: Diese Funktion ermöglicht es Ihnen, genau zu definieren, welche HTML-Tags in den von künstlicher Intelligenz generierten Inhalten verwendet und erhalten bleiben können. Diese Funktio
 ---
 
 Diese Funktion ermöglicht es Ihnen, genau zu definieren, welche HTML-Tags in den von künstlicher Intelligenz generierten Inhalten verwendet und erhalten bleiben können. Diese Funktionalität ist für Attribute aktiv, bei denen die Option **„HTML zulassen"** aktiviert ist.

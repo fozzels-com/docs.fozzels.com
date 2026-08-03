@@ -4,9 +4,6 @@ title: '4.3.2.a Gerando Textos Alt de Imagem para Magento 2: Insights Técnicos 
 sidebar_position: 9
 slug: /content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu
 description: Como você já está familiarizado com os mecanismos fundamentais da configuração de Fluxos de Conteúdo de Produtos no Fozzels, este manual técnico se concentra exclusivamente em
-keywords:
-- instrução
-- comando
 ---
 
 Como você já está familiarizado com os mecanismos fundamentais da configuração de Fluxos de Conteúdo de Produtos no Fozzels, este manual técnico se concentra exclusivamente na arquitetura única do Magento 2: interagindo com o atributo `product_media_gallery` do sistema e otimizando consumo de token durante loops de processamento em massa de galeria de mídia.

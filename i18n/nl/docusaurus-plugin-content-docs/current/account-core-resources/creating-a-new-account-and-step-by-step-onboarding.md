@@ -3,10 +3,7 @@ id: '103000373916'
 title: 1.1. Een nieuw account aanmaken en stap-voor-stap onboarding
 sidebar_position: 1
 slug: /account-core-resources/creating-a-new-account-and-step-by-step-onboarding
-description: >-
-  Deze gids beschrijft het eenvoudige, stap-voor-stap proces voor het activeren
-  van uw Fozzels-account, van eerste registratie tot volledige inhoud generatie.
-  2.1. Account registratie
+description: Deze gids beschrijft het eenvoudige, stap-voor-stap proces voor het activeren van uw Fozzels-account, van eerste registratie tot volledige inhoud generatie. 2.1. Account registratie
 ---
 
 Deze gids beschrijft het eenvoudige, stap-voor-stap proces voor het activeren van uw Fozzels-account, van eerste registratie tot volledige inhoud generatie.

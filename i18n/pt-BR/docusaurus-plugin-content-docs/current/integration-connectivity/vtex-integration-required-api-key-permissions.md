@@ -3,8 +3,7 @@ id: '103000406106'
 title: 2.8.1 Integração VTEX — permissões de chave de API necessárias
 sidebar_position: 18
 slug: /integration-connectivity/vtex-integration-required-api-key-permissions
-description: >-
-  Quais permissões de chave de API preciso para conectar Fozzels ao VTEX? Para conectar sua loja VTEX ao Fozzels, você precisa criar uma chave de API em seu admin VTEX e
+description: Quais permissões de chave de API preciso para conectar Fozzels ao VTEX? Para conectar sua loja VTEX ao Fozzels, você precisa criar uma chave de API em seu admin VTEX e
 ---
 
 ## Quais permissões de chave de API preciso para conectar Fozzels ao VTEX?

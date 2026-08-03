@@ -4,15 +4,6 @@ title: Release 7.3 Raw File, Bulk Export, AI Assistent en Meer Nieuwe Functies
 sidebar_position: 13
 slug: /fozzels-releases-updates/release-7-3-raw-file-bulk-export-ai-assistant-and-more-new-features
 description: Deze release gaat allemaal over kracht, flexibiliteit en absolute controle over uw catalogus. We hebben langverwachte handmatige bestandsintegraties toegevoegd, slim gefilt
-keywords:
-- afbeeldingsflow
-- beeldflow
-- afbeeldingsgeneratie
-- videoflow
-- videostroom
-- werkstroom
-- ophalen
-- voltooiing
 ---
 
 Deze release gaat allemaal over kracht, flexibiliteit en absolute controle over uw catalogus. We hebben langverwachte handmatige bestandsintegraties toegevoegd, slim filteren naar nieuwe ecosystemen uitgebreid en geavanceerde bulk export tools geïmplementeerd om uw content workflow echt naadloos te maken.

@@ -4,9 +4,6 @@ title: 'Release 7.0: Automação Total. Personalização Profunda. Escala Infini
 sidebar_position: 11
 slug: /fozzels-releases-updates/release-7-0-total-automation-deep-personalization-infinite-scale
 description: Levamos nossa tecnologia para o próximo nível, transformando fluxos visuais em um formato totalmente automatizado. Este é um passo evolutivo que as empresas atuais demandam
-keywords:
-- instrução
-- comando
 ---
 
 Levamos nossa tecnologia para o próximo nível, transformando fluxos visuais em um **formato totalmente automatizado**. Este é um passo evolutivo que as empresas atuais demandam: **Automação - Personalização - Escalabilidade**. Esta atualização transforma o Fozzels em um ecossistema inteligente onde tecnologias complexas trabalham em sinergia com seus dados comerciais, garantindo velocidade sem perder o controle.

@@ -3,8 +3,7 @@ id: '103000367977'
 title: '4.1.3. Gestión de flujos: Duplicación, archivo y eliminación.'
 sidebar_position: 5
 slug: /content-creation-flows/managing-flows-duplication-archiving-and-deletion
-description: >-
-  Esta guía detalla los métodos para gestionar flujos de contenido existentes, centrándose en la duplicación para ahorrar tiempo de configuración y el mantenimiento general del flujo (archivado y
+description: Esta guía detalla los métodos para gestionar flujos de contenido existentes, centrándose en la duplicación para ahorrar tiempo de configuración y el mantenimiento general del flujo (archivado y
 ---
 
 Esta guía detalla los métodos para gestionar flujos de contenido existentes, centrándose en la duplicación para ahorrar tiempo de configuración y el mantenimiento general del flujo (archivado y eliminación).

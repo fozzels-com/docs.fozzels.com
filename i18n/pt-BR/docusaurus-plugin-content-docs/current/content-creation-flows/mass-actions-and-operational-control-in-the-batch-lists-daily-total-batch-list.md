@@ -1,15 +1,9 @@
 ---
 id: '103000376412'
-title: >-
-  4.7.2 Ações em Massa e Controle Operacional nas Listas de Lotes / Lista de
-  Lotes Total Diária
+title: 4.7.2 Ações em Massa e Controle Operacional nas Listas de Lotes / Lista de Lotes Total Diária
 sidebar_position: 18
-slug: >-
-  /content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list
-description: >-
-  Gerenciando Conteúdo com Ações em Massa Os Painéis (ou Lista de Lotes) é sua
-  ferramenta principal para gerenciar rapidamente o conteúdo. Esta funcionalidade
-  de Ações em Massa está disponível em ambas as visualizações
+slug: /content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list
+description: Gerenciando Conteúdo com Ações em Massa Os Painéis (ou Lista de Lotes) é sua ferramenta principal para gerenciar rapidamente o conteúdo. Esta funcionalidade de Ações em Massa está disponível em ambas as visualizações
 ---
 
 Gerenciando Conteúdo com Ações em Massa Os Painéis (ou Lista de Lotes) é sua ferramenta principal para gerenciar rapidamente o conteúdo. **Esta funcionalidade de Ações em Massa está disponível tanto na visão geral da Lista de Lotes Total Diária quanto na visualização detalhada da Lista de Lotes.** Usando a função **Ações em Massa**, você pode aplicar simultaneamente operações críticas, como Confirmação, Regeneração e Sincronização, para um grande número de produtos. Isto economiza significativamente o tempo, eliminando a necessidade de processar cada item individualmente.

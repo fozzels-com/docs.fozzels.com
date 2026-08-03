@@ -7,9 +7,6 @@ description: 'Omdat je al bekend bent met de basisprincipes van het configureren
 keywords:
 - contentflow
 - inhoudsstroom
-- contentgeneratie
-- batchlijst
-- invoerprompt
 ---
 
 Omdat je al bekend bent met de basisprincipes van het configureren van Product Content Flows in Fozzels, richt deze technische handleiding zich uitsluitend op de unieke architectuur van Magento 2: interactie met het systeemattribuut `product_media_gallery` en optimalisatie van tokenverbruik tijdens bulkmedia-gallerijverwerkingslussen.

@@ -7,9 +7,6 @@ description: Dieses Handbuch erläutert Methoden zur Verwaltung bestehender Cont
 keywords:
 - Inhaltsfluss
 - Content-Flow
-- Inhaltsgenerierung
-- Eingabeaufforderung
-- Anweisung
 ---
 
 Dieses Handbuch erläutert Methoden zur Verwaltung bestehender Content Flows mit Fokus auf Duplizierung zur Zeiteinsparung und allgemeine Flow-Verwaltung (Archivierung und Löschung).

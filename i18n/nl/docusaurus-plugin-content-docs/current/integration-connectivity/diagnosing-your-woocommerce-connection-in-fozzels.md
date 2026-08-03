@@ -4,8 +4,6 @@ title: 2.5.8. Uw WooCommerce Verbinding in Fozzels Diagnosticeren
 sidebar_position: 15
 slug: /integration-connectivity/diagnosing-your-woocommerce-connection-in-fozzels
 description: Als u een banner "Connection Issues Detected" ziet nadat u uw WooCommerce integratie hebt opgeslagen, zal dit artikel u helpen begrijpen wat elk bericht betekent a
-keywords:
-- ophalen
 ---
 
 #

@@ -4,9 +4,6 @@ title: 2.2. Volledige integratieinstelling met Magento 2.
 sidebar_position: 2
 slug: /integration-connectivity/full-integration-setup-with-magento-2
 description: In deze handleiding wordt gedetailleerd het proces beschreven van het tot stand brengen van een beveiligde tweerichtingsverbinding tussen uw Magento 2-winkel en Fozzels. U zult de benodigde API
-keywords:
-- ophalen
-- voltooiing
 ---
 
 In deze handleiding wordt gedetailleerd het proces beschreven van het tot stand brengen van een beveiligde tweerichtingsverbinding tussen uw Magento 2-winkel en Fozzels. U zult de benodigde API-tokens genereren en machtigingen configureren, waardoor naadloze productgegevenimport en content-export wordt gegarandeerd.

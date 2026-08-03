@@ -2,12 +2,8 @@
 id: '103000385518'
 title: '1.2.2. Teamtoegangsmanagement: Fozzels-rollenhandleiding (klant vs. reseller)'
 sidebar_position: 3
-slug: >-
-  /account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller
-description: >-
-  We begrijpen dat het delegeren van toegang tot integraties verwarrend kan zijn.
-  Als u op zoek bent naar een veilige en efficiënte manier om collega's
-  (marketeers, inhouds
+slug: /account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller
+description: We begrijpen dat het delegeren van toegang tot integraties verwarrend kan zijn. Als u op zoek bent naar een veilige en efficiënte manier om collega's (marketeers, inhouds
 ---
 
 We begrijpen dat het delegeren van toegang tot integraties verwarrend kan zijn. Als u op zoek bent naar een veilige en efficiënte manier om collega's (marketeers, inhoudsmanagers) toestemming te geven om met uw gegevens te werken, is deze gids precies wat u nodig hebt!

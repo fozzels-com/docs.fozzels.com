@@ -7,9 +7,6 @@ description: 'Da Sie bereits mit den grundlegenden Mechanismen der Konfiguration
 keywords:
 - Inhaltsfluss
 - Content-Flow
-- Inhaltsgenerierung
-- Eingabeaufforderung
-- Anweisung
 ---
 
 Da Sie bereits mit den grundlegenden Mechanismen der Konfiguration von Product Content Flows in Fozzels vertraut sind, konzentriert sich dieses technische Handbuch ausschließlich auf die einzigartige Architektur von Magento 2: die Interaktion mit dem Systemattribut `product_media_gallery` und die Optimierung des Token-Verbrauchs während Bulk-Media-Gallery-Verarbeitungsschleifen.

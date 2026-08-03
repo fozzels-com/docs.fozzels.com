@@ -2,12 +2,8 @@
 id: '103000395378'
 title: '2.7. Fozzels verbinden met Akeneo: De Complete Setup Gids'
 sidebar_position: 17
-slug: >-
-  /integration-connectivity/connecting-fozzels-to-akeneo-the-complete-setup-guide
-description: >-
-  Deze gids legt uit hoe u een tweerichtings verbinding tot stand kunt brengen
-  tussen uw Akeneo PIM en Fozzels. De integratie vereist het maken van twee
-  afzonderlijke verbindingen i
+slug: /integration-connectivity/connecting-fozzels-to-akeneo-the-complete-setup-guide
+description: Deze gids legt uit hoe u een tweerichtings verbinding tot stand kunt brengen tussen uw Akeneo PIM en Fozzels. De integratie vereist het maken van twee afzonderlijke verbindingen i
 ---
 
 Deze gids legt uit hoe u een tweerichtings verbinding tot stand kunt brengen tussen uw Akeneo PIM en Fozzels. De integratie vereist het maken van twee afzonderlijke verbindingen in Akeneo - één om Fozzels gegevens in Akeneo in te laten sturen, en één om Akeneo gegevens naar Fozzels uit te laten voeren. Nadat beide verbindingen zijn gemaakt, koppelt u ze aan uw Fozzels account met behulp van de gegenereerde inloggegevens.

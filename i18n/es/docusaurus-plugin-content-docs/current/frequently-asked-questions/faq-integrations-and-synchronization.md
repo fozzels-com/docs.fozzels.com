@@ -3,10 +3,7 @@ title: 'FAQ: Integraciones y Sincronización'
 sidebar_position: 9
 unlisted: true
 slug: /frequently-asked-questions/faq-integrations-and-synchronization
-description: >-
-  Extracciones parciales de productos, problemas de conexión de Shopware y Shopify,
-  variantes y Packs, HTML en atributos, plugins de WooCommerce, límites de velocidad,
-  extracciones de imágenes y problemas de URL de múltiples tiendas.
+description: Extracciones parciales de productos, problemas de conexión de Shopware y Shopify, variantes y Packs, HTML en atributos, plugins de WooCommerce, límites de velocidad, extracciones de imágenes y problemas de URL de múltiples tiendas.
 ---
 
 ## La extracción automática de producto solo recupera parte de mi catálogo. ¿Cómo obtengo todos los productos?

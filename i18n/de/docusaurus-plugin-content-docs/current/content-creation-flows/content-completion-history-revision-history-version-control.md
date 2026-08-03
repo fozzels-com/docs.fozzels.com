@@ -4,9 +4,6 @@ title: '4.8.1  Inhaltsvollständigungsverlauf: Revisionsverlauf und Versionskont
 sidebar_position: 22
 slug: /content-creation-flows/content-completion-history-revision-history-version-control
 description: 'Gemini sagte: Fürchten Sie sich nie wieder, eine großartige Idee oder Ihre ursprüngliche Produktbeschreibung zu verlieren. Mit dem Inhaltsvollständigungsverlauf haben Sie die volle Kontrolle über die'
-keywords:
-- Fertigstellung
-- Generierung
 ---
 
 ###### Gemini sagte

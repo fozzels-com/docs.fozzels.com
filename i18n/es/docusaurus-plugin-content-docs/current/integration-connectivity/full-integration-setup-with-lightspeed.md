@@ -3,9 +3,7 @@ id: '103000367856'
 title: 2.6. Configuración completa de integración con Lightspeed.
 sidebar_position: 16
 slug: /integration-connectivity/full-integration-setup-with-lightspeed
-description: >-
-  Esta guía detalla cómo establecer una conexión API segura bidireccional entre
-  tu tienda Lightspeed eCom y Fozzels generando la clave API requerida y
+description: Esta guía detalla cómo establecer una conexión API segura bidireccional entre tu tienda Lightspeed eCom y Fozzels generando la clave API requerida y
 ---
 
 Esta guía detalla cómo establecer una conexión API segura bidireccional entre tu tienda Lightspeed eCom y Fozzels generando la clave API requerida y el secreto API dentro del Administrador de Lightspeed.

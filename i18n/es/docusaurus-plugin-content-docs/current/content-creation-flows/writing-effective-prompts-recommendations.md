@@ -4,9 +4,6 @@ title: 4.3.3. Escribir Prompts Efectivos (Recomendaciones)
 sidebar_position: 10
 slug: /content-creation-flows/writing-effective-prompts-recommendations
 description: Esta guía proporciona asesoramiento práctico y mejores prácticas para estructurar y escribir prompts dinámicos de alta calidad que producen contenido personalizado, profesional y único.
-keywords:
-- indicación
-- instrucción
 ---
 
 Esta guía proporciona asesoramiento práctico y mejores prácticas para estructurar y escribir **prompts dinámicos de alta calidad** que producen contenido personalizado, profesional y único, yendo más allá de la simple inserción de atributos.

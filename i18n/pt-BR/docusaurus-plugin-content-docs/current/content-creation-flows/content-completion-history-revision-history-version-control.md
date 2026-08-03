@@ -4,8 +4,6 @@ title: '4.8.1  Histórico de Conclusão de Conteúdo: Histórico de Revisões e 
 sidebar_position: 22
 slug: /content-creation-flows/content-completion-history-revision-history-version-control
 description: Gemini disse Nunca tenha medo de perder uma ótima ideia ou sua descrição original do produto novamente. Com o Histórico de Conclusão de Conteúdo, você tem controle total
-keywords:
-- conclusão
 ---
 
 ###### Gemini said

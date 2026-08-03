@@ -2,12 +2,8 @@
 id: '103000368948'
 title: 3.1.1. Visão Geral do Catálogo e o Papel da Tabela de Transformação.
 sidebar_position: 2
-slug: >-
-  /data-import-and-quality/catalog-overview-and-the-role-of-the-transformation-table
-description: >-
-  O Catálogo de Produtos é sua ferramenta principal para gerenciamento
-  centralizado de dados de produtos e seleção pré-Fluxo. Contém todas as
-  entidades de produtos e atributos sincronizados
+slug: /data-import-and-quality/catalog-overview-and-the-role-of-the-transformation-table
+description: O Catálogo de Produtos é sua ferramenta principal para gerenciamento centralizado de dados de produtos e seleção pré-Fluxo. Contém todas as entidades de produtos e atributos sincronizados
 ---
 
 O Catálogo de Produtos é sua ferramenta principal para gerenciamento centralizado de dados de produtos e seleção pré-Fluxo. Contém todas as entidades de produtos e atributos sincronizados da sua plataforma de e-commerce integrada (por exemplo, Magento, Shopify, NextChapter). O Catálogo permite que você filtre rapidamente e selecione subconjuntos específicos de produtos usando ferramentas de filtragem poderosas antes de criar um Fluxo de Conteúdo direcionado. Este processo simplifica a geração e controla os custos.

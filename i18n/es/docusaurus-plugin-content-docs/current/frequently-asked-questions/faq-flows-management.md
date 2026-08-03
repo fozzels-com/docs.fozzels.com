@@ -3,9 +3,7 @@ title: 'FAQ: Gestión de Flujos'
 sidebar_position: 7
 unlisted: true
 slug: /frequently-asked-questions/faq-flows-management
-description: >-
-  Flujos obsoletos, filtros de marca, activación y duplicación de flujos, pausa durante
-  problemas de conexión y reversión de contenido generado automáticamente.
+description: Flujos obsoletos, filtros de marca, activación y duplicación de flujos, pausa durante problemas de conexión y reversión de contenido generado automáticamente.
 ---
 
 ## Marqué accidentalmente un flujo como obsoleto. ¿Puedo deshacer esto?

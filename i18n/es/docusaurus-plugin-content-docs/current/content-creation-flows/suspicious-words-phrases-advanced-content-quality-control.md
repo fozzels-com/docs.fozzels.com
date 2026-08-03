@@ -2,10 +2,8 @@
 id: '103000390709'
 title: '4.7.4  Palabras y frases sospechosas: Control avanzado de calidad de contenido'
 sidebar_position: 20
-slug: >-
-  /content-creation-flows/suspicious-words-phrases-advanced-content-quality-control
-description: >-
-  La función de palabras y frases sospechosas es más que un simple filtro de validación, es una herramienta sofisticada para gestionar flujos de trabajo de contenido de alto volumen
+slug: /content-creation-flows/suspicious-words-phrases-advanced-content-quality-control
+description: La función de palabras y frases sospechosas es más que un simple filtro de validación, es una herramienta sofisticada para gestionar flujos de trabajo de contenido de alto volumen
 ---
 
 La función **Palabras y frases sospechosas** es más que un simple filtro de validación, es una herramienta sofisticada para gestionar flujos de trabajo de contenido de alto volumen. Garantiza que sus descripciones de productos permanezcan profesionales al señalar alucinaciones de IA, artefactos técnicos o términos no deseados en múltiples idiomas simultáneamente.

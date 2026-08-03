@@ -4,15 +4,6 @@ title: 'Release 5.12: Beheer gegevens. Sneller schalen. Leid de markt.'
 sidebar_position: 5
 slug: /fozzels-releases-updates/release-5-12-manage-data-scale-faster-lead-the-market
 description: Versie 5.12 is een hoogtepunt update die Fozzels omzet in het zenuwstelsel van uw e-commerce bewerkingen. We hebben de kracht van multi-model AI gecombineerd met
-keywords:
-- afbeeldingsflow
-- beeldflow
-- afbeeldingsgeneratie
-- batchlijst
-- invoerprompt
-- werkstroom
-- ophalen
-- voltooiing
 ---
 
 Versie 5.12 is een hoogtepunt update die Fozzels omzet in het zenuwstelsel van uw e-commerce-bewerkingen. We hebben de kracht van multi-model AI gecombineerd met ongeëvenaarde integratiediepte voor WordPress en Shopify, waardoor uw gegevens als één eenheid functioneren.

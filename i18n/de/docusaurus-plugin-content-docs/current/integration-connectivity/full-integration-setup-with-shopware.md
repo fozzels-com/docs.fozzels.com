@@ -4,14 +4,6 @@ title: 2.4. Vollständige Integrationseinrichtung mit Shopware
 sidebar_position: 6
 slug: /integration-connectivity/full-integration-setup-with-shopware
 description: 'Diese Anleitung führt Sie durch den vollständigen Prozess der Verbindung Ihres Shopware 6 Online-Shops mit Fozzels. Die Integration besteht aus zwei Teilen: Teil 1: Erstellen einer Integration in Shopware 6'
-keywords:
-- Inhaltsfluss
-- Content-Flow
-- Inhaltsgenerierung
-- Eingabeaufforderung
-- Anweisung
-- Abruf
-- Datenabruf
 ---
 
 Diese Anleitung führt Sie durch den vollständigen Prozess der Verbindung Ihres Shopware 6 Online-Shops mit Fozzels.

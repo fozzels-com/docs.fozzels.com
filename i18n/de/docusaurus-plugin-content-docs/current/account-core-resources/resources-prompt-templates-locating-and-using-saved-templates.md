@@ -4,11 +4,6 @@ title: '1.5. Ressourcen. Prompt-Vorlagen: Suchen und Verwenden gespeicherter Vor
 sidebar_position: 8
 slug: /account-core-resources/resources-prompt-templates-locating-and-using-saved-templates
 description: Prompt-Vorlagen sind wiederverwendbare, vorkonfigurierte Textmodelle, die als Eingabe für die KI zum Generieren bestimmter Arten von Produktinhalten verwendet werden. Diese Vorlagen sind
-keywords:
-- Eingabeaufforderung
-- Anweisung
-- Arbeitsablauf
-- Ablauf
 ---
 
 Prompt-Vorlagen sind wiederverwendbare, vorkonfigurierte Textmodelle, die als Eingabe für die KI zum Generieren bestimmter Arten von Produktinhalten verwendet werden. Diese Vorlagen werden unabhängig von den Content-Generierungs-Workflows konfiguriert und bilden einen Kernbestandteil der Automatisierungslogik. Sie werden typischerweise zum Generieren von Produktbeschreibungen, Meta-Titeln oder Meta-Beschreibungen verwendet.

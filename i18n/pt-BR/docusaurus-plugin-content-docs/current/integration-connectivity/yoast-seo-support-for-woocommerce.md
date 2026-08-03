@@ -3,8 +3,7 @@ id: '103000388046'
 title: 2.5.4. Suporte ao Yoast SEO para WooCommerce
 sidebar_position: 12
 slug: /integration-connectivity/yoast-seo-support-for-woocommerce
-description: >-
-  Este artigo explica como configurar a automação completa dos metadados de seus produtos (títulos, descrições, palavras-chave de foco) usando a integração Yoast SEO com F
+description: Este artigo explica como configurar a automação completa dos metadados de seus produtos (títulos, descrições, palavras-chave de foco) usando a integração Yoast SEO com F
 ---
 
 Este artigo explica como configurar a automação completa dos metadados de seus produtos (títulos, descrições, palavras-chave de foco) usando a integração **Yoast SEO** com Fozzels.

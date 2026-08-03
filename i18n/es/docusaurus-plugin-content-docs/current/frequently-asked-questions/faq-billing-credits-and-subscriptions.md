@@ -3,10 +3,7 @@ title: 'FAQ: Facturación, Créditos y Suscripciones'
 sidebar_position: 4
 unlisted: true
 slug: /frequently-asked-questions/faq-billing-credits-and-subscriptions
-description: >-
-  Cómo funciona la facturación de Fozzels, cómo se calcula el uso de créditos, cómo
-  reducir costos de tokens, cancelaciones, reembolsos, cargos de actualización prorrateados
-  y problemas de recarga automática.
+description: Cómo funciona la facturación de Fozzels, cómo se calcula el uso de créditos, cómo reducir costos de tokens, cancelaciones, reembolsos, cargos de actualización prorrateados y problemas de recarga automática.
 ---
 
 ## El saldo de mi cuenta se ha agotado. ¿Qué debo hacer?

@@ -3,8 +3,7 @@ id: '103000406106'
 title: 2.8.1 VTEX-Integration — erforderliche API-Schlüssel-Berechtigungen
 sidebar_position: 18
 slug: /integration-connectivity/vtex-integration-required-api-key-permissions
-description: >-
-  Welche API-Schlüssel-Berechtigungen benötige ich, um Fozzels mit VTEX zu verbinden? Um Ihren VTEX-Shop mit Fozzels zu verbinden, müssen Sie einen API-Schlüssel in Ihrem VTEX-Admin erstellen und die richtigen Berechtigungen zuweisen
+description: Welche API-Schlüssel-Berechtigungen benötige ich, um Fozzels mit VTEX zu verbinden? Um Ihren VTEX-Shop mit Fozzels zu verbinden, müssen Sie einen API-Schlüssel in Ihrem VTEX-Admin erstellen und die richtigen Berechtigungen zuweisen
 ---
 
 ## Welche API-Schlüssel-Berechtigungen benötige ich, um Fozzels mit VTEX zu verbinden?

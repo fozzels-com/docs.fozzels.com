@@ -3,10 +3,7 @@ title: 'FAQ: Anmeldung und Kontozugriff'
 sidebar_position: 3
 unlisted: true
 slug: /frequently-asked-questions/faq-login-and-account-access
-description: >-
-  Anmeldeprobleme, Google-Anmeldungsfehler, Passwort-Zurücksetzen, länderspezifische
-  Zugriffssperren, Reseller-Impersonation und Übernahme eines Kontos von einem
-  ehemaligen Mitarbeiter.
+description: Anmeldeprobleme, Google-Anmeldungsfehler, Passwort-Zurücksetzen, länderspezifische Zugriffssperren, Reseller-Impersonation und Übernahme eines Kontos von einem ehemaligen Mitarbeiter.
 ---
 
 ## Ich kann mich nicht bei meinem Fozzels-Konto anmelden. Was soll ich tun?

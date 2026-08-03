@@ -5,7 +5,6 @@ sidebar_position: 20
 slug: /content-creation-flows/suspicious-words-phrases-advanced-content-quality-control
 description: De functie Verdachte woorden en frasen is meer dan zojuist een eenvoudig validatiefilter - het is een verfijnd gereedschap voor het beheren van workflows met hoog volume inhoud
 keywords:
-- batchlijst
 - werkstroom
 ---
 

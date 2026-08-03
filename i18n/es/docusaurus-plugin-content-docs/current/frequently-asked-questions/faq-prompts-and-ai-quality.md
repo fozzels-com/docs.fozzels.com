@@ -4,9 +4,6 @@ sidebar_position: 6
 unlisted: true
 slug: /frequently-asked-questions/faq-prompts-and-ai-quality
 description: Competencia de indicaciones, enmarque de imágenes y marca, formato consistente de características, salida multilingüe y lógica de fallback de idioma en indicaciones.
-keywords:
-- indicación
-- instrucción
 ---
 
 ## Mi imagen de IA ignora instrucciones de enmarque (cuerpo completo en lugar de torso).

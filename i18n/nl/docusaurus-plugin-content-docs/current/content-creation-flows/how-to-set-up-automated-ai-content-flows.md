@@ -4,8 +4,6 @@ title: 4.1.2.a Instellen van geautomatiseerde AI-inhoudsstromen
 sidebar_position: 3
 slug: /content-creation-flows/how-to-set-up-automated-ai-content-flows
 description: Geautomatiseerde inhoudsstromen in Fozzels stellen u in staat productinhoud automatisch op de achtergrond te genereren en synchroniseren - zonder dat u taken handmatig elke dag hoeft in te schakelen
-keywords:
-- invoerprompt
 ---
 
 Geautomatiseerde inhoudsstromen in Fozzels stellen u in staat productinhoud automatisch op de achtergrond te genereren en synchroniseren - zonder dat u taken handmatig elke dag hoeft in te schakelen.

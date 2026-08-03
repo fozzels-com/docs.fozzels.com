@@ -4,14 +4,6 @@ title: 'Release 5.11 RC3: Bericht aktualisieren. Kontrolle, Geschwindigkeit und 
 sidebar_position: 2
 slug: /fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity
 description: Wir freuen uns, Release 5.11RC3 vorzustellen — unser größtes Update, das sich auf die Steigerung Ihrer Produktivität, Datenzuverlässigkeit und vor allem kreativer Freiheit konzentriert
-keywords:
-- Inhaltsfluss
-- Content-Flow
-- Inhaltsgenerierung
-- Arbeitsablauf
-- Ablauf
-- Abruf
-- Datenabruf
 ---
 
 ### Wir freuen uns, Release 5.11RC3 vorzustellen — unser größtes Update, das sich auf die Steigerung Ihrer Produktivität, Datenzuverlässigkeit und vor allem kreativer Freiheit konzentriert! Wir fügen leistungsstarke Tools hinzu, damit Sie Ihren Inhalt auf der Ebene eines großen E-Commerce-Betriebs verwalten können.

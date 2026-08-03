@@ -3,9 +3,7 @@ title: 'FAQ: Aan de slag en platformondersteuning'
 sidebar_position: 1
 unlisted: true
 slug: /frequently-asked-questions/faq-getting-started-and-platform-support
-description: >-
-  Waar u kunt leren hoe Fozzels werkt, welke e-commerce platforms en AI-modellen
-  worden ondersteund, en wat u moet doen bij overstap naar een ander webshop platform.
+description: Waar u kunt leren hoe Fozzels werkt, welke e-commerce platforms en AI-modellen worden ondersteund, en wat u moet doen bij overstap naar een ander webshop platform.
 ---
 
 ## Waar kan ik leren hoe Fozzels werkt?

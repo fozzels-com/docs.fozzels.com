@@ -3,10 +3,7 @@ title: 'FAQ: Geração de Imagem'
 sidebar_position: 10
 unlisted: true
 slug: /frequently-asked-questions/faq-image-generation
-description: >-
-  Sincronizando imagens geradas para seu webshop, flows de imagem única, erros
-  de modelo, ativando e confirmando flows de imagem, remoção de fundo e enviando
-  imagens para um PIM.
+description: Sincronizando imagens geradas para seu webshop, flows de imagem única, erros de modelo, ativando e confirmando flows de imagem, remoção de fundo e enviando imagens para um PIM.
 ---
 
 ## Como sincronizo imagens geradas para meu webshop?

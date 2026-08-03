@@ -7,10 +7,6 @@ keywords:
 - fluxo
 - de
 - conteúdo
-- geração
-- instrução
-- comando
-- extração
 ---
 
 O Catalog mostra todos os produtos obtidos da sua loja conectada. É sua visualização central de dados de produtos dentro do Fozzels.

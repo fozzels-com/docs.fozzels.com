@@ -3,10 +3,7 @@ title: 'FAQ: Login e Acesso à Conta'
 sidebar_position: 3
 unlisted: true
 slug: /frequently-asked-questions/faq-login-and-account-access
-description: >-
-  Problemas de login, erros de sign-in do Google, redefinição de senha,
-  bloqueios de acesso por país, personificação de revendedor e assumir uma
-  conta de um ex-funcionário.
+description: Problemas de login, erros de sign-in do Google, redefinição de senha, bloqueios de acesso por país, personificação de revendedor e assumir uma conta de um ex-funcionário.
 ---
 
 ## Não consigo fazer login em minha conta Fozzels. O que devo fazer?

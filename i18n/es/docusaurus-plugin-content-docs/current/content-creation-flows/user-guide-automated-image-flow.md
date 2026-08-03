@@ -3,8 +3,7 @@ id: '103000400446'
 title: '4.5.1. Guía del usuario: flujo de imagen automatizado'
 sidebar_position: 13
 slug: /content-creation-flows/user-guide-automated-image-flow
-description: >-
-  El flujo de imagen es una herramienta profesional diseñada para la generación masiva y sincronización de imágenes de productos usando IA. Al configurar un flujo una vez, establece
+description: El flujo de imagen es una herramienta profesional diseñada para la generación masiva y sincronización de imágenes de productos usando IA. Al configurar un flujo una vez, establece
 ---
 
 **El flujo de imagen** es una herramienta profesional diseñada para la generación masiva y sincronización de imágenes de productos usando IA. Al configurar un flujo una vez, establece un sistema autónomo que procesa miles de productos, incluidos elementos nuevos agregados a su tienda en el futuro a través del filtrado condicional dinámico.

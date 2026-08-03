@@ -2,12 +2,8 @@
 id: '103000395552'
 title: 1.3.1. Uw abonnement activeren en betalingen beheren in Fozzels
 sidebar_position: 4
-slug: >-
-  /account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels
-description: >-
-  Welkom bij Fozzels! Om het volledige potentieel van onze AI zonder beperkingen
-  te benutten, moet u een abonnement activeren. Hier is uw stap-voor-stap gids.
-  1. Kies
+slug: /account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels
+description: Welkom bij Fozzels! Om het volledige potentieel van onze AI zonder beperkingen te benutten, moet u een abonnement activeren. Hier is uw stap-voor-stap gids. 1. Kies
 ---
 
 Welkom bij Fozzels! Om het volledige potentieel van onze AI zonder beperkingen te benutten, moet u een abonnement activeren. Hier is uw stap-voor-stap gids.

@@ -2,11 +2,8 @@
 id: '103000395552'
 title: 1.3.1. Wie Sie Ihren Plan aktivieren und Zahlungen in Fozzels verwalten
 sidebar_position: 4
-slug: >-
-  /account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels
-description: >-
-  Willkommen bei Fozzels! Um das volle Potenzial unserer KI ohne Limits zu
-  nutzen, müssen Sie ein Abonnement aktivieren. Hier ist Ihre Schritt-für-Schritt-Anleitung. 1. Wählen
+slug: /account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels
+description: Willkommen bei Fozzels! Um das volle Potenzial unserer KI ohne Limits zu nutzen, müssen Sie ein Abonnement aktivieren. Hier ist Ihre Schritt-für-Schritt-Anleitung. 1. Wählen
 ---
 
 Willkommen bei Fozzels! Um das volle Potenzial unserer KI ohne Limits zu nutzen, müssen Sie ein Abonnement aktivieren. Hier ist Ihre Schritt-für-Schritt-Anleitung.

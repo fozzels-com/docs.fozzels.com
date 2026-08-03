@@ -1,10 +1,9 @@
 ---
 id: '103000313152'
-title: 'Advertencia "Recursión detectada" al crear un flujo'
+title: Advertencia "Recursión detectada" al crear un flujo
 sidebar_position: 25
 slug: /content-creation-flows/recursion-detected-warning-when-creating-a-flow
-description: >-
-  Cuando ve esta advertencia, significa que está utilizando la variable para introducir contenido del mismo atributo que está utilizando el flujo para escribir. Por
+description: Cuando ve esta advertencia, significa que está utilizando la variable para introducir contenido del mismo atributo que está utilizando el flujo para escribir. Por
 ---
 
 Cuando ve esta advertencia, significa que está utilizando la variable para introducir contenido del mismo atributo que está utilizando el flujo para escribir.

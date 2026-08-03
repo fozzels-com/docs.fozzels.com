@@ -6,7 +6,6 @@ description: Der Katalog zeigt alle Produkte an, die aus Ihrem verbundenen Shop 
 keywords:
 - Inhaltsfluss
 - Content-Flow
-- Inhaltsgenerierung
 ---
 
 Der Katalog zeigt alle Produkte an, die aus Ihrem verbundenen Shop abgerufen werden. Dies ist Ihre zentrale Ansicht der Produktdaten in Fozzels.

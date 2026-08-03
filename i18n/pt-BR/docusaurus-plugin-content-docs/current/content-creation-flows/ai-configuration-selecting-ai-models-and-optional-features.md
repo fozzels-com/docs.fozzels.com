@@ -4,9 +4,6 @@ title: 4.2.1. Configuração de IA. Seleção de Modelos de IA e Recursos Opcion
 sidebar_position: 6
 slug: /content-creation-flows/ai-configuration-selecting-ai-models-and-optional-features
 description: A etapa de Configuração de IA (Etapa 2 na modificação do Fluxo) é o estágio mais crítico para definir o perfil de desempenho e custo de um Fluxo de Conteúdo. Ele dita
-keywords:
-- instrução
-- comando
 ---
 
 A etapa de Configuração de IA (Etapa 2 na modificação do Fluxo) é o estágio mais crítico para definir o perfil de desempenho e custo de um Fluxo de Conteúdo. Ela dita a escolha do mecanismo de IA generativa, suas capacidades especializadas e suas restrições operacionais. Os usuários devem tomar decisões estratégicas aqui, equilibrando qualidade de saída, complexidade de tarefa (por exemplo, requisitos multimodais) e otimização de custo de token.

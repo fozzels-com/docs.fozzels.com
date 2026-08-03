@@ -4,8 +4,6 @@ title: '4.8.1  Inhoudsafhandelinggeschiedenis: revisiegeschiedenis & versiebehee
 sidebar_position: 22
 slug: /content-creation-flows/content-completion-history-revision-history-version-control
 description: 'Gemini zei: Vrees nooit meer een geweldig idee of uw oorspronkelijke productbeschrijving te verliezen. Met de Inhoudsafhandelinggeschiedenis heeft u volledige controle over de'
-keywords:
-- voltooiing
 ---
 
 ###### Gemini zei

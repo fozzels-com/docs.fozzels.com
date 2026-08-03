@@ -4,8 +4,6 @@ sidebar_position: 8
 unlisted: true
 slug: /frequently-asked-questions/faq-product-catalog-and-data-pulls
 description: Hoe de nachtelijke cataloguseenheidspull werkt, waarom nieuwe of ontbrekende producten niet verschijnen, varianten en categorieverschillen, aangepaste atribuutfiltering en aangepaste pullschema's.
-keywords:
-- ophalen
 ---
 
 ## De productcatalogus werkt bij op nachtelijk schema. Hoe werkt dit?

@@ -4,8 +4,6 @@ title: 2.5.8. Diagnosticando Sua Conexão WooCommerce no Fozzels
 sidebar_position: 15
 slug: /integration-connectivity/diagnosing-your-woocommerce-connection-in-fozzels
 description: Se você vir um banner "Connection Issues Detected" após salvar sua integração WooCommerce, este artigo o ajudará a entender o que cada mensagem significa
-keywords:
-- extração
 ---
 
 #

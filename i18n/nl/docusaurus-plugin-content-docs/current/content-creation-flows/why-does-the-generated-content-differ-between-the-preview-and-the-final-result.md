@@ -4,9 +4,6 @@ title: 4.1.2.b Waarom verschilt de gegenereerde inhoud tussen het voorbeeld en h
 sidebar_position: 4
 slug: /content-creation-flows/why-does-the-generated-content-differ-between-the-preview-and-the-final-result
 description: 'Vraag: waarom verschilt de inhoud in het voorbeeld van de inhoud die uiteindelijk naar de website is gesynchroniseerd? Antwoord: dit gedrag is verwacht'
-keywords:
-- batchlijst
-- invoerprompt
 ---
 
 ## Vraag

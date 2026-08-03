@@ -3,10 +3,7 @@ title: 'FAQ: Generación de Imágenes'
 sidebar_position: 10
 unlisted: true
 slug: /frequently-asked-questions/faq-image-generation
-description: >-
-  Sincronización de imágenes generadas a su tienda web, flujos de imagen única, errores
-  de modelo, activación y confirmación de flujos de imagen, eliminación de fondo e inserción
-  de imágenes en un PIM.
+description: Sincronización de imágenes generadas a su tienda web, flujos de imagen única, errores de modelo, activación y confirmación de flujos de imagen, eliminación de fondo e inserción de imágenes en un PIM.
 ---
 
 ## ¿Cómo sincronizo imágenes generadas a mi tienda web?

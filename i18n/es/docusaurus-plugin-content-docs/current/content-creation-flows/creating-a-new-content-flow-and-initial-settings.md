@@ -4,9 +4,6 @@ title: 4.1.2. Crear un Nuevo Flujo de Contenido y Configuración Inicial.
 sidebar_position: 2
 slug: /content-creation-flows/creating-a-new-content-flow-and-initial-settings
 description: El Flujo de Contenido es el núcleo de la automatización dentro de Fozzels. Es un conjunto de instrucciones que define cómo el sistema debe usar el modelo de IA seleccionado para automat
-keywords:
-- indicación
-- instrucción
 ---
 
 El Flujo de Contenido es el núcleo de la automatización dentro de Fozzels. Es un conjunto de instrucciones que define cómo el sistema debe usar el modelo de IA seleccionado para generar, actualizar y sincronizar automáticamente textos para sus productos.

@@ -4,8 +4,6 @@ title: 3.1.2 Hoe u het globale Pull-schema en API-beperking instelt
 sidebar_position: 3
 slug: /data-import-and-quality/how-to-configure-global-pull-schedule-api-throttling
 description: Bij het beheren van grote catalogusintegraties is het controleren van wanneer en hoe snel Fozzels productgegevens van uw e-commerceplatform importeert van cruciaal belang voor het handhaven van
-keywords:
-- ophalen
 ---
 
 Bij het beheren van grote catalogusintegraties is het controleren van **wanneer** en **hoe snel** Fozzels productgegevens van uw e-commerceplatform importeert, essentieel voor het handhaven van winkelprestaties.

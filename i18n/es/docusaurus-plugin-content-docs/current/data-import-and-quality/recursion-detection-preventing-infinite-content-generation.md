@@ -4,9 +4,6 @@ title: '3.5. Detección de Recursión: Previniendo la Generación Infinita de Co
 sidebar_position: 8
 slug: /data-import-and-quality/recursion-detection-preventing-infinite-content-generation
 description: La advertencia "Recursión detectada" señala un conflicto potencial en la configuración de tu Flujo donde la salida del proceso de generación también sirve como entrada para el mismo proceso.
-keywords:
-- indicación
-- instrucción
 ---
 
 La advertencia "Recursión detectada" señala un conflicto potencial en la configuración de tu Flujo donde la salida del proceso de generación también sirve como entrada para el mismo proceso. Esto significa que tu Flujo está configurado para leer datos del mismo atributo al cual está simultáneamente configurado para escribir el contenido recién generado.

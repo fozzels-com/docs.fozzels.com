@@ -4,9 +4,6 @@ title: '1.5. Recursos. Plantillas de Indicaciones: Localización y uso de planti
 sidebar_position: 8
 slug: /account-core-resources/resources-prompt-templates-locating-and-using-saved-templates
 description: Las Plantillas de Indicaciones son modelos de texto reutilizables y preconfigurados utilizados como entrada para que la IA genere tipos específicos de contenido de productos. Estas plantillas están confi
-keywords:
-- indicación
-- instrucción
 ---
 
 Las Plantillas de Indicaciones son modelos de texto reutilizables y preconfigurados utilizados como entrada para que la IA genere tipos específicos de contenido de productos. Estas plantillas se configuran independientemente de los flujos de generación de contenido y forman una parte central de la lógica de automatización. Se utilizan típicamente para generar descripciones de productos, títulos meta o metadescripciones.

@@ -4,8 +4,6 @@ title: 4.7.1 Bijhouden van gegenereerde resultaten. Dashboard.
 sidebar_position: 17
 slug: /content-creation-flows/tracking-of-the-generated-results-dashboard
 description: Het Dashboards (of dagelijks totaal batchlijst) dient als uw commandocentrum, met een volledig overzicht van alle inhoudsgenering en synchronisatieprocessen
-keywords:
-- invoerprompt
 ---
 
 Het Dashboards (of dagelijks totaal batchlijst) dient als uw commandocentrum, met een volledig overzicht van alle inhoudsgenering en synchronisatieprocessen. Deze interface stelt u in staat proactief de status bij te houden, fouten op te sporen en alle gegenereerde gegevens efficiënt te beheren.

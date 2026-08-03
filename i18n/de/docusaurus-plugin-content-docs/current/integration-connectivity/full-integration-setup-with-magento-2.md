@@ -4,9 +4,6 @@ title: 2.2. Vollständige Integrationseinrichtung mit Magento 2.
 sidebar_position: 2
 slug: /integration-connectivity/full-integration-setup-with-magento-2
 description: Diese Anleitung zeigt den Prozess zum Etablieren einer sicheren bidirektionalen Verbindung zwischen Ihrem Magento 2 Shop und Fozzels. Sie generieren die erforderlichen API-Tokens und konfigurieren Berechtigungen, um einen nahtlosen Produktdatenimport und Inhaltsexport zu gewährleisten
-keywords:
-- Fertigstellung
-- Generierung
 ---
 
 Diese Anleitung zeigt den Prozess zum Etablieren einer sicheren bidirektionalen Verbindung zwischen Ihrem Magento 2 Shop und Fozzels. Sie generieren die erforderlichen API-Tokens und konfigurieren Berechtigungen, um einen nahtlosen Produktdatenimport und Inhaltsexport zu gewährleisten.

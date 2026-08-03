@@ -5,12 +5,7 @@ sidebar_position: 15
 slug: /fozzels-releases-updates/release-7-6-vtex-integration-category-metadata-mapping-custom-pull-schedules-and
 description: Wir freuen uns, Fozzels Version 7.6 vorzustellen! Dieses Release bringt eine völlig neue Plattform-Integration, tiefere Kategorie- und Bild-Datenzugänglichkeit, präzis
 keywords:
-- Eingabeaufforderung
-- Anweisung
 - Arbeitsablauf
-- Ablauf
-- Abruf
-- Datenabruf
 ---
 
 Wir freuen uns, Fozzels Version 7.6 vorzustellen! Dieses Release bringt eine völlig neue Plattform-Integration, tiefere Kategorie- und Bild-Datenzugänglichkeit, präzise Synchronisierung und API Pull-Steuerungen sowie große Upgrades für KI-Bildgenerungs-Workflows. Erkunden Sie alle neuen Funktionen unten.

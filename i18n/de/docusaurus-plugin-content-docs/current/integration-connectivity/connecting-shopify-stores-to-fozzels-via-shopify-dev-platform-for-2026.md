@@ -4,9 +4,6 @@ title: 2.3.2. Verbindung von Shopify-Stores mit Fozzels über die Shopify Dev Pl
 sidebar_position: 4
 slug: /integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026
 description: WICHTIGER HINWEIS Ab dem 1. Januar 2026 ändert Shopify offiziell seine Regeln für die Anwendungsverwaltung. Die alte Methode zum Erstellen von „Private Apps" d
-keywords:
-- Abruf
-- Datenabruf
 ---
 
 WICHTIGER HINWEIS

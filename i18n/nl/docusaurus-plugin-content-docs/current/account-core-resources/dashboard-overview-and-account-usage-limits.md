@@ -3,11 +3,6 @@ title: Dashboard Overzicht en Accountgebruiksgrenzen
 sidebar_position: 9
 slug: /account-core-resources/dashboard-overview-and-account-usage-limits
 description: Het Dashboard is de startpagina van Fozzels en geeft u een real-time overzicht van uw accountgebruik — integraties, winkels, Flows en voltooiingen tegen uw planquota's.
-keywords:
-- contentflow
-- inhoudsstroom
-- contentgeneratie
-- voltooiing
 ---
 
 Het Dashboard is de startpagina van Fozzels. Het geeft u een real-time overzicht van uw accountgebruik.

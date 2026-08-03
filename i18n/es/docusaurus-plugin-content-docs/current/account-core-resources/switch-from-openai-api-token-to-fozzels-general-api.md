@@ -3,10 +3,7 @@ id: '103000357927'
 title: 1.4.1. Cambiar del token de API de OpenAI a la API general de Fozzels
 sidebar_position: 6
 slug: /account-core-resources/switch-from-openai-api-token-to-fozzels-general-api
-description: >-
-  Hemos cambiado la forma en que Fozzels maneja los pagos de "tokens" de los
-  modelos de IA. Le pedimos a todos nuestros usuarios que cambien esta
-  configuración antes del 1 de agosto de 2025. Por favor
+description: Hemos cambiado la forma en que Fozzels maneja los pagos de "tokens" de los modelos de IA. Le pedimos a todos nuestros usuarios que cambien esta configuración antes del 1 de agosto de 2025. Por favor
 ---
 
 Hemos cambiado la forma en que Fozzels maneja los pagos de "tokens" de los modelos de IA.

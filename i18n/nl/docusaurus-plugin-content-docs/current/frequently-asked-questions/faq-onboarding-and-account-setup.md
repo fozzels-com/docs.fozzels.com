@@ -4,8 +4,6 @@ sidebar_position: 2
 unlisted: true
 slug: /frequently-asked-questions/faq-onboarding-and-account-setup
 description: Hoe u een Fozzels account instelt — trials, het verbinden van Magento, Shopware, Shopify, Lightspeed en Akeneo, het toevoegen van extra websites en teamaccounts.
-keywords:
-- invoerprompt
 ---
 
 ## Hoe stel ik een nieuw Fozzels account in met een PIM-verbinding?

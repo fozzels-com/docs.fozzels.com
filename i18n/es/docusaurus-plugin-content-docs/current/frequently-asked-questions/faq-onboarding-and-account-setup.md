@@ -3,9 +3,7 @@ title: 'FAQ: Incorporación y Configuración de Cuenta'
 sidebar_position: 2
 unlisted: true
 slug: /frequently-asked-questions/faq-onboarding-and-account-setup
-description: >-
-  Cómo configurar una cuenta de Fozzels — pruebas, conexión de Magento, Shopware,
-  Shopify, Lightspeed y Akeneo, agregación de sitios web adicionales y cuentas de equipo.
+description: Cómo configurar una cuenta de Fozzels — pruebas, conexión de Magento, Shopware, Shopify, Lightspeed y Akeneo, agregación de sitios web adicionales y cuentas de equipo.
 ---
 
 ## ¿Cómo configuro una nueva cuenta de Fozzels con una conexión PIM?

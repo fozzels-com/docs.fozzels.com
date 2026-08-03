@@ -1,12 +1,9 @@
 ---
 id: '103000369548'
-title: >-
-  4.4.1 Función de prevención de generación de contenido superpuesto. Función global de prevención.
+title: 4.4.1 Función de prevención de generación de contenido superpuesto. Función global de prevención.
 sidebar_position: 12
-slug: >-
-  /content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function
-description: >-
-  La función "Prevenir generación doble de contenido con otros flujos" es crucial para garantizar que no genere contenido dos veces para el mismo producto cuando podría
+slug: /content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function
+description: La función "Prevenir generación doble de contenido con otros flujos" es crucial para garantizar que no genere contenido dos veces para el mismo producto cuando podría
 ---
 
 La función **"Prevenir generación doble de contenido con otros flujos"** es crucial para garantizar que no genere contenido dos veces para el mismo producto cuando podría pertenecer a múltiples flujos. Esto ayuda a optimizar sus costos de uso de IA (tokens).

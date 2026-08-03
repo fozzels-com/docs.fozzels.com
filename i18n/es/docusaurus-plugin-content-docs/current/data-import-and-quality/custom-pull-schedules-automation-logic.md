@@ -4,10 +4,6 @@ title: 3.1  Programaciones de Extracción Personalizadas y Lógica de Automatiza
 sidebar_position: 1
 slug: /data-import-and-quality/custom-pull-schedules-automation-logic
 description: Hemos actualizado la plataforma Fozzels para alinearse con tu ritmo comercial local. Ahora tienes control total sobre cuándo comienza tu ciclo de actualización de contenido, permitiéndote sincronizar operaciones de IA con tus actualizaciones de inventario y capacidad del servidor.
-keywords:
-- indicación
-- instrucción
-- extracción
 ---
 
 Hemos actualizado la plataforma Fozzels para alinearse con tu ritmo comercial local. Ahora tienes control total sobre cuándo comienza tu ciclo de actualización de contenido, permitiéndote sincronizar operaciones de IA con tus actualizaciones de inventario y capacidad del servidor.

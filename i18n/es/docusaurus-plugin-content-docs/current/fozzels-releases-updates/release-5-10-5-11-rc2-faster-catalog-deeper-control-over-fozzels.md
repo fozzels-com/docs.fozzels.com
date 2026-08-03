@@ -2,14 +2,8 @@
 id: '103000384142'
 title: 'Versión 5.10-5.11 RC2: Catálogo más Rápido, Control más Profundo sobre Fozzels.'
 sidebar_position: 1
-slug: >-
-  /fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels
-description: >-
-  Nos esforzamos por asegurar que trabajar con grandes volúmenes de datos no sea
-  solo rápido, sino también completamente controlable e intuitivo. La Versión
-  5.10 se enfoca en mejorar la calidad de los datos visuales e incrementar
-  significativamente el rendimiento y la conveniencia del uso de nuestro servicio
-  Fozzels.
+slug: /fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels
+description: Nos esforzamos por asegurar que trabajar con grandes volúmenes de datos no sea solo rápido, sino también completamente controlable e intuitivo. La Versión 5.10 se enfoca en mejorar la calidad de los datos visuales e incrementar significativamente el rendimiento y la conveniencia del uso de nuestro servicio Fozzels.
 ---
 
 Nos esforzamos por asegurar que trabajar con grandes volúmenes de datos no sea solo rápido, sino también completamente controlable e intuitivo. La Versión 5.10 se enfoca en mejorar la calidad de los datos visuales e **incrementar significativamente el rendimiento y la conveniencia del uso de nuestro servicio Fozzels.**

@@ -4,9 +4,6 @@ sidebar_position: 7
 unlisted: true
 slug: /frequently-asked-questions/faq-flows-management
 description: Flows obsoletos, filtros de marca, ativar e duplicar flows, pausar durante problemas de conexão e reverter conteúdo auto-gerado.
-keywords:
-- instrução
-- comando
 ---
 
 ## Marquei acidentalmente um flow como obsoleto. Posso desfazer isso?

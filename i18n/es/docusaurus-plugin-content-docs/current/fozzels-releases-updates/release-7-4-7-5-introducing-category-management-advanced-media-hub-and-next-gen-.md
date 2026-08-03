@@ -1,12 +1,9 @@
 ---
 id: '103000408094'
-title: >-
-  Lanzamiento 7.4-7.5: introducción de gestión de categorías, centro de medios avanzado y modelos Anthropic de próxima generación
+title: 'Lanzamiento 7.4-7.5: introducción de gestión de categorías, centro de medios avanzado y modelos Anthropic de próxima generación'
 sidebar_position: 14
-slug: >-
-  /fozzels-releases-updates/release-7-4-7-5-introducing-category-management-advanced-media-hub-and-next-gen-
-description: >-
-  Bienvenido a la última versión de Fozzels: una actualización importante diseñada para llevar tu automatización de contenido y gestión de catálogo al siguiente nivel. Hemos reimaginado completamente
+slug: /fozzels-releases-updates/release-7-4-7-5-introducing-category-management-advanced-media-hub-and-next-gen-
+description: 'Bienvenido a la última versión de Fozzels: una actualización importante diseñada para llevar tu automatización de contenido y gestión de catálogo al siguiente nivel. Hemos reimaginado completamente'
 ---
 
 Bienvenido a la última versión de Fozzels: una actualización importante diseñada para llevar tu automatización de contenido y gestión de catálogo al siguiente nivel. Hemos reimaginado completamente las interfaces principales, expandido significativamente las capacidades de la plataforma e integrado los últimos modelos de IA para hacer tus flujos de trabajo diarios más fluidos, rápidos y eficientes que nunca.

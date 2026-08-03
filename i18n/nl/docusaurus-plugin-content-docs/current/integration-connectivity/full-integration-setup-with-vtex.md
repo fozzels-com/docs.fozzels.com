@@ -4,8 +4,6 @@ title: 2.8.2 Volledige integratieinstelling met VTEX
 sidebar_position: 19
 slug: /integration-connectivity/full-integration-setup-with-vtex
 description: 'Deze handleiding biedt stapsgewijze instructies voor het integreren van uw VTEX-winkelfront met Fozzels. Het proces omvat twee belangrijke stadia: genereren van de vereiste'
-keywords:
-- ophalen
 ---
 
 Deze handleiding biedt stapsgewijze instructies voor het integreren van uw **VTEX**-winkelfront met **Fozzels**. Het proces omvat twee belangrijke stadia: genereren van de vereiste API-sleutels in uw VTEX Admin-venster en het voltooien van de instellingen in Fozzels.

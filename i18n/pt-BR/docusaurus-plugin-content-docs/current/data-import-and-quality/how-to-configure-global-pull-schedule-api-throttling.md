@@ -4,8 +4,6 @@ title: 3.1.2 Como Configurar Agendamento de Pull Global e API Throttling
 sidebar_position: 3
 slug: /data-import-and-quality/how-to-configure-global-pull-schedule-api-throttling
 description: Ao gerenciar grandes integrações de catálogo, controlar quando e com que velocidade Fozzels importa dados de produtos da sua plataforma de e-commerce é chave para manter
-keywords:
-- extração
 ---
 
 Ao gerenciar grandes integrações de catálogo, controlar **quando** e **com que velocidade** Fozzels importa dados de produtos da sua plataforma de e-commerce é chave para manter o desempenho da loja.

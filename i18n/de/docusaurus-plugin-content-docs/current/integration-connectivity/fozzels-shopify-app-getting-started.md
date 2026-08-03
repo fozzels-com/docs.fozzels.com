@@ -4,15 +4,6 @@ title: 2.3.1. Fozzels Shopify App — Erste Schritte
 sidebar_position: 3
 slug: /integration-connectivity/fozzels-shopify-app-getting-started
 description: Vielen Dank, dass Sie die Fozzels Shopify App installiert haben! Wir freuen uns darauf, Ihnen zu helfen, Ihre Produktinhalte zu automatisieren und Stunden manueller Arbeit zu sparen. Lassen Sie uns Sie in wenigen Minuten einrichten
-keywords:
-- Bildfluss
-- Bildflow
-- Bildgenerierung
-- Inhaltsfluss
-- Content-Flow
-- Inhaltsgenerierung
-- Videofluss
-- Videoflow
 ---
 
 #

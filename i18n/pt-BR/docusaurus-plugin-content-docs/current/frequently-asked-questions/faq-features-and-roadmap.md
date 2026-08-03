@@ -4,14 +4,6 @@ sidebar_position: 11
 unlisted: true
 slug: /frequently-asked-questions/faq-features-and-roadmap
 description: Cronogramas customizados de pull de produtos, customização de conteúdo suspeito, vídeos YouTube incorporados, conteúdo de página de categoria, campos de feed de comerciante e notificações de erro.
-keywords:
-- fluxo
-- de
-- conteúdo
-- geração
-- instrução
-- comando
-- extração
 ---
 
 ## Posso definir um cronograma de pull de produto customizado?

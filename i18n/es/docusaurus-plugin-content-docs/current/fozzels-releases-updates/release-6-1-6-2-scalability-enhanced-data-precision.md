@@ -3,8 +3,7 @@ id: '103000399446'
 title: 'Lanzamiento 6.1-6.2: escalabilidad y precisión de datos mejorada'
 sidebar_position: 10
 slug: /fozzels-releases-updates/release-6-1-6-2-scalability-enhanced-data-precision
-description: >-
-  Esta actualización se enfoca en optimizar el rendimiento de la plataforma para datos a gran escala y expandir las capacidades de recopilación de datos, asegurando que tengas todos los detalles que necesitas
+description: Esta actualización se enfoca en optimizar el rendimiento de la plataforma para datos a gran escala y expandir las capacidades de recopilación de datos, asegurando que tengas todos los detalles que necesitas
 ---
 
 Esta actualización se enfoca en optimizar el rendimiento de la plataforma para datos a gran escala y expandir las capacidades de recopilación de datos, asegurando que tengas todos los detalles necesarios para generar contenido de producto de alta calidad.

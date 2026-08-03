@@ -3,8 +3,7 @@ id: '103000370386'
 title: 4.6.2 Consejos para crear una solicitud efectiva + Ejemplos
 sidebar_position: 16
 slug: /content-creation-flows/tips-for-creating-an-effective-prompt-examples
-description: >-
-  Para flujos de video utilizando modelos especializados como Gemini Veo 3, la solicitud es la entrada más crítica. A diferencia de la generación de texto, los modelos de video requieren un
+description: Para flujos de video utilizando modelos especializados como Gemini Veo 3, la solicitud es la entrada más crítica. A diferencia de la generación de texto, los modelos de video requieren un
 ---
 
 Para flujos de video utilizando modelos especializados como Gemini Veo 3, la solicitud es la entrada más crítica. A diferencia de la generación de texto, los modelos de video requieren un grado mucho mayor de especificidad para traducir conceptos textuales en una secuencia visual coherente.

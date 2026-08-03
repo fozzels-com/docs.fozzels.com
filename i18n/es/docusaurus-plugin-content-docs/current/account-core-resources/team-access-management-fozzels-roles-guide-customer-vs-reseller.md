@@ -2,12 +2,8 @@
 id: '103000385518'
 title: '1.2.2. Administración de Acceso del Equipo: Guía de Roles de Fozzels (Cliente vs. Revendedor)'
 sidebar_position: 3
-slug: >-
-  /account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller
-description: >-
-  Entendemos que delegar acceso a integraciones puede ser confuso. Si está
-  buscando una forma segura y eficiente de otorgar permiso a colegas
-  (especialistas en marketing, co
+slug: /account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller
+description: Entendemos que delegar acceso a integraciones puede ser confuso. Si está buscando una forma segura y eficiente de otorgar permiso a colegas (especialistas en marketing, co
 ---
 
 Entendemos que delegar acceso a integraciones puede ser confuso. Si está buscando una forma segura y eficiente de otorgar permiso a colegas (especialistas en marketing, gerentes de contenido) para trabajar con sus datos, ¡esta guía es exactamente lo que necesita!

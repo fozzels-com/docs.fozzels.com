@@ -7,7 +7,6 @@ keywords:
 - flujo
 - de
 - contenido
-- generación
 ---
 
 El Catálogo muestra todos los productos extraídos de su tienda conectada. Es su vista central de datos de productos dentro de Fozzels.

@@ -2,13 +2,8 @@
 id: '103000368949'
 title: '3.1.3. Vista Detallada del Producto: Revisión de todos los atributos para un solo producto.'
 sidebar_position: 5
-slug: >-
-  /data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product
-description: >-
-  La Vista Detallada del Producto ofrece una interfaz dedicada y consolidada
-  para revisar todos los metadatos asociados con un solo producto. Esta función
-  está diseñada para eliminar la complejidad del Catálogo principal, donde
-  algunos atributos podrían estar ocultos.
+slug: /data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product
+description: La Vista Detallada del Producto ofrece una interfaz dedicada y consolidada para revisar todos los metadatos asociados con un solo producto. Esta función está diseñada para eliminar la complejidad del Catálogo principal, donde algunos atributos podrían estar ocultos.
 ---
 
 La **Vista Detallada del Producto** ofrece una interfaz dedicada y consolidada para revisar todos los metadatos asociados con un solo producto. Esta función está diseñada para eliminar la complejidad del Catálogo principal, donde algunos atributos podrían estar ocultos o la estructura de la tabla es demasiado incómoda para referencia rápida.

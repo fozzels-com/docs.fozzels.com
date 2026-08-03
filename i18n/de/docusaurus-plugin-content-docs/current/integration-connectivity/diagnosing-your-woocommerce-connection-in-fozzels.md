@@ -4,9 +4,6 @@ title: 2.5.8. Diagnose Ihrer WooCommerce-Verbindung in Fozzels
 sidebar_position: 15
 slug: /integration-connectivity/diagnosing-your-woocommerce-connection-in-fozzels
 description: Wenn Sie ein Banner „Verbindungsprobleme erkannt" nach dem Speichern Ihrer WooCommerce-Integration sehen, hilft Ihnen dieser Artikel zu verstehen, was jede Meldung bedeutet a
-keywords:
-- Abruf
-- Datenabruf
 ---
 
 #

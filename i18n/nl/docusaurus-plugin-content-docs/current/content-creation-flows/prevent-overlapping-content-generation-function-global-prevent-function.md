@@ -1,14 +1,9 @@
 ---
 id: '103000369548'
-title: >-
-  4.4.1 Voorkomen van overlappende inhoudsgenereratie. Globale preventfunctie.
+title: 4.4.1 Voorkomen van overlappende inhoudsgenereratie. Globale preventfunctie.
 sidebar_position: 12
-slug: >-
-  /content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function
-description: >-
-  De functie "Dubbele inhoudsgenering voorkomen met andere stromen" is cruciaal
-  om ervoor te zorgen dat u inhoud niet twee keer voor hetzelfde product
-  genereert wanneer het tot meerdere stromen behoort.
+slug: /content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function
+description: De functie "Dubbele inhoudsgenering voorkomen met andere stromen" is cruciaal om ervoor te zorgen dat u inhoud niet twee keer voor hetzelfde product genereert wanneer het tot meerdere stromen behoort.
 ---
 
 De functie **"Dubbele inhoudsgenering voorkomen met andere stromen"** is cruciaal om ervoor te zorgen dat u inhoud niet twee keer voor hetzelfde product genereert wanneer het tot meerdere stromen behoort. Dit helpt uw AI-gebruikskosten (tokens) optimaliseren.

@@ -2,12 +2,8 @@
 id: '103000385518'
 title: '1.2.2. Teamzugriffsverwaltung: Leitfaden zu Fozzels-Rollen (Kunde vs. Reseller)'
 sidebar_position: 3
-slug: >-
-  /account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller
-description: >-
-  Wir verstehen, dass die Delegierung des Zugriffs auf Integrationen verwirrend
-  sein kann. Wenn Sie nach einem sicheren und effizienten Weg suchen, um Kollegen
-  (Vermarkter,
+slug: /account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller
+description: Wir verstehen, dass die Delegierung des Zugriffs auf Integrationen verwirrend sein kann. Wenn Sie nach einem sicheren und effizienten Weg suchen, um Kollegen (Vermarkter,
 ---
 
 Wir verstehen, dass die Delegierung des Zugriffs auf Integrationen verwirrend sein kann. Wenn Sie nach einem sicheren und effizienten Weg suchen, um Kollegen (Vermarkter, Content Manager) die Berechtigung zu gewähren, mit Ihren Daten zu arbeiten, ist diese Anleitung genau das, was Sie brauchen!
