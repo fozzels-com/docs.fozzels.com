@@ -1,12 +1,20 @@
 ---
 id: '103000385007'
-title: >-
-  Release 5.11: Die Inhaltsrevolution! Weltklasse-Modelle und beispiellose Datenkontrolle.
+title: 'Release 5.11: Die Inhaltsrevolution! Weltklasse-Modelle und beispiellose Datenkontrolle.'
 sidebar_position: 3
-slug: >-
-  /fozzels-releases-updates/release-5-11-the-content-revolution-world-class-models-and-unprecedented-data-co
-description: >-
-  Wir freuen uns, Release 5.11 vorzustellen! Wir haben unsere Anwendung noch leistungsfähiger gemacht! Wir haben hart gearbeitet, Ihr Feedback zu hören und ein Update zu liefern, das
+slug: /fozzels-releases-updates/release-5-11-the-content-revolution-world-class-models-and-unprecedented-data-co
+description: Wir freuen uns, Release 5.11 vorzustellen! Wir haben unsere Anwendung noch leistungsfähiger gemacht! Wir haben hart gearbeitet, Ihr Feedback zu hören und ein Update zu liefern, das
+keywords:
+- Bildfluss
+- Bildflow
+- Bildgenerierung
+- Inhaltsfluss
+- Content-Flow
+- Inhaltsgenerierung
+- Stapelliste
+- Chargenliste
+- Arbeitsablauf
+- Ablauf
 ---
 
 Wir freuen uns, **Release 5.11** vorzustellen!

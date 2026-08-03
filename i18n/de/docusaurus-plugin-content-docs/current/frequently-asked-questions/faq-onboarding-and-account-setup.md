@@ -3,9 +3,10 @@ title: 'FAQ: Onboarding und Kontoeinrichtung'
 sidebar_position: 2
 unlisted: true
 slug: /frequently-asked-questions/faq-onboarding-and-account-setup
-description: >-
-  Einrichtung eines Fozzels-Kontos – Testversionen, Verbindung von Magento, Shopware,
-  Shopify, Lightspeed und Akeneo, Hinzufügen zusätzlicher Websites und Team-Konten.
+description: Einrichtung eines Fozzels-Kontos – Testversionen, Verbindung von Magento, Shopware, Shopify, Lightspeed und Akeneo, Hinzufügen zusätzlicher Websites und Team-Konten.
+keywords:
+- Eingabeaufforderung
+- Anweisung
 ---
 
 ## Wie richte ich ein neues Fozzels-Konto mit einer PIM-Verbindung ein?

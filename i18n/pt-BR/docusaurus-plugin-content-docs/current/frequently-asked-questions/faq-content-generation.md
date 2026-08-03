@@ -3,10 +3,11 @@ title: 'FAQ: Geração de Conteúdo'
 sidebar_position: 5
 unlisted: true
 slug: /frequently-asked-questions/faq-content-generation
-description: >-
-  As questões mais comuns sobre geração de texto de IA — textos ausentes, limites
-  de lote, regeneração após mudanças de prompt, erros de geração, conteúdo
-  suspeito, escolha de modelo, tempo de sincronização e controle de custo.
+description: As questões mais comuns sobre geração de texto de IA — textos ausentes, limites de lote, regeneração após mudanças de prompt, erros de geração, conteúdo suspeito, escolha de modelo, tempo de sincronização e controle de custo.
+keywords:
+- instrução
+- comando
+- conclusão
 ---
 
 ## Produtos estão no meu flow mas textos não foram gerados.

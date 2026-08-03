@@ -1,11 +1,16 @@
 ---
 id: '103000395550'
-title: 'Release 5.15 & 5.16 - Stabilität, Globalisierung und intelligente Kontrolle'
+title: Release 5.15 & 5.16 - Stabilität, Globalisierung und intelligente Kontrolle
 sidebar_position: 8
-slug: >-
-  /fozzels-releases-updates/release-5-15-5-16-stability-globalization-and-intelligent-control
-description: >-
-  Wir haben zwei große Updates kombiniert, um Ihren Content-Workflow zuverlässiger und Ihre Synchronisierungsfähigkeiten grenzenlos zu machen. Globalisierung und SEO-Exzellenz
+slug: /fozzels-releases-updates/release-5-15-5-16-stability-globalization-and-intelligent-control
+description: Wir haben zwei große Updates kombiniert, um Ihren Content-Workflow zuverlässiger und Ihre Synchronisierungsfähigkeiten grenzenlos zu machen. Globalisierung und SEO-Exzellenz
+keywords:
+- Eingabeaufforderung
+- Anweisung
+- Arbeitsablauf
+- Ablauf
+- Abruf
+- Datenabruf
 ---
 
 Wir haben zwei große Updates kombiniert, um Ihren Content-Workflow zuverlässiger und Ihre Synchronisierungsfähigkeiten grenzenlos zu machen.

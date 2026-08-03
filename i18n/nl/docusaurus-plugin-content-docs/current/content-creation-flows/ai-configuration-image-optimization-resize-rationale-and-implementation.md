@@ -1,15 +1,11 @@
 ---
 id: '103000367979'
-title: >-
-  4.2.2. AI-configuratie. Afbeeldingsoptimalisering (vergroten/verkleinen):
-  logica en implementatie.
+title: '4.2.2. AI-configuratie. Afbeeldingsoptimalisering (vergroten/verkleinen): logica en implementatie.'
 sidebar_position: 7
-slug: >-
-  /content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation
-description: >-
-  De functie Afbeelding vergroten/verkleinen optimaliseert grote afbeeldingen
-  automatisch om aan de technische vereisten van het AI-generatiesysteem te
-  voldoen. Het is standaard ingeschakeld in alle
+slug: /content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation
+description: De functie Afbeelding vergroten/verkleinen optimaliseert grote afbeeldingen automatisch om aan de technische vereisten van het AI-generatiesysteem te voldoen. Het is standaard ingeschakeld in alle
+keywords:
+- invoerprompt
 ---
 
 De functie **Afbeelding vergroten/verkleinen** optimaliseert grote afbeeldingen automatisch om aan de technische vereisten van het AI-generatiesysteem te voldoen. Het is standaard ingeschakeld in alle nieuwe en bestaande Flows om generatiefouten te voorkomen en invoertokenkosten te verminderen.

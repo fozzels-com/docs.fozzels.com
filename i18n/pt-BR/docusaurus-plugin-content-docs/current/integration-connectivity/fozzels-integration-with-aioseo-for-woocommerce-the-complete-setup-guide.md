@@ -1,14 +1,14 @@
 ---
 id: '103000386882'
-title: >-
-  2.5.3. Integração Fozzels com AIOSEO para WooCommerce: Guia Completo de
-  Configuração
+title: '2.5.3. Integração Fozzels com AIOSEO para WooCommerce: Guia Completo de Configuração'
 sidebar_position: 9
-slug: >-
-  /integration-connectivity/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide
-description: >-
-  All in One SEO (AIOSEO) é o principal plugin WordPress projetado para melhorar
-  o ranking de busca e aumentar o tráfego orgânico automatizando elementos críticos
+slug: /integration-connectivity/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide
+description: All in One SEO (AIOSEO) é o principal plugin WordPress projetado para melhorar o ranking de busca e aumentar o tráfego orgânico automatizando elementos críticos
+keywords:
+- fluxo
+- de
+- conteúdo
+- geração
 ---
 
 ###

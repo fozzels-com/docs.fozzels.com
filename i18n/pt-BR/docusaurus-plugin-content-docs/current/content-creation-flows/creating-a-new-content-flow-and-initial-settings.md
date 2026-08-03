@@ -3,10 +3,10 @@ id: '103000367976'
 title: 4.1.2. Criando um Novo Fluxo de Conteúdo e Configurações Iniciais.
 sidebar_position: 2
 slug: /content-creation-flows/creating-a-new-content-flow-and-initial-settings
-description: >-
-  O Fluxo de Conteúdo é o núcleo da automação dentro do Fozzels. É um conjunto
-  de instruções que define como o sistema deve usar o modelo de IA selecionado
-  para automatizar
+description: O Fluxo de Conteúdo é o núcleo da automação dentro do Fozzels. É um conjunto de instruções que define como o sistema deve usar o modelo de IA selecionado para automatizar
+keywords:
+- instrução
+- comando
 ---
 
 O Fluxo de Conteúdo é o núcleo da automação dentro do Fozzels. É um conjunto de instruções que define como o sistema deve usar o modelo de IA selecionado para gerar, atualizar e sincronizar textos automaticamente para seus produtos.

@@ -3,10 +3,10 @@ id: '103000408983'
 title: 4.1.2.a Como Configurar Fluxos de Conteúdo de IA Automatizados
 sidebar_position: 3
 slug: /content-creation-flows/how-to-set-up-automated-ai-content-flows
-description: >-
-  Os Fluxos de Conteúdo Automatizados no Fozzels permitem que você gere e
-  sincronize o conteúdo do produto automaticamente em segundo plano - sem
-  exigir que você dispare
+description: Os Fluxos de Conteúdo Automatizados no Fozzels permitem que você gere e sincronize o conteúdo do produto automaticamente em segundo plano - sem exigir que você dispare
+keywords:
+- instrução
+- comando
 ---
 
 Os Fluxos de Conteúdo Automatizados no Fozzels permitem que você gere e sincronize o conteúdo do produto automaticamente em segundo plano - sem exigir que você dispare tarefas manualmente todos os dias.

@@ -3,10 +3,11 @@ id: '103000399446'
 title: 'Release 6.1-6.2: Schaalbaarheid & Verbeterde Gegevensnauwkeurigheid'
 sidebar_position: 10
 slug: /fozzels-releases-updates/release-6-1-6-2-scalability-enhanced-data-precision
-description: >-
-  Deze update richt zich op het optimaliseren van platformprestaties voor
-  large-scale data en het uitbreiden van gegevensverzamelingsmogelijkheden, zodat
-  u elk detail hebt dat nodig is
+description: Deze update richt zich op het optimaliseren van platformprestaties voor large-scale data en het uitbreiden van gegevensverzamelingsmogelijkheden, zodat u elk detail hebt dat nodig is
+keywords:
+- invoerprompt
+- werkstroom
+- ophalen
 ---
 
 Deze update richt zich op het optimaliseren van platformprestaties voor large-scale data en het uitbreiden van gegevensverzamelingsmogelijkheden, zodat u elk detail hebt dat nodig is om zeer kwalitatieve product content te genereren.

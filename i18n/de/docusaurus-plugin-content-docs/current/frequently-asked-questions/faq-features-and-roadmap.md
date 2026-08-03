@@ -3,10 +3,13 @@ title: 'FAQ: Features und Roadmap'
 sidebar_position: 11
 unlisted: true
 slug: /frequently-asked-questions/faq-features-and-roadmap
-description: >-
-  Benutzerdefinierte Abrufpläne, Anpassung verdächtiger Inhalte, eingebettete
-  YouTube-Videos, Kategorie-Seiteninhalte, Merchant-Feed-Felder und
-  Fehlerbenachrichtigungen.
+description: Benutzerdefinierte Abrufpläne, Anpassung verdächtiger Inhalte, eingebettete YouTube-Videos, Kategorie-Seiteninhalte, Merchant-Feed-Felder und Fehlerbenachrichtigungen.
+keywords:
+- Inhaltsfluss
+- Content-Flow
+- Inhaltsgenerierung
+- Eingabeaufforderung
+- Anweisung
 ---
 
 ## Kann ich einen benutzerdefinierten Produktabruf-Zeitplan einstellen?

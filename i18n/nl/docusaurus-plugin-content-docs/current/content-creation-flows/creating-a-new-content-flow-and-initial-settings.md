@@ -3,10 +3,9 @@ id: '103000367976'
 title: 4.1.2. Een nieuwe inhoudsflow maken en initiële instellingen.
 sidebar_position: 2
 slug: /content-creation-flows/creating-a-new-content-flow-and-initial-settings
-description: >-
-  De inhoudsflow is de kern van automatisering binnen Fozzels. Het is een
-  instructieset die bepaalt hoe het systeem het geselecteerde AI-model moet
-  gebruiken om automatisch
+description: De inhoudsflow is de kern van automatisering binnen Fozzels. Het is een instructieset die bepaalt hoe het systeem het geselecteerde AI-model moet gebruiken om automatisch
+keywords:
+- invoerprompt
 ---
 
 De inhoudsflow is de kern van automatisering binnen Fozzels. Het is een instructieset die bepaalt hoe het systeem het geselecteerde AI-model moet gebruiken om automatisch teksten voor uw producten te genereren, bij te werken en te synchroniseren.

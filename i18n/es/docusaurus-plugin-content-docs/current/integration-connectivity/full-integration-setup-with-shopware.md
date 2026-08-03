@@ -3,9 +3,11 @@ id: '103000338038'
 title: 2.4. Configuración completa de integración con Shopware
 sidebar_position: 6
 slug: /integration-connectivity/full-integration-setup-with-shopware
-description: >-
-  Esta guía te guía a través del proceso completo de conectar tu tienda en línea
-  Shopware 6 con Fozzels. La integración consta de dos partes: Parte 1:
+description: 'Esta guía te guía a través del proceso completo de conectar tu tienda en línea Shopware 6 con Fozzels. La integración consta de dos partes: Parte 1:'
+keywords:
+- indicación
+- instrucción
+- extracción
 ---
 
 Esta guía te guía a través del proceso completo de conectar tu tienda en línea Shopware 6 con Fozzels.

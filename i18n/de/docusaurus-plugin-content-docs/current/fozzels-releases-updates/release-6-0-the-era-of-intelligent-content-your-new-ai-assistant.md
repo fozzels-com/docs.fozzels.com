@@ -2,10 +2,15 @@
 id: '103000397673'
 title: Release 6.0 - Das Zeitalter intelligenter Inhalte und Ihr neuer KI-Assistent
 sidebar_position: 9
-slug: >-
-  /fozzels-releases-updates/release-6-0-the-era-of-intelligent-content-your-new-ai-assistant
-description: >-
-  Wir freuen uns, Fozzels 6.0 vorzustellen - ein massives Update, bei dem die weltweit leistungsstärksten KI-Modelle zu Ihren täglichen Werkzeugen werden, angetrieben von einem personalisierten Assis
+slug: /fozzels-releases-updates/release-6-0-the-era-of-intelligent-content-your-new-ai-assistant
+description: Wir freuen uns, Fozzels 6.0 vorzustellen - ein massives Update, bei dem die weltweit leistungsstärksten KI-Modelle zu Ihren täglichen Werkzeugen werden, angetrieben von einem personalisierten Assis
+keywords:
+- Eingabeaufforderung
+- Anweisung
+- Arbeitsablauf
+- Ablauf
+- Abruf
+- Datenabruf
 ---
 
 Wir freuen uns, **Fozzels 6.0 -** vorzustellen, ein massives Update, bei dem die weltweit leistungsstärksten KI-Modelle zu Ihren täglichen Werkzeugen werden, angetrieben von einem personalisierten Assistenten, der für die Skalierung Ihres E-Commerce-Inhalts konzipiert wurde.

@@ -1,13 +1,13 @@
 ---
 title: Integrations — Visão Geral, Configuração, Flags de Atributo e Diagnósticos
 sidebar_position: 21
-slug: >-
-  /integration-connectivity/integrations-overview-setup-attribute-flags-and-diagnostics
-description: >-
-  Uma Integration é uma conexão segura entre Fozzels e sua loja de e-commerce
-  ou PIM. Este guia cobre plataformas suportadas, passos de configuração, flags
-  de atributo, agendamentos de pull, notas específicas de plataforma e a
-  referência de diagnósticos completa do WooCommerce.
+slug: /integration-connectivity/integrations-overview-setup-attribute-flags-and-diagnostics
+description: Uma Integration é uma conexão segura entre Fozzels e sua loja de e-commerce ou PIM. Este guia cobre plataformas suportadas, passos de configuração, flags de atributo, agendamentos de pull, notas específicas de plataforma e a referência de diagnósticos completa do WooCommerce.
+keywords:
+- instrução
+- comando
+- extração
+- conclusão
 ---
 
 Uma Integration é uma conexão segura entre Fozzels e sua loja de e-commerce ou sistema PIM. Depois de conectado, Fozzels pode obter seus dados de produtos e empurrar conteúdo gerado por IA de volta para sua loja.

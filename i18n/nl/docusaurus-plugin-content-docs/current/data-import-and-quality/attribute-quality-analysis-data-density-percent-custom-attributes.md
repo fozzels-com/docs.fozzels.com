@@ -2,12 +2,11 @@
 id: '103000368952'
 title: 3.2.1. Analyse van kenmerkgegevenskwaliteit. Gegevensdichtheidspercentage. Aangepaste kenmerken
 sidebar_position: 6
-slug: >-
-  /data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes
-description: >-
-  Dit document biedt zowel een conceptueel overzicht als gedetailleerde praktische
-  instructies over de volledige levenscyclus van productkenmerken in het
-  Fozzels pl
+slug: /data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes
+description: Dit document biedt zowel een conceptueel overzicht als gedetailleerde praktische instructies over de volledige levenscyclus van productkenmerken in het Fozzels pl
+keywords:
+- invoerprompt
+- ophalen
 ---
 
 Dit document biedt zowel een conceptueel overzicht als gedetailleerde praktische instructies over de volledige levenscyclus van productkenmerken in het Fozzels-platform: van initiële import en analyse tot geavanceerde configuratie, transformatie en aanmaak van aangepaste velden.

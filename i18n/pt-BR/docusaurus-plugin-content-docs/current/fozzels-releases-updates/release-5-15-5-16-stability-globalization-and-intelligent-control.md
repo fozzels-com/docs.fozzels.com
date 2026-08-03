@@ -1,11 +1,12 @@
 ---
 id: '103000395550'
-title: 'Release 5.15 & 5.16 - Estabilidade, Globalização e Controle Inteligente'
+title: Release 5.15 & 5.16 - Estabilidade, Globalização e Controle Inteligente
 sidebar_position: 8
-slug: >-
-  /fozzels-releases-updates/release-5-15-5-16-stability-globalization-and-intelligent-control
-description: >-
-  Combinamos duas grandes atualizações para tornar seu fluxo de trabalho de conteúdo mais confiável e suas capacidades de sincronização ilimitadas. Globalização & Excelência em SEO
+slug: /fozzels-releases-updates/release-5-15-5-16-stability-globalization-and-intelligent-control
+description: Combinamos duas grandes atualizações para tornar seu fluxo de trabalho de conteúdo mais confiável e suas capacidades de sincronização ilimitadas. Globalização & Excelência em SEO
+keywords:
+- instrução
+- comando
 ---
 
 Combinamos duas grandes atualizações para tornar seu fluxo de trabalho de conteúdo mais confiável e suas capacidades de sincronização ilimitadas.

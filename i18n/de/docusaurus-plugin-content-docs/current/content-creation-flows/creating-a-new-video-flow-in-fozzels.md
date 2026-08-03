@@ -3,10 +3,13 @@ id: '103000370066'
 title: 4.6.1 Erstellen eines neuen Video-Flows in Fozzels
 sidebar_position: 15
 slug: /content-creation-flows/creating-a-new-video-flow-in-fozzels
-description: >-
-  Die Video-Flow-Funktion ist ein spezialisierter Content Flow, der der
-  Generierung von kurzen, hochfidelity Video-Assets für Produktpräsentationen
-  gewidmet ist. Erstellen eines Video F
+description: Die Video-Flow-Funktion ist ein spezialisierter Content Flow, der der Generierung von kurzen, hochfidelity Video-Assets für Produktpräsentationen gewidmet ist. Erstellen eines Video F
+keywords:
+- Inhaltsfluss
+- Content-Flow
+- Inhaltsgenerierung
+- Eingabeaufforderung
+- Anweisung
 ---
 
 Die Video-Flow-Funktion ist ein spezialisierter Content Flow, der der Generierung von kurzen, hochfidelity Video-Assets für Produktpräsentationen gewidmet ist. Das Erstellen eines Video-Flows umfasst drei Schlüsselphasen: grundlegende Konfiguration (Modellauswahl), Asset-Auswahl (Produkt und Bild) und präzise Prompt-Entwicklung. Aufgrund der hohen Rechenkosten der Videogenerierung ist Genauigkeit in der Einrichtung von größter Bedeutung für erfolgreiche Ausführung und Kostenkontrolle.

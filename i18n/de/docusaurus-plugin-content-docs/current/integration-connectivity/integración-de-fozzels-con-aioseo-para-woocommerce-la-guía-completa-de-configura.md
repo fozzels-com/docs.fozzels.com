@@ -1,12 +1,13 @@
 ---
 id: '103000408519'
-title: >-
-  2.5.3. Fozzels-Integration mit AIOSEO für WooCommerce: Der komplette Konfigurationsleitfaden
+title: '2.5.3. Fozzels-Integration mit AIOSEO für WooCommerce: Der komplette Konfigurationsleitfaden'
 sidebar_position: 10
-slug: >-
-  /integration-connectivity/integración-de-fozzels-con-aioseo-para-woocommerce-la-guía-completa-de-configura
-description: >-
-  All in One SEO (AIOSEO) ist das führende WordPress-Plugin, das entwickelt wurde, um die Suchmaschinen-Rankings zu verbessern und organischen Traffic durch Automatisierung kritischer SEO-Elemente zu erhöhen
+slug: /integration-connectivity/integración-de-fozzels-con-aioseo-para-woocommerce-la-guía-completa-de-configura
+description: All in One SEO (AIOSEO) ist das führende WordPress-Plugin, das entwickelt wurde, um die Suchmaschinen-Rankings zu verbessern und organischen Traffic durch Automatisierung kritischer SEO-Elemente zu erhöhen
+keywords:
+- Inhaltsfluss
+- Content-Flow
+- Inhaltsgenerierung
 ---
 
 **All in One SEO (AIOSEO)** ist das führende WordPress-Plugin, das entwickelt wurde, um die Suchmaschinen-Rankings zu verbessern und organischen Traffic durch Automatisierung kritischer SEO-Elemente wie Meta-Tags und Social-Media-Vorschauen zu erhöhen.

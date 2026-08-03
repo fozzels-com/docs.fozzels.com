@@ -3,10 +3,9 @@ title: 'FAQ: Catálogo de Produtos e Puxadas de Dados'
 sidebar_position: 8
 unlisted: true
 slug: /frequently-asked-questions/faq-product-catalog-and-data-pulls
-description: >-
-  Como o pull de catálogo noturno funciona, por que produtos novos ou ausentes
-  não aparecem, diferenças de variante e categoria, filtragem de atributo
-  customizado e cronogramas de pull customizados.
+description: Como o pull de catálogo noturno funciona, por que produtos novos ou ausentes não aparecem, diferenças de variante e categoria, filtragem de atributo customizado e cronogramas de pull customizados.
+keywords:
+- extração
 ---
 
 ## O catálogo de produtos é atualizado em um cronograma noturno. Como funciona?

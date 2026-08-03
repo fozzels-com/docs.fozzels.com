@@ -2,10 +2,17 @@
 title: Kontoeinstellungen — Vollständige Referenz
 sidebar_position: 10
 slug: /account-core-resources/account-settings-complete-reference
-description: >-
-  Jeder Bereich der Fozzels-Kontoeinstellungen erläutert — Profil, Sicherheit,
-  Benachrichtigungen, OpenAI-Token, API-Tokens, Flow-Einstellungen, Prompt-Vorlagen,
-  Medien, Pläne, Zahlungen und Transaktionen.
+description: Jeder Bereich der Fozzels-Kontoeinstellungen erläutert — Profil, Sicherheit, Benachrichtigungen, OpenAI-Token, API-Tokens, Flow-Einstellungen, Prompt-Vorlagen, Medien, Pläne, Zahlungen und Transaktionen.
+keywords:
+- Inhaltsfluss
+- Content-Flow
+- Inhaltsgenerierung
+- Eingabeaufforderung
+- Anweisung
+- Abruf
+- Datenabruf
+- Fertigstellung
+- Generierung
 ---
 
 Gehen Sie zu [Einstellungen](https://app.fozzels.com/user/settings) — die linke Seitenleiste enthält alle Bereiche.

@@ -2,12 +2,10 @@
 id: '103000367978'
 title: 4.2.1.  AI-configuratie. AI-modellen en optionele functies selecteren.
 sidebar_position: 6
-slug: >-
-  /content-creation-flows/ai-configuration-selecting-ai-models-and-optional-features
-description: >-
-  De stap AI-configuratie (stap 2 bij Flow-aanpassingen) is het kritiekste
-  stadium voor het bepalen van de prestaties en kostenstructuur van een
-  inhoudsflow. Het bepaalt
+slug: /content-creation-flows/ai-configuration-selecting-ai-models-and-optional-features
+description: De stap AI-configuratie (stap 2 bij Flow-aanpassingen) is het kritiekste stadium voor het bepalen van de prestaties en kostenstructuur van een inhoudsflow. Het bepaalt
+keywords:
+- invoerprompt
 ---
 
 De stap AI-configuratie (stap 2 bij Flow-aanpassingen) is het kritiekste stadium voor het bepalen van de prestaties en kostenstructuur van een inhoudsflow. Dit bepaalt de keuze van de generatieve AI-engine, de gespecialiseerde mogelijkheden ervan en de operationele beperkingen. Gebruikers moeten hier strategische beslissingen nemen, waarbij ze de outputkwaliteit, taakcomplexiteit (bijvoorbeeld multimodale vereisten) en tokenkosten-optimalisatie in evenwicht houden.

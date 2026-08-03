@@ -2,12 +2,11 @@
 id: '103000389492'
 title: 'Release 5.13: Verbind Akeneo. Optimaliseer kosten. Controleer kwaliteit.'
 sidebar_position: 6
-slug: >-
-  /fozzels-releases-updates/release-5-13-connect-akeneo-optimize-costs-control-quality
-description: >-
-  Release Hoogtepunten 1. Akeneo PIM Integratie We hebben ons ecosysteem uitgebreid
-  om Akeneo, een wereldwijd toonaangevend Product Information Management-systeem, te
-  ondersteunen.
+slug: /fozzels-releases-updates/release-5-13-connect-akeneo-optimize-costs-control-quality
+description: Release Hoogtepunten 1. Akeneo PIM Integratie We hebben ons ecosysteem uitgebreid om Akeneo, een wereldwijd toonaangevend Product Information Management-systeem, te ondersteunen.
+keywords:
+- invoerprompt
+- werkstroom
 ---
 
 ## **Release Hoogtepunten**

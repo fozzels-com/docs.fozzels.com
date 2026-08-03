@@ -1,17 +1,15 @@
 ---
 id: '103000408207'
-title: >-
-  4.3.2.a Genereren van Alt-teksten voor afbeeldingen in Magento 2: Technische
-  inzichten en stap-voor-stap configuratie
+title: '4.3.2.a Genereren van Alt-teksten voor afbeeldingen in Magento 2: Technische inzichten en stap-voor-stap configuratie'
 sidebar_position: 9
-slug: >-
-  /content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu
-description: >-
-  Omdat je al bekend bent met de basisprincipes van het configureren van
-  Product Content Flows in Fozzels, richt deze technische handleiding zich
-  uitsluitend op de unieke architectuur van Magento 2: interactie met het
-  systeemattribuut `product_media_gallery` en optimalisatie van tokenverbruik
-  tijdens bulkmedia-gallerijverwerkingslussen.
+slug: /content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu
+description: 'Omdat je al bekend bent met de basisprincipes van het configureren van Product Content Flows in Fozzels, richt deze technische handleiding zich uitsluitend op de unieke architectuur van Magento 2: interactie met het systeemattribuut `product_media_gallery` en optimalisatie van tokenverbruik tijdens bulkmedia-gallerijverwerkingslussen.'
+keywords:
+- contentflow
+- inhoudsstroom
+- contentgeneratie
+- batchlijst
+- invoerprompt
 ---
 
 Omdat je al bekend bent met de basisprincipes van het configureren van Product Content Flows in Fozzels, richt deze technische handleiding zich uitsluitend op de unieke architectuur van Magento 2: interactie met het systeemattribuut `product_media_gallery` en optimalisatie van tokenverbruik tijdens bulkmedia-gallerijverwerkingslussen.

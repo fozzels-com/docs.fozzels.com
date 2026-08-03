@@ -3,9 +3,10 @@ title: 'FAQ: Prompts und KI-Qualität'
 sidebar_position: 6
 unlisted: true
 slug: /frequently-asked-questions/faq-prompts-and-ai-quality
-description: >-
-  Prompt-Konkurrenz, Bildrahmen und Branding, konsistente Feature-Formatierung,
-  mehrsprachige Ausgabe und Sprachfallback-Logik in Prompts.
+description: Prompt-Konkurrenz, Bildrahmen und Branding, konsistente Feature-Formatierung, mehrsprachige Ausgabe und Sprachfallback-Logik in Prompts.
+keywords:
+- Eingabeaufforderung
+- Anweisung
 ---
 
 ## Mein KI-Bild ignoriert Rahmenanweisungen (Ganzkörper statt Oberkörper).

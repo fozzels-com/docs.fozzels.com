@@ -3,10 +3,11 @@ title: 'FAQ: Afbeeldingsgeneratie'
 sidebar_position: 10
 unlisted: true
 slug: /frequently-asked-questions/faq-image-generation
-description: >-
-  Gegenereerde afbeeldingen synchroniseren naar uw webshop, single-image flows,
-  modelfouten, afbeeldingsflows activeren en bevestigen, achtergrondverwijdering
-  en afbeeldingen naar een PIM pushen.
+description: Gegenereerde afbeeldingen synchroniseren naar uw webshop, single-image flows, modelfouten, afbeeldingsflows activeren en bevestigen, achtergrondverwijdering en afbeeldingen naar een PIM pushen.
+keywords:
+- afbeeldingsflow
+- beeldflow
+- afbeeldingsgeneratie
 ---
 
 ## Hoe synchroniseer ik gegenereerde afbeeldingen naar mijn webshop?

@@ -3,9 +3,10 @@ title: 'FAQ: Flow-Verwaltung'
 sidebar_position: 7
 unlisted: true
 slug: /frequently-asked-questions/faq-flows-management
-description: >-
-  Veraltete Flows, Brand-Filter, Aktivierung und Duplizierung von Flows, Pausieren
-  bei Verbindungsproblemen und Rückgängigmachen von automatisch generiertem Inhalt.
+description: Veraltete Flows, Brand-Filter, Aktivierung und Duplizierung von Flows, Pausieren bei Verbindungsproblemen und Rückgängigmachen von automatisch generiertem Inhalt.
+keywords:
+- Eingabeaufforderung
+- Anweisung
 ---
 
 ## Ich habe einen Flow versehentlich als veraltet gekennzeichnet. Kann ich das rückgängig machen?

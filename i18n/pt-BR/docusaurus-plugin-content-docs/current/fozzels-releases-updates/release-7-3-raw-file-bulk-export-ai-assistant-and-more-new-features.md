@@ -1,11 +1,17 @@
 ---
 id: '103000406495'
-title: 'Release 7.3 Arquivo Bruto, Exportação em Massa, Assistente de IA e Mais Novos Recursos'
+title: Release 7.3 Arquivo Bruto, Exportação em Massa, Assistente de IA e Mais Novos Recursos
 sidebar_position: 13
-slug: >-
-  /fozzels-releases-updates/release-7-3-raw-file-bulk-export-ai-assistant-and-more-new-features
-description: >-
-  Esta versão é tudo sobre poder, flexibilidade e controle absoluto sobre seu catálogo. Adicionamos integrações de arquivo manual tão esperadas, expandimos filtragem inteligente para novos ecossistemas
+slug: /fozzels-releases-updates/release-7-3-raw-file-bulk-export-ai-assistant-and-more-new-features
+description: Esta versão é tudo sobre poder, flexibilidade e controle absoluto sobre seu catálogo. Adicionamos integrações de arquivo manual tão esperadas, expandimos filtragem inteligente para novos ecossistemas
+keywords:
+- fluxo
+- de
+- imagens
+- geração
+- vídeo
+- extração
+- conclusão
 ---
 
 Esta versão é tudo sobre poder, flexibilidade e controle absoluto sobre seu catálogo. Adicionamos integrações de arquivo manual tão esperadas, expandimos filtragem inteligente para novos ecossistemas e implementamos ferramentas avançadas de exportação em massa para tornar seu fluxo de trabalho de conteúdo verdadeiramente perfeito.

@@ -1,15 +1,12 @@
 ---
 id: '103000367979'
-title: >-
-  4.2.2. Configuração de IA. Otimização de Imagem (Redimensionamento):
-  Justificativa e implementação.
+title: '4.2.2. Configuração de IA. Otimização de Imagem (Redimensionamento): Justificativa e implementação.'
 sidebar_position: 7
-slug: >-
-  /content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation
-description: >-
-  O recurso Redimensionamento de Imagem otimiza automaticamente imagens grandes
-  para atender aos requisitos técnicos do sistema de geração de IA. Ele está
-  ativado por padrão em um
+slug: /content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation
+description: O recurso Redimensionamento de Imagem otimiza automaticamente imagens grandes para atender aos requisitos técnicos do sistema de geração de IA. Ele está ativado por padrão em um
+keywords:
+- instrução
+- comando
 ---
 
 O recurso **Redimensionamento de Imagem** otimiza automaticamente imagens grandes para atender aos requisitos técnicos do sistema de geração de IA. Ele está ativado por padrão em todos os Fluxos novos e existentes para evitar falhas de geração e reduzir custos de Token de Entrada.

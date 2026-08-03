@@ -3,10 +3,9 @@ id: '103000390569'
 title: 'Versão 5.14: Controle Total, Segurança e Dimensionamento Global'
 sidebar_position: 7
 slug: /fozzels-releases-updates/release-5-14-total-control-safety-global-scaling
-description: >-
-  A versão de hoje trata-se de sua liberdade e confiança. Introduzimos
-  ferramentas que permitem ao Fozzels trabalhar em sua agenda, proteger a
-  integridade dos seus dados e escalar sem esforço seu negócio globalmente.
+description: A versão de hoje trata-se de sua liberdade e confiança. Introduzimos ferramentas que permitem ao Fozzels trabalhar em sua agenda, proteger a integridade dos seus dados e escalar sem esforço seu negócio globalmente.
+keywords:
+- extração
 ---
 
 A versão de hoje trata-se de sua liberdade e confiança. Introduzimos ferramentas que permitem ao Fozzels trabalhar em sua agenda, proteger a integridade dos seus dados e escalar sem esforço seu negócio globalmente.

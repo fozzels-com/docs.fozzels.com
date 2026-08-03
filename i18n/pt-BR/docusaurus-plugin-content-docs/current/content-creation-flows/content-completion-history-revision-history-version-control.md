@@ -2,12 +2,10 @@
 id: '103000390785'
 title: '4.8.1  Histórico de Conclusão de Conteúdo: Histórico de Revisões e Controle de Versão'
 sidebar_position: 22
-slug: >-
-  /content-creation-flows/content-completion-history-revision-history-version-control
-description: >-
-  Gemini disse Nunca tenha medo de perder uma ótima ideia ou sua descrição
-  original do produto novamente. Com o Histórico de Conclusão de Conteúdo, você
-  tem controle total
+slug: /content-creation-flows/content-completion-history-revision-history-version-control
+description: Gemini disse Nunca tenha medo de perder uma ótima ideia ou sua descrição original do produto novamente. Com o Histórico de Conclusão de Conteúdo, você tem controle total
+keywords:
+- conclusão
 ---
 
 ###### Gemini said

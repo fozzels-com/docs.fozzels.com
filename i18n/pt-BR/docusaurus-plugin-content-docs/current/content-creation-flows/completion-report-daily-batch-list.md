@@ -2,10 +2,15 @@
 title: Completion Report (Lista de Lote Diário)
 sidebar_position: 28
 slug: /content-creation-flows/completion-report-daily-batch-list
-description: >-
-  O Completion Report é uma visão geral diária de todos os itens de conteúdo
-  gerados por IA em seus Flows — mostrando o que foi gerado, confirmado e
-  empurrado para sua loja em um dia específico.
+description: O Completion Report é uma visão geral diária de todos os itens de conteúdo gerados por IA em seus Flows — mostrando o que foi gerado, confirmado e empurrado para sua loja em um dia específico.
+keywords:
+- fluxo
+- de
+- conteúdo
+- geração
+- instrução
+- comando
+- conclusão
 ---
 
 O Completion Report é uma visão geral diária de todos os itens de conteúdo gerados por IA em seus Flows — mostrando o que foi gerado, confirmado e empurrado para sua loja em um dia específico.

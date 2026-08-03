@@ -2,12 +2,20 @@
 id: '103000406293'
 title: '2.9.1 - CSV Integratie in Fozzels: Wat Het Is en Hoe Het In Te Stellen'
 sidebar_position: 20
-slug: >-
-  /integration-connectivity/csv-integration-in-fozzels-what-it-is-and-how-to-set-it-up
-description: >-
-  Wat Is CSV Integratie? CSV integratie stelt u in staat om uw productcatalogus
-  naar Fozzels te verbinden met behulp van een standaard CSV-bestand. Als uw
-  platform geen d
+slug: /integration-connectivity/csv-integration-in-fozzels-what-it-is-and-how-to-set-it-up
+description: Wat Is CSV Integratie? CSV integratie stelt u in staat om uw productcatalogus naar Fozzels te verbinden met behulp van een standaard CSV-bestand. Als uw platform geen d
+keywords:
+- afbeeldingsflow
+- beeldflow
+- afbeeldingsgeneratie
+- contentflow
+- inhoudsstroom
+- contentgeneratie
+- videoflow
+- videostroom
+- batchlijst
+- invoerprompt
+- ophalen
 ---
 
 ## Wat Is CSV Integratie?

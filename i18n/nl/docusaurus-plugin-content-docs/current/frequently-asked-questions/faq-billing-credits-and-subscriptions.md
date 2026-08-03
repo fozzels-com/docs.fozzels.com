@@ -3,10 +3,9 @@ title: 'FAQ: Facturering, credits en abonnementen'
 sidebar_position: 4
 unlisted: true
 slug: /frequently-asked-questions/faq-billing-credits-and-subscriptions
-description: >-
-  Hoe Fozzels facturering werkt, hoe creditgebruik wordt berekend, hoe u
-  tokenkosten kunt verlagen, opzeggingen, terugbetalingen, ingestelde
-  upgradekosten en problemen met automatisch opvullen.
+description: Hoe Fozzels facturering werkt, hoe creditgebruik wordt berekend, hoe u tokenkosten kunt verlagen, opzeggingen, terugbetalingen, ingestelde upgradekosten en problemen met automatisch opvullen.
+keywords:
+- invoerprompt
 ---
 
 ## Mijn accountsaldo is op. Wat moet ik doen?

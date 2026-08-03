@@ -2,11 +2,13 @@
 title: Content Flows — Volledig Gids
 sidebar_position: 27
 slug: /content-creation-flows/content-flows-complete-guide
-description: >-
-  Content Flows zijn de kernautomatiseringsfunctie van Fozzels. Deze gids
-  behandelt het maken van een Flow, prompt templates, het uitvoeren ervan, de
-  voltooiingslevenscyclus, verdachte content, en waarom content soms niet
-  synchroniseert.
+description: Content Flows zijn de kernautomatiseringsfunctie van Fozzels. Deze gids behandelt het maken van een Flow, prompt templates, het uitvoeren ervan, de voltooiingslevenscyclus, verdachte content, en waarom content soms niet synchroniseert.
+keywords:
+- contentflow
+- inhoudsstroom
+- contentgeneratie
+- invoerprompt
+- voltooiing
 ---
 
 Content Flows zijn de kernautomatiseringsfunctie van Fozzels. Een Flow is een regel die automatisch AI-content genereert voor een geselecteerd productattribuut en het resultaat terugschrijft naar uw winkel.

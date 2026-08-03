@@ -2,10 +2,15 @@
 title: Content Flows — Guia Completo
 sidebar_position: 27
 slug: /content-creation-flows/content-flows-complete-guide
-description: >-
-  Content Flows são o recurso de automação central do Fozzels. Este guia cobre
-  criação de Flow, modelos de prompt, execução, ciclo de vida das conclusões,
-  conteúdo suspeito e por que o conteúdo às vezes não será sincronizado.
+description: Content Flows são o recurso de automação central do Fozzels. Este guia cobre criação de Flow, modelos de prompt, execução, ciclo de vida das conclusões, conteúdo suspeito e por que o conteúdo às vezes não será sincronizado.
+keywords:
+- fluxo
+- de
+- conteúdo
+- geração
+- instrução
+- comando
+- conclusão
 ---
 
 Content Flows são o recurso de automação central do Fozzels. Um Flow é uma regra que gera automaticamente conteúdo de IA para um atributo de produto selecionado e escreve o resultado de volta na sua loja.

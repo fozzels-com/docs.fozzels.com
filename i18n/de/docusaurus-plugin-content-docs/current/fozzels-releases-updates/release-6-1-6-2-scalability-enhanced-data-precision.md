@@ -3,8 +3,14 @@ id: '103000399446'
 title: 'Release 6.1-6.2: Skalierbarkeit und verbesserte Datenpräzision'
 sidebar_position: 10
 slug: /fozzels-releases-updates/release-6-1-6-2-scalability-enhanced-data-precision
-description: >-
-  Dieses Update konzentriert sich auf die Optimierung der Plattformleistung für großflächige Daten und die Erweiterung der Datenerfassungsfunktionen, um sicherzustellen, dass Sie alle Details haben, die Sie benötigen
+description: Dieses Update konzentriert sich auf die Optimierung der Plattformleistung für großflächige Daten und die Erweiterung der Datenerfassungsfunktionen, um sicherzustellen, dass Sie alle Details haben, die Sie benötigen
+keywords:
+- Eingabeaufforderung
+- Anweisung
+- Arbeitsablauf
+- Ablauf
+- Abruf
+- Datenabruf
 ---
 
 Dieses Update konzentriert sich auf die Optimierung der Plattformleistung für großflächige Daten und die Erweiterung der Datenerfassungsfunktionen, um sicherzustellen, dass Sie alle Details haben, die notwendig sind, um hochwertige Produktinhalte zu generieren.

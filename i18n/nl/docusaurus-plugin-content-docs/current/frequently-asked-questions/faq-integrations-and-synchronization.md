@@ -3,10 +3,11 @@ title: 'FAQ: Integraties en synchronisatie'
 sidebar_position: 9
 unlisted: true
 slug: /frequently-asked-questions/faq-integrations-and-synchronization
-description: >-
-  Gedeeltelijke productpulls, Shopware en Shopify verbindingsproblemen, varianten
-  en Packs, HTML in atributen, WooCommerce plugins, tarieflimieten, afbeeldingspulls
-  en multi-store URL problemen.
+description: Gedeeltelijke productpulls, Shopware en Shopify verbindingsproblemen, varianten en Packs, HTML in atributen, WooCommerce plugins, tarieflimieten, afbeeldingspulls en multi-store URL problemen.
+keywords:
+- batchlijst
+- invoerprompt
+- ophalen
 ---
 
 ## De automatische productpull haalt alleen een deel van mijn catalogus op. Hoe krijg ik alle producten?

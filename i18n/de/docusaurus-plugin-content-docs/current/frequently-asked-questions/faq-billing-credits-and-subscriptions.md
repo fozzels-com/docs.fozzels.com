@@ -3,10 +3,10 @@ title: 'FAQ: Abrechnung, Credits und Abonnements'
 sidebar_position: 4
 unlisted: true
 slug: /frequently-asked-questions/faq-billing-credits-and-subscriptions
-description: >-
-  Funktionsweise der Fozzels-Abrechnung, Berechnung der Kreditnutzung, Reduzierung der
-  Token-Kosten, Kündigungen, Rückerstattungen, anteilige Upgrade-Gebühren und
-  Probleme mit automatischen Aufladungen.
+description: Funktionsweise der Fozzels-Abrechnung, Berechnung der Kreditnutzung, Reduzierung der Token-Kosten, Kündigungen, Rückerstattungen, anteilige Upgrade-Gebühren und Probleme mit automatischen Aufladungen.
+keywords:
+- Eingabeaufforderung
+- Anweisung
 ---
 
 ## Das Kontostand ist aufgebraucht. Was soll ich tun?

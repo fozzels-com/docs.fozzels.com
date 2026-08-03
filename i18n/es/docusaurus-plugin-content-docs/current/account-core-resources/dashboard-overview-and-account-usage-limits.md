@@ -2,10 +2,13 @@
 title: Panel de Control - Descripción General y Límites de Uso de la Cuenta
 sidebar_position: 9
 slug: /account-core-resources/dashboard-overview-and-account-usage-limits
-description: >-
-  El Panel de Control es la página de inicio de Fozzels que le proporciona una
-  descripción general en tiempo real del uso de su cuenta (integraciones,
-  tiendas, Flows y finalizaciones) en relación con las cuotas de su plan.
+description: El Panel de Control es la página de inicio de Fozzels que le proporciona una descripción general en tiempo real del uso de su cuenta (integraciones, tiendas, Flows y finalizaciones) en relación con las cuotas de su plan.
+keywords:
+- flujo
+- de
+- contenido
+- generación
+- finalización
 ---
 
 El Panel de Control es la página de inicio de Fozzels. Le proporciona una descripción general en tiempo real del uso de su cuenta.

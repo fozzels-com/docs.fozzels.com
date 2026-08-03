@@ -3,10 +3,11 @@ id: '103000402415'
 title: 4.7.5 Bearbeiten von Inhalten in der Batch-Liste. Rich Text Editor
 sidebar_position: 21
 slug: /content-creation-flows/editing-content-in-the-batch-list-rich-text-editor
-description: >-
-  Die Batch-Liste ist der Ort, wo Sie den von Ihren Flows generierten Inhalte
-  überprüfen, bearbeiten und genehmigen, bevor er mit Ihrem Shop synchronisiert
-  wird. Zusätzlich zum Anzeigen
+description: Die Batch-Liste ist der Ort, wo Sie den von Ihren Flows generierten Inhalte überprüfen, bearbeiten und genehmigen, bevor er mit Ihrem Shop synchronisiert wird. Zusätzlich zum Anzeigen
+keywords:
+- Inhaltsfluss
+- Content-Flow
+- Inhaltsgenerierung
 ---
 
 Die Batch-Liste ist der Ort, wo Sie den von Ihren Flows generierten Inhalte überprüfen, bearbeiten und genehmigen, bevor er mit Ihrem Shop synchronisiert wird. Zusätzlich zur Anzeige des Roh-Ergebnisses bietet Fozzels jetzt einen integrierten **Text-Editor** - eine Formatierungssymbolleiste, mit der Sie den generierten Text strukturieren und gestalten können.

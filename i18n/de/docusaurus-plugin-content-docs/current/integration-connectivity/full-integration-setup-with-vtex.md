@@ -3,8 +3,10 @@ id: '103000408453'
 title: 2.8.2 Vollständige Integrationseinrichtung mit VTEX
 sidebar_position: 19
 slug: /integration-connectivity/full-integration-setup-with-vtex
-description: >-
-  Diese Anleitung bietet Schritt-für-Schritt-Anweisungen zur Integration Ihrer VTEX-Storefront mit Fozzels. Der Prozess umfasst zwei Hauptphasen: Generierung der erforderlichen API-Schlüssel im VTEX-Admin-Panel und Abschluss der Einrichtung in Fozzels
+description: 'Diese Anleitung bietet Schritt-für-Schritt-Anweisungen zur Integration Ihrer VTEX-Storefront mit Fozzels. Der Prozess umfasst zwei Hauptphasen: Generierung der erforderlichen API-Schlüssel im VTEX-Admin-Panel und Abschluss der Einrichtung in Fozzels'
+keywords:
+- Abruf
+- Datenabruf
 ---
 
 Diese Anleitung bietet Schritt-für-Schritt-Anweisungen zur Integration Ihrer **VTEX**-Storefront mit **Fozzels**. Der Prozess umfasst zwei Hauptphasen: Generierung der erforderlichen API-Schlüssel im VTEX-Admin-Panel und Abschluss der Einrichtung in Fozzels.

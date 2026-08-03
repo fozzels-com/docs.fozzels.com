@@ -3,11 +3,10 @@ id: '103000369006'
 title: 3.3. Filtragem de Produtos para Geração de Conteúdo
 sidebar_position: 7
 slug: /data-import-and-quality/product-filtering-for-content-generation
-description: >-
-  Este guia explica como usar efetivamente o mecanismo de filtragem no Fozzels
-  para selecionar com precisão um subconjunto de produtos com base nos valores
-  dos atributos, garantindo que a geração de conteúdo seja direcionada e
-  eficiente.
+description: Este guia explica como usar efetivamente o mecanismo de filtragem no Fozzels para selecionar com precisão um subconjunto de produtos com base nos valores dos atributos, garantindo que a geração de conteúdo seja direcionada e eficiente.
+keywords:
+- instrução
+- comando
 ---
 
 Este guia explica como usar efetivamente o mecanismo de filtragem no Fozzels para selecionar com precisão um subconjunto de produtos com base nos valores dos atributos, garantindo que a geração de conteúdo seja direcionada e eficiente.

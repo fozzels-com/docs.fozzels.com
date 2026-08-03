@@ -2,11 +2,15 @@
 title: Content Flows - Guía Completa
 sidebar_position: 27
 slug: /content-creation-flows/content-flows-complete-guide
-description: >-
-  Los Content Flows son la característica de automatización principal de Fozzels.
-  Esta guía cubre la creación de un Flow, plantillas de avisos, su ejecución,
-  el ciclo de vida de la finalización, contenido sospechoso y por qué el
-  contenido a veces no se sincroniza.
+description: Los Content Flows son la característica de automatización principal de Fozzels. Esta guía cubre la creación de un Flow, plantillas de avisos, su ejecución, el ciclo de vida de la finalización, contenido sospechoso y por qué el contenido a veces no se sincroniza.
+keywords:
+- flujo
+- de
+- contenido
+- generación
+- indicación
+- instrucción
+- finalización
 ---
 
 Los Content Flows son la característica de automatización principal de Fozzels. Un Flow es una regla que genera automáticamente contenido de IA para un atributo de producto seleccionado y escribe el resultado nuevamente en su tienda.

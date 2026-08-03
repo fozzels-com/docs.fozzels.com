@@ -2,10 +2,13 @@
 title: Visão geral do Dashboard e limites de uso de conta
 sidebar_position: 9
 slug: /account-core-resources/dashboard-overview-and-account-usage-limits
-description: >-
-  O Dashboard é a página inicial do Fozzels e oferece uma visão geral em tempo
-  real do uso de sua conta — integrações, lojas, Flows e conclusões contra suas
-  cotas de plano.
+description: O Dashboard é a página inicial do Fozzels e oferece uma visão geral em tempo real do uso de sua conta — integrações, lojas, Flows e conclusões contra suas cotas de plano.
+keywords:
+- fluxo
+- de
+- conteúdo
+- geração
+- conclusão
 ---
 
 O Dashboard é a página inicial do Fozzels. Oferece uma visão geral em tempo real do uso de sua conta.

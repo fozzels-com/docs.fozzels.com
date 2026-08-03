@@ -1,11 +1,14 @@
 ---
 id: '103000406495'
-title: 'Release 7.3 Raw File, Bulk Export, KI-Assistent und mehr neue Funktionen'
+title: Release 7.3 Raw File, Bulk Export, KI-Assistent und mehr neue Funktionen
 sidebar_position: 13
-slug: >-
-  /fozzels-releases-updates/release-7-3-raw-file-bulk-export-ai-assistant-and-more-new-features
-description: >-
-  Dieses Release dreht sich um Kraft, Flexibilität und absolute Kontrolle über Ihren Katalog. Wir haben lange erwartete manuelle Datei-Integrationen hinzugefügt, intelligente Filterung auf neue Ökosysteme erweitert
+slug: /fozzels-releases-updates/release-7-3-raw-file-bulk-export-ai-assistant-and-more-new-features
+description: Dieses Release dreht sich um Kraft, Flexibilität und absolute Kontrolle über Ihren Katalog. Wir haben lange erwartete manuelle Datei-Integrationen hinzugefügt, intelligente Filterung auf neue Ökosysteme erweitert
+keywords:
+- Arbeitsablauf
+- Ablauf
+- Fertigstellung
+- Generierung
 ---
 
 Dieses Release dreht sich um Kraft, Flexibilität und absolute Kontrolle über Ihren Katalog. Wir haben lange erwartete manuelle Datei-Integrationen hinzugefügt, intelligente Filterung auf neue Ökosysteme erweitert und fortgeschrittene Bulk-Export-Tools implementiert, um Ihren Content-Workflow wirklich nahtlos zu gestalten.

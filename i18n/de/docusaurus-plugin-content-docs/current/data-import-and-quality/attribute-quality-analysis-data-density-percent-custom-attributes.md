@@ -2,10 +2,13 @@
 id: '103000368952'
 title: 3.2.1. Attributqualitätsanalyse. Datendichte-Prozentsatz. Benutzerdefinierte Attribute
 sidebar_position: 6
-slug: >-
-  /data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes
-description: >-
-  Dieses Dokument bietet sowohl einen konzeptionellen Überblick als auch detaillierte praktische Anweisungen zum vollständigen Lebenszyklus von Produkt-Attributen in der Fozzels-Plattform
+slug: /data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes
+description: Dieses Dokument bietet sowohl einen konzeptionellen Überblick als auch detaillierte praktische Anweisungen zum vollständigen Lebenszyklus von Produkt-Attributen in der Fozzels-Plattform
+keywords:
+- Eingabeaufforderung
+- Anweisung
+- Abruf
+- Datenabruf
 ---
 
 Dieses Dokument bietet sowohl einen konzeptionellen Überblick als auch detaillierte praktische Anweisungen zum vollständigen Lebenszyklus von Produkt-**Attributen** auf der Fozzels-Plattform: von der anfänglichen Importierung und Analyse bis zur erweiterten Konfiguration, Umwandlung und Erstellung benutzerdefinierter Felder.

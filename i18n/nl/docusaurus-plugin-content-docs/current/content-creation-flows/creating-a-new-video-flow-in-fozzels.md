@@ -3,10 +3,9 @@ id: '103000370066'
 title: 4.6.1 Een nieuwe videoflow in Fozzels maken
 sidebar_position: 15
 slug: /content-creation-flows/creating-a-new-video-flow-in-fozzels
-description: >-
-  De videoflow-functie is een gespecialiseerde inhoudsflow bedoeld voor het
-  genereren van korte, hooggekwaliteits-videoassets voor productpresentatie.
-  Een videoflow aanmaken
+description: De videoflow-functie is een gespecialiseerde inhoudsflow bedoeld voor het genereren van korte, hooggekwaliteits-videoassets voor productpresentatie. Een videoflow aanmaken
+keywords:
+- invoerprompt
 ---
 
 De videoflow-functie is een gespecialiseerde inhoudsflow bedoeld voor het genereren van korte, hooggekwaliteits-videoassets voor productpresentatie. Het aanmaken van een videoflow omvat drie belangrijke fasen: basisconfiguratie (modelkeuze), asetselectie (product en afbeelding) en nauwkeurige promptengineering. Vanwege de hoge computertechnische kosten van videogeneratie is nauwkeurigheid in de installatie van het allergrootste belang voor succesvol uitvoering en kostenbeheer.

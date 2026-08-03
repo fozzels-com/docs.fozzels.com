@@ -1,15 +1,12 @@
 ---
 id: '103000367979'
-title: >-
-  4.2.2. KI-Konfiguration. Bildoptimierung (Größenänderung): Begründung und
-  Implementierung.
+title: '4.2.2. KI-Konfiguration. Bildoptimierung (Größenänderung): Begründung und Implementierung.'
 sidebar_position: 7
-slug: >-
-  /content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation
-description: >-
-  Die Funktion zur Bildgrößenänderung optimiert große Bilder automatisch, um die
-  technischen Anforderungen des KI-Generierungssystems zu erfüllen. Sie ist
-  standardmäßig in a
+slug: /content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation
+description: Die Funktion zur Bildgrößenänderung optimiert große Bilder automatisch, um die technischen Anforderungen des KI-Generierungssystems zu erfüllen. Sie ist standardmäßig in a
+keywords:
+- Eingabeaufforderung
+- Anweisung
 ---
 
 Die Funktion **Bildgröße ändern** optimiert große Bilder automatisch, um die technischen Anforderungen des KI-Generierungssystems zu erfüllen. Sie ist in allen neuen und bestehenden Flows standardmäßig aktiviert, um Generierungsfehler zu verhindern und die Eingabe-Token-Kosten zu reduzieren.

@@ -3,10 +3,10 @@ id: '103000313152'
 title: Aviso "Recursão detectada" ao criar um Fluxo
 sidebar_position: 25
 slug: /content-creation-flows/recursion-detected-warning-when-creating-a-flow
-description: >-
-  Quando você vê este aviso, significa que você está usando a variável para
-  inserir conteúdo do mesmo atributo que você está usando o Fluxo para escrever.
-  Para ex
+description: Quando você vê este aviso, significa que você está usando a variável para inserir conteúdo do mesmo atributo que você está usando o Fluxo para escrever. Para ex
+keywords:
+- instrução
+- comando
 ---
 
 Quando você vê este aviso, significa que você está usando a variável para inserir conteúdo do mesmo atributo que você está usando o Fluxo para escrever.

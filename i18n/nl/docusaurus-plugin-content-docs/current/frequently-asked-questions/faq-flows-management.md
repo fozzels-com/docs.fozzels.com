@@ -3,9 +3,9 @@ title: 'FAQ: Flowbeheer'
 sidebar_position: 7
 unlisted: true
 slug: /frequently-asked-questions/faq-flows-management
-description: >-
-  Verouderde flows, merkfilters, flows activeren en dupliceren, pauzering bij
-  verbindingsproblemen en terugdraaien van auto-gegenereerde inhoud.
+description: Verouderde flows, merkfilters, flows activeren en dupliceren, pauzering bij verbindingsproblemen en terugdraaien van auto-gegenereerde inhoud.
+keywords:
+- invoerprompt
 ---
 
 ## Ik heb een flow onopzettelijk als verouderd gemarkeerd. Kan ik dit ongedaan maken?

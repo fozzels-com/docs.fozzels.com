@@ -3,9 +3,16 @@ id: '103000410121'
 title: 4.9.1 Cómo crear un Content Flow para categorías en Fozzels
 sidebar_position: 23
 slug: /content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels
-description: >-
-  Crear un Content Flow para categorías es prácticamente idéntico a trabajar con
-  productos: la interfaz es familiar, cómoda e intuitiva.
+description: 'Crear un Content Flow para categorías es prácticamente idéntico a trabajar con productos: la interfaz es familiar, cómoda e intuitiva.'
+keywords:
+- flujo
+- de
+- contenido
+- generación
+- lista
+- lotes
+- indicación
+- instrucción
 ---
 
 Crear un Content Flow para categorías es prácticamente idéntico a trabajar con productos: la interfaz es familiar, cómoda e intuitiva. A continuación encontrará una guía paso a paso para configurar e iniciar la generación de contenido para sus categorías.

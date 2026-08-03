@@ -3,10 +3,9 @@ id: '103000369006'
 title: 3.3. Productfiltering voor inhoudsgeneratie
 sidebar_position: 7
 slug: /data-import-and-quality/product-filtering-for-content-generation
-description: >-
-  In deze gids wordt uitgelegd hoe u het filtermechanisme in Fozzels effectief
-  kunt gebruiken om precies een subset van producten te selecteren op basis van
-  kenmerkwaarden
+description: In deze gids wordt uitgelegd hoe u het filtermechanisme in Fozzels effectief kunt gebruiken om precies een subset van producten te selecteren op basis van kenmerkwaarden
+keywords:
+- invoerprompt
 ---
 
 In deze gids wordt uitgelegd hoe u het filtermechanisme in Fozzels effectief kunt gebruiken om precies een subset van producten te selecteren op basis van kenmerkwaarden, zodat inhoudsgeneratie gericht en efficiënt is.

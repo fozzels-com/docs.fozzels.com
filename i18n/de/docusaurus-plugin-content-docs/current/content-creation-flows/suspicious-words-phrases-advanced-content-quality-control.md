@@ -2,10 +2,11 @@
 id: '103000390709'
 title: '4.7.4  Verdächtige Wörter & Ausdrücke: Fortgeschrittene Inhaltqualitätskontrolle'
 sidebar_position: 20
-slug: >-
-  /content-creation-flows/suspicious-words-phrases-advanced-content-quality-control
-description: >-
-  Die Funktion "Verdächtige Wörter & Ausdrücke" ist mehr als nur ein einfaches Validierungsfilter - es ist ein ausgefeiltes Werkzeug zur Verwaltung von Workflows mit hohem Inhaltsvolumen.
+slug: /content-creation-flows/suspicious-words-phrases-advanced-content-quality-control
+description: Die Funktion "Verdächtige Wörter & Ausdrücke" ist mehr als nur ein einfaches Validierungsfilter - es ist ein ausgefeiltes Werkzeug zur Verwaltung von Workflows mit hohem Inhaltsvolumen.
+keywords:
+- Arbeitsablauf
+- Ablauf
 ---
 
 Die Funktion **Verdächtige Wörter & Ausdrücke** ist mehr als nur ein einfaches Validierungsfilter - es ist ein ausgefeiltes Werkzeug zur Verwaltung von Workflows mit hohem Inhaltsvolumen. Es stellt sicher, dass Ihre Produktbeschreibungen professionell bleiben, indem es KI-Halluzinationen, technische Artefakte oder unerwünschte Begriffe gleichzeitig über mehrere Sprachen hinweg kennzeichnet.

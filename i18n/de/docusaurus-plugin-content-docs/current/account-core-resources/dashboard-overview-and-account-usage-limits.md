@@ -2,10 +2,11 @@
 title: Dashboard-Übersicht und Kontingentgrenzen
 sidebar_position: 9
 slug: /account-core-resources/dashboard-overview-and-account-usage-limits
-description: >-
-  Das Dashboard ist die Startseite von Fozzels und gibt Ihnen einen
-  Echtzeit-Überblick über Ihre Kontonutzung — Integrationen, Shops,
-  Flows und Abschlüsse gegen Ihre Plan-Kontingente.
+description: Das Dashboard ist die Startseite von Fozzels und gibt Ihnen einen Echtzeit-Überblick über Ihre Kontonutzung — Integrationen, Shops, Flows und Abschlüsse gegen Ihre Plan-Kontingente.
+keywords:
+- Inhaltsfluss
+- Content-Flow
+- Inhaltsgenerierung
 ---
 
 Das Dashboard ist die Startseite von Fozzels. Es gibt Ihnen einen Echtzeit-Überblick über Ihre Kontonutzung.

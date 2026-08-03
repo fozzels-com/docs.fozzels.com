@@ -3,10 +3,10 @@ id: '103000367983'
 title: 4.3.2 Criação de Prompt e Filtragem. Editor de Prompt Arrastar e Soltar
 sidebar_position: 8
 slug: /content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor
-description: >-
-  Este guia mostra como você configura o Campo de Prompt - a ferramenta principal
-  para criar instruções dinâmicas para geração de texto de produto - usando atributos
-  de produto disponíveis
+description: Este guia mostra como você configura o Campo de Prompt - a ferramenta principal para criar instruções dinâmicas para geração de texto de produto - usando atributos de produto disponíveis
+keywords:
+- instrução
+- comando
 ---
 
 Este guia mostra como você configura o **Campo de Prompt -** a ferramenta principal para criar instruções dinâmicas para geração de texto de produto - usando atributos de produto disponíveis, lógica condicional e configurações de localização.

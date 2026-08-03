@@ -2,13 +2,11 @@
 id: '103000368952'
 title: 3.2.1. Análisis de Calidad de Atributos. Porcentaje de Densidad de Datos. Atributos Personalizados
 sidebar_position: 6
-slug: >-
-  /data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes
-description: >-
-  Este documento proporciona tanto una descripción conceptual como instrucciones
-  prácticas detalladas sobre el ciclo de vida completo de los Atributos de
-  productos en la plataforma Fozzels: desde la importación e análisis iniciales
-  hasta la configuración avanzada, transformación y creación de campos personalizados.
+slug: /data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes
+description: 'Este documento proporciona tanto una descripción conceptual como instrucciones prácticas detalladas sobre el ciclo de vida completo de los Atributos de productos en la plataforma Fozzels: desde la importación e análisis iniciales hasta la configuración avanzada, transformación y creación de campos personalizados.'
+keywords:
+- indicación
+- instrucción
 ---
 
 Este documento proporciona tanto una descripción conceptual como instrucciones prácticas detalladas sobre el ciclo de vida completo de los **Atributos** de productos en la plataforma Fozzels: desde la importación e análisis iniciales hasta la configuración avanzada, transformación y creación de campos personalizados.

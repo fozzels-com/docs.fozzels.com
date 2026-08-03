@@ -3,8 +3,10 @@ id: '103000408982'
 title: 3.1.2 Konfigurieren des globalen Pull-Zeitplans & API-Drosselung
 sidebar_position: 3
 slug: /data-import-and-quality/how-to-configure-global-pull-schedule-api-throttling
-description: >-
-  Bei der Verwaltung großer Katalogintegrationen ist die Kontrolle darüber, **wann** und **wie schnell** Fozzels Produktdaten aus Ihrer E-Commerce-Plattform importiert, entscheidend
+description: Bei der Verwaltung großer Katalogintegrationen ist die Kontrolle darüber, **wann** und **wie schnell** Fozzels Produktdaten aus Ihrer E-Commerce-Plattform importiert, entscheidend
+keywords:
+- Abruf
+- Datenabruf
 ---
 
 Bei der Verwaltung großer Katalogintegrationen ist die Kontrolle darüber, **wann** und **wie schnell** Fozzels Produktdaten aus Ihrer E-Commerce-Plattform importiert, entscheidend um die Store-Leistung zu gewährleisten.

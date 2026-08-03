@@ -3,10 +3,10 @@ id: '103000370066'
 title: 4.6.1 Crear un Nuevo Flujo de Video en Fozzels
 sidebar_position: 15
 slug: /content-creation-flows/creating-a-new-video-flow-in-fozzels
-description: >-
-  La función Flujo de Video es un Flujo de Contenido especializado dedicado a
-  generar activos de video cortos y de alta fidelidad para presentación de
-  productos. Crear un Flujo de Video F
+description: La función Flujo de Video es un Flujo de Contenido especializado dedicado a generar activos de video cortos y de alta fidelidad para presentación de productos. Crear un Flujo de Video F
+keywords:
+- indicación
+- instrucción
 ---
 
 La función Flujo de Video es un Flujo de Contenido especializado dedicado a generar activos de video cortos y de alta fidelidad para presentación de productos. Crear un Flujo de Video implica tres fases clave: configuración básica (selección de modelo), selección de activos (producto e imagen) e ingeniería de indicación precisa. Debido al alto costo computacional de la generación de video, la precisión en la configuración es fundamental para una ejecución exitosa y control de costos.

@@ -2,12 +2,11 @@
 id: '103000367846'
 title: '1.5. Recursos. Modelos de Prompt: Localizando e usando modelos salvos.'
 sidebar_position: 8
-slug: >-
-  /account-core-resources/resources-prompt-templates-locating-and-using-saved-templates
-description: >-
-  Modelos de Prompt são modelos de texto pré-configurados e reutilizáveis
-  usados como entrada para a IA gerar tipos específicos de conteúdo de produto.
-  Esses modelos são config
+slug: /account-core-resources/resources-prompt-templates-locating-and-using-saved-templates
+description: Modelos de Prompt são modelos de texto pré-configurados e reutilizáveis usados como entrada para a IA gerar tipos específicos de conteúdo de produto. Esses modelos são config
+keywords:
+- instrução
+- comando
 ---
 
 Modelos de Prompt são modelos de texto pré-configurados e reutilizáveis usados como entrada para a IA gerar tipos específicos de conteúdo de produto. Esses modelos são configurados independentemente dos fluxos de geração de conteúdo e formam uma parte central da lógica de automação. Eles são tipicamente usados para gerar descrições de produtos, meta títulos ou meta descrições.

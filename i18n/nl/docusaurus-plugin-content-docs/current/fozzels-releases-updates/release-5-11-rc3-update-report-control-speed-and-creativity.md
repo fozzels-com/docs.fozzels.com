@@ -2,12 +2,14 @@
 id: '103000382981'
 title: 'Release 5.11 RC3: Update Rapport. Controle, snelheid en creativiteit'
 sidebar_position: 2
-slug: >-
-  /fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity
-description: >-
-  We zijn blij om release 5.11RC3 te introduceren — onze grootste update gericht
-  op het verhogen van uw productiviteit, gegevensbeschikbaarheid en, vooral,
-  creativiteit
+slug: /fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity
+description: We zijn blij om release 5.11RC3 te introduceren — onze grootste update gericht op het verhogen van uw productiviteit, gegevensbeschikbaarheid en, vooral, creativiteit
+keywords:
+- contentflow
+- inhoudsstroom
+- contentgeneratie
+- werkstroom
+- ophalen
 ---
 
 ### We zijn blij om release 5.11RC3 te introduceren — onze grootste update gericht op het verhogen van uw productiviteit, gegevensbeschikbaarheid en vooral creativiteit! We voegen krachtige hulpmiddelen toe zodat u inhoud kunt beheren op het niveau van een grote e-commerce-bewerking.

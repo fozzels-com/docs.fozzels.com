@@ -1,15 +1,13 @@
 ---
 id: '103000408094'
-title: >-
-  Release 7.4-7.5 - Introductie van Categoriemanagement, Geavanceerde Media Hub
-  en Volgende Generatie Anthropic Modellen
+title: Release 7.4-7.5 - Introductie van Categoriemanagement, Geavanceerde Media Hub en Volgende Generatie Anthropic Modellen
 sidebar_position: 14
-slug: >-
-  /fozzels-releases-updates/release-7-4-7-5-introducing-category-management-advanced-media-hub-and-next-gen-
-description: >-
-  Welkom bij de nieuwste versie van Fozzels - een grote update ontworpen om uw
-  content automatisering en catalogusbeheer naar het volgende niveau te tillen. We
-  hebben volledig
+slug: /fozzels-releases-updates/release-7-4-7-5-introducing-category-management-advanced-media-hub-and-next-gen-
+description: Welkom bij de nieuwste versie van Fozzels - een grote update ontworpen om uw content automatisering en catalogusbeheer naar het volgende niveau te tillen. We hebben volledig
+keywords:
+- batchlijst
+- invoerprompt
+- werkstroom
 ---
 
 Welkom bij de nieuwste versie van Fozzels - een grote update ontworpen om uw content automatisering en catalogusbeheer naar het volgende niveau te tillen. We hebben kerninterfaces volledig opnieuw ontworpen, platformmogelijkheden aanzienlijk uitgebreid en de nieuwste AI-modellen geïntegreerd om uw dagelijkse workflows soepeler, sneller en efficiënter dan ooit te maken.

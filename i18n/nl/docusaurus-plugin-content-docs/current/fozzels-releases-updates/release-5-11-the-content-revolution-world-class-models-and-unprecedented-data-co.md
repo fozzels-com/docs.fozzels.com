@@ -1,15 +1,18 @@
 ---
 id: '103000385007'
-title: >-
-  Release 5.11: De inhoudrevolutie! Wereldklasse-modellen en ongeëvenaarde
-  gegevenscontrole.
+title: 'Release 5.11: De inhoudrevolutie! Wereldklasse-modellen en ongeëvenaarde gegevenscontrole.'
 sidebar_position: 3
-slug: >-
-  /fozzels-releases-updates/release-5-11-the-content-revolution-world-class-models-and-unprecedented-data-co
-description: >-
-  We zijn blij om release 5.11 aan te kondigen! We hebben onze toepassing nog
-  krachtiger gemaakt! We hebben hard gewerkt en naar uw feedback geluisterd om
-  een update
+slug: /fozzels-releases-updates/release-5-11-the-content-revolution-world-class-models-and-unprecedented-data-co
+description: We zijn blij om release 5.11 aan te kondigen! We hebben onze toepassing nog krachtiger gemaakt! We hebben hard gewerkt en naar uw feedback geluisterd om een update
+keywords:
+- afbeeldingsflow
+- beeldflow
+- afbeeldingsgeneratie
+- contentflow
+- inhoudsstroom
+- contentgeneratie
+- batchlijst
+- werkstroom
 ---
 
 We zijn blij om **release 5.11** aan te kondigen!

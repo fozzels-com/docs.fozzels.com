@@ -3,8 +3,22 @@ id: '103000400446'
 title: '4.5.1. Benutzerhandbuch: Automatisierter Bildflow'
 sidebar_position: 13
 slug: /content-creation-flows/user-guide-automated-image-flow
-description: >-
-  Image Flow ist ein professionelles Tool, das für die Massengenerierung und Synchronisierung von Produktbildern mit KI entwickelt wurde. Durch die einmalige Konfiguration eines Flows etablieren Sie ein autonomes System, das tausende Produkte verarbeitet.
+description: Image Flow ist ein professionelles Tool, das für die Massengenerierung und Synchronisierung von Produktbildern mit KI entwickelt wurde. Durch die einmalige Konfiguration eines Flows etablieren Sie ein autonomes System, das tausende Produkte verarbeitet.
+keywords:
+- Bildfluss
+- Bildflow
+- Bildgenerierung
+- Inhaltsfluss
+- Content-Flow
+- Inhaltsgenerierung
+- Stapelliste
+- Chargenliste
+- Eingabeaufforderung
+- Anweisung
+- Arbeitsablauf
+- Ablauf
+- Fertigstellung
+- Generierung
 ---
 
 **Image Flow** ist ein professionelles Tool, das für die Massengenerierung und Synchronisierung von Produktbildern mit KI entwickelt wurde. Durch die einmalige Konfiguration eines Flows etablieren Sie ein autonomes System, das tausende Produkte verarbeitet, einschließlich neuer Elemente, die in Zukunft Ihrem Store durch dynamische bedingungsbasierte Filterung hinzugefügt werden.

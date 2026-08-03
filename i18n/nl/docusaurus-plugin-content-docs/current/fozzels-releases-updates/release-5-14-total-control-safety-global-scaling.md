@@ -3,10 +3,10 @@ id: '103000390569'
 title: 'Release 5.14: Volledige Controle, Veiligheid & Wereldwijde Schaling'
 sidebar_position: 7
 slug: /fozzels-releases-updates/release-5-14-total-control-safety-global-scaling
-description: >-
-  Deze release gaat allemaal over uw vrijheid en vertrouwen. We hebben tools
-  geïntroduceerd waarmee Fozzels op uw schema werkt, uw gegevensintegriteit
-  beschermt
+description: Deze release gaat allemaal over uw vrijheid en vertrouwen. We hebben tools geïntroduceerd waarmee Fozzels op uw schema werkt, uw gegevensintegriteit beschermt
+keywords:
+- batchlijst
+- ophalen
 ---
 
 Deze release gaat allemaal over uw vrijheid en vertrouwen. We hebben tools geïntroduceerd die Fozzels op uw schema laten werken, uw gegevensintegriteit beschermen en uw bedrijf moeiteloos over de hele wereld kunnen schalen.

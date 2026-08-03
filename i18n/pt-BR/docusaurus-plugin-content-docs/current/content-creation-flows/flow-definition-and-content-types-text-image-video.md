@@ -1,12 +1,12 @@
 ---
 id: '103000367975'
-title: '4.1.1. Definição de Fluxo e Tipos de Conteúdo (Texto, Imagem, Vídeo).'
+title: 4.1.1. Definição de Fluxo e Tipos de Conteúdo (Texto, Imagem, Vídeo).
 sidebar_position: 1
 slug: /content-creation-flows/flow-definition-and-content-types-text-image-video
-description: >-
-  Visão Geral do Conceito Um Fluxo é um conceito fundamental no Fozzels. É um
-  processo automatizado multi-etapas configurável que aproveita as capacidades
-  de IA para transformar
+description: Visão Geral do Conceito Um Fluxo é um conceito fundamental no Fozzels. É um processo automatizado multi-etapas configurável que aproveita as capacidades de IA para transformar
+keywords:
+- instrução
+- comando
 ---
 
 ## Visão Geral do Conceito

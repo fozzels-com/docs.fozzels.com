@@ -2,11 +2,10 @@
 id: '103000385597'
 title: 2.3.2. Conectando lojas Shopify ao Fozzels via Plataforma Shopify Dev para 2026
 sidebar_position: 4
-slug: >-
-  /integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026
-description: >-
-  AVISO IMPORTANTE A partir de 1º de janeiro de 2026, a Shopify está oficialmente
-  mudando suas regras para o gerenciamento de aplicativos. O método antigo de criar
+slug: /integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026
+description: AVISO IMPORTANTE A partir de 1º de janeiro de 2026, a Shopify está oficialmente mudando suas regras para o gerenciamento de aplicativos. O método antigo de criar
+keywords:
+- extração
 ---
 
 AVISO IMPORTANTE

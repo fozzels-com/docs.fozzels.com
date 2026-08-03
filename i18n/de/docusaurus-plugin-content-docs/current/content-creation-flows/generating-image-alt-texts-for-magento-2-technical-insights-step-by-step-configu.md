@@ -1,13 +1,15 @@
 ---
 id: '103000408207'
-title: >-
-  4.3.2.a Generieren von Bildalternativtexten für Magento 2: Technische Einblicke &
-  Schritt-für-Schritt-Konfiguration
+title: '4.3.2.a Generieren von Bildalternativtexten für Magento 2: Technische Einblicke & Schritt-für-Schritt-Konfiguration'
 sidebar_position: 9
-slug: >-
-  /content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu
-description: >-
-  Da Sie bereits mit den grundlegenden Mechanismen der Konfiguration von Product Content Flows in Fozzels vertraut sind, konzentriert sich dieses technische Handbuch ausschließlich auf die einzigartige Architektur von Magento 2: die Interaktion mit dem Systemattribut `product_media_gallery` und die Optimierung des Token-Verbrauchs während Bulk-Media-Gallery-Verarbeitungsschleifen.
+slug: /content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu
+description: 'Da Sie bereits mit den grundlegenden Mechanismen der Konfiguration von Product Content Flows in Fozzels vertraut sind, konzentriert sich dieses technische Handbuch ausschließlich auf die einzigartige Architektur von Magento 2: die Interaktion mit dem Systemattribut `product_media_gallery` und die Optimierung des Token-Verbrauchs während Bulk-Media-Gallery-Verarbeitungsschleifen.'
+keywords:
+- Inhaltsfluss
+- Content-Flow
+- Inhaltsgenerierung
+- Eingabeaufforderung
+- Anweisung
 ---
 
 Da Sie bereits mit den grundlegenden Mechanismen der Konfiguration von Product Content Flows in Fozzels vertraut sind, konzentriert sich dieses technische Handbuch ausschließlich auf die einzigartige Architektur von Magento 2: die Interaktion mit dem Systemattribut `product_media_gallery` und die Optimierung des Token-Verbrauchs während Bulk-Media-Gallery-Verarbeitungsschleifen.

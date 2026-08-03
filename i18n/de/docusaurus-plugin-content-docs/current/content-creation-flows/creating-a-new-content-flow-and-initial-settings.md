@@ -3,10 +3,13 @@ id: '103000367976'
 title: 4.1.2. Erstellen eines neuen Content Flows und erste Einstellungen.
 sidebar_position: 2
 slug: /content-creation-flows/creating-a-new-content-flow-and-initial-settings
-description: >-
-  Der Content Flow ist der Kern der Automatisierung in Fozzels. Es ist ein
-  Anweisungssatz, der definiert, wie das System das ausgewählte KI-Modell
-  verwenden soll, um automat
+description: Der Content Flow ist der Kern der Automatisierung in Fozzels. Es ist ein Anweisungssatz, der definiert, wie das System das ausgewählte KI-Modell verwenden soll, um automat
+keywords:
+- Inhaltsfluss
+- Content-Flow
+- Inhaltsgenerierung
+- Eingabeaufforderung
+- Anweisung
 ---
 
 Der Content Flow ist der Kern der Automatisierung in Fozzels. Es ist ein Anweisungssatz, der definiert, wie das System das ausgewählte KI-Modell verwenden soll, um automatisch Texte für Ihre Produkte zu generieren, zu aktualisieren und zu synchronisieren.

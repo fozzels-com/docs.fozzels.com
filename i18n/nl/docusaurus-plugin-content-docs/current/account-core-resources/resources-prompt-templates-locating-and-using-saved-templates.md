@@ -2,12 +2,10 @@
 id: '103000367846'
 title: '1.5. Bronnen. Promptsjablonen: Opgeslagen sjablonen zoeken en gebruiken.'
 sidebar_position: 8
-slug: >-
-  /account-core-resources/resources-prompt-templates-locating-and-using-saved-templates
-description: >-
-  Promptsjablonen zijn herbruikbare, vooraf geconfigureerde tekstmodellen die
-  als invoer voor de AI worden gebruikt om specifieke soorten productinhoud te
-  genereren. Deze sjablonen zijn geconfigureerd
+slug: /account-core-resources/resources-prompt-templates-locating-and-using-saved-templates
+description: Promptsjablonen zijn herbruikbare, vooraf geconfigureerde tekstmodellen die als invoer voor de AI worden gebruikt om specifieke soorten productinhoud te genereren. Deze sjablonen zijn geconfigureerd
+keywords:
+- invoerprompt
 ---
 
 Promptsjablonen zijn herbruikbare, vooraf geconfigureerde tekstmodellen die als invoer voor de AI worden gebruikt om specifieke soorten productinhoud te genereren. Deze sjablonen zijn onafhankelijk van de inhoudsgenereringsflows geconfigureerd en vormen een kernonderdeel van de automatiecode. Ze worden doorgaans gebruikt voor het genereren van productbeschrijvingen, metatitels of metabeschrijvingen.

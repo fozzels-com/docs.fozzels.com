@@ -3,9 +3,10 @@ id: '103000408096'
 title: '4.5.1.a. Gebruikershandleiding: Geautomatiseerde afbeeldingsstroom voor Magento 2'
 sidebar_position: 14
 slug: /content-creation-flows/user-guide-automated-image-flow-for-magento-2
-description: >-
-  Afbeeldingsstroom voor Magento is een gespecialiseerde, ondernemingstoolautomatisering ontworpen voor massale AI-afbeeldingsgeneratie, geautomatiseerde
-  metagegevensmapping en rechtstreekse syn
+description: Afbeeldingsstroom voor Magento is een gespecialiseerde, ondernemingstoolautomatisering ontworpen voor massale AI-afbeeldingsgeneratie, geautomatiseerde metagegevensmapping en rechtstreekse syn
+keywords:
+- batchlijst
+- invoerprompt
 ---
 
 **Afbeeldingsstroom voor Magento** is een gespecialiseerde, ondernemingstoolautomatisering ontworpen voor massale AI-afbeeldingsgeneratie, geautomatiseerde metagegevensmapping en rechtstreekse synchronisatie met uw Magento-catalogus. Door deze stroom te configureren, stelt u een autonome pijplijn in die uw Magento-winkel controleert, duizenden producten verwerkt en uw website dynamisch bijwerkt op basis van geavanceerde filtercriteria.

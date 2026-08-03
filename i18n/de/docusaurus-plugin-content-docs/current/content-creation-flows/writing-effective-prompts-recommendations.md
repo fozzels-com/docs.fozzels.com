@@ -3,8 +3,10 @@ id: '103000368009'
 title: 4.3.3. Schreiben effektiver Prompts (Empfehlungen)
 sidebar_position: 10
 slug: /content-creation-flows/writing-effective-prompts-recommendations
-description: >-
-  Dieser Leitfaden bietet praktische Ratschläge und Best Practices zum Strukturieren und Schreiben von hochwertigen, dynamischen Prompts, die personalisierte, professionelle,
+description: Dieser Leitfaden bietet praktische Ratschläge und Best Practices zum Strukturieren und Schreiben von hochwertigen, dynamischen Prompts, die personalisierte, professionelle,
+keywords:
+- Eingabeaufforderung
+- Anweisung
 ---
 
 Dieser Leitfaden bietet praktische Ratschläge und Best Practices zum Strukturieren und Schreiben von **hochwertigen, dynamischen Prompts**, die personalisierte, professionelle und einzigartige Inhalte produzieren und über einfaches Attribut-Einfügen hinausgehen.

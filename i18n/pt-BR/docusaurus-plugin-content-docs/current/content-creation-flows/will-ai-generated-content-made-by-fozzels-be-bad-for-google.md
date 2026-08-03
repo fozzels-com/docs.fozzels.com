@@ -2,12 +2,11 @@
 id: '103000315189'
 title: O conteúdo gerado por IA criado pelo Fozzels será ruim para o Google?
 sidebar_position: 26
-slug: >-
-  /content-creation-flows/will-ai-generated-content-made-by-fozzels-be-bad-for-google
-description: >-
-  Resposta: não. O Google não tem nenhum "preconceito" contra ou a favor do
-  conteúdo gerado usando IA. Você pode ler sobre isso em suas páginas de ajuda:
-  https://
+slug: /content-creation-flows/will-ai-generated-content-made-by-fozzels-be-bad-for-google
+description: 'Resposta: não. O Google não tem nenhum "preconceito" contra ou a favor do conteúdo gerado usando IA. Você pode ler sobre isso em suas páginas de ajuda: https://'
+keywords:
+- instrução
+- comando
 ---
 
 Resposta: **não**.

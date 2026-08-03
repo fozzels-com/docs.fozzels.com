@@ -3,10 +3,12 @@ title: 'FAQ: Integrationen und Synchronisierung'
 sidebar_position: 9
 unlisted: true
 slug: /frequently-asked-questions/faq-integrations-and-synchronization
-description: >-
-  Teilweise Produktabrufe, Shopware- und Shopify-Verbindungsprobleme, Varianten
-  und Packs, HTML in Attributen, WooCommerce-Plugins, Rate Limits, Bildabrufe
-  und Multi-Store-URL-Probleme.
+description: Teilweise Produktabrufe, Shopware- und Shopify-Verbindungsprobleme, Varianten und Packs, HTML in Attributen, WooCommerce-Plugins, Rate Limits, Bildabrufe und Multi-Store-URL-Probleme.
+keywords:
+- Stapelliste
+- Chargenliste
+- Eingabeaufforderung
+- Anweisung
 ---
 
 ## Der automatische Produktabruf ruft nur einen Teil meines Katalogs ab. Wie erhalte ich alle Produkte?

@@ -2,10 +2,13 @@
 title: Product Catalog — Navigeren, Filteren en Flows Maken
 sidebar_position: 9
 slug: /data-import-and-quality/product-catalog-navigating-filtering-and-creating-flows
-description: >-
-  De Catalog toont alle producten uit uw aangesloten winkel. Leer hoe u deze
-  navigeert, producten filtert met de condition query builder, en een gerichte
-  Content Flow maakt op basis van een selectie.
+description: De Catalog toont alle producten uit uw aangesloten winkel. Leer hoe u deze navigeert, producten filtert met de condition query builder, en een gerichte Content Flow maakt op basis van een selectie.
+keywords:
+- contentflow
+- inhoudsstroom
+- contentgeneratie
+- invoerprompt
+- ophalen
 ---
 
 De Catalog toont alle producten uit uw aangesloten winkel. Het is uw centrale weergave van productgegevens in Fozzels.

@@ -3,10 +3,9 @@ id: '103000370386'
 title: 4.6.2 Tips voor het maken van een effectieve prompt + voorbeelden
 sidebar_position: 16
 slug: /content-creation-flows/tips-for-creating-an-effective-prompt-examples
-description: >-
-  Voor videostromen die gespecialiseerde modellen gebruiken zoals Gemini Veo 3,
-  is de prompt de allerbelangrijkste invoer. In tegenstelling tot tekstgeneratie
-  vereisen videomodellen veel hoger
+description: Voor videostromen die gespecialiseerde modellen gebruiken zoals Gemini Veo 3, is de prompt de allerbelangrijkste invoer. In tegenstelling tot tekstgeneratie vereisen videomodellen veel hoger
+keywords:
+- invoerprompt
 ---
 
 Voor videostromen die gespecialiseerde modellen gebruiken zoals Gemini Veo 3, is de prompt de allerbelangrijkste invoer. In tegenstelling tot tekstgeneratie vereisen videomodellen veel hoger nauwkeurigheidsniveau om tekstuele concepten in een coherente visuele reeks om te zetten.

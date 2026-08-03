@@ -3,10 +3,10 @@ id: '103000367977'
 title: '4.1.3. Gerenciando Fluxos: Duplicação, Arquivamento e Exclusão.'
 sidebar_position: 5
 slug: /content-creation-flows/managing-flows-duplication-archiving-and-deletion
-description: >-
-  Este guia detalha métodos para gerenciar Fluxos de Conteúdo existentes,
-  concentrando-se na duplicação para economizar tempo de configuração e
-  manutenção geral de fluxos (arquivamento e
+description: Este guia detalha métodos para gerenciar Fluxos de Conteúdo existentes, concentrando-se na duplicação para economizar tempo de configuração e manutenção geral de fluxos (arquivamento e
+keywords:
+- instrução
+- comando
 ---
 
 Este guia detalha métodos para gerenciar Fluxos de Conteúdo existentes, concentrando-se na duplicação para economizar tempo de configuração, e manutenção geral de fluxos (arquivamento e exclusão).

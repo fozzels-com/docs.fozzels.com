@@ -2,11 +2,10 @@
 id: '103000385597'
 title: 2.3.2. Shopify winkels verbinden met Fozzels via Shopify Dev Platform voor 2026
 sidebar_position: 4
-slug: >-
-  /integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026
-description: >-
-  BELANGRIJK BERICHT Vanaf 1 januari 2026 verandert Shopify officieel de regels
-  voor toepassingsbeheer. De oude methode voor het creëren van "Private Apps" d
+slug: /integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026
+description: BELANGRIJK BERICHT Vanaf 1 januari 2026 verandert Shopify officieel de regels voor toepassingsbeheer. De oude methode voor het creëren van "Private Apps" d
+keywords:
+- ophalen
 ---
 
 BELANGRIJK BERICHT

@@ -3,8 +3,10 @@ id: '103000367857'
 title: 2.5.1. Vollständige Integrationseinrichtung mit WooCommerce.
 sidebar_position: 7
 slug: /integration-connectivity/full-integration-setup-with-woocommerce
-description: >-
-  Um eine sichere Verbindung zwischen Fozzels und WooCommerce zu gewährleisten, müssen die folgenden Schritte abgeschlossen werden, um die speziellen API-Schlüssel (Customer Key und Customer Secret) im WooCommerce-Konto zu generieren
+description: Um eine sichere Verbindung zwischen Fozzels und WooCommerce zu gewährleisten, müssen die folgenden Schritte abgeschlossen werden, um die speziellen API-Schlüssel (Customer Key und Customer Secret) im WooCommerce-Konto zu generieren
+keywords:
+- Abruf
+- Datenabruf
 ---
 
 Um eine sichere Verbindung zwischen Fozzels und WooCommerce zu gewährleisten, müssen die folgenden Schritte abgeschlossen werden, um die speziellen API-Schlüssel (Customer Key und Customer Secret) im WooCommerce-Konto zu generieren.

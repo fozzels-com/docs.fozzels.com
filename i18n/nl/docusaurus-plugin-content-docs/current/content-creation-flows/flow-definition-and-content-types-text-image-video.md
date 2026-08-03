@@ -1,12 +1,11 @@
 ---
 id: '103000367975'
-title: '4.1.1. Flowdefinitie en inhoudstypen (tekst, afbeelding, video).'
+title: 4.1.1. Flowdefinitie en inhoudstypen (tekst, afbeelding, video).
 sidebar_position: 1
 slug: /content-creation-flows/flow-definition-and-content-types-text-image-video
-description: >-
-  Overzicht van het concept Een flow is een kernbegrip in Fozzels. Het is een
-  aangepast geconfigureerd, multi-staps geautomatiseerd proces dat AI-mogelijkheden
-  gebruikt om gegevens om te zetten in
+description: Overzicht van het concept Een flow is een kernbegrip in Fozzels. Het is een aangepast geconfigureerd, multi-staps geautomatiseerd proces dat AI-mogelijkheden gebruikt om gegevens om te zetten in
+keywords:
+- invoerprompt
 ---
 
 ## Overzicht van het concept

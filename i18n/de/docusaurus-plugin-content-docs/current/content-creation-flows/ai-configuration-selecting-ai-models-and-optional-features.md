@@ -2,12 +2,19 @@
 id: '103000367978'
 title: 4.2.1.  KI-Konfiguration. Auswahl von KI-Modellen und optionalen Funktionen.
 sidebar_position: 6
-slug: >-
-  /content-creation-flows/ai-configuration-selecting-ai-models-and-optional-features
-description: >-
-  Der Schritt der KI-Konfiguration (Schritt 2 in der Flow-Änderung) ist die
-  kritischste Phase zur Definition des Leistungs- und Kostenprofils eines
-  Content Flows. Er bestimmt
+slug: /content-creation-flows/ai-configuration-selecting-ai-models-and-optional-features
+description: Der Schritt der KI-Konfiguration (Schritt 2 in der Flow-Änderung) ist die kritischste Phase zur Definition des Leistungs- und Kostenprofils eines Content Flows. Er bestimmt
+keywords:
+- Bildfluss
+- Bildflow
+- Bildgenerierung
+- Inhaltsfluss
+- Content-Flow
+- Inhaltsgenerierung
+- Videofluss
+- Videoflow
+- Eingabeaufforderung
+- Anweisung
 ---
 
 Der Schritt der KI-Konfiguration (Schritt 2 in der Flow-Änderung) ist die kritischste Phase zur Definition des Leistungs- und Kostenprofils eines Content Flows. Er bestimmt die Wahl des generativen KI-Moduls, seine spezialisierten Funktionen und seine betrieblichen Einschränkungen. Benutzer müssen hier strategische Entscheidungen treffen und dabei die Ausgabequalität, die Aufgabenkomplexität (z. B. multimodale Anforderungen) und die Optimierung der Token-Kosten ausgleichen.

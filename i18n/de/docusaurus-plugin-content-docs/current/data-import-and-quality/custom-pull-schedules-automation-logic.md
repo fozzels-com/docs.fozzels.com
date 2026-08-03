@@ -3,8 +3,12 @@ id: '103000385568'
 title: 3.1  Benutzerdefinierte Pull-Zeitpläne & Automatisierungslogik
 sidebar_position: 1
 slug: /data-import-and-quality/custom-pull-schedules-automation-logic
-description: >-
-  Wir haben die Fozzels-Plattform aktualisiert, um sich an Ihren lokalen Geschäftsrhythmus anzupassen. Sie haben jetzt vollständige Kontrolle über den Startzeitpunkt Ihres Inhalt-Update-Zyklus,
+description: Wir haben die Fozzels-Plattform aktualisiert, um sich an Ihren lokalen Geschäftsrhythmus anzupassen. Sie haben jetzt vollständige Kontrolle über den Startzeitpunkt Ihres Inhalt-Update-Zyklus,
+keywords:
+- Eingabeaufforderung
+- Anweisung
+- Abruf
+- Datenabruf
 ---
 
 Wir haben die Fozzels-Plattform aktualisiert, um sich an Ihren lokalen Geschäftsrhythmus anzupassen. Sie haben jetzt vollständige Kontrolle über den Startzeitpunkt Ihres Inhalt-Update-Zyklus, wodurch Sie KI-Operationen mit Ihren Bestandsaktualisierungen und Serverkapazität synchronisieren können.

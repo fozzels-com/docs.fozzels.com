@@ -3,8 +3,13 @@ id: '103000367977'
 title: '4.1.3. Verwaltung von Flows: Duplizierung, Archivierung und Löschung.'
 sidebar_position: 5
 slug: /content-creation-flows/managing-flows-duplication-archiving-and-deletion
-description: >-
-  Dieses Handbuch erläutert Methoden zur Verwaltung bestehender Content Flows mit Fokus auf Duplizierung zur Zeiteinsparung und allgemeine Flow-Verwaltung (Archivierung und Löschung).
+description: Dieses Handbuch erläutert Methoden zur Verwaltung bestehender Content Flows mit Fokus auf Duplizierung zur Zeiteinsparung und allgemeine Flow-Verwaltung (Archivierung und Löschung).
+keywords:
+- Inhaltsfluss
+- Content-Flow
+- Inhaltsgenerierung
+- Eingabeaufforderung
+- Anweisung
 ---
 
 Dieses Handbuch erläutert Methoden zur Verwaltung bestehender Content Flows mit Fokus auf Duplizierung zur Zeiteinsparung und allgemeine Flow-Verwaltung (Archivierung und Löschung).

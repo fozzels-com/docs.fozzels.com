@@ -3,10 +3,9 @@ id: '103000388046'
 title: 2.5.4. Yoast SEO-ondersteuning voor WooCommerce
 sidebar_position: 12
 slug: /integration-connectivity/yoast-seo-support-for-woocommerce
-description: >-
-  Dit artikel legt uit hoe u volledige automatisering van uw
-  productmetagegevens (titels, beschrijvingen, focuskeywoorden) instelt
-  met behulp van de Yoast SEO-integratie met F
+description: Dit artikel legt uit hoe u volledige automatisering van uw productmetagegevens (titels, beschrijvingen, focuskeywoorden) instelt met behulp van de Yoast SEO-integratie met F
+keywords:
+- ophalen
 ---
 
 Dit artikel legt uit hoe u volledige automatisering van uw productmetagegevens (titels, beschrijvingen, focuskeywoorden) instelt met behulp van de **Yoast SEO** integratie met Fozzels.

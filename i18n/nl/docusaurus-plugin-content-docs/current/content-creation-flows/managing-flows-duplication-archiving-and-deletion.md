@@ -3,10 +3,12 @@ id: '103000367977'
 title: '4.1.3. Stromen beheren: Duplicatie, archivering en verwijdering.'
 sidebar_position: 5
 slug: /content-creation-flows/managing-flows-duplication-archiving-and-deletion
-description: >-
-  Deze gids beschrijft methoden voor het beheren van bestaande inhoudsstromen,
-  waarbij de nadruk ligt op duplicatie om instelwerkzaamheden besparen, en
-  algemeen stroomonderhoud (archivering en verwijdering).
+description: Deze gids beschrijft methoden voor het beheren van bestaande inhoudsstromen, waarbij de nadruk ligt op duplicatie om instelwerkzaamheden besparen, en algemeen stroomonderhoud (archivering en verwijdering).
+keywords:
+- contentflow
+- inhoudsstroom
+- contentgeneratie
+- invoerprompt
 ---
 
 Deze gids beschrijft methoden voor het beheren van bestaande inhoudsstromen, waarbij de nadruk ligt op duplicatie om instelwerkzaamheden besparen, en algemeen stroomonderhoud (archivering en verwijdering).

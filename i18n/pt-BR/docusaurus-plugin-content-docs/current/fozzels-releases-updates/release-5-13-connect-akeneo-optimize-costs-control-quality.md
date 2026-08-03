@@ -2,12 +2,11 @@
 id: '103000389492'
 title: 'Versão 5.13: Conecte Akeneo. Otimize custos. Controle qualidade.'
 sidebar_position: 6
-slug: >-
-  /fozzels-releases-updates/release-5-13-connect-akeneo-optimize-costs-control-quality
-description: >-
-  Destaques da Versão 1. Integração Akeneo PIM Expandimos nosso ecossistema para
-  suportar Akeneo, um sistema de Gerenciamento de Informações de Produto
-  líder mundial. Escalabilidade corporativa:
+slug: /fozzels-releases-updates/release-5-13-connect-akeneo-optimize-costs-control-quality
+description: 'Destaques da Versão 1. Integração Akeneo PIM Expandimos nosso ecossistema para suportar Akeneo, um sistema de Gerenciamento de Informações de Produto líder mundial. Escalabilidade corporativa:'
+keywords:
+- instrução
+- comando
 ---
 
 ## **Destaques da Versão**

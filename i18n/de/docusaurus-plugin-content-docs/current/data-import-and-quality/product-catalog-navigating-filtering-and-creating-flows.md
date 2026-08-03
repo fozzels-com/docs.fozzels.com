@@ -2,11 +2,11 @@
 title: Produktkatalog — Navigation, Filterung und Erstellung von Flows
 sidebar_position: 9
 slug: /data-import-and-quality/product-catalog-navigating-filtering-and-creating-flows
-description: >-
-  Der Katalog zeigt alle Produkte an, die aus Ihrem verbundenen Shop
-  abgerufen werden. Erfahren Sie, wie Sie darin navigieren, Produkte mit dem
-  Abfragebuilder für Bedingungen filtern und einen gezielten Content Flow
-  aus einer Auswahl erstellen.
+description: Der Katalog zeigt alle Produkte an, die aus Ihrem verbundenen Shop abgerufen werden. Erfahren Sie, wie Sie darin navigieren, Produkte mit dem Abfragebuilder für Bedingungen filtern und einen gezielten Content Flow aus einer Auswahl erstellen.
+keywords:
+- Inhaltsfluss
+- Content-Flow
+- Inhaltsgenerierung
 ---
 
 Der Katalog zeigt alle Produkte an, die aus Ihrem verbundenen Shop abgerufen werden. Dies ist Ihre zentrale Ansicht der Produktdaten in Fozzels.

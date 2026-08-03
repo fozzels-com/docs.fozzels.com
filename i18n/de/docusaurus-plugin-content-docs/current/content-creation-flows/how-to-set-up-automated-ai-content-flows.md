@@ -3,8 +3,13 @@ id: '103000408983'
 title: 4.1.2.a Einrichtung automatisierter KI-Content-Flows
 sidebar_position: 3
 slug: /content-creation-flows/how-to-set-up-automated-ai-content-flows
-description: >-
-  Automatisierte Content Flows in Fozzels ermöglichen es Ihnen, Produktinhalte automatisch im Hintergrund zu generieren und zu synchronisieren - ohne dass Sie Aufgaben täglich manuell auslösen müssen.
+description: Automatisierte Content Flows in Fozzels ermöglichen es Ihnen, Produktinhalte automatisch im Hintergrund zu generieren und zu synchronisieren - ohne dass Sie Aufgaben täglich manuell auslösen müssen.
+keywords:
+- Inhaltsfluss
+- Content-Flow
+- Inhaltsgenerierung
+- Eingabeaufforderung
+- Anweisung
 ---
 
 Automatisierte Content Flows in Fozzels ermöglichen es Ihnen, Produktinhalte automatisch im Hintergrund zu generieren und zu synchronisieren - ohne dass Sie Aufgaben täglich manuell auslösen müssen.

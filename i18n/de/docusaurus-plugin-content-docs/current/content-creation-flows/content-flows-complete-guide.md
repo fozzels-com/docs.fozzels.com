@@ -2,11 +2,15 @@
 title: Content Flows — Vollständiger Leitfaden
 sidebar_position: 27
 slug: /content-creation-flows/content-flows-complete-guide
-description: >-
-  Content Flows sind das Kern-Automatisierungsfeature von Fozzels. Dieser Leitfaden
-  behandelt das Erstellen eines Flow, Prompt-Vorlagen, das Ausführen, den
-  Abschluss-Lebenszyklus, verdächtige Inhalte und warum Inhalte manchmal nicht
-  synchronisiert werden.
+description: Content Flows sind das Kern-Automatisierungsfeature von Fozzels. Dieser Leitfaden behandelt das Erstellen eines Flow, Prompt-Vorlagen, das Ausführen, den Abschluss-Lebenszyklus, verdächtige Inhalte und warum Inhalte manchmal nicht synchronisiert werden.
+keywords:
+- Inhaltsfluss
+- Content-Flow
+- Inhaltsgenerierung
+- Eingabeaufforderung
+- Anweisung
+- Fertigstellung
+- Generierung
 ---
 
 Content Flows sind das Kern-Automatisierungsfeature von Fozzels. Ein Flow ist eine Regel, die automatisch KI-Inhalte für ein ausgewähltes Produktattribut generiert und das Ergebnis zurück in Ihren Shop schreibt.

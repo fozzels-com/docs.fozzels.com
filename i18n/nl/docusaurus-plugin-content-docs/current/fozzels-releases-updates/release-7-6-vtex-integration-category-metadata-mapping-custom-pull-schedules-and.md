@@ -1,15 +1,13 @@
 ---
 id: '103000408975'
-title: >-
-  Release 7.6 - VTEX Integratie, Categoriemetadata Mapping, Aangepaste Pull
-  Planningen en Verbeterde Afbeeldingsworkflows
+title: Release 7.6 - VTEX Integratie, Categoriemetadata Mapping, Aangepaste Pull Planningen en Verbeterde Afbeeldingsworkflows
 sidebar_position: 15
-slug: >-
-  /fozzels-releases-updates/release-7-6-vtex-integration-category-metadata-mapping-custom-pull-schedules-and
-description: >-
-  We zijn verheugd om Fozzels versie 7.6 in te dienen! Deze release brengt een
-  splinternieuwe platform-integratie, diepere categorie- en afbeeldingsgegevens
-  toegankelijkheid, preci
+slug: /fozzels-releases-updates/release-7-6-vtex-integration-category-metadata-mapping-custom-pull-schedules-and
+description: We zijn verheugd om Fozzels versie 7.6 in te dienen! Deze release brengt een splinternieuwe platform-integratie, diepere categorie- en afbeeldingsgegevens toegankelijkheid, preci
+keywords:
+- invoerprompt
+- werkstroom
+- ophalen
 ---
 
 We zijn verheugd om Fozzels versie 7.6 in te dienen! Deze release brengt een splinternieuwe platform-integratie, diepere categorie- en afbeeldingsgegevenstoegang, precieze synchronisatie- en API-pull-controles en grote upgrades naar AI-afbeeldingsgeneratieworkflows. Verken alle nieuwe functies hieronder.

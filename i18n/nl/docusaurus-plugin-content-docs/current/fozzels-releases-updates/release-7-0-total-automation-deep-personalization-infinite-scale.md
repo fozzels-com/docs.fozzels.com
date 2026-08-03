@@ -2,12 +2,11 @@
 id: '103000400304'
 title: 'Release 7.0: Totale Automatisering. Diepe Personalisatie. Oneindige Schaal.'
 sidebar_position: 11
-slug: >-
-  /fozzels-releases-updates/release-7-0-total-automation-deep-personalization-infinite-scale
-description: >-
-  We hebben onze technologie naar het volgende niveau gebracht door visuele
-  flows in een volledig geautomatiseerde indeling om te zetten. Dit is een
-  evolutionaire stap die het hedendaagse bedrijfsleven vereist
+slug: /fozzels-releases-updates/release-7-0-total-automation-deep-personalization-infinite-scale
+description: We hebben onze technologie naar het volgende niveau gebracht door visuele flows in een volledig geautomatiseerde indeling om te zetten. Dit is een evolutionaire stap die het hedendaagse bedrijfsleven vereist
+keywords:
+- batchlijst
+- invoerprompt
 ---
 
 We hebben onze technologie naar het volgende niveau gebracht door visuele flows in een **volledig geautomatiseerde indeling** om te zetten. Dit is een evolutionaire stap die het hedendaagse bedrijfsleven vereist: **Automatisering - Personalisatie - Schaling**. Deze update verandert Fozzels in een intelligent ecosysteem waar complexe technologieën in synergie met uw bedrijfsgegevens werken, zodat u snelheid krijgt zonder controle te verliezen.

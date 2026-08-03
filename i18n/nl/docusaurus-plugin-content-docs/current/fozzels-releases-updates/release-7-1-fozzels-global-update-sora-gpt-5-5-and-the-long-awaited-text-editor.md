@@ -1,15 +1,14 @@
 ---
 id: '103000402781'
-title: >-
-  Release 7.1 - Fozzels Wereldwijde Update - Sora, GPT 5.5 en de Langverwachte
-  Teksteditor
+title: Release 7.1 - Fozzels Wereldwijde Update - Sora, GPT 5.5 en de Langverwachte Teksteditor
 sidebar_position: 12
-slug: >-
-  /fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor
-description: >-
-  Deze release gaat allemaal over kracht en controle. We hebben 's werelds
-  toonaangevende AI-modellen geïntegreerd en de functies toegevoegd die u het
-  meest vroeg
+slug: /fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor
+description: Deze release gaat allemaal over kracht en controle. We hebben 's werelds toonaangevende AI-modellen geïntegreerd en de functies toegevoegd die u het meest vroeg
+keywords:
+- videoflow
+- videostroom
+- invoerprompt
+- werkstroom
 ---
 
 Deze release gaat allemaal over kracht en controle. We hebben 's werelds toonaangevende AI-modellen geïntegreerd en de functies toegevoegd die u het meest vroeg hebt gevraagd om uw content workflow echt naadloos te maken.

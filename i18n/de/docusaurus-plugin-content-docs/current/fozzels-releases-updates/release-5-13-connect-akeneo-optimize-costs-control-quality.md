@@ -2,10 +2,11 @@
 id: '103000389492'
 title: 'Release 5.13: Akeneo verbinden. Kosten optimieren. Qualität kontrollieren.'
 sidebar_position: 6
-slug: >-
-  /fozzels-releases-updates/release-5-13-connect-akeneo-optimize-costs-control-quality
-description: >-
-  Release-Highlights 1. Akeneo-PIM-Integration Wir haben unser Ökosystem erweitert, um Akeneo, ein weltweit führendes Product Information Management-System, zu unterstützen. Enterpr
+slug: /fozzels-releases-updates/release-5-13-connect-akeneo-optimize-costs-control-quality
+description: Release-Highlights 1. Akeneo-PIM-Integration Wir haben unser Ökosystem erweitert, um Akeneo, ein weltweit führendes Product Information Management-System, zu unterstützen. Enterpr
+keywords:
+- Arbeitsablauf
+- Ablauf
 ---
 
 ## **Release-Highlights**

@@ -2,12 +2,10 @@
 id: '103000386281'
 title: 'Release 5.12 RC1:  We hebben u gehoord! WooCommerce ACF-ondersteuning is live!'
 sidebar_position: 4
-slug: >-
-  /fozzels-releases-updates/release-5-12-rc1-we-heard-you-woocommerce-acf-support-is-live
-description: >-
-  Deze week hebben we ons gericht op een van de meest gevraagde functies van onze
-  WooCommerce-gemeenschap: volledige ondersteuning voor Advanced Custom Fields
-  (ACF). Waarom dit een
+slug: /fozzels-releases-updates/release-5-12-rc1-we-heard-you-woocommerce-acf-support-is-live
+description: 'Deze week hebben we ons gericht op een van de meest gevraagde functies van onze WooCommerce-gemeenschap: volledige ondersteuning voor Advanced Custom Fields (ACF). Waarom dit een'
+keywords:
+- werkstroom
 ---
 
 Deze week hebben we ons gericht op een van de meest gevraagde functies van onze WooCommerce-gemeenschap: volledige ondersteuning voor **Advanced Custom Fields (ACF)**.

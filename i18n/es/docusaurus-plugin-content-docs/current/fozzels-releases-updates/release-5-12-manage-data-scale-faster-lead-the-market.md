@@ -2,13 +2,15 @@
 id: '103000388290'
 title: 'Versión 5.12: Gestiona datos. Escala más rápido. Lidera el mercado.'
 sidebar_position: 5
-slug: >-
-  /fozzels-releases-updates/release-5-12-manage-data-scale-faster-lead-the-market
-description: >-
-  La Versión 5.12 es una actualización histórica que transforma Fozzels en el
-  sistema nervioso central de tus operaciones de comercio electrónico. Hemos
-  combinado el poder de la IA multi-modelo con una profundidad de integración
-  sin precedentes para WordPress y Shopify.
+slug: /fozzels-releases-updates/release-5-12-manage-data-scale-faster-lead-the-market
+description: La Versión 5.12 es una actualización histórica que transforma Fozzels en el sistema nervioso central de tus operaciones de comercio electrónico. Hemos combinado el poder de la IA multi-modelo con una profundidad de integración sin precedentes para WordPress y Shopify.
+keywords:
+- flujo
+- de
+- imágenes
+- generación
+- indicación
+- instrucción
 ---
 
 La Versión 5.12 es una actualización histórica que transforma Fozzels en el sistema nervioso central de tus operaciones de comercio electrónico. Hemos combinado el poder de la IA multi-modelo con una profundidad de integración sin precedentes para WordPress y Shopify, asegurando que tus datos funcionen como un motor unificado.

@@ -2,10 +2,12 @@
 title: Catálogo de Productos - Navegación, Filtrado y Creación de Flows
 sidebar_position: 9
 slug: /data-import-and-quality/product-catalog-navigating-filtering-and-creating-flows
-description: >-
-  El Catálogo muestra todos los productos extraídos de su tienda conectada.
-  Aprenda a navegarlo, filtrar productos con el generador de consultas de
-  condiciones y crear un Content Flow dirigido a partir de una selección.
+description: El Catálogo muestra todos los productos extraídos de su tienda conectada. Aprenda a navegarlo, filtrar productos con el generador de consultas de condiciones y crear un Content Flow dirigido a partir de una selección.
+keywords:
+- flujo
+- de
+- contenido
+- generación
 ---
 
 El Catálogo muestra todos los productos extraídos de su tienda conectada. Es su vista central de datos de productos dentro de Fozzels.

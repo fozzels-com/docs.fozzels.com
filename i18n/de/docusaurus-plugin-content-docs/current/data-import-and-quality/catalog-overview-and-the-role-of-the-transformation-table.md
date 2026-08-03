@@ -2,10 +2,12 @@
 id: '103000368948'
 title: 3.1.1. Katalogübersicht und die Rolle der Transformationstabelle.
 sidebar_position: 2
-slug: >-
-  /data-import-and-quality/catalog-overview-and-the-role-of-the-transformation-table
-description: >-
-  Der Produktkatalog ist Ihr primäres Werkzeug für zentrale Produktdatenverwaltung und Vorauswahl vor dem Flow. Er enthält alle Produkteinheiten und Attribute, die
+slug: /data-import-and-quality/catalog-overview-and-the-role-of-the-transformation-table
+description: Der Produktkatalog ist Ihr primäres Werkzeug für zentrale Produktdatenverwaltung und Vorauswahl vor dem Flow. Er enthält alle Produkteinheiten und Attribute, die
+keywords:
+- Inhaltsfluss
+- Content-Flow
+- Inhaltsgenerierung
 ---
 
 Der Produktkatalog ist Ihr primäres Werkzeug für zentrale Produktdatenverwaltung und Vorauswahl vor dem Flow. Er enthält alle Produkteinheiten und Attribute, die von Ihrer integrierten E-Commerce-Plattform (z. B. Magento, Shopify, NextChapter) synchronisiert werden. Der Katalog ermöglicht es Ihnen, bestimmte Produktteilmengen schnell mit leistungsstarken Filtertools zu filtern und auszuwählen, bevor Sie einen gezielten Content Flow erstellen. Dieser Prozess optimiert die Generierung und kontrolliert die Kosten.

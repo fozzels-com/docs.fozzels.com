@@ -3,10 +3,9 @@ id: '103000367983'
 title: 4.3.2 Promptcreatie & Filtering. Drag & Drop Prompt Editor
 sidebar_position: 8
 slug: /content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor
-description: >-
-  Deze gids toont u hoe u het veld Prompt configureert - het belangrijkste
-  gereedschap voor het maken van dynamische instructies voor
-  producttekstgeneratie - met beschikbare product
+description: Deze gids toont u hoe u het veld Prompt configureert - het belangrijkste gereedschap voor het maken van dynamische instructies voor producttekstgeneratie - met beschikbare product
+keywords:
+- invoerprompt
 ---
 
 Deze gids toont u hoe u het veld **Prompt configureert** - het belangrijkste gereedschap voor het maken van dynamische instructies voor producttekstgeneratie - met beschikbare productattributen, voorwaardelijke logica en lokalisatie-instellingen.

@@ -3,10 +3,10 @@ id: '103000408096'
 title: '4.5.1.a. Guia do Usuário: Fluxo de Imagem Automatizado para Magento 2'
 sidebar_position: 14
 slug: /content-creation-flows/user-guide-automated-image-flow-for-magento-2
-description: >-
-  Fluxo de Imagem para Magento é uma ferramenta de automação especializada,
-  nível empresarial, projetada para geração de imagem IA em massa, mapeamento
-  automático de metadados e sincronização direta
+description: Fluxo de Imagem para Magento é uma ferramenta de automação especializada, nível empresarial, projetada para geração de imagem IA em massa, mapeamento automático de metadados e sincronização direta
+keywords:
+- instrução
+- comando
 ---
 
 **Fluxo de Imagem para Magento** é uma ferramenta de automação especializada, nível empresarial, projetada para geração de imagem IA em massa, mapeamento automático de metadados e sincronização direta com seu catálogo Magento. Configurando este fluxo, você estabelece um pipeline autônomo que monitora sua loja Magento, processa milhares de produtos e atualiza dinamicamente seu site com base em critérios de filtro avançados.

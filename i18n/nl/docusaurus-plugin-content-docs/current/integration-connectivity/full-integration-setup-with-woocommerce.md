@@ -3,10 +3,9 @@ id: '103000367857'
 title: 2.5.1. Volledige integratieinstelling met WooCommerce.
 sidebar_position: 7
 slug: /integration-connectivity/full-integration-setup-with-woocommerce
-description: >-
-  Om een veilige verbinding tussen Fozzels en WooCommerce te garanderen, moeten
-  de volgende stappen worden voltooid om de speciale API-sleutels (Customer Key
-  en Cus
+description: Om een veilige verbinding tussen Fozzels en WooCommerce te garanderen, moeten de volgende stappen worden voltooid om de speciale API-sleutels (Customer Key en Cus
+keywords:
+- ophalen
 ---
 
 Om een veilige verbinding tussen Fozzels en WooCommerce te garanderen, moeten de volgende stappen worden voltooid om de speciale API-sleutels (Customer Key en Customer Secret) in het WooCommerce-account te genereren.

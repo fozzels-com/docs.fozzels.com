@@ -1,16 +1,11 @@
 ---
 id: '103000376412'
-title: >-
-  4.7.2 Massaacties en operationele controle in Batch Lists / Dagelijkse totale
-  Batch List
+title: 4.7.2 Massaacties en operationele controle in Batch Lists / Dagelijkse totale Batch List
 sidebar_position: 18
-slug: >-
-  /content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list
-description: >-
-  Inhoud beheren met massaacties Het Dashboards (of Batch List) is uw
-  primaire tool voor het snel beheren van inhoud. Deze functie Massaacties is
-  beschikbaar in zowel het dagelijks totaal Batch List-overzicht als de
-  gedetailleerde Batch List-weergave.
+slug: /content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list
+description: Inhoud beheren met massaacties Het Dashboards (of Batch List) is uw primaire tool voor het snel beheren van inhoud. Deze functie Massaacties is beschikbaar in zowel het dagelijks totaal Batch List-overzicht als de gedetailleerde Batch List-weergave.
+keywords:
+- batchlijst
 ---
 
 Inhoud beheren met massaacties Het Dashboards (of Batch List) is uw primaire tool voor het snel beheren van inhoud. **Deze functie Massaacties is beschikbaar in zowel het dagelijks totaal Batch List-overzicht als de gedetailleerde Batch List-weergave.** Met behulp van de functie **Massaacties** kunt u gelijktijdig kritieke bewerkingen, zoals bevestiging, regeneratie en synchronisatie, op een groot aantal producten toepassen. Dit bespaart aanzienlijk tijd door de noodzaak om elk artikel afzonderlijk te verwerken te elimineren.

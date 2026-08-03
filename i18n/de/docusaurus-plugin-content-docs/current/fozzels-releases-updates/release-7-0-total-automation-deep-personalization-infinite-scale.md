@@ -2,10 +2,11 @@
 id: '103000400304'
 title: 'Release 7.0: Totale Automatisierung. Tiefe Personalisierung. Unendliche Skalierung.'
 sidebar_position: 11
-slug: >-
-  /fozzels-releases-updates/release-7-0-total-automation-deep-personalization-infinite-scale
-description: >-
-  Wir haben unsere Technologie auf die nächste Stufe gebracht, indem wir visuelle Flows in ein vollständig automatisiertes Format umgewandelt haben. Dies ist ein evolutionärer Schritt, den die heutigen Unternehmen fordern
+slug: /fozzels-releases-updates/release-7-0-total-automation-deep-personalization-infinite-scale
+description: Wir haben unsere Technologie auf die nächste Stufe gebracht, indem wir visuelle Flows in ein vollständig automatisiertes Format umgewandelt haben. Dies ist ein evolutionärer Schritt, den die heutigen Unternehmen fordern
+keywords:
+- Eingabeaufforderung
+- Anweisung
 ---
 
 Wir haben unsere Technologie auf die nächste Stufe gebracht, indem wir visuelle Flows in ein **vollständig automatisiertes Format** umgewandelt haben. Dies ist ein evolutionärer Schritt, den die heutigen Unternehmen fordern: **Automatisierung - Personalisierung - Skalierung**. Dieses Update verwandelt Fozzels in ein intelligentes Ökosystem, in dem komplexe Technologien synergistisch mit Ihren Geschäftsdaten funktionieren und Geschwindigkeit gewährleisten, ohne die Kontrolle zu verlieren.

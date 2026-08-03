@@ -3,8 +3,13 @@ id: '103000369006'
 title: 3.3. Produktfilterung für Inhaltsgenerierung
 sidebar_position: 7
 slug: /data-import-and-quality/product-filtering-for-content-generation
-description: >-
-  Dieser Leitfaden erklärt, wie Sie den Filtermechanismus in Fozzels effektiv nutzen, um eine Teilmenge von Produkten basierend auf Attributwerten präzise auszuwählen,
+description: Dieser Leitfaden erklärt, wie Sie den Filtermechanismus in Fozzels effektiv nutzen, um eine Teilmenge von Produkten basierend auf Attributwerten präzise auszuwählen,
+keywords:
+- Inhaltsfluss
+- Content-Flow
+- Inhaltsgenerierung
+- Eingabeaufforderung
+- Anweisung
 ---
 
 Dieser Leitfaden erklärt, wie Sie den Filtermechanismus in Fozzels effektiv nutzen, um eine Teilmenge von Produkten basierend auf Attributwerten präzise auszuwählen, wodurch die Inhaltsgenerierung gezielt und effizient wird.

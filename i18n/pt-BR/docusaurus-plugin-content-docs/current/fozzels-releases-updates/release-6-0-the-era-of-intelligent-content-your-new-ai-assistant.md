@@ -2,10 +2,12 @@
 id: '103000397673'
 title: Release 6.0 - A Era do Conteúdo Inteligente & Seu Novo Assistente de IA
 sidebar_position: 9
-slug: >-
-  /fozzels-releases-updates/release-6-0-the-era-of-intelligent-content-your-new-ai-assistant
-description: >-
-  Temos o prazer de apresentar o Fozzels 6.0 - uma atualização massiva em que os modelos de IA mais poderosos do mundo se tornam suas ferramentas diárias, alimentados por um assistente personalizado
+slug: /fozzels-releases-updates/release-6-0-the-era-of-intelligent-content-your-new-ai-assistant
+description: Temos o prazer de apresentar o Fozzels 6.0 - uma atualização massiva em que os modelos de IA mais poderosos do mundo se tornam suas ferramentas diárias, alimentados por um assistente personalizado
+keywords:
+- instrução
+- comando
+- extração
 ---
 
 Temos o prazer de apresentar o **Fozzels 6.0 -** uma atualização massiva em que os modelos de IA mais poderosos do mundo se tornam suas ferramentas diárias, alimentados por um assistente personalizado projetado para escalar seu conteúdo de e-commerce.

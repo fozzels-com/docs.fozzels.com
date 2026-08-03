@@ -3,9 +3,13 @@ title: 'FAQ: Functies en routekaart'
 sidebar_position: 11
 unlisted: true
 slug: /frequently-asked-questions/faq-features-and-roadmap
-description: >-
-  Aangepaste pull-schema's, aanpassing van verdachte inhoud, YouTube-video's insluiten,
-  categoriepaginainhoud, verkoopfeedvelden en foutwaarschuwingen.
+description: Aangepaste pull-schema's, aanpassing van verdachte inhoud, YouTube-video's insluiten, categoriepaginainhoud, verkoopfeedvelden en foutwaarschuwingen.
+keywords:
+- contentflow
+- inhoudsstroom
+- contentgeneratie
+- invoerprompt
+- ophalen
 ---
 
 ## Kan ik een aangepast schema voor productpulls instellen?

@@ -1,15 +1,11 @@
 ---
 id: '103000366656'
-title: >-
-  1.3.2. Automatisch opladen instellen en uw standaard betaalmethode (kaart) in
-  Fozzels toevoegen of wijzigen
+title: 1.3.2. Automatisch opladen instellen en uw standaard betaalmethode (kaart) in Fozzels toevoegen of wijzigen
 sidebar_position: 5
-slug: >-
-  /account-core-resources/how-to-set-up-auto-top-up-and-add-or-change-your-default-payment-method-card-in-
-description: >-
-  Welkom in onze kennisbank! Dit artikel helpt u automatische
-  accountopwaardering in te stellen en serviceonderbrekingen te voorkomen.
-  Automatische opwaarderingsfunctie Als u
+slug: /account-core-resources/how-to-set-up-auto-top-up-and-add-or-change-your-default-payment-method-card-in-
+description: Welkom in onze kennisbank! Dit artikel helpt u automatische accountopwaardering in te stellen en serviceonderbrekingen te voorkomen. Automatische opwaarderingsfunctie Als u
+keywords:
+- werkstroom
 ---
 
 Welkom in onze kennisbank!

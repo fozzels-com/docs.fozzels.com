@@ -2,10 +2,13 @@
 title: Completion Report (Dagelijkse Batchlijst)
 sidebar_position: 28
 slug: /content-creation-flows/completion-report-daily-batch-list
-description: >-
-  De Completion Report is een dagelijks overzicht van alle AI-gegenereerde
-  content items over uw Flows — toont wat werd gegenereerd, bevestigd en
-  gepusht naar uw winkel op een bepaalde dag.
+description: De Completion Report is een dagelijks overzicht van alle AI-gegenereerde content items over uw Flows — toont wat werd gegenereerd, bevestigd en gepusht naar uw winkel op een bepaalde dag.
+keywords:
+- contentflow
+- inhoudsstroom
+- contentgeneratie
+- invoerprompt
+- voltooiing
 ---
 
 De Completion Report is een dagelijks overzicht van alle AI-gegenereerde content items over uw Flows — toont wat werd gegenereerd, bevestigd en gepusht naar uw winkel op een bepaalde dag.

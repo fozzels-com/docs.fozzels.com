@@ -3,10 +3,9 @@ id: '103000408982'
 title: 3.1.2 Cómo Configurar la Programación Global de Extracción y Limitación de API
 sidebar_position: 3
 slug: /data-import-and-quality/how-to-configure-global-pull-schedule-api-throttling
-description: >-
-  Al gestionar integraciones de catálogos grandes, controlar cuándo y con qué
-  velocidad Fozzels importa datos de productos desde tu plataforma de comercio
-  electrónico es clave para mantener el rendimiento de la tienda.
+description: Al gestionar integraciones de catálogos grandes, controlar cuándo y con qué velocidad Fozzels importa datos de productos desde tu plataforma de comercio electrónico es clave para mantener el rendimiento de la tienda.
+keywords:
+- extracción
 ---
 
 Al gestionar integraciones de catálogos grandes, controlar **cuándo** y **con qué velocidad** Fozzels importa datos de productos desde tu plataforma de comercio electrónico es clave para mantener el rendimiento de la tienda.

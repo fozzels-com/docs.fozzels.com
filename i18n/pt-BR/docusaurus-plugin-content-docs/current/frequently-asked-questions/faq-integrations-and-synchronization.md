@@ -3,10 +3,14 @@ title: 'FAQ: Integrações e Sincronização'
 sidebar_position: 9
 unlisted: true
 slug: /frequently-asked-questions/faq-integrations-and-synchronization
-description: >-
-  Pulls parciais de produtos, problemas de conexão Shopware e Shopify, variantes
-  e Packs, HTML em atributos, plugins WooCommerce, limites de taxa, pulls de
-  imagem e problemas de URL de multi-loja.
+description: Pulls parciais de produtos, problemas de conexão Shopware e Shopify, variantes e Packs, HTML em atributos, plugins WooCommerce, limites de taxa, pulls de imagem e problemas de URL de multi-loja.
+keywords:
+- lista
+- de
+- lotes
+- instrução
+- comando
+- extração
 ---
 
 ## O pull automático de produtos recupera apenas parte do meu catálogo. Como obtenho todos os produtos?
