@@ -4,9 +4,7 @@ sidebar_position: 9
 slug: /data-import-and-quality/product-catalog-navigating-filtering-and-creating-flows
 description: O Catalog mostra todos os produtos obtidos da sua loja conectada. Aprenda como navegar, filtrar produtos com o construtor de consultas de condições e criar um Content Flow direcionado a partir de uma seleção.
 keywords:
-- fluxo
-- de
-- conteúdo
+- fluxo de conteúdo
 ---
 
 O Catalog mostra todos os produtos obtidos da sua loja conectada. É sua visualização central de dados de produtos dentro do Fozzels.

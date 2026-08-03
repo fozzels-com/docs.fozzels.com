@@ -4,6 +4,9 @@ title: '4.5.1. Gebruikershandleiding: Geautomatiseerde afbeeldingsstroom'
 sidebar_position: 13
 slug: /content-creation-flows/user-guide-automated-image-flow
 description: Afbeeldingsstroom is een professioneel gereedschap dat is ontworpen voor de massale generatie en synchronisatie van productafbeeldingen met behulp van AI. Door een stroom eenmaal in te stellen, stelt u een autonoom systeem
+keywords:
+- afbeeldingsflow
+- beeldflow
 ---
 
 **Afbeeldingsstroom** is een professioneel gereedschap dat is ontworpen voor de massale generatie en synchronisatie van productafbeeldingen met behulp van AI. Door een stroom eenmaal in te stellen, stelt u een autonoom systeem in dat duizenden producten verwerkt, inclusief nieuwe items die in de toekomst aan uw winkel worden toegevoegd via dynamische op voorwaarde gebaseerde filtering.

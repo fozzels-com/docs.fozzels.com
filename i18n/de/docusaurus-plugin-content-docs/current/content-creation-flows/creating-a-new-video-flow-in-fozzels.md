@@ -5,6 +5,8 @@ sidebar_position: 15
 slug: /content-creation-flows/creating-a-new-video-flow-in-fozzels
 description: Die Video-Flow-Funktion ist ein spezialisierter Content Flow, der der Generierung von kurzen, hochfidelity Video-Assets für Produktpräsentationen gewidmet ist. Erstellen eines Video F
 keywords:
+- Videofluss
+- Videoflow
 - Inhaltsfluss
 - Content-Flow
 ---
