@@ -92,5 +92,5 @@ Se você precisar de recursos adicionais além dos limites do seu plano:
 Você está agora totalmente configurado para dimensionar sua produção de conteúdo.
 Para geração contínua, recomendamos fortemente configurar **Recarga Automática**. Saiba como fazer isso aqui:
 
-[_1.4.1 Como Configurar Recarga Automática e Adicionar ou Alterar Seu Método de Pagamento Padrão (cartão) no Fozzels_](https://fozzels.freshdesk.com/a/solutions/articles/103000366656)
+[_1.4.1 Como Configurar Recarga Automática e Adicionar ou Alterar Seu Método de Pagamento Padrão (cartão) no Fozzels_](/account-core-resources/how-to-set-up-auto-top-up-and-add-or-change-your-default-payment-method-card-in-/)
 Tem perguntas? Entre em contato com nosso canal de suporte (support@fozzels.com) estamos aqui para ajudar!"

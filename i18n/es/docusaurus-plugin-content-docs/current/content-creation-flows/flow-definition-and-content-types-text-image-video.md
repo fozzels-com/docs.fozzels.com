@@ -35,7 +35,7 @@ Cada Flujo consiste en partes lógicas que usted configura:
 
 2.  **Utilice** el poderoso sistema de filtrado para seleccionar productos por categoría, color, SKU o estado.
 
-3.  **Lea** más sobre filtrado avanzado de productos [aquí](https://fozzels.freshdesk.com/a/solutions/articles/103000369006).
+3.  **Lea** más sobre filtrado avanzado de productos [aquí](/data-import-and-quality/product-filtering-for-content-generation/).
 
 4.  **Resultado:** Solo los productos seleccionados serán pasados a la siguiente etapa.
 
@@ -43,15 +43,15 @@ Cada Flujo consiste en partes lógicas que usted configura:
 
 1.  **Escriba** o **cargue** instrucciones detalladas para la IA (la indicación).
 
-2.  **Utilice** bloques de atributos dinámicos para que la IA pueda adaptar el contenido a características específicas del producto (por ejemplo, color, tamaño). **Lea** más sobre atributos y su configuración [aquí](https://fozzels.freshdesk.com/a/solutions/articles/103000368952).
+2.  **Utilice** bloques de atributos dinámicos para que la IA pueda adaptar el contenido a características específicas del producto (por ejemplo, color, tamaño). **Lea** más sobre atributos y su configuración [aquí](/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/).
 
 3.  **Defina** el estilo, tono, idioma y límites de texto requeridos (por ejemplo, conteo máximo de tokens).
 
 ### 3. Configuración Adicional y Control
 
-1.  **Protección contra Duplicados:** **Active** la función **Prevenir generación de contenido superpuesto** para evitar generación de contenido redundante para un atributo que ya ha sido procesado. **Lea** más sobre prevención de generación superpuesta [aquí](https://fozzels.freshdesk.com/a/solutions/articles/103000369548).
+1.  **Protección contra Duplicados:** **Active** la función **Prevenir generación de contenido superpuesto** para evitar generación de contenido redundante para un atributo que ya ha sido procesado. **Lea** más sobre prevención de generación superpuesta [aquí](/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/).
 
-2.  **Optimización de Imagen:** Cuando trabaje con imágenes, **utilice** la función **Cambio de Tamaño de Imagen** para optimización automática de archivos grandes. **Lea** más sobre la función Cambio de Tamaño de Imagen [aquí](https://fozzels.freshdesk.com/a/solutions/articles/103000367979).
+2.  **Optimización de Imagen:** Cuando trabaje con imágenes, **utilice** la función **Cambio de Tamaño de Imagen** para optimización automática de archivos grandes. **Lea** más sobre la función Cambio de Tamaño de Imagen [aquí](/content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation/).
 
 ### 4. Automatización
 
@@ -86,8 +86,8 @@ Fozzels soporta tres tipos principales de flujos, cada uno dirigido a un tipo es
 ##
 Próximos Pasos
 
--   **Lea** nuestra guía detallada sobre cómo crear un **Flujo de Contenido** [aquí](https://fozzels.freshdesk.com/a/solutions/articles/103000367976).
+-   **Lea** nuestra guía detallada sobre cómo crear un **Flujo de Contenido** [aquí](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 
--   **Lea** nuestra guía detallada sobre cómo crear un **Flujo de Imagen** [aquí](https://fozzels.freshdesk.com/a/solutions/articles/103000369819).
+-   **Lea** nuestra guía detallada sobre cómo crear un **Flujo de Imagen** [aquí](/content-creation-flows/user-guide-automated-image-flow/).
 
--   **Lea** nuestra guía detallada sobre cómo crear un **Flujo de Video** [aquí](https://fozzels.freshdesk.com/a/solutions/articles/103000370066).
+-   **Lea** nuestra guía detallada sobre cómo crear un **Flujo de Video** [aquí](/content-creation-flows/creating-a-new-video-flow-in-fozzels/).

@@ -46,7 +46,7 @@ Image Selection: The central block displays the selected product and its image g
 2.2 Prompt Engineering (The Critical Step) The prompt is the exclusive input controlling the video's content, style, and narrative.
 
 Input Requirement: The "Prompt" field cannot be left empty. It must contain detailed, descriptive instructions outlining the desired video outcome (e.g., setting, mood, action, camera movements).
-**Read** the next section, **[Tips for Creating an Effective Prompt + Examples](https://fozzels.freshdesk.com/a/solutions/articles/103000370386)**, before writing their prompt to ensure optimal video quality.
+**Read** the next section, **[Tips for Creating an Effective Prompt + Examples](/content-creation-flows/tips-for-creating-an-effective-prompt-examples/)**, before writing their prompt to ensure optimal video quality.
 ![](/img/kb/content-creation-flows/creating-a-new-video-flow-in-fozzels/ZGiO6GR7CNBTRPTFYBz1RRmNNRTwD_WW6A.png)
 Prompt Template Management: To promote consistency and efficiency, **use** the "Save" button above the prompt field to save your instruction as a reusable template. This saves time when creating subsequent flows.
 

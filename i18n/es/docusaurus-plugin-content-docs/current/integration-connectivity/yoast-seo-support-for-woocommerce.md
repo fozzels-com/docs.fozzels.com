@@ -61,8 +61,8 @@ Para que los nuevos atributos sean visibles en la interfaz de Fozzels, debes act
 
 Fozzels te permite alcanzar el "estándar de oro" del comercio electrónico combinando:
 
--   **Soporte [WPML](https://fozzels.freshdesk.com/a/solutions/articles/103000389531):** Para SEO multilingüe.
+-   **Soporte [WPML](/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/):** Para SEO multilingüe.
 
--   **[ACF (Advanced Custom Fields)](https://fozzels.freshdesk.com/a/solutions/articles/103000385832):** Para datos técnicos especializados.
+-   **[ACF (Advanced Custom Fields)](/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/):** Para datos técnicos especializados.
 
 -   **Yoast SEO:** Para el dominio de motores de búsqueda. Puedes automatizar todos estos campos simultáneamente para cada versión de idioma de tu tienda.

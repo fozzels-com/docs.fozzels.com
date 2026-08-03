@@ -83,7 +83,7 @@ Gestión: Usa el botón "**Eliminar**" para eliminar condiciones individuales, o
 
 Columna de Miniaturas: Los productos con imágenes mostrarán la primera imagen aquí. Si faltan imágenes, verifica la configuración de tu atributo "URL de Imagen Absoluta del Producto". Puedes filtrar el catálogo usando el menú desplegable de la columna para ver solo productos con "_Imagen faltante_" o "_Imagen existe_".
 ![](/img/kb/data-import-and-quality/catalog-overview-and-the-role-of-the-transformation-table/iIY14kkYS_2aVcuNVFZF5Z1TLKQ0cczmYQ.png)
-**Al pasar el cursor sobre** una imagen se muestra la vista previa de la galería completa. Al hacer clic en la imagen se abre la **[Vista Detallada del Producto](https://fozzels.freshdesk.com/a/solutions/articles/103000368949)**.
+**Al pasar el cursor sobre** una imagen se muestra la vista previa de la galería completa. Al hacer clic en la imagen se abre la **[Vista Detallada del Producto](/data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product/)**.
 **Columna de Contenidos**: Esta columna muestra la fecha de sincronización del último contenido generado (no la fecha de generación). La fecha es un enlace; al hacer clic en él se abre la lista de finalizaciones de ese producto.
 
 ![](/img/kb/data-import-and-quality/catalog-overview-and-the-role-of-the-transformation-table/YRHITuApJ-8TocExnzRrdqDtJhfJGiHDCQ.png)

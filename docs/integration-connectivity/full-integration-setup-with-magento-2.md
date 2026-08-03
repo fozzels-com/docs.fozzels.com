@@ -186,6 +186,6 @@ _![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/FvEC
 
 3.  **Go** to the **"Attributes"** tab to configure your synchronization rules.
 
-4.  **Read** more about working with product attributes and customizing data fields [here](https://fozzels.freshdesk.com/a/solutions/articles/103000368952).
+4.  **Read** more about working with product attributes and customizing data fields [here](/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/).
 
-[](https://fozzels.freshdesk.com/a/solutions/articles/103000368952)
+[](/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/)

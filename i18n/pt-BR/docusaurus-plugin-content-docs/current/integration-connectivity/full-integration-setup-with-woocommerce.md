@@ -68,4 +68,4 @@ Após salvar com sucesso, você prosseguirá para as próximas etapas de configu
 2\. Ative os sites e lojas necessários ativando as alternâncias de status correspondentes para **ATIVADO**.
 3\. Clique no botão "**Puxar produtos**" para cada loja necessária. Esta ação inicia o carregamento inicial de dados de produtos no Fozzels. Leia mais sobre puxar produtos [aqui](https://fozzels.freshdesk.com/a/solutions/articles/103000368950).
 ![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/OT8f7hDzpyxRkabdwOZz9-0ph8-2UMGMnA.png)![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/pXfqdGQaJ_kePo3JmAj2P43ZxhaPZWFnMg.png)Depois que o processo de carregamento de produtos for concluído, o Fozzels estará pronto para trabalhar!
-Agora você pode prosseguir para a aba "Atributos" para configurá-los. Leia mais sobre como gerenciar atributos [aqui](https://fozzels.freshdesk.com/a/solutions/articles/103000368952).
+Agora você pode prosseguir para a aba "Atributos" para configurá-los. Leia mais sobre como gerenciar atributos [aqui](/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/).

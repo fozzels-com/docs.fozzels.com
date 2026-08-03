@@ -80,7 +80,7 @@ Verwaltung: Verwenden Sie die Schaltfläche **„Löschen"**, um einzelne Beding
 
 Spalte Miniaturansicht: Produkte mit Bildern zeigen das erste Bild hier an. Wenn Bilder fehlen, überprüfen Sie Ihre Einstellungen für das Attribut „Produkt Absolute Bild-URL". Sie können den Katalog mit dem Dropdown der Spalte filtern, um nur Produkte mit „_Bild fehlt_" oder „_Bild vorhanden_" zu sehen.
 ![](/img/kb/data-import-and-quality/catalog-overview-and-the-role-of-the-transformation-table/iIY14kkYS_2aVcuNVFZF5Z1TLKQ0cczmYQ.png)
-**Wenn Sie den Mauszeiger über ein Bild bewegen**, wird die vollständige Galerievorschau angezeigt. Das Klicken auf das Bild öffnet die **[Detaillierte Produktansicht](https://fozzels.freshdesk.com/a/solutions/articles/103000368949)**.
+**Wenn Sie den Mauszeiger über ein Bild bewegen**, wird die vollständige Galerievorschau angezeigt. Das Klicken auf das Bild öffnet die **[Detaillierte Produktansicht](/data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product/)**.
 **Spalte Inhalte**: Diese Spalte zeigt das Synchronisationsdatum des letzten generierten Inhalts (nicht das Generierungsdatum). Das Datum ist ein Link; das Klicken darauf öffnet die Liste der Vervollständigungen für dieses Produkt.
 
 ![](/img/kb/data-import-and-quality/catalog-overview-and-the-role-of-the-transformation-table/YRHITuApJ-8TocExnzRrdqDtJhfJGiHDCQ.png)

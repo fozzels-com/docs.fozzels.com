@@ -47,7 +47,7 @@ Bildauswahl: Der zentrale Block zeigt das ausgewählte Produkt und seine Bilderg
 2.2 Prompt-Entwicklung (Der kritische Schritt) Der Prompt ist die ausschließliche Eingabe, die den Inhalt, Stil und die Erzählung des Videos steuert.
 
 Eingabeanforderung: Das Feld „Prompt" darf nicht leer gelassen werden. Es muss detaillierte, beschreibende Anweisungen enthalten, die das gewünschte Videoergebnis beschreiben (z. B. Einstellung, Stimmung, Aktion, Kamerabewegungen).
-**Lesen Sie** den nächsten Abschnitt, **[Tipps zum Erstellen eines effektiven Prompts + Beispiele](https://fozzels.freshdesk.com/a/solutions/articles/103000370386)**, bevor Sie Ihren Prompt schreiben, um optimale Videoqualität sicherzustellen.
+**Lesen Sie** den nächsten Abschnitt, **[Tipps zum Erstellen eines effektiven Prompts + Beispiele](/content-creation-flows/tips-for-creating-an-effective-prompt-examples/)**, bevor Sie Ihren Prompt schreiben, um optimale Videoqualität sicherzustellen.
 ![](/img/kb/content-creation-flows/creating-a-new-video-flow-in-fozzels/ZGiO6GR7CNBTRPTFYBz1RRmNNRTwD_WW6A.png)
 Prompt-Template-Verwaltung: Um Konsistenz und Effizienz zu fördern, **verwenden Sie** die Schaltfläche „Speichern" über dem Prompt-Feld, um Ihre Anweisung als wiederverwendbare Vorlage zu speichern. Dies spart Zeit beim Erstellen nachfolgender Flows.
 

@@ -82,7 +82,7 @@ Management: Use the "**Delete**" button to remove single conditions, or the "**R
 
 Thumbnail Column: Products with images will display the first image here. If images are missing, verify your "Product Absolute Image URL" attribute settings. You can filter the catalog using the column's dropdown to see only products with "_Image missing_" or "_Image exists_."
 ![](/img/kb/data-import-and-quality/catalog-overview-and-the-role-of-the-transformation-table/iIY14kkYS_2aVcuNVFZF5Z1TLKQ0cczmYQ.png)
-**Hovering over** an image displays the full gallery preview. Clicking the image opens the **[Detailed Product View](https://fozzels.freshdesk.com/a/solutions/articles/103000368949)**.
+**Hovering over** an image displays the full gallery preview. Clicking the image opens the **[Detailed Product View](/data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product/)**.
 **Contents Column**: This column displays the synchronization date of the last generated content (not the generation date). The date is a link; clicking it opens the list of completions for that product.
 
 ![](/img/kb/data-import-and-quality/catalog-overview-and-the-role-of-the-transformation-table/YRHITuApJ-8TocExnzRrdqDtJhfJGiHDCQ.png)

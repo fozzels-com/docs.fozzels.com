@@ -69,4 +69,4 @@ After successful saving, you will proceed to the next configuration steps in Foz
 2\. Activate the required websites and stores by switching the corresponding Status toggles to **ON**.
 3\. Click the "**Pull products**" button for each necessary store. This action initiates the initial load of product data into Fozzels. Read more about pulling products [here](https://fozzels.freshdesk.com/a/solutions/articles/103000368950).
 ![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/OT8f7hDzpyxRkabdwOZz9-0ph8-2UMGMnA.png)![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/pXfqdGQaJ_kePo3JmAj2P43ZxhaPZWFnMg.png)Once the product loading process is complete, Fozzels is ready for work!
-Now you can proceed to the "Attributes" tab to configure them. Read more about managing attributes [here](https://fozzels.freshdesk.com/a/solutions/articles/103000368952).
+Now you can proceed to the "Attributes" tab to configure them. Read more about managing attributes [here](/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/).

@@ -48,7 +48,7 @@ De inhoudsflow is de kern van automatisering binnen Fozzels. Het is een instruct
 5.  **Stel** het aantal afbeeldingen (van 1 tot 5) in het veld **Afbeeldingsaantal** in dat de AI voor analyse en inhoudsgeneratie gebruikt (optioneel).
     ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/csny9IgMXvADkHUZbDWfxWYWVQcbXer2wg.png)
 
-6.  **Zorg ervoor** dat de functie **Afbeelding vergroten/verkleinen** is ingeschakeld (aanbevolen om fouten met grote bestanden te voorkomen, lees er hier meer over](https://fozzels.freshdesk.com/a/solutions/articles/103000367979)).
+6.  **Zorg ervoor** dat de functie **Afbeelding vergroten/verkleinen** is ingeschakeld (aanbevolen om fouten met grote bestanden te voorkomen, lees er hier meer over](/content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation/)).
     ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/h9tWKVAiOCFtONtDB2tWqYyXwNm8CJR4-g.png)
 
 7.  **Stel** de maximale tokenwaarde (**Maximale tokens**) voor generatie in.
@@ -81,8 +81,8 @@ De inhoudsflow is de kern van automatisering binnen Fozzels. Het is een instruct
     5.2. **Voeg** statische productgegevens in (bijvoorbeeld _Productnaam_ of _SKU_) door elementen uit de sectie Kenmerken te klikken of te slepen.
     5.3. **Voeg** dynamische logica toe (bijvoorbeeld _ALS kleur blauw is_) voor voorwaardelijke inhoudsgeneratie door de sectie Kenmerken (indien ingevuld) te gebruiken.
     5.4. **Geef prioriteit** aan elementen met een hoog percentage datadichtheid om succesvolle inhoudsgeneratie voor de meeste producten te garanderen.
-    5.5 Lees meer over het maken van een prompt en het gebruik van het Drag and drop-hulpmiddel [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000367983).
-    5.6 Lees meer over het opslaan en laden van een gemaakte prompt als sjabloon [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000367846).
+    5.5 Lees meer over het maken van een prompt en het gebruik van het Drag and drop-hulpmiddel [hier](/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor/).
+    5.6 Lees meer over het opslaan en laden van een gemaakte prompt als sjabloon [hier](/account-core-resources/resources-prompt-templates-locating-and-using-saved-templates/).
     ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/1NaIIRbS4Q7wdMA8cA0jKSnoBsh-XUgdJg.png)
 
 6.  **Klik** op **"Opslaan en voorbeeld"** om de producten weer te geven die aan de voorwaarden voldoen (u ziet het totale productaantal).
@@ -138,4 +138,4 @@ De inhoudsflow is de kern van automatisering binnen Fozzels. Het is een instruct
 
 ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/lSusJ64-jIyhQStOHHai5u5y8pwWE2YoWw.png)
 
-6\. **Lees** hier meer over het controleren van resultaten, handmatige synchronisatie en afhandeling van fouten in gegenereerde inhoud [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000369091).
+6\. **Lees** hier meer over het controleren van resultaten, handmatige synchronisatie en afhandeling van fouten in gegenereerde inhoud [hier](/content-creation-flows/tracking-of-the-generated-results-dashboard/).

@@ -106,6 +106,6 @@ Nach dem Abrufen Ihrer Produkte können Sie:
 - einen **Video Flow** verwenden, um Produktvideos automatisch zu erstellen
 
 → [Erfahren Sie, wie Sie Ihren ersten Content Flow erstellen](/content-creation-flows/creating-a-new-content-flow-and-initial-settings)
-→ [Erfahren Sie mehr über Image Flows](https://fozzels.freshdesk.com/support/solutions/articles/103000369819-4-5-1-creating-a-new-image-flow-and-initial-settings-)
+→ [Erfahren Sie mehr über Image Flows](/content-creation-flows/user-guide-automated-image-flow/)
 
 _Benötigen Sie Hilfe? Kontaktieren Sie uns unter [support@fozzels.com](mailto:support@fozzels.com)_

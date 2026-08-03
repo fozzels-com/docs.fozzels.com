@@ -243,6 +243,6 @@ Example: teststore.myshopify.com
 
 14.2. Click Pull Products to start importing products and attributes. Progress will be shown in the progress bar.
 
-14.3. Go to the Attributes tab to view, enable, disable, or edit imported attributes. Read more about managing the attributes  [here](https://fozzels.freshdesk.com/a/solutions/articles/103000368952) .
+14.3. Go to the Attributes tab to view, enable, disable, or edit imported attributes. Read more about managing the attributes  [here](/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/) .
 
-After successfully creating the integration, you can **start** building flows and **generate** your **[first content](https://fozzels.freshdesk.com/a/solutions/articles/103000367976)** !
+After successfully creating the integration, you can **start** building flows and **generate** your **[first content](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/)** !

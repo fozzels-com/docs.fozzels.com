@@ -107,6 +107,6 @@ Una vez que tus productos se extraigan, puedes:
 -   Usa el **Flujo de vídeo** para crear vídeos de productos automáticamente
 
 → [Aprende a crear tu primer flujo de contenido](/content-creation-flows/creating-a-new-content-flow-and-initial-settings)
-→ [Aprende sobre flujos de imágenes](https://fozzels.freshdesk.com/support/solutions/articles/103000369819-4-5-1-creating-a-new-image-flow-and-initial-settings-)
+→ [Aprende sobre flujos de imágenes](/content-creation-flows/user-guide-automated-image-flow/)
 
 _¿Necesitas ayuda? Contáctanos en [support@fozzels.com](mailto:support@fozzels.com)_

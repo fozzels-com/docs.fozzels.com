@@ -94,5 +94,5 @@ Als u extra middelen nodig heeft die verder gaan dan de limieten van uw abonneme
 U bent nu volledig ingesteld om uw inhoudsproduksie schaal te vergroten.
 Voor continue generatie raden wij u aan **Automatisch opladen** in te stellen. Leer hier hoe u dat doet:
 
-[_1.4.1 Automatisch opladen instellen en uw standaard betaalmethode (kaart) in Fozzels wijzigen_](https://fozzels.freshdesk.com/a/solutions/articles/103000366656)
+[_1.4.1 Automatisch opladen instellen en uw standaard betaalmethode (kaart) in Fozzels wijzigen_](/account-core-resources/how-to-set-up-auto-top-up-and-add-or-change-your-default-payment-method-card-in-/)
 Heeft u vragen? Neem contact op met ons ondersteuningskanaal (support@fozzels.com) we helpen graag!

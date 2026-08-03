@@ -70,4 +70,4 @@ Na succesvol opslaan gaat u over naar de volgende configuratiestappen in Fozzels
 2\. Activeer de vereiste websites en winkels door de corresponderende statusschakelaars op **AAN** in te schakelen.
 3\. Klik op de knop "**Pull products**" voor elke benodigde winkel. Deze actie start de initiële belading van productgegevens in Fozzels. Lees meer over het ophalen van producten [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000368950).
 ![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/OT8f7hDzpyxRkabdwOZz9-0ph8-2UMGMnA.png)![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/pXfqdGQaJ_kePo3JmAj2P43ZxhaPZWFnMg.png)Nadat het productbeleidingsproces is voltooid, is Fozzels klaar om te werken!
-Nu kunt u doorgaan naar het tabblad "Attributen" om deze in te stellen. Lees meer over het beheren van attributen [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000368952).
+Nu kunt u doorgaan naar het tabblad "Attributen" om deze in te stellen. Lees meer over het beheren van attributen [hier](/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/).

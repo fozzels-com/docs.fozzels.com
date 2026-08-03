@@ -72,4 +72,4 @@ Después de guardar exitosamente, procederás a los siguientes pasos de configur
 3. Haz clic en el botón "**Extraer productos**" para cada tienda necesaria. Esta acción inicia la carga inicial de datos de productos en Fozzels. Lee más sobre extraer productos [aquí](https://fozzels.freshdesk.com/a/solutions/articles/103000368950).
 ![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/OT8f7hDzpyxRkabdwOZz9-0ph8-2UMGMnA.png)![](/img/kb/integration-connectivity/full-integration-setup-with-woocommerce/pXfqdGQaJ_kePo3JmAj2P43ZxhaPZWFnMg.png)
 ¡Una vez que se complete el proceso de carga de productos, Fozzels está listo para trabajar!
-Ahora puedes proceder a la pestaña "Atributos" para configurarlos. Lee más sobre gestión de atributos [aquí](https://fozzels.freshdesk.com/a/solutions/articles/103000368952).
+Ahora puedes proceder a la pestaña "Atributos" para configurarlos. Lee más sobre gestión de atributos [aquí](/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/).

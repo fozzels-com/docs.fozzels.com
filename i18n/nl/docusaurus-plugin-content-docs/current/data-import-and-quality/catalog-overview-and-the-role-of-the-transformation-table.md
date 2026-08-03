@@ -82,7 +82,7 @@ Beheer: Gebruik de knop **"Delete"** om afzonderlijke voorwaarden te verwijderen
 
 Miniatuuropdrachtkolom: Producten met afbeeldingen geven hier het eerste beeld weer. Als afbeeldingen ontbreken, controleert u de instellingen van uw kenmerk "Product Absolute Image URL". U kunt de catalogus filteren met behulp van het vervolgkeuzemenu van de kolom om alleen producten met "_Afbeelding ontbreekt_" of "_Afbeelding bestaat_" weer te geven.
 ![](/img/kb/data-import-and-quality/catalog-overview-and-the-role-of-the-transformation-table/iIY14kkYS_2aVcuNVFZF5Z1TLKQ0cczmYQ.png)
-**Muisaanwijzer over** een afbeelding toont een volledig galerijevoorbeeld. Als u op de afbeelding klikt, wordt de **[gedetailleerde productweergave](https://fozzels.freshdesk.com/a/solutions/articles/103000368949)** geopend.
+**Muisaanwijzer over** een afbeelding toont een volledig galerijevoorbeeld. Als u op de afbeelding klikt, wordt de **[gedetailleerde productweergave](/data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product/)** geopend.
 **Inhoudskolom**: Deze kolom geeft de synchronisatiedatum van de laatst gegenereerde inhoud weer (niet de generatiedatum). De datum is een koppeling; als u erop klikt, wordt de lijst met vervolgingen voor dat product geopend.
 
 ![](/img/kb/data-import-and-quality/catalog-overview-and-the-role-of-the-transformation-table/YRHITuApJ-8TocExnzRrdqDtJhfJGiHDCQ.png)

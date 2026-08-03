@@ -48,7 +48,7 @@ The Content Flow is the core of automation within Fozzels. It is an instruction 
 5.  **Set** the number of images (from 1 to 5) in the **Image count** field that the AI will use for analysis and content generation (optional).
     ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/csny9IgMXvADkHUZbDWfxWYWVQcbXer2wg.png)
 
-6.  **Ensure** the **Image Resize** feature is enabled (recommended to prevent errors with large files, read more about Image resize [here](https://fozzels.freshdesk.com/a/solutions/articles/103000367979)).
+6.  **Ensure** the **Image Resize** feature is enabled (recommended to prevent errors with large files, read more about Image resize [here](/content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation/)).
     ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/h9tWKVAiOCFtONtDB2tWqYyXwNm8CJR4-g.png)
 
 7.  **Set** the maximum token value (**Max tokens**) for generation.
@@ -81,8 +81,8 @@ The Content Flow is the core of automation within Fozzels. It is an instruction 
     5.2. **Insert** static product data (e.g., _Product Name_ or _SKU_) by clicking or dragging elements from the Attributes section.
     5.3. **Add** dynamic logic (e.g., _IF Color is Blue_) for conditional content generation by using the Attributes (if filled) section.
     5.4. **Prioritize** elements with a high Data Density percentage to ensure successful content generation across most products.
-    5.5 Read more about creating a prompt and using the Drag and drop tool [here](https://fozzels.freshdesk.com/a/solutions/articles/103000367983).
-    5.6 Read more about saving and loading a created prompt as a template [here](https://fozzels.freshdesk.com/a/solutions/articles/103000367846).
+    5.5 Read more about creating a prompt and using the Drag and drop tool [here](/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor/).
+    5.6 Read more about saving and loading a created prompt as a template [here](/account-core-resources/resources-prompt-templates-locating-and-using-saved-templates/).
     ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/1NaIIRbS4Q7wdMA8cA0jKSnoBsh-XUgdJg.png)
 
 6.  **Click** **"Save and Preview"** to view the products that meet the conditions (you will see the total product count).
@@ -138,4 +138,4 @@ The Content Flow is the core of automation within Fozzels. It is an instruction 
 
 ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/lSusJ64-jIyhQStOHHai5u5y8pwWE2YoWw.png)
 
-6\. **Read** more about reviewing results, manual synchronization, and handling errors in the generated content [here](https://fozzels.freshdesk.com/a/solutions/articles/103000369091).
+6\. **Read** more about reviewing results, manual synchronization, and handling errors in the generated content [here](/content-creation-flows/tracking-of-the-generated-results-dashboard/).

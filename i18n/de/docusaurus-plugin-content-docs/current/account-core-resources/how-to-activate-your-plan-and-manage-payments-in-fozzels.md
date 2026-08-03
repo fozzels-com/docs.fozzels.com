@@ -93,5 +93,5 @@ Wenn Sie zusätzliche Ressourcen über die Grenzen Ihres Plans hinaus benötigen
 Sie sind jetzt vollständig eingerichtet, um Ihre Inhaltsproduktion zu skalieren.
 Für die kontinuierliche Generierung empfehlen wir dringend, **Auto-Reload** einzurichten. Erfahren Sie hier, wie Sie dies tun:
 
-[_1.4.1 Wie Sie Auto-Aufladung einrichten und Ihre Standard-Zahlungsmethode (Karte) in Fozzels hinzufügen oder ändern_](https://fozzels.freshdesk.com/a/solutions/articles/103000366656)
+[_1.4.1 Wie Sie Auto-Aufladung einrichten und Ihre Standard-Zahlungsmethode (Karte) in Fozzels hinzufügen oder ändern_](/account-core-resources/how-to-set-up-auto-top-up-and-add-or-change-your-default-payment-method-card-in-/)
 Haben Sie Fragen? Kontaktieren Sie unseren Support-Kanal (support@fozzels.com) - wir helfen Ihnen gerne weiter!

@@ -35,7 +35,7 @@ Elke flow bestaat uit logische onderdelen die u configureert:
 
 2.  **Gebruik** het krachtige filtersysteem om producten op categorie, kleur, SKU of status te selecteren.
 
-3.  **Lees** hier meer over geavanceerd productfiltering [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000369006).
+3.  **Lees** hier meer over geavanceerd productfiltering [hier](/data-import-and-quality/product-filtering-for-content-generation/).
 
 4.  **Resultaat:** Alleen geselecteerde producten worden doorgegeven aan de volgende fase.
 
@@ -43,15 +43,15 @@ Elke flow bestaat uit logische onderdelen die u configureert:
 
 1.  **Schrijf** of **laad** gedetailleerde instructies voor de AI (de prompt).
 
-2.  **Gebruik** dynamische kenmerkblokken zodat de AI inhoud kan aanpassen aan specifieke productkenmerken (bijvoorbeeld kleur, grootte). **Lees** hier meer over kenmerken en hun configuratie [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000368952).
+2.  **Gebruik** dynamische kenmerkblokken zodat de AI inhoud kan aanpassen aan specifieke productkenmerken (bijvoorbeeld kleur, grootte). **Lees** hier meer over kenmerken en hun configuratie [hier](/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/).
 
 3.  **Bepaal** de vereiste stijl, toon, taal en tekstlimieten (bijvoorbeeld maximaal tokennaantal).
 
 ### 3\. Aanvullende instellingen en beheer
 
-1.  **Bescherming tegen duplicaten:** **Activeer** de functie **Voorkoming van overlappende inhoudsgeneratie** om redundante inhoudsgeneratie voor een kenmerk dat al is verwerkt, te voorkomen. **Lees** hier meer over het voorkomen van overlappende generatie [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000369548).
+1.  **Bescherming tegen duplicaten:** **Activeer** de functie **Voorkoming van overlappende inhoudsgeneratie** om redundante inhoudsgeneratie voor een kenmerk dat al is verwerkt, te voorkomen. **Lees** hier meer over het voorkomen van overlappende generatie [hier](/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/).
 
-2.  **Afbeeldingsoptimalisering:** Bij het werken met afbeeldingen, **gebruik** de functie **Afbeelding vergroten/verkleinen** voor automatische optimalisatie van grote bestanden. **Lees** hier meer over de functie Afbeelding vergroten/verkleinen [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000367979).
+2.  **Afbeeldingsoptimalisering:** Bij het werken met afbeeldingen, **gebruik** de functie **Afbeelding vergroten/verkleinen** voor automatische optimalisatie van grote bestanden. **Lees** hier meer over de functie Afbeelding vergroten/verkleinen [hier](/content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation/).
 
 ### 4\. Automatisering
 
@@ -86,8 +86,8 @@ Fozzels ondersteunt drie hoofdflowtypen, elk gericht op een specifiek type inhou
 ##
 Volgende stappen
 
--   **Lees** onze gedetailleerde gids over het maken van een **inhoudsflow** [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000367976).
+-   **Lees** onze gedetailleerde gids over het maken van een **inhoudsflow** [hier](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 
--   **Lees** onze gedetailleerde gids over het maken van een **afbeeldingsflow** [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000369819).
+-   **Lees** onze gedetailleerde gids over het maken van een **afbeeldingsflow** [hier](/content-creation-flows/user-guide-automated-image-flow/).
 
--   **Lees** onze gedetailleerde gids over het maken van een **videoflow** [hier](https://fozzels.freshdesk.com/a/solutions/articles/103000370066).
+-   **Lees** onze gedetailleerde gids over het maken van een **videoflow** [hier](/content-creation-flows/creating-a-new-video-flow-in-fozzels/).

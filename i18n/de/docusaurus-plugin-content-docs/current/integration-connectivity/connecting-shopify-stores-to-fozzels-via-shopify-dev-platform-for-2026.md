@@ -242,6 +242,6 @@ Beispiel: teststore.myshopify.com
 
 14.2. Klicken Sie auf Produkte pullen, um mit dem Import von Produkten und Attributen zu beginnen. Der Fortschritt wird in der Fortschrittsleiste angezeigt.
 
-14.3. Gehen Sie zur Registerkarte Attribute, um die importierten Attribute anzuzeigen, zu aktivieren, zu deaktivieren oder zu bearbeiten. Weitere Informationen zur Verwaltung der Attribute  [finden Sie hier](https://fozzels.freshdesk.com/a/solutions/articles/103000368952) .
+14.3. Gehen Sie zur Registerkarte Attribute, um die importierten Attribute anzuzeigen, zu aktivieren, zu deaktivieren oder zu bearbeiten. Weitere Informationen zur Verwaltung der Attribute  [finden Sie hier](/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/) .
 
-Nach erfolgreichem Erstellen der Integration können Sie **beginnen** Sie Flows zu erstellen und Ihre **[ersten Inhalte](https://fozzels.freshdesk.com/a/solutions/articles/103000367976)** zu **generieren**!
+Nach erfolgreichem Erstellen der Integration können Sie **beginnen** Sie Flows zu erstellen und Ihre **[ersten Inhalte](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/)** zu **generieren**!
