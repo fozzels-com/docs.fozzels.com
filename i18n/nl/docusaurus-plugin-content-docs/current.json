@@ -1,0 +1,46 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Account & Core Resources": {
+    "message": "Account & Core Resources",
+    "description": "The label for category 'Account & Core Resources' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Account & Core Resources.link.generated-index.description": {
+    "message": "Account & Core Resources articles.",
+    "description": "The generated-index page description for category 'Account & Core Resources' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Integration & Connectivity": {
+    "message": "Integration & Connectivity",
+    "description": "The label for category 'Integration & Connectivity' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Integration & Connectivity.link.generated-index.description": {
+    "message": "Integration & Connectivity articles.",
+    "description": "The generated-index page description for category 'Integration & Connectivity' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Data Import And Quality": {
+    "message": "Data Import And Quality",
+    "description": "The label for category 'Data Import And Quality' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Data Import And Quality.link.generated-index.description": {
+    "message": "Data Import And Quality articles.",
+    "description": "The generated-index page description for category 'Data Import And Quality' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Content Creation (Flows)": {
+    "message": "Content Creation (Flows)",
+    "description": "The label for category 'Content Creation (Flows)' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Content Creation (Flows).link.generated-index.description": {
+    "message": "Content Creation (Flows) articles.",
+    "description": "The generated-index page description for category 'Content Creation (Flows)' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Fozzels Releases & Updates": {
+    "message": "Fozzels Releases & Updates",
+    "description": "The label for category 'Fozzels Releases & Updates' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Fozzels Releases & Updates.link.generated-index.description": {
+    "message": "Fozzels Releases & Updates articles.",
+    "description": "The generated-index page description for category 'Fozzels Releases & Updates' in sidebar 'tutorialSidebar'"
+  }
+}

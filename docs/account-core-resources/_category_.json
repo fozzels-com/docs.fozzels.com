@@ -1,0 +1,9 @@
+{
+  "label": "Account & Core Resources",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "slug": "/account-core-resources",
+    "description": "Account & Core Resources articles."
+  }
+}
