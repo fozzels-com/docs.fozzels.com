@@ -4,11 +4,6 @@ title: 'Release 5.10-5.11 RC2: snellere catalogus, diepere controle over Fozzels
 sidebar_position: 1
 slug: /fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels
 description: We streven ernaar ervoor te zorgen dat het werken met grote hoeveelheden gegevens niet alleen snel is, maar ook volledig controleerbaar en intuïtief. Versie 5.10 richt zich op het verbeteren van
-keywords:
-- afbeeldingsflow
-- beeldflow
-- afbeeldingsgeneratie
-- werkstroom
 ---
 
 We streven ernaar ervoor te zorgen dat het werken met grote hoeveelheden gegevens niet alleen snel is, maar ook volledig controleerbaar en intuïtief. Versie 5.10 richt zich op het verbeteren van de kwaliteit van visuele gegevens en het **aanzienlijk verhogen van de prestaties en het gemak van het gebruik van onze Fozzels-service.**

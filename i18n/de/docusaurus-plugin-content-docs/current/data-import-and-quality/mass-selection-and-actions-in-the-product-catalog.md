@@ -3,8 +3,7 @@ id: '103000376334'
 title: 3.1.2. Massenauswahl und Aktionen im Produktkatalog
 sidebar_position: 4
 slug: /data-import-and-quality/mass-selection-and-actions-in-the-product-catalog
-description: >-
-  Der Produktkatalog ist mit Massenauswahl-Funktionalität ausgestattet, die es Ihnen ermöglicht, große Elementgruppen effizient zu verwalten und den Prozess der Erstellung
+description: Der Produktkatalog ist mit Massenauswahl-Funktionalität ausgestattet, die es Ihnen ermöglicht, große Elementgruppen effizient zu verwalten und den Prozess der Erstellung
 ---
 
 Der Produktkatalog ist mit Massenauswahl-Funktionalität ausgestattet, die es Ihnen ermöglicht, große Elementgruppen effizient zu verwalten und den Prozess der Erstellung gezielter Flows zu optimieren. Dieser Auswahlmechanismus ist vielseitig und bewahrt den Auswahlzustand über Seitenwechsel hinweg.

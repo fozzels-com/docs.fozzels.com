@@ -2,12 +2,8 @@
 id: '103000368948'
 title: 3.1.1. Catalogusoverzicht en de rol van de transformatietabel.
 sidebar_position: 2
-slug: >-
-  /data-import-and-quality/catalog-overview-and-the-role-of-the-transformation-table
-description: >-
-  De productcatalogus is uw primaire tool voor gecentraliseerd beheer van
-  productgegevens en pre-Flow selectie. Het bevat alle productentiteiten en
-  kenmerken sy
+slug: /data-import-and-quality/catalog-overview-and-the-role-of-the-transformation-table
+description: De productcatalogus is uw primaire tool voor gecentraliseerd beheer van productgegevens en pre-Flow selectie. Het bevat alle productentiteiten en kenmerken sy
 ---
 
 De productcatalogus is uw primaire tool voor gecentraliseerd beheer van productgegevens en pre-Flow selectie. Het bevat alle productentiteiten en kenmerken die zijn gesynchroniseerd van uw geïntegreerd e-commerceplatform (bijv. Magento, Shopify, NextChapter). Met de catalogus kunt u snel filterbeperkingen toepassen en specifieke productsubsets selecteren met behulp van krachtige filterhulpmiddelen voordat u een gerichte contentflow maakt. Dit proces stroomlijnt het generatieproces en beheerst de kosten.

@@ -3,10 +3,7 @@ title: 'FAQ: Produktkatalog und Datenabrufe'
 sidebar_position: 8
 unlisted: true
 slug: /frequently-asked-questions/faq-product-catalog-and-data-pulls
-description: >-
-  Funktionsweise des nächtlichen Katalog-Abrufs, Gründe für fehlende oder neu
-  hinzugefügte Produkte, Varianten- und Kategorieunterschiede, Filter für
-  benutzerdefinierte Attribute und benutzerdefinierte Abrufpläne.
+description: Funktionsweise des nächtlichen Katalog-Abrufs, Gründe für fehlende oder neu hinzugefügte Produkte, Varianten- und Kategorieunterschiede, Filter für benutzerdefinierte Attribute und benutzerdefinierte Abrufpläne.
 ---
 
 ## Der Produktkatalog wird in einem nächtlichen Zeitplan aktualisiert. Wie funktioniert das?

@@ -5,12 +5,9 @@ sidebar_position: 16
 slug: /fozzels-releases-updates/release-8-0-8-1-category-brand-content-workflow-builder-ui-refresh
 description: Estamos animados em apresentar a atualização v8.0 e v8.1 do Fozzels. Esta release foca em ampliar os recursos de geração de conteúdo, adicionar flexibilidade
 keywords:
-- instrução
-- comando
 - fluxo
 - de
 - trabalho
-- conclusão
 ---
 
 Estamos animados em apresentar a atualização v8.0 e v8.1 do Fozzels. Esta release foca em ampliar os recursos de geração de conteúdo, adicionar flexibilidade na personalização de fluxos de trabalho, reforçar a segurança dos dados e renovar a interface da plataforma.

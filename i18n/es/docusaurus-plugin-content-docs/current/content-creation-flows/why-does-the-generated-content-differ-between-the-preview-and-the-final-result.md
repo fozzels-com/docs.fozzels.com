@@ -1,12 +1,9 @@
 ---
 id: '103000406129'
-title: >-
-  4.1.2.b ¿Por qué el contenido generado difiere entre la vista previa y el resultado final?
+title: 4.1.2.b ¿Por qué el contenido generado difiere entre la vista previa y el resultado final?
 sidebar_position: 4
-slug: >-
-  /content-creation-flows/why-does-the-generated-content-differ-between-the-preview-and-the-final-result
-description: >-
-  Pregunta ¿Por qué el contenido mostrado en la vista previa difiere del contenido que finalmente se sincroniza con el sitio web? Respuesta Este comportamiento es
+slug: /content-creation-flows/why-does-the-generated-content-differ-between-the-preview-and-the-final-result
+description: Pregunta ¿Por qué el contenido mostrado en la vista previa difiere del contenido que finalmente se sincroniza con el sitio web? Respuesta Este comportamiento es
 ---
 
 ## Pregunta

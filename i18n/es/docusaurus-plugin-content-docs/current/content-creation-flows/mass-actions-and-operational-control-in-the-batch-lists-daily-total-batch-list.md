@@ -1,12 +1,9 @@
 ---
 id: '103000376412'
-title: >-
-  4.7.2 Acciones masivas y control operacional en listas por lotes / Lista de lotes total diaria
+title: 4.7.2 Acciones masivas y control operacional en listas por lotes / Lista de lotes total diaria
 sidebar_position: 18
-slug: >-
-  /content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list
-description: >-
-  Gestión de contenido mediante acciones masivas Los paneles (o lista de lotes) es su herramienta principal para gestionar contenido rápidamente. Esta funcionalidad de acciones masivas está
+slug: /content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list
+description: Gestión de contenido mediante acciones masivas Los paneles (o lista de lotes) es su herramienta principal para gestionar contenido rápidamente. Esta funcionalidad de acciones masivas está
 ---
 
 Gestión de contenido mediante acciones masivas Los paneles (o lista de lotes) es su herramienta principal para gestionar contenido rápidamente. **Esta funcionalidad de acciones masivas está disponible tanto en la descripción general de la lista de lotes total diaria como en la vista de lista de lotes detallada.** Usando la función **Acciones masivas**, puede aplicar simultáneamente operaciones críticas, como confirmación, regeneración y sincronización, a un gran número de productos. Esto ahorra tiempo significativamente al eliminar la necesidad de procesar cada elemento individualmente.

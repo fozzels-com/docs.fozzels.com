@@ -3,10 +3,7 @@ id: '103000376334'
 title: 3.1.2. Seleção em Massa e Ações no Catálogo de Produtos
 sidebar_position: 4
 slug: /data-import-and-quality/mass-selection-and-actions-in-the-product-catalog
-description: >-
-  O Catálogo de Produtos é equipado com funcionalidade de seleção em massa,
-  permitindo que você gerencie eficientemente grandes conjuntos de itens e
-  simplifique o processo de criação
+description: O Catálogo de Produtos é equipado com funcionalidade de seleção em massa, permitindo que você gerencie eficientemente grandes conjuntos de itens e simplifique o processo de criação
 ---
 
 O Catálogo de Produtos é equipado com funcionalidade de seleção em massa, permitindo que você gerencie eficientemente grandes conjuntos de itens e simplifique o processo de criação de Fluxos direcionados. Este mecanismo de seleção é versátil e preserva o estado da seleção através de transições de página.

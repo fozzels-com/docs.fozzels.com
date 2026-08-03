@@ -2,12 +2,8 @@
 id: '103000368949'
 title: '3.1.3. Gedetailleerde productweergave: alle kenmerken voor één product controleren.'
 sidebar_position: 5
-slug: >-
-  /data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product
-description: >-
-  De gedetailleerde productweergave biedt een specifieke, geconsolideerde
-  interface voor het beoordelen van alle metagegevens die aan één product zijn
-  gekoppeld. Deze functie is ontworpen
+slug: /data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product
+description: De gedetailleerde productweergave biedt een specifieke, geconsolideerde interface voor het beoordelen van alle metagegevens die aan één product zijn gekoppeld. Deze functie is ontworpen
 ---
 
 De **gedetailleerde productweergave** biedt een specifieke, geconsolideerde interface voor het beoordelen van alle metagegevens die aan één product zijn gekoppeld. Deze functie is ontworpen om de complexiteit van de hoofdcatalogus te elimineren, waar sommige kenmerken verborgen kunnen zijn of de tabelstructuur te omslachtig is voor snelle naslag.

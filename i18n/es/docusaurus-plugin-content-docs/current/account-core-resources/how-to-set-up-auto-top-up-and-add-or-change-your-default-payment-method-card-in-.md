@@ -1,15 +1,9 @@
 ---
 id: '103000366656'
-title: >-
-  1.3.2. Cómo Configurar la Recarga Automática y Agregar o Cambiar Su Método de
-  Pago Predeterminado (tarjeta) en Fozzels
+title: 1.3.2. Cómo Configurar la Recarga Automática y Agregar o Cambiar Su Método de Pago Predeterminado (tarjeta) en Fozzels
 sidebar_position: 5
-slug: >-
-  /account-core-resources/how-to-set-up-auto-top-up-and-add-or-change-your-default-payment-method-card-in-
-description: >-
-  ¡Bienvenido a nuestra base de conocimientos! Este artículo le ayudará a
-  configurar la recarga automática de la cuenta y evitar interrupciones del
-  servicio. Función de Recarga Automática Si desea
+slug: /account-core-resources/how-to-set-up-auto-top-up-and-add-or-change-your-default-payment-method-card-in-
+description: ¡Bienvenido a nuestra base de conocimientos! Este artículo le ayudará a configurar la recarga automática de la cuenta y evitar interrupciones del servicio. Función de Recarga Automática Si desea
 ---
 
 ¡Bienvenido a nuestra base de conocimientos!

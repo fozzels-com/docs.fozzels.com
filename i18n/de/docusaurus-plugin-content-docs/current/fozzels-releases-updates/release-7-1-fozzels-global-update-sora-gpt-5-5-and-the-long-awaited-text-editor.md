@@ -4,13 +4,6 @@ title: Release 7.1 - Fozzels Global Update - Sora, GPT 5.5 und der lang ersehnte
 sidebar_position: 12
 slug: /fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor
 description: Dieses Release dreht sich um Kraft und Kontrolle. Wir haben die weltweit führenden KI-Modelle integriert und die Funktionen hinzugefügt, die Sie am meisten angefordert haben, um Ihren
-keywords:
-- Videofluss
-- Videoflow
-- Eingabeaufforderung
-- Anweisung
-- Arbeitsablauf
-- Ablauf
 ---
 
 Dieses Release dreht sich um Kraft und Kontrolle. Wir haben die weltweit führenden KI-Modelle integriert und die Funktionen hinzugefügt, die Sie am meisten angefordert haben, um Ihren Content-Workflow wirklich nahtlos zu gestalten.

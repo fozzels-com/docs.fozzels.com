@@ -3,8 +3,7 @@ id: '103000369091'
 title: 4.7.1 Seguimiento de los resultados generados. Panel.
 sidebar_position: 17
 slug: /content-creation-flows/tracking-of-the-generated-results-dashboard
-description: >-
-  El panel (o lista de lotes total diaria) sirve como su centro de comandos, proporcionando una descripción general completa de todos los procesos de generación y sincronización de contenido
+description: El panel (o lista de lotes total diaria) sirve como su centro de comandos, proporcionando una descripción general completa de todos los procesos de generación y sincronización de contenido
 ---
 
 El panel (o lista de lotes total diaria) sirve como su centro de comandos, proporcionando una descripción general completa de todos los procesos de generación y sincronización de contenido. Esta interfaz le permite rastrear proactivamente el estado, diagnosticar errores y gestionar eficientemente todos los datos generados.

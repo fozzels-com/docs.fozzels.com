@@ -4,11 +4,6 @@ sidebar_position: 11
 unlisted: true
 slug: /frequently-asked-questions/faq-features-and-roadmap
 description: Horarios de extracción de productos personalizados, personalización de contenido sospechoso, videos de YouTube incrustados, contenido de página de categoría, campos de feed de comerciante y notificaciones de error.
-keywords:
-- flujo
-- de
-- contenido
-- generación
 ---
 
 ## ¿Puedo establecer un horario personalizado de extracción de producto?

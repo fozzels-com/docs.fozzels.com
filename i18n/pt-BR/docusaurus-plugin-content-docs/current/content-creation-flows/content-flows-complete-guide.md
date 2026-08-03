@@ -7,10 +7,6 @@ keywords:
 - fluxo
 - de
 - conteúdo
-- geração
-- instrução
-- comando
-- conclusão
 ---
 
 Content Flows são o recurso de automação central do Fozzels. Um Flow é uma regra que gera automaticamente conteúdo de IA para um atributo de produto selecionado e escreve o resultado de volta na sua loja.

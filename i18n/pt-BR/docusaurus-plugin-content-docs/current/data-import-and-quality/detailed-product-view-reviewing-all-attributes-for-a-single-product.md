@@ -2,12 +2,8 @@
 id: '103000368949'
 title: '3.1.3. Visualização Detalhada do Produto: Revisando todos os atributos para um único produto.'
 sidebar_position: 5
-slug: >-
-  /data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product
-description: >-
-  A Visualização Detalhada do Produto oferece uma interface dedicada e
-  consolidada para revisar todos os metadados associados a um único produto.
-  Este recurso foi projetado
+slug: /data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product
+description: A Visualização Detalhada do Produto oferece uma interface dedicada e consolidada para revisar todos os metadados associados a um único produto. Este recurso foi projetado
 ---
 
 A **Visualização Detalhada do Produto** oferece uma interface dedicada e consolidada para revisar todos os metadados associados a um único produto. Este recurso foi projetado para eliminar a complexidade do Catálogo principal, onde alguns atributos poderiam estar ocultos ou a estrutura da tabela ser muito incômoda para referência rápida.

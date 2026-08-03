@@ -1,15 +1,9 @@
 ---
 id: '103000385832'
-title: >-
-  2.5.2.  ACF-datasynchronisatie inschakelen: WordPress/WooCommerce-configuratie
-  voor Fozzels
+title: '2.5.2.  ACF-datasynchronisatie inschakelen: WordPress/WooCommerce-configuratie voor Fozzels'
 sidebar_position: 8
-slug: >-
-  /integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels
-description: >-
-  De Fozzels - WooCommerce-integratie ondersteunt nu officieel Advanced Custom
-  Fields (ACF)! Met deze functie kunt u unieke en uitgebreide
-  productkenmerken synchroniseren
+slug: /integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels
+description: De Fozzels - WooCommerce-integratie ondersteunt nu officieel Advanced Custom Fields (ACF)! Met deze functie kunt u unieke en uitgebreide productkenmerken synchroniseren
 ---
 
 De **Fozzels - WooCommerce**-integratie ondersteunt nu officieel **Advanced Custom Fields (ACF)**!

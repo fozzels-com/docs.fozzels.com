@@ -3,8 +3,7 @@ id: '103000389531'
 title: 2.5.6.  Suporte WPML para WooCommerce (Automação Multilíngue)
 sidebar_position: 13
 slug: /integration-connectivity/wpml-support-for-woocommerce-multilingual-automation
-description: >-
-  Este guia cobre a configuração e uso da integração WPML (Plugin multilíngue do WordPress) no Fozzels. Este recurso permite automatizar c
+description: Este guia cobre a configuração e uso da integração WPML (Plugin multilíngue do WordPress) no Fozzels. Este recurso permite automatizar c
 ---
 
 Este guia cobre a configuração e uso da integração **WPML (WordPress Multilingual Plugin)** no Fozzels. Este recurso permite automatizar a geração de conteúdo e sincronização para cada localidade de idioma de sua loja dentro de uma única integração.

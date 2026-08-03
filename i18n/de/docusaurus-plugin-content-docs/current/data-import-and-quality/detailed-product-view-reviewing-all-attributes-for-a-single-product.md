@@ -2,10 +2,8 @@
 id: '103000368949'
 title: '3.1.3. Detaillierte Produktansicht: Überprüfung aller Attribute für ein einzelnes Produkt.'
 sidebar_position: 5
-slug: >-
-  /data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product
-description: >-
-  Die Detaillierte Produktansicht bietet eine dedizierte, konsolidierte Schnittstelle zur Überprüfung aller mit einem einzelnen Produkt verknüpften Metadaten. Diese Funktion ist
+slug: /data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product
+description: Die Detaillierte Produktansicht bietet eine dedizierte, konsolidierte Schnittstelle zur Überprüfung aller mit einem einzelnen Produkt verknüpften Metadaten. Diese Funktion ist
 ---
 
 Die **Detaillierte Produktansicht** bietet eine dedizierte, konsolidierte Schnittstelle zur Überprüfung aller mit einem einzelnen Produkt verknüpften Metadaten. Diese Funktion ist darauf ausgelegt, die Komplexität des Hauptkatalogs zu beseitigen, wo einige Attribute möglicherweise verborgen sind oder die Tabellenstruktur zu unwieldy für schnelle Referenz ist.

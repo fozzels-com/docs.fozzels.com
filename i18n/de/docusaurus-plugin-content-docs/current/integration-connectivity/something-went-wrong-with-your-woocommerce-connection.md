@@ -4,9 +4,6 @@ title: 2.5.7. Etwas ist mit Ihrer WooCommerce-Verbindung schief gelaufen?
 sidebar_position: 14
 slug: /integration-connectivity/something-went-wrong-with-your-woocommerce-connection
 description: Keine Sorge – die meisten Verbindungsprobleme lassen sich schnell beheben. Diese Anleitung führt Sie durch die häufigsten Meldungen, die Sie möglicherweise sehen, und zeigt Ihnen genau, was zu tun ist
-keywords:
-- Abruf
-- Datenabruf
 ---
 
 Keine Sorge – die meisten Verbindungsprobleme lassen sich schnell beheben. Diese Anleitung führt Sie durch die häufigsten Meldungen, die Sie möglicherweise sehen, und zeigt Ihnen genau, was zu tun ist.

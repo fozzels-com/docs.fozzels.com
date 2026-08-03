@@ -4,9 +4,6 @@ title: 3.1  Aangepaste Pull-schema's en automatiseringslogica
 sidebar_position: 1
 slug: /data-import-and-quality/custom-pull-schedules-automation-logic
 description: We hebben het Fozzels-platform bijgewerkt zodat het aansluit op uw lokale bedrijfsritme. U hebt nu volledige controle over wanneer de inhoudsupdatecyclus begint.
-keywords:
-- invoerprompt
-- ophalen
 ---
 
 We hebben het Fozzels-platform bijgewerkt zodat het aansluit op uw lokale bedrijfsritme. U hebt nu volledige controle over wanneer uw inhoudsupdatecyclus begint, waardoor u AI-bewerkingen kunt synchroniseren met uw voorraadupdates en servercapaciteit.

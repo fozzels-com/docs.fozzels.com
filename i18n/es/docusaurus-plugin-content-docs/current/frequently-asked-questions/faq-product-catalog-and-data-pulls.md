@@ -3,10 +3,7 @@ title: 'FAQ: Catálogo de Productos y Extracción de Datos'
 sidebar_position: 8
 unlisted: true
 slug: /frequently-asked-questions/faq-product-catalog-and-data-pulls
-description: >-
-  Cómo funciona la extracción de catálogo nocturno, por qué los productos nuevos o
-  faltantes no aparecen, diferencias de variantes y categorías, filtrado de atributos
-  personalizados y cronogramas de extracción personalizados.
+description: Cómo funciona la extracción de catálogo nocturno, por qué los productos nuevos o faltantes no aparecen, diferencias de variantes y categorías, filtrado de atributos personalizados y cronogramas de extracción personalizados.
 ---
 
 ## El catálogo de productos se actualiza en un horario nocturno. ¿Cómo funciona?

@@ -7,13 +7,6 @@ description: Das Erstellen eines Content Flows für Kategorien ist praktisch ide
 keywords:
 - Inhaltsfluss
 - Content-Flow
-- Inhaltsgenerierung
-- Stapelliste
-- Chargenliste
-- Eingabeaufforderung
-- Anweisung
-- Arbeitsablauf
-- Ablauf
 ---
 
 Das Erstellen eines Content Flows für Kategorien ist praktisch identisch mit der Arbeit mit Produkten – die Benutzeroberfläche ist vertraut, komfortabel und intuitiv. Nachfolgend finden Sie eine Schritt-für-Schritt-Anleitung, wie Sie die Content-Generierung für Ihre Kategorien einrichten und starten.

@@ -2,10 +2,8 @@
 id: '103000395390'
 title: '4.3.5 Cuándo se generan nuevos productos: el ciclo de extracción explicado'
 sidebar_position: 11
-slug: >-
-  /content-creation-flows/when-do-new-products-get-generated-the-pull-cycle-explained
-description: >-
-  Producto o marca nueva: por qué aún no está visible y cómo acelerar las cosas Una explicación de por qué los productos nuevos no aparecen en Fozzels inmediatamente y qué
+slug: /content-creation-flows/when-do-new-products-get-generated-the-pull-cycle-explained
+description: 'Producto o marca nueva: por qué aún no está visible y cómo acelerar las cosas Una explicación de por qué los productos nuevos no aparecen en Fozzels inmediatamente y qué'
 ---
 
 **Producto o marca nueva: por qué aún no está visible y cómo acelerar las cosas**

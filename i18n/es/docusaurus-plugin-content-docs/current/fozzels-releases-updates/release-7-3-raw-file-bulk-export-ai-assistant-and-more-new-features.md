@@ -2,10 +2,8 @@
 id: '103000406495'
 title: 'Lanzamiento 7.3: archivo sin procesar, exportación en masa, asistente de IA y más características nuevas'
 sidebar_position: 13
-slug: >-
-  /fozzels-releases-updates/release-7-3-raw-file-bulk-export-ai-assistant-and-more-new-features
-description: >-
-  Este lanzamiento se trata de poder, flexibilidad y control absoluto sobre tu catálogo. Hemos agregado integraciones de archivos manuales tan esperadas, ampliado filtrado inteligente
+slug: /fozzels-releases-updates/release-7-3-raw-file-bulk-export-ai-assistant-and-more-new-features
+description: Este lanzamiento se trata de poder, flexibilidad y control absoluto sobre tu catálogo. Hemos agregado integraciones de archivos manuales tan esperadas, ampliado filtrado inteligente
 ---
 
 Este lanzamiento se trata de poder, flexibilidad y control absoluto sobre tu catálogo. Hemos agregado integraciones de archivos manuales tan esperadas, ampliado el filtrado inteligente a nuevos ecosistemas e implementado herramientas de exportación en masa avanzadas para hacer tu flujo de trabajo de contenidos verdaderamente perfecto.

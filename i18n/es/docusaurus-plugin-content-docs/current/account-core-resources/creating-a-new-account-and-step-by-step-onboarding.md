@@ -3,10 +3,7 @@ id: '103000373916'
 title: 1.1. Crear una nueva cuenta e Incorporación Paso a Paso
 sidebar_position: 1
 slug: /account-core-resources/creating-a-new-account-and-step-by-step-onboarding
-description: >-
-  Esta guía describe el proceso simple paso a paso para activar su cuenta de
-  Fozzels, desde el registro inicial hasta la generación completa de contenido.
-  2.1. Cuenta Reg
+description: Esta guía describe el proceso simple paso a paso para activar su cuenta de Fozzels, desde el registro inicial hasta la generación completa de contenido. 2.1. Cuenta Reg
 ---
 
 Esta guía describe el proceso simple paso a paso para activar su cuenta de Fozzels, desde el registro inicial hasta la generación completa de contenido.

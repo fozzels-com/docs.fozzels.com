@@ -2,10 +2,8 @@
 id: '103000395329'
 title: 2.5.7. Algo deu errado com sua conexão WooCommerce?
 sidebar_position: 14
-slug: >-
-  /integration-connectivity/something-went-wrong-with-your-woocommerce-connection
-description: >-
-  Não se preocupe — a maioria dos problemas de conexão são rápidos de resolver. Este guia o orientará pelas mensagens mais comuns que você pode ver e exatamente o que fazer. O
+slug: /integration-connectivity/something-went-wrong-with-your-woocommerce-connection
+description: Não se preocupe — a maioria dos problemas de conexão são rápidos de resolver. Este guia o orientará pelas mensagens mais comuns que você pode ver e exatamente o que fazer. O
 ---
 
 Não se preocupe — a maioria dos problemas de conexão são rápidos de resolver. Este guia o orientará pelas mensagens mais comuns que você pode ver e exatamente o que fazer.

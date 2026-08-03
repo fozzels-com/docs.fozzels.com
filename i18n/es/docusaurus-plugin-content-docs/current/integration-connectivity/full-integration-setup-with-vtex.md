@@ -3,9 +3,7 @@ id: '103000408453'
 title: 2.8.2 Configuración completa de integración con VTEX
 sidebar_position: 19
 slug: /integration-connectivity/full-integration-setup-with-vtex
-description: >-
-  Esta guía proporciona instrucciones paso a paso para integrar tu tienda
-  VTEX con Fozzels. El proceso implica dos etapas principales: generar las
+description: 'Esta guía proporciona instrucciones paso a paso para integrar tu tienda VTEX con Fozzels. El proceso implica dos etapas principales: generar las'
 ---
 
 Esta guía proporciona instrucciones paso a paso para integrar tu tienda **VTEX** con **Fozzels**. El proceso implica dos etapas principales: generar las claves API requeridas dentro de tu panel de administración de VTEX, y completar la configuración dentro de Fozzels.

@@ -1,10 +1,9 @@
 ---
 id: '103000395334'
-title: '2.5.8. Diagnóstico de tu conexión de WooCommerce en Fozzels'
+title: 2.5.8. Diagnóstico de tu conexión de WooCommerce en Fozzels
 sidebar_position: 15
 slug: /integration-connectivity/diagnosing-your-woocommerce-connection-in-fozzels
-description: >-
-  Si ves un letrero "Se detectaron problemas de conexión" después de guardar tu integración de WooCommerce, este artículo te ayudará a entender qué significa cada mensaje
+description: Si ves un letrero "Se detectaron problemas de conexión" después de guardar tu integración de WooCommerce, este artículo te ayudará a entender qué significa cada mensaje
 ---
 
 #

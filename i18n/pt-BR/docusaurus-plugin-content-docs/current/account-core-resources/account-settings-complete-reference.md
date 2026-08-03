@@ -3,15 +3,6 @@ title: Configurações de Conta — Referência Completa
 sidebar_position: 10
 slug: /account-core-resources/account-settings-complete-reference
 description: Toda seção das Configurações de Conta do Fozzels explicada — Profile, Security, Notifications, Open AI Token, tokens de API, Flow Settings, Prompt Templates, Media, Plans, Payments e Transactions.
-keywords:
-- fluxo
-- de
-- conteúdo
-- geração
-- instrução
-- comando
-- extração
-- conclusão
 ---
 
 Acesse [Settings](https://app.fozzels.com/user/settings) — a barra lateral esquerda tem todas as seções.

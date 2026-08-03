@@ -2,12 +2,8 @@
 id: '103000367978'
 title: 4.2.1.  Configuración de IA. Selección de Modelos de IA y Características Opcionales.
 sidebar_position: 6
-slug: >-
-  /content-creation-flows/ai-configuration-selecting-ai-models-and-optional-features
-description: >-
-  El paso de Configuración de IA (Paso 2 en la modificación del Flujo) es la
-  etapa más crítica para definir el perfil de rendimiento y costo de un Flujo de
-  Contenido. Dicta
+slug: /content-creation-flows/ai-configuration-selecting-ai-models-and-optional-features
+description: El paso de Configuración de IA (Paso 2 en la modificación del Flujo) es la etapa más crítica para definir el perfil de rendimiento y costo de un Flujo de Contenido. Dicta
 ---
 
 El paso de Configuración de IA (Paso 2 en la modificación del Flujo) es la etapa más crítica para definir el perfil de rendimiento y costo de un Flujo de Contenido. Dicta la elección del motor de IA generativa, sus capacidades especializadas y sus restricciones operativas. Los usuarios deben tomar decisiones estratégicas aquí, equilibrando la calidad del resultado, la complejidad de la tarea (por ejemplo, requisitos multimodales) y la optimización de costos de tokens.

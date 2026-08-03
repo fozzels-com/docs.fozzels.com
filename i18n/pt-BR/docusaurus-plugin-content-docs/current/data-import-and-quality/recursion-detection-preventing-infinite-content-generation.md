@@ -4,9 +4,6 @@ title: '3.5. Detecção de Recursão: Prevenindo Geração Infinita de Conteúdo
 sidebar_position: 8
 slug: /data-import-and-quality/recursion-detection-preventing-infinite-content-generation
 description: O aviso "Recursão detectada" sinaliza um possível conflito na configuração do seu Fluxo, onde a saída do processo de geração também serve como entrada para o mesmo processo.
-keywords:
-- instrução
-- comando
 ---
 
 O aviso "Recursão detectada" sinaliza um possível conflito na configuração do seu Fluxo, onde a saída do processo de geração também serve como entrada para o mesmo processo. Isso significa que o seu Fluxo está configurado para ler dados do mesmo atributo no qual está simultaneamente configurado para escrever o conteúdo gerado.

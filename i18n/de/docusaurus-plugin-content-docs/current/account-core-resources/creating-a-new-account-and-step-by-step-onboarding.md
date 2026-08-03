@@ -3,10 +3,7 @@ id: '103000373916'
 title: 1.1. Erstellung eines neuen Kontos und schrittweise Onboarding
 sidebar_position: 1
 slug: /account-core-resources/creating-a-new-account-and-step-by-step-onboarding
-description: >-
-  Dieses Handbuch beschreibt den einfachen, schrittweisen Prozess zur
-  Aktivierung Ihres Fozzels-Kontos, von der Anmeldung bis zur vollständigen
-  Inhaltserstellung. 2.1. Kontoregistrierung
+description: Dieses Handbuch beschreibt den einfachen, schrittweisen Prozess zur Aktivierung Ihres Fozzels-Kontos, von der Anmeldung bis zur vollständigen Inhaltserstellung. 2.1. Kontoregistrierung
 ---
 
 Dieses Handbuch beschreibt den einfachen, schrittweisen Prozess zur Aktivierung Ihres Fozzels-Kontos, von der Anmeldung bis zur vollständigen Inhaltserstellung.

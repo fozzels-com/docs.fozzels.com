@@ -3,10 +3,7 @@ id: '103000357927'
 title: 1.4.1. Overstap van OpenAI API-token naar Fozzels algemene API
 sidebar_position: 6
 slug: /account-core-resources/switch-from-openai-api-token-to-fozzels-general-api
-description: >-
-  We hebben de manier waarop Fozzels betalingen voor "tokens" van AI-modellen
-  afhandelt, gewijzigd. We verzoeken alle gebruikers deze instelling vóór 1
-  augustus 2025 te wijzigen. Alstublieft
+description: We hebben de manier waarop Fozzels betalingen voor "tokens" van AI-modellen afhandelt, gewijzigd. We verzoeken alle gebruikers deze instelling vóór 1 augustus 2025 te wijzigen. Alstublieft
 ---
 
 We hebben de manier waarop Fozzels betalingen voor "tokens" van AI-modellen afhandelt, gewijzigd.

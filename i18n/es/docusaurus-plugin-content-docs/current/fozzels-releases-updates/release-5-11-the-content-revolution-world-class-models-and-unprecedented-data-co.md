@@ -1,16 +1,9 @@
 ---
 id: '103000385007'
-title: >-
-  Versión 5.11: ¡La Revolución del Contenido! Modelos de Clase Mundial y Control
-  de Datos sin Precedentes.
+title: 'Versión 5.11: ¡La Revolución del Contenido! Modelos de Clase Mundial y Control de Datos sin Precedentes.'
 sidebar_position: 3
-slug: >-
-  /fozzels-releases-updates/release-5-11-the-content-revolution-world-class-models-and-unprecedented-data-co
-description: >-
-  ¡Estamos emocionados de presentar la Versión 5.11! ¡Acabamos de hacer que
-  nuestra aplicación sea aún más poderosa! Hemos trabajado duro, escuchando tus
-  comentarios, para entregar una actualización que no solo agrega nuevas
-  características, sino que transforma tu flujo de trabajo.
+slug: /fozzels-releases-updates/release-5-11-the-content-revolution-world-class-models-and-unprecedented-data-co
+description: ¡Estamos emocionados de presentar la Versión 5.11! ¡Acabamos de hacer que nuestra aplicación sea aún más poderosa! Hemos trabajado duro, escuchando tus comentarios, para entregar una actualización que no solo agrega nuevas características, sino que transforma tu flujo de trabajo.
 ---
 
 ¡Estamos emocionados de presentar la **Versión 5.11**!

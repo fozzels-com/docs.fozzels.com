@@ -4,17 +4,6 @@ title: 4.1.1. Flow-Definition und Content-Typen (Text, Bild, Video).
 sidebar_position: 1
 slug: /content-creation-flows/flow-definition-and-content-types-text-image-video
 description: Überblick über das Konzept Ein Flow ist ein Kernkonzept in Fozzels. Es ist ein benutzerdefinierter, mehrstufiger automatisierter Prozess, der KI-Funktionen nutzt, um
-keywords:
-- Bildfluss
-- Bildflow
-- Bildgenerierung
-- Inhaltsfluss
-- Content-Flow
-- Inhaltsgenerierung
-- Videofluss
-- Videoflow
-- Eingabeaufforderung
-- Anweisung
 ---
 
 ## Überblick über das Konzept

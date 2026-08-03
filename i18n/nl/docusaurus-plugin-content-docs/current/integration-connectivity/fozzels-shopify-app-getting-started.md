@@ -4,16 +4,6 @@ title: 2.3.1. Fozzels Shopify App — Aan de slag
 sidebar_position: 3
 slug: /integration-connectivity/fozzels-shopify-app-getting-started
 description: Bedankt voor het installeren van de Fozzels Shopify App! We zijn enthousiast om u te helpen uw productinhoud te automatiseren en uren handmatig werk te besparen. Laten we u in slechts enkele minuten instellen.
-keywords:
-- afbeeldingsflow
-- beeldflow
-- afbeeldingsgeneratie
-- contentflow
-- inhoudsstroom
-- contentgeneratie
-- videoflow
-- videostroom
-- ophalen
 ---
 
 #

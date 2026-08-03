@@ -4,10 +4,6 @@ title: Release 6.0 - Het Tijdperk van Intelligente Content & Uw Nieuwe AI Assist
 sidebar_position: 9
 slug: /fozzels-releases-updates/release-6-0-the-era-of-intelligent-content-your-new-ai-assistant
 description: We zijn trots om Fozzels 6.0 te presenteren - een massale update waar 's werelds meest krachtige AI-modellen uw dagelijkse tools worden, aangestuurd door een persoonlijke assis
-keywords:
-- invoerprompt
-- werkstroom
-- ophalen
 ---
 
 We zijn trots om **Fozzels 6.0 -** te presenteren, een massale update waar 's werelds meest krachtige AI-modellen uw dagelijkse tools worden, aangestuurd door een persoonlijke assistent die u helpt uw e-commerce content te schalen.

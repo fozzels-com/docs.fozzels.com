@@ -3,10 +3,7 @@ title: 'FAQ: Inicio de Sesión y Acceso a la Cuenta'
 sidebar_position: 3
 unlisted: true
 slug: /frequently-asked-questions/faq-login-and-account-access
-description: >-
-  Problemas de inicio de sesión, errores de inicio de sesión de Google, restablecimiento
-  de contraseña, bloqueos de acceso basados en países, suplantación de revendedor y
-  toma de control de una cuenta de un empleado anterior.
+description: Problemas de inicio de sesión, errores de inicio de sesión de Google, restablecimiento de contraseña, bloqueos de acceso basados en países, suplantación de revendedor y toma de control de una cuenta de un empleado anterior.
 ---
 
 ## No puedo iniciar sesión en mi cuenta de Fozzels. ¿Qué debo hacer?

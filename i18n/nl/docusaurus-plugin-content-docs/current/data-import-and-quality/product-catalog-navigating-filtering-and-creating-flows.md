@@ -6,9 +6,6 @@ description: De Catalog toont alle producten uit uw aangesloten winkel. Leer hoe
 keywords:
 - contentflow
 - inhoudsstroom
-- contentgeneratie
-- invoerprompt
-- ophalen
 ---
 
 De Catalog toont alle producten uit uw aangesloten winkel. Het is uw centrale weergave van productgegevens in Fozzels.

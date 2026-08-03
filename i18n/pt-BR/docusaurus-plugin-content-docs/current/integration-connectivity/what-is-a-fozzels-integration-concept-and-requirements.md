@@ -4,13 +4,6 @@ title: 2.1. O que é uma integração Fozzels? (Conceito e Requisitos).
 sidebar_position: 1
 slug: /integration-connectivity/what-is-a-fozzels-integration-concept-and-requirements
 description: Este documento fornece uma compreensão fundamental do que é uma integração Fozzels, seu papel no ciclo de vida do conteúdo e os pré-requisitos necessários fo
-keywords:
-- fluxo
-- de
-- conteúdo
-- geração
-- instrução
-- comando
 ---
 
 Este documento fornece uma compreensão fundamental do que é uma integração Fozzels, seu papel no ciclo de vida do conteúdo e os pré-requisitos necessários para estabelecer uma conexão.

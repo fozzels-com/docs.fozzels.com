@@ -3,9 +3,7 @@ id: '103000392433'
 title: 2.3.1. Aplicación Fozzels Shopify — Comenzar
 sidebar_position: 3
 slug: /integration-connectivity/fozzels-shopify-app-getting-started
-description: >-
-  ¡Gracias por instalar la aplicación Fozzels Shopify! Estamos emocionados de ayudarte
-  a automatizar tu contenido de productos y ahorrar horas de trabajo manual. Vamos a configurarte
+description: ¡Gracias por instalar la aplicación Fozzels Shopify! Estamos emocionados de ayudarte a automatizar tu contenido de productos y ahorrar horas de trabajo manual. Vamos a configurarte
 ---
 
 #

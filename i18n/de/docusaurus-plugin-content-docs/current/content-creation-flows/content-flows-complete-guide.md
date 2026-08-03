@@ -6,11 +6,6 @@ description: Content Flows sind das Kern-Automatisierungsfeature von Fozzels. Di
 keywords:
 - Inhaltsfluss
 - Content-Flow
-- Inhaltsgenerierung
-- Eingabeaufforderung
-- Anweisung
-- Fertigstellung
-- Generierung
 ---
 
 Content Flows sind das Kern-Automatisierungsfeature von Fozzels. Ein Flow ist eine Regel, die automatisch KI-Inhalte für ein ausgewähltes Produktattribut generiert und das Ergebnis zurück in Ihren Shop schreibt.

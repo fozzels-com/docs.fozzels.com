@@ -3,8 +3,7 @@ id: '103000390569'
 title: 'Lanzamiento 5.14: Control total, seguridad y escalado global'
 sidebar_position: 7
 slug: /fozzels-releases-updates/release-5-14-total-control-safety-global-scaling
-description: >-
-  El lanzamiento de hoy se trata de tu libertad y confianza. Hemos introducido herramientas que permiten que Fozzels funcione según tu cronograma, protejan la integridad de tus datos,
+description: El lanzamiento de hoy se trata de tu libertad y confianza. Hemos introducido herramientas que permiten que Fozzels funcione según tu cronograma, protejan la integridad de tus datos,
 ---
 
 El lanzamiento de hoy se trata de tu libertad y confianza. Hemos introducido herramientas que permiten que Fozzels funcione según tu cronograma, protejan la integridad de tus datos y escalen tu negocio sin esfuerzo en todo el mundo.

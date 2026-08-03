@@ -4,9 +4,6 @@ title: 4.3.2 Prompt-Erstellung & Filterung. Drag & Drop Prompt-Editor
 sidebar_position: 8
 slug: /content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor
 description: Dieses Handbuch zeigt Ihnen, wie Sie das Prompt-Feld konfigurieren - das Hauptwerkzeug zur Erstellung dynamischer Anweisungen für die Produkttextgenerierung - mit verfügbaren Produktattributen, bedingter Logik und Lokalisierungseinstellungen.
-keywords:
-- Eingabeaufforderung
-- Anweisung
 ---
 
 Dieses Handbuch zeigt Ihnen, wie Sie das **Prompt-Feld** konfigurieren - das Hauptwerkzeug zur Erstellung dynamischer Anweisungen für die Produkttextgenerierung - mit verfügbaren Produktattributen, bedingter Logik und Lokalisierungseinstellungen.

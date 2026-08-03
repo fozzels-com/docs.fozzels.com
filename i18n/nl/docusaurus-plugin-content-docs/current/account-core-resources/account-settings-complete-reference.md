@@ -3,13 +3,6 @@ title: Accountinstellingen — Volledig Naslagwerk
 sidebar_position: 10
 slug: /account-core-resources/account-settings-complete-reference
 description: Elk gedeelte van Fozzels Accountinstellingen uitgelegd — Profiel, Beveiliging, Meldingen, OpenAI Token, API tokens, Flow Settings, Prompt Templates, Media, Plans, Payments en Transactions.
-keywords:
-- contentflow
-- inhoudsstroom
-- contentgeneratie
-- invoerprompt
-- ophalen
-- voltooiing
 ---
 
 Ga naar [Settings](https://app.fozzels.com/user/settings) — de linkernavigatiebalk bevat alle secties.

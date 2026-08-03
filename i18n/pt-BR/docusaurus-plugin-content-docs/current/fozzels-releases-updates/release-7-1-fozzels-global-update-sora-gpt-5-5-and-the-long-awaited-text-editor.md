@@ -4,12 +4,6 @@ title: Release 7.1 - Atualização Global do Fozzels - Sora, GPT 5.5, e o Tão A
 sidebar_position: 12
 slug: /fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor
 description: Esta versão é tudo sobre poder e controle. Integramos os modelos de IA mais avançados do mundo e adicionamos os recursos que você mais pediu
-keywords:
-- fluxo
-- de
-- vídeo
-- instrução
-- comando
 ---
 
 Esta versão é tudo sobre poder e controle. Integramos os modelos de IA mais avançados do mundo e adicionamos os recursos que você mais pediu para tornar seu fluxo de trabalho de conteúdo verdadeiramente perfeito.

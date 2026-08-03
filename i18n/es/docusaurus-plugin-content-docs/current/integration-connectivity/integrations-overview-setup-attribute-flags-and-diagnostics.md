@@ -3,9 +3,6 @@ title: Integraciones - Descripción General, Configuración, Indicadores de Atri
 sidebar_position: 21
 slug: /integration-connectivity/integrations-overview-setup-attribute-flags-and-diagnostics
 description: Una Integración es una conexión segura entre Fozzels y su tienda de comercio electrónico o PIM. Esta guía cubre plataformas compatibles, pasos de configuración, indicadores de atributo, programas de extracción, notas específicas de la plataforma y la referencia completa de diagnósticos de WooCommerce.
-keywords:
-- extracción
-- finalización
 ---
 
 Una Integración es una conexión segura entre Fozzels y su tienda de comercio electrónico o sistema PIM. Una vez conectada, Fozzels puede extraer sus datos de producto e insertar contenido generado por IA nuevamente en su tienda.

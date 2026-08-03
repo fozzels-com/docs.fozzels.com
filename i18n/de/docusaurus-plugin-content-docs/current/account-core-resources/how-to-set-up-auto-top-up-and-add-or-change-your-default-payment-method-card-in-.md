@@ -1,15 +1,9 @@
 ---
 id: '103000366656'
-title: >-
-  1.3.2. Wie Sie Auto-Aufladung einrichten und Ihre Standard-Zahlungsmethode
-  (Karte) in Fozzels hinzufügen oder ändern
+title: 1.3.2. Wie Sie Auto-Aufladung einrichten und Ihre Standard-Zahlungsmethode (Karte) in Fozzels hinzufügen oder ändern
 sidebar_position: 5
-slug: >-
-  /account-core-resources/how-to-set-up-auto-top-up-and-add-or-change-your-default-payment-method-card-in-
-description: >-
-  Willkommen in unserer Wissensdatenbank! Dieser Artikel hilft Ihnen, die
-  automatische Kontoaufladung einzurichten und Serviceunterbrechungen zu
-  vermeiden. Auto-Aufladungs-Funktion Wenn Sie
+slug: /account-core-resources/how-to-set-up-auto-top-up-and-add-or-change-your-default-payment-method-card-in-
+description: Willkommen in unserer Wissensdatenbank! Dieser Artikel hilft Ihnen, die automatische Kontoaufladung einzurichten und Serviceunterbrechungen zu vermeiden. Auto-Aufladungs-Funktion Wenn Sie
 ---
 
 Willkommen in unserer Wissensdatenbank!

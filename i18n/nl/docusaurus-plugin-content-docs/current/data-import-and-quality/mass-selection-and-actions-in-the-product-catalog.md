@@ -3,10 +3,7 @@ id: '103000376334'
 title: 3.1.2. Massaselectie en acties in de productcatalogus
 sidebar_position: 4
 slug: /data-import-and-quality/mass-selection-and-actions-in-the-product-catalog
-description: >-
-  De productcatalogus is uitgerust met massaselectiefunctionaliteit, waarmee u
-  efficiënt grote reeksen items kunt beheren en het proces van het maken van
-  doelgerichte Flows kunt stroomlijnen
+description: De productcatalogus is uitgerust met massaselectiefunctionaliteit, waarmee u efficiënt grote reeksen items kunt beheren en het proces van het maken van doelgerichte Flows kunt stroomlijnen
 ---
 
 De productcatalogus is uitgerust met massaselectiefunctionaliteit, waarmee u efficiënt grote reeksen items kunt beheren en het proces van het maken van doelgerichte Flows kunt stroomlijnen. Dit selectiemechanisme is veelzijdig en behoudt de selectiestatus bij paginavergangen.

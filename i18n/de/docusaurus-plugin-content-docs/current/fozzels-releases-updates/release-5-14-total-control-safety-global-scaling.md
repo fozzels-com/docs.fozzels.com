@@ -4,9 +4,6 @@ title: 'Release 5.14: Vollständige Kontrolle, Sicherheit und globale Skalierung
 sidebar_position: 7
 slug: /fozzels-releases-updates/release-5-14-total-control-safety-global-scaling
 description: Das heutige Release dreht sich um Ihre Freiheit und Sicherheit. Wir haben Tools eingeführt, die es Fozzels ermöglichen, nach Ihrem Zeitplan zu arbeiten, die Integrität Ihrer Daten zu schützen,
-keywords:
-- Abruf
-- Datenabruf
 ---
 
 Das heutige Release dreht sich um Ihre Freiheit und Sicherheit. Wir haben Tools eingeführt, die es Fozzels ermöglichen, nach Ihrem Zeitplan zu arbeiten, die Integrität Ihrer Daten zu schützen und Ihr Geschäft mühelos weltweit auszuweiten.

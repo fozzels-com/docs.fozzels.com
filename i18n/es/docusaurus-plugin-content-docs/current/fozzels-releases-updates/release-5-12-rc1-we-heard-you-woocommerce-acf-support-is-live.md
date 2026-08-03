@@ -2,12 +2,8 @@
 id: '103000386281'
 title: 'Versión 5.12 RC1: ¡Nos escuchaste! ¡El soporte de ACF de WooCommerce está en vivo!'
 sidebar_position: 4
-slug: >-
-  /fozzels-releases-updates/release-5-12-rc1-we-heard-you-woocommerce-acf-support-is-live
-description: >-
-  Esta semana, nos enfocamos en una de las características más solicitadas de
-  nuestra comunidad de WooCommerce: soporte completo para Campos Personalizados
-  Avanzados (ACF). Por qué esto es un cambio de juego.
+slug: /fozzels-releases-updates/release-5-12-rc1-we-heard-you-woocommerce-acf-support-is-live
+description: 'Esta semana, nos enfocamos en una de las características más solicitadas de nuestra comunidad de WooCommerce: soporte completo para Campos Personalizados Avanzados (ACF). Por qué esto es un cambio de juego.'
 ---
 
 Esta semana, nos enfocamos en una de las características más solicitadas de nuestra comunidad de WooCommerce: soporte completo para **Campos Personalizados Avanzados (ACF)**.

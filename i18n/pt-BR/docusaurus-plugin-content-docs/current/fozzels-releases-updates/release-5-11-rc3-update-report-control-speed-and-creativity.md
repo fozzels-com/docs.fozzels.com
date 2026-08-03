@@ -4,8 +4,6 @@ title: 'Versão 5.11 RC3: Relatório de Atualização. Controle, Velocidade e Cr
 sidebar_position: 2
 slug: /fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity
 description: Estamos entusiasmados em apresentar a Versão 5.11RC3 — nossa maior atualização focada em aumentar sua produtividade, confiabilidade de dados e, mais importante, liberdade criativa.
-keywords:
-- extração
 ---
 
 ### Estamos entusiasmados em apresentar a Versão 5.11RC3 — nossa maior atualização focada em aumentar sua produtividade, confiabilidade de dados e, mais importante, liberdade criativa! Estamos adicionando ferramentas poderosas para que você possa gerenciar seu conteúdo no nível de uma grande operação de e-commerce.

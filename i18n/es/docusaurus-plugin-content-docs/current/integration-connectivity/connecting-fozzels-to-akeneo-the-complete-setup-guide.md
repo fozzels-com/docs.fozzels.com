@@ -2,10 +2,8 @@
 id: '103000395378'
 title: '2.7. Conectar Fozzels a Akeneo: la guía completa de configuración'
 sidebar_position: 17
-slug: >-
-  /integration-connectivity/connecting-fozzels-to-akeneo-the-complete-setup-guide
-description: >-
-  Esta guía explica cómo establecer una conexión bidireccional entre tu PIM Akeneo y Fozzels. La integración requiere crear dos conexiones separadas
+slug: /integration-connectivity/connecting-fozzels-to-akeneo-the-complete-setup-guide
+description: Esta guía explica cómo establecer una conexión bidireccional entre tu PIM Akeneo y Fozzels. La integración requiere crear dos conexiones separadas
 ---
 
 Esta guía explica cómo establecer una conexión bidireccional entre tu PIM Akeneo y Fozzels. La integración requiere crear dos conexiones separadas en Akeneo: una para permitir que Fozzels envíe datos a Akeneo, y otra para permitir que Akeneo exporte datos a Fozzels. Después de crear ambas conexiones, las vinculas a tu cuenta de Fozzels usando las credenciales generadas.

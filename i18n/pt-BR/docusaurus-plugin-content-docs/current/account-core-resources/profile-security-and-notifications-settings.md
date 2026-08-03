@@ -1,12 +1,9 @@
 ---
 id: '103000367838'
-title: '1.2.1. Configurações de Perfil, Segurança e Notificações'
+title: 1.2.1. Configurações de Perfil, Segurança e Notificações
 sidebar_position: 2
 slug: /account-core-resources/profile-security-and-notifications-settings
-description: >-
-  Esta seção detalha as funções para gerenciar a conta de usuário, preferências
-  de segurança, comportamento de notificações e configuração de chave de API
-  pessoal no Fo
+description: Esta seção detalha as funções para gerenciar a conta de usuário, preferências de segurança, comportamento de notificações e configuração de chave de API pessoal no Fo
 ---
 
 Esta seção detalha as funções para gerenciar a conta de usuário, preferências de segurança, comportamento de notificações e configuração de chave de API pessoal no Fozzels.

@@ -8,11 +8,6 @@ keywords:
 - fluxo
 - de
 - conteúdo
-- geração
-- lista
-- lotes
-- instrução
-- comando
 ---
 
 Criar um Content Flow para categorias é praticamente idêntico a trabalhar com produtos – a interface é familiar, prática e intuitiva. Veja abaixo um guia passo a passo de como configurar e iniciar a geração de conteúdo para suas categorias.

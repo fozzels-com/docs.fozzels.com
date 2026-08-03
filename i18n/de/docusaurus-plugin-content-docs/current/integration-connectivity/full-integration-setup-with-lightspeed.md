@@ -3,8 +3,7 @@ id: '103000367856'
 title: 2.6. Vollständige Integrationseinrichtung mit Lightspeed.
 sidebar_position: 16
 slug: /integration-connectivity/full-integration-setup-with-lightspeed
-description: >-
-  Diese Anleitung zeigt, wie Sie eine sichere bidirektionale API-Verbindung zwischen Ihrem Lightspeed eCom Shop und Fozzels etablieren, indem Sie den erforderlichen API-Schlüssel und das API-Secret im Lightspeed Manager generieren
+description: Diese Anleitung zeigt, wie Sie eine sichere bidirektionale API-Verbindung zwischen Ihrem Lightspeed eCom Shop und Fozzels etablieren, indem Sie den erforderlichen API-Schlüssel und das API-Secret im Lightspeed Manager generieren
 ---
 
 Diese Anleitung zeigt, wie Sie eine sichere bidirektionale API-Verbindung zwischen Ihrem Lightspeed eCom Shop und Fozzels etablieren, indem Sie den erforderlichen API-Schlüssel und das API-Secret im Lightspeed Manager generieren.

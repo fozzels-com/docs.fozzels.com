@@ -4,19 +4,6 @@ title: '2.9.1 - CSV-Integration in Fozzels: Was ist das und wie man es einrichte
 sidebar_position: 20
 slug: /integration-connectivity/csv-integration-in-fozzels-what-it-is-and-how-to-set-it-up
 description: Was ist CSV-Integration? CSV-Integration ermöglicht es Ihnen, Ihren Produktkatalog mit Fozzels unter Verwendung einer Standard-CSV-Datei zu verbinden. Wenn Ihre Plattform keine d
-keywords:
-- Bildfluss
-- Bildflow
-- Bildgenerierung
-- Inhaltsfluss
-- Content-Flow
-- Inhaltsgenerierung
-- Videofluss
-- Videoflow
-- Eingabeaufforderung
-- Anweisung
-- Abruf
-- Datenabruf
 ---
 
 ## Was ist CSV-Integration?

@@ -4,8 +4,6 @@ title: 2.5.7. Is er iets mis met uw WooCommerce-verbinding?
 sidebar_position: 14
 slug: /integration-connectivity/something-went-wrong-with-your-woocommerce-connection
 description: Geen zorgen — de meeste verbindingsproblemen zijn snel op te lossen. Deze handleiding begeleidt u door de meest voorkomende berichten die u kunt zien en precies wat u moet doen. Wat
-keywords:
-- ophalen
 ---
 
 Geen zorgen — de meeste verbindingsproblemen zijn snel op te lossen. Deze handleiding begeleidt u door de meest voorkomende berichten die u kunt zien en precies wat u moet doen.

@@ -7,9 +7,6 @@ description: Automatisierte Content Flows in Fozzels ermöglichen es Ihnen, Prod
 keywords:
 - Inhaltsfluss
 - Content-Flow
-- Inhaltsgenerierung
-- Eingabeaufforderung
-- Anweisung
 ---
 
 Automatisierte Content Flows in Fozzels ermöglichen es Ihnen, Produktinhalte automatisch im Hintergrund zu generieren und zu synchronisieren - ohne dass Sie Aufgaben täglich manuell auslösen müssen.

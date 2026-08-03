@@ -6,9 +6,6 @@ description: Content Flows zijn de kernautomatiseringsfunctie van Fozzels. Deze 
 keywords:
 - contentflow
 - inhoudsstroom
-- contentgeneratie
-- invoerprompt
-- voltooiing
 ---
 
 Content Flows zijn de kernautomatiseringsfunctie van Fozzels. Een Flow is een regel die automatisch AI-content genereert voor een geselecteerd productattribuut en het resultaat terugschrijft naar uw winkel.

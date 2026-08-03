@@ -7,8 +7,6 @@ description: Für Video Flows mit spezialisierten Modellen wie Gemini Veo 3 ist 
 keywords:
 - Videofluss
 - Videoflow
-- Eingabeaufforderung
-- Anweisung
 ---
 
 Für Video Flows mit spezialisierten Modellen wie Gemini Veo 3 ist der Prompt die einzelne kritischste Eingabe. Im Gegensatz zur Textgenerierung erfordern Videomodelle ein viel höheres Maß an Spezifität, um textuelle Konzepte in eine kohärente visuelle Sequenz zu übersetzen.

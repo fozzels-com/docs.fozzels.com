@@ -7,13 +7,6 @@ description: Image Flow für Magento ist ein spezialisiertes, Enterprise-Grade-A
 keywords:
 - Bildfluss
 - Bildflow
-- Bildgenerierung
-- Stapelliste
-- Chargenliste
-- Eingabeaufforderung
-- Anweisung
-- Fertigstellung
-- Generierung
 ---
 
 **Image Flow für Magento** ist ein spezialisiertes, Enterprise-Grade-Automations-Tool, das für die Massen-KI-Bildgenerierung, automatisierte Metadaten-Zuordnung und direkte Synchronisierung mit Ihrem Magento-Katalog entwickelt wurde. Durch die Konfiguration dieses Flows etablieren Sie eine autonome Pipeline, die Ihren Magento-Store überwacht, tausende Produkte verarbeitet und Ihre Website basierend auf erweiterten Filterkriterien dynamisch aktualisiert.

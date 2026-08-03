@@ -7,10 +7,6 @@ keywords:
 - flujo
 - de
 - contenido
-- generación
-- indicación
-- instrucción
-- finalización
 ---
 
 Los Content Flows son la característica de automatización principal de Fozzels. Un Flow es una regla que genera automáticamente contenido de IA para un atributo de producto seleccionado y escribe el resultado nuevamente en su tienda.

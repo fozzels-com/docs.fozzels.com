@@ -3,10 +3,7 @@ id: '103000376334'
 title: 3.1.2. Selección Masiva y Acciones en el Catálogo de Productos
 sidebar_position: 4
 slug: /data-import-and-quality/mass-selection-and-actions-in-the-product-catalog
-description: >-
-  El Catálogo de Productos está equipado con funcionalidad de selección masiva,
-  permitiéndote gestionar eficientemente grandes conjuntos de elementos y
-  simplificar el proceso de crear Flujos dirigidos.
+description: El Catálogo de Productos está equipado con funcionalidad de selección masiva, permitiéndote gestionar eficientemente grandes conjuntos de elementos y simplificar el proceso de crear Flujos dirigidos.
 ---
 
 El Catálogo de Productos está equipado con funcionalidad de selección masiva, permitiéndote gestionar eficientemente grandes conjuntos de elementos y simplificar el proceso de crear Flujos dirigidos. Este mecanismo de selección es versátil y preserva el estado de selección entre transiciones de página.

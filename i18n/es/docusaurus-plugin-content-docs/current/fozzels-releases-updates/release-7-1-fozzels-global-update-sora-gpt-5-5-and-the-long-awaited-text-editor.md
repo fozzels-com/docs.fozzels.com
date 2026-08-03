@@ -1,12 +1,9 @@
 ---
 id: '103000402781'
-title: >-
-  Lanzamiento 7.1: actualización global de Fozzels: Sora, GPT 5.5 y el editor de texto tan esperado
+title: 'Lanzamiento 7.1: actualización global de Fozzels: Sora, GPT 5.5 y el editor de texto tan esperado'
 sidebar_position: 12
-slug: >-
-  /fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor
-description: >-
-  Este lanzamiento se trata de poder y control. Hemos integrado los modelos de IA líderes en el mundo y hemos agregado las características que más has solicitado para que tu
+slug: /fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor
+description: Este lanzamiento se trata de poder y control. Hemos integrado los modelos de IA líderes en el mundo y hemos agregado las características que más has solicitado para que tu
 ---
 
 Este lanzamiento se trata de poder y control. Hemos integrado los modelos de IA líderes en el mundo y hemos agregado las características que más has solicitado para hacer tu flujo de trabajo de contenidos verdaderamente perfecto.

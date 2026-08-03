@@ -1,15 +1,9 @@
 ---
 id: '103000366656'
-title: >-
-  1.3.2. Como Configurar Recarga Automática e Adicionar ou Alterar Seu Método de
-  Pagamento Padrão (cartão) no Fozzels
+title: 1.3.2. Como Configurar Recarga Automática e Adicionar ou Alterar Seu Método de Pagamento Padrão (cartão) no Fozzels
 sidebar_position: 5
-slug: >-
-  /account-core-resources/how-to-set-up-auto-top-up-and-add-or-change-your-default-payment-method-card-in-
-description: >-
-  Bem-vindo à nossa base de conhecimento! Este artigo ajudará você a configurar
-  a recarga automática de conta e evitar interrupções de serviço. Função de
-  Recarga Automática Se você desejar
+slug: /account-core-resources/how-to-set-up-auto-top-up-and-add-or-change-your-default-payment-method-card-in-
+description: Bem-vindo à nossa base de conhecimento! Este artigo ajudará você a configurar a recarga automática de conta e evitar interrupções de serviço. Função de Recarga Automática Se você desejar
 ---
 
 Bem-vindo à nossa base de conhecimento!

@@ -3,10 +3,7 @@ title: 'FAQ: Bildgenerierung'
 sidebar_position: 10
 unlisted: true
 slug: /frequently-asked-questions/faq-image-generation
-description: >-
-  Synchronisierung generierter Bilder zu Ihrem Webshop, Single-Image-Flows,
-  Modellfehler, Aktivierung und Bestätigung von Image-Flows, Hintergrundentfernung
-  und Verschiebung von Bildern zu einem PIM.
+description: Synchronisierung generierter Bilder zu Ihrem Webshop, Single-Image-Flows, Modellfehler, Aktivierung und Bestätigung von Image-Flows, Hintergrundentfernung und Verschiebung von Bildern zu einem PIM.
 ---
 
 ## Wie synchronisiere ich generierte Bilder zu meinem Webshop?

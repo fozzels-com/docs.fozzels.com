@@ -4,8 +4,6 @@ title: 1.2.1. Profiel-, beveiligings- en meldingsinstellingen
 sidebar_position: 2
 slug: /account-core-resources/profile-security-and-notifications-settings
 description: Deze sectie beschrijft de functies voor het beheren van het gebruikersaccount, beveiligingsvoorkeuren, meldingsgedrag en persoonlijke API-sleutelconfiguratie binnen Fo
-keywords:
-- werkstroom
 ---
 
 Deze sectie beschrijft de functies voor het beheren van het gebruikersaccount, beveiligingsvoorkeuren, meldingsgedrag en persoonlijke API-sleutelconfiguratie binnen Fozzels.

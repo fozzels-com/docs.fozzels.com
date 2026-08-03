@@ -4,9 +4,6 @@ title: '4.10.1 Komplexe HTML-Inhalte in Fozzels generieren (FAQ): Best Practices
 sidebar_position: 24
 slug: /content-creation-flows/generating-complex-html-content-in-fozzels-faq-best-practices
 description: 'Komplexe HTML-Inhalte in Fozzels generieren: Best Practices. Fozzels kann nicht nur Standard-Produktbeschreibungen generieren, sondern auch komplexere Inhalte'
-keywords:
-- Eingabeaufforderung
-- Anweisung
 ---
 
 # Komplexe HTML-Inhalte in Fozzels generieren: Best Practices

@@ -5,13 +5,7 @@ sidebar_position: 8
 slug: /fozzels-releases-updates/release-5-15-5-16-stability-globalization-and-intelligent-control
 description: We hebben twee belangrijke updates gecombineerd om uw content workflow betrouwbaarder en uw synchronisatiemogelijkheden onbeperkt te maken.
 keywords:
-- afbeeldingsflow
-- beeldflow
-- afbeeldingsgeneratie
-- invoerprompt
 - werkstroom
-- ophalen
-- voltooiing
 ---
 
 We hebben twee belangrijke updates gecombineerd om uw content workflow betrouwbaarder en uw synchronisatiemogelijkheden onbeperkt te maken.

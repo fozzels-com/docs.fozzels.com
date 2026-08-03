@@ -4,9 +4,6 @@ title: 1.2.1. Profil-, Sicherheits- und Benachrichtigungseinstellungen
 sidebar_position: 2
 slug: /account-core-resources/profile-security-and-notifications-settings
 description: Dieser Abschnitt beschreibt die Funktionen zur Verwaltung des Benutzerkontos, der Sicherheitsvoreinstellungen, des Benachrichtigungsverhaltens und der persönlichen API-Schlüsselkonfiguration in Fo
-keywords:
-- Arbeitsablauf
-- Ablauf
 ---
 
 Dieser Abschnitt beschreibt die Funktionen zur Verwaltung des Benutzerkontos, der Sicherheitsvoreinstellungen, des Benachrichtigungsverhaltens und der persönlichen API-Schlüsselkonfiguration in Fozzels.

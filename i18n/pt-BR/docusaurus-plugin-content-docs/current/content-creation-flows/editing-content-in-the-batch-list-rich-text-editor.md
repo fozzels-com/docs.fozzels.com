@@ -3,9 +3,7 @@ id: '103000402415'
 title: 4.7.5 Editando Conteúdo na Lista de Lotes. Editor de Texto Rico
 sidebar_position: 21
 slug: /content-creation-flows/editing-content-in-the-batch-list-rich-text-editor
-description: >-
-  A Lista de Lotes é onde você revisa, edita e aprova o conteúdo gerado pelos
-  seus fluxos antes de ser sincronizado com sua loja. Além de visualizar o
+description: A Lista de Lotes é onde você revisa, edita e aprova o conteúdo gerado pelos seus fluxos antes de ser sincronizado com sua loja. Além de visualizar o
 ---
 
 A Lista de Lotes é onde você revisa, edita e aprova o conteúdo gerado pelos seus fluxos antes de ser sincronizado com sua loja. Além de visualizar o resultado bruto, o Fozzels agora fornece um **Editor de Texto** integrado - uma barra de ferramentas de formatação que permite estruturar e estilizar o texto gerado.

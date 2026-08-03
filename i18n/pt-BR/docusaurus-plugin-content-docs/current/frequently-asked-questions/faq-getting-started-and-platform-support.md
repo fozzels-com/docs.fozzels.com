@@ -3,9 +3,7 @@ title: 'FAQ: Começando e Suporte da Plataforma'
 sidebar_position: 1
 unlisted: true
 slug: /frequently-asked-questions/faq-getting-started-and-platform-support
-description: >-
-  Onde aprender como Fozzels funciona, quais plataformas de e-commerce e modelos
-  de IA são suportados, e o que fazer ao mudar de plataforma webshop.
+description: Onde aprender como Fozzels funciona, quais plataformas de e-commerce e modelos de IA são suportados, e o que fazer ao mudar de plataforma webshop.
 ---
 
 ## Onde posso aprender como Fozzels funciona?

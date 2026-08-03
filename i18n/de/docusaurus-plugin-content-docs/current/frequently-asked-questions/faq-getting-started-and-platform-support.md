@@ -3,9 +3,7 @@ title: 'FAQ: Erste Schritte und Plattformunterstützung'
 sidebar_position: 1
 unlisted: true
 slug: /frequently-asked-questions/faq-getting-started-and-platform-support
-description: >-
-  Wo Sie erfahren, wie Fozzels funktioniert, welche E-Commerce-Plattformen und KI-Modelle
-  unterstützt werden, und was zu tun ist, wenn Sie die Webshop-Plattform wechseln.
+description: Wo Sie erfahren, wie Fozzels funktioniert, welche E-Commerce-Plattformen und KI-Modelle unterstützt werden, und was zu tun ist, wenn Sie die Webshop-Plattform wechseln.
 ---
 
 ## Wo kann ich erfahren, wie Fozzels funktioniert?

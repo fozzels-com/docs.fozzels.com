@@ -4,12 +4,6 @@ title: 'Release 5.10-5.11 RC2: Schnellerer Katalog, tiefere Kontrolle über Fozz
 sidebar_position: 1
 slug: /fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels
 description: Wir bemühen uns sicherzustellen, dass die Arbeit mit großen Datenmengen nicht nur schnell ist, sondern auch vollständig kontrollierbar und intuitiv. Version 5.10 konzentriert sich auf die Verbesserung
-keywords:
-- Bildfluss
-- Bildflow
-- Bildgenerierung
-- Arbeitsablauf
-- Ablauf
 ---
 
 Wir bemühen uns sicherzustellen, dass die Arbeit mit großen Datenmengen nicht nur schnell ist, sondern auch vollständig kontrollierbar und intuitiv. Version 5.10 konzentriert sich auf die Verbesserung der Qualität visueller Daten und auf eine **deutlich erhöhte Leistung und Benutzerfreundlichkeit unseres Fozzels-Dienstes.**

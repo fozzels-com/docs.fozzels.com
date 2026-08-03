@@ -2,10 +2,8 @@
 id: '103000389492'
 title: 'Lanzamiento 5.13: Conecta Akeneo. Optimiza costos. Controla la calidad.'
 sidebar_position: 6
-slug: >-
-  /fozzels-releases-updates/release-5-13-connect-akeneo-optimize-costs-control-quality
-description: >-
-  Puntos destacados del lanzamiento 1. Integración de Akeneo PIM Hemos ampliado nuestro ecosistema para admitir Akeneo, un sistema de gestión de información de productos líder mundial. Empresa
+slug: /fozzels-releases-updates/release-5-13-connect-akeneo-optimize-costs-control-quality
+description: Puntos destacados del lanzamiento 1. Integración de Akeneo PIM Hemos ampliado nuestro ecosistema para admitir Akeneo, un sistema de gestión de información de productos líder mundial. Empresa
 ---
 
 ## **Puntos destacados del lanzamiento**

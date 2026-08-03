@@ -4,18 +4,6 @@ title: 'Release 5.12: Daten verwalten. Schneller skalieren. Den Markt anführen.
 sidebar_position: 5
 slug: /fozzels-releases-updates/release-5-12-manage-data-scale-faster-lead-the-market
 description: Version 5.12 ist ein Landmark-Update, das Fozzels in das zentrale Nervensystem Ihrer E-Commerce-Operationen umwandelt. Wir haben die Kraft von Multi-Model-KI mit beispielloser Integrations
-keywords:
-- Bildfluss
-- Bildflow
-- Bildgenerierung
-- Eingabeaufforderung
-- Anweisung
-- Arbeitsablauf
-- Ablauf
-- Abruf
-- Datenabruf
-- Fertigstellung
-- Generierung
 ---
 
 Version 5.12 ist ein Landmark-Update, das Fozzels in das zentrale Nervensystem Ihrer E-Commerce-Operationen umwandelt. Wir haben die Kraft von Multi-Model-KI mit beispielloser Integrations-Tiefe für WordPress und Shopify kombiniert, um sicherzustellen, dass Ihre Daten als eine einheitliche Engine funktionieren.

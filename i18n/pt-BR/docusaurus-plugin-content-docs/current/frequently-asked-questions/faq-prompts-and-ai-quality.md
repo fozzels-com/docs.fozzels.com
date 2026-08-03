@@ -4,9 +4,6 @@ sidebar_position: 6
 unlisted: true
 slug: /frequently-asked-questions/faq-prompts-and-ai-quality
 description: Competição de prompt, enquadramento de imagem e marca, formatação consistente de recursos, saída multilíngue e lógica de fallback de idioma em prompts.
-keywords:
-- instrução
-- comando
 ---
 
 ## Minha imagem de IA ignora instruções de enquadramento (corpo inteiro em vez de tórax).

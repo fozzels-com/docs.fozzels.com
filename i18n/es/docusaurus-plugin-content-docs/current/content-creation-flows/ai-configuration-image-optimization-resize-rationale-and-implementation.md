@@ -1,15 +1,9 @@
 ---
 id: '103000367979'
-title: >-
-  4.2.2. Configuración de IA. Optimización de Imagen (Cambio de Tamaño):
-  Fundamento e Implementación.
+title: '4.2.2. Configuración de IA. Optimización de Imagen (Cambio de Tamaño): Fundamento e Implementación.'
 sidebar_position: 7
-slug: >-
-  /content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation
-description: >-
-  La función Cambio de Tamaño de Imagen optimiza automáticamente imágenes grandes
-  para cumplir con los requisitos técnicos del sistema de generación de IA. Está
-  habilitada de forma predeterminada en a
+slug: /content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation
+description: La función Cambio de Tamaño de Imagen optimiza automáticamente imágenes grandes para cumplir con los requisitos técnicos del sistema de generación de IA. Está habilitada de forma predeterminada en a
 ---
 
 La función **Cambio de Tamaño de Imagen** optimiza automáticamente imágenes grandes para cumplir con los requisitos técnicos del sistema de generación de IA. Está habilitada de forma predeterminada en todos los Flujos nuevos y existentes para prevenir fallos de generación y reducir costos de Tokens de Entrada.

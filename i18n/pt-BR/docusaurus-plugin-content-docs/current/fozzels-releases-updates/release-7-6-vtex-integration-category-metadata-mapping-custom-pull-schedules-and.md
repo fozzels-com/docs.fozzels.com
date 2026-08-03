@@ -4,10 +4,6 @@ title: Release 7.6 - Integração VTEX, Mapeamento de Metadados de Categoria, Cr
 sidebar_position: 15
 slug: /fozzels-releases-updates/release-7-6-vtex-integration-category-metadata-mapping-custom-pull-schedules-and
 description: Estamos empolgados em apresentar a versão 7.6 do Fozzels! Esta versão traz uma nova integração de plataforma, acessibilidade mais profunda de dados de categoria e imagem, sincronização precisa
-keywords:
-- instrução
-- comando
-- extração
 ---
 
 Estamos empolgados em apresentar a versão 7.6 do Fozzels! Esta versão traz uma nova integração de plataforma, acessibilidade mais profunda de dados de categoria e imagem, sincronização precisa e controles de pull de API, e atualizações significativas para fluxos de geração de imagens de IA. Explore todos os novos recursos abaixo.

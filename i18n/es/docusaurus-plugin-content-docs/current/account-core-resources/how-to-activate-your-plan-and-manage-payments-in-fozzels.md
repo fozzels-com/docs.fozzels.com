@@ -2,12 +2,8 @@
 id: '103000395552'
 title: 1.3.1. Cómo Activar Su Plan y Administrar Pagos en Fozzels
 sidebar_position: 4
-slug: >-
-  /account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels
-description: >-
-  ¡Bienvenido a Fozzels! Para desbloquear el potencial completo de nuestra IA
-  sin límites, debe activar una suscripción. Aquí está su guía paso a paso. 1.
-  Elija
+slug: /account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels
+description: ¡Bienvenido a Fozzels! Para desbloquear el potencial completo de nuestra IA sin límites, debe activar una suscripción. Aquí está su guía paso a paso. 1. Elija
 ---
 
 ¡Bienvenido a Fozzels! Para desbloquear el potencial completo de nuestra IA sin límites, debe activar una suscripción. Aquí está su guía paso a paso.

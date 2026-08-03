@@ -1,12 +1,9 @@
 ---
 id: '103000408207'
-title: >-
-  4.3.2.a Generación de textos alternativos de imagen para Magento 2: Conocimientos técnicos y configuración paso a paso
+title: '4.3.2.a Generación de textos alternativos de imagen para Magento 2: Conocimientos técnicos y configuración paso a paso'
 sidebar_position: 9
-slug: >-
-  /content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu
-description: >-
-  Dado que ya está familiarizado con la mecánica fundamental de la configuración de flujos de contenido de productos en Fozzels, este manual técnico se enfoca exclusivamente en
+slug: /content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu
+description: Dado que ya está familiarizado con la mecánica fundamental de la configuración de flujos de contenido de productos en Fozzels, este manual técnico se enfoca exclusivamente en
 ---
 
 Dado que ya está familiarizado con la mecánica fundamental de la configuración de flujos de contenido de productos en Fozzels, este manual técnico se enfoca exclusivamente en la arquitectura única de Magento 2: interactuando con el atributo `product_media_gallery` del sistema y optimizando el consumo de tokens durante bucles de procesamiento de galería de medios en lote.

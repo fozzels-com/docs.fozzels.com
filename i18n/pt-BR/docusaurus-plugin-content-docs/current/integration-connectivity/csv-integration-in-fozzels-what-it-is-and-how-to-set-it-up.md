@@ -4,18 +4,6 @@ title: '2.9.1 - Integração CSV no Fozzels: O Que É e Como Configurar'
 sidebar_position: 20
 slug: /integration-connectivity/csv-integration-in-fozzels-what-it-is-and-how-to-set-it-up
 description: O que é Integração CSV? A integração CSV permite conectar seu catálogo de produtos ao Fozzels usando um arquivo CSV padrão. Se sua plataforma não tiver uma
-keywords:
-- fluxo
-- de
-- imagens
-- geração
-- conteúdo
-- vídeo
-- lista
-- lotes
-- instrução
-- comando
-- extração
 ---
 
 ## O que é Integração CSV?

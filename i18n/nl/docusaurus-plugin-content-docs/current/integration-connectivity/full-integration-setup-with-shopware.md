@@ -4,12 +4,6 @@ title: 2.4. Volledige integratieinstelling met Shopware
 sidebar_position: 6
 slug: /integration-connectivity/full-integration-setup-with-shopware
 description: 'Deze handleiding begeleidt u door het volledige proces van het verbinden van uw Shopware 6 online winkel met Fozzels. De integratie bestaat uit twee delen: Deel 1: C'
-keywords:
-- contentflow
-- inhoudsstroom
-- contentgeneratie
-- invoerprompt
-- ophalen
 ---
 
 Deze handleiding begeleidt u door het volledige proces van het verbinden van uw Shopware 6 online winkel met Fozzels.

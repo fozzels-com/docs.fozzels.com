@@ -3,10 +3,7 @@ title: 'FAQ: Inloggen en accounttoegang'
 sidebar_position: 3
 unlisted: true
 slug: /frequently-asked-questions/faq-login-and-account-access
-description: >-
-  Inloginproblemen, Google inlogfouten, wachtwoordherstellingen, op land gebaseerde
-  toegangsblokkeringen, wederverkoper imitatie en overname van een account van
-  een voormalige werknemer.
+description: Inloginproblemen, Google inlogfouten, wachtwoordherstellingen, op land gebaseerde toegangsblokkeringen, wederverkoper imitatie en overname van een account van een voormalige werknemer.
 ---
 
 ## Ik kan niet inloggen op mijn Fozzels account. Wat moet ik doen?

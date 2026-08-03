@@ -4,9 +4,6 @@ title: 2.5.4. Yoast SEO-Unterstützung für WooCommerce
 sidebar_position: 11
 slug: /integration-connectivity/soporte-de-yoast-seo-para-woocommerce-es
 description: Dieser Artikel erläutert, wie Sie die vollständige Automatisierung der Metadaten Ihrer Produkte (Titel, Beschreibungen, Focus Keywords) mit der **Yoast SEO**-Integration mit Fozzels einrichten
-keywords:
-- Abruf
-- Datenabruf
 ---
 
 Dieser Artikel erläutert, wie Sie die vollständige Automatisierung der Metadaten Ihrer Produkte (Titel, Beschreibungen, Focus Keywords) mit der **Yoast SEO**-Integration mit Fozzels einrichten.
