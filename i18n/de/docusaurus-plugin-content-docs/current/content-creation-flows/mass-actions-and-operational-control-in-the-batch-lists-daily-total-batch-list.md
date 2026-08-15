@@ -1,7 +1,7 @@
 ---
 id: '103000376412'
 title: 4.7.2 Massenaktionen und Betriebskontrolle in den Batch-Listen / Tägliche Gesamt-Batch-Liste
-sidebar_position: 18
+sidebar_position: 19
 slug: /content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list
 description: Verwalten von Inhalten mit Massenaktionen Das Dashboard (oder die Batch-Liste) ist Ihr primäres Werkzeug zur schnellen Verwaltung von Inhalten. Diese Massenaktionen-Funktionalität ist sowohl in der täglichen Übersicht der Gesamt-Batch-Liste als auch in der detaillierten Batch-Listen-Ansicht verfügbar.
 ---

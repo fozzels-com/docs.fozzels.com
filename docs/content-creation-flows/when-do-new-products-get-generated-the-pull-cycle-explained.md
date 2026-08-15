@@ -1,7 +1,7 @@
 ---
 id: '103000395390'
 title: '4.3.5 When Do New Products Get Generated: The Pull Cycle Explained'
-sidebar_position: 11
+sidebar_position: 12
 slug: >-
   /content-creation-flows/when-do-new-products-get-generated-the-pull-cycle-explained
 description: >-

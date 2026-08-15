@@ -1,6 +1,6 @@
 ---
 title: Completion Report (Daily Batch List)
-sidebar_position: 28
+sidebar_position: 29
 slug: /content-creation-flows/completion-report-daily-batch-list
 description: >-
   The Completion Report is a daily overview of all AI-generated content items

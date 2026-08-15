@@ -1,7 +1,7 @@
 ---
 id: '103000410121'
 title: 4.9.1 Hoe maak je een Content Flow voor categorieën in Fozzels
-sidebar_position: 23
+sidebar_position: 24
 slug: /content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels
 description: Het maken van een Content Flow voor categorieën is vrijwel identiek aan het werken met producten - de interface is vertrouwd, gebruiksvriendelijk en intuïtief.
 keywords:

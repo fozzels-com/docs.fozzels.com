@@ -3,7 +3,7 @@ id: '103000369548'
 title: >-
   4.4.1 Prevent Overlapping Content Generation function. Global Prevent
   function.
-sidebar_position: 12
+sidebar_position: 13
 slug: >-
   /content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function
 description: >-
@@ -72,7 +72,6 @@ In the settings of each individual Flow (section **4 Automation**), you decide w
 -   _Result:_ This Flow will generate content regardless of whether content already exists from other Flows.
 
 ![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/M18xs-NWnNKM3KW_n1iAHroIpfoIW3ztfg.png)
-
 
 ####
 **Scenario B: Setting a Custom Time Limit (Override)**

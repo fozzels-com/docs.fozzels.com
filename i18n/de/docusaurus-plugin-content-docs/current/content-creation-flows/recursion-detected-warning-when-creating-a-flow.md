@@ -1,7 +1,7 @@
 ---
 id: '103000313152'
 title: '"Rekursion erkannt" Warnung beim Erstellen eines Flows'
-sidebar_position: 25
+sidebar_position: 26
 slug: /content-creation-flows/recursion-detected-warning-when-creating-a-flow
 description: Wenn Sie diese Warnung sehen, bedeutet dies, dass Sie die Variable verwenden, um Inhalte von demselben Attribut einzugeben, das der Flow zum Schreiben verwendet.
 ---

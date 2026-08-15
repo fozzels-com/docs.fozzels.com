@@ -1,7 +1,7 @@
 ---
 id: '103000370386'
 title: 4.6.2 Dicas para Criar um Prompt Eficaz + Exemplos
-sidebar_position: 16
+sidebar_position: 17
 slug: /content-creation-flows/tips-for-creating-an-effective-prompt-examples
 description: Para Fluxos de Vídeo usando modelos especializados como Gemini Veo 3, o prompt é a entrada crítica mais importante. Diferentemente da geração de texto, os modelos de vídeo exigem um
 ---

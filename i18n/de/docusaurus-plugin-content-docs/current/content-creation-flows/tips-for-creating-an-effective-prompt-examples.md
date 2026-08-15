@@ -1,7 +1,7 @@
 ---
 id: '103000370386'
 title: 4.6.2 Tipps zur Erstellung eines effektiven Prompts + Beispiele
-sidebar_position: 16
+sidebar_position: 17
 slug: /content-creation-flows/tips-for-creating-an-effective-prompt-examples
 description: Für Video Flows mit spezialisierten Modellen wie Gemini Veo 3 ist der Prompt die einzelne kritischste Eingabe. Im Gegensatz zur Textgenerierung erfordern Videomodelle ein viel höheres Maß an Spezifität, um textuelle Konzepte in eine kohärente visuelle Sequenz zu übersetzen.
 keywords:

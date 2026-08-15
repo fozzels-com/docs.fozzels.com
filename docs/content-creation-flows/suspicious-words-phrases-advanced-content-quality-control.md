@@ -1,7 +1,7 @@
 ---
 id: '103000390709'
 title: '4.7.4  Suspicious Words & Phrases: Advanced Content Quality Control'
-sidebar_position: 20
+sidebar_position: 21
 slug: >-
   /content-creation-flows/suspicious-words-phrases-advanced-content-quality-control
 description: >-

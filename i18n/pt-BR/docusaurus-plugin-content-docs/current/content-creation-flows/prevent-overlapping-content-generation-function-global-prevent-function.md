@@ -1,7 +1,7 @@
 ---
 id: '103000369548'
 title: 4.4.1 Função para Prevenir Geração Duplicada de Conteúdo. Função de Prevenção Global.
-sidebar_position: 12
+sidebar_position: 13
 slug: /content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function
 description: A função "Prevenir geração duplicada de conteúdo com outros Fluxos" é crucial para garantir que você não gere conteúdo duas vezes para o mesmo produto quando ele possa
 ---

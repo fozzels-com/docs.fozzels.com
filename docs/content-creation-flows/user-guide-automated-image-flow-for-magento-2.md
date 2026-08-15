@@ -1,7 +1,7 @@
 ---
 id: '103000408096'
 title: '4.5.1.a. User Guide: Automated Image Flow for Magento 2'
-sidebar_position: 14
+sidebar_position: 15
 slug: /content-creation-flows/user-guide-automated-image-flow-for-magento-2
 description: >-
   Image Flow for Magento is a specialized, enterprise-grade automation tool

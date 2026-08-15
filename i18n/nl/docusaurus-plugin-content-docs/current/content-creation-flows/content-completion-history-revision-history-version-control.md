@@ -1,7 +1,7 @@
 ---
 id: '103000390785'
 title: '4.8.1  Inhoudsafhandelinggeschiedenis: revisiegeschiedenis & versiebeheer'
-sidebar_position: 22
+sidebar_position: 23
 slug: /content-creation-flows/content-completion-history-revision-history-version-control
 description: 'Gemini zei: Vrees nooit meer een geweldig idee of uw oorspronkelijke productbeschrijving te verliezen. Met de Inhoudsafhandelinggeschiedenis heeft u volledige controle over de'
 ---

@@ -1,7 +1,7 @@
 ---
 id: '103000315189'
 title: Will AI-generated content made by Fozzels be bad for Google?
-sidebar_position: 26
+sidebar_position: 27
 slug: >-
   /content-creation-flows/will-ai-generated-content-made-by-fozzels-be-bad-for-google
 description: >-

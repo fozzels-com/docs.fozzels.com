@@ -1,7 +1,7 @@
 ---
 id: '103000395390'
 title: '4.3.5 Wanneer worden nieuwe producten gegenereerd: de Pull-cyclus verklaard'
-sidebar_position: 11
+sidebar_position: 12
 slug: /content-creation-flows/when-do-new-products-get-generated-the-pull-cycle-explained
 description: 'Nieuw product of merk: waarom is het nog niet zichtbaar en hoe snelt u dit op? Een verklaring waarom nieuwe producten niet onmiddellijk in Fozzels verschijnen en wat te doen als u niet'
 ---

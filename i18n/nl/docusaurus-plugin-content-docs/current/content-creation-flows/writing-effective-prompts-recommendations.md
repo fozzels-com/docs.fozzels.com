@@ -1,7 +1,7 @@
 ---
 id: '103000368009'
 title: 4.3.3. Het schrijven van effectieve prompts (Aanbevelingen)
-sidebar_position: 10
+sidebar_position: 11
 slug: /content-creation-flows/writing-effective-prompts-recommendations
 description: Deze gids biedt praktisch advies en best practices voor het structureren en schrijven van prompts van hoge kwaliteit die gepersonaliseerde, professionele, unieke inhoud opleveren.
 ---

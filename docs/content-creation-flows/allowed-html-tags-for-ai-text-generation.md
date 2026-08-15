@@ -1,7 +1,7 @@
 ---
 id: '103000380488'
 title: 4.7.3 Allowed HTML Tags for AI Text Generation
-sidebar_position: 19
+sidebar_position: 20
 slug: /content-creation-flows/allowed-html-tags-for-ai-text-generation
 description: >-
   This feature allows you to precisely define which HTML tags can be used and

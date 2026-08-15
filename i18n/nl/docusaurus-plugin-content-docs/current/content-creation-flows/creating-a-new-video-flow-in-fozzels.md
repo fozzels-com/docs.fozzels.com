@@ -1,7 +1,7 @@
 ---
 id: '103000370066'
 title: 4.6.1 Een nieuwe videoflow in Fozzels maken
-sidebar_position: 15
+sidebar_position: 16
 slug: /content-creation-flows/creating-a-new-video-flow-in-fozzels
 description: De videoflow-functie is een gespecialiseerde inhoudsflow bedoeld voor het genereren van korte, hooggekwaliteits-videoassets voor productpresentatie. Een videoflow aanmaken
 ---
