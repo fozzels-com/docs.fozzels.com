@@ -1,7 +1,7 @@
 ---
 id: '103000402415'
 title: 4.7.5 Inhoud in de batchlijst bewerken. Uitgebreide teksteditor
-sidebar_position: 21
+sidebar_position: 22
 slug: /content-creation-flows/editing-content-in-the-batch-list-rich-text-editor
 description: De batchlijst is waar u de inhoud die door uw flows wordt gegenereerd, beoordeelt, bewerkt en goedkeurt voordat deze naar uw winkel wordt gesynchroniseerd. Naast het weergeven van de
 ---

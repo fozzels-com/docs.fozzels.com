@@ -11,7 +11,15 @@
  *   AI_ASSISTANT_FRESHDESK_DOMAIN=fozzels
  *   AI_ASSISTANT_FRESHDESK_API_KEY=...
  *
- * Usage: node scripts/import-freshdesk.mjs
+ * Usage:
+ *   node scripts/import-freshdesk.mjs                  # full rebuild (wipes docs/)
+ *   node scripts/import-freshdesk.mjs --only 123,456   # add just these articles
+ *     [--section 123=content-creation-flows]           # override the destination section
+ *
+ * --only is the incremental mode: it never deletes anything, so hand-written
+ * articles, hand-tuned sidebar order and locale copies survive. Each new article
+ * is slotted into its section by its leading section number, and the positions
+ * below it (in docs/ and in every i18n/ copy) shift down to make room.
  */
 
 import TurndownService from 'turndown';
@@ -20,6 +28,8 @@ import {readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync, existsSync}
 import {join, extname} from 'node:path';
 
 const DOCS_DIR = 'docs';
+const I18N_DIR = 'i18n';
+const URL_MAP_FILE = 'freshdesk-url-map.json';
 const PUBLIC_VISIBILITY = 1; // Freshdesk folder visibility: 1 = everyone (public)
 const PUBLISHED = 2; // Freshdesk article status: 2 = published
 
@@ -129,6 +139,15 @@ function cleanMarkdown(md) {
       return text;
     })
     .replace(/[ \t]+$/gm, '') // trailing spaces
+    // Freshdesk headings that wrap their text in a nested block come out of
+    // turndown as a bare "###" with the title on the next line. Rejoin them
+    // with their text; drop the marker when nothing headline-shaped followed
+    // (a blank line, an image, or a full paragraph that is not a title).
+    .replace(/^(#{2,6})[ \t]*\n([ \t]*)(.*)$/gm, (_, hashes, indent, next) => {
+      const text = next.trim();
+      const isTitle = text && text.length <= 120 && !/^(?:#|!\[|```|\||>|[-*+] )/.test(text);
+      return isTitle ? `${hashes} ${text}` : `${indent}${next}`;
+    })
     .replace(/\n{3,}/g, '\n\n') // collapse blank lines
     .trim() + '\n';
 }
@@ -165,21 +184,52 @@ async function downloadImage(url, imageDir, index, usedNames) {
   }
 }
 
-const turndown = new TurndownService({
+const TURNDOWN_OPTIONS = {
   headingStyle: 'atx',
   bulletListMarker: '-',
   codeBlockStyle: 'fenced',
   emDelimiter: '_',
+};
+const turndown = new TurndownService(TURNDOWN_OPTIONS);
+
+// Turndown drops table structure by default, which flattens a Freshdesk table
+// into a run of orphan paragraphs. Convert them to GFM pipe tables instead.
+// Cells are converted with a separate instance so the outer walk is untouched.
+const cellTurndown = new TurndownService(TURNDOWN_OPTIONS);
+
+function elementChildren(node, tags) {
+  return [...node.childNodes].filter((n) => n.nodeType === 1 && tags.test(n.nodeName));
+}
+
+turndown.addRule('gfmTable', {
+  filter: 'table',
+  replacement(content, node) {
+    const rows = [];
+    for (const section of [node, ...elementChildren(node, /^(THEAD|TBODY|TFOOT)$/)]) {
+      for (const tr of elementChildren(section, /^TR$/)) {
+        const cells = elementChildren(tr, /^T[HD]$/).map((cell) =>
+          cellTurndown.turndown(cell.innerHTML).replace(/\s*\n+\s*/g, ' ').replace(/\|/g, '\\|').trim());
+        if (cells.length) rows.push(cells);
+      }
+    }
+    if (!rows.length) return content;
+
+    const width = Math.max(...rows.map((r) => r.length));
+    const pad = (row) => [...row, ...Array(width - row.length).fill('')];
+    const line = (row) => `| ${pad(row).join(' | ')} |`;
+    return `\n\n${[line(rows[0]), line(Array(width).fill('---')), ...rows.slice(1).map(line)].join('\n')}\n\n`;
+  },
 });
-// Keep tables as raw HTML if turndown can't handle them (rare in these docs).
 
 let imageCount = 0;
 
 // Rewrite internal Freshdesk article/folder links to their new local doc paths.
+// Authors link both the public form (/support/solutions/...) and the agent form
+// (/a/solutions/...) they see while editing, so both have to be caught.
 function rewriteInternalLinks(html, maps) {
-  html = html.replace(/https?:\/\/[^"'()\s]*\/support\/solutions\/articles\/(\d+)[^"'()\s]*/gi,
+  html = html.replace(/https?:\/\/[^"'()\s]*\/(?:support|a)\/solutions\/articles\/(\d+)[^"'()\s]*/gi,
     (full, id) => maps.articles.get(id) || full);
-  html = html.replace(/https?:\/\/[^"'()\s]*\/support\/solutions\/folders\/(\d+)[^"'()\s]*/gi,
+  html = html.replace(/https?:\/\/[^"'()\s]*\/(?:support|a)\/solutions\/folders\/(\d+)[^"'()\s]*/gi,
     (full, id) => maps.folders.get(id) || full);
   return html;
 }
@@ -210,7 +260,162 @@ function metaDescription(article) {
   const seo = article.seo_data?.meta_description;
   if (seo) return seo.trim();
   const text = (article.description_text || '').replace(/\s+/g, ' ').trim();
-  return text.slice(0, 155);
+  if (text.length <= 155) return text;
+  // Cut on a word boundary so the meta tag never ends mid-word.
+  const cut = text.slice(0, 155);
+  return cut.slice(0, cut.lastIndexOf(' ')).replace(/[,;:.\s]+$/, '') + '…';
+}
+
+// ---------- incremental mode (--only) ----------
+
+/** Parse `--only a,b` and repeated `--section <id>=<slug>` flags. */
+function parseArgs(argv) {
+  const only = [];
+  const sectionOverrides = new Map();
+  for (let i = 0; i < argv.length; i++) {
+    if (argv[i] === '--only') {
+      only.push(...(argv[++i] || '').split(',').map((s) => s.trim()).filter(Boolean));
+    } else if (argv[i] === '--section') {
+      const [id, slug] = (argv[++i] || '').split('=');
+      if (id && slug) sectionOverrides.set(id.trim(), slug.trim());
+    }
+  }
+  return {only, sectionOverrides};
+}
+
+/** Every locale copy of a docs-relative path that actually exists on disk. */
+function localeCopies(relPath) {
+  if (!existsSync(I18N_DIR)) return [];
+  const out = [];
+  for (const locale of readdirSync(I18N_DIR)) {
+    const p = join(I18N_DIR, locale, 'docusaurus-plugin-content-docs', 'current', relPath);
+    if (existsSync(p)) out.push(p);
+  }
+  return out;
+}
+
+/** Rewrite `sidebar_position:` in place, leaving the rest of the YAML untouched. */
+function setSidebarPosition(file, position) {
+  const src = readFileSync(file, 'utf8');
+  const out = src.replace(/^sidebar_position:[ \t]*\d+[ \t]*$/m, `sidebar_position: ${position}`);
+  if (out !== src) writeFileSync(file, out);
+}
+
+/**
+ * Find the position a new article should take inside a section, and shift the
+ * articles below it (English + every locale) down by one if the slot is taken.
+ * Ordering follows the leading section number, same as the full import.
+ */
+function claimPosition(folderDir, folderSlug, newTitle) {
+  const items = readdirSync(folderDir)
+    .filter((f) => extname(f) === '.md')
+    .map((f) => {
+      const data = matter(readFileSync(join(folderDir, f), 'utf8')).data;
+      return {file: f, pos: Number(data.sidebar_position) || 0, key: orderKey(String(data.title ?? ''))};
+    })
+    .sort((a, b) => a.pos - b.pos);
+
+  const newKey = orderKey(newTitle);
+  let predecessor = null;
+  for (const item of items) {
+    if (compareKeys(item.key, newKey) > 0) break;
+    predecessor = item;
+  }
+  const position = predecessor ? predecessor.pos + 1 : 1;
+
+  if (items.some((item) => item.pos === position)) {
+    for (const item of items.filter((i) => i.pos >= position).sort((a, b) => b.pos - a.pos)) {
+      const relPath = join(folderSlug, item.file);
+      setSidebarPosition(join(folderDir, item.file), item.pos + 1);
+      for (const copy of localeCopies(relPath)) setSidebarPosition(copy, item.pos + 1);
+    }
+    console.log(`    shifted ${items.filter((i) => i.pos >= position).length} article(s) down from position ${position}`);
+  }
+  return position;
+}
+
+/** Recount each section card on the homepage from what is actually on disk. */
+function refreshSectionCounts() {
+  const file = 'src/data/sections.json';
+  if (!existsSync(file)) return;
+  const sections = JSON.parse(readFileSync(file, 'utf8'));
+  for (const section of sections) {
+    const dir = join(DOCS_DIR, section.slug);
+    if (!existsSync(dir)) continue;
+    section.count = readdirSync(dir).filter((f) => extname(f) === '.md').length;
+  }
+  writeFileSync(file, JSON.stringify(sections, null, 2) + '\n');
+}
+
+async function runIncremental({only, sectionOverrides}) {
+  const urlMapDoc = JSON.parse(readFileSync(URL_MAP_FILE, 'utf8'));
+  const maps = {articles: new Map(), folders: new Map()};
+  for (const entry of urlMapDoc.entries) {
+    maps[entry.type === 'folder' ? 'folders' : 'articles'].set(String(entry.freshdeskId), entry.newPath);
+  }
+  const known = new Set(urlMapDoc.entries.filter((e) => e.type === 'article').map((e) => String(e.freshdeskId)));
+
+  // Folder id -> section slug, from the live knowledge base.
+  const folderSlugs = new Map();
+  for (const category of await api('/solutions/categories')) {
+    for (const folder of await api(`/solutions/categories/${category.id}/folders`)) {
+      folderSlugs.set(String(folder.id), slugify(folder.name));
+    }
+  }
+
+  // Phase 1: resolve every destination up front so links between the new
+  // articles resolve too, exactly like the full import does.
+  const plan = [];
+  for (const id of only) {
+    if (known.has(id)) {
+      console.log(`  skip ${id}: already imported (${maps.articles.get(id)})`);
+      continue;
+    }
+    const article = await api(`/solutions/articles/${id}`);
+    if (article.status !== PUBLISHED) {
+      console.log(`  skip ${id}: not published`);
+      continue;
+    }
+    const folderSlug = sectionOverrides.get(id) ?? folderSlugs.get(String(article.folder_id));
+    if (!folderSlug) throw new Error(`No section for article ${id} (folder ${article.folder_id})`);
+    const folderDir = join(DOCS_DIR, folderSlug);
+    if (!existsSync(folderDir)) throw new Error(`Section directory does not exist: ${folderDir}`);
+
+    const cleanTitle = article.title.replace(/^\s*\d+(?:\.\d+)*(?:\.?[a-z])?\.?\s*/i, '');
+    let slug = slugify(cleanTitle || article.title);
+    let n = 1;
+    while (existsSync(join(folderDir, `${slug}.md`))) slug = `${slug}-${++n}`;
+
+    const newPath = `/${folderSlug}/${slug}`;
+    maps.articles.set(id, newPath);
+    plan.push({article, id, folderDir, folderSlug, slug, newPath});
+    console.log(`  ${id} -> ${newPath}`);
+  }
+
+  // Phase 2: convert and write.
+  for (const item of plan) {
+    const position = claimPosition(item.folderDir, item.folderSlug, item.article.title);
+    const body = await articleToMarkdown(item.article, item.folderDir, item.slug, maps);
+    writeFileSync(join(item.folderDir, `${item.slug}.md`), matter.stringify('\n' + body, {
+      id: String(item.article.id),
+      title: item.article.title.trim(),
+      sidebar_position: position,
+      slug: item.newPath,
+      description: metaDescription(item.article),
+    }));
+    urlMapDoc.entries.push({
+      type: 'article',
+      freshdeskId: item.article.id,
+      title: item.article.title.trim(),
+      oldPathPrefix: `/support/solutions/articles/${item.article.id}`,
+      newPath: item.newPath,
+    });
+    console.log(`  wrote ${item.folderSlug}/${item.slug}.md at position ${position}`);
+  }
+
+  writeFileSync(URL_MAP_FILE, JSON.stringify(urlMapDoc, null, 2) + '\n');
+  refreshSectionCounts();
+  console.log(`\nDone. ${plan.length} article(s), ${imageCount} image(s) added.`);
 }
 
 // ---------- main ----------
@@ -312,7 +517,10 @@ async function run() {
   console.log(`URL map written to freshdesk-url-map.json (${urlMap.length} entries).`);
 }
 
-run().catch((e) => {
+const cli = parseArgs(process.argv.slice(2));
+const main = cli.only.length ? () => runIncremental(cli) : run;
+
+main().catch((e) => {
   console.error(e);
   process.exit(1);
 });

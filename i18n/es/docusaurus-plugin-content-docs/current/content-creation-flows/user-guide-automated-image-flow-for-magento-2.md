@@ -1,7 +1,7 @@
 ---
 id: '103000408096'
 title: '4.5.1.a. Guía del usuario: flujo de imagen automatizado para Magento 2'
-sidebar_position: 14
+sidebar_position: 15
 slug: /content-creation-flows/user-guide-automated-image-flow-for-magento-2
 description: El flujo de imagen para Magento es una herramienta de automatización especializada de nivel empresarial diseñada para generación de imágenes de IA en masa, mapeo automatizado de metadatos y sincronización directa con
 ---

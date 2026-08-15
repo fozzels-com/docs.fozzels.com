@@ -1,7 +1,7 @@
 ---
 id: '103000369091'
 title: 4.7.1 Tracking of the generated results. Dashboard.
-sidebar_position: 17
+sidebar_position: 18
 slug: /content-creation-flows/tracking-of-the-generated-results-dashboard
 description: >-
   The Dashboards (or Daily total batch list) serves as your command center,

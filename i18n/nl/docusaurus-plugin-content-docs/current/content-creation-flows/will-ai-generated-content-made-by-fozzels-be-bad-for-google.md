@@ -1,7 +1,7 @@
 ---
 id: '103000315189'
 title: Zal door AI gegenereerde inhoud gemaakt door Fozzels slecht zijn voor Google?
-sidebar_position: 26
+sidebar_position: 27
 slug: /content-creation-flows/will-ai-generated-content-made-by-fozzels-be-bad-for-google
 description: 'Antwoord: nee. Google heeft geen voorkeur voor of tegen inhoud die is gegenereerd met AI. U kunt hier meer lezen op hun hulppagina''s: https://'
 ---

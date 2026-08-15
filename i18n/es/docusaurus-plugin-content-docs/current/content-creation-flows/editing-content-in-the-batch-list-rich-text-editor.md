@@ -1,7 +1,7 @@
 ---
 id: '103000402415'
 title: 4.7.5 Edición de Contenido en la Lista de Lotes. Editor de Texto Enriquecido
-sidebar_position: 21
+sidebar_position: 22
 slug: /content-creation-flows/editing-content-in-the-batch-list-rich-text-editor
 description: La Lista de Lotes es donde revisa, edita y aprueba el contenido generado por sus flujos antes de que se sincronice con su tienda. Además de ver el resultado bruto, Fozzels ahora proporciona un
 ---

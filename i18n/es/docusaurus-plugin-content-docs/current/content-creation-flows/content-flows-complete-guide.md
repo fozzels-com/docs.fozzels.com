@@ -1,6 +1,6 @@
 ---
 title: Content Flows - Guía Completa
-sidebar_position: 27
+sidebar_position: 28
 slug: /content-creation-flows/content-flows-complete-guide
 description: Los Content Flows son la característica de automatización principal de Fozzels. Esta guía cubre la creación de un Flow, plantillas de avisos, su ejecución, el ciclo de vida de la finalización, contenido sospechoso y por qué el contenido a veces no se sincroniza.
 keywords:

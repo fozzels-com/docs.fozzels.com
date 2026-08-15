@@ -1,7 +1,7 @@
 ---
 id: '103000408096'
 title: '4.5.1.a. Benutzerhandbuch: Automatisierter Bildflow für Magento 2'
-sidebar_position: 14
+sidebar_position: 15
 slug: /content-creation-flows/user-guide-automated-image-flow-for-magento-2
 description: Image Flow für Magento ist ein spezialisiertes, Enterprise-Grade-Automations-Tool, das für die Massen-KI-Bildgenerierung, automatisierte Metadaten-Zuordnung und direkte Synchronisierung mit Ihrem Magento-Katalog entwickelt wurde.
 keywords:

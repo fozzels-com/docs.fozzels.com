@@ -10,6 +10,7 @@
 # Generated files
 .docusaurus
 .cache-loader
+.translation-cache.json
 
 # Misc
 .DS_Store

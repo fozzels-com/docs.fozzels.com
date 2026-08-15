@@ -1,7 +1,7 @@
 ---
 id: '103000380488'
 title: 4.7.3 Etiquetas HTML Permitidas para Generación de Texto de IA
-sidebar_position: 19
+sidebar_position: 20
 slug: /content-creation-flows/allowed-html-tags-for-ai-text-generation
 description: Esta función le permite definir precisamente qué etiquetas HTML se pueden usar y preservar dentro del contenido generado por Inteligencia Artificial. Esta función
 ---

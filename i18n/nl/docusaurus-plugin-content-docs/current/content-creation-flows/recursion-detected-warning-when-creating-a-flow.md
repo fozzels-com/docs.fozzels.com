@@ -1,7 +1,7 @@
 ---
 id: '103000313152'
 title: '"Recursie gedetecteerd" waarschuwing bij het aanmaken van een stroom'
-sidebar_position: 25
+sidebar_position: 26
 slug: /content-creation-flows/recursion-detected-warning-when-creating-a-flow
 description: Wanneer u deze waarschuwing ziet, betekent dit dat u de variabele gebruikt om inhoud in te voeren uit hetzelfde attribuut waarnaar u de stroom schrijft.
 ---

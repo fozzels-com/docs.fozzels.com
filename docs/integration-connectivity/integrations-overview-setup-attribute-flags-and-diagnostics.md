@@ -1,6 +1,6 @@
 ---
 title: Integrations — Overview, Setup, Attribute Flags and Diagnostics
-sidebar_position: 21
+sidebar_position: 22
 slug: >-
   /integration-connectivity/integrations-overview-setup-attribute-flags-and-diagnostics
 description: >-

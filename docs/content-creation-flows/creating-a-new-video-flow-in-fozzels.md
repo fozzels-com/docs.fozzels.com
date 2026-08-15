@@ -1,7 +1,7 @@
 ---
 id: '103000370066'
 title: 4.6.1 Creating a new Video Flow in Fozzels
-sidebar_position: 15
+sidebar_position: 16
 slug: /content-creation-flows/creating-a-new-video-flow-in-fozzels
 description: >-
   The Video Flow feature is a specialized Content Flow dedicated to generating

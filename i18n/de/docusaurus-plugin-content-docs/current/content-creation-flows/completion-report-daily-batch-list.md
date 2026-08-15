@@ -1,6 +1,6 @@
 ---
 title: Abschluss-Bericht (Tägliche Batch-Liste)
-sidebar_position: 28
+sidebar_position: 29
 slug: /content-creation-flows/completion-report-daily-batch-list
 description: Der Abschluss-Bericht ist eine tägliche Übersicht über alle KI-generierten Inhaltselemente über Ihre Flows hinweg — angezeigt werden, was generiert, bestätigt und an Ihren Shop auf einem bestimmten Tag gesendet wurde.
 ---

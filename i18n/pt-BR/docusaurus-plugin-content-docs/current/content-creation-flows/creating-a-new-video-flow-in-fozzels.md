@@ -1,7 +1,7 @@
 ---
 id: '103000370066'
 title: 4.6.1 Criando um Novo Fluxo de Vídeo no Fozzels
-sidebar_position: 15
+sidebar_position: 16
 slug: /content-creation-flows/creating-a-new-video-flow-in-fozzels
 description: O recurso de Fluxo de Vídeo é um Fluxo de Conteúdo especializado dedicado à geração de ativos de vídeo de alta fidelidade para apresentação de produtos. Criando um Fluxo de Vídeo
 ---

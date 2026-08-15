@@ -1,6 +1,6 @@
 ---
 title: Content Flows — Complete Guide
-sidebar_position: 27
+sidebar_position: 28
 slug: /content-creation-flows/content-flows-complete-guide
 description: >-
   Content Flows are the core automation feature of Fozzels. This guide covers

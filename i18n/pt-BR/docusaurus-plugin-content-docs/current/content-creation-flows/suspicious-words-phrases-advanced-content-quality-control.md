@@ -1,7 +1,7 @@
 ---
 id: '103000390709'
 title: '4.7.4 Palavras e Frases Suspeitas: Controle Avançado de Qualidade de Conteúdo'
-sidebar_position: 20
+sidebar_position: 21
 slug: /content-creation-flows/suspicious-words-phrases-advanced-content-quality-control
 description: A funcionalidade Palavras e Frases Suspeitas é mais do que um simples filtro de validação - é uma ferramenta sofisticada para gerenciar fluxos de trabalho de conteúdo em alto volume
 ---

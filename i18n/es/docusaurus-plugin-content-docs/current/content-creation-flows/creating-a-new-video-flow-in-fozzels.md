@@ -1,7 +1,7 @@
 ---
 id: '103000370066'
 title: 4.6.1 Crear un Nuevo Flujo de Video en Fozzels
-sidebar_position: 15
+sidebar_position: 16
 slug: /content-creation-flows/creating-a-new-video-flow-in-fozzels
 description: La función Flujo de Video es un Flujo de Contenido especializado dedicado a generar activos de video cortos y de alta fidelidad para presentación de productos. Crear un Flujo de Video F
 ---

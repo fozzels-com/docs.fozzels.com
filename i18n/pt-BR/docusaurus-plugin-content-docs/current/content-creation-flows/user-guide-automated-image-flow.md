@@ -1,7 +1,7 @@
 ---
 id: '103000400446'
 title: '4.5.1. Guia do Usuário: Fluxo de Imagem Automatizado'
-sidebar_position: 13
+sidebar_position: 14
 slug: /content-creation-flows/user-guide-automated-image-flow
 description: Fluxo de Imagem é uma ferramenta profissional projetada para geração e sincronização em massa de imagens de produto usando IA. Ao configurar um fluxo uma vez, você estabelece
 ---
