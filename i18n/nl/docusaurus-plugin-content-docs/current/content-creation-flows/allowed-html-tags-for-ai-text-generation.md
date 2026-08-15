@@ -1,7 +1,7 @@
 ---
 id: '103000380488'
 title: 4.7.3 Toegestane HTML-tags voor AI-tekstgeneratie
-sidebar_position: 19
+sidebar_position: 20
 slug: /content-creation-flows/allowed-html-tags-for-ai-text-generation
 description: Met deze functie kunt u precies bepalen welke HTML-tags kunnen worden gebruikt en behouden in de inhoud die door kunstmatige intelligentie wordt gegenereerd. Deze functio
 ---

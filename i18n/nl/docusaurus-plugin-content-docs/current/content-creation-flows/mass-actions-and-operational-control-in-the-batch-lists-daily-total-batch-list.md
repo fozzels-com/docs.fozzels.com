@@ -1,7 +1,7 @@
 ---
 id: '103000376412'
 title: 4.7.2 Massaacties en operationele controle in Batch Lists / Dagelijkse totale Batch List
-sidebar_position: 18
+sidebar_position: 19
 slug: /content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list
 description: Inhoud beheren met massaacties Het Dashboards (of Batch List) is uw primaire tool voor het snel beheren van inhoud. Deze functie Massaacties is beschikbaar in zowel het dagelijks totaal Batch List-overzicht als de gedetailleerde Batch List-weergave.
 keywords:

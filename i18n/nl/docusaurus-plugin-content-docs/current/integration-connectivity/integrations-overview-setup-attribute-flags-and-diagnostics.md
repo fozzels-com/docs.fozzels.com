@@ -1,6 +1,6 @@
 ---
 title: Integrations — Overzicht, Setup, Attribuutflags en Diagnostiek
-sidebar_position: 21
+sidebar_position: 22
 slug: /integration-connectivity/integrations-overview-setup-attribute-flags-and-diagnostics
 description: Een Integration is een beveiligde verbinding tussen Fozzels en uw e-commerce winkel of PIM. Deze gids behandelt ondersteunde platforms, setupstappen, attribuutflags, pull-schema's, platform-specifieke notities en de volledige WooCommerce diagnostiek referentie.
 ---

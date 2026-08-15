@@ -1,7 +1,7 @@
 ---
 id: '103000390709'
 title: '4.7.4 Verdachte woorden en frasen: Geavanceerde inhoudsqualiteitscontrole'
-sidebar_position: 20
+sidebar_position: 21
 slug: /content-creation-flows/suspicious-words-phrases-advanced-content-quality-control
 description: De functie Verdachte woorden en frasen is meer dan zojuist een eenvoudig validatiefilter - het is een verfijnd gereedschap voor het beheren van workflows met hoog volume inhoud
 keywords:

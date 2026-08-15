@@ -1,7 +1,7 @@
 ---
 id: '103000368009'
 title: 4.3.3. Writing Effective Prompts (Recommendations)
-sidebar_position: 10
+sidebar_position: 11
 slug: /content-creation-flows/writing-effective-prompts-recommendations
 description: >-
   This guide provides practical advice and best practices for structuring and

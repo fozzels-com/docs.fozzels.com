@@ -1,7 +1,7 @@
 ---
 id: '103000369091'
 title: 4.7.1 Verfolgung der generierten Ergebnisse. Dashboard.
-sidebar_position: 17
+sidebar_position: 18
 slug: /content-creation-flows/tracking-of-the-generated-results-dashboard
 description: Das Dashboard (oder die Tägliche Gesamt-Batch-Liste) dient als Ihr Kommandozentrum und bietet einen vollständigen Überblick über alle Inhalts-Generierungs- und Synchronisierungsprozesse.
 ---

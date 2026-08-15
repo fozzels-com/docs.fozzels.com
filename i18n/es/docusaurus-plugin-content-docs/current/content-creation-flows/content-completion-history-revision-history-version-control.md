@@ -1,7 +1,7 @@
 ---
 id: '103000390785'
 title: '4.8.1 Historial de Finalización de Contenido: Historial de Revisiones y Control de Versiones'
-sidebar_position: 22
+sidebar_position: 23
 slug: /content-creation-flows/content-completion-history-revision-history-version-control
 description: Gemini dijo Nunca más tenga miedo de perder una idea genial o su descripción de producto original. Con el Historial de Finalización de Contenido, tiene control total sobre el
 ---

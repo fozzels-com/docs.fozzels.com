@@ -563,6 +563,34 @@
       "title": "Release 8.0-8.1 - Category & Brand Content, Workflow Builder, UI Refresh",
       "oldPathPrefix": "/support/solutions/articles/103000409878",
       "newPath": "/fozzels-releases-updates/release-8-0-8-1-category-brand-content-workflow-builder-ui-refresh"
+    },
+    {
+      "type": "article",
+      "freshdeskId": 103000367854,
+      "title": "2.3.3. Full Integration Setup with Shopify.",
+      "oldPathPrefix": "/support/solutions/articles/103000367854",
+      "newPath": "/integration-connectivity/full-integration-setup-with-shopify"
+    },
+    {
+      "type": "article",
+      "freshdeskId": 103000410190,
+      "title": "2.10.1 Full Integration Setup with Salesforce.",
+      "oldPathPrefix": "/support/solutions/articles/103000410190",
+      "newPath": "/integration-connectivity/full-integration-setup-with-salesforce"
+    },
+    {
+      "type": "article",
+      "freshdeskId": 103000410112,
+      "title": "4.3.2.b Generating Alt-texts for NextChapter Images: Technical Nuances and Step-by-Step Setup",
+      "oldPathPrefix": "/support/solutions/articles/103000410112",
+      "newPath": "/content-creation-flows/generating-alt-texts-for-nextchapter-images-technical-nuances-and-step-by-step-s"
+    },
+    {
+      "type": "article",
+      "freshdeskId": 103000410961,
+      "title": "Release 8.2-8.3 - Salesforce Integration, CSV UX 2.0 & Multi-Market SEO",
+      "oldPathPrefix": "/support/solutions/articles/103000410961",
+      "newPath": "/fozzels-releases-updates/release-8-2-8-3-salesforce-integration-csv-ux-2-0-multi-market-seo"
     }
   ]
 }

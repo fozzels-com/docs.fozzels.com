@@ -1,7 +1,7 @@
 ---
 id: '103000369091'
 title: 4.7.1 Rastreamento dos Resultados Gerados. Painel.
-sidebar_position: 17
+sidebar_position: 18
 slug: /content-creation-flows/tracking-of-the-generated-results-dashboard
 description: O Painel (ou lista de lotes total diária) funciona como seu centro de comando, fornecendo uma visão geral completa de todos os processos de geração e sincronização de conteúdo
 ---

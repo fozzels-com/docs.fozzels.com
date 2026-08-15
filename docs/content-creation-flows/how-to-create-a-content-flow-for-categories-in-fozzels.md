@@ -1,7 +1,7 @@
 ---
 id: '103000410121'
 title: 4.9.1 How to Create a Content Flow for Categories in Fozzels
-sidebar_position: 23
+sidebar_position: 24
 slug: /content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels
 description: >-
   Creating a Content Flow for categories is virtually identical to working with

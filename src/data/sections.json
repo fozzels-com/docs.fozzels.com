@@ -9,24 +9,24 @@
     "label": "Integration & Connectivity",
     "slug": "integration-connectivity",
     "description": "",
-    "count": 20
+    "count": 22
   },
   {
     "label": "Data Import And Quality",
     "slug": "data-import-and-quality",
     "description": "",
-    "count": 8
+    "count": 9
   },
   {
     "label": "Content Creation (Flows)",
     "slug": "content-creation-flows",
     "description": "",
-    "count": 26
+    "count": 29
   },
   {
     "label": "Fozzels Releases & Updates",
     "slug": "fozzels-releases-updates",
     "description": "",
-    "count": 16
+    "count": 17
   }
 ]

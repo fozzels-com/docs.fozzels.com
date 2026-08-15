@@ -1,6 +1,6 @@
 ---
 title: Reporte de Finalización (Lista de Lotes Diarios)
-sidebar_position: 28
+sidebar_position: 29
 slug: /content-creation-flows/completion-report-daily-batch-list
 description: El Reporte de Finalización es una descripción general diaria de todos los elementos de contenido generados por IA en sus Flows, mostrando lo que se generó, confirmó e insertó en su tienda en un día determinado.
 ---

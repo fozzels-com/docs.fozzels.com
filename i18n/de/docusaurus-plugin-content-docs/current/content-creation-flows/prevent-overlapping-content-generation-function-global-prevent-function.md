@@ -1,7 +1,7 @@
 ---
 id: '103000369548'
 title: 4.4.1 Verhinderung der doppelten Inhaltsgenerierung. Globale Verhinderungsfunktion.
-sidebar_position: 12
+sidebar_position: 13
 slug: /content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function
 description: Die Funktion "Verhinderung der doppelten Inhaltsgenerierung mit anderen Flows" ist entscheidend, um sicherzustellen, dass Sie keinen Inhalt zweimal für dasselbe Produkt generieren, wenn es mehreren Flows angehören könnte.
 ---

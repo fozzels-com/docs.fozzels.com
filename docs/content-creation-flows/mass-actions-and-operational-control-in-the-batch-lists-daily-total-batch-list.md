@@ -3,7 +3,7 @@ id: '103000376412'
 title: >-
   4.7.2 Mass Actions and Operational Control in the Batch Lists / Daily Total
   Batch List
-sidebar_position: 18
+sidebar_position: 19
 slug: >-
   /content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list
 description: >-

@@ -1,7 +1,7 @@
 ---
 id: '103000370386'
 title: 4.6.2 Tips for Creating an Effective Prompt + Examples
-sidebar_position: 16
+sidebar_position: 17
 slug: /content-creation-flows/tips-for-creating-an-effective-prompt-examples
 description: >-
   For Video Flows using specialized models like Gemini Veo 3, the prompt is the

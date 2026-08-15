@@ -9,10 +9,13 @@
  * code blocks, image paths and MDX/JSX are preserved. A hash cache skips files whose
  * English source has not changed since the last run.
  *
+ * ANTHROPIC_API_KEY comes from the environment or from .env, like the importer's
+ * Freshdesk credentials. TRANSLATE_MODEL picks the model.
+ *
  * Usage:
- *   ANTHROPIC_API_KEY=... node scripts/translate.mjs            # all target locales
- *   ANTHROPIC_API_KEY=... node scripts/translate.mjs --locale de
- *   ANTHROPIC_API_KEY=... node scripts/translate.mjs --force    # ignore the cache
+ *   node scripts/translate.mjs                 # all target locales
+ *   node scripts/translate.mjs --locale de
+ *   node scripts/translate.mjs --force         # ignore the cache
  */
 
 import Anthropic from '@anthropic-ai/sdk';
@@ -35,6 +38,14 @@ const LOCALES = {
     notes: 'Use the informal register (você). Keep prices in Euro (€) and dates as DD/MM/YYYY.',
   },
 };
+
+// Fall back to .env so the key never has to be typed on the command line.
+if (!process.env.ANTHROPIC_API_KEY && existsSync('.env')) {
+  for (const line of readFileSync('.env', 'utf8').split('\n')) {
+    const m = line.match(/^([A-Z0-9_]+)=(.*)$/);
+    if (m && !process.env[m[1]]) process.env[m[1]] = m[2].replace(/^["']|["']$/g, '');
+  }
+}
 
 const model = process.env.TRANSLATE_MODEL || 'claude-sonnet-5';
 const args = process.argv.slice(2);

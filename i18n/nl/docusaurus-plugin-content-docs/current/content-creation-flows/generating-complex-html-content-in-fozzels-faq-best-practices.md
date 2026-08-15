@@ -1,7 +1,7 @@
 ---
 id: '103000410130'
 title: '4.10.1 Complexe HTML-content genereren in Fozzels (FAQ): best practices'
-sidebar_position: 24
+sidebar_position: 25
 slug: /content-creation-flows/generating-complex-html-content-in-fozzels-faq-best-practices
 description: 'Complexe HTML-content genereren in Fozzels: best practices. Fozzels kan niet alleen standaard productbeschrijvingen genereren, maar ook complexere content'
 ---

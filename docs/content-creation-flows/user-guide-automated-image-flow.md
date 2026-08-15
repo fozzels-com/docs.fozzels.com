@@ -1,7 +1,7 @@
 ---
 id: '103000400446'
 title: '4.5.1. User Guide: Automated Image Flow'
-sidebar_position: 13
+sidebar_position: 14
 slug: /content-creation-flows/user-guide-automated-image-flow
 description: >-
   Image Flow is a professional tool designed for the mass generation and
