@@ -105,9 +105,9 @@ Wenn Ihr Server eine Firewall, WAF oder einen Sicherheitsdienst (Cloudflare, Suc
 1. Fordern Sie die aktuelle Liste der Fozzels IP-Adressen von **[support@fozzels.com](mailto:support@fozzels.com)** an.
     Zum Whitelisting können Sie die folgenden Fozzels IP-Adressen verwenden:
 **49.13.117.118**
-**2a01:4f8:c17:bb1e::/64**
-
 **91.205.205.66**
+
+**2a01:4f8:c17:bb1e::/64**
 
 2. Leiten Sie diese Liste an Ihren Hosting-Anbieter oder Server-Administrator weiter, um sie der Whitelist hinzuzufügen.
 
