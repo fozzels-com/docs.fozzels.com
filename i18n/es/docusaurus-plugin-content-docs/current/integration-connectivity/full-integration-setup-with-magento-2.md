@@ -107,6 +107,8 @@ Si tu servidor tiene un firewall, WAF o servicio de seguridad (Cloudflare, Sucur
 **49.13.117.118**
 **2a01:4f8:c17:bb1e::/64**
 
+**91.205.205.66**
+
 2.  Reenvía esta lista a tu proveedor de alojamiento o administrador del servidor para agregarlos a la lista blanca.
 
 Si esto no se hace — recibirás un error **401 (No autorizado)** al crear la integración en Fozzels y no podrás completar la conexión.

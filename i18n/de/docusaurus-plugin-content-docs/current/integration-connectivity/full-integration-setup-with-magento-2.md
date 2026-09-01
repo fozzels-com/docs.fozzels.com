@@ -107,6 +107,8 @@ Wenn Ihr Server eine Firewall, WAF oder einen Sicherheitsdienst (Cloudflare, Suc
 **49.13.117.118**
 **2a01:4f8:c17:bb1e::/64**
 
+**91.205.205.66**
+
 2. Leiten Sie diese Liste an Ihren Hosting-Anbieter oder Server-Administrator weiter, um sie der Whitelist hinzuzufügen.
 
 Wenn dies nicht geschehen ist, erhalten Sie beim Erstellen der Integration in Fozzels einen Fehler **401 (Unauthorized)** und können die Verbindung nicht abschließen.

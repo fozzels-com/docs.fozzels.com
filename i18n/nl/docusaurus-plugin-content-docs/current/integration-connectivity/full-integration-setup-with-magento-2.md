@@ -107,6 +107,8 @@ Als uw server een firewall, WAF of beveiligingsservice (Cloudflare, Sucuri, enz.
 **49.13.117.118**
 **2a01:4f8:c17:bb1e::/64**
 
+**91.205.205.66**
+
 2.  Zet deze lijst door naar uw hostingprovider of serverbeheerder om deze aan de whitelist toe te voegen.
 
 Als dit niet wordt gedaan — ontvangt u een **401 (Onbevoegd)**-fout bij het maken van de integratie in Fozzels en kunt u de verbinding niet tot stand brengen.
