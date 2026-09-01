@@ -104,10 +104,12 @@ Si tu servidor tiene un firewall, WAF o servicio de seguridad (Cloudflare, Sucur
 
 1.  Solicita la lista actual de direcciones IP de Fozzels a **[support@fozzels.com](mailto:support@fozzels.com)**.
     Para agregar a la lista blanca, puedes usar las direcciones IP de Fozzels:
-**49.13.117.118**
-**91.205.205.66**
+```
+49.13.117.118
+91.205.205.66
 
-**2a01:4f8:c17:bb1e::/64**
+2a01:4f8:c17:bb1e::/64
+```
 
 2.  Reenvía esta lista a tu proveedor de alojamiento o administrador del servidor para agregarlos a la lista blanca.
 
