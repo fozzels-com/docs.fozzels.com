@@ -1,245 +1,287 @@
 ---
 id: '103000385597'
-title: 2.3.2. Verbindung von Shopify-Stores mit Fozzels über die Shopify Dev Platform für 2026
+title: 2.3.2. Shopify-Stores über das Shopify Dev Dashboard mit Fozzels verbinden
 sidebar_position: 4
-slug: /integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026
-description: WICHTIGER HINWEIS Ab dem 1. Januar 2026 ändert Shopify offiziell seine Regeln für die Anwendungsverwaltung. Die alte Methode zum Erstellen von „Private Apps" d
+slug: >-
+  /integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026
+description: >-
+  Seit dem 1. Januar 2026 werden Shopify-Stores über das Shopify Dev Dashboard
+  verbunden. So erstellen und installieren Sie die App in Shopify und verbinden
+  sie Schritt für Schritt in Fozzels.
 ---
 
-WICHTIGER HINWEIS
+Seit dem 1. Januar 2026 können Sie in Shopify keine Private Apps mehr im Store-Admin erstellen. Neue Verbindungen und Aktualisierungen bestehender Integrationen werden über das Shopify Dev Dashboard eingerichtet. Diese Anleitung führt Sie durch beide Seiten: das Erstellen und Installieren der App in Shopify (Teil 1) und das Verbinden in Fozzels (Teil 2).
 
-Ab dem 1. Januar 2026 ändert Shopify offiziell seine Regeln für die Anwendungsverwaltung. Die alte Methode zum Erstellen von „Private Apps" direkt im Store Admin wird eingestellt. Alle neuen Verbindungen und Aktualisierungen zu bestehenden Integrationen müssen jetzt über die Shopify Dev Platform durchgeführt werden.
+## Bevor Sie beginnen: Ihre .myshopify.com-Domain finden
 
-1.  Autorisierung
+Fozzels benötigt die .myshopify.com-Adresse Ihres Stores, nicht Ihre öffentliche Store-Domain (etwa www.yourbrand.com). Diese Adresse wurde beim Erstellen des Stores vergeben und kann nicht geändert werden. Sie kann daher von Ihrem Markennamen abweichen.
 
-1.1. Melden Sie sich im offiziellen Shopify Developer Dashboard an: [https://dev.shopify.com/dashboard](https://dev.shopify.com/dashboard)
+Sie finden sie an drei Stellen im Shopify-Admin:
 
-2.  Zugriff auf das App-Erstellungsmenü
+1. **Seitenleiste der Einstellungen:** Öffnen Sie **Settings**. Ihre .myshopify.com-Domain wird oben in der Seitenleiste unter dem Store-Namen angezeigt.
+2. **Settings → Domains:** Auf der Seite Domains sind alle Ihre Domains aufgeführt. Verwenden Sie die Domain, die auf .myshopify.com endet, auch wenn sie nicht als **Primary** markiert ist.
+3. **Adressleiste des Browsers:** Im Admin sieht die URL etwa so aus: `https://admin.shopify.com/store/your-store`. Nehmen Sie den Teil nach `/store/` und hängen Sie `.myshopify.com` an: `your-store.myshopify.com`.
 
-2.1. Nach dem Anmelden im Dashboard:
+![Settings → Domains: die .myshopify.com-Domain in der Seitenleiste und in der Liste](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/01-settings-domains-myshopify-domain.png)
 
--   Wählen Sie den Abschnitt Apps in der linken Seitenleiste.
+Sie verwenden diese Domain in zwei Formaten:
 
--   Klicken Sie in der oberen rechten Ecke auf die Schaltfläche App erstellen (je nach Art Ihres Kontos kann Ihre Schnittstelle etwas anders aussehen. Wenn Sie diese Schaltfläche nicht sehen, scrollen Sie bitte zum unteren Ende der Seite. Es sollte einen anklickbaren Link mit der Bezeichnung **„App erstellen"** geben)
-    ![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/e9TIxK8eDP1_39W_QK6q8V792TllGbJshg.png)
+| Wo | Format |
+| --- | --- |
+| App URL (Shopify), URL (Fozzels) | `https://your-store.myshopify.com` |
+| Store domain (Shopify-Distribution), App Host Name (Fozzels) | `your-store.myshopify.com` |
 
-###
+## Teil 1. Shopify: die App erstellen
 
-3.  Auswahl der Erstellungsmethode und Benennung
+### 1. Die App erstellen
 
-3.1. Auf dem Auswahlbildschirm:
+1. Melden Sie sich im Shopify Dev Dashboard an: [https://dev.shopify.com/dashboard](https://dev.shopify.com/dashboard).
+2. Öffnen Sie **Apps** in der linken Seitenleiste und klicken Sie oben rechts auf **Create app**. Je nach Kontotyp kann die Oberfläche leicht abweichen. Wenn Sie die Schaltfläche nicht sehen, scrollen Sie ans Ende der Seite und klicken Sie auf den Link **Create app**.
+3. Geben Sie unter **Start from Dev Dashboard** (der Option rechts) einen App-Namen ein, zum Beispiel `Fozzels_APP`, und klicken Sie auf **Create app**. Mit dieser Option erhalten Sie API-Zugangsdaten, ohne die Kommandozeile zu verwenden.
 
--   Wählen Sie die zweite Option auf der rechten Seite — Von Dev Dashboard starten.
-    Diese Methode ermöglicht es Ihnen, API-Anmeldedaten schnell zu generieren, ohne eine Befehlszeilenschnittstelle zu verwenden.
+![Dev Dashboard: Apps und Create app](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/02-dev-dashboard-apps-create-app.png)
 
--   Geben Sie im Feld App-Name einen beschreibenden Namen ein (z. B. Fozzels\_APP).
+![App erstellen: Start from Dev Dashboard](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/03-start-from-dev-dashboard.png)
 
--   Klicken Sie auf die Schaltfläche Erstellen.
-    ![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/aOyMompGNxvMk8AwTspY6_RThyDKNEsWcw.png)
+### 2. Die Version konfigurieren
 
-4.  Versionskonfiguration und obligatorische Einstellungen
+Nachdem Sie die App erstellt haben, gelangen Sie auf die Seite **Create version**. Shopify hat bereits eine erste Version angelegt (zum Beispiel `fozzels_app-1`). Ihre Einstellungen werden als neue Version auf dieser Grundlage veröffentlicht.
 
-        4.1. Nach dem Klicken auf Erstellen werden Sie zur Seite Version erstellen weitergeleitet.
- ![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/5WoUJ-Qq7qALDUUuzlNBWf0V0lxaSjhlbQ.png)
+1. **App name:** Behalten Sie den Namen bei oder ändern Sie ihn.
+2. **App URL:** Geben Sie Ihre Store-URL mit https ein, zum Beispiel `https://your-store.myshopify.com`.
+3. **Embed app in Shopify admin:** muss aktiviert sein. Damit wird die Fozzels-Oberfläche in Ihrem Shopify-Admin angezeigt.
+4. **Webhooks API version:** Wählen Sie die neueste angebotene stabile Version.
 
-4.2. Name und App-URL
+![Create version: App URL, Embed app in Shopify admin, Webhooks API version](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/04-create-version-app-url-and-embed.png)
 
--   Geben Sie den Namen der App ein
+### 3. Die Scopes hinzufügen
 
--   Geben Sie die URL Ihres Stores ein (z. B. [https://your-store-name.myshopify.com](https://your-store-name.myshopify.com)).
+Scrollen Sie nach unten zum Abschnitt **Access**. Fügen Sie die folgende Liste in das Feld **Scopes** ein oder klicken Sie auf **Select scopes** und suchen Sie jede Berechtigung über die Suchleiste.
 
-4.3. Obligatorische Einstellung
+Erforderliche Scopes, bereit zum Kopieren und Einfügen:
 
--   App in Shopify Admin einbetten: muss aktiviert sein.
-    Dies stellt sicher, dass die Fozzels-Schnittstelle in Ihrem Shopify Admin-Bedienfeld angezeigt wird.
-    ![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/fCpNrLVZblbWTWkIntCgl86EmrjmORG6BQ.png)
+```
+read_locales,read_markets,write_markets,read_metaobject_definitions,read_metaobjects,read_product_feeds,read_product_listings,read_products,write_products,read_translations,write_translations,read_publications
+```
 
-5.  Konfiguration des API-Zugriffs (Scopes)
+| Gruppe | Scopes |
+| --- | --- |
+| Produkte | `read_product_listings`, `read_products`, `write_products`, `read_product_feeds` |
+| Metadaten | `read_metaobject_definitions`, `read_metaobjects` |
+| Übersetzungen | `read_translations`, `write_translations`, `read_publications` |
+| Gebietsschemas | `read_locales` |
+| Märkte | `read_markets`, `write_markets` |
 
-5.1. Scrollen Sie nach unten zum Abschnitt Zugriff, um zu definieren, welche Daten Fozzels verwalten kann.
+Diese Scopes sind für alle Store-Typen erforderlich, auch für Stores mit Shopify Markets und mehreren Sprachen.
 
-5.2. Im Block Scopes:
+**Möchten Sie Gewichtsdaten synchronisieren?** Fügen Sie dann jetzt auch `read_inventory` und `write_inventory` hinzu. Sie werden nur für die optionale Inventory-Einstellung in Fozzels (Schritt 10) benötigt, aber wenn Sie sie jetzt hinzufügen, müssen Sie später keine neue App-Version erstellen. Vollständige Liste einschließlich Inventory:
 
--   Klicken Sie in der oberen rechten Ecke auf den Link Scopes auswählen.
-    ![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/RgsEpex9lyPaJ8AyOjR4-So8df3QeQ6Fcw.png)
+```
+read_locales,read_markets,write_markets,read_metaobject_definitions,read_metaobjects,read_product_feeds,read_product_listings,read_products,write_products,read_translations,write_translations,read_publications,read_inventory,write_inventory
+```
 
-6.  Auswahl von Berechtigungen
+Lassen Sie den Rest des Abschnitts unverändert:
 
-6.1. Im modalen Fenster Scopes auswählen:
+- **Optional scopes:** leer lassen.
+- **Use legacy install flow:** nicht aktivieren.
+- **Allowed redirection URL(s):** leer lassen.
 
--   Verwenden Sie die Suchleiste, um bestimmte Berechtigungen zu finden.
-    ![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/wQoW7bQIW9fqRTTnrHwUO9bIMpWZ6tDL_w.png)
+Der Hinweis „Some scopes require Shopify permission" betrifft die von Fozzels benötigten Scopes nicht. Sie müssen also keinen Zugriff beantragen.
 
-    6.2. Erforderliche Berechtigungen
-    Diese Liste ist für alle Store-Typen, einschließlich Stores mit Shopify Markets und Sprachseiten, erforderlich.
+![Access: alle 12 erforderlichen Scopes](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/05-access-required-scopes.png)
 
-Produkte: read\_product\_listings, read\_products, write\_products, read\_product\_feeds.
+### 4. Die Version veröffentlichen
 
-Metadaten: read\_metaobject\_definitions, read\_metaobjects.
+1. Klicken Sie auf **Release**. Die Schaltfläche finden Sie sowohl oben rechts als auch unten auf der Seite.
+2. Geben Sie im Pop-up optional einen **Version name** (zum Beispiel `v1`) und eine **Version message** ein. Wenn Sie den Namen leer lassen, erzeugt Shopify einen.
+3. Klicken Sie zur Bestätigung auf **Release**.
 
-Übersetzungen: read\_translations, write\_translations.
+Die neue Version erscheint auf der Seite **Versions** mit dem Status **Active**.
 
-Gebietsschemas: read\_locales.
+![Pop-up „Release this new version"](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/06-release-new-version-pop-up.png)
 
-    Märkte: read\_markets, write\_markets.
-    oder kopieren/einfügen Sie dies
+![Versions: v1 Active](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/07-versions-v1-active.png)
 
-    read\_locales,read\_markets,write\_markets,read\_metaobject\_definitions,read\_metaobjects,read\_product\_feeds,read\_product\_listings,read\_products,write\_products,read\_translations,write\_translations
-    6.3. Klicken Sie auf Fertig, sobald alle erforderlichen Scopes ausgewählt sind.
-    ![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/Y-HyRqCHeriVdpYrrHm2aJyi7Y8OUVBTDw.png)
-    7. Checkliste vor der Veröffentlichung: App-Konfiguration
+### 5. Die App in Ihrem Store installieren
 
--   Bevor Sie auf die Schaltfläche Freigeben klicken, überprüfen Sie Folgendes:
+Die Installationsschritte hängen von Ihrem Shopify-Kontotyp ab. Öffnen Sie zunächst die Seite **Overview** Ihrer App, indem Sie in der linken Seitenleiste auf den App-Namen klicken.
 
--   App-URL: eine gültige Store-URL wird eingegeben (z. B. [https://store-name.myshopify.com](https://store-name.myshopify.com)).
+![App-Übersicht: Installs und Distribution](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/08-app-overview-installs-and-distribution.png)
 
--   API-Version: Die Webhooks-API-Version ist auf die neueste stabile Version eingestellt (z. B. 2025-10).
+#### Option A: ein einzelner Store (kein Partner-Konto)
 
--   Embedded Interface: „App in Shopify Admin einbetten" ist aktiviert (erforderlich für Fozzels).
+1. Klicken Sie im Block **Installs** auf **Install app**.
+2. Melden Sie sich bei Aufforderung mit der **E-Mail-Adresse des Store-Inhabers** an. Nur der Store-Inhaber kann die Installation genehmigen.
+3. Prüfen Sie auf der Seite **Install app** in Ihrem Store-Admin die Liste der Zugriffsrechte und klicken Sie auf **Install**.
 
--   Obligatorische Scopes: Alle erforderlichen Berechtigungen sind vorhanden:
+Sie müssen keine Distribution konfigurieren. Fahren Sie mit Schritt 6 fort.
 
--   Produkte: read\_product\_listings, read\_products, write\_products, read\_product\_feeds
+#### Option B: ein Partner-Konto oder mehrere Stores
 
--   Metadaten: read\_metaobject\_definitions, read\_metaobjects
+Sie richten zunächst eine **Custom distribution** ein, um einen Installationslink für einen bestimmten Store zu erzeugen.
 
--   Übersetzungen: read\_translations, write\_translations
+1. Klicken Sie im Block **Distribution** auf **Select distribution method**. Dadurch wird die App in **Shopify Partners** geöffnet, einer separaten Oberfläche.
+2. Wählen Sie **Custom distribution** und klicken Sie auf **Select**.
+3. Bestätigen Sie mit **Select custom distribution**.
 
--   Gebietsschemas: read\_locales
+> **Achtung:** Die Wahl von Custom distribution lässt sich nicht rückgängig machen. Die App kann danach nur in einem Store oder innerhalb einer Plus-Organisation installiert werden.
 
--   Märkte: read\_markets, write\_markets
+![Shopify Partners: Distributionsmethoden](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/09-partners-distribution-methods.png)
 
--   Scope-Überprüfung: Alle Berechtigungen enthalten den erforderlichen Lese- und Schreibzugriff, sofern zutreffend.
+![Custom distribution ausgewählt](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/10-custom-distribution-selected.png)
 
-![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/nE6aiS2K21Vs_e5K45UMqgI7KjTAAvev9g.png)
+![Bestätigung „Select custom distribution"](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/11-select-custom-distribution-confirmation.png)
 
-8. Freigabe der Version
+4. Geben Sie unter **Store domain** Ihre Store-Domain im Format `your-store.myshopify.com` ein.
+5. Lassen Sie **Allow multi-store install for one Plus organization** deaktiviert.
+6. Klicken Sie auf **Generate link** und bestätigen Sie.
 
-8.1. So aktivieren Sie die Konfiguration:
+> **Achtung:** Auch diese Bestätigung lässt sich nicht rückgängig machen. Die App kann dann nur in dem eingegebenen Store installiert werden.
 
--   Suchen Sie die Schaltfläche Freigeben in der oberen rechten Ecke der Seite Version erstellen.
+![Custom distribution: Store domain](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/12-custom-distribution-store-domain.png)
 
--   **Klicken Sie auf Freigeben.**
+![Bestätigung „Generate link for single store install"](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/13-generate-link-confirmation.png)
 
-![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/lMRrK6F1zY287cIilwfdL7zuoi-eQJsO2A.png)
+7. Shopify zeigt den **Install link** an. Klicken Sie auf **Copy**.
+8. Öffnen Sie den Link in einem Browser, in dem Sie im Store-Admin angemeldet sind, oder senden Sie ihn an den Store-Inhaber. Das ist praktisch für Agenturen: Der Store-Inhaber kann die Installation selbst abschließen.
+9. Prüfen Sie auf der Seite **Install app**, dass **This app is exclusive to your store** angezeigt wird, sehen Sie sich die Liste der Zugriffsrechte an und klicken Sie auf **Install**.
 
-8.2. Im Pop-up-Fenster:
+![Install link mit Copy](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/14-install-link-copy.png)
 
--   Versionsnamen (optional): z. B. v1.
-    Falls leer gelassen, generiert Shopify automatisch einen Namen.
+![Seite „Install app" im Store-Admin](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/15-install-app-in-store-admin.png)
 
--   Versionsmitteilung (optional): z. B. „Anfängliches Setup für Fozzels".
+Der Text unter „This app is exclusive to your store" hängt vom Store-Typ ab und kann vom Screenshot abweichen. Die Liste der Zugriffsrechte sollte **Products, custom data, other data** enthalten. Wenn Sie nur Products sehen, fehlen Scopes: Gehen Sie zurück zu Schritt 3.
 
-8.3. **Klicken Sie auf die Schaltfläche Freigeben** in der unteren rechten Ecke, um abzuschließen.
+Nach der Installation erscheint die App in der Seitenleiste Ihres Store-Admins unter **Apps**.
 
-Der Versionsstatus wird auf **Aktiv** geändert.
+### 6. Die API-Zugangsdaten kopieren
 
-![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/m8pxnVX5dNifvnh6z0IXZfDMkkMqS2RQwA.png)
+1. Öffnen Sie im Dev Dashboard in der linken Seitenleiste Ihrer App **App settings**.
+2. Kopieren Sie im Block **Credentials** die **Client ID**.
+3. Klicken Sie auf das Augensymbol neben **Secret**, um es anzuzeigen, und kopieren Sie es.
 
-###
-![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/BA5mQQb2jWU5J80LBoSsUOIs1OoRl3M3EA.png)
+Sie fügen beide Werte in Schritt 8 in Fozzels ein.
 
-9.  Abrufen von API-Anmeldedaten
+![App settings: Credentials](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/16-app-settings-credentials.png)
 
-9.1. Im Shopify Dev Dashboard gehen Sie in der linken Seitenleiste zu **Einstellungen**.
+> **Achtung:** Klicken Sie nur dann auf **Rotate**, wenn es nötig ist. Dadurch wird ein neues Secret erzeugt, und das alte funktioniert sofort nicht mehr. Ihre Fozzels-Verbindung ist dann unterbrochen, bis Sie das Secret in Fozzels aktualisieren.
 
-9.2. Im Abschnitt **App-Anmeldedaten** (API-Schlüssel) kopieren Sie Folgendes:
+Bewahren Sie die Zugangsdaten sicher auf, zum Beispiel in einem Passwort-Manager. Versenden Sie sie nicht per E-Mail oder Chat: Das Secret gewährt Zugriff auf die Produkte und Übersetzungen Ihres Stores.
 
--   Client-ID (API-Schlüssel)
+## Teil 2. Fozzels: den Store verbinden
 
--   Client Secret (API Secret Key)
+### 7. Die Integration erstellen
 
-![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/VAGvtjJ3zAMPYkyQu6vUbofnGVh7jLqYyw.png)
+1. Melden Sie sich unter [https://app.fozzels.com](https://app.fozzels.com) bei Fozzels an und öffnen Sie **Integrations** in der linken Seitenleiste.
+2. Wählen Sie auf dem Bildschirm **Choose your integration** die Option **Shopify**.
+3. Füllen Sie im Schritt **Configuration** Folgendes aus:
+    - **Name:** ein beliebiger Name, an dem Sie die Integration erkennen.
+    - **URL:** die .myshopify.com-Adresse Ihres Stores mit https, zum Beispiel `https://your-store.myshopify.com`. Verwenden Sie nicht Ihre eigene Domain.
+4. Wählen Sie unter **Connection Method** die Option **Custom App**.
 
-10. A Installation starten
+![Fozzels: Choose your integration](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/17-fozzels-choose-your-integration.png)
 
-10.1. Nach der Veröffentlichung GEHEN Sie zur Registerkarte App-Startseite.
+![Create New Integration: Configuration und Custom App](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/18-fozzels-configuration-custom-app.png)
 
-    10.2. Stellen Sie sicher, dass Sie sich auf der Registerkarte Startseite befinden.
-Wenn Ihr Konto nur eine Website hat und Sie Fozzels ausschließlich für diese Website verwenden möchten, klicken Sie einfach auf **App installieren**. Die App wird automatisch installiert.
-Wenn Sie ein Partner-Konto haben oder mehrere Websites verwalten, müssen Sie die Verteilungseinstellungen für die Fozzels-App konfigurieren.
+Die anderen Verbindungsmethoden: **Fozzels Shopify App (OAuth)** verbindet über die offizielle Fozzels-App, ohne dass Sie eine eigene App erstellen müssen (siehe [2.3.1. Fozzels Shopify App — Erste Schritte](/integration-connectivity/fozzels-shopify-app-getting-started)). **Legacy (Manual)** ist für Verbindungen gedacht, die auf die alte Weise eingerichtet wurden.
 
-10.3. Öffnen Sie in der linken Seitenleiste die Registerkarte Verteilung.
+### 8. Die API-Zugangsdaten eingeben
 
-    10.4. Klicken Sie auf Verteilungsmethode auswählen und wählen Sie **Benutzerdefinierte Verteilung**.
-![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/pa4OKRyCk3kJpPajX3ZzHmcMAbZkGU_7Eg.png)
-![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/XfVKpSARlwl_mvRyvXXrMLHhUdvZ7M7Suw.png)
-![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/eq2IpYTVXtyGiP9Pxu2xCSHWHkNCpmP1CA.png)
+| Fozzels-Feld | Was Sie eingeben |
+| --- | --- |
+| Api Key | Client ID aus Schritt 6 |
+| Api Secret | Secret aus Schritt 6 |
+| App Host Name | `your-store.myshopify.com`, ohne https |
 
-10.6. Nach der Autorisierung kehren Sie zur Seite Benutzerdefinierte Verteilung zurück.
+Sie benötigen kein Access Token: Fozzels erzeugt es automatisch.
 
--   Geben Sie Ihre Store-Domain ein (z. B. your-store.myshopify.com).
+### 9. Den Markets-Modus wählen
 
--   Klicken Sie auf Link generieren.
+Der Markets-Modus legt fest, wie Inhalte auf Ihre Shopify-Märkte und -Sprachen verteilt werden. Wählen Sie ihn sorgfältig: Ein späterer Wechsel ist kein einfaches Umschalten (siehe [Markets-Modus später ändern?](#need-to-change-the-markets-mode-later) am Ende dieser Anleitung).
 
--   Bestätigen Sie die Aktion im Pop-up-Fenster.
+**Weg 1: Übersetzungen.** Sie benötigen für alle Märkte mit derselben Sprache dieselben Inhalte, übersetzt in jede veröffentlichte Sprache. Wählen Sie **Per language** oder **No markets** für die einfachste Einrichtung mit nur einer Website.
 
-10.7. Sie werden zur Seite App installieren in Ihrem Store Admin weitergeleitet.
+**Weg 2: Eigene Inhalte pro Markt und Sprache.** Sie benötigen für jeden Markt unterschiedliche Inhalte, auch innerhalb derselben Sprache, zum Beispiel unterschiedliche Marketing-Schwerpunkte je Region. Wählen Sie **Per market**.
 
--   Klicken Sie auf Installieren.
+| Modus | Was zur Website wird | Was synchronisiert wird |
+| --- | --- | --- |
+| No markets | Eine Website, mit einem Store pro veröffentlichter Sprache | Eine Übersetzung pro Sprache, Märkte werden ignoriert |
+| Per market | Jeder Shopify-Markt, mit einem Store pro Sprache | Jede Kombination aus Markt und Sprache separat |
+| Per language | Jede veröffentlichte Sprache | Eine Übersetzung pro Sprache, die Shopify auf alle Märkte mit dieser Sprache anwendet |
 
--   Bestätigen Sie die Meldung „Diese App ist exklusiv für Ihren Store".
+Sie verwenden LangShop? Es funktioniert nur mit **No markets** und **Per language**.
 
-![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/tCyXVtYOydxTaxoxfZezfHkC0FxDe9xsBw.png)
+![API-Zugangsdaten und Markets-Modus](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/19-fozzels-api-credentials-and-markets-mode.png)
 
-![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/R8WiM6_-2NXlrFjFg29bxZA7IkZVz9oISQ.png)
+### 10. Optionale Einstellungen
 
-10.8. Um die Synchronisierung abzuschließen, kehren Sie zu Ihrem Fozzels-Konto zurück, um die Anmeldedaten einzugeben und die Verbindung abzuschließen.
+Wenn Sie nicht sicher sind, ob Sie diese Einstellungen benötigen, behalten Sie die Standardwerte bei.
 
-11. Erstellen Sie eine Integration in Fozzels.
+**Inventory.** Aktivieren Sie diesen Schalter, um die Gewichtsdaten der ersten Produktvariante zu synchronisieren. Fozzels ruft zwei zusätzliche Attribute ab, **Weight** und **Weight Unit** (beide vom Typ Auswahl), und kann sie zurück an Shopify übertragen.
 
-11.1. Verbindungs-Setup
+> **Achtung:** Inventory erfordert die Scopes `read_inventory` und `write_inventory`. Wenn Sie diese in Schritt 3 nicht hinzugefügt haben, erstellen Sie eine neue App-Version mit diesen Scopes, veröffentlichen Sie sie und installieren Sie die App erneut, bevor Sie Inventory aktivieren. Ist der Schalter ohne diese Scopes aktiviert, kann Fozzels überhaupt keine Produkte lesen.
 
--   Melden Sie sich bei Ihrem Fozzels-Konto an: [https://app.fozzels.com](https://app.fozzels.com)
+**Global Pull Schedule.** Standardmäßig ruft Fozzels die Produkte aller aktiven Stores der Integration um 02:30 Uhr ab. Um für die gesamte Integration eine andere Uhrzeit festzulegen, aktivieren Sie **Overwrite Global Pull Schedule** und wählen Sie die Uhrzeit. Ein einzelner Store kann in seinen eigenen Einstellungen einen eigenen Zeitplan haben. Mehr dazu erfahren Sie in [3.1.2 Konfigurieren des globalen Pull-Zeitplans & API-Drosselung](/data-import-and-quality/how-to-configure-global-pull-schedule-api-throttling).
 
--   Gehen Sie zum Abschnitt Integration.
+**Delay between pages und Delay between requests.** Verwenden Sie diese Einstellungen nur, wenn Abrufe wegen der Rate Limits der Shopify-API fehlschlagen. Lassen Sie die Felder leer, um die Standardwerte der Plattform zu verwenden.
 
--   Klicken Sie auf Neue Integration.
+| Feld | Funktion | Bereich | Shopify-Standardwert |
+| --- | --- | --- | --- |
+| Delay between pages | Pause nach jeder Ergebnisseite | 100–15000 ms | 2000 ms |
+| Delay between requests | Pause zwischen einzelnen API-Anfragen | 100–15000 ms | keiner |
 
--   Wählen Sie Shopify als Plattform.
+Werte unterhalb der Standardwerte können Rate Limiting auslösen und dazu führen, dass Abrufe fehlschlagen.
 
--   Wählen Sie den Verbindungstyp Custom APP.
+![Optionen: Inventory, Global Pull Schedule, Verzögerungen und Save](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/20-fozzels-optional-settings.png)
 
--   Geben Sie den Namen der Integration ein.
+### 11. Speichern
 
--   Geben Sie die Shopify Webstore-URL ein.
+Klicken Sie unten auf der Seite auf **Save**.
 
-Hinweis:
-Verwenden Sie für die URL- und App Host Name-Felder immer die Domäne .myshopify.com, nicht die öffentliche Store-URL.
-Beispiel: teststore.myshopify.com
+### 12. Die Integration aktivieren und Websites und Stores abrufen
 
-![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/sF_OsmKhLhv87WeuVC4_yxL77LH9O2-uAw.png)
+Nachdem Sie auf **Save** geklickt haben, zeigt Fozzels „Integration was created successfully" an und öffnet den Schritt **Websites & Stores**. Das Statusfeld oben rechts zeigt **Active** ausgeschaltet, **Authorized** rot und **REST API Connected** mit einer Warnung. Das ist in diesem Stadium zu erwarten.
 
-![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/XLCPhjqaC_s3HQuyjSEhw6SsdnMZDal0vA.png)
+1. Schalten Sie oben rechts den Schalter **Active** ein. Fozzels autorisiert sich bei Shopify und erzeugt das Access Token.
+2. Klicken Sie auf **Pull Websites and Stores**.
 
-![](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/TzMbd_ReJA8hdEjYW1EFgKWryHEquafa0w.png)
+**Authorized** und **REST API Connected** sollten jetzt grün werden.
 
-12. Geben Sie API-Anmeldedaten in Fozzels ein
+![Nach Save: Statusfeld und Pull Websites and Stores](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/21-fozzels-status-after-save.png)
 
-12.1. Kopieren und fügen Sie die Anmeldedaten in Fozzels ein:
+Wenn **Authorized** rot bleibt, prüfen Sie, ob die App in Ihrem Store installiert ist (Schritt 5), ob Api Key und Api Secret mit Client ID und Secret übereinstimmen und ob App Host Name Ihr .myshopify.com-Hostname ohne https ist.
 
--   API-Schlüssel → API-Schlüsselfeld
+### 13. Websites und Stores aktivieren
 
--   API Secret Key → API Secret Feld
+Die Tabelle zeigt jetzt Ihre Websites und deren Stores. Die Struktur hängt vom Markets-Modus aus Schritt 9 ab. Im Modus **Per language** ist jede veröffentlichte Sprache eine eigene Website mit einem Store.
 
--   App Host Name → App Host Name Feld
+Ein Stern neben einer Website kennzeichnet die Standard-Website. Ein Stern neben einem Store kennzeichnet den Standard-Store dieser Website.
 
-13. Zusätzliche Einstellungen und Access Token-Generierung
+Schalten Sie für jede Website, mit der Sie arbeiten möchten, **beide** Schalter ein: **Status** im Bereich Websites und **Status** im Bereich Stores. **Pull products** ist erst verfügbar, wenn beide eingeschaltet sind.
 
-13.1 **Aktivieren Sie die Umschalter Markets oder LangShop**, wenn Sie Inhalte über mehrere Märkte oder Sprachen hinweg synchronisieren möchten.
+![Tabelle Websites & Stores nach dem Abruf](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/22-fozzels-websites-and-stores-table.png)
 
-13.2 Klicken Sie auf die Schaltfläche Speichern. Das Access Token-Feld ist nach der Generierung verfügbar.
-13.3 Gehen Sie zur Registerkarte Websites und Stores.
-13.4 Aktivieren Sie Ihre Integration.
-13.5 Klicken Sie auf die Schaltfläche Websites und Stores pullen, um sie zu erhalten.
-13.6 Das System generiert das Access Token automatisch nach erfolgreicher Autorisierung.
+### 14. Produkte abrufen
 
-14. Aktivierung und Synchronisierung
+1. Klicken Sie in der Zeile eines aktiven Stores auf **Pull products**. Fozzels startet vier Abrufe gleichzeitig: **Product Attribute**, **Category Attribute**, **Category** und **Product**.
+2. Um jeden einzelnen zu verfolgen, klicken Sie auf den Pfeil neben dem Fortschrittsbalken.
+3. Wenn alle vier Fortschrittsbalken grün bei 100 % stehen, ist der Abruf abgeschlossen. Die Spalte **Products** zeigt die Anzahl der abgerufenen Produkte.
 
-14.1. Aktivieren Sie Websites und Sprachen mit Umschaltern. Die Standardsprache ist mit einem Stern gekennzeichnet.
+![Abruffortschritt: vier Abrufe bei 100 %](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/23-fozzels-pull-progress.png)
 
-14.2. Klicken Sie auf Produkte pullen, um mit dem Import von Produkten und Attributen zu beginnen. Der Fortschritt wird in der Fortschrittsleiste angezeigt.
+**Ihre Shopify-Verbindung ist bereit.** Sie können jetzt Flows aufbauen und Ihre ersten Inhalte generieren.
 
-14.3. Gehen Sie zur Registerkarte Attribute, um die importierten Attribute anzuzeigen, zu aktivieren, zu deaktivieren oder zu bearbeiten. Weitere Informationen zur Verwaltung der Attribute  [finden Sie hier](/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/) .
+Nach dem ersten Abruf stehen im Schritt Websites & Stores die **Product Pull Conditions** zur Verfügung. Damit filtern Sie, welche Produkte importiert werden. Dies wird in einem separaten Artikel behandelt.
 
-Nach erfolgreichem Erstellen der Integration können Sie **beginnen** Sie Flows zu erstellen und Ihre **[ersten Inhalte](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/)** zu **generieren**!
+## Markets-Modus später ändern? {#need-to-change-the-markets-mode-later}
+
+Ein Wechsel des Markets-Modus, egal in welche Richtung, entfernt die alten Websites und Stores nicht. Sie bleiben in der Tabelle Websites & Stores als inaktiv stehen, markiert mit „Website is lost on integration", neben den neuen, die automatisch erstellt und aktiviert werden. Flows, die an die alten Stores gebunden sind, laufen nicht mehr.
+
+![Nach dem Wechsel von Per language zu Per market: alte Websites inaktiv neben den neuen](/img/kb/integration-connectivity/connecting-shopify-stores-to-fozzels-via-shopify-dev-platform-for-2026/24-old-websites-lost-after-mode-switch.png)
+
+- **Noch keine Flows erstellt:** Beginnen Sie für eine saubere Tabelle neu. Deaktivieren Sie die aktuelle Integration, archivieren Sie sie und erstellen Sie eine neue Integration mit demselben Api Key, Api Secret und App Host Name und dem richtigen Markets-Modus. Sie benötigen keine neue App in Shopify.
+- **Flows bereits erstellt:** Wenden Sie sich an den Fozzels-Support, bevor Sie den Modus ändern. Wir helfen Ihnen beim Wechsel, ohne dass Ihre Arbeit verloren geht.
+
+Da sich der Locale-Code auf der Shopify-Seite ändern kann, empfehlen wir, den Modus in jedem Fall über den Fozzels-Support zu ändern.
+
+Sie wechseln speziell von Per market zu Per language? Siehe [2.3.4. Eine Shopify-Integration von Per market auf Per language umstellen](/integration-connectivity/migrating-a-shopify-integration-from-per-market-to-per-language).
