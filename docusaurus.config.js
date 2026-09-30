@@ -31,6 +31,11 @@ const config = {
   url: process.env.SITE_URL ?? 'https://docs.fozzels.com',
   baseUrl: process.env.BASE_URL ?? '/',
 
+  // GitHub Pages serves every page as /path/index.html and 301-redirects
+  // /path to /path/. Emit the trailing slash in links, canonicals, hreflang
+  // and the sitemap so they point at the final URL instead of a redirect.
+  trailingSlash: true,
+
   organizationName: 'fozzels-com',
   projectName: 'docs.fozzels.com',
 
