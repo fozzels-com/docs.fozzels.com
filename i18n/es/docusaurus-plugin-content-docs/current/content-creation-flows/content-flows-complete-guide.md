@@ -41,10 +41,9 @@ Vaya a [Flows](https://app.fozzels.com/completions/product/rule) → **Create Fl
   - Ejemplo: "description is empty AND category equals Electronics"
   - Dejar vacío para procesar todos los productos en la tienda
   - Una vista previa del recuento de productos muestra cuántos productos coinciden
-- **Prompt template**: la instrucción enviada a IA, con marcadores de posición `{{attribute_code}}`
-  - Ejemplo: `Write a product description for {{name}} (SKU: {{sku}}) in category {{category}}`
-  - **Attributes tab** (`{{attribute_code}}`): siempre incluido en el aviso, incluso si el producto no tiene valor para ese atributo
-  - **Attributes (if filled) tab** (`#attribute_code`): solo incluido en el aviso cuando el producto realmente tiene un valor; útil para evitar enviar líneas vacías a IA
+- **Prompt**: la instrucción enviada a IA, escrita en el [editor de prompts](/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor). Los datos del producto se añaden como **atributos**: escriba `/` en el editor, o haga clic en uno del panel de atributos o arrástrelo. Cada atributo se sustituye por el valor propio del producto.
+  - Ejemplo: _Write a product description for_ **Name** _(SKU:_ **SKU**_) in category_ **Category**, donde las partes en negrita son atributos
+  - Un atributo con una etiqueta al lado (_Brand:_ **Brand**) va dentro de una **condición** (un bloque if): la línea entera se omite cuando el producto no tiene valor, de modo que no llegan líneas vacías a la IA
 
 ### Paso 4: Configuración de automatización
 
@@ -61,12 +60,12 @@ Vaya a [Flows](https://app.fozzels.com/completions/product/rule) → **Create Fl
 
 ## Consejos de plantilla de aviso
 
-Haga referencia a atributos con `{{attribute_code}}`: use el código exacto mostrado en Integración → Atributos.
+Inserte los datos del producto como atributos desde el panel de atributos en lugar de escribirlos: cada atributo se sustituye por el valor propio de cada producto.
 
-**Dos sintaxis de atributo:**
+**Atributo o condición:**
 
-- `{{attribute_code}}`: siempre incluido (corresponde a la pestaña **Attributes** en el editor). Use esto de forma predeterminada.
-- `#attribute_code`: incluido solo si el producto tiene un valor (corresponde a la pestaña **Attributes (if filled)**). Use para omitir campos vacíos.
+- Un **atributo suelto** va por sí solo dentro de una frase. Úselo para atributos que tienen casi todos los productos (el grado de cumplimentación en el panel de atributos muestra cuántos los tienen).
+- Una **condición** (un bloque if) contiene una línea entera, como _Brand:_ **Brand**, y la omite cuando el producto no tiene valor. Úsela para todo lo que lleve una etiqueta u otro texto alrededor del atributo, de modo que la IA nunca reciba una línea _Brand:_ vacía.
 
 Sea específico acerca de:
 
@@ -75,20 +74,21 @@ Sea específico acerca de:
 - Tono ("professional but friendly")
 - Qué evitar ("do not mention competitors")
 
-**Ejemplo para descripción de producto:**
+**Ejemplo para descripción de producto.** Las palabras en negrita son atributos. El nombre está relleno en todos los productos, así que va suelto; cada una de las demás líneas con etiqueta está dentro de una condición:
 
-```
-Write a compelling product description (150–200 words) in English.
+> Write a compelling product description (150–200 words) in English.
+>
+> Product name: **Name**
+>
+> _if Brand_ → Brand: **Brand**
+>
+> _if Category_ → Category: **Category**
+>
+> _if Short Description_ → Current short description: **Short Description**
+>
+> Focus on benefits, not just features. Use a professional but friendly tone.
 
-Product name: {{name}}
-Brand: {{brand}}
-Category: {{category_name}}
-Current short description: {{short_description}}
-
-Focus on benefits, not just features. Use a professional but friendly tone.
-```
-
-Si la salida debe contener HTML, habilite las etiquetas relevantes en [Settings → Flow Settings → Trusted HTML Tags](https://app.fozzels.com/user/settings/flow).
+**Dar formato a la salida.** El aviso en sí no lleva formato. Para obtener encabezados, listas o texto en negrita en el contenido generado, pídalos con palabras, por ejemplo _Start with an `<h2>` heading that names the product, then two short paragraphs._ Si la salida debe contener HTML, habilite las etiquetas relevantes en [Settings → Flow Settings → Trusted HTML Tags](https://app.fozzels.com/user/settings/flow).
 
 ---
 
@@ -181,14 +181,14 @@ Si cambia el **atributo de destino** o **condiciones** en un Flow que ya tiene f
 
 Se activa cuando el mismo atributo aparece como:
 
-- Una entrada en su aviso (`{{attr_code}}`)
+- Un atributo en su aviso
 - El atributo de destino de salida
 
 Esto crea un bucle infinito: cada generación sobrescribe la entrada para la próxima ejecución.
 
 Solución:
 
-- Elimine `{{attr_code}}` de la plantilla de aviso
+- Elimine ese atributo del aviso
 - O deshabilite "Regenerate on attribute change"
 
 ---

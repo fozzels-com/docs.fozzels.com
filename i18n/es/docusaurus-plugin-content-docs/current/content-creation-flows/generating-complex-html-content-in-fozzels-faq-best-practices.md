@@ -28,7 +28,7 @@ Para generaciones extensas basadas en HTML, **no recomendamos modelos ligeros co
 
 -   partes del contenido solicitado que faltan.
 
-Para la generación de HTML complejo recomendamos usar **al menos un modelo Pro**. Para resultados especialmente extensos y técnicamente complejos, **Anthropic Opus 4** es nuestra opción preferida.
+Para la generación de HTML complejo recomendamos usar **al menos un modelo Pro**. Para resultados especialmente extensos y técnicamente complejos, **Anthropic Claude Opus 5.5** es nuestra opción preferida.
 
 ## 2\. Permita todas las etiquetas HTML necesarias
 

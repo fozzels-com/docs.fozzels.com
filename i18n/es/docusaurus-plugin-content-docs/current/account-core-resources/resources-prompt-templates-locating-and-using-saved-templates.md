@@ -46,12 +46,12 @@ Para crear una nueva plantilla, haga clic en el botón **Nueva Plantilla de Indi
 
 3.  **Tipo** (Requerido): Seleccione el tipo de regla. Actualmente, solo Atributo de Producto está disponible.
 
-4.  **Plantilla** (Requerido): Ingrese el contenido de la indicación central aquí. Este texto, combinado con variables dinámicas (por ejemplo, $marca, si $color), forma la instrucción enviada a la IA para la generación.
+4.  **Plantilla** (Requerido): Ingrese el contenido de la indicación central aquí. Este texto, combinado con atributos y condiciones (por ejemplo, el atributo **Brand** o una condición sobre **Color**), forma la instrucción enviada a la IA para la generación.
     ![](/img/kb/account-core-resources/resources-prompt-templates-locating-and-using-saved-templates/MqPK3HDwXl7cBuruSGQhTcI2GMYLzXfHOQ.png)
 
 Lógica de Indicación y Mejores Prácticas
 
--   **Variables Dinámicas**: El texto de la indicación debe utilizar lógica condicional y variables dinámicas (por ejemplo, etiquetas if, {{vendor}}) para incluir datos específicos del producto, evitando la codificación fija.
+-   **Variables Dinámicas**: El texto de la indicación debe utilizar atributos y condiciones (por ejemplo, el atributo **Vendor** dentro de una condición) para incluir datos específicos del producto, evitando la codificación fija.
 
 -   **Estilo**: Asegúrese de que los requisitos de idioma y estilo (por ejemplo, tono, uso de listas con viñetas, formato HTML) coincidan con su caso de uso.
 

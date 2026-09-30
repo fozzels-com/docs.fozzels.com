@@ -110,7 +110,7 @@ Wenn die Vorschau ausgeblendet ist, rückt das Attribut-Panel nach rechts und de
 
 ![Schaltfläche „Snippets“ und das Snippets-Panel](/img/kb/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor/10-snippets-button-and-the-snippets-panel.png)
 
-Der Editor akzeptiert reinen Text und gängige HTML-Tags wie `<h2>`, `<ul>` und `<strong>`. Siehe [4.7.3 Erlaubte HTML-Tags](/content-creation-flows/allowed-html-tags-for-ai-text-generation).
+Der Prompt selbst hat keine Formatierung: keine Überschriften, Listen oder fett gedruckten Text. Wenn der generierte Inhalt diese enthalten soll, fordern Sie sie in Worten an. Sie können HTML-Tags wie `<h2>`, `<ul>` und `<strong>` in der Anweisung nennen, zum Beispiel _Beginnen Sie mit einer `<h2>`-Überschrift, die das Produkt nennt_. Der Editor zeigt sie als reinen Text an. Tags, die die Ausgabe enthalten soll, müssen erlaubt sein, siehe [4.7.3 Erlaubte HTML-Tags](/content-creation-flows/allowed-html-tags-for-ai-text-generation).
 
 ## 3. Attribute hinzufügen
 
@@ -431,7 +431,11 @@ Prompts verknüpfen Attribute über ihren eindeutigen technischen Schlüssel, ni
 
 ## 11. Den Prompt mit dem AI Prompt Assistant bearbeiten
 
-Der AI Prompt Assistant kann Ihren Prompt für Sie schreiben oder erweitern. Er liest den aktuellen Prompt und antwortet nur mit dem Teil, der hinzugefügt werden soll. Wenn Ihr Prompt zum Beispiel eine SEO-Beschreibung anfordert und Sie „add slug“ eingeben, schlägt er nur das neue Element vor.
+Der AI Prompt Assistant kann Ihren Prompt für Sie schreiben, erweitern oder umschreiben. Er liest den aktuellen Prompt, einschließlich seiner Bedingungen, Snippets und Blöcke.
+
+- Wenn Sie ihn bitten, etwas **hinzuzufügen**, antwortet er nur mit dem neuen Teil. Wenn Ihr Prompt zum Beispiel eine SEO-Beschreibung anfordert und Sie „add slug“ eingeben, schlägt er nur das neue Element vor, für **Add** oder **At cursor**.
+- Wenn Sie ihn bitten, den Prompt zu **ändern** (ihn zu verbessern oder umzuschreiben, eine Zeile zu entfernen oder zu bearbeiten oder eine Zeile am Anfang oder in der Mitte hinzuzufügen), antwortet er mit dem vollständigen Prompt, für **Replace all**. Alles, was Sie nicht ändern lassen wollten, bleibt unverändert erhalten, einschließlich Snippets, Bedingungen, Attribute lists, Category lists und Integration connectors.
+- Wenn der generierte Inhalt Überschriften, Listen oder HTML enthalten soll, fragen Sie einfach danach, zum Beispiel _start the description with an h2 heading with the product name_. Der Assistent fügt dies als Anweisung in Worten hinzu, da der Prompt selbst keine Formatierung enthält.
 
 Klicken Sie zum Öffnen auf die blaue Chat-Schaltfläche unten rechts auf der Seite. Das Panel **AI Assistant** öffnet sich neben dem Editor. Geben Sie Ihre Anfrage ein, zum Beispiel _Help me create a prompt for Description. Use filled attributes._, und drücken Sie zum Senden **Enter**. Mit **Shift+Enter** erzeugen Sie eine neue Zeile.
 

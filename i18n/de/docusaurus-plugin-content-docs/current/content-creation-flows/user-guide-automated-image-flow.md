@@ -212,7 +212,7 @@ To the right of the editor, you will find a list of available **Attributes** (e.
 
 -   **Detailed Guide:** You can read more about the mechanics and capabilities of the drag-and-drop editor here ....
 
--   **Result:** When the flow runs, the system automatically replaces the tag (e.g., `{{Color}}`) with the actual value from each specific product card. This ensures that a blue dress is generated as blue, and a leather jacket is rendered with a realistic leather texture.
+-   **Result:** When the flow runs, the system automatically replaces the attribute (e.g., **Color**) with the actual value from each specific product card. This ensures that a blue dress is generated as blue, and a leather jacket is rendered with a realistic leather texture.
 
 #### **3\. Templates & Reusability**
 

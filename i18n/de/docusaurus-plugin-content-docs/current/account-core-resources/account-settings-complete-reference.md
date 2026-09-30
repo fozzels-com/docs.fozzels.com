@@ -42,7 +42,7 @@ Wählen Sie, welche E-Mails Fozzels Ihnen sendet:
 
 Fügen Sie Ihren eigenen OpenAI-API-Schlüssel hinzu, um Ihre persönliche OpenAI-Abrechnung anstelle von Fozzels-Credits zu verwenden.
 
-- Wenn eingestellt, verwenden alle OpenAI-basierten Flows und der KI-Assistent Ihren Schlüssel direkt
+- Wenn eingestellt, verwenden alle OpenAI-basierten Flows Ihren Schlüssel direkt (der KI-Assistent läuft über Anthropic und verwendet ihn nicht)
 - Sie benötigen immer noch ein Mindestguthaben von €0,01 in Fozzels, um diese Funktion zu nutzen
 - Lassen Sie es leer, um den Fozzels-Plattformschlüssel zu verwenden (Credits werden von Ihrem Guthaben abgezogen)
 

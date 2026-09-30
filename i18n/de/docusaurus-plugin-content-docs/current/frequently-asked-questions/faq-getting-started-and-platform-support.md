@@ -28,7 +28,7 @@ Shopify, Shopware 6, WooCommerce, Magento, Lightspeed und PIM-Systeme wie Katana
 
 ## Welche KI-Modelle sind in Fozzels verfügbar?
 
-Mehrere Modelle: Claude (Sonnet 4, 4.5), ChatGPT (GPT-5, 5.2), Google Gemini (2.5, 3 Pro) und mehr. Modelle werden regelmäßig aktualisiert.
+Mehrere Modelle: Claude (Opus 5.5, Sonnet 5.5, Fable 5.1, Haiku 4.5), ChatGPT (GPT-5.5, GPT-6 Astra und andere), Google Gemini (3 Pro, 3.8 Flash), xAI Grok und mehr. Modelle werden regelmäßig aktualisiert.
 
 ## Ich wechsle die Webshop-Plattform (z. B. Magento zu CCV Shop). Was sollte ich tun?
 

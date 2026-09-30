@@ -42,10 +42,9 @@ Ga naar [Flows](https://app.fozzels.com/completions/product/rule) → **Create F
   - Voorbeeld: "description is empty AND category equals Electronics"
   - Laat leeg om alle producten in de winkel te verwerken
   - Een producttellingvoorvertoning toont hoeveel producten overeenkomen
-- **Prompt template** — de instructie die naar AI wordt gestuurd, met `{{attribute_code}}` placeholders
-  - Voorbeeld: `Write a product description for {{name}} (SKU: {{sku}}) in category {{category}}`
-  - **Attributes tab** (`{{attribute_code}}`) — altijd opgenomen in de prompt, zelfs als het product geen waarde voor dat attribuut heeft
-  - **Attributes (if filled) tab** (`#attribute_code`) — alleen opgenomen in de prompt wanneer het product werkelijk een waarde heeft; nuttig om lege regels naar de AI te voorkomen
+- **Prompt** — de instructie die naar AI wordt gestuurd, geschreven in de [prompteditor](/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor). Productgegevens voegt u in als **attributen**: typ `/` in de editor, of klik of sleep er een vanuit het attributenpaneel. Elk attribuut wordt vervangen door de eigen waarde van het product.
+  - Voorbeeld: _Write a product description for_ **Name** _(SKU:_ **SKU**_) in category_ **Category**, waarbij de vetgedrukte delen attributen zijn
+  - Een attribuut met een label ervoor (_Brand:_ **Brand**) hoort in een **voorwaarde** (een if-blok): de hele regel wordt weggelaten als het product geen waarde heeft, zodat er geen lege regels bij de AI terechtkomen
 
 ### Stap 4 — Automatiseringsinstellingen
 
@@ -62,12 +61,12 @@ Ga naar [Flows](https://app.fozzels.com/completions/product/rule) → **Create F
 
 ## Prompt template tips
 
-Verwijs naar attributen met `{{attribute_code}}` — gebruik de exacte code weergegeven in Integration → Attributes.
+Voeg productgegevens in als attributen vanuit het attributenpaneel in plaats van ze uit te typen: een attribuut wordt vervangen door de eigen waarde van elk product.
 
-**Twee attribuutsyntaxen:**
+**Attribuut of voorwaarde:**
 
-- `{{attribute_code}}` — altijd opgenomen (komt overeen met het **Attributes** tabblad in de editor). Gebruik dit standaard.
-- `#attribute_code` — opgenomen alleen als het product een waarde heeft (komt overeen met het **Attributes (if filled)** tabblad). Gebruik om lege velden over te slaan.
+- Een **los attribuut** staat op zichzelf binnen een zin. Gebruik het voor attributen die bijna elk product heeft (de vulgraad in het attributenpaneel laat zien hoeveel producten dat zijn).
+- Een **voorwaarde** (een if-blok) bevat een hele regel, zoals _Brand:_ **Brand**, en laat die weg als het product geen waarde heeft. Gebruik dit voor alles met een label of andere tekst rond het attribuut, zodat de AI nooit een lege regel _Brand:_ ontvangt.
 
 Wees specifiek over:
 
@@ -76,20 +75,21 @@ Wees specifiek over:
 - Toon ("professional but friendly")
 - Wat u moet vermijden ("do not mention competitors")
 
-**Voorbeeld voor productbeschrijving:**
+**Voorbeeld voor productbeschrijving.** Vetgedrukte woorden zijn attributen. De naam is bij elk product ingevuld en staat dus los; de andere regels met een label staan elk in een voorwaarde:
 
-```
-Write a compelling product description (150–200 words) in English.
+> Write a compelling product description (150–200 words) in English.
+>
+> Product name: **Name**
+>
+> _if Brand_ → Brand: **Brand**
+>
+> _if Category_ → Category: **Category**
+>
+> _if Short Description_ → Current short description: **Short Description**
+>
+> Focus on benefits, not just features. Use a professional but friendly tone.
 
-Product name: {{name}}
-Brand: {{brand}}
-Category: {{category_name}}
-Current short description: {{short_description}}
-
-Focus on benefits, not just features. Use a professional but friendly tone.
-```
-
-Als de output HTML moet bevatten, schakel de relevante tags in op [Settings → Flow Settings → Trusted HTML Tags](https://app.fozzels.com/user/settings/flow).
+**De output opmaken.** De prompt zelf heeft geen opmaak. Wilt u koppen, lijsten of vetgedrukte tekst in de gegenereerde content, vraag er dan in woorden om, bijvoorbeeld _Begin met een `<h2>`-kop met de naam van het product, gevolgd door twee korte alinea's._ Als de output HTML moet bevatten, schakel de relevante tags in op [Settings → Flow Settings → Trusted HTML Tags](https://app.fozzels.com/user/settings/flow).
 
 ---
 
@@ -182,14 +182,14 @@ Als u het **target attribute** of **conditions** op een Flow wijzigt die al volt
 
 Geactiveerd wanneer hetzelfde attribuut verschijnt als:
 
-- Een input in uw prompt (`{{attr_code}}`)
+- Een attribuut in uw prompt
 - Het output doelattribuut
 
 Dit creëert een oneindige lus — elke generatie overschrijft de input voor de volgende run.
 
 Oplossing:
 
-- Verwijder `{{attr_code}}` uit de promptsjabloon
+- Verwijder dat attribuut uit de prompt
 - OF schakel "Regenerate on attribute change" uit
 
 ---

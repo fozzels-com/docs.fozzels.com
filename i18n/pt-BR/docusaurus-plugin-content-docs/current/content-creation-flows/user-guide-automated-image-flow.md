@@ -209,7 +209,7 @@ Como este prompt será aplicado a cada item único dentro de seu fluxo, ele deve
 
 -   **Guia Detalhado:** Você pode ler mais sobre a mecânica e capacidades do editor arrastar-e-soltar aqui ....
 
--   **Resultado:** Quando o fluxo executa, o sistema automaticamente substitui a tag (por exemplo, `{{Cor}}`) com o valor atual de cada cartão de produto específico. Isto garante que um vestido azul seja gerado como azul e uma jaqueta de couro seja renderizada com uma textura de couro realista.
+-   **Resultado:** Quando o fluxo executa, o sistema automaticamente substitui o atributo (por exemplo, **Cor**) com o valor atual de cada cartão de produto específico. Isto garante que um vestido azul seja gerado como azul e uma jaqueta de couro seja renderizada com uma textura de couro realista.
 
 #### **3\. Modelos e Reutilização**
 

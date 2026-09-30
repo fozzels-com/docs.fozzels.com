@@ -28,7 +28,7 @@ Para gerações grandes baseadas em HTML, **não recomendamos modelos leves como
 
 -   partes ausentes do conteúdo solicitado.
 
-Para geração de HTML complexo, recomendamos usar **pelo menos um modelo Pro**. Para resultados especialmente grandes e tecnicamente complexos, o **Anthropic Opus 4** é nossa opção preferida.
+Para geração de HTML complexo, recomendamos usar **pelo menos um modelo Pro**. Para resultados especialmente grandes e tecnicamente complexos, o **Anthropic Claude Opus 5.5** é nossa opção preferida.
 
 ## 2\. Permita todas as tags HTML necessárias
 
