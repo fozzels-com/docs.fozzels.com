@@ -46,12 +46,12 @@ Um eine neue Vorlage zu erstellen, klicken Sie oben auf der Seite auf die Schalt
 
 3.  **Kind** (Erforderlich): Wählen Sie die Regelart aus. Derzeit ist nur Produktattribut verfügbar.
 
-4.  **Vorlage** (Erforderlich): Geben Sie hier den Kern-Prompt-Inhalt ein. Dieser Text bildet zusammen mit dynamischen Variablen (z. B. $brand, if $color) die an die KI gesendete Anweisung zur Generierung.
+4.  **Vorlage** (Erforderlich): Geben Sie hier den Kern-Prompt-Inhalt ein. Dieser Text bildet zusammen mit Attributen und Bedingungen (z. B. dem Attribut **Brand** oder einer Bedingung auf **Color**) die an die KI gesendete Anweisung zur Generierung.
     ![](/img/kb/account-core-resources/resources-prompt-templates-locating-and-using-saved-templates/MqPK3HDwXl7cBuruSGQhTcI2GMYLzXfHOQ.png)
 
 Prompt-Logik und Best Practices
 
--   **Dynamische Variablen**: Prompt-Text sollte bedingte Logik und dynamische Variablen (z. B. if-Tags, {{vendor}}) verwenden, um produktspezifische Daten zu erfassen und das Hardcodieren zu vermeiden.
+-   **Dynamische Variablen**: Prompt-Text sollte Attribute und Bedingungen (z. B. das Attribut **Vendor** innerhalb einer Bedingung) verwenden, um produktspezifische Daten zu erfassen und das Hardcodieren zu vermeiden.
 
 -   **Styling**: Stellen Sie sicher, dass die Sprach- und Stilanforderungen (z. B. Ton, Verwendung von Aufzählungslisten, HTML-Format) Ihrem Anwendungsfall entsprechen.
 

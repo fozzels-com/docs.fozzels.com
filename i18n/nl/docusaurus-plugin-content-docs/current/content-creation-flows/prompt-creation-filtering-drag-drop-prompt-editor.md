@@ -110,7 +110,7 @@ Als de Preview verborgen is, schuift het attributenpaneel naar rechts en krijgt 
 
 ![Knop Snippets en het Snippets-paneel](/img/kb/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor/10-snippets-button-and-the-snippets-panel.png)
 
-De editor accepteert platte tekst en standaard HTML-tags zoals `<h2>`, `<ul>` en `<strong>`. Zie [4.7.3 Toegestane HTML-tags](/content-creation-flows/allowed-html-tags-for-ai-text-generation).
+De prompt zelf heeft geen opmaak: geen koppen, lijsten of vetgedrukte tekst. Wilt u die in de gegenereerde content, vraag er dan in woorden om. U kunt HTML-tags zoals `<h2>`, `<ul>` en `<strong>` in de instructie noemen, bijvoorbeeld _Begin met een `<h2>`-kop met de naam van het product_. De editor toont ze als platte tekst. Tags die de output moet bevatten, moeten zijn toegestaan, zie [4.7.3 Toegestane HTML-tags](/content-creation-flows/allowed-html-tags-for-ai-text-generation).
 
 ## 3. Attributen toevoegen
 
@@ -431,7 +431,11 @@ Prompts koppelen attributen via hun unieke technische sleutel, niet via hun naam
 
 ## 11. De prompt bewerken met de AI Prompt Assistant
 
-De AI Prompt Assistant kan uw prompt voor u schrijven of uitbreiden. De assistent leest de huidige prompt en antwoordt alleen met het deel dat moet worden toegevoegd. Vraagt uw prompt bijvoorbeeld om een SEO-beschrijving en vraagt u "add slug", dan stelt de assistent alleen het nieuwe stuk voor.
+De AI Prompt Assistant kan uw prompt voor u schrijven, uitbreiden of herschrijven. De assistent leest de huidige prompt, inclusief de voorwaarden, snippets en blokken.
+
+- Vraagt u de assistent iets **toe te voegen**, dan antwoordt hij alleen met het nieuwe deel. Vraagt uw prompt bijvoorbeeld om een SEO-beschrijving en vraagt u "add slug", dan stelt de assistent alleen het nieuwe stuk voor, voor **Add** of **At cursor**.
+- Vraagt u de assistent de prompt te **wijzigen** (verbeteren of herschrijven, een regel verwijderen of aanpassen, of een regel aan het begin of in het midden toevoegen), dan antwoordt hij met de complete prompt, voor **Replace all**. Alles wat u niet wilde wijzigen, blijft zoals het is, inclusief snippets, voorwaarden, attribuutlijsten, categorielijsten en integration connectors.
+- Wilt u koppen, lijsten of HTML in de gegenereerde content, vraag er dan gewoon om, bijvoorbeeld _begin de beschrijving met een h2-kop met de productnaam_. De assistent voegt dit toe als instructie in woorden, omdat de prompt zelf geen opmaak heeft.
 
 Klik op de blauwe chatknop rechtsonder op de pagina om de assistent te openen. Het paneel **AI Assistant** opent naast de editor. Typ uw verzoek, bijvoorbeeld _Help me create a prompt for Description. Use filled attributes._, en druk op **Enter** om het te versturen. Met **Shift+Enter** maakt u een nieuwe regel.
 

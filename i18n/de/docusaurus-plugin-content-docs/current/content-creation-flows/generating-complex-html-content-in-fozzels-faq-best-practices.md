@@ -28,7 +28,7 @@ Für große HTML-basierte Generierungen empfehlen wir **keine leichtgewichtigen 
 
 -   fehlende Teile der angeforderten Inhalte.
 
-Für die Generierung komplexer HTML-Inhalte empfehlen wir **mindestens ein Pro-Modell**. Für besonders große und technisch komplexe Ausgaben ist **Anthropic Opus 4** unsere bevorzugte Option.
+Für die Generierung komplexer HTML-Inhalte empfehlen wir **mindestens ein Pro-Modell**. Für besonders große und technisch komplexe Ausgaben ist **Anthropic Claude Opus 5.5** unsere bevorzugte Option.
 
 ## 2\. Erlauben Sie alle erforderlichen HTML-Tags
 

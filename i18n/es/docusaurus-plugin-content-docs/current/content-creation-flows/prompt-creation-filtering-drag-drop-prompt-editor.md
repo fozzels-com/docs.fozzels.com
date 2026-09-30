@@ -110,7 +110,7 @@ Cuando la vista previa está oculta, el panel de atributos pasa a la derecha y e
 
 ![Botón Snippets y el panel Snippets](/img/kb/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor/10-snippets-button-and-the-snippets-panel.png)
 
-El editor admite texto sin formato y etiquetas HTML estándar como `<h2>`, `<ul>` y `<strong>`. Consulte [4.7.3 Etiquetas HTML permitidas](/content-creation-flows/allowed-html-tags-for-ai-text-generation).
+El prompt en sí no tiene formato: ni encabezados, ni listas, ni texto en negrita. Para obtenerlos en el contenido generado, pídalos con palabras. Puede nombrar etiquetas HTML como `<h2>`, `<ul>` y `<strong>` en la instrucción, por ejemplo _Start with an `<h2>` heading that names the product_. El editor las muestra como texto sin formato. Las etiquetas que deba contener el resultado tienen que estar permitidas; consulte [4.7.3 Etiquetas HTML permitidas](/content-creation-flows/allowed-html-tags-for-ai-text-generation).
 
 ## 3. Añadir atributos
 
@@ -431,7 +431,11 @@ Los prompts vinculan los atributos por su clave técnica única, no por su nombr
 
 ## 11. Editar el prompt con el AI Prompt Assistant
 
-El AI Prompt Assistant puede escribir o ampliar el prompt por usted. Lee el prompt actual y responde solo con la parte que hay que añadir. Por ejemplo, si su prompt pide una descripción SEO y usted le pide "add slug", sugiere solo el fragmento nuevo.
+El AI Prompt Assistant puede escribir, ampliar o reescribir el prompt por usted. Lee el prompt actual, incluidas sus condiciones, snippets y bloques.
+
+- Cuando le pide que **añada** algo, responde solo con la parte nueva. Por ejemplo, si su prompt pide una descripción SEO y usted le pide "add slug", sugiere solo el fragmento nuevo, para **Add** o **At cursor**.
+- Cuando le pide que **cambie** el prompt (mejorarlo o reescribirlo, eliminar o editar una línea, o añadir una línea al principio o en medio), responde con el prompt completo, para **Replace all**. Todo lo que no pidió cambiar se conserva tal cual, incluidos los snippets, las condiciones, las listas de atributos, las listas de categorías y los conectores de integración.
+- Para obtener encabezados, listas o HTML en el contenido generado, basta con pedirlo, por ejemplo _start the description with an h2 heading with the product name_. El asistente lo añade como una instrucción con palabras, porque el prompt en sí no lleva formato.
 
 Para abrirlo, haga clic en el botón azul de chat de la esquina inferior derecha de la página. El panel **AI Assistant** se abre junto al editor. Escriba su petición, por ejemplo _Help me create a prompt for Description. Use filled attributes._, y pulse **Enter** para enviarla. Use **Shift+Enter** para pasar a una línea nueva.
 

@@ -42,7 +42,7 @@ Schakel in/uit welke e-mails Fozzels u stuurt:
 
 Voeg uw eigen OpenAI API-sleutel toe om uw persoonlijke OpenAI-facturering te gebruiken in plaats van Fozzels-tegoed.
 
-- Als dit is ingesteld, gebruiken alle OpenAI-gebaseerde Flows en de AI-assistent uw sleutel rechtstreeks
+- Als dit is ingesteld, gebruiken alle OpenAI-gebaseerde Flows uw sleutel rechtstreeks (de AI-assistent draait op Anthropic en gebruikt deze sleutel niet)
 - U hebt nog steeds een minimum van €0,01 saldo in Fozzels nodig om deze functie te gebruiken
 - Laat leeg om de Fozzels platform-sleutel te gebruiken (tegoed wordt afgetrokken van uw saldo)
 

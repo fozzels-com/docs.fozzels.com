@@ -68,7 +68,7 @@ Each integration can contain multiple websites, and each website can contain mul
 
 | Flag | What it does |
 |------|-------------|
-| **Filterable** | Attribute appears in the Catalog filter and can be used as input in Flow prompts (`{{attribute_code}}`) |
+| **Filterable** | Attribute appears in the Catalog filter and can be used as input in Flow prompts (inserted as an attribute in the prompt editor) |
 | **Mutable** | Fozzels can write AI-generated content to this attribute (required for Flow output) |
 | **Enabled** | Attribute is active and visible in Fozzels |
 | **HTML-able** | Allows HTML content in this attribute (text/textarea types only) |

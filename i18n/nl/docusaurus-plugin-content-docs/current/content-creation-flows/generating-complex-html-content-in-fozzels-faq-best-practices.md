@@ -28,7 +28,7 @@ Voor grote HTML-gebaseerde generaties raden we **lichtgewicht modellen zoals Gem
 
 -   ontbrekende delen van de gevraagde content.
 
-Voor complexe HTML-generatie raden we **minimaal een Pro-model** aan. Voor bijzonder grote en technisch complexe output is **Anthropic Opus 4** onze voorkeursoptie.
+Voor complexe HTML-generatie raden we **minimaal een Pro-model** aan. Voor bijzonder grote en technisch complexe output is **Anthropic Claude Opus 5.5** onze voorkeursoptie.
 
 ## 2\. Sta alle benodigde HTML-tags toe
 

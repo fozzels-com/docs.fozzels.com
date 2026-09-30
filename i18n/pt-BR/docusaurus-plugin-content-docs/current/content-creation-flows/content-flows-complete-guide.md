@@ -41,10 +41,9 @@ Acesse [Flows](https://app.fozzels.com/completions/product/rule) → **Create Fl
   - Exemplo: "description is empty AND category equals Electronics"
   - Deixe vazio para processar todos os produtos na loja
   - Uma visualização de contagem de produtos mostra quantos produtos correspondem
-- **Prompt template** — a instrução enviada para a IA, com placeholders `{{attribute_code}}`
-  - Exemplo: `Write a product description for {{name}} (SKU: {{sku}}) in category {{category}}`
-  - **Attributes tab** (`{{attribute_code}}`) — sempre incluído no prompt, mesmo que o produto não tenha valor para esse atributo
-  - **Attributes (if filled) tab** (`#attribute_code`) — incluído apenas no prompt quando o produto realmente tem um valor; útil para evitar enviar linhas vazias para a IA
+- **Prompt** — a instrução enviada para a IA, escrita no [editor de prompt](/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor). Os dados do produto entram como **atributos**: digite `/` no editor, ou clique ou arraste um atributo do painel de atributos. Cada atributo é substituído pelo valor do próprio produto.
+  - Exemplo: _Write a product description for_ **Name** _(SKU:_ **SKU**_) in category_ **Category**, em que as partes em negrito são atributos
+  - Um atributo com um rótulo ao lado (_Brand:_ **Brand**) deve ficar em uma **condição** (um bloco if): a linha inteira é deixada de fora quando o produto não tem valor, então nenhuma linha vazia chega à IA
 
 ### Etapa 4 — Configurações de automação
 
@@ -61,12 +60,12 @@ Acesse [Flows](https://app.fozzels.com/completions/product/rule) → **Create Fl
 
 ## Dicas de modelo de prompt
 
-Referencie atributos com `{{attribute_code}}` — use o código exato mostrado em Integration → Attributes.
+Insira os dados do produto como atributos a partir do painel de atributos, em vez de digitá-los: um atributo é substituído pelo valor de cada produto.
 
-**Duas sintaxes de atributo:**
+**Atributo ou condição:**
 
-- `{{attribute_code}}` — sempre incluído (corresponde à aba **Attributes** no editor). Use isto por padrão.
-- `#attribute_code` — incluído apenas se o produto tiver um valor (corresponde à aba **Attributes (if filled)**). Use para pular campos vazios.
+- Um **atributo simples** fica sozinho dentro de uma frase. Use-o para atributos que quase todos os produtos têm (a taxa de preenchimento no painel de atributos mostra quantos têm).
+- Uma **condição** (um bloco if) contém uma linha inteira, como _Brand:_ **Brand**, e a deixa de fora quando o produto não tem valor. Use-a para tudo que tenha um rótulo ou outro texto ao redor do atributo, para que a IA nunca receba uma linha _Brand:_ vazia.
 
 Seja específico sobre:
 
@@ -75,20 +74,21 @@ Seja específico sobre:
 - Tom ("professional but friendly")
 - O que evitar ("do not mention competitors")
 
-**Exemplo para descrição de produto:**
+**Exemplo para descrição de produto.** As palavras em negrito são atributos. O nome está preenchido em todos os produtos, então fica como atributo simples; cada uma das outras linhas com rótulo fica em uma condição:
 
-```
-Write a compelling product description (150–200 words) in English.
+> Write a compelling product description (150–200 words) in English.
+>
+> Product name: **Name**
+>
+> _if Brand_ → Brand: **Brand**
+>
+> _if Category_ → Category: **Category**
+>
+> _if Short Description_ → Current short description: **Short Description**
+>
+> Focus on benefits, not just features. Use a professional but friendly tone.
 
-Product name: {{name}}
-Brand: {{brand}}
-Category: {{category_name}}
-Current short description: {{short_description}}
-
-Focus on benefits, not just features. Use a professional but friendly tone.
-```
-
-Se a saída deve conter HTML, habilite as tags relevantes em [Settings → Flow Settings → Trusted HTML Tags](https://app.fozzels.com/user/settings/flow).
+**Formatando a saída.** O prompt em si não tem formatação. Para ter títulos, listas ou texto em negrito no conteúdo gerado, peça isso em palavras, por exemplo _Comece com um título `<h2>` com o nome do produto, depois dois parágrafos curtos._ Se a saída deve conter HTML, habilite as tags relevantes em [Settings → Flow Settings → Trusted HTML Tags](https://app.fozzels.com/user/settings/flow).
 
 ---
 
@@ -181,14 +181,14 @@ Se você mudar o **target attribute** ou **conditions** em um Flow que já tem c
 
 Disparado quando o mesmo atributo aparece como:
 
-- Uma entrada em seu prompt (`{{attr_code}}`)
+- Um atributo em seu prompt
 - O atributo de destino de saída
 
 Isto cria um loop infinito — cada geração sobrescreve a entrada para a próxima execução.
 
 Solução:
 
-- Remova `{{attr_code}}` do modelo de prompt
+- Remova esse atributo do prompt
 - OU desabilite "Regenerate on attribute change"
 
 ---

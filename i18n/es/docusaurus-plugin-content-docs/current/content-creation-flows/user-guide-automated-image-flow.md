@@ -203,7 +203,7 @@ A la derecha del editor, encontrará una lista de **atributos** disponibles (p. 
 
 -   **Guía detallada:** Puede leer más sobre la mecánica y capacidades del editor de arrastrar y soltar aquí ....
 
--   **Resultado:** Cuando se ejecuta el flujo, el sistema reemplaza automáticamente la etiqueta (p. ej., `{{Color}}`) con el valor real de cada tarjeta de producto específica. Esto garantiza que un vestido azul se genere como azul y una chaqueta de cuero se represente con una textura de cuero realista.
+-   **Resultado:** Cuando se ejecuta el flujo, el sistema reemplaza automáticamente el atributo (p. ej., **Color**) con el valor real de cada tarjeta de producto específica. Esto garantiza que un vestido azul se genere como azul y una chaqueta de cuero se represente con una textura de cuero realista.
 
 #### **3\. Plantillas y reutilización**
 

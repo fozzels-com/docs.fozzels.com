@@ -42,10 +42,9 @@ Gehen Sie zu [Flows](https://app.fozzels.com/completions/product/rule) → **Cre
   - Beispiel: "description is empty AND category equals Electronics"
   - Leer lassen, um alle Produkte im Shop zu verarbeiten
   - Eine Produktanzahl-Vorschau zeigt, wie viele Produkte dem Filter entsprechen
-- **Prompt-Vorlage** — die Anweisung an die KI mit Platzhaltern `{{attribute_code}}`
-  - Beispiel: `Write a product description for {{name}} (SKU: {{sku}}) in category {{category}}`
-  - **Attribute-Tab** (`{{attribute_code}}`) — immer in der Eingabeaufforderung enthalten, auch wenn das Produkt keinen Wert für dieses Attribut hat
-  - **Attribute (if filled) Tab** (`#attribute_code`) — nur in der Eingabeaufforderung enthalten, wenn das Produkt tatsächlich einen Wert hat; nützlich, um zu vermeiden, dass leere Zeilen an die KI gesendet werden
+- **Prompt** — die Anweisung an die KI, geschrieben im [Prompt-Editor](/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor). Produktdaten fügen Sie als **Attribute** ein: Geben Sie `/` im Editor ein, oder klicken bzw. ziehen Sie ein Attribut aus dem Attribut-Panel. Jedes Attribut wird durch den Wert des jeweiligen Produkts ersetzt.
+  - Beispiel: _Write a product description for_ **Name** _(SKU:_ **SKU**_) in category_ **Category**, wobei die fett gedruckten Teile Attribute sind
+  - Ein Attribut mit einem Label daneben (_Brand:_ **Brand**) gehört in eine **Bedingung** (einen if-Block): Die ganze Zeile entfällt, wenn das Produkt keinen Wert hat, sodass keine leeren Zeilen an die KI gelangen
 
 ### Schritt 4 — Automatisierungseinstellungen
 
@@ -62,12 +61,12 @@ Gehen Sie zu [Flows](https://app.fozzels.com/completions/product/rule) → **Cre
 
 ## Tipps für Prompt-Vorlagen
 
-Referenzieren Sie Attribute mit `{{attribute_code}}` — verwenden Sie den exakten Code, der in Integration → Attribute angezeigt wird.
+Fügen Sie Produktdaten als Attribute aus dem Attribut-Panel ein, anstatt sie abzutippen: Ein Attribut wird durch den Wert des jeweiligen Produkts ersetzt.
 
-**Zwei Attribut-Syntaxen:**
+**Attribut oder Bedingung:**
 
-- `{{attribute_code}}` — immer enthalten (entspricht dem **Attribute**-Tab im Editor). Verwenden Sie dies standardmäßig.
-- `#attribute_code` — enthalten, nur wenn das Produkt einen Wert hat (entspricht dem **Attribute (if filled)**-Tab). Verwenden Sie dies, um leere Felder zu überspringen.
+- Ein **einfaches Attribut** steht für sich innerhalb eines Satzes. Verwenden Sie es für Attribute, die fast jedes Produkt hat (der Befüllungsgrad im Attribut-Panel zeigt, wie viele es sind).
+- Eine **Bedingung** (ein if-Block) enthält eine ganze Zeile, etwa _Brand:_ **Brand**, und lässt sie weg, wenn das Produkt keinen Wert hat. Verwenden Sie sie für alles mit einem Label oder anderem Text um das Attribut herum, damit die KI nie eine leere Zeile _Brand:_ erhält.
 
 Seien Sie spezifisch über:
 
@@ -76,20 +75,21 @@ Seien Sie spezifisch über:
 - Ton ("professionell, aber freundlich")
 - Was zu vermeiden ist ("erwähnen Sie keine Konkurrenten")
 
-**Beispiel für Produktbeschreibung:**
+**Beispiel für Produktbeschreibung.** Fett gedruckte Wörter sind Attribute. Der Name ist bei jedem Produkt befüllt und steht daher als einfaches Attribut; die anderen Zeilen mit Label stehen jeweils in einer Bedingung:
 
-```
-Write a compelling product description (150–200 words) in English.
+> Write a compelling product description (150–200 words) in English.
+>
+> Product name: **Name**
+>
+> _if Brand_ → Brand: **Brand**
+>
+> _if Category_ → Category: **Category**
+>
+> _if Short Description_ → Current short description: **Short Description**
+>
+> Focus on benefits, not just features. Use a professional but friendly tone.
 
-Product name: {{name}}
-Brand: {{brand}}
-Category: {{category_name}}
-Current short description: {{short_description}}
-
-Focus on benefits, not just features. Use a professional but friendly tone.
-```
-
-Wenn die Ausgabe HTML enthalten muss, aktivieren Sie die relevanten Tags in [Einstellungen → Flow-Einstellungen → Trusted HTML Tags](https://app.fozzels.com/user/settings/flow).
+**Die Ausgabe formatieren.** Der Prompt selbst enthält keine Formatierung. Wenn der generierte Inhalt Überschriften, Listen oder fett gedruckten Text enthalten soll, fordern Sie dies in Worten an, zum Beispiel _Beginnen Sie mit einer `<h2>`-Überschrift, die das Produkt nennt, gefolgt von zwei kurzen Absätzen._ Wenn die Ausgabe HTML enthalten muss, aktivieren Sie die relevanten Tags in [Einstellungen → Flow-Einstellungen → Trusted HTML Tags](https://app.fozzels.com/user/settings/flow).
 
 ---
 
@@ -182,14 +182,14 @@ Wenn Sie das **Zielattribut** oder die **Bedingungen** in einem Flow ändern, de
 
 Ausgelöst, wenn das gleiche Attribut wie folgt angezeigt wird:
 
-- Eine Eingabe in Ihrer Eingabeaufforderung (`{{attr_code}}`)
+- Ein Attribut in Ihrem Prompt
 - Das Ausgabe-Zielattribut
 
 Dies erzeugt eine Endlosschleife — jede Generierung überschreibt die Eingabe für den nächsten Durchlauf.
 
 Behebung:
 
-- Entfernen Sie `{{attr_code}}` aus der Prompt-Vorlage
+- Entfernen Sie dieses Attribut aus dem Prompt
 - ODER deaktivieren Sie "Bei Attributänderung neu generieren"
 
 ---

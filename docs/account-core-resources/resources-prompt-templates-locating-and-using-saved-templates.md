@@ -50,12 +50,12 @@ To create a new template, click the **New Prompt Template** button at the top of
 
 3.  **Kind** (Required): Select the rule kind. Currently, only Product Attribute is available.
 
-4.  **Template** (Required): Enter the core prompt content here. This text, combined with dynamic variables (e.g., $brand, if $color), forms the instruction sent to the AI for generation.
+4.  **Template** (Required): Enter the core prompt content here. This text, combined with attributes and conditions (e.g., the **Brand** attribute, or a condition on **Color**), forms the instruction sent to the AI for generation.
     ![](/img/kb/account-core-resources/resources-prompt-templates-locating-and-using-saved-templates/MqPK3HDwXl7cBuruSGQhTcI2GMYLzXfHOQ.png)
 
 Prompt Logic and Best Practices
 
--   **Dynamic Variables**: Prompt text should utilize conditional logic and dynamic variables (e.g., if tags, {{vendor}}) to pull in product-specific data, avoiding hardcoding.
+-   **Dynamic Variables**: Prompt text should use attributes and conditions (e.g., the **Vendor** attribute inside a condition) to pull in product-specific data, avoiding hardcoding.
 
 -   **Styling**: Ensure the language and style requirements (e.g., tone, use of bullet lists, HTML format) match your use case.
 

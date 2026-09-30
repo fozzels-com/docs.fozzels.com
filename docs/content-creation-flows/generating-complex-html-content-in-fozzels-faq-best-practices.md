@@ -32,7 +32,7 @@ For large HTML-based generations, we **do not recommend lightweight models such 
 
 -   missing parts of the requested content.
 
-For complex HTML generation, we recommend using **at least a Pro model**. For particularly large and technically complex outputs, **Anthropic Opus 4** is our preferred option.
+For complex HTML generation, we recommend using **at least a Pro model**. For particularly large and technically complex outputs, **Anthropic Claude Opus 5.5** is our preferred option.
 
 ## 2\. Allow all required HTML tags
 
