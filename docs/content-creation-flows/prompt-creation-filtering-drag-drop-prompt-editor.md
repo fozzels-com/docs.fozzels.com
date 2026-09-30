@@ -110,7 +110,7 @@ When the Preview is hidden, the Attributes panel moves to the right and the edit
 
 ![Snippets button and the Snippets panel](/img/kb/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor/10-snippets-button-and-the-snippets-panel.png)
 
-The editor accepts plain text and standard HTML tags such as `<h2>`, `<ul>` and `<strong>`. See [4.7.3 Allowed HTML Tags](/content-creation-flows/allowed-html-tags-for-ai-text-generation).
+The prompt itself has no formatting: no headings, lists or bold text. To get those in the generated content, ask for them in words. You can name HTML tags such as `<h2>`, `<ul>` and `<strong>` in the instruction, for example _Start with an `<h2>` heading that names the product_. The editor shows them as plain text. Tags the output should contain must be allowed, see [4.7.3 Allowed HTML Tags](/content-creation-flows/allowed-html-tags-for-ai-text-generation).
 
 ## 3. Adding attributes
 
@@ -431,7 +431,11 @@ Prompts link attributes by their unique technical key, not by their name. Renami
 
 ## 11. Editing the prompt with the AI Prompt Assistant
 
-The AI Prompt Assistant can write or extend your prompt for you. It reads the current prompt and answers with only the part to add. For example, if your prompt asks for an SEO description and you ask "add slug", it suggests just the new piece.
+The AI Prompt Assistant can write, extend or rewrite your prompt for you. It reads the current prompt, including its conditions, snippets and blocks.
+
+- When you ask it to **add** something, it answers with only the new part. For example, if your prompt asks for an SEO description and you ask "add slug", it suggests just the new piece, for **Add** or **At cursor**.
+- When you ask it to **change** the prompt (improve or rewrite it, remove or edit a line, or add a line at the start or in the middle), it answers with the complete prompt, for **Replace all**. Everything you did not ask to change is kept as it is, including snippets, conditions, attribute lists, category lists and integration connectors.
+- To get headings, lists or HTML in the generated content, just ask, for example _start the description with an h2 heading with the product name_. The assistant adds this as an instruction in words, because the prompt itself carries no formatting.
 
 To open it, click the blue chat button in the bottom right corner of the page. The **AI Assistant** panel opens next to the editor. Type your request, for example _Help me create a prompt for Description. Use filled attributes._, and press **Enter** to send. Use **Shift+Enter** for a new line.
 

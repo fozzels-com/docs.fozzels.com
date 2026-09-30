@@ -63,7 +63,7 @@ Cada integração pode conter vários websites, e cada website pode conter vári
 
 | Flag | O que faz |
 |------|-------------|
-| **Filterable** | O atributo aparece no filtro Catalog e pode ser usado como entrada em prompts de Flow (`{{attribute_code}}`) |
+| **Filterable** | O atributo aparece no filtro Catalog e pode ser usado como entrada em prompts de Flow (inserido como atributo no editor de prompt) |
 | **Mutable** | Fozzels pode escrever conteúdo gerado por IA para este atributo (obrigatório para saída de Flow) |
 | **Enabled** | O atributo está ativo e visível no Fozzels |
 | **HTML-able** | Permite conteúdo HTML neste atributo (tipos text/textarea apenas) |

@@ -63,7 +63,7 @@ Jede Integration kann mehrere Websites enthalten, und jede Website kann mehrere 
 
 | Flag | Was es tut |
 |------|-------------|
-| **Filterable** | Attribut wird im Katalog-Filter angezeigt und kann als Eingabe in Flow-Eingabeaufforderungen (`{{attribute_code}}`) verwendet werden |
+| **Filterable** | Attribut wird im Katalog-Filter angezeigt und kann als Eingabe in Flow-Eingabeaufforderungen (im Prompt-Editor als Attribut eingefügt) verwendet werden |
 | **Mutable** | Fozzels kann KI-generierte Inhalte in dieses Attribut schreiben (erforderlich für Flow-Ausgabe) |
 | **Enabled** | Attribut ist aktiv und sichtbar in Fozzels |
 | **HTML-able** | Erlaubt HTML-Inhalte in diesem Attribut (nur Text/Textarea-Typen) |

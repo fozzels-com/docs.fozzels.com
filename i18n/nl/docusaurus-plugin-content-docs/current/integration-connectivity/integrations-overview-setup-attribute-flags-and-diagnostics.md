@@ -63,7 +63,7 @@ Elke integratie kan meerdere websites bevatten, en elke website kan meerdere win
 
 | Vlag | Wat het doet |
 |------|-------------|
-| **Filterable** | Attribuut verschijnt in Catalog filter en kan als input in Flow prompts worden gebruikt (`{{attribute_code}}`) |
+| **Filterable** | Attribuut verschijnt in Catalog filter en kan als input in Flow prompts worden gebruikt (ingevoegd als attribuut in de prompteditor) |
 | **Mutable** | Fozzels kan AI-gegenereerde content naar dit attribuut schrijven (vereist voor Flow output) |
 | **Enabled** | Attribuut is actief en zichtbaar in Fozzels |
 | **HTML-able** | Staat HTML-content in dit attribuut toe (alleen text/textarea types) |

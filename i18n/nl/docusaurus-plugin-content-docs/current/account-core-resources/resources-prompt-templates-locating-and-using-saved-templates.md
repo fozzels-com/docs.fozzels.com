@@ -46,12 +46,12 @@ Klik op de knop **Nieuwe promptsjabloon** boven aan de pagina om een nieuwe sjab
 
 3.  **Soort** (Vereist): Selecteer het regelsoort. Momenteel is alleen Productkenmerken beschikbaar.
 
-4.  **Sjabloon** (Vereist): Voer hier de kerninhoud van de prompt in. Deze tekst, gecombineerd met dynamische variabelen (bijvoorbeeld $merk, indien $kleur), vormt de instructie die naar de AI voor generatie wordt verzonden.
+4.  **Sjabloon** (Vereist): Voer hier de kerninhoud van de prompt in. Deze tekst, gecombineerd met attributen en voorwaarden (bijvoorbeeld het attribuut **Brand**, of een voorwaarde op **Color**), vormt de instructie die naar de AI voor generatie wordt verzonden.
     ![](/img/kb/account-core-resources/resources-prompt-templates-locating-and-using-saved-templates/MqPK3HDwXl7cBuruSGQhTcI2GMYLzXfHOQ.png)
 
 Promptlogica en best practices
 
--   **Dynamische variabelen**: Prompttekst moet voorwaardelijke logica en dynamische variabelen gebruiken (bijvoorbeeld if tags, {{vendor}}) om productspecifieke gegevens te trekken, niet hardcoded.
+-   **Dynamische variabelen**: Prompttekst moet attributen en voorwaarden gebruiken (bijvoorbeeld het attribuut **Vendor** binnen een voorwaarde) om productspecifieke gegevens te trekken, niet hardcoded.
 
 -   **Styling**: Zorg ervoor dat de taal- en stijlvereisten (bijvoorbeeld toon, gebruik van opsommingstekens, HTML-formaat) bij uw use case passen.
 

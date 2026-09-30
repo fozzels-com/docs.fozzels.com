@@ -46,12 +46,12 @@ Para criar um novo modelo, clique no botão **Novo Modelo de Prompt** no topo da
 
 3.  **Tipo** (Obrigatório): Selecione o tipo de regra. Atualmente, apenas Atributo de Produto está disponível.
 
-4.  **Modelo** (Obrigatório): Insira o conteúdo do prompt principal aqui. Este texto, combinado com variáveis dinâmicas (por exemplo, $marca, se $cor), forma a instrução enviada à IA para geração.
+4.  **Modelo** (Obrigatório): Insira o conteúdo do prompt principal aqui. Este texto, combinado com atributos e condições (por exemplo, o atributo **Marca** ou uma condição em **Cor**), forma a instrução enviada à IA para geração.
     ![](/img/kb/account-core-resources/resources-prompt-templates-locating-and-using-saved-templates/MqPK3HDwXl7cBuruSGQhTcI2GMYLzXfHOQ.png)
 
 Lógica de Prompt e Melhores Práticas
 
--   **Variáveis Dinâmicas**: O texto do prompt deve utilizar lógica condicional e variáveis dinâmicas (por exemplo, tags if, {{vendor}}) para extrair dados específicos do produto, evitando codificação fixa.
+-   **Variáveis Dinâmicas**: O texto do prompt deve usar atributos e condições (por exemplo, o atributo **Vendor** dentro de uma condição) para extrair dados específicos do produto, evitando codificação fixa.
 
 -   **Estilo**: Certifique-se de que os requisitos de linguagem e estilo (por exemplo, tom, uso de listas de pontos, formato HTML) correspondam ao seu caso de uso.
 

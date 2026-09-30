@@ -28,7 +28,7 @@ Shopify, Shopware 6, WooCommerce, Magento, Lightspeed e sistemas PIM como Katana
 
 ## Quais modelos de IA estão disponíveis em Fozzels?
 
-Múltiplos modelos: Claude (Sonnet 4, 4.5), ChatGPT (GPT-5, 5.2), Google Gemini (2.5, 3 Pro) e mais. Os modelos são atualizados regularmente.
+Múltiplos modelos: Claude (Opus 5.5, Sonnet 5.5, Fable 5.1, Haiku 4.5), ChatGPT (GPT-5.5, GPT-6 Astra e outros), Google Gemini (3 Pro, 3.8 Flash), xAI Grok e mais. Os modelos são atualizados regularmente.
 
 ## Estou mudando de plataforma webshop (por exemplo, Magento para CCV Shop). O que devo fazer?
 

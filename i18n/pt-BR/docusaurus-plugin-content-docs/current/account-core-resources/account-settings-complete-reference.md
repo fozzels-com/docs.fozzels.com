@@ -42,7 +42,7 @@ Alterne quais emails o Fozzels envia para você:
 
 Adicione sua própria chave de API OpenAI para usar sua cobrança pessoal do OpenAI em vez de créditos do Fozzels.
 
-- Quando definido, todos os Flows baseados em OpenAI e o assistente de IA usam sua chave diretamente
+- Quando definido, todos os Flows baseados em OpenAI usam sua chave diretamente (o assistente de IA roda na Anthropic e não a usa)
 - Você ainda precisa de um saldo mínimo de €0,01 no Fozzels para usar este recurso
 - Deixe em branco para usar a chave da plataforma Fozzels (os créditos são deduzidos do seu saldo)
 

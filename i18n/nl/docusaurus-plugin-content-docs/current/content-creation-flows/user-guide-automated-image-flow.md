@@ -206,7 +206,7 @@ Aan de rechterkant van de redacteur vindt u een lijst met beschikbare **attribut
 
 -   **Gedetailleerde gids:** U kunt hier meer lezen over de mechanica en mogelijkheden van de drag-and-drop redacteur....
 
--   **Resultaat:** Wanneer de stroom wordt uitgevoerd, vervangt het systeem automatisch het label (bijv. `{{Color}}`) met de werkelijke waarde van elke specifieke productkaart. Dit garandeert dat een blauwe jurk blauw wordt weergegeven en een leren jasje met realistische leer textuur wordt weergegeven.
+-   **Resultaat:** Wanneer de stroom wordt uitgevoerd, vervangt het systeem automatisch het attribuut (bijv. **Kleur**) met de werkelijke waarde van elke specifieke productkaart. Dit garandeert dat een blauwe jurk blauw wordt weergegeven en een leren jasje met realistische leer textuur wordt weergegeven.
 
 #### **3. Sjablonen en herbruikbaarheid**
 

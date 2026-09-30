@@ -63,7 +63,7 @@ Cada integración puede contener múltiples sitios web, y cada sitio web puede c
 
 | Indicador | Qué hace |
 |------|-------------|
-| **Filterable** | El atributo aparece en el filtro del Catálogo y puede usarse como entrada en avisos de Flow (`{{attribute_code}}`) |
+| **Filterable** | El atributo aparece en el filtro del Catálogo y puede usarse como entrada en avisos de Flow (insertado como atributo en el editor de prompts) |
 | **Mutable** | Fozzels puede escribir contenido generado por IA en este atributo (requerido para salida de Flow) |
 | **Enabled** | El atributo está activo y visible en Fozzels |
 | **HTML-able** | Permite contenido HTML en este atributo (solo tipos texto/textarea) |

@@ -42,10 +42,9 @@ Go to [Flows](https://app.fozzels.com/completions/product/rule) → **Create Flo
   - Example: "description is empty AND category equals Electronics"
   - Leave empty to process all products in the store
   - A product count preview shows how many products match
-- **Prompt template** — the instruction sent to AI, with `{{attribute_code}}` placeholders
-  - Example: `Write a product description for {{name}} (SKU: {{sku}}) in category {{category}}`
-  - **Attributes tab** (`{{attribute_code}}`) — always included in the prompt, even if the product has no value for that attribute
-  - **Attributes (if filled) tab** (`#attribute_code`) — only included in the prompt when the product actually has a value; useful to avoid sending empty lines to the AI
+- **Prompt** — the instruction sent to AI, written in the [prompt editor](/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor). Product data goes in as **attributes**: type `/` in the editor, or click or drag one from the Attributes panel. Each attribute is replaced with the product's own value.
+  - Example: _Write a product description for_ **Name** _(SKU:_ **SKU**_) in category_ **Category**, where the bold parts are attributes
+  - An attribute with a label beside it (_Brand:_ **Brand**) belongs in a **condition** (an if-block): the whole line is left out when the product has no value, so no empty lines reach the AI
 
 ### Step 4 — Automation settings
 
@@ -62,12 +61,12 @@ Go to [Flows](https://app.fozzels.com/completions/product/rule) → **Create Flo
 
 ## Prompt template tips
 
-Reference attributes with `{{attribute_code}}` — use the exact code shown in Integration → Attributes.
+Insert product data as attributes from the Attributes panel rather than typing it out: an attribute is replaced with each product's own value.
 
-**Two attribute syntaxes:**
+**Attribute or condition:**
 
-- `{{attribute_code}}` — always included (corresponds to the **Attributes** tab in the editor). Use this by default.
-- `#attribute_code` — included only if the product has a value (corresponds to the **Attributes (if filled)** tab). Use to skip empty fields.
+- A **bare attribute** stands on its own inside a sentence. Use it for attributes almost every product has (the fill rate in the Attributes panel shows how many do).
+- A **condition** (an if-block) holds a whole line, such as _Brand:_ **Brand**, and leaves it out when the product has no value. Use it for anything with a label or other text around the attribute, so the AI never receives an empty _Brand:_ line.
 
 Be specific about:
 
@@ -76,20 +75,21 @@ Be specific about:
 - Tone ("professional but friendly")
 - What to avoid ("do not mention competitors")
 
-**Example for product description:**
+**Example for product description.** Bold words are attributes. The name is filled on every product, so it stands bare; the other labelled lines each sit in a condition:
 
-```
-Write a compelling product description (150–200 words) in English.
+> Write a compelling product description (150–200 words) in English.
+>
+> Product name: **Name**
+>
+> _if Brand_ → Brand: **Brand**
+>
+> _if Category_ → Category: **Category**
+>
+> _if Short Description_ → Current short description: **Short Description**
+>
+> Focus on benefits, not just features. Use a professional but friendly tone.
 
-Product name: {{name}}
-Brand: {{brand}}
-Category: {{category_name}}
-Current short description: {{short_description}}
-
-Focus on benefits, not just features. Use a professional but friendly tone.
-```
-
-If the output must contain HTML, enable the relevant tags in [Settings → Flow Settings → Trusted HTML Tags](https://app.fozzels.com/user/settings/flow).
+**Formatting the output.** The prompt itself carries no formatting. To get headings, lists or bold text in the generated content, ask for them in words, for example _Start with an `<h2>` heading that names the product, then two short paragraphs._ If the output must contain HTML, enable the relevant tags in [Settings → Flow Settings → Trusted HTML Tags](https://app.fozzels.com/user/settings/flow).
 
 ---
 
@@ -182,14 +182,14 @@ If you change the **target attribute** or **conditions** on a Flow that already 
 
 Triggered when the same attribute appears as both:
 
-- An input in your prompt (`{{attr_code}}`)
+- An attribute in your prompt
 - The output target attribute
 
 This creates an infinite loop — each generation overwrites the input for the next run.
 
 Fix:
 
-- Remove `{{attr_code}}` from the prompt template
+- Remove that attribute from the prompt
 - OR disable "Regenerate on attribute change"
 
 ---

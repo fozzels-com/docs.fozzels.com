@@ -45,7 +45,7 @@ Toggle which emails Fozzels sends you:
 
 Add your own OpenAI API key to use your personal OpenAI billing instead of Fozzels credits.
 
-- When set, all OpenAI-based Flows and the AI assistant use your key directly
+- When set, all OpenAI-based Flows use your key directly (the AI assistant runs on Anthropic and does not use it)
 - You still need a minimum €0.01 balance in Fozzels to use this feature
 - Leave empty to use the Fozzels platform key (credits are deducted from your balance)
 
