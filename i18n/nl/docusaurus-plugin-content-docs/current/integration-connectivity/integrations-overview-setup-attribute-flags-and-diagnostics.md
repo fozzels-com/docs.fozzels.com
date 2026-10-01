@@ -171,7 +171,7 @@ Wanneer u de verbinding test of een product pull uitvoert, controleert Fozzels e
 | WordPress was not found at the provided URL | De URL wijst niet naar een WordPress site | Controleer of de URL correct is en openbaar toegankelijk |
 | WooCommerce REST API is not available | WooCommerce niet geïnstalleerd of REST API uitgeschakeld | Installeer WooCommerce en schakel REST API in onder WooCommerce → Settings → Advanced |
 | Unable to connect to the store | Netwerk/DNS probleem | Controleer of de URL bereikbaar is via het internet |
-| The connection timed out | Winkel is onbereikbaar of firewall blokkeert | Controleer serverfirewall en zorg dat de URL openbaar toegankelijk is |
+| The connection timed out | Winkel is onbereikbaar of firewall blokkeert | Controleer serverfirewall en zorg dat de URL openbaar toegankelijk is; zie [2.1.1. Verbindingsvereisten: IP-adressen, User-Agent en firewallinstellingen](./connection-requirements.md) |
 | Invalid API credentials | Onjuiste Consumer Key of Consumer Secret | Genereer een nieuwe API-sleutel onder WooCommerce → Settings → Advanced → REST API |
 
 **ACF fouten**

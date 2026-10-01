@@ -80,7 +80,7 @@ Nieuwe ACF velden vereisen een geslaagde atribuutpull om te verschijnen. Zorg er
 
 ## Productgegevenspull is gestopt met werken / Ik krijg importfouten.
 
-Dit kan worden veroorzaakt door een snelheidsbeperking of firewall die Fozzels' API-verzoeken blokkeert. Neem contact op met support — zij kunnen de noodzakelijke uitzonderingen aan uw server's allowlist toevoegen.
+Dit kan worden veroorzaakt door een snelheidsbeperking of firewall die Fozzels' API-verzoeken blokkeert. Sta de Fozzels IP-adressen en User-Agent toe en sluit ze uit van rate limiting — zie [2.1.1. Verbindingsvereisten: IP-adressen, User-Agent en firewallinstellingen](../integration-connectivity/connection-requirements.md).
 
 ## Storefront-URL's leiden naar 404 fouten.
 
@@ -104,7 +104,7 @@ Inhoud wordt eenmaal per product per taal gegenereerd, niet per verkoopkanaal. V
 
 ## Er zijn geen afbeeldingen in mijn productfeed / catalogus.
 
-Ontbrekende afbeeldingen worden vaak veroorzaakt door IP-beperkingen op uw server. Neem contact op met support — zij kunnen Fozzels IP-adressen aan uw allowlist toevoegen.
+Ontbrekende afbeeldingen worden vaak veroorzaakt door IP-beperkingen op uw server. Sta de Fozzels IP-adressen en User-Agent toe — zie [2.1.1. Verbindingsvereisten: IP-adressen, User-Agent en firewallinstellingen](../integration-connectivity/connection-requirements.md).
 
 ## Productafbeeldingen worden niet weergegeven in de Fozzels catalogus.
 
@@ -128,7 +128,7 @@ Fozzels haalt catalogi nachtelijks op. Als u grote wijzigingen aanbrengt, trigge
 
 ## Ik krijg een fout 429 Too Many Requests bij synchronisatie naar mijn PIM.
 
-De snelheidsbeperker van uw PIM blokkeert verzoeken. Neem contact op met uw PIM-provider en Fozzels support om Fozzels IP op de allowlist te zetten of het verzoekformat te repareren.
+De snelheidsbeperker van uw PIM blokkeert verzoeken. Vraag uw PIM-provider de Fozzels IP-adressen en User-Agent toe te staan en uit te sluiten van rate limiting — zie [2.1.1. Verbindingsvereisten: IP-adressen, User-Agent en firewallinstellingen](../integration-connectivity/connection-requirements.md). Blijft de fout optreden, neem dan contact op met Fozzels support.
 
 ## Welke velden kan Fozzels bijwerken in Katana PIM?
 

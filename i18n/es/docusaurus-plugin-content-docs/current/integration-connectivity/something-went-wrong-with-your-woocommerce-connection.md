@@ -24,7 +24,7 @@ Cuando guardas tu integración de WooCommerce, Fozzels verifica automáticamente
 
 -   **"API REST no encontrada."** Verifica dos veces la URL que ingresaste. Debe verse como `https://yourstore.com` — sin barras adicionales ni errores tipográficos.
 
--   **"No se puede acceder a tu tienda."** Tu tienda podría estar sin conexión, o un complemento de seguridad está bloqueando el acceso. Verifica que tu tienda esté en funcionamiento y luego intenta de nuevo.
+-   **"No se puede acceder a tu tienda."** Tu tienda podría estar sin conexión, o un complemento de seguridad está bloqueando el acceso. Verifica que tu tienda esté en funcionamiento y luego intenta de nuevo. Si hay un complemento de seguridad o firewall involucrado, permite las direcciones indicadas en [2.1.1. Requisitos de conexión: direcciones IP, User-Agent y configuración del firewall](./connection-requirements.md).
 
 -   **"Error de certificado SSL."** El certificado de seguridad de tu tienda tiene un problema. Contacta a tu proveedor de alojamiento para arreglarlo.
 

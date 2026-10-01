@@ -113,4 +113,4 @@ No. Fozzels only works with your product catalog. It does not need access to ord
 For single-language stores, the permissions above are sufficient. Multi-language write-back is on our roadmap and may require an additional permission when released. We will update this article at that time.
 
 **Can I restrict the API key to specific IP addresses?**
-Yes. Contact our support team to get the current Fozzels server IP address for whitelisting.
+Yes. The current Fozzels IP addresses are listed in [2.1.1. Connection Requirements: IP Addresses, User-Agent and Firewall Settings](./connection-requirements.md).

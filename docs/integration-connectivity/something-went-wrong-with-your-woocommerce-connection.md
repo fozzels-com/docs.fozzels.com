@@ -28,7 +28,7 @@ When you save your WooCommerce integration, Fozzels automatically checks if ever
 
 -   **"REST API not found."** Double-check the URL you entered. It should look like `https://yourstore.com` — no extra slashes or typos.
 
--   **"Cannot reach your store."** Your store might be offline, or a security plugin is blocking access. Check that your store is up and running, then try again.
+-   **"Cannot reach your store."** Your store might be offline, or a security plugin is blocking access. Check that your store is up and running, then try again. If a security plugin or firewall is involved, allow the addresses listed in [2.1.1. Connection Requirements: IP Addresses, User-Agent and Firewall Settings](./connection-requirements.md).
 
 -   **"SSL certificate error."** Your store's security certificate has an issue. Contact your hosting provider to fix it.
 

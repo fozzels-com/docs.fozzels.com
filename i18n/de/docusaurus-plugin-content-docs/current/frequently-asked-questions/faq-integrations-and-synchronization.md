@@ -80,7 +80,7 @@ Neue ACF-Felder erfordern einen erfolgreichen Attribut-Abruf, um angezeigt zu we
 
 ## Der Produktdatenabruf funktioniert nicht mehr / ich erhalte Importfehler.
 
-Dies kann durch einen Rate Limiter oder eine Firewall verursacht werden, die Fozzels' API-Anforderungen blockiert. Kontaktieren Sie den Support – Sie können die notwendigen Ausnahmen zur Whitelist Ihres Servers hinzufügen.
+Dies kann durch einen Rate Limiter oder eine Firewall verursacht werden, die Fozzels' API-Anforderungen blockiert. Lassen Sie die Fozzels IP-Adressen und den User-Agent zu und nehmen Sie sie vom Rate Limiting aus – siehe [2.1.1. Verbindungsanforderungen: IP-Adressen, User-Agent und Firewall-Einstellungen](../integration-connectivity/connection-requirements.md).
 
 ## Storefront-URLs führen zu 404-Fehlern.
 
@@ -104,7 +104,7 @@ Inhalte werden einmal pro Produkt pro Sprache generiert, nicht pro Verkaufskanal
 
 ## Es gibt keine Bilder in meinem Produkt-Feed / Katalog.
 
-Fehlende Bilder werden oft durch IP-Einschränkungen auf Ihrem Server verursacht. Kontaktieren Sie den Support – Sie können Fozzels' IP-Adressen zur Whitelist hinzufügen.
+Fehlende Bilder werden oft durch IP-Einschränkungen auf Ihrem Server verursacht. Lassen Sie die Fozzels IP-Adressen und den User-Agent zu – siehe [2.1.1. Verbindungsanforderungen: IP-Adressen, User-Agent und Firewall-Einstellungen](../integration-connectivity/connection-requirements.md).
 
 ## Produktbilder werden nicht im Fozzels-Katalog angezeigt.
 
@@ -128,7 +128,7 @@ Fozzels ruft Kataloge nachts ab. Falls Sie größere Änderungen vornehmen, lös
 
 ## Ich erhalte einen Fehler „429 Too Many Requests" beim Synchronisieren mit meinem PIM.
 
-Der Rate Limiter Ihres PIM blockiert Anforderungen. Kontaktieren Sie Ihren PIM-Anbieter und den Fozzels-Support, um Fozzels' IP auf die Whitelist zu setzen oder das Anforderungsformat zu beheben.
+Der Rate Limiter Ihres PIM blockiert Anforderungen. Bitten Sie Ihren PIM-Anbieter, die Fozzels IP-Adressen und den User-Agent zuzulassen und vom Rate Limiting auszunehmen – siehe [2.1.1. Verbindungsanforderungen: IP-Adressen, User-Agent und Firewall-Einstellungen](../integration-connectivity/connection-requirements.md). Wenn der Fehler weiterhin auftritt, kontaktieren Sie den Fozzels-Support.
 
 ## Welche Felder kann Fozzels in Katana PIM aktualisieren?
 

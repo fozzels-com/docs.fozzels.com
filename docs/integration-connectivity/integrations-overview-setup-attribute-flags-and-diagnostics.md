@@ -176,7 +176,7 @@ When you test the connection or run a product pull, Fozzels checks each enabled 
 | WordPress was not found at the provided URL | The URL doesn't point to a WordPress site | Check the URL is correct and publicly accessible |
 | WooCommerce REST API is not available | WooCommerce not installed or REST API disabled | Install WooCommerce and enable REST API under WooCommerce → Settings → Advanced |
 | Unable to connect to the store | Network/DNS issue | Check the URL is reachable from the internet |
-| The connection timed out | Store is unreachable or firewall blocking | Check server firewall and ensure the URL is publicly accessible |
+| The connection timed out | Store is unreachable or firewall blocking | Check server firewall and ensure the URL is publicly accessible; see [2.1.1. Connection Requirements: IP Addresses, User-Agent and Firewall Settings](./connection-requirements.md) |
 | Invalid API credentials | Wrong Consumer Key or Consumer Secret | Generate a new API key under WooCommerce → Settings → Advanced → REST API |
 
 **ACF errors**
