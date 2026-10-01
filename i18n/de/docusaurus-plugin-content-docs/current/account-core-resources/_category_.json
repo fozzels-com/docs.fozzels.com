@@ -1,9 +1,9 @@
 {
-  "label": "Konto und Kernressourcen",
+  "label": "Konto & Kernressourcen",
   "position": 1,
   "link": {
     "type": "generated-index",
     "slug": "/account-core-resources",
-    "description": "Artikel zu Konto und Kernressourcen."
+    "description": "Artikel zu Konto & Kernressourcen."
   }
 }

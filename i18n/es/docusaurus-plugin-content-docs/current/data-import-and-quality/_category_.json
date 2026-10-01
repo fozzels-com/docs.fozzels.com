@@ -1,9 +1,9 @@
 {
-  "label": "Importación de Datos y Calidad",
+  "label": "Importación de datos y calidad",
   "position": 3,
   "link": {
     "type": "generated-index",
     "slug": "/data-import-and-quality",
-    "description": "Artículos de Importación de Datos y Calidad."
+    "description": "Artículos de Importación de datos y calidad."
   }
 }

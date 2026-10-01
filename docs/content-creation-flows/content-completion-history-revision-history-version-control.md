@@ -5,12 +5,10 @@ sidebar_position: 23
 slug: >-
   /content-creation-flows/content-completion-history-revision-history-version-control
 description: >-
-  Gemini said Never fear losing a great idea or your original product
+  Never fear losing a great idea or your original product
   description again. With the Content Completion History, you have total control
   over the
 ---
-
-###### Gemini said
 
 Never fear losing a great idea or your original product description again. With the **Content Completion History**, you have total control over the evolution of your content.
 

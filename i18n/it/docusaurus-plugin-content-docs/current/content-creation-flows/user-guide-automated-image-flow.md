@@ -31,8 +31,7 @@ Questa scheda gestisce l'identità di base e la connessione della Sua automazion
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/XUm-rzBUqRa_mFIUflBlrrZlaYzDnRHgMw.png)
 
-##
-2\. Configurazione IA (scheda 2)
+## 2. Configurazione IA (scheda 2)
 
 In questa scheda definisce l'"intelligenza" e il risultato visivo della generazione. Le impostazioni variano in modo significativo a seconda del provider scelto.
 
@@ -65,8 +64,6 @@ I modelli Gemini utilizzano una griglia interattiva **Formato di output** per un
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/Ydm8oxLyvSgZ7H_x5R1Uf0kb_u7RxmIXRw.png)
 
-> Per saperne di più sui modelli IA e sulle loro specifiche capacità tecniche, legga qui \[link da aggiungere\].
-
 #### **Come utilizzare la griglia del formato di output (solo Gemini)**
 
 La griglia Le consente di definire la "forma" esatta e la qualità delle immagini generate:
@@ -83,8 +80,7 @@ La griglia Le consente di definire la "forma" esatta e la qualità delle immagin
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/gkfM9PdTV36LEV-UL7SN9obfvD3AOKt7_Q.png)
 
-##
-3\. Selezione del flusso e prompt (scheda 3)
+## 3. Selezione del flusso e prompt (scheda 3)
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/H3B5OOvEGyTufKlUAsFd_uzfwAVXLbVcEA.png)
 
 Questa scheda è il cuore della Sua creazione di contenuti. Il primo e più importante passaggio è la configurazione dei Suoi **preset**.
@@ -291,10 +287,7 @@ Una volta attivato il flusso, ha due modi per avviare la generazione:
 
 **Promemoria finale**: si assicuri sempre che il **limite giornaliero** sia impostato correttamente prima di fare clic su **Salva**. Una volta attivato il flusso, il sistema inizierà a mettere in coda i prodotti da elaborare in base alle Sue impostazioni.
 
-Ecco la guida completa alla sezione **Elenco batch** in inglese, che include tutti i dettagli tecnici relativi alla logica di sincronizzazione e all'interfaccia utente.
-
-##
-**Elenco batch**
+## Elenco batch
 
 L'**Elenco batch** è il Suo centro per il controllo qualità e la moderazione. Ogni esecuzione del flusso (automatica o manuale tramite il pulsante _Esegui ora_) crea una nuova voce batch nell'elenco a sinistra.
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/LIJVpWk3sHHmcIRCOQIvCJACgNLRBBIHRw.png)
@@ -365,7 +358,6 @@ Poiché l'automazione completa è attualmente disattivata per garantire la quali
 
 -   **⚠️ Avviso**: la sincronizzazione è **irreversibile -** non può essere annullata una volta avviata.
 
-##
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/c9uHBa_kSFHkR_YXg2rBCu-uOXq4xMWgVw.png)
 
 ###
@@ -373,5 +365,4 @@ Poiché l'automazione completa è attualmente disattivata per garantire la quali
 
 Congratulazioni! Ora dispone di tutti gli strumenti per padroneggiare il **flusso di immagini di Fozzels**. Questo è il Suo spazio per trasformare le idee in contenuti visivi di alta qualità in pochi clic.
 
-##
-**Guardi le istruzioni dettagliate nel video**
+## Guardi le istruzioni dettagliate nel video
