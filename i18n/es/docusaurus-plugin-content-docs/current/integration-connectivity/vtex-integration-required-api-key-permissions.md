@@ -114,4 +114,4 @@ Para tiendas monolingües, los permisos anteriores son suficientes. La devoluci�
 
 **¿Puedo restringir la clave API a direcciones IP específicas?**
 
-Sí. Contacta a nuestro equipo de soporte para obtener la dirección IP actual del servidor de Fozzels para agregar a la lista blanca.
+Sí. Las direcciones IP actuales de Fozzels están en [2.1.1. Requisitos de conexión: direcciones IP, User-Agent y configuración del firewall](./connection-requirements.md).

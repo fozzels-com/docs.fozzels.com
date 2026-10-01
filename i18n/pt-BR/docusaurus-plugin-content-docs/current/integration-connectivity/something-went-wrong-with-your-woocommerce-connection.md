@@ -24,7 +24,7 @@ Quando você salva sua integração WooCommerce, o Fozzels verifica automaticame
 
 -   **"API REST não encontrada."** Verifique novamente a URL que você inseriu. Deve parecer `https://yourstore.com` — sem barras extras ou erros de digitação.
 
--   **"Não é possível acessar sua loja."** Sua loja pode estar offline ou um plugin de segurança está bloqueando o acesso. Verifique se sua loja está funcionando e tente novamente.
+-   **"Não é possível acessar sua loja."** Sua loja pode estar offline ou um plugin de segurança está bloqueando o acesso. Verifique se sua loja está funcionando e tente novamente. Se um plugin de segurança ou firewall estiver envolvido, libere os endereços listados em [2.1.1. Requisitos de conexão: endereços IP, User-Agent e configurações de firewall](./connection-requirements.md).
 
 -   **"Erro de certificado SSL."** O certificado de segurança da sua loja tem um problema. Entre em contato com seu provedor de hospedagem para resolvê-lo.
 

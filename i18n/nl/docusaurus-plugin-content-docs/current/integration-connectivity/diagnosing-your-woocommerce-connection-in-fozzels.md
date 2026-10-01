@@ -34,7 +34,7 @@ Deze berichten worden weergegeven ongeacht welke plugins u hebt ingeschakeld.
     De WooCommerce REST API kon niet bereikt worden op het opgegeven URL. Zorg ervoor dat u het juiste winkels URL hebt ingevoerd (bijv. `https://yourstore.com`) en dat de WooCommerce REST API is ingeschakeld.
 
 -   **"Cannot reach your store. Check the URL, server status, or firewall settings."**
-    Fozzels kon geen verbinding tot stand brengen. Uw winkel kan offline zijn, het URL kan onjuist zijn, of een firewall of beveiligingsplugin blokkeert externe API-verzoeken.
+    Fozzels kon geen verbinding tot stand brengen. Uw winkel kan offline zijn, het URL kan onjuist zijn, of een firewall of beveiligingsplugin blokkeert externe API-verzoeken. Zie [2.1.1. Verbindingsvereisten: IP-adressen, User-Agent en firewallinstellingen](./connection-requirements.md) voor de IP-adressen en User-Agent die u moet toestaan.
 
 -   **"SSL certificate error. Ensure your store uses a valid HTTPS certificate."**
     Het SSL-certificaat van uw winkel is ongeldig of verlopen. Neem contact op met uw hostingprovider om het certificaat te vernieuwen of te vervangen.

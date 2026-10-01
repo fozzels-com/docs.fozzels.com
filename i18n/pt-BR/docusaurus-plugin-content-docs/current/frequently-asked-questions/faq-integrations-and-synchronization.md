@@ -80,7 +80,7 @@ Novos campos ACF exigem um pull de atributo bem-sucedido para aparecer. Garanta 
 
 ## O pull de dados de produto parou de funcionar / Obtenho falhas de importação.
 
-Isso pode ser causado por um rate limiter ou firewall bloqueando requisições de API do Fozzels. Entre em contato com o suporte — eles podem adicionar as exceções necessárias à whitelist do seu servidor.
+Isso pode ser causado por um rate limiter ou firewall bloqueando requisições de API do Fozzels. Libere os endereços IP e o User-Agent do Fozzels e exclua-os do rate limiting — veja [2.1.1. Requisitos de conexão: endereços IP, User-Agent e configurações de firewall](../integration-connectivity/connection-requirements.md).
 
 ## URLs de storefront levam a erros 404.
 
@@ -104,7 +104,7 @@ Conteúdo é gerado uma vez por produto por idioma, não por sales channel. Sale
 
 ## Não há imagens no meu feed de produtos / catálogo.
 
-Imagens ausentes são frequentemente causadas por restrições de IP no seu servidor. Entre em contato com o suporte — eles podem adicionar endereços IP Fozzels à sua whitelist.
+Imagens ausentes são frequentemente causadas por restrições de IP no seu servidor. Libere os endereços IP e o User-Agent do Fozzels — veja [2.1.1. Requisitos de conexão: endereços IP, User-Agent e configurações de firewall](../integration-connectivity/connection-requirements.md).
 
 ## Imagens de produtos não estão sendo exibidas no catálogo Fozzels.
 
@@ -128,7 +128,7 @@ Fozzels puxa catálogos noturnamente. Se você faz mudanças grandes, sempre aci
 
 ## Obtenho um erro 429 Too Many Requests ao sincronizar para meu PIM.
 
-O rate limiter do seu PIM está bloqueando requisições. Entre em contato com seu provedor PIM e suporte Fozzels para colocar na whitelist IP de Fozzels ou corrigir o formato de requisição.
+O rate limiter do seu PIM está bloqueando requisições. Peça ao seu provedor PIM para liberar os endereços IP e o User-Agent do Fozzels e excluí-los do rate limiting — veja [2.1.1. Requisitos de conexão: endereços IP, User-Agent e configurações de firewall](../integration-connectivity/connection-requirements.md). Se o erro persistir, entre em contato com o suporte Fozzels.
 
 ## Quais campos Fozzels pode atualizar em Katana PIM?
 

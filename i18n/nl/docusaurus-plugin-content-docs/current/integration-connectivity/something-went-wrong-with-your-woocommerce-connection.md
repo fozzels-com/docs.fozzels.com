@@ -24,7 +24,7 @@ Wanneer u uw WooCommerce-integratie opslaat, controleert Fozzels automatisch of 
 
 -   **"REST API niet gevonden."** Controleer de URL die u hebt ingevoerd nogmaals. Deze zou er als volgt uit moeten zien `https://yourstore.com` — geen extra schuine strepen of typefouten.
 
--   **"Kan uw winkel niet bereiken."** Uw winkel is mogelijk offline, of een beveiligingsplugin blokkeert de toegang. Controleer of uw winkel actief is en try het opnieuw.
+-   **"Kan uw winkel niet bereiken."** Uw winkel is mogelijk offline, of een beveiligingsplugin blokkeert de toegang. Controleer of uw winkel actief is en try het opnieuw. Is een beveiligingsplugin of firewall de oorzaak, sta dan de adressen uit [2.1.1. Verbindingsvereisten: IP-adressen, User-Agent en firewallinstellingen](./connection-requirements.md) toe.
 
 -   **"SSL-certificaatfout."** Het beveiligingscertificaat van uw winkel heeft een probleem. Neem contact op met uw hostingprovider om dit op te lossen.
 

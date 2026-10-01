@@ -111,4 +111,4 @@ Nein. Fozzels funktioniert nur mit Ihrem Produktkatalog. Es benötigt keinen Zug
 Für einsprachige Shops sind die oben aufgeführten Berechtigungen ausreichend. Das Rückschreiben in mehreren Sprachen steht auf unserer Roadmap und benötigt möglicherweise eine zusätzliche Berechtigung bei der Veröffentlichung. Wir werden diesen Artikel zu diesem Zeitpunkt aktualisieren.
 
 **Kann ich den API-Schlüssel auf bestimmte IP-Adressen beschränken?**
-Ja. Kontaktieren Sie unser Support-Team, um die aktuelle Fozzels Server IP-Adresse für die Whitelist zu erhalten.
+Ja. Die aktuellen Fozzels IP-Adressen finden Sie unter [2.1.1. Verbindungsanforderungen: IP-Adressen, User-Agent und Firewall-Einstellungen](./connection-requirements.md).

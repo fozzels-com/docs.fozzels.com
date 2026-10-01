@@ -171,7 +171,7 @@ Wenn Sie die Verbindung testen oder einen Produkt-Pull ausführen, überprüft F
 | WordPress was not found at the provided URL | Die URL zeigt nicht auf eine WordPress-Site | Überprüfen Sie, dass die URL korrekt und öffentlich erreichbar ist |
 | WooCommerce REST API is not available | WooCommerce nicht installiert oder REST API deaktiviert | Installieren Sie WooCommerce und aktivieren Sie REST API unter WooCommerce → Einstellungen → Erweitert |
 | Unable to connect to the store | Netzwerk-/DNS-Problem | Überprüfen Sie, dass die URL aus dem Internet erreichbar ist |
-| The connection timed out | Shop nicht erreichbar oder Firewall blockiert | Überprüfen Sie Server-Firewall und stellen Sie sicher, dass die URL öffentlich erreichbar ist |
+| The connection timed out | Shop nicht erreichbar oder Firewall blockiert | Überprüfen Sie Server-Firewall und stellen Sie sicher, dass die URL öffentlich erreichbar ist; siehe [2.1.1. Verbindungsanforderungen: IP-Adressen, User-Agent und Firewall-Einstellungen](./connection-requirements.md) |
 | Invalid API credentials | Falscher Consumer Key oder Consumer Secret | Generieren Sie einen neuen API-Schlüssel unter WooCommerce → Einstellungen → Erweitert → REST API |
 
 **ACF-Fehler**

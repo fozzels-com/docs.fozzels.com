@@ -36,7 +36,7 @@ Estos mensajes aparecen independientemente de qué complementos tengas habilitad
     No se pudo acceder a la API REST de WooCommerce en la URL proporcionada. Asegúrate de haber ingresado la URL de tienda correcta (por ejemplo, `https://tutienda.com`) y que la API REST de WooCommerce esté habilitada.
 
 -   **"No se puede acceder a tu tienda. Verifica la URL, el estado del servidor o la configuración del firewall."**
-    Fozzels no pudo establecer una conexión. Tu tienda puede estar sin conexión, la URL puede ser incorrecta, o un firewall o complemento de seguridad puede estar bloqueando solicitudes de API externas.
+    Fozzels no pudo establecer una conexión. Tu tienda puede estar sin conexión, la URL puede ser incorrecta, o un firewall o complemento de seguridad puede estar bloqueando solicitudes de API externas. Consulta [2.1.1. Requisitos de conexión: direcciones IP, User-Agent y configuración del firewall](./connection-requirements.md) para ver las direcciones IP y el User-Agent que debes permitir.
 
 -   **"Error de certificado SSL. Asegúrate de que tu tienda usa un certificado HTTPS válido."**
     El certificado SSL de tu tienda es inválido o ha expirado. Comunícate con tu proveedor de hosting para renovar o reemplazar el certificado.

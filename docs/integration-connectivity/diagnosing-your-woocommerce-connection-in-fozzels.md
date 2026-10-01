@@ -38,7 +38,7 @@ These messages appear regardless of which plugins you have enabled.
     The WooCommerce REST API could not be reached at the provided URL. Make sure you entered the correct store URL (e.g. `https://yourstore.com`) and that the WooCommerce REST API is enabled.
 
 -   **"Cannot reach your store. Check the URL, server status, or firewall settings."**
-    Fozzels could not establish a connection. Your store may be offline, the URL may be wrong, or a firewall or security plugin may be blocking external API requests.
+    Fozzels could not establish a connection. Your store may be offline, the URL may be wrong, or a firewall or security plugin may be blocking external API requests. See [2.1.1. Connection Requirements: IP Addresses, User-Agent and Firewall Settings](./connection-requirements.md) for the IP addresses and User-Agent to allow.
 
 -   **"SSL certificate error. Ensure your store uses a valid HTTPS certificate."**
     Your store's SSL certificate is invalid or expired. Contact your hosting provider to renew or replace the certificate.

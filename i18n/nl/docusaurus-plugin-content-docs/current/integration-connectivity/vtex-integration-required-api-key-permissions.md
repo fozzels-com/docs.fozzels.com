@@ -111,4 +111,4 @@ Nee. Fozzels werkt alleen met uw productcatalogus. Het heeft geen toegang tot be
 Voor eentalige winkels zijn de bovenstaande machtigingen voldoende. Meertalig schrijven terug staat op onze roadmap en kan aanvullende machtigingen vereisen wanneer dit wordt uitgebracht. We zullen dit artikel op dat moment bijwerken.
 
 **Kan ik de API-sleutel beperken tot specifieke IP-adressen?**
-Ja. Neem contact op met ons ondersteuningsteam om het huidige IP-adres van de Fozzels-server voor whitelisting op te vragen.
+Ja. De actuele Fozzels IP-adressen staan in [2.1.1. Verbindingsvereisten: IP-adressen, User-Agent en firewallinstellingen](./connection-requirements.md).

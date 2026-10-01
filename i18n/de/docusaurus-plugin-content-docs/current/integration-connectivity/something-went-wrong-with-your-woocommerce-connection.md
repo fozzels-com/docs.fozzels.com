@@ -24,7 +24,7 @@ Wenn Sie Ihre WooCommerce-Integration speichern, überprüft Fozzels automatisch
 
 - **"REST API nicht gefunden."** Überprüfen Sie noch mal die URL, die Sie eingegeben haben. Sie sollte wie `https://yourstore.com` aussehen – ohne zusätzliche Schrägstriche oder Tippfehler.
 
-- **"Kann Ihren Shop nicht erreichen."** Ihr Shop ist möglicherweise offline oder ein Sicherheits-Plugin blockiert den Zugriff. Überprüfen Sie, ob Ihr Shop aktiv ist, und versuchen Sie es erneut.
+- **"Kann Ihren Shop nicht erreichen."** Ihr Shop ist möglicherweise offline oder ein Sicherheits-Plugin blockiert den Zugriff. Überprüfen Sie, ob Ihr Shop aktiv ist, und versuchen Sie es erneut. Wenn ein Sicherheits-Plugin oder eine Firewall beteiligt ist, lassen Sie die unter [2.1.1. Verbindungsanforderungen: IP-Adressen, User-Agent und Firewall-Einstellungen](./connection-requirements.md) aufgeführten Adressen zu.
 
 - **"SSL-Zertifikatfehler."** Das Sicherheitszertifikat Ihres Shops hat ein Problem. Kontaktieren Sie Ihren Hosting-Anbieter, um es zu beheben.
 
