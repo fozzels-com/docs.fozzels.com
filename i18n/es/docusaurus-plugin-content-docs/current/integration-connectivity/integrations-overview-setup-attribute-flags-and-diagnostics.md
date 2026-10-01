@@ -171,7 +171,7 @@ Cuando prueba la conexión o ejecuta una extracción de producto, Fozzels verifi
 | WordPress was not found at the provided URL | La URL no apunta a un sitio de WordPress | Verifique que la URL sea correcta y públicamente accesible |
 | WooCommerce REST API is not available | WooCommerce no instalado o REST API deshabilitado | Instale WooCommerce y habilite REST API en WooCommerce → Settings → Advanced |
 | Unable to connect to the store | Problema de red/DNS | Verifique que la URL sea alcanzable desde Internet |
-| The connection timed out | La tienda es inalcanzable o el firewall está bloqueando | Verifique el firewall del servidor y asegúrese de que la URL sea públicamente accesible |
+| The connection timed out | La tienda es inalcanzable o el firewall está bloqueando | Verifique el firewall del servidor y asegúrese de que la URL sea públicamente accesible; consulte [2.1.1. Requisitos de conexión: direcciones IP, User-Agent y configuración del firewall](./connection-requirements.md) |
 | Invalid API credentials | Consumer Key o Consumer Secret incorrectos | Genere una nueva clave API en WooCommerce → Settings → Advanced → REST API |
 
 **Errores de ACF**

@@ -80,7 +80,7 @@ Los nuevos campos ACF requieren una extracción de atributo exitosa para aparece
 
 ## La extracción de datos del producto dejó de funcionar / Recibo fallos de importación.
 
-Esto puede ser causado por un limitador de velocidad o firewall bloqueando solicitudes de API de Fozzels. Póngase en contacto con el soporte — pueden agregar las excepciones necesarias a la lista de permitidos de su servidor.
+Esto puede ser causado por un limitador de velocidad o firewall bloqueando solicitudes de API de Fozzels. Permita las direcciones IP y el User-Agent de Fozzels y exclúyalos de la limitación de velocidad — consulte [2.1.1. Requisitos de conexión: direcciones IP, User-Agent y configuración del firewall](../integration-connectivity/connection-requirements.md).
 
 ## Las URLs de la tienda conducen a errores 404.
 
@@ -104,7 +104,7 @@ El contenido se genera una vez por producto por idioma, no por canal de ventas. 
 
 ## No hay imágenes en mi feed de producto / catálogo.
 
-Las imágenes faltantes a menudo son causadas por restricciones de IP en su servidor. Póngase en contacto con el soporte — pueden agregar las direcciones IP de Fozzels a su lista blanca.
+Las imágenes faltantes a menudo son causadas por restricciones de IP en su servidor. Permita las direcciones IP y el User-Agent de Fozzels — consulte [2.1.1. Requisitos de conexión: direcciones IP, User-Agent y configuración del firewall](../integration-connectivity/connection-requirements.md).
 
 ## Las imágenes del producto no se muestran en el catálogo de Fozzels.
 
@@ -128,7 +128,7 @@ Fozzels extrae catálogos nocturnamente. Si hace cambios importantes, siempre ac
 
 ## Recibo un error "429 Too Many Requests" al sincronizar a mi PIM.
 
-El limitador de velocidad de su PIM está bloqueando solicitudes. Póngase en contacto con su proveedor de PIM y el soporte de Fozzels para incluir la IP de Fozzels en la lista blanca o corregir el formato de solicitud.
+El limitador de velocidad de su PIM está bloqueando solicitudes. Pida a su proveedor de PIM que permita las direcciones IP y el User-Agent de Fozzels y los excluya de la limitación de velocidad — consulte [2.1.1. Requisitos de conexión: direcciones IP, User-Agent y configuración del firewall](../integration-connectivity/connection-requirements.md). Si el error persiste, póngase en contacto con el soporte de Fozzels.
 
 ## ¿Qué campos puede actualizar Fozzels en Katana PIM?
 

@@ -111,4 +111,4 @@ Não. O Fozzels funciona apenas com seu catálogo de produtos. Ele não precisa 
 Para lojas de um único idioma, as permissões acima são suficientes. O write-back multilíngue está em nosso roteiro e pode exigir uma permissão adicional quando lançado. Atualizaremos este artigo nesse momento.
 
 **Posso restringir a chave de API a endereços IP específicos?**
-Sim. Entre em contato com nossa equipe de suporte para obter o endereço IP do servidor Fozzels atual para colocar na lista de permissões.
+Sim. Os endereços IP atuais do Fozzels estão em [2.1.1. Requisitos de conexão: endereços IP, User-Agent e configurações de firewall](./connection-requirements.md).

@@ -36,7 +36,7 @@ Essas mensagens aparecem independentemente de quais plugins você tenha habilita
     A API REST do WooCommerce não pôde ser encontrada na URL fornecida. Certifique-se de que inseriu a URL correta da loja (por exemplo, `https://yourstore.com`) e que a API REST do WooCommerce está habilitada.
 
 -   **"Cannot reach your store. Check the URL, server status, or firewall settings."**
-    O Fozzels não conseguiu estabelecer uma conexão. Sua loja pode estar offline, a URL pode estar errada, ou um firewall ou plugin de segurança pode estar bloqueando solicitações de API externas.
+    O Fozzels não conseguiu estabelecer uma conexão. Sua loja pode estar offline, a URL pode estar errada, ou um firewall ou plugin de segurança pode estar bloqueando solicitações de API externas. Veja [2.1.1. Requisitos de conexão: endereços IP, User-Agent e configurações de firewall](./connection-requirements.md) para os endereços IP e o User-Agent a liberar.
 
 -   **"SSL certificate error. Ensure your store uses a valid HTTPS certificate."**
     O certificado SSL de sua loja é inválido ou expirou. Entre em contato com seu provedor de hospedagem para renovar ou substituir o certificado.

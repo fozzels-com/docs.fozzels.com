@@ -83,7 +83,7 @@ New ACF fields require a successful attribute pull to appear. Ensure the ACF to 
 
 ## Product data pull stopped working / I get import failures.
 
-This can be caused by a rate limiter or firewall blocking Fozzels' API requests. Contact support — they can add the necessary exceptions to your server's allow-list.
+This can be caused by a rate limiter or firewall blocking Fozzels' API requests. Allow the Fozzels IP addresses and User-Agent and exclude them from rate limiting — see [2.1.1. Connection Requirements: IP Addresses, User-Agent and Firewall Settings](../integration-connectivity/connection-requirements.md).
 
 ## Storefront URLs lead to 404 errors.
 
@@ -107,7 +107,7 @@ Content is generated once per product per language, not per sales channel. Sales
 
 ## There are no images in my product feed / catalog.
 
-Missing images are often caused by IP restrictions on your server. Contact support — they can add Fozzels' IP addresses to your whitelist.
+Missing images are often caused by IP restrictions on your server. Allow the Fozzels IP addresses and User-Agent — see [2.1.1. Connection Requirements: IP Addresses, User-Agent and Firewall Settings](../integration-connectivity/connection-requirements.md).
 
 ## Product images aren't displaying in the Fozzels catalog.
 
@@ -131,7 +131,7 @@ Fozzels pulls catalogs nightly. If you make major changes, always trigger a manu
 
 ## I get a 429 Too Many Requests error when syncing to my PIM.
 
-Your PIM's rate limiter is blocking requests. Contact your PIM provider and Fozzels support to whitelist Fozzels' IP or fix the request format.
+Your PIM's rate limiter is blocking requests. Ask your PIM provider to allow the Fozzels IP addresses and User-Agent and exclude them from rate limiting — see [2.1.1. Connection Requirements: IP Addresses, User-Agent and Firewall Settings](../integration-connectivity/connection-requirements.md). If the error persists, contact Fozzels support.
 
 ## Which fields can Fozzels update in Katana PIM?
 
