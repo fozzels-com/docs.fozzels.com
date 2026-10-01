@@ -94,38 +94,14 @@ U moet een nieuwe integratie maken en specifieke machtigingen in uw Magento-behe
 
 ### Stap 6: Controleer API-toegang
 
-Voordat u Fozzels verbindt, zorg ervoor dat uw server:
-
-**1\. Blokkeert geen externe verzoeken naar de Magento REST API.**
-
-Als uw server een firewall, WAF of beveiligingsservice (Cloudflare, Sucuri, enz.) geconfigureerd — deze kunnen binnenkomende verzoeken van Fozzels naar uw winkel blokkeren.
+Voordat u Fozzels verbindt, zorg ervoor dat uw server verzoeken van Fozzels naar de Magento REST API (`/rest/`) en GraphQL API (`/graphql`) niet blokkeert of beperkt. Firewalls, WAF's en beveiligingsdiensten zoals Cloudflare of Sucuri kunnen deze verzoeken blokkeren.
 
 ### Wat te doen:
 
-1.  Vraag de huidige lijst met Fozzels IP-adressen aan bij **[support@fozzels.com](mailto:support@fozzels.com)**.
-    Voor whitelisting kunt u de volgende Fozzels IP-adressen gebruiken:
-```
-49.13.117.118
-91.205.205.66
+1.  Sta de Fozzels IP-adressen (IPv4 **en** IPv6) en de Fozzels User-Agent toe en sluit ze uit van rate limiting. Alle adressen en instellingen, inclusief instructies voor Cloudflare, vindt u in [2.1.1. Verbindingsvereisten: IP-adressen, User-Agent en firewallinstellingen](./connection-requirements.md).
+2.  Stuur die pagina door naar uw hostingprovider of serverbeheerder.
 
-2a01:4f8:c17:bb1e::/64
-```
-
-2.  Zet deze lijst door naar uw hostingprovider of serverbeheerder om deze aan de whitelist toe te voegen.
-
-Als dit niet wordt gedaan — ontvangt u een **401 (Onbevoegd)**-fout bij het maken van de integratie in Fozzels en kunt u de verbinding niet tot stand brengen.
-
-**2\. Beperkt het aantal API-verzoeken van user agent niet: f**ozzels** .**
-De volledige user-agent is Mozilla/5.0 (Windows NT 10.0; Win64; x64; fozzels/5.1.2; +[https://app.fozzels.com/](https://app.fozzels.com/)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
-
-Tijdens synchronisatie verzendt Fozzels een groot aantal verzoeken, vooral met grote productcatalogussen. Als uw server strikte limieten heeft voor het aantal verzoeken per minuut of seconde (rate limiting) — sommige daarvan worden geweigerd.
-
-### Wat te doen:
-
-1.  Neem contact op met uw hostingprovider of serverbeheerder.
-2.  Vraag hen om de API-verzoeklimiet te verhogen of om Fozzels IP-adressen en/of de Fozzels User Agent uit te sluiten van snelheidsbeperking.
-
-Als dit niet wordt gedaan — ontvangt u een **429 (Te veel verzoeken)**-fout tijdens het ophalen van producten en zal de productsynchronisatie niet worden voltooid.
+Als dit niet wordt gedaan, ontvangt u een **401 (Onbevoegd)**-fout bij het maken van de integratie in Fozzels of een **429 (Te veel verzoeken)**-fout tijdens het ophalen van producten, en wordt de verbinding of synchronisatie niet voltooid.
 
 Ga na bevestiging van de wijzigingen over tot het maken van de integratie in Fozzels.
 
