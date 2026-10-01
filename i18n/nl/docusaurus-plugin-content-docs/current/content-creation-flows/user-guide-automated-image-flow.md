@@ -64,8 +64,6 @@ Gemini-modellen gebruiken een interactief **uitvoerraster** voor precieze contro
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/Ydm8oxLyvSgZ7H_x5R1Uf0kb_u7RxmIXRw.png)
 
-> Voor meer informatie over AI-modellen en hun specifieke technische mogelijkheden kunt u hier meer lezen [link nog toe te voegen].
-
 #### **Het uitvoerraster gebruiken (alleen Gemini)**
 
 Met het raster kunt u de exacte "vorm" en kwaliteit van uw gegenereerde afbeeldingen bepalen:
@@ -284,8 +282,6 @@ Zodra de stroom actief is, hebt u twee manieren om generatie in te stellen:
 -   **Deactivering**: als de stroom niet langer relevant is of u productie moet pauzeren, zet u de schakelaar **Actieve stroom** op "UIT" en klikt u op **Opslaan**. Dit stopt onmiddellijk het inplannen van verdere generaties.
 
 **Definitieve herinnering**: Zorg altijd dat uw **dagelijkse limiet** correct is ingesteld voordat u op **Opslaan** klikt. Zodra de stroom actief is, begint het systeem producten voor verwerking in de wachtrij in te plannen volgens uw instellingen.
-
-Hier is de volledige gids voor de sectie **Batch List** in het Nederlands, met alle technische details over synchronisatielogica en gebruikersinterface.
 
 ## **Batch List**
 

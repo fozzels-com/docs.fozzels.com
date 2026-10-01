@@ -31,8 +31,7 @@ Diese Registerkarte handhabt die grundlegende Identität und Verbindung Ihrer Au
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/XUm-rzBUqRa_mFIUflBlrrZlaYzDnRHgMw.png)
 
-##
-2\. KI-Konfiguration (Registerkarte 2)
+## 2. KI-Konfiguration (Registerkarte 2)
 
 Auf dieser Registerkarte definieren Sie die "Intelligenz" und die visuelle Ausgabe Ihrer Generierung. Die Einstellungen variieren je nach gewähltem Anbieter erheblich.
 
@@ -65,8 +64,6 @@ Gemini models utilize an interactive **Output format** grid for precise control 
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/Ydm8oxLyvSgZ7H_x5R1Uf0kb_u7RxmIXRw.png)
 
-> To learn more about AI models and their specific technical capabilities, please read more here \[link to be added\].
-
 #### **How to Use the Output Format Grid (Gemini Only)**
 
 The grid allows you to define the exact "shape" and quality of your generated images:
@@ -83,8 +80,7 @@ The grid allows you to define the exact "shape" and quality of your generated im
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/gkfM9PdTV36LEV-UL7SN9obfvD3AOKt7_Q.png)
 
-##
-3\. Flow-Auswahl & Prompt (Registerkarte 3)
+## 3. Flow-Auswahl & Prompt (Registerkarte 3)
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/H3B5OOvEGyTufKlUAsFd_uzfwAVXLbVcEA.png)
 
 Diese Registerkarte ist das Herzstück Ihrer Inhaltserstellung. Der erste und kritischste Schritt ist die Konfiguration Ihrer **Vorlagen**.
@@ -291,10 +287,7 @@ Once the flow is active, you have two ways to initiate generation:
 
 **Final Reminder**: Always ensure your **Daily Limit** is set correctly before clicking **Save**. Once the flow is active, the system will begin queuing products for processing according to your settings.
 
-Here is the complete guide for the **Batch List** section in English, incorporating all technical details regarding synchronization logic and the user interface.
-
-##
-**Batch List**
+## Batch List
 
 The **Batch List** is your hub for quality control and moderation. Every flow execution (whether automatic or manual via the _Run Now_ button) creates a new batch entry in the list on the left.
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/LIJVpWk3sHHmcIRCOQIvCJACgNLRBBIHRw.png)
@@ -365,7 +358,6 @@ Since full automation is currently disabled to ensure quality, you decide when t
 
 -   **⚠️ Warning**: Synchronization is **irreversible -** it cannot be canceled once initiated.
 
-##
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/c9uHBa_kSFHkR_YXg2rBCu-uOXq4xMWgVw.png)
 
 ###
@@ -373,5 +365,4 @@ Since full automation is currently disabled to ensure quality, you decide when t
 
 Congratulations! You are now fully equipped to master **Fozzels Image Flow**. This is your space to transform ideas into high-quality visual content in just a few clicks.
 
-##
-**Watch the detailed instructions in the video**
+## Watch the detailed instructions in the video

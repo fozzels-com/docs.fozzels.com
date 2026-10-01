@@ -28,8 +28,7 @@ Esta aba trata da identidade básica e conexão de sua automação. Existem duas
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/XUm-rzBUqRa_mFIUflBlrrZlaYzDnRHgMw.png)
 
-##
-2\. Configuração de IA (Aba 2)
+## 2. Configuração de IA (Aba 2)
 
 Nesta aba, você define a "inteligência" e a saída visual de sua geração. As configurações variam significativamente dependendo do provedor que você escolher.
 
@@ -62,8 +61,6 @@ Os modelos Gemini utilizam uma grade de **Formato de Saída** interativa para co
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/Ydm8oxLyvSgZ7H_x5R1Uf0kb_u7RxmIXRw.png)
 
-> Para aprender mais sobre modelos de IA e suas capacidades técnicas específicas, leia mais aqui \[link a ser adicionado\].
-
 #### **Como Usar a Grade de Formato de Saída (Apenas Gemini)**
 
 A grade permite que você defina a "forma" exata e qualidade de suas imagens geradas:
@@ -80,8 +77,7 @@ A grade permite que você defina a "forma" exata e qualidade de suas imagens ger
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/gkfM9PdTV36LEV-UL7SN9obfvD3AOKt7_Q.png)
 
-##
-3\. Seleção de Fluxo e Prompt (Aba 3)
+## 3. Seleção de Fluxo e Prompt (Aba 3)
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/H3B5OOvEGyTufKlUAsFd_uzfwAVXLbVcEA.png)
 
 Esta aba é o coração de sua criação de conteúdo. O primeiro e mais crítico passo é configurar seus **Presets**.
@@ -288,10 +284,7 @@ Uma vez que o fluxo está ativo, você tem duas formas de iniciar a geração:
 
 **Aviso Final**: Sempre certifique-se de que seu **Limite Diário** está definido corretamente antes de clicar **Salvar**. Uma vez que o fluxo está ativo, o sistema começará a enfileirar produtos para processamento de acordo com suas configurações.
 
-Aqui está o guia completo para a seção **Lista de Lotes** em Inglês, incorporando todos os detalhes técnicos sobre lógica de sincronização e a interface do usuário.
-
-##
-**Lista de Lotes**
+## Lista de Lotes
 
 A **Lista de Lotes** é seu hub para controle de qualidade e moderação. Cada execução de fluxo (se automática ou manual via botão _Executar Agora_) cria uma nova entrada de lote na lista à esquerda.
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/LIJVpWk3sHHmcIRCOQIvCJACgNLRBBIHRw.png)
@@ -362,7 +355,6 @@ Como automação completa está atualmente desativada para garantir qualidade, v
 
 -   **⚠️ Aviso**: Sincronização é **irreversível -** não pode ser cancelada uma vez iniciada.
 
-##
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/c9uHBa_kSFHkR_YXg2rBCu-uOXq4xMWgVw.png)
 
 ###
@@ -370,5 +362,4 @@ Como automação completa está atualmente desativada para garantir qualidade, v
 
 Parabéns! Você agora está totalmente equipado para dominar o **Fluxo de Imagem Fozzels**. Este é seu espaço para transformar ideias em conteúdo visual de alta qualidade em apenas alguns cliques.
 
-##
-**Assista às instruções detalhadas no vídeo**
+## Assista às instruções detalhadas no vídeo

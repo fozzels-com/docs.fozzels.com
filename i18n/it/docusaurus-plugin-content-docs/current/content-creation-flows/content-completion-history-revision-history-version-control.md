@@ -5,12 +5,10 @@ sidebar_position: 23
 slug: >-
   /content-creation-flows/content-completion-history-revision-history-version-control
 description: >-
-  Gemini ha detto Non abbia mai più paura di perdere un'ottima idea o la Sua
+  Non abbia mai più paura di perdere un'ottima idea o la Sua
   descrizione di prodotto originale. Con la Content Completion History, ha il
   pieno controllo sull'
 ---
-
-###### Gemini ha detto
 
 Non abbia mai più paura di perdere un'ottima idea o la Sua descrizione di prodotto originale. Con la **Content Completion History**, ha il pieno controllo sull'evoluzione dei Suoi contenuti.
 
