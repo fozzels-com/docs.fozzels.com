@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Centro assistenza",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Fozzels",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Submit a ticket": {
+    "message": "Apri un ticket",
+    "description": "Navbar item with label Submit a ticket"
+  }
+}
