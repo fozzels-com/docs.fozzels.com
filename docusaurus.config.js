@@ -116,6 +116,12 @@ const config = {
             type: 'localeDropdown',
             position: 'right',
           },
+          // Globe button shown only on mobile, next to the search button
+          // (see src/theme/NavbarItem/MobileLocaleSwitcherNavbarItem).
+          {
+            type: 'custom-mobileLocaleSwitcher',
+            position: 'right',
+          },
         ],
       },
       footer: {
