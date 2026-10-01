@@ -3,7 +3,7 @@
  * Rebuild .translation-cache.json from what is already on disk.
  *
  * The cache is not committed, so a fresh checkout makes translate.mjs think
- * every article is new and re-translate all of docs/ into all four locales.
+ * every article is new and re-translate all of docs/ into every locale.
  * This marks each English file whose locale copy already exists as up to date,
  * so a following `translate.mjs` run only touches genuinely new or edited docs.
  *
