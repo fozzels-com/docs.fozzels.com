@@ -97,38 +97,14 @@ You must create a new integration and define specific permissions within your Ma
 
 ### Step 6: Verify API Access
 
-Before connecting Fozzels, make sure that your server:
-
-**1\. Does not block external requests to the Magento REST API.**
-
-If your server has a firewall, WAF, or security service (Cloudflare, Sucuri, etc.) configured — they may block incoming requests from Fozzels to your store.
+Before connecting Fozzels, make sure that your server does not block or rate-limit requests from Fozzels to the Magento REST API (`/rest/`) and GraphQL API (`/graphql`). Firewalls, WAFs and security services such as Cloudflare or Sucuri can block these requests.
 
 ### What to do:
 
-1.  Request the current list of Fozzels IP addresses from **[support@fozzels.com](mailto:support@fozzels.com)**.
-    For whitelisting, you can use the Fozzels IP addresses:
-```
-49.13.117.118
-91.205.205.66
+1.  Allow the Fozzels IP addresses (IPv4 **and** IPv6) and the Fozzels User-Agent, and exclude them from rate limiting. All addresses and settings, including Cloudflare instructions, are listed in [2.1.1. Connection Requirements: IP Addresses, User-Agent and Firewall Settings](./connection-requirements.md).
+2.  Forward that page to your hosting provider or server administrator.
 
-2a01:4f8:c17:bb1e::/64
-```
-
-2.  Forward this list to your hosting provider or server administrator to add them to the whitelist.
-
-If this is not done — you will receive a **401 (Unauthorized)** error when creating the integration in Fozzels and will not be able to complete the connection.
-
-**2\. Does not limit the number of API requests from user agent: f**ozzels** .**
-Full user-agent is Mozilla/5.0 (Windows NT 10.0; Win64; x64; fozzels/5.1.2; +[https://app.fozzels.com/](https://app.fozzels.com/)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
-
-During synchronization, Fozzels sends a large number of requests, especially with large product catalogs. If your server has strict limits on the number of requests per minute or second (rate limiting) — some of them will be rejected.
-
-### What to do:
-
-1.  Contact your hosting provider or server administrator.
-2.  Ask them to increase the API request limit, or exclude Fozzels IP addresses and/or the Fozzels User Agent from rate limiting.
-
-If this is not done — you will receive a **429 (Too Many Requests)** error during Pull Products and the product synchronization will not complete.
+If this is not done, you will receive a **401 (Unauthorized)** error when creating the integration in Fozzels, or a **429 (Too Many Requests)** error during Pull Products, and the connection or synchronization will not complete.
 
 After confirming the changes, proceed to creating the integration in Fozzels.
 

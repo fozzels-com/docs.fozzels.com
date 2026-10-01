@@ -94,38 +94,14 @@ Você deve criar uma nova integração e definir permissões específicas no seu
 
 ### Etapa 6: Verifique Acesso à API
 
-Antes de conectar Fozzels, certifique-se de que seu servidor:
-
-**1\. Não bloqueia solicitações externas para a API REST do Magento.**
-
-Se seu servidor tem firewall, WAF ou serviço de segurança (Cloudflare, Sucuri, etc.) configurados — eles podem bloquear solicitações recebidas do Fozzels para sua loja.
+Antes de conectar o Fozzels, certifique-se de que seu servidor não bloqueia nem limita as solicitações do Fozzels para a API REST do Magento (`/rest/`) e a API GraphQL (`/graphql`). Firewalls, WAFs e serviços de segurança como Cloudflare ou Sucuri podem bloquear essas solicitações.
 
 ### O que fazer:
 
-1.  Solicite a lista atual de endereços IP do Fozzels em **[support@fozzels.com](mailto:support@fozzels.com)**.
-    Para adicionar à whitelist, você pode usar os endereços IP do Fozzels:
-```
-49.13.117.118
-91.205.205.66
+1.  Libere os endereços IP do Fozzels (IPv4 **e** IPv6) e o User-Agent do Fozzels, e exclua-os do rate limiting. Todos os endereços e configurações, incluindo instruções para o Cloudflare, estão em [2.1.1. Requisitos de conexão: endereços IP, User-Agent e configurações de firewall](./connection-requirements.md).
+2.  Encaminhe essa página para seu provedor de hospedagem ou administrador de servidor.
 
-2a01:4f8:c17:bb1e::/64
-```
-
-2.  Encaminhe esta lista para seu provedor de hospedagem ou administrador de servidor para adicioná-los à whitelist.
-
-Se isso não for feito — você receberá um erro **401 (Unauthorized)** ao criar a integração no Fozzels e não conseguirá completar a conexão.
-
-**2\. Não limita o número de solicitações de API do user agent: f**ozzels** .**
-O user-agent completo é Mozilla/5.0 (Windows NT 10.0; Win64; x64; fozzels/5.1.2; +[https://app.fozzels.com/](https://app.fozzels.com/)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
-
-Durante a sincronização, Fozzels envia um grande número de solicitações, especialmente com catálogos de produtos grandes. Se seu servidor tiver limites rigorosos no número de solicitações por minuto ou segundo (rate limiting) — algumas delas serão rejeitadas.
-
-### O que fazer:
-
-1.  Entre em contato com seu provedor de hospedagem ou administrador de servidor.
-2.  Peça-lhes para aumentar o limite de solicitações da API ou excluir endereços IP Fozzels e/ou User Agent Fozzels do rate limiting.
-
-Se isso não for feito — você receberá um erro **429 (Too Many Requests)** durante Pull Products e a sincronização de produtos não será concluída.
+Se isso não for feito, você receberá um erro **401 (Unauthorized)** ao criar a integração no Fozzels ou um erro **429 (Too Many Requests)** durante o Pull Products, e a conexão ou a sincronização não será concluída.
 
 Após confirmar as alterações, prossiga para criar a integração no Fozzels.
 
