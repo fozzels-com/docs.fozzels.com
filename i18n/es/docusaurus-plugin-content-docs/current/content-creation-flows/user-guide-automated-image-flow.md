@@ -61,8 +61,6 @@ Los modelos Gemini utilizan una cuadrícula **Formato de salida** interactiva pa
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/Ydm8oxLyvSgZ7H_x5R1Uf0kb_u7RxmIXRw.png)
 
-> Para obtener más información sobre modelos de IA y sus capacidades técnicas específicas, lea más aquí \[enlace a agregar\].
-
 #### **Cómo utilizar la cuadrícula de formato de salida (solo Gemini)**
 
 La cuadrícula le permite definir la "forma" exacta y calidad de sus imágenes generadas:
@@ -281,8 +279,6 @@ Una vez que el flujo está activo, tiene dos formas de iniciar la generación:
 -   **Desactivación**: Si el flujo ya no es relevante o necesita pausar la producción, cambie el interruptor **Flujo activo** a "DESACTIVADO" y haga clic en **Guardar**. Esto detiene inmediatamente la programación de generaciones adicionales.
 
 **Recordatorio final**: Asegúrese siempre de que su **límite diario** esté configurado correctamente antes de hacer clic en **Guardar**. Una vez que el flujo está activo, el sistema comenzará a poner en cola productos para procesamiento según su configuración.
-
-Aquí está la guía completa para la sección **Lista de lotes** en inglés, incorporando todos los detalles técnicos sobre la lógica de sincronización y la interfaz de usuario.
 
 ## **Lista de lotes**
 

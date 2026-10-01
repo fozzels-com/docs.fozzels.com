@@ -4,43 +4,47 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Account & Core Resources": {
-    "message": "Account & Core Resources",
+    "message": "Konto & Kernressourcen",
     "description": "The label for category 'Account & Core Resources' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Account & Core Resources.link.generated-index.description": {
-    "message": "Account & Core Resources articles.",
+    "message": "Artikel zu Konto & Kernressourcen.",
     "description": "The generated-index page description for category 'Account & Core Resources' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Integration & Connectivity": {
-    "message": "Integration & Connectivity",
+    "message": "Integration & Konnektivität",
     "description": "The label for category 'Integration & Connectivity' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Integration & Connectivity.link.generated-index.description": {
-    "message": "Integration & Connectivity articles.",
+    "message": "Artikel zu Integration & Konnektivität.",
     "description": "The generated-index page description for category 'Integration & Connectivity' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Data Import And Quality": {
-    "message": "Data Import And Quality",
+    "message": "Datenimport & Qualität",
     "description": "The label for category 'Data Import And Quality' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Data Import And Quality.link.generated-index.description": {
-    "message": "Data Import And Quality articles.",
+    "message": "Artikel zu Datenimport & Qualität.",
     "description": "The generated-index page description for category 'Data Import And Quality' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Content Creation (Flows)": {
-    "message": "Content Creation (Flows)",
+    "message": "Content-Erstellung (Flows)",
     "description": "The label for category 'Content Creation (Flows)' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Content Creation (Flows).link.generated-index.description": {
-    "message": "Content Creation (Flows) articles.",
+    "message": "Artikel zu Content-Erstellung (Flows).",
     "description": "The generated-index page description for category 'Content Creation (Flows)' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Fozzels Releases & Updates": {
-    "message": "Fozzels Releases & Updates",
+    "message": "Fozzels-Releases & Updates",
     "description": "The label for category 'Fozzels Releases & Updates' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Fozzels Releases & Updates.link.generated-index.description": {
-    "message": "Fozzels Releases & Updates articles.",
+    "message": "Artikel zu Fozzels-Releases & Updates.",
     "description": "The generated-index page description for category 'Fozzels Releases & Updates' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Frequently Asked Questions": {
+    "message": "Häufig gestellte Fragen",
+    "description": "The label for category 'Frequently Asked Questions' in sidebar 'tutorialSidebar'"
   }
 }

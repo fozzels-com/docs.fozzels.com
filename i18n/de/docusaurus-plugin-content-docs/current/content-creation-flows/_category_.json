@@ -1,9 +1,9 @@
 {
-  "label": "Inhaltsererstellung (Flows)",
+  "label": "Content-Erstellung (Flows)",
   "position": 4,
   "link": {
     "type": "generated-index",
     "slug": "/content-creation-flows",
-    "description": "Artikel zur Inhaltsererstellung (Flows)."
+    "description": "Artikel zu Content-Erstellung (Flows)."
   }
 }
