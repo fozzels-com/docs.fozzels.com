@@ -10,6 +10,36 @@ const require = createRequire(import.meta.url);
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+const siteUrl = process.env.SITE_URL ?? 'https://docs.fozzels.com';
+const siteBaseUrl = process.env.BASE_URL ?? '/';
+
+// The config is re-loaded for every locale build, and Docusaurus sets this
+// variable before loading it, so per-locale values can be computed here.
+const currentLocale = process.env.DOCUSAURUS_CURRENT_LOCALE ?? 'en';
+
+// Spanish-only Freshdesk duplicates that used to live in the English docs
+// folder (and were copied into every locale). They were removed; keep their
+// old, possibly indexed URLs working by redirecting to the real article:
+// - English URL (Spanish content) -> the Spanish translation under /es/
+// - other locales -> the same article in that locale
+const removedDuplicateArticles = [
+  {
+    from: '/integration-connectivity/integración-de-fozzels-con-aioseo-para-woocommerce-la-guía-completa-de-configura',
+    to: '/integration-connectivity/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/',
+  },
+  {
+    from: '/integration-connectivity/soporte-de-yoast-seo-para-woocommerce-es',
+    to: '/integration-connectivity/yoast-seo-support-for-woocommerce/',
+  },
+];
+const duplicateArticleRedirects = removedDuplicateArticles.map(({from, to}) => ({
+  from,
+  to:
+    currentLocale === 'en'
+      ? `${siteUrl}${siteBaseUrl}es${to}`
+      : to,
+}));
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Fozzels Help Center',
@@ -28,8 +58,8 @@ const config = {
 
   // Overridable per environment. GitHub Pages preview sets these to the
   // qlicks.github.io/docs.fozzels.com/ URL; production (Cloudflare) uses the defaults.
-  url: process.env.SITE_URL ?? 'https://docs.fozzels.com',
-  baseUrl: process.env.BASE_URL ?? '/',
+  url: siteUrl,
+  baseUrl: siteBaseUrl,
 
   // GitHub Pages serves every page as /path/index.html and 301-redirects
   // /path to /path/. Emit the trailing slash in links, canonicals, hreflang
@@ -73,6 +103,13 @@ const config = {
         language: ['en', 'de', 'es', 'nl', 'pt'],
         highlightSearchTermsOnTargetPage: true,
       }),
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {redirects: duplicateArticleRedirects},
     ],
   ],
 
