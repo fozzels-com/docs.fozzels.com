@@ -37,6 +37,7 @@ const LOCALES = {
     name: 'Brazilian Portuguese',
     notes: 'Use the informal register (você). Keep prices in Euro (€) and dates as DD/MM/YYYY.',
   },
+  it: {name: 'Italian', notes: 'Use the formal register (Lei).'},
 };
 
 // Fall back to .env so the key never has to be typed on the command line.

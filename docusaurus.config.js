@@ -81,13 +81,14 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'de', 'nl', 'es', 'pt-BR'],
+    locales: ['en', 'de', 'nl', 'es', 'pt-BR', 'it'],
     localeConfigs: {
       en: {label: 'English'},
       de: {label: 'Deutsch'},
       nl: {label: 'Nederlands'},
       es: {label: 'Español'},
       'pt-BR': {label: 'Português (Brasil)'},
+      it: {label: 'Italiano'},
     },
   },
 
@@ -100,7 +101,7 @@ const config = {
         hashed: true,
         indexBlog: false,
         docsRouteBasePath: '/',
-        language: ['en', 'de', 'es', 'nl', 'pt'],
+        language: ['en', 'de', 'es', 'nl', 'pt', 'it'],
         highlightSearchTermsOnTargetPage: true,
       }),
     ],
