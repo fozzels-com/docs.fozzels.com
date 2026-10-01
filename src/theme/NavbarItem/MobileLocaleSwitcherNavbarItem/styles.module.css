@@ -1,0 +1,37 @@
+/*
+ * On mobile the theme positions the search box absolutely at the right edge
+ * of the navbar (out of the flex flow), so keep clear of it.
+ */
+.switcher {
+  align-items: center;
+  margin-right: 4rem;
+}
+
+/* Desktop keeps the regular localeDropdown. */
+@media (min-width: 997px) {
+  .switcher {
+    display: none;
+  }
+}
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  height: 2rem;
+  padding: 0 0.4rem;
+  border-radius: 50px;
+  color: var(--ifm-navbar-link-color);
+  font-size: 0.8rem;
+  font-weight: var(--ifm-font-weight-semibold);
+  transition: background var(--ifm-transition-fast);
+}
+
+.toggle:hover,
+.toggle[aria-expanded='true'] {
+  background: var(--ifm-color-emphasis-200);
+}
+
+.code {
+  line-height: 1;
+}
