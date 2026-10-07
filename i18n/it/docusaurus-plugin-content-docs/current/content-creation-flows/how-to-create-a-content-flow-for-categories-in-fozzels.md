@@ -22,7 +22,7 @@ Nel menu laterale, sotto **PRINCIPALE/CATALOGO**, selezioni **Categorie**.
 
 Nella parte superiore della pagina, utilizzi i filtri del selettore del negozio per assicurarsi di aver selezionato la store view corretta.
 
-### ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/1dojt8GKF7WJ4UfUGbaSXAoXnYw-c2EhlQ.png)
+![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/1dojt8GKF7WJ4UfUGbaSXAoXnYw-c2EhlQ.png)
 
 ### Passo 3. Selezioni le categorie
 
@@ -34,15 +34,15 @@ Scelga le categorie per le quali desidera generare contenuti:
 
 > _Nota:_ l'interfaccia di selezione è identica a quella del flusso di lavoro dei prodotti, il che rende il processo rapido e semplice.
 
-### ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/IZYD-wiFeEnNG1Ypw6QzBg6w1iNpWI5Ipg.png)
-Passo 4. Crei il flusso e configuri le impostazioni principali
+![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/IZYD-wiFeEnNG1Ypw6QzBg6w1iNpWI5Ipg.png)
+
+### Passo 4. Crei il flusso e configuri le impostazioni principali
 
 1.  Inserisca un **Nome** chiaro per il flusso (ad es. _Descrizione per la collezione Uomo_).
 
 2.  Il campo **Tipo di entità** sarà già preselezionato come `Category`.
 
-###
-Passo 5. Scelga l'attributo di destinazione
+### Passo 5. Scelga l'attributo di destinazione
 
 Selezioni dal menu a discesa **Attributo** l'attributo della categoria per il quale desidera generare contenuti (ad es. `Description`), quindi salvi la selezione.
 
@@ -59,11 +59,10 @@ Selezioni dal menu a discesa **Attributo** l'attributo della categoria per il qu
 >     ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/wF2PLUJw__aF3ktzhc2gqAQN6hQeKV-Cew.png)
 >
 
-###
 
-###
 ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/jbiOnSCDha9r3SkyY9GnShc-N-ZOKbstSQ.png)
-Passo 6. Configurazione IA, prompt e avvio
+
+### Passo 6. Configurazione IA, prompt e avvio
 
 1.  Scelga il modello di IA preferito.
 

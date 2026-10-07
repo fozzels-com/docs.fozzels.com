@@ -59,7 +59,6 @@ The connection between accounts is established via an invitation, which is **alw
 
 ![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/27tRV3zXZo-Sd-xnfdD2Npqj9U3_8fWR5A.png)
 
-###
 ![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/qLafAoXrVGuUXACbhMPMEvQ7Gjf7Xg2kCw.png)
 
 Scenario B: "We are a new team; how should we start?"
@@ -95,8 +94,7 @@ Scenario B: "We are a new team; how should we start?"
 
 -   **Exit:** The Reseller can return to their own account via the **'Leave impersonation'** link.
 
-##
-4\. Important Section: Responsibility and Control
+## 4\. Important Section: Responsibility and Control
 
 -   **Delegation of Responsibility:** By accepting the invitation, you delegate **full operational responsibility** for all actions performed in that account. The Reseller can modify or delete critical data and integrations.
 

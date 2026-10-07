@@ -12,7 +12,6 @@ Mit dieser Funktion können Sie einzigartige und erweiterte Produktmerkmale (wie
 
 Eine erfolgreiche Integration erfordert wichtige Konfigurationsschritte in WordPress und Fozzels.
 
-###
 
 ## **Teil 1: Daten in WordPress vorbereiten (ACF und REST API)**
 
@@ -34,8 +33,7 @@ Damit die REST API ordnungsgemäß funktioniert, muss die Permalink-Struktur von
 4. Speichern Sie die Änderungen.
     ![](/img/kb/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/yP1swQ74nSHYKF8pRpAgezDqHmxBh4nR-A.png)
 
-###
-Schritt 2: Zur ACF-Feldgruppe navigieren
+### Schritt 2: Zur ACF-Feldgruppe navigieren
 
 1. Gehen Sie im WordPress-Menü zu **ACF** / **Feldgruppen**.
     ![](/img/kb/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/a7TVqQW4iMXkGcmlP1WI8nouyni5HGoKsg.png)
@@ -43,8 +41,7 @@ Schritt 2: Zur ACF-Feldgruppe navigieren
 2. Klicken Sie auf den Namen der Feldgruppe, die die Felder enthält, die Sie für Ihre WooCommerce-Produkte synchronisieren müssen (z. B. **"Fozzels-Beschreibung"**).
     ![](/img/kb/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/GH8y_bXf1Lb2RnG-_VWVmrj4XKhaFuCnRg.png)
 
-###
-Schritt 3: Konfigurieren der Feldgruppe für API-Zugriff (wichtiger Schritt)
+### Schritt 3: Konfigurieren der Feldgruppe für API-Zugriff (wichtiger Schritt)
 
 Überprüfen Sie im Bearbeitungsfenster der **Feldgruppe** die Standortregeln und aktivieren Sie den API-Zugriff.
 
@@ -68,8 +65,7 @@ Schritt 3: Konfigurieren der Feldgruppe für API-Zugriff (wichtiger Schritt)
 3. Speichern Sie die Änderungen, indem Sie auf **Aktualisieren** oder **Veröffentlichen** klicken.
     ![](/img/kb/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/lIgfpHeR7YI8Bf6W-4UvdIqtW2AQz9kqcw.png)
 
-###
-Schritt 4: ACF REST API-Version überprüfen
+### Schritt 4: ACF REST API-Version überprüfen
 
 Wenn Sie ein zusätzliches Plugin verwenden, um ACF in die REST API zu integrieren (wie `ACF to REST API`), müssen Sie sicherstellen, dass die ausgewählte Version mit Fozzels kompatibel ist.
 

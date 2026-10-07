@@ -56,8 +56,7 @@ Dopo aver salvato, deve recuperare l'elenco delle lingue dal Suo sito WordPress:
     ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/POzdAldcqgEXxkAsgSEbnJLTDF9nzoogmg.png)
     ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/rgGtdO9cFLCfJOPmQs1SQc5NKnlyOx59Ag.png)
 
-###
-3\. Sincronizzazione del catalogo
+### 3\. Sincronizzazione del catalogo
 
 Questo è l'ultimo e più importante passaggio per rendere visibili i prodotti:
 
@@ -65,8 +64,7 @@ Questo è l'ultimo e più importante passaggio per rendere visibili i prodotti:
 
 ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/S0333OKK3WCPquO5CYoLzBkvWJVsJRbG4w.png)
 
-##
-La combinazione vincente: WPML + ACF + AIOSEO
+## La combinazione vincente: WPML + ACF + AIOSEO
 
 Fozzels Le consente di combinare WPML con plugin leader di mercato per la massima automazione. Questo è il "gold standard" per l'e-commerce professionale:
 

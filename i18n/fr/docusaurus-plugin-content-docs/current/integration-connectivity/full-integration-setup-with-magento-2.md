@@ -91,7 +91,6 @@ Vous devez créer une nouvelle intégration et définir des autorisations spéci
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/Pj-HIMnlhJNvqDzEYmDckrL3xvLalFhsfw.png)
 
-##
 
 ## Partie 3 : activation de Fozzels et synchronisation des données
 
@@ -120,11 +119,9 @@ Une fois les modifications confirmées, passez à la création de l'intégration
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/M9c13tHfbMEfpo7QsFt_Q6DvUljm-1jM1Q.png)![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/UvSS02f-tz_5sjBViKw7tq0kWJRti5mSvA.png)
 
-####
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/RrDkikq2qamOno3s8JmMIrJfno5S5gpIew.png)
 
-####
 
 ### Étape 9 : renseigner les informations de connexion
 
@@ -156,7 +153,6 @@ _![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/FvEC
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/d3dKR2OUZS7d-iiP2ptuZXFlu9JQKqz93A.png)
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/gjRG-nmFAybUytQo_B_QzBZew6ZY5FygNQ.png)
 
-####
 
 ### Étape 11 : lancer Pull Products et vérifier
 

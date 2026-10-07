@@ -37,8 +37,7 @@ Dies ist die **Globale Einstellung**, die auf alle Ihre Flows anwendbar ist, sof
 
 ![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/et0MwVwvnIfg8GhM-81qMk3ADOAD3_M02g.png)
 
-##
-2\. Außerkraftsetzung der Regel für einen bestimmten Flow (Praktische Szenarien)
+## 2\. Außerkraftsetzung der Regel für einen bestimmten Flow (Praktische Szenarien)
 
 In den Einstellungen jedes einzelnen Flows (Abschnitt **4 Automation**) legen Sie fest, ob dieser der Globaleinstellung folgt oder eine Ausnahme darstellt:
 
@@ -48,8 +47,7 @@ In den Einstellungen jedes einzelnen Flows (Abschnitt **4 Automation**) legen Si
 
 -   Falls Sie alle globalen Duplizierungsregeln vollständig deaktivieren möchten, siehe C.
 
-####
-**Szenario A: Vollständige Generierungsberechtigung (Keine Einschränkungen) (Ausschalten)**
+#### Szenario A: Vollständige Generierungsberechtigung (Keine Einschränkungen) (Ausschalten)
 
 **Ihr Ziel:** Sie möchten, dass der Flow alle Duplizierungsregeln ignoriert (auch wenn die Globalregel aktiv ist).
 
@@ -67,8 +65,7 @@ In den Einstellungen jedes einzelnen Flows (Abschnitt **4 Automation**) legen Si
 
 ![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/M18xs-NWnNKM3KW_n1iAHroIpfoIW3ztfg.png)
 
-####
-**Szenario B: Festlegung eines benutzerdefinierten Zeitlimits (Außerkraftsetzung)**
+#### Szenario B: Festlegung eines benutzerdefinierten Zeitlimits (Außerkraftsetzung)
 
 **Ihr Ziel:** Sie möchten, dass dieser Flow ein Zeitlimit hat, das **anders ist** als die globale Einstellung.
 

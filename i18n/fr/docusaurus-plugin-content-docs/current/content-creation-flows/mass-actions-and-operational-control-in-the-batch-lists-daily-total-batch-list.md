@@ -41,8 +41,9 @@ Gérer le contenu avec les actions de masse. Les Dashboards (ou Batch List) sont
 
 -   **Regenerate, Save & Sync** : cette action lance une nouvelle demande de génération de contenu pour les produits sélectionnés et programme automatiquement leur synchronisation une fois la génération réussie.
 
-## ![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/6chuzawhzMkzp4kjQAs-Xh2lfJQ8D0uTnw.png)
-Gérer l'espace de travail ciblé ("Show Selected")
+![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/6chuzawhzMkzp4kjQAs-Xh2lfJQ8D0uTnw.png)
+
+## Gérer l'espace de travail ciblé ("Show Selected")
 
 La fonction **"Show Selected"** est un outil essentiel pour examiner et préparer des sous-ensembles de données spécifiques.
 

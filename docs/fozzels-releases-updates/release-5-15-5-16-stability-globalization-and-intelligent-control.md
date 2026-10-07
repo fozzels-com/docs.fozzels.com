@@ -21,8 +21,7 @@ We’ve combined two major updates to make your content workflow more reliable a
 
 -   **Shopify API Compliance:** Our apps have been fully updated to meet the latest Shopify requirements. **Note:** If you received an email regarding the **April 1, 2026** deadline - don't worry, we’ve already handled it. Everything is set for stable operation.
 
-##
-WooCommerce: Smart Diagnostics (v5.16)
+## WooCommerce: Smart Diagnostics (v5.16)
 
 Integration setup is now transparent and foolproof:
 

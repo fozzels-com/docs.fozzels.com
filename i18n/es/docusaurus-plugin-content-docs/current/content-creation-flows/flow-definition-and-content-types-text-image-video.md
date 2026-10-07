@@ -80,8 +80,7 @@ Fozzels soporta tres tipos principales de flujos, cada uno dirigido a un tipo es
 
 2.  **Objetivo:** Creación de materiales dinámicos para promoción de productos.
 
-##
-Próximos Pasos
+## Próximos Pasos
 
 -   **Lea** nuestra guía detallada sobre cómo crear un **Flujo de Contenido** [aquí](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 

@@ -53,8 +53,7 @@ Depois de salvo, você precisa buscar a lista de idiomas do seu site WordPress:
     ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/POzdAldcqgEXxkAsgSEbnJLTDF9nzoogmg.png)
     ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/rgGtdO9cFLCfJOPmQs1SQc5NKnlyOx59Ag.png)
 
-###
-3\. Sincronização de catálogo
+### 3\. Sincronização de catálogo
 
 Esta é a etapa final e mais importante para tornar os produtos visíveis:
 
@@ -62,8 +61,7 @@ Esta é a etapa final e mais importante para tornar os produtos visíveis:
 
 ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/S0333OKK3WCPquO5CYoLzBkvWJVsJRbG4w.png)
 
-##
-A combinação super poderosa: WPML + ACF + AIOSEO
+## A combinação super poderosa: WPML + ACF + AIOSEO
 
 O Fozzels permite combinar WPML com plugins líderes de mercado para automação máxima. Este é o "padrão ouro" para comércio eletrônico profissional:
 

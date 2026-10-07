@@ -25,8 +25,7 @@ Vous n'êtes plus limité à un cycle système unique qui démarrait auparavant 
 
 ![](/img/kb/data-import-and-quality/custom-pull-schedules-automation-logic/4TXxigKSz9G6RrXZnbgqjQ0N7TTKYwiwMQ.png)
 
-##
-Fonctionnement : la réaction en chaîne de l'automatisation
+## Fonctionnement : la réaction en chaîne de l'automatisation
 
 Il est important de comprendre que l'heure de Pull planifiée est le **déclencheur** d'une chaîne complète de processus. Une fois que le **Pull** a importé vos données avec succès, le système exécute automatiquement les étapes suivantes :
 

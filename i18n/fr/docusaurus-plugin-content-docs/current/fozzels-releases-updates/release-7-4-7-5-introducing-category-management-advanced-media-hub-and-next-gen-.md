@@ -87,8 +87,7 @@ Sur la base directe des retours des utilisateurs, nous avons entièrement repens
 
 -   **Arborescences de catégories de nouvelle génération :** pour prendre en charge les opérations sur les catégories à grande échelle, nous avons mis en place un sélecteur multiple interactif `Tree View` doté de tags d'accès rapide et d'une logique conditionnelle flexible (`AND` / `OR`).
 
-###
-Écosystème et intégrations
+### Écosystème et intégrations
 
 #### **Magento : validation des sélections multiples et gestion avancée des ressources média**
 
@@ -104,8 +103,7 @@ Sur la base directe des retours des utilisateurs, nous avons entièrement repens
 
 2.  _Force Mode :_ un cycle complet de réécriture et d'optimisation exécuté sur toutes les ressources image du batch sélectionné.
 
-####
-**Shopify et Shopware : filtrage d'attributs simplifié**
+#### Shopify et Shopware : filtrage d'attributs simplifié
 
 -   **Optimisation du flux de données :** nous avons mené un audit technique et un nettoyage des matrices de configuration des filtres pour Shopify et Shopware. Seuls les opérateurs logiques pertinents et pleinement fonctionnels sont désormais exposés dans l'interface, ce qui accélère considérablement les workflows de segmentation du catalogue.
 

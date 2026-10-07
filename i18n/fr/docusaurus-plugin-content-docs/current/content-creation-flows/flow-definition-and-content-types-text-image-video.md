@@ -83,8 +83,7 @@ Fozzels prend en charge trois grands types de flux, chacun ciblant un type de co
 
 2.  **Cible :** création de supports dynamiques pour la promotion des produits.
 
-##
-Étapes suivantes
+## Étapes suivantes
 
 -   **Consultez** notre guide détaillé sur la création d'un **Content Flow** [ici](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 

@@ -22,8 +22,7 @@ Você não está mais restrito a um único ciclo de sistema que anteriormente in
 
 ![](/img/kb/data-import-and-quality/custom-pull-schedules-automation-logic/4TXxigKSz9G6RrXZnbgqjQ0N7TTKYwiwMQ.png)
 
-##
-Como Funciona: A Reação em Cadeia de Automação
+## Como Funciona: A Reação em Cadeia de Automação
 
 É importante entender que o tempo do Pull agendado é o **gatilho** para uma cadeia inteira de processos. Uma vez que o **Pull** importa com sucesso seus dados, o sistema executa automaticamente as seguintes etapas:
 

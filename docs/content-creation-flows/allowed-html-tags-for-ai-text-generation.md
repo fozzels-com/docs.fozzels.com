@@ -15,8 +15,9 @@ This feature allows you to precisely define which HTML tags can be used and pres
 
 By defining this list, you unlock powerful possibilities for generating content with specific formatting or embedding multimedia directly into the generated text.
 
-## ![](/img/kb/content-creation-flows/allowed-html-tags-for-ai-text-generation/KsO3jFsp7Ytx48uE5alhlIVzvjfJd8Trzw.png)
-How the System Processes Tags
+![](/img/kb/content-creation-flows/allowed-html-tags-for-ai-text-generation/KsO3jFsp7Ytx48uE5alhlIVzvjfJd8Trzw.png)
+
+## How the System Processes Tags
 
 The system works as a security filter:
 

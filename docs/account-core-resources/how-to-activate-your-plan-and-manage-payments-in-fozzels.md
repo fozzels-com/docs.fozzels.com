@@ -37,8 +37,7 @@ You will be redirected to the secure Stripe Checkout page.
 
 ![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/rrMpJDqK7uu7im4sgfgNtGZxrsIKQCB1yQ.png)
 
-##
-3\. Verifying Status & Transactions
+## 3\. Verifying Status & Transactions
 
 Once the payment is processed, you will see a **"You have successfully subscribed"** confirmation.
 
@@ -65,8 +64,7 @@ To ensure your service remains uninterrupted next month, set your card as the pr
 
 ![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/wS4QU57IRK0D6eaZvxrbuxMHPFBhOq6bew.png)
 
-##
-5\. Topping Up Your Balance (Credits)
+## 5\. Topping Up Your Balance (Credits)
 
 If you need extra resources beyond your plan's limits:
 

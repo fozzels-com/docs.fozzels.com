@@ -6,12 +6,10 @@ slug: /integration-connectivity/diagnosing-your-woocommerce-connection-in-fozzel
 description: Wenn Sie ein Banner „Verbindungsprobleme erkannt" nach dem Speichern Ihrer WooCommerce-Integration sehen, hilft Ihnen dieser Artikel zu verstehen, was jede Meldung bedeutet a
 ---
 
-#
 
 Wenn Sie ein Banner **„Verbindungsprobleme erkannt"** nach dem Speichern Ihrer WooCommerce-Integration sehen, hilft Ihnen dieser Artikel, zu verstehen, was jede Meldung bedeutet und wie Sie das Problem beheben können.
 
-##
-Wie die Diagnose funktioniert
+## Wie die Diagnose funktioniert
 
 Jedes Mal, wenn Sie Ihre Integration speichern, überprüft Fozzels automatisch die Verbindung zu Ihrem WooCommerce-Store und den Status aller aktivierten Plugins. Wenn etwas fehlt oder falsch konfiguriert ist, erhalten Sie eine Benachrichtigung mit einer Beschreibung des Problems und den Schritten zur Behebung.
 
@@ -21,8 +19,7 @@ Es gibt drei Arten von Benachrichtigungen:
 -   **Warnung** — die Integration kann funktionieren, aber etwas kann Probleme verursachen oder die Funktionalität einschränken.
 -   **Hinweis** — Informationsmeldung, keine Maßnahmen sind erforderlich, aber empfohlen.
 
-##
-Basis-Verbindungsmeldungen
+## Basis-Verbindungsmeldungen
 
 Diese Meldungen erscheinen unabhängig davon, welche Plugins Sie aktiviert haben.
 
@@ -41,8 +38,7 @@ Diese Meldungen erscheinen unabhängig davon, welche Plugins Sie aktiviert haben
 -   **„SSL-Zertifikatfehler. Stellen Sie sicher, dass Ihr Store ein gültiges HTTPS-Zertifikat verwendet."**
     Das SSL-Zertifikat Ihres Stores ist ungültig oder abgelaufen. Kontaktieren Sie Ihren Hosting-Anbieter, um das Zertifikat zu erneuern oder zu ersetzen.
 
-##
-ACF (Advanced Custom Fields)
+## ACF (Advanced Custom Fields)
 
 Diese Meldungen erscheinen, wenn der Umschalter **Enable ACF** in Fozzels aktiviert ist.
 
@@ -64,8 +60,7 @@ Diese Meldungen erscheinen, wenn der Umschalter **Enable ACF** in Fozzels aktivi
 -   **„ACF REST API-Versionsfehler. Version v3 ist erforderlich."**
     Wenn Sie das Plugin **ACF to REST API** verwenden, muss es auf v3 eingestellt sein. Gehen Sie zu **WordPress → Einstellungen → Permalinks → ACF to REST API** und stellen Sie **Request Version** auf **v3**.
 
-##
-WPML (Mehrsprachig)
+## WPML (Mehrsprachig)
 
 Diese Meldungen erscheinen, wenn der Umschalter **Enable WPML** in Fozzels aktiviert ist.
 

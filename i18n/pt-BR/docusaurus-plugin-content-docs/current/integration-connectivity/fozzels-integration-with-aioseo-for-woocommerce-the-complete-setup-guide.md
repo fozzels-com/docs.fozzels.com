@@ -6,7 +6,6 @@ slug: /integration-connectivity/fozzels-integration-with-aioseo-for-woocommerce-
 description: All in One SEO (AIOSEO) é o principal plugin WordPress projetado para melhorar o ranking de busca e aumentar o tráfego orgânico automatizando elementos críticos
 ---
 
-###
 
 **All in One SEO (AIOSEO)** é o principal plugin WordPress projetado para melhorar o ranking de busca e aumentar o tráfego orgânico automatizando elementos críticos como meta tags e visualizações sociais.
 
@@ -41,8 +40,7 @@ Certifique-se de que o plugin de SEO principal está ativo em seu site WooCommer
 4.  **Verifique os Campos:** Abra qualquer produto em **Products**. Role para baixo até o bloco **AIOSEO Settings**. Você deve ver os campos padrão para _Product Title_ e _Meta Description_.
     ![](/img/kb/integration-connectivity/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/4W7ZOYoadym76bmWhy2HAYsmk5KklKq6ZQ.png)
 
-###
-Etapa 2: Instale o Plugin "AIOSEO API Sync by Fozzels"
+### Etapa 2: Instale o Plugin "AIOSEO API Sync by Fozzels"
 
 Configurações padrão do AIOSEO apenas permitem que ferramentas externas leiam dados. Para **sincronizar** conteúdo gerado de volta para sua loja, você deve instalar nosso conector especializado:
 

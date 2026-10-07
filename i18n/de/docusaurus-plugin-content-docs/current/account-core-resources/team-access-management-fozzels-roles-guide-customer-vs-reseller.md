@@ -56,7 +56,6 @@ Die Verbindung zwischen Konten wird über eine Einladung hergestellt, die **imme
 
 ![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/27tRV3zXZo-Sd-xnfdD2Npqj9U3_8fWR5A.png)
 
-###
 ![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/qLafAoXrVGuUXACbhMPMEvQ7Gjf7Xg2kCw.png)
 
 Szenario B: „Wir sind ein neues Team; wie sollten wir anfangen?"
@@ -92,8 +91,7 @@ Szenario B: „Wir sind ein neues Team; wie sollten wir anfangen?"
 
 -   **Ausfahrt:** Der Reseller kann zu seinem eigenen Konto über den Link **„Darstellung beenden"** zurückkehren.
 
-##
-4\. Wichtiger Abschnitt: Verantwortung und Kontrolle
+## 4\. Wichtiger Abschnitt: Verantwortung und Kontrolle
 
 -   **Delegation der Verantwortung:** Durch Annahme der Einladung delegieren Sie **vollständige operative Verantwortung** für alle in diesem Konto durchgeführten Aktionen. Der Reseller kann kritische Daten und Integrationen ändern oder löschen.
 

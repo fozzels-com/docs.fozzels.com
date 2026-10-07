@@ -24,8 +24,7 @@ Nous avons regroupé deux mises à jour majeures pour rendre votre workflow de c
 
 -   **Conformité à l'API Shopify :** nos applications ont été entièrement mises à jour pour répondre aux dernières exigences de Shopify. **Remarque :** si vous avez reçu un e-mail concernant l'échéance du **1er avril 2026**, ne vous inquiétez pas : nous avons déjà tout réglé. Tout est prêt pour un fonctionnement stable.
 
-##
-WooCommerce : diagnostics intelligents (v5.16)
+## WooCommerce : diagnostics intelligents (v5.16)
 
 La configuration de l'intégration est désormais transparente et à toute épreuve :
 

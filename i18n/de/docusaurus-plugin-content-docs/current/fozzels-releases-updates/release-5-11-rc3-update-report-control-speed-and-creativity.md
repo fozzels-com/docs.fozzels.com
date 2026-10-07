@@ -8,8 +8,7 @@ description: Wir freuen uns, Release 5.11RC3 vorzustellen — unser größtes Up
 
 ### Wir freuen uns, Release 5.11RC3 vorzustellen — unser größtes Update, das sich auf die Steigerung Ihrer Produktivität, Datenzuverlässigkeit und vor allem kreativer Freiheit konzentriert! Wir fügen leistungsstarke Tools hinzu, damit Sie Ihren Inhalt auf der Ebene eines großen E-Commerce-Betriebs verwalten können.
 
-#
-Mehr Kontrolle: Garantierte Datenzuverlässigkeit
+# Mehr Kontrolle: Garantierte Datenzuverlässigkeit
 
 Dieser Abschnitt ist Funktionen gewidmet, die den reibungslosen und zuverlässigen Betrieb Ihres Inhalts gewährleisten.
 
@@ -28,8 +27,7 @@ Wo zu finden: Wird automatisch auf alle generierten Inhalte angewendet.
 
 ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/R6XcxeLbDHc7UHcAbX496csmdnGMXv0g8w.png)
 
-##
-Kreative Freiheit: Erweiterung von Inhaltsmöglichkeiten
+## Kreative Freiheit: Erweiterung von Inhaltsmöglichkeiten
 
 Wir haben Formatierungsbeschränkungen entfernt, damit Sie komplexere und visuell ansprechendere Produktseiten erstellen können.
 
@@ -40,8 +38,7 @@ Erstellen Sie Inhalte ohne Grenzen! Fügen Sie Ihre eigenen (benutzerdefinierten
         Wo zu finden: Einstellungen → Ressourcen → Flow → Zulässige HTML-Tags für KI-Textgenerierung.
 ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/JbEdknAUCQnVDCW8gy1e-sz9XhUWKJaoRA.png)
 
-##
-Mehr Geschwindigkeit: Optimierung von Workflows
+## Mehr Geschwindigkeit: Optimierung von Workflows
 
 Diese Verbesserungen sparen Ihnen Zeit und vereinfachen die Navigation, besonders wenn Sie mit vielen Stores arbeiten.
 
@@ -74,9 +71,8 @@ _in Flow-Einstellungen_
 ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/FNRATw5cXTUFy_K0w-IcB_g4ODMxm7pYLA.png)
 _im Flow_
 
-## ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/lJB-c9wW0J601aASmTChpSLO3oir83wBUQ.png)
+![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/lJB-c9wW0J601aASmTChpSLO3oir83wBUQ.png)
 
-##
 
 ## Personalisierung und Onboarding
 

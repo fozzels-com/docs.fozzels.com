@@ -12,8 +12,7 @@ description: >-
 
 ### Nous sommes ravis de vous présenter la Release 5.11RC3, notre plus importante mise à jour, axée sur l'amélioration de votre productivité, de la fiabilité de vos données et, surtout, de votre liberté créative ! Nous ajoutons de puissants outils pour vous permettre de gérer votre contenu au niveau d'une grande exploitation e-commerce.
 
-#
-Plus de contrôle : une fiabilité des données garantie
+# Plus de contrôle : une fiabilité des données garantie
 
 Cette section est consacrée aux fonctionnalités qui garantissent un fonctionnement fluide et fiable de votre contenu.
 
@@ -32,8 +31,7 @@ Où le trouver : appliqué automatiquement à tout le contenu généré.
 
 ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/R6XcxeLbDHc7UHcAbX496csmdnGMXv0g8w.png)
 
-##
-Liberté créative : des possibilités de contenu élargies
+## Liberté créative : des possibilités de contenu élargies
 
 Nous avons supprimé les restrictions de mise en forme afin que vous puissiez créer des fiches produit plus complexes et plus attrayantes visuellement.
 
@@ -44,8 +42,7 @@ Créez du contenu sans limites ! Ajoutez vos propres balises HTML de confiance (
         Où le trouver : Settings → Resources → Flow → Allowed HTML Tags for AI Text Generation.
 ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/JbEdknAUCQnVDCW8gy1e-sz9XhUWKJaoRA.png)
 
-##
-Plus de rapidité : des workflows optimisés
+## Plus de rapidité : des workflows optimisés
 
 Ces améliorations vous font gagner du temps et simplifient la navigation, en particulier lorsque vous travaillez avec de nombreuses boutiques.
 
@@ -78,9 +75,8 @@ _dans les Flow Settings_
 ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/FNRATw5cXTUFy_K0w-IcB_g4ODMxm7pYLA.png)
 _dans le Flow_
 
-## ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/lJB-c9wW0J601aASmTChpSLO3oir83wBUQ.png)
+![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/lJB-c9wW0J601aASmTChpSLO3oir83wBUQ.png)
 
-##
 
 ## Personnalisation et prise en main
 

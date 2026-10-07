@@ -9,12 +9,10 @@ description: >-
   signification de chaque message et à
 ---
 
-#
 
 Si vous voyez une bannière **"Connection Issues Detected"** après avoir enregistré votre intégration WooCommerce, cet article vous aidera à comprendre la signification de chaque message et à le résoudre.
 
-##
-Fonctionnement du diagnostic
+## Fonctionnement du diagnostic
 
 Chaque fois que vous enregistrez votre intégration, Fozzels vérifie automatiquement la connexion à votre boutique WooCommerce et l'état des plugins activés. Si un élément est manquant ou mal configuré, une notification s'affiche avec la description du problème et les étapes pour le résoudre.
 
@@ -24,8 +22,7 @@ Il existe trois types de notifications :
 -   **Warning** — l'intégration peut fonctionner, mais un élément risque de causer des problèmes ou de limiter les fonctionnalités.
 -   **Notice** — message informatif ; aucune action n'est strictement requise, mais elle est recommandée.
 
-##
-Messages de connexion de base
+## Messages de connexion de base
 
 Ces messages apparaissent quels que soient les plugins que vous avez activés.
 
@@ -44,8 +41,7 @@ Ces messages apparaissent quels que soient les plugins que vous avez activés.
 -   **"SSL certificate error. Ensure your store uses a valid HTTPS certificate."**
     Le certificat SSL de votre boutique est invalide ou expiré. Contactez votre hébergeur pour renouveler ou remplacer le certificat.
 
-##
-ACF (Advanced Custom Fields)
+## ACF (Advanced Custom Fields)
 
 Ces messages apparaissent lorsque l'option **Enable ACF** est activée dans Fozzels.
 
@@ -67,8 +63,7 @@ Ces messages apparaissent lorsque l'option **Enable ACF** est activée dans Fozz
 -   **"ACF REST API version mismatch. Version v3 is required."**
     Si vous utilisez le plugin **ACF to REST API**, il doit être configuré en v3. Accédez à **WordPress → Settings → Permalinks → ACF to REST API** et définissez **Request Version** sur **v3**.
 
-##
-WPML (multilingue)
+## WPML (multilingue)
 
 Ces messages apparaissent lorsque l'option **Enable WPML** est activée dans Fozzels.
 

@@ -32,8 +32,7 @@ Accédez aux paramètres système.
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/NE3HjkKRNa353OQJJBzR8eeF_Y9XA9Mi_w.png)
 
-###
-4\. Cliquez sur "Users & permissions"
+### 4\. Cliquez sur "Users & permissions"
 
 Sélectionnez l'option Integrations dans le menu System.
 
@@ -106,8 +105,7 @@ Saisissez un nom pour l'intégration. Ouvrez ensuite la liste déroulante "Roles
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/DZY9Dx_ZSKux2NMqdZxEYkFXqeT3JeZVlg.png)
 
-###
-12\.  Copiez l'Access Key ID
+### 12\.  Copiez l'Access Key ID
 
 Cliquez sur l'icône de copie à côté de l'**Access Key ID** pour la copier dans votre presse-papiers. Collez cette clé dans un document texte pour la conserver : vous en aurez besoin dans la partie 2.
 
@@ -131,7 +129,6 @@ L'intégration est maintenant créée et active.
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/ddwo4oRoStm6_leYM-OMhtbNWvrs2B5OkA.png)
 
-###
 
 # Partie 2 : connecter Fozzels à Shopware 6
 
@@ -141,8 +138,7 @@ Maintenant que vous avez créé l'intégration dans Shopware, vous allez configu
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/QNYGtnmJc1jLtdHtrac2heMnCvr8OeCjOw.png)
 
-###
-**2.**  Cliquez sur "Integrations"
+### **2.**  Cliquez sur "Integrations"
     Dans le menu Fozzels, cliquez sur Integrations.
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/p3WWrWl5kNt7ZpAfsTGCttAeYkIT1rVN6A.png)
 3\. Cliquez sur "Create"
@@ -168,7 +164,7 @@ Renseignez les champs suivants dans l'ordre :
 
 **6**. Lorsque tous les champs sont renseignés, cliquez sur "Save". Une fenêtre "Success" doit s'afficher pour confirmer l'enregistrement de la connexion.
 
-### ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/Hx1KICwgA4nYaOgpQbjeLYyUYMAfwizHIA.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/Hx1KICwgA4nYaOgpQbjeLYyUYMAfwizHIA.png)
 
 ### 7\. Activez l'intégration
     Activez le commutateur "Active" pour activer l'intégration.
@@ -211,4 +207,3 @@ Voici d'autres articles qui peuvent vous aider à démarrer avec Fozzels :
 
 Ou contactez-nous directement : nous serons toujours ravis de vous aider !
 
-###

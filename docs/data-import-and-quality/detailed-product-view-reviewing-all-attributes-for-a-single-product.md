@@ -15,8 +15,7 @@ The Detailed View presents a clear, comprehensive data source and a full image g
 ![](/img/kb/data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product/Y6d99F7m8alZx-La1jyfRP0DHNj4Qn4qNA.png)
 ![](/img/kb/data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product/GPecd3ztvlI1KnKq4bB9i0h_ujlKxqbk0A.png)
 
-###
-Accessing the Detailed View
+### Accessing the Detailed View
 
 The Detailed Product View is strategically accessible across multiple locations within the Fozzels platform to ensure rapid access to core product data:
 
@@ -26,8 +25,7 @@ The Detailed Product View is strategically accessible across multiple locations 
 2\. Direct Navigation: Access is typically initiated by clicking on a unique product identifier (such as the SKU or Product ID) or by simply clicking on the product's image thumbnail.
 ![](/img/kb/data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product/QPXZYuU1rbS9KlQlcpm_jYQK6E3G_-9z3A.png)
 
-###
-Value Proposition for the User
+### Value Proposition for the User
 
 The Detailed Product View provides two primary benefits: data clarity and visual completeness.
 

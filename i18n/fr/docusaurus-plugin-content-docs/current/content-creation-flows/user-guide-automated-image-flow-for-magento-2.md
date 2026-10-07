@@ -32,8 +32,7 @@ Cet onglet gère la connexion principale et l'identité de votre séquence d'aut
 2.  **Confirmez la sélection :** confirmez les paramètres de votre boutique Magento en cliquant sur le bouton **Submit** en bas de la page.
     ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/liZ6uL_K1ryZ9ltZQsCUAhG6jAYP4UqhrQ.png)
 
-##
-2\. Configuration de l'IA et grille des médias (onglet 2)
+## 2\. Configuration de l'IA et grille des médias (onglet 2)
 
 Dans cet onglet, vous définissez le moteur de modèle d'IA et les caractéristiques visuelles exactes requises par les modèles de thème de votre boutique Magento.
 
@@ -66,8 +65,7 @@ Sélectionnez votre réseau de traitement et votre modèle précis à partir des
 
 -   **Grok Imagine Image Pro `PRO` :** architecture xAI premium offrant une qualité d'image supérieure, avec un niveau de détail et une fidélité des textures accrus. Prend en charge **jusqu'à 5 presets de référence**.
 
-###
-**La grille interactive des formats de sortie**
+### La grille interactive des formats de sortie
 
 Les thèmes Magento reposent fortement sur des dimensions d'image précises pour éviter les décalages de mise en page sur votre frontend. Utilisez la grille pour verrouiller des spécifications exactes en pixels :
 
@@ -77,8 +75,9 @@ Les thèmes Magento reposent fortement sur des dimensions d'image précises pour
 
 3.  **Le panneau d'aperçu :** le panneau interactif de droite affiche dynamiquement un cadre de recadrage visuel et le format de fichier cible, et calcule l'**Est. size** (poids du fichier) et les **Est. tokens** (coût de génération) par demande d'image.
 
-## ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/Ked7uS5641FdzLgFJkkyBLIIB44pYiuh5Q.png)
-3\. Filtrage du catalogue Magento et prompts (onglet 3)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/Ked7uS5641FdzLgFJkkyBLIIB44pYiuh5Q.png)
+
+## 3\. Filtrage du catalogue Magento et prompts (onglet 3)
 
 Cette section est le cerveau créatif de votre flux Magento : elle vous permet de filtrer dynamiquement les produits et d'injecter des attributs natifs dans vos prompts.
 
@@ -113,8 +112,7 @@ Cette section est le cerveau créatif de votre flux Magento : elle vous permet d
 -   **Injection d'attributs Magento :** rédigez vos instructions de conception dans la fenêtre principale, puis utilisez le **panneau Attributes** situé à droite. Vous pouvez cliquer sur des champs de données Magento natifs (comme `Categoria`, `Color` ou `Material`) ou les faire glisser directement dans votre texte. Fozzels remplacera dynamiquement ces espaces réservés par des valeurs propres à chaque produit traité dans le batch.
     ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/hSKoFNYycQr--RrbjrFaaNum4tvErHYsHA.png)
 
-##
-4\. Automatisation Magento et configuration du nommage des images (onglet 4)
+## 4\. Automatisation Magento et configuration du nommage des images (onglet 4)
 
 Cet onglet contrôle la manière dont vos fichiers multimédias sont initialement mis en file d'attente pour le traitement et structurés pour être injectés dans la base de données Magento, afin de garantir un mappage des données par défaut correct et une bonne optimisation SEO.
 
@@ -132,9 +130,8 @@ Cet onglet contrôle la manière dont vos fichiers multimédias sont initialemen
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/zAHGFiGSaSobL-Deg00nawI92l2RDf4wzw.png)
 
-##
 
-## 5. ****Activation et exécution du Flow****
+## 5. **Activation et exécution du Flow**
 
 Une fois tous les champs de mappage de l'onglet 4 renseignés, votre pipeline automatisé est prêt à être déployé. Suivez les étapes ci-dessous pour lancer le moteur de génération :
 
@@ -179,9 +176,9 @@ Un clic sur l'**icône en forme d'œil** ouvre notre fenêtre superposée côte 
 
 -   **Accept & next :** approuve la version, verrouille vos remplacements personnalisés de métadonnées Magento et **ouvre instantanément l'image suivante** de votre file de batch.
 
-##
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/fghCPbvdab9wtI-u0AWAUQPsuXIrvMCEPg.png)
-6\. Actions groupées et exports ZIP locaux
+
+## 6\. Actions groupées et exports ZIP locaux
 
 Fozzels vous offre une portabilité totale des données de votre inventaire visuel. Vous pouvez envoyer des batches directement vers Magento, ou exporter des dossiers en local.
 
@@ -210,8 +207,7 @@ Comme le traitement de gros batches d'images haute résolution peut prendre quel
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/EqkvThCVlPgUbKnTorc6vQ3Ilx2CxPOccg.png)
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/b3yz16xNhZFEKIfuUAB_xhtCTPD7feQp6w.png)
 
-##
-7\. Optimisation SEO : génération de textes alternatifs pour les nouvelles images
+## 7\. Optimisation SEO : génération de textes alternatifs pour les nouvelles images
 
 En plus des ressources visuelles, Fozzels peut générer automatiquement des textes alternatifs (descriptions alternatives) pertinents et optimisés pour le SEO pour chaque nouvelle image IA envoyée vers votre boutique Magento. Cela améliore sensiblement les facteurs de classement de votre catalogue dans les résultats de Google Images.
 

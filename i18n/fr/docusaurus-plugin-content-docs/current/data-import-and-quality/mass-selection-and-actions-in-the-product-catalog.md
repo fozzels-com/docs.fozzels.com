@@ -11,8 +11,7 @@ description: >-
 
 Le Product Catalog est doté d'une fonctionnalité de sélection de masse qui vous permet de gérer efficacement de grands ensembles d'éléments et de simplifier la création de Flows ciblés. Ce mécanisme de sélection est polyvalent et conserve l'état de la sélection lors du passage d'une page à l'autre.
 
-##
-Mécanisme de sélection des produits
+## Mécanisme de sélection des produits
 
 1\. Activation des cases à cocher : lorsque vous sélectionnez au moins un produit dans le tableau, deux cases à cocher deviennent actives :
 
@@ -41,8 +40,7 @@ Mécanisme de sélection des produits
 
 ![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/_InM7cpH0oQlYi0_agOrC4lE4yKF171ZXw.png)
 
-##
-Exécuter des actions groupées
+## Exécuter des actions groupées
 
 Dès qu'un ou plusieurs produits sont sélectionnés, le menu **Actions** s'active et propose des outils pour d'autres opérations.
 

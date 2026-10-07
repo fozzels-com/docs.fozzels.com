@@ -9,7 +9,8 @@
  * add a `keywords` key (native-language search aliases, see
  * scripts/add-search-keywords.mjs); that is not a difference. A very short or
  * very long translation is flagged too, because it usually means a translator
- * skipped or duplicated a section. Files that exist only in the locale are
+ * skipped or duplicated a section. Empty or image-only headings (a Freshdesk
+ * import artefact) are flagged too. Files that exist only in the locale are
  * reported as extra.
  *
  * Exits with status 1 when anything is off, so it can gate a commit.
@@ -123,6 +124,9 @@ for (const rel of sources) {
     problems.push(`code fences  ${rel}: count differs`);
   }
   if (headingLevels(ba) !== headingLevels(bb)) problems.push(`headings     ${rel}: levels differ`);
+  if (/^#{1,6}\s*(!\[[^\]]*\]\([^)]*\))?\s*$/m.test(bb)) {
+    problems.push(`headings     ${rel}: empty or image-only heading (run scripts/fix-empty-headings.mjs)`);
+  }
 
   const ratio = bb.length / Math.max(1, ba.length);
   if (ratio < 0.85 || ratio > 1.6) problems.push(`length       ${rel}: ratio ${ratio.toFixed(2)}`);

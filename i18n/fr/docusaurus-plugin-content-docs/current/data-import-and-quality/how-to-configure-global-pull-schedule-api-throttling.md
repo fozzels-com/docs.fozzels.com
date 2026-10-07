@@ -13,8 +13,7 @@ Lors de la gestion d'intégrations de catalogues volumineux, contrôler **quand*
 
 Grâce aux paramètres **Global Pull Schedule** et **Pull Throttling**, vous pouvez planifier les horaires de synchronisation pour éviter les pics de trafic de la boutique et ajuster les pauses entre les appels API afin d'éviter les erreurs de limitation de débit.
 
-##
-Où trouver ces paramètres
+## Où trouver ces paramètres
 
 1.  Connectez-vous à **Fozzels**.
 
@@ -36,9 +35,9 @@ Le Global Pull Schedule vous permet de définir une heure principale unique à l
 
 > ? **Bonne pratique :** programmez votre récupération des données en dehors des heures de pointe (par exemple tard le soir ou tôt le matin), lorsque le trafic du site est au plus bas, afin de réduire toute charge potentielle sur le back-end de votre boutique.
 
-##
 ![](/img/kb/data-import-and-quality/how-to-configure-global-pull-schedule-api-throttling/fyrAZkK-2BnIOTIwMM32cLL1domLcyE4rg.png)
-2\. Pull Throttling (délais entre les requêtes)
+
+## 2\. Pull Throttling (délais entre les requêtes)
 
 Les API Rate Limits sont des restrictions imposées par des plateformes comme Shopify, Magento, VTEX ou d'autres afin d'éviter que les serveurs ne soient submergés par trop de requêtes à la fois.
 

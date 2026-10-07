@@ -43,7 +43,6 @@ Pour que la synchronisation fonctionne, votre site WordPress doit disposer de **
 
 3.  Activez le bouton bascule et cliquez sur **SAVE**.
 
-###
 ![](/img/kb/integration-connectivity/yoast-seo-support-for-woocommerce/Q2vuNHpeZol7txxezMoTQmPyzT3To9Rwpw.png)
 
 ### Étape 3 : mise à jour de la structure des données

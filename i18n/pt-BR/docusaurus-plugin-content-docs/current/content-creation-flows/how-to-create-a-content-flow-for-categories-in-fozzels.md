@@ -21,7 +21,7 @@ No menu lateral, em **MAIN/CATALOG**, selecione **Categories**.
 
 No topo da página, use os filtros do seletor de loja para garantir que você selecionou a store view correta.
 
-### ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/1dojt8GKF7WJ4UfUGbaSXAoXnYw-c2EhlQ.png)
+![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/1dojt8GKF7WJ4UfUGbaSXAoXnYw-c2EhlQ.png)
 
 ### Passo 3. Selecione as categorias
 
@@ -33,15 +33,15 @@ Escolha as categorias para as quais você quer gerar conteúdo:
 
 > _Observação:_ A interface de seleção é idêntica à do fluxo de produtos, o que torna o processo rápido e fácil.
 
-### ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/IZYD-wiFeEnNG1Ypw6QzBg6w1iNpWI5Ipg.png)
-Passo 4. Crie o Flow e configure os ajustes principais
+![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/IZYD-wiFeEnNG1Ypw6QzBg6w1iNpWI5Ipg.png)
+
+### Passo 4. Crie o Flow e configure os ajustes principais
 
 1.  Informe um **Name** claro para o flow (por exemplo, _Description for Mens collection_).
 
 2.  O campo **Entity Type** já vem pré-selecionado como `Category`.
 
-###
-Passo 5. Escolha o atributo de destino
+### Passo 5. Escolha o atributo de destino
 
 No menu suspenso **Attribute**, selecione o atributo de categoria para o qual você quer gerar conteúdo (por exemplo, `Description`) e salve sua seleção.
 
@@ -58,11 +58,10 @@ No menu suspenso **Attribute**, selecione o atributo de categoria para o qual vo
 >     ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/wF2PLUJw__aF3ktzhc2gqAQN6hQeKV-Cew.png)
 >
 
-###
 
-###
 ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/jbiOnSCDha9r3SkyY9GnShc-N-ZOKbstSQ.png)
-Passo 6. AI Configuration, Prompt e execução
+
+### Passo 6. AI Configuration, Prompt e execução
 
 1.  Escolha o modelo de IA de sua preferência.
 

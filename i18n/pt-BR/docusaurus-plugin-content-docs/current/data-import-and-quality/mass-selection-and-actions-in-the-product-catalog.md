@@ -8,8 +8,7 @@ description: O Catálogo de Produtos é equipado com funcionalidade de seleção
 
 O Catálogo de Produtos é equipado com funcionalidade de seleção em massa, permitindo que você gerencie eficientemente grandes conjuntos de itens e simplifique o processo de criação de Fluxos direcionados. Este mecanismo de seleção é versátil e preserva o estado da seleção através de transições de página.
 
-##
-Mecanismo de Seleção de Produtos
+## Mecanismo de Seleção de Produtos
 
 1\. Ativação de Checkbox Quando você seleciona pelo menos um produto na tabela, duas caixas de seleção se tornam ativas:
 
@@ -38,8 +37,7 @@ Mecanismo de Seleção de Produtos
 
 ![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/_InM7cpH0oQlYi0_agOrC4lE4yKF171ZXw.png)
 
-##
-Executando Ações em Lote
+## Executando Ações em Lote
 
 Uma vez que um ou mais produtos são selecionados, o menu **Ações** é ativado, oferecendo ferramentas para operações adicionais.
 

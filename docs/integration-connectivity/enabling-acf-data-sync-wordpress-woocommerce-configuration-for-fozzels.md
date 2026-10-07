@@ -18,7 +18,6 @@ This feature allows you to synchronize unique and extended product characteristi
 
 Successful integration requires key configuration steps in both WordPress and Fozzels.
 
-###
 
 ## **Part 1: Preparing Data in WordPress (ACF and REST API)**
 
@@ -40,8 +39,7 @@ For the REST API to function correctly, the permalink structure must be differen
 4.  Save the changes.
     ![](/img/kb/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/yP1swQ74nSHYKF8pRpAgezDqHmxBh4nR-A.png)
 
-###
-Step 2: Navigating to the ACF Field Group
+### Step 2: Navigating to the ACF Field Group
 
 1.  In the WordPress menu, go to **ACF** / **Field Groups**.
     ![](/img/kb/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/a7TVqQW4iMXkGcmlP1WI8nouyni5HGoKsg.png)
@@ -49,8 +47,7 @@ Step 2: Navigating to the ACF Field Group
 2.  Click on the name of the Field Group that contains the fields you need to synchronize for your WooCommerce products (e.g., **"Fozzels Description"**).
     ![](/img/kb/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/GH8y_bXf1Lb2RnG-_VWVmrj4XKhaFuCnRg.png)
 
-###
-Step 3: Configuring the Field Group for API Access (Crucial Step)
+### Step 3: Configuring the Field Group for API Access (Crucial Step)
 
 In the **Field Group** editing window, verify the location rules and enable API access.
 
@@ -74,8 +71,7 @@ In the **Field Group** editing window, verify the location rules and enable API 
 3.  Save the changes by clicking **Update** or **Publish**.
     ![](/img/kb/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/lIgfpHeR7YI8Bf6W-4UvdIqtW2AQz9kqcw.png)
 
-###
-Step 4: Checking ACF REST API Version
+### Step 4: Checking ACF REST API Version
 
 If you are using an additional plugin to integrate ACF into the REST API (such as `ACF to REST API`), you must ensure the selected version is compatible with Fozzels.
 

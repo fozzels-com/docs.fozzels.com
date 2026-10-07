@@ -22,7 +22,7 @@ Wählen Sie im Seitenmenü unter **MAIN/CATALOG** den Punkt **Categories**.
 
 Verwenden Sie oben auf der Seite die Store-Switcher-Filter, um sicherzustellen, dass Sie die richtige Store View ausgewählt haben.
 
-### ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/1dojt8GKF7WJ4UfUGbaSXAoXnYw-c2EhlQ.png)
+![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/1dojt8GKF7WJ4UfUGbaSXAoXnYw-c2EhlQ.png)
 
 ### Schritt 3. Kategorien auswählen
 
@@ -34,15 +34,15 @@ Wählen Sie die Kategorien aus, für die Sie Inhalte generieren möchten:
 
 > _Hinweis:_ Die Auswahloberfläche ist identisch mit dem Produkt-Workflow, was den Prozess schnell und einfach macht.
 
-### ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/IZYD-wiFeEnNG1Ypw6QzBg6w1iNpWI5Ipg.png)
-Schritt 4. Den Flow erstellen und die Haupteinstellungen konfigurieren
+![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/IZYD-wiFeEnNG1Ypw6QzBg6w1iNpWI5Ipg.png)
+
+### Schritt 4. Den Flow erstellen und die Haupteinstellungen konfigurieren
 
 1.  Geben Sie einen eindeutigen **Namen** für den Flow ein (z. B. _Description for Mens collection_).
 
 2.  Das Feld **Entity Type** ist bereits als `Category` vorausgewählt.
 
-###
-Schritt 5. Das Ziel-Attribut auswählen
+### Schritt 5. Das Ziel-Attribut auswählen
 
 Wählen Sie im Dropdown-Menü **Attribute** das Kategorie-Attribut aus, für das Sie Inhalte generieren möchten (z. B. `Description`), und speichern Sie Ihre Auswahl.
 
@@ -59,11 +59,10 @@ Wählen Sie im Dropdown-Menü **Attribute** das Kategorie-Attribut aus, für das
 >     ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/wF2PLUJw__aF3ktzhc2gqAQN6hQeKV-Cew.png)
 >
 
-###
 
-###
 ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/jbiOnSCDha9r3SkyY9GnShc-N-ZOKbstSQ.png)
-Schritt 6. AI Configuration, Prompt und Start
+
+### Schritt 6. AI Configuration, Prompt und Start
 
 1.  Wählen Sie Ihr bevorzugtes KI-Modell.
 

@@ -15,8 +15,9 @@ Cette fonctionnalité vous permet de définir précisément quelles balises HTML
 
 En définissant cette liste, vous ouvrez de nombreuses possibilités pour générer du contenu avec une mise en forme spécifique ou pour intégrer des éléments multimédias directement dans le texte généré.
 
-## ![](/img/kb/content-creation-flows/allowed-html-tags-for-ai-text-generation/KsO3jFsp7Ytx48uE5alhlIVzvjfJd8Trzw.png)
-Comment le système traite les balises
+![](/img/kb/content-creation-flows/allowed-html-tags-for-ai-text-generation/KsO3jFsp7Ytx48uE5alhlIVzvjfJd8Trzw.png)
+
+## Comment le système traite les balises
 
 Le système fonctionne comme un filtre de sécurité :
 

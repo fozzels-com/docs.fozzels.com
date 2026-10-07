@@ -22,21 +22,18 @@ Você deve acessar sua conta Lightspeed para criar e ativar o par de chaves de A
 3.  **Encontre** e **selecione** "API Keys" ou "Developers".
     ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/MZv-XXhmVP6BJaa1Bodx1omwsE79Sz8QMg.png)
 
-####
-**Etapa 2: Crie uma Nova Chave de API**
+#### Etapa 2: Crie uma Nova Chave de API
 
 1.  **Clique** no botão "Add API Key" ou "New Key".
 
 2.  **Nomeie** a integração claramente (por exemplo, Fozzels Integration).
 
-#### ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/C88N5mBpcnAN8OkGn8_qwt9UDUb2JF1Z9w.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/C88N5mBpcnAN8OkGn8_qwt9UDUb2JF1Z9w.png)
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/AzUkWXCCt69kJBjU9LTQpJgW0iLlNd56yw.png)
 
-####
 
-####
-**Etapa 3: Defina Permissões (Escopos)**
+#### Etapa 3: Defina Permissões (Escopos)
 
 A página de configurações para a nova conexão será aberta automaticamente. Você **deve** selecionar as permissões necessárias para o Fozzels.
 ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/CioSxLGTyO3ZE1aF8NeArPcp8qx-oz22mw.png)
@@ -50,7 +47,6 @@ A página de configurações para a nova conexão será aberta automaticamente. 
 
 Nota: Conceder acesso "Write" permite que o Fozzels atualize dados em sua loja Lightspeed, garantindo sincronização bidirecional.)
 
-####
 ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/qQg2365EfWu2BevBccdOrXyc1jnZs_p1Pg.png)**Etapa 4: Ativação e Cópia das Chaves**
 
 1.  No canto superior direito da página de configurações de permissões, **Ative** o toggle (Habilitar esta chave de API).
@@ -99,7 +95,7 @@ Na página "Create New Integration", **Preencha** os seguintes campos:
 
 6.  **Cluster:** **Selecione** o cluster apropriado (região) onde sua loja Lightspeed está hospedada.
 
-#### ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/rmiVHOPB99FOtO7FZUQ0_YI_ma2jqnnB1w.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/rmiVHOPB99FOtO7FZUQ0_YI_ma2jqnnB1w.png)
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/HY4qeR3DTL_8O1hm3il8lNhcNpKi2XECUw.png)
 

@@ -8,8 +8,7 @@ description: Die Batch-Liste ist der Ort, wo Sie den von Ihren Flows generierten
 
 Die Batch-Liste ist der Ort, wo Sie den von Ihren Flows generierten Inhalte überprüfen, bearbeiten und genehmigen, bevor er mit Ihrem Shop synchronisiert wird. Zusätzlich zur Anzeige des Roh-Ergebnisses bietet Fozzels jetzt einen integrierten **Text-Editor** - eine Formatierungssymbolleiste, mit der Sie den generierten Text strukturieren und gestalten können.
 
-###
-1\. Zugriff auf den Editor
+### 1\. Zugriff auf den Editor
 
 1.  **Navigieren Sie** zum Bereich **Content Flows** im Header-Menü.
 2.  **Öffnen Sie** den gewünschten Flow und klicken Sie auf die Schaltfläche **Batch-Liste** (oder täglicher Bericht)
@@ -18,8 +17,7 @@ Die Batch-Liste ist der Ort, wo Sie den von Ihren Flows generierten Inhalte übe
 
 ![](/img/kb/content-creation-flows/editing-content-in-the-batch-list-rich-text-editor/FKtHSS6RvegXJWbRcCdgQHsdD65GlDZauQ.png)
 
-###
-2\. Überblick über die Text-Editor-Symbolleiste
+### 2\. Überblick über die Text-Editor-Symbolleiste
 
 Sobald das Bearbeitungspanel geöffnet ist, sehen Sie oben im Inhaltsfeld eine Formatierungssymbolleiste. Es enthält die folgenden Steuerelemente: Die Symbolleiste enthält die folgenden Optionen:
 

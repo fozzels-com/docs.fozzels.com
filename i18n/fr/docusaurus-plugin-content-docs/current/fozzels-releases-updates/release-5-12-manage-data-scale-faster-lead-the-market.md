@@ -66,8 +66,7 @@ Nous avons amélioré la communication au sein de notre interface afin que vous 
 
 -   **Générations manuelles stables :** correction d'un écart dans le décompte des générations lors des exécutions manuelles à grande échelle. Les générations manuelles bénéficient désormais de la même cohérence et de la même stabilité que nos cycles automatiques en arrière-plan.
 
-###
-Pourquoi la version 5.12 est importante
+### Pourquoi la version 5.12 est importante
 
 Cette version fait tomber les cloisons entre vos données et votre IA. En unifiant les **attributs ACF/SEO**, les **modèles d'IA multi-fournisseurs** et les **arborescences de catégories consolidées**, Fozzels 5.12 offre l'environnement d'automatisation le plus stable et le plus puissant du marché.
 

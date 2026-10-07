@@ -70,8 +70,9 @@ Los temas de Magento se basan en gran medida en dimensiones de imagen precisas p
 
 3.  **El panel de vista previa:** El panel derecho interactivo representa dinámicamente un marco de recorte visual, el formato de archivo de destino y calcula el **tamaño estimado** (peso del archivo) y **tokens estimados** (costo de generación) por solicitud de imagen.
 
-## ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/Ked7uS5641FdzLgFJkkyBLIIB44pYiuh5Q.png)
-3\. Filtrado de catálogo de Magento e indicación (Pestaña 3)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/Ked7uS5641FdzLgFJkkyBLIIB44pYiuh5Q.png)
+
+## 3\. Filtrado de catálogo de Magento e indicación (Pestaña 3)
 
 Esta sección actúa como el cerebro creativo de su flujo de Magento, permitiéndole filtrar productos dinámicamente e inyectar atributos nativos en sus solicitudes.
 
@@ -124,7 +125,7 @@ Esta pestaña controla cómo sus activos de medios se ponen inicialmente en cola
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/zAHGFiGSaSobL-Deg00nawI92l2RDf4wzw.png)
 
-## 5. ****Activación y ejecución del flujo****
+## 5. **Activación y ejecución del flujo**
 
 Una vez que haya completado todos los campos de mapeo en la pestaña 4, su tubería automatizada está lista para implementar. Use los siguientes pasos para inicializar el motor de generación:
 
@@ -169,8 +170,9 @@ Al hacer clic en el **icono de ojo** se abre nuestra superposición optimizada d
 
 -   **Aceptar y siguiente:** Aprueba la versión, bloquea sus anulaciones de metadatos de Magento personalizadas e **abre instantáneamente la siguiente imagen** en su cola de lotes.
 
-## ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/fghCPbvdab9wtI-u0AWAUQPsuXIrvMCEPg.png)
-6\. Acciones masivas y exportaciones ZIP locales
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/fghCPbvdab9wtI-u0AWAUQPsuXIrvMCEPg.png)
+
+## 6\. Acciones masivas y exportaciones ZIP locales
 
 Fozzels proporciona portabilidad total de datos sobre su inventario visual. Puede insertar lotes directamente en Magento o exportar carpetas localmente.
 

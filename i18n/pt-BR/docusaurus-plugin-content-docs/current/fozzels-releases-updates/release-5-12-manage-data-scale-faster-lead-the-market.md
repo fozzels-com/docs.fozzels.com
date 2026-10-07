@@ -62,8 +62,7 @@ Melhoramos a comunicação em nossa interface para garantir que você sempre sai
 
 -   **Gerações Manuais Estáveis:** Corrigimos uma discrepância nas contagens de geração durante execuções manuais em larga escala. As gerações manuais agora mantêm a mesma consistência e estabilidade que nossos ciclos de fundo automatizados.
 
-###
-Por Que a Versão 5.12 Importa
+### Por Que a Versão 5.12 Importa
 
 Esta versão quebra os silos entre seus dados e sua IA. Ao unificar **atributos ACF/SEO**, **modelos de IA multi-fornecedor** e **árvores de categorias consolidadas**, o Fozzels 5.12 fornece o ambiente de automação mais estável e poderoso do mercado.
 

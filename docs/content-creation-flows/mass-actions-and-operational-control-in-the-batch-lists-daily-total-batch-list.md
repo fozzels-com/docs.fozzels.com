@@ -39,8 +39,9 @@ Managing Content Using Mass Actions The Dashboards (or Batch List) is your prima
 
 -   **Regenerate, Save & Sync**: This initiates a new content generation request for the selected products and automatically schedules their subsequent synchronization upon successful completion.
 
-## ![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/6chuzawhzMkzp4kjQAs-Xh2lfJQ8D0uTnw.png)
-Managing the Focused Workspace ("Show Selected")
+![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/6chuzawhzMkzp4kjQAs-Xh2lfJQ8D0uTnw.png)
+
+## Managing the Focused Workspace ("Show Selected")
 
 The **"Show Selected"** function is an essential tool for reviewing and preparing specific subsets of data.
 

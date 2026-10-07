@@ -25,8 +25,7 @@ Non è più vincolato a un unico ciclo di sistema che in precedenza iniziava all
 
 ![](/img/kb/data-import-and-quality/custom-pull-schedules-automation-logic/4TXxigKSz9G6RrXZnbgqjQ0N7TTKYwiwMQ.png)
 
-##
-Come funziona: la reazione a catena dell'automazione
+## Come funziona: la reazione a catena dell'automazione
 
 È importante comprendere che l'orario pianificato del pull è il **trigger** di un'intera catena di processi. Una volta che il **pull** ha importato correttamente i Suoi dati, il sistema esegue automaticamente i seguenti passaggi:
 

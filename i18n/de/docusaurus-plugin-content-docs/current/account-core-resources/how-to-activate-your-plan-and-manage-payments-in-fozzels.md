@@ -34,8 +34,7 @@ Sie werden zur sicheren Stripe Checkout-Seite weitergeleitet.
 
 ![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/rrMpJDqK7uu7im4sgfgNtGZxrsIKQCB1yQ.png)
 
-##
-3\. Status und Transaktionen überprüfen
+## 3\. Status und Transaktionen überprüfen
 
 Nach der Verarbeitung der Zahlung werden Sie eine Bestätigung **„Sie haben sich erfolgreich angemeldet"** sehen.
 
@@ -62,8 +61,7 @@ Um sicherzustellen, dass Ihr Service im nächsten Monat ununterbrochen läuft, l
 
 ![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/wS4QU57IRK0D6eaZvxrbuxMHPFBhOq6bew.png)
 
-##
-5\. Aufladen Ihres Guthabens (Credits)
+## 5\. Aufladen Ihres Guthabens (Credits)
 
 Wenn Sie zusätzliche Ressourcen über die Grenzen Ihres Plans hinaus benötigen:
 

@@ -12,8 +12,7 @@ description: >-
 
 ### We are excited to introduce Release 5.11RC3 — our biggest update focused on boosting your productivity, data reliability, and, most importantly, creative freedom! We are adding powerful tools so you can manage your content at the level of a large e-commerce operation.
 
-#
-More Control: Guaranteed Data Reliability
+# More Control: Guaranteed Data Reliability
 
 This section is dedicated to features that ensure the seamless and reliable operation of your content.
 
@@ -32,8 +31,7 @@ Where to find: Automatically applied to all generated content.
 
 ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/R6XcxeLbDHc7UHcAbX496csmdnGMXv0g8w.png)
 
-##
-Creative Freedom: Expanding Content Capabilities
+## Creative Freedom: Expanding Content Capabilities
 
 We have removed formatting restrictions so you can create more complex and visually appealing product pages.
 
@@ -44,8 +42,7 @@ Create content without limits! Add your own (custom) trusted HTML tags (iframe, 
         Where to find: Settings → Resources → Flow → Allowed HTML Tags for AI Text Generation.
 ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/JbEdknAUCQnVDCW8gy1e-sz9XhUWKJaoRA.png)
 
-##
-More Speed: Optimizing Workflows
+## More Speed: Optimizing Workflows
 
 These improvements save you time and simplify navigation, especially when working with many stores.
 
@@ -78,9 +75,8 @@ _in Flow Settings_
 ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/FNRATw5cXTUFy_K0w-IcB_g4ODMxm7pYLA.png)
 _in Flow_
 
-## ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/lJB-c9wW0J601aASmTChpSLO3oir83wBUQ.png)
+![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/lJB-c9wW0J601aASmTChpSLO3oir83wBUQ.png)
 
-##
 
 ## Personalization and Onboarding
 

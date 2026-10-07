@@ -70,11 +70,24 @@ Used for `it` (FOZ-2533) and `fr` (FOZ-2548).
    **Articles added later need translating into every locale.** The Pimcore
    DataHub article (added 2026-09-24) was missing in de/nl/es/pt-BR until
    FOZ-2548. `translate.mjs` does that when it can run; otherwise translate by
-   hand and run `check-locale.mjs` for every locale. Remaining differences in
-   de/nl/es/pt-BR are heading levels, caused by untidy headings in the
-   imported English source (empty `##`, numbered sub-steps as plain text).
+   hand and run `check-locale.mjs` for every locale.
 7. **Compare YAML values, not their layout.** `slug: >-` folded onto the next
    line equals a plain one-line `slug:`; a text diff of frontmatter reports
    false mismatches.
 8. **Testing search locally**: `/<l>/search?q=…` redirects to `/<l>/search/`
    and drops the query. Use `/<l>/search/?q=…` (trailing slash) (FOZ-2548).
+9. **The Freshdesk import left empty headings** (FOZ-2548): a bare `##` with
+   the heading text on the next line (sometimes after an image), or a heading
+   that holds only an image (`### ![](…)`). That rendered 789 empty `<hN>`
+   elements, kept real headings out of "On this page", and translators fixed
+   it in some locales but not others, so the structures drifted.
+   `node scripts/fix-empty-headings.mjs` repairs them in `docs/` and every
+   locale (idempotent; `--dry-run` first). `check-locale.mjs` now flags any
+   that come back. Release 7.3 also had section titles as plain lines; those
+   were made `##` headings by hand in every locale.
+10. **Editing English articles invalidates the translation cache.**
+    `translate.mjs` re-translates an article when the English file's hash
+    changes. After a bulk structural edit (like lesson 9), run
+    `node scripts/seed-translation-cache.mjs` before `npm run translate`,
+    otherwise every touched article is re-translated and the fixed locale
+    files get overwritten.

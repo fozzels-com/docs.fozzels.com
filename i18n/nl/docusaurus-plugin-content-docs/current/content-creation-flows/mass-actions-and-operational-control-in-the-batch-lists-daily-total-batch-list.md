@@ -36,8 +36,9 @@ Inhoud beheren met massaacties Het Dashboards (of Batch List) is uw primaire too
 
 -   **Regenereer, sla op en synchroniseer**: Dit initieert een nieuw inhoudsgeneriering voor de geselecteerde producten en plant automatisch hun vervolgingsynchronisatie bij succesvolle voltooiing.
 
-## ![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/6chuzawhzMkzp4kjQAs-Xh2lfJQ8D0uTnw.png)
-Het beheren van de gefocuste werkruimte ("Geselecteerde weergeven")
+![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/6chuzawhzMkzp4kjQAs-Xh2lfJQ8D0uTnw.png)
+
+## Het beheren van de gefocuste werkruimte ("Geselecteerde weergeven")
 
 De functie **"Geselecteerde weergeven"** is een essentieel gereedschap voor het beoordelen en voorbereiden van specifieke subsets van gegevens.
 

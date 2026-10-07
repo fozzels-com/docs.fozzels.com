@@ -56,8 +56,7 @@ Une fois la configuration enregistrée, vous devez récupérer la liste des lang
     ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/POzdAldcqgEXxkAsgSEbnJLTDF9nzoogmg.png)
     ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/rgGtdO9cFLCfJOPmQs1SQc5NKnlyOx59Ag.png)
 
-###
-3\. Synchronisation du catalogue
+### 3\. Synchronisation du catalogue
 
 C'est l'étape finale et la plus importante pour rendre les produits visibles :
 
@@ -65,8 +64,7 @@ C'est l'étape finale et la plus importante pour rendre les produits visibles :
 
 ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/S0333OKK3WCPquO5CYoLzBkvWJVsJRbG4w.png)
 
-##
-Le combo ultime : WPML + ACF + AIOSEO
+## Le combo ultime : WPML + ACF + AIOSEO
 
 Fozzels vous permet de combiner WPML avec les plugins leaders du marché pour une automatisation maximale. C'est la référence absolue pour un e-commerce professionnel :
 

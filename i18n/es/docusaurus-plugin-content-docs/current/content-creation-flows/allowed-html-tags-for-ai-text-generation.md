@@ -12,8 +12,9 @@ Esta función le permite definir precisamente qué etiquetas HTML se pueden usar
 
 Al definir esta lista, desbloquea posibilidades poderosas para generar contenido con formato específico o incrustar multimedia directamente en el texto generado.
 
-## ![](/img/kb/content-creation-flows/allowed-html-tags-for-ai-text-generation/KsO3jFsp7Ytx48uE5alhlIVzvjfJd8Trzw.png)
-Cómo el Sistema Procesa Etiquetas
+![](/img/kb/content-creation-flows/allowed-html-tags-for-ai-text-generation/KsO3jFsp7Ytx48uE5alhlIVzvjfJd8Trzw.png)
+
+## Cómo el Sistema Procesa Etiquetas
 
 El sistema funciona como un filtro de seguridad:
 

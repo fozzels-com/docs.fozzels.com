@@ -59,7 +59,6 @@ La connexion entre les comptes s'établit par une invitation, qui est **toujours
 
 ![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/27tRV3zXZo-Sd-xnfdD2Npqj9U3_8fWR5A.png)
 
-###
 ![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/qLafAoXrVGuUXACbhMPMEvQ7Gjf7Xg2kCw.png)
 
 Scénario B : « Nous sommes une nouvelle équipe ; comment devons-nous démarrer ? »
@@ -95,8 +94,7 @@ Scénario B : « Nous sommes une nouvelle équipe ; comment devons-nous démarre
 
 -   **Sortie :** le Reseller peut revenir à son propre compte via le lien **'Leave impersonation'**.
 
-##
-4\. Section importante : responsabilité et contrôle
+## 4\. Section importante : responsabilité et contrôle
 
 -   **Délégation de responsabilité :** en acceptant l'invitation, vous déléguez la **pleine responsabilité opérationnelle** pour toutes les actions effectuées dans ce compte. Le Reseller peut modifier ou supprimer des données et des intégrations critiques.
 

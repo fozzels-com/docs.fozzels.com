@@ -38,8 +38,7 @@ Vous serez redirigé vers la page sécurisée Stripe Checkout.
 
 ![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/rrMpJDqK7uu7im4sgfgNtGZxrsIKQCB1yQ.png)
 
-##
-3\. Vérification du statut et des transactions
+## 3\. Vérification du statut et des transactions
 
 Une fois le paiement traité, vous verrez la confirmation **"You have successfully subscribed"**.
 
@@ -66,8 +65,7 @@ Pour que votre service ne soit pas interrompu le mois prochain, définissez votr
 
 ![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/wS4QU57IRK0D6eaZvxrbuxMHPFBhOq6bew.png)
 
-##
-5\. Recharger votre solde (crédits)
+## 5\. Recharger votre solde (crédits)
 
 Si vous avez besoin de ressources supplémentaires au-delà des limites de votre formule :
 

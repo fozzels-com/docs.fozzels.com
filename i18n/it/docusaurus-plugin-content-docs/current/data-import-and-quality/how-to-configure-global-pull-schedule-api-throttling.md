@@ -13,8 +13,7 @@ Quando si gestiscono integrazioni di cataloghi di grandi dimensioni, controllare
 
 Con le impostazioni **Pianificazione globale del pull** e **Limitazione del pull**, può pianificare gli orari di sincronizzazione per evitare i picchi di traffico del negozio e regolare le pause tra le chiamate API per prevenire errori dovuti ai limiti di frequenza.
 
-##
-Dove trovare queste impostazioni
+## Dove trovare queste impostazioni
 
 1.  Acceda a **Fozzels**.
 
@@ -36,9 +35,9 @@ La pianificazione globale del pull Le consente di definire un unico orario princ
 
 > ? **Best practice:** imposti la pianificazione del pull nelle ore di minor traffico (ad es. a tarda notte o al mattino presto), quando il traffico del sito web è più basso, per ridurre al minimo il potenziale carico sul backend del Suo negozio.
 
-##
 ![](/img/kb/data-import-and-quality/how-to-configure-global-pull-schedule-api-throttling/fyrAZkK-2BnIOTIwMM32cLL1domLcyE4rg.png)
-2\. Limitazione del pull (ritardi tra le richieste)
+
+## 2\. Limitazione del pull (ritardi tra le richieste)
 
 I limiti di frequenza delle API (API Rate Limits) sono restrizioni imposte da piattaforme come Shopify, Magento, VTEX o altre per evitare che i server vengano sovraccaricati da troppe richieste contemporanee.
 

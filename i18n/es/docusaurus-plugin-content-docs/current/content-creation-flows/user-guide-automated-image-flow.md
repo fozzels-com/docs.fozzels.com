@@ -91,8 +91,9 @@ Los presets son imágenes de referencia visual que actúan como instrucciones pa
 > -   _Ejemplo:_ Si agrega un preset de **Producto** que muestra un SKU azul específico, la IA podría intentar erróneamente agregar detalles azules a cada otro elemento del flujo. Solo elija referencias que sean apropiadas para toda la categoría de productos que está procesando.
 >
 
-#### ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/FJlYttezkuyQFvSp16LDTSwFhOa5MFopmw.png)
-**1\. Límites y capacidad**
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/FJlYttezkuyQFvSp16LDTSwFhOa5MFopmw.png)
+
+#### 1\. Límites y capacidad
 
 En la parte superior del bloque, verá un contador (p. ej., **8/13**).
 
@@ -148,8 +149,9 @@ El bloque muestra una cuadrícula de sus tarjetas de producto.
 
 -   Para cambiarlo, simplemente seleccione una foto diferente y haga clic en **Guardar** en la ventana emergente.
 
-#### ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/BsDYOnyD0cPg_dl35r0HT6YgOmKmffLBWQ.png)
-**2\. Requisitos: productos con imágenes**
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/BsDYOnyD0cPg_dl35r0HT6YgOmKmffLBWQ.png)
+
+#### 2\. Requisitos: productos con imágenes
 
 Los productos que **no tienen ninguna imagen** en su base de datos se excluyen automáticamente de este bloque. La generación de IA a través de flujos requiere una base visual para funcionar correctamente.
 
@@ -223,7 +225,7 @@ Cambie a la pestaña **Atributos (si se completan)** para ver exactamente qué d
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/9UcxVcuz2XFcQkCC4qSqfhHb7P0EZOtl3w.png)
 
-## ****4\. Automatización (pestaña 4)****
+## **4\. Automatización (pestaña 4)**
 
 La pestaña **Automatización** sirve como la "torre de control" para su flujo. Aquí es donde define el ritmo de creación de contenido, gestiona políticas de publicación e inicia oficialmente el proceso de generación.
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/FYJ_qkFMdxjFIhXpgfz3GkHZs7AhNpgpwA.png)
@@ -348,7 +350,7 @@ Como la automatización total está actualmente deshabilitada para garantizar ca
 
 -   **⚠️ Advertencia**: La sincronización es **irreversible -** no se puede cancelar una vez iniciada.
 
-## ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/c9uHBa_kSFHkR_YXg2rBCu-uOXq4xMWgVw.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/c9uHBa_kSFHkR_YXg2rBCu-uOXq4xMWgVw.png)
 
 ### **¡Buena suerte y feliz creación!**
 

@@ -33,8 +33,9 @@ Gerenciando Conteúdo com Ações em Massa Os Painéis (ou Lista de Lotes) é su
 
 -   **Regenerar, Salvar e Sincronizar**: Isto inicia uma nova solicitação de geração de conteúdo para os produtos selecionados e agenda automaticamente sua sincronização subsequente após a conclusão bem-sucedida.
 
-## ![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/6chuzawhzMkzp4kjQAs-Xh2lfJQ8D0uTnw.png)
-Gerenciando o Espaço de Trabalho Focado ("Mostrar Selecionados")
+![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/6chuzawhzMkzp4kjQAs-Xh2lfJQ8D0uTnw.png)
+
+## Gerenciando o Espaço de Trabalho Focado ("Mostrar Selecionados")
 
 A função **"Mostrar Selecionados"** é uma ferramenta essencial para revisar e preparar subconjuntos específicos de dados.
 

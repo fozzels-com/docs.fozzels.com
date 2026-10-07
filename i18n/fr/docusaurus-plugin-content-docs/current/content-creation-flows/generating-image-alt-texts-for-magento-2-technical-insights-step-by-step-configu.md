@@ -35,8 +35,7 @@ Pour autoriser le système à écraser et à injecter des données dans cet empl
 ![](/img/kb/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/ryugiLjaej08TONBWZC6dvmgdeHvEKzJOA.png)
 ![](/img/kb/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/vj3HVtE0gIyKK1lMzn0NeLCwxHle8IT1Cg.png)
 
-##
-Étape 2. Initialisation du flux et mappage des attributs
+## Étape 2. Initialisation du flux et mappage des attributs
 
 1.  Accédez à la section **Content Flows** et cliquez sur le bouton **Create** **Flow** (ou sélectionnez directement des produits cibles depuis la vue de votre catalogue et cliquez sur **Actions → Create Flow**).
 

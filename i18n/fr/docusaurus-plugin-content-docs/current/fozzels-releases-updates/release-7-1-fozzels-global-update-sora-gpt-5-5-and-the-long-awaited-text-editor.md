@@ -14,8 +14,7 @@ description: >-
 
 Cette version est placée sous le signe de la puissance et du contrôle. Nous avons intégré les meilleurs modèles d'IA au monde et ajouté les fonctionnalités que vous réclamiez le plus afin de rendre votre flux de travail de contenu vraiment fluide.
 
-###
-Révolution vidéo : Sora et Sora 2
+### Révolution vidéo : Sora et Sora 2
 
 Nous sommes ravis d'annoncer la prise en charge des modèles vidéo les plus avancés d'OpenAI, qui changent la donne dans Video Flow.
 
@@ -24,8 +23,7 @@ Nous sommes ravis d'annoncer la prise en charge des modèles vidéo les plus ava
 -   Vidéo à partir de références IA : utilisez les images générées par l'IA de Fozzels comme base (Source Image) de vos vidéos. Idéal pour créer des lookbooks cohérents et des campagnes de marque haut de gamme.
     ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/A8OQGp-ucfpLX2OEw1bNNvP83BIOCaiXrw.png)
 
-###
-Intelligence de nouvelle génération pour le contenu : GPT 5.5
+### Intelligence de nouvelle génération pour le contenu : GPT 5.5
 
 Votre contenu textuel est désormais propulsé par le modèle le plus intelligent d'OpenAI à ce jour.
 
@@ -55,8 +53,7 @@ Vous pouvez désormais modifier et mettre en forme les descriptions générées 
 
 ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/LFkCkbSdq7zSC98Z5shf1o9cRXrku-TJ5Q.png)
 
-###
-Filtrage intelligent du catalogue (Shopify, Magento, Akeneo)
+### Filtrage intelligent du catalogue (Shopify, Magento, Akeneo)
 
 Vous décidez précisément de ce qui est importé dans Fozzels.
 
@@ -64,9 +61,9 @@ Vous décidez précisément de ce qui est importé dans Fozzels.
 
 -   Catalogue sans encombrement : fini le contenu inutile - ne travaillez que sur les éléments dont vous avez besoin maintenant.
 
-###
 ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/_PhMY1EsCrLuw_a8c60Xdt-kc4fMyZ6gfw.png)
-Avancée majeure pour WordPress (WooCommerce)
+
+### Avancée majeure pour WordPress (WooCommerce)
 
 -   Prise en charge complète des variations : nous sommes allés plus loin - la synchronisation complète (texte et visuels) est désormais disponible pour chaque variation de produit individuelle (couleur, taille, etc.).
     ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/wd5XzSMq0IWL9gok77gfbpO7IkCENWjIcQ.png)
@@ -77,8 +74,7 @@ Avancée majeure pour WordPress (WooCommerce)
 -   Transparence de la file d'attente : une nouvelle colonne dans les listes d'Image/Video Flow affiche le nombre total de produits en attente de génération, et pas seulement le nombre de résultats terminés.
     ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/YE3FxMEvIqP_3h-GUbSCc_oNJBkqI9wRfw.png)
 
-###
-Correctifs et améliorations
+### Correctifs et améliorations
 
 -   Chatbot IA : sensibilité et précision améliorées lors du mappage des attributs spécifiques de votre intégration.
 

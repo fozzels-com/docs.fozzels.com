@@ -21,7 +21,7 @@ En el menú lateral, dentro de **MAIN/CATALOG**, seleccione **Categories**.
 
 En la parte superior de la página, utilice los filtros del selector de tienda para asegurarse de haber seleccionado la store view correcta.
 
-### ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/1dojt8GKF7WJ4UfUGbaSXAoXnYw-c2EhlQ.png)
+![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/1dojt8GKF7WJ4UfUGbaSXAoXnYw-c2EhlQ.png)
 
 ### Paso 3. Seleccione las categorías
 
@@ -33,15 +33,15 @@ Elija las categorías para las que desea generar contenido:
 
 > _Nota:_ La interfaz de selección es idéntica a la del flujo de productos, lo que hace que el proceso sea rápido y sencillo.
 
-### ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/IZYD-wiFeEnNG1Ypw6QzBg6w1iNpWI5Ipg.png)
-Paso 4. Cree el Flow y configure los ajustes principales
+![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/IZYD-wiFeEnNG1Ypw6QzBg6w1iNpWI5Ipg.png)
+
+### Paso 4. Cree el Flow y configure los ajustes principales
 
 1.  Introduzca un **Name** claro para el flow (por ejemplo, _Description for Mens collection_).
 
 2.  El campo **Entity Type** ya estará preseleccionado como `Category`.
 
-###
-Paso 5. Elija el atributo de destino
+### Paso 5. Elija el atributo de destino
 
 Seleccione en el menú desplegable **Attribute** el atributo de categoría para el que desea generar contenido (por ejemplo, `Description`) y guarde su selección.
 
@@ -58,11 +58,10 @@ Seleccione en el menú desplegable **Attribute** el atributo de categoría para 
 >     ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/wF2PLUJw__aF3ktzhc2gqAQN6hQeKV-Cew.png)
 >
 
-###
 
-###
 ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/jbiOnSCDha9r3SkyY9GnShc-N-ZOKbstSQ.png)
-Paso 6. AI Configuration, Prompt y ejecución
+
+### Paso 6. AI Configuration, Prompt y ejecución
 
 1.  Elija su modelo de IA preferido.
 

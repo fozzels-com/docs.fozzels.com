@@ -22,8 +22,7 @@ U bent niet langer beperkt tot één systeemcyclus die eerder om **00:30 UTC** v
 
 ![](/img/kb/data-import-and-quality/custom-pull-schedules-automation-logic/4TXxigKSz9G6RrXZnbgqjQ0N7TTKYwiwMQ.png)
 
-##
-Hoe het werkt: de automatiseringskettingreactie
+## Hoe het werkt: de automatiseringskettingreactie
 
 Het is belangrijk om te begrijpen dat het geplande Pull-moment de **trigger** is voor een heel reeks processen. Zodra de **Pull** uw gegevens met succes heeft geïmporteerd, voert het systeem automatisch de volgende stappen uit:
 

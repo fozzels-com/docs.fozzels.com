@@ -30,8 +30,7 @@ La duplication vous permet de réutiliser des configurations complètes (filtres
 
 ![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/SQ3APzXi6qMf8Vz9_U8bAVr6_tdKhvNCRg.png)
 
-####
-1.2. Sélection de la boutique (le cas échéant)
+#### 1.2. Sélection de la boutique (le cas échéant)
 
 -   **Intégration d'une seule boutique :** si une seule boutique est intégrée, le Flow dupliqué est créé immédiatement.
 

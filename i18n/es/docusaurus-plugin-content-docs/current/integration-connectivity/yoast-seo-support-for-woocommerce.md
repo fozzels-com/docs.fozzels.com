@@ -40,7 +40,6 @@ Para la sincronización exitosa, tu sitio WordPress debe tener **dos complemento
 
 3.  Habilita el interruptor y haz clic en **GUARDAR**.
 
-###
 ![](/img/kb/integration-connectivity/yoast-seo-support-for-woocommerce/Q2vuNHpeZol7txxezMoTQmPyzT3To9Rwpw.png)
 
 ### Paso 3: Actualización de la estructura de datos

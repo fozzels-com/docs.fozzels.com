@@ -88,7 +88,6 @@ U moet een nieuwe integratie maken en specifieke machtigingen in uw Magento-behe
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/Pj-HIMnlhJNvqDzEYmDckrL3xvLalFhsfw.png)
 
-##
 
 ## Deel 3: Fozzels-activering en datasynchronisatie
 
@@ -117,11 +116,9 @@ Ga na bevestiging van de wijzigingen over tot het maken van de integratie in Foz
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/M9c13tHfbMEfpo7QsFt_Q6DvUljm-1jM1Q.png)![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/UvSS02f-tz_5sjBViKw7tq0kWJRti5mSvA.png)
 
-####
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/RrDkikq2qamOno3s8JmMIrJfno5S5gpIew.png)
 
-####
 
 ### Stap 9: Vul verbindingsdetails in
 
@@ -153,7 +150,6 @@ _![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/FvEC
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/d3dKR2OUZS7d-iiP2ptuZXFlu9JQKqz93A.png)
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/gjRG-nmFAybUytQo_B_QzBZew6ZY5FygNQ.png)
 
-####
 
 ### Stap 11: Trek producten op en controleer
 

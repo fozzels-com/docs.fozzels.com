@@ -8,7 +8,6 @@ description: Nos esforçamos para garantir que trabalhar com grandes volumes de 
 
 Nos esforçamos para garantir que trabalhar com grandes volumes de dados não seja apenas rápido, mas também totalmente controlável e intuitivo. A versão 5.10 se concentra em melhorar a qualidade dos dados visuais e **aumentar significativamente o desempenho e conveniência do uso do nosso serviço Fozzels.**
 
-##
 
 Impulsionando o Desempenho e a Qualidade dos Dados
 
@@ -40,8 +39,7 @@ Melhoramos a experiência do usuário para tornar o gerenciamento de catálogos 
 -   **Controle de Coluna em "Salvar e Visualizar":** O bloco **"Visibilidade de coluna"** foi adicionado à tabela de visualização (**Salvar e Visualizar**). Isso permite que você exiba apenas os atributos necessários, resolvendo problemas com tabelas excessivamente grandes.
     ![](/img/kb/fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/2xUkAX-SxZ6mayNDh5A91b3m2AkKS4mDFw.png)
 
-###
-3\. Gerenciamento de Imagem e Qualidade Visual
+### 3\. Gerenciamento de Imagem e Qualidade Visual
 
 -   **Catálogo Visual Limpo:** O sistema agora **ignora automaticamente e não exibe** URLs de imagem inválidas (quebradas) ou vazias em todo o catálogo, relatórios e listas de geração. Diga adeus às imagens quebradas — seus dados agora parecem impecáveis.
 
@@ -62,8 +60,7 @@ Melhoramos a experiência do usuário para tornar o gerenciamento de catálogos 
 
 -   **Confiabilidade em Ações em Massa:** Corrigimos um pequeno problema que ocasionalmente fazia a grade permanecer vazia se nenhum item fosse selecionado. Trabalhar com ações em massa agora é ainda mais confiável.
 
-##
- Nos Bastidores: Estabilidade e Modernidade
+## Nos Bastidores: Estabilidade e Modernidade
 
 -   **Estabilização de Integração Direcionada:** Correções necessárias foram implementadas para melhorar a estabilidade e funcionalidade de integrações com as plataformas **WooCommerce, EK Retail e Shopware**, garantindo operação confiável para clientes com essas configurações específicas.
 

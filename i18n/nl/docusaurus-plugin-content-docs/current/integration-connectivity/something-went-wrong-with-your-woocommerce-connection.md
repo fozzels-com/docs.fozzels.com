@@ -8,13 +8,11 @@ description: Geen zorgen — de meeste verbindingsproblemen zijn snel op te loss
 
 Geen zorgen — de meeste verbindingsproblemen zijn snel op te lossen. Deze handleiding begeleidt u door de meest voorkomende berichten die u kunt zien en precies wat u moet doen.
 
-##
 
 ## Wat betekent "Verbindingsproblemen gedetecteerd"?
 
 Wanneer u uw WooCommerce-integratie opslaat, controleert Fozzels automatisch of alles correct is ingesteld. Als er iets ontbreekt of aandacht nodig is, ziet u een bericht met uitleg over wat u vervolgens moet doen.
 
-##
 
 ## Basisverbinding
 
@@ -28,7 +26,6 @@ Wanneer u uw WooCommerce-integratie opslaat, controleert Fozzels automatisch of 
 
 -   **"SSL-certificaatfout."** Het beveiligingscertificaat van uw winkel heeft een probleem. Neem contact op met uw hostingprovider om dit op te lossen.
 
-##
 
 ## ACF (Advanced Custom Fields)
 
@@ -44,8 +41,7 @@ Wanneer u uw WooCommerce-integratie opslaat, controleert Fozzels automatisch of 
 
 -   **"ACF REST API-versienotrouwkeurig."** Ga naar **WordPress → Instellingen → Permanlinks → ACF to REST API** en stel de versie in op **v3**.
 
-##
-WPML (Meertalig)
+## WPML (Meertalig)
 
 -   **"WPML plugin is niet gedetecteerd."** Installeer en activeer de plugin **WPML Multilingual CMS** op uw WordPress-site. Voeg vervolgens ten minste één taal toe onder **WPML → Talen**.
 
@@ -53,8 +49,7 @@ WPML (Meertalig)
 
 -   **Net WPML ingeschakeld?** Ga na het inschakelen terug naar **Websites en winkels** en klik **Pull Stores/Websites**, voer vervolgens **Pull Products** opnieuw uit. Dit is hoe Fozzels uw taalversies leert.
 
-##
-Yoast SEO
+## Yoast SEO
 
 Yoast SEO heeft twee dingen nodig om met Fozzels te werken: de **Yoast SEO**-plugin en onze **Fozzels-connectorplugin**. U kunt de connector downloaden van **app.fozzels.com**.
 

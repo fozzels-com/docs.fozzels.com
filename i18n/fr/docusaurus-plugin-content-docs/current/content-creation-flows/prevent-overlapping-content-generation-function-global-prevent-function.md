@@ -43,8 +43,7 @@ Il s'agit du **paramètre global** qui s'applique à tous vos Flows, sauf indica
 
 ![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/et0MwVwvnIfg8GhM-81qMk3ADOAD3_M02g.png)
 
-##
-2\. Remplacer la règle pour un Flow spécifique (scénarios pratiques)
+## 2\. Remplacer la règle pour un Flow spécifique (scénarios pratiques)
 
 Dans les paramètres de chaque Flow (section **4 Automation**), vous décidez s'il respecte les paramètres globaux ou s'il fait l'objet d'une exception :
 
@@ -54,8 +53,7 @@ Dans les paramètres de chaque Flow (section **4 Automation**), vous décidez s'
 
 -   Si vous souhaitez désactiver complètement toutes les règles de duplication globales, consultez le scénario C.
 
-####
-**Scénario A : autorisation de génération complète (sans restriction) (Turn Off)**
+#### Scénario A : autorisation de génération complète (sans restriction) (Turn Off)
 
 **Votre objectif :** vous souhaitez que le Flow ignore toutes les règles de duplication (même si la règle globale est active).
 
@@ -73,8 +71,7 @@ Dans les paramètres de chaque Flow (section **4 Automation**), vous décidez s'
 
 ![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/M18xs-NWnNKM3KW_n1iAHroIpfoIW3ztfg.png)
 
-####
-**Scénario B : définir une limite de temps personnalisée (Override)**
+#### Scénario B : définir une limite de temps personnalisée (Override)
 
 **Votre objectif :** vous souhaitez que ce Flow ait une limite de temps **différente** du paramètre global.
 

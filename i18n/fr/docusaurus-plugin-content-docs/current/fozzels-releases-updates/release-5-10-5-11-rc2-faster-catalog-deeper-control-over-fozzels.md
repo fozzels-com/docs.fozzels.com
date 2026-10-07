@@ -12,7 +12,6 @@ description: >-
 
 Nous veillons à ce que le travail sur de gros volumes de données soit non seulement rapide, mais aussi entièrement maîtrisable et intuitif. La version 5.10 se concentre sur l'amélioration de la qualité des données visuelles et sur **l'augmentation significative des performances et du confort d'utilisation de notre service Fozzels.**
 
-##
 
 Amélioration des performances et de la qualité des données
 
@@ -44,8 +43,7 @@ Nous avons amélioré l'UX afin de rendre la gestion de grands catalogues plus r
 -   **Contrôle des colonnes dans "Save & Preview" :** le bloc **"Column visibility"** a été ajouté au tableau de prévisualisation (**Save & Preview**). Il permet de n'afficher que les attributs nécessaires, ce qui résout les problèmes de tableaux trop volumineux.
     ![](/img/kb/fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/2xUkAX-SxZ6mayNDh5A91b3m2AkKS4mDFw.png)
 
-###
-3\. Gestion des images et qualité visuelle
+### 3\. Gestion des images et qualité visuelle
 
 -   **Catalogue visuel propre :** le système **ignore désormais et n'affiche plus** automatiquement les URL d'images invalides (cassées) ou vides dans le catalogue, les rapports et les listes de génération. Dites adieu aux images cassées : vos données sont maintenant impeccables.
 
@@ -66,8 +64,7 @@ Nous avons amélioré l'UX afin de rendre la gestion de grands catalogues plus r
 
 -   **Fiabilité des actions de masse :** nous avons corrigé un problème mineur qui laissait parfois la grille vide lorsqu'aucun élément n'était sélectionné. Le travail avec les actions de masse est désormais encore plus fiable.
 
-##
- En coulisses : stabilité et modernité
+## En coulisses : stabilité et modernité
 
 -   **Stabilisation ciblée des intégrations :** les correctifs nécessaires ont été déployés pour améliorer la stabilité et le fonctionnement des intégrations avec les plateformes **WooCommerce, EK Retail et Shopware**, afin de garantir un fonctionnement fiable pour les clients disposant de ces configurations spécifiques.
 

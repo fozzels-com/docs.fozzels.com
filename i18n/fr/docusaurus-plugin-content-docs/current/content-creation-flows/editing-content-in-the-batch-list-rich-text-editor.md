@@ -13,8 +13,7 @@ keywords:
 
 La Batch List est l'endroit où vous vérifiez, modifiez et approuvez le contenu généré par vos flux avant sa synchronisation avec votre boutique. En plus de consulter le résultat brut, Fozzels propose désormais un **Text Editor** intégré : une barre d'outils de mise en forme qui vous permet de structurer et de styliser le texte généré.
 
-###
-1\. Accéder à l'éditeur
+### 1\. Accéder à l'éditeur
 
 1.  **Accédez** à la section **Content Flows** dans le menu de l'en-tête.
 2.  **Ouvrez** le flux souhaité et cliquez sur le bouton **Batch List** (ou sur le rapport quotidien)
@@ -23,8 +22,7 @@ La Batch List est l'endroit où vous vérifiez, modifiez et approuvez le contenu
 
 ![](/img/kb/content-creation-flows/editing-content-in-the-batch-list-rich-text-editor/FKtHSS6RvegXJWbRcCdgQHsdD65GlDZauQ.png)
 
-###
-2\. Présentation de la barre d'outils du Text Editor
+### 2\. Présentation de la barre d'outils du Text Editor
 
 Une fois le panneau d'édition ouvert, une barre d'outils de mise en forme apparaît en haut du champ de contenu. Elle comprend les commandes suivantes :
 

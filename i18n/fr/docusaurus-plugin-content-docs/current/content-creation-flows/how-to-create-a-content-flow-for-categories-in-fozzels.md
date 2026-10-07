@@ -24,7 +24,7 @@ Dans le menu latéral, sous **MAIN/CATALOG**, sélectionnez **Categories**.
 
 En haut de la page, utilisez les filtres du sélecteur de boutique pour vous assurer d'avoir sélectionné la bonne vue boutique.
 
-### ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/1dojt8GKF7WJ4UfUGbaSXAoXnYw-c2EhlQ.png)
+![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/1dojt8GKF7WJ4UfUGbaSXAoXnYw-c2EhlQ.png)
 
 ### Étape 3. Sélectionner les catégories
 
@@ -36,15 +36,15 @@ Choisissez les catégories pour lesquelles vous souhaitez générer du contenu :
 
 > _Remarque :_ l'interface de sélection est identique à celle du workflow produit, ce qui rend le processus rapide et simple.
 
-### ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/IZYD-wiFeEnNG1Ypw6QzBg6w1iNpWI5Ipg.png)
-Étape 4. Créer le Flow et configurer les paramètres principaux
+![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/IZYD-wiFeEnNG1Ypw6QzBg6w1iNpWI5Ipg.png)
+
+### Étape 4. Créer le Flow et configurer les paramètres principaux
 
 1.  Saisissez un **Name** clair pour le flow (par ex. _Description for Mens collection_).
 
 2.  Le champ **Entity Type** sera déjà présélectionné sur `Category`.
 
-###
-Étape 5. Choisir l'attribut cible
+### Étape 5. Choisir l'attribut cible
 
 Sélectionnez l'attribut de catégorie pour lequel vous souhaitez générer du contenu (par ex. `Description`) dans la liste déroulante **Attribute**, puis enregistrez votre sélection.
 
@@ -61,11 +61,10 @@ Sélectionnez l'attribut de catégorie pour lequel vous souhaitez générer du c
 >     ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/wF2PLUJw__aF3ktzhc2gqAQN6hQeKV-Cew.png)
 >
 
-###
 
-###
 ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/jbiOnSCDha9r3SkyY9GnShc-N-ZOKbstSQ.png)
-Étape 6. Configuration de l'IA, prompt et lancement
+
+### Étape 6. Configuration de l'IA, prompt et lancement
 
 1.  Choisissez le modèle d'IA de votre choix.
 

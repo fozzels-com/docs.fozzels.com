@@ -34,8 +34,7 @@ U wordt doorgestuurd naar de beveiligde Stripe Checkout-pagina.
 
 ![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/rrMpJDqK7uu7im4sgfgNtGZxrsIKQCB1yQ.png)
 
-##
-3\. Controleer status & transacties
+## 3\. Controleer status & transacties
 
 Zodra de betaling is verwerkt, ziet u een **"U bent succesvol geabonneerd"** bevestiging.
 
@@ -62,8 +61,7 @@ Stel uw kaart in als primaire methode om ervoor te zorgen dat uw service volgend
 
 ![](/img/kb/account-core-resources/how-to-activate-your-plan-and-manage-payments-in-fozzels/wS4QU57IRK0D6eaZvxrbuxMHPFBhOq6bew.png)
 
-##
-5\. Uw saldo aanvullen (tegoed)
+## 5\. Uw saldo aanvullen (tegoed)
 
 Als u extra middelen nodig heeft die verder gaan dan de limieten van uw abonnement:
 

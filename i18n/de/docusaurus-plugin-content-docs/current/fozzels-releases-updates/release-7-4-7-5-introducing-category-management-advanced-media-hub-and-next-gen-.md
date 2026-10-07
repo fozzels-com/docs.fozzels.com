@@ -81,8 +81,7 @@ Basierend direkt auf Nutzer-Feedback haben wir die Bildvorschau, Moderation und 
 
 -   **Nächste-Gen-Kategorie-Trees:** Um skalierte Kategorie-Operationen zu unterstützen, haben wir ein interaktives `Tree View` Multi-Selector mit Quick-Access-Tags und flexibler bedingter Logik (`AND` / `OR`) implementiert.
 
-###
-Ökosystem und Integrationen
+### Ökosystem und Integrationen
 
 #### **Magento: Multi-Select Validierung und Advanced Media Asset Management**
 
@@ -98,8 +97,7 @@ Basierend direkt auf Nutzer-Feedback haben wir die Bildvorschau, Moderation und 
 
 2.  _Force-Modus:_ Ein vollständiger Rewrite und Optimierungs-Zyklus über alle Image-Assets in der ausgewählten Batch-Datei.
 
-####
-**Shopify und Shopware: Optimierte Attribut-Filterung**
+#### Shopify und Shopware: Optimierte Attribut-Filterung
 
 -   **Daten-Flow-Optimierung:** Wir haben eine technische Prüfung und Bereinigung der Filterkonfigurations-Matrizen für sowohl Shopify als auch Shopware durchgeführt. Nur relevante, vollständig funktionale logische Operatoren sind jetzt in der Schnittstelle verfügbar, was Katalog-Segmentierungs-Workflows erheblich beschleunigt.
 
