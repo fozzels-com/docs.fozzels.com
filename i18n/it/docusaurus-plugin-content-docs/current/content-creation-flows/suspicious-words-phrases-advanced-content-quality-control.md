@@ -1,65 +1,103 @@
 ---
 id: '103000390709'
-title: '4.7.4  Parole e frasi sospette: controllo avanzato della qualità dei contenuti'
+title: '4.7.4 Parole e frasi sospette: controllo avanzato della qualità dei contenuti'
 sidebar_position: 21
 slug: >-
   /content-creation-flows/suspicious-words-phrases-advanced-content-quality-control
 description: >-
-  La funzione Parole e frasi sospette è molto più di un semplice filtro di
-  convalida: è uno strumento sofisticato per gestire flussi di lavoro di contenuti ad alto volume
+  La funzione Parole e frasi sospette segnala i testi generati che contengono
+  parole, frasi o schemi simili a commenti che non vuole pubblicare, così può
+  verificarli prima che vadano online.
 ---
 
-La funzione **Parole e frasi sospette** è molto più di un semplice filtro di convalida: è uno strumento sofisticato per gestire flussi di lavoro di contenuti ad alto volume. Garantisce che le descrizioni dei Suoi prodotti restino professionali, segnalando allucinazioni dell'IA, artefatti tecnici o termini indesiderati in più lingue contemporaneamente.
+La funzione **Suspicious Words & Phrases** segnala i testi generati che contengono parole, frasi o schemi simili a commenti che Lei non vuole pubblicare. I completamenti segnalati ricevono lo stato **Suspicious**, così può filtrarli e verificarli prima che vadano online.
 
-## Configurazione: controllo globale e multilingue
+Intercetta gli artefatti dell'IA (scuse, note al lettore, markup rimasto nel testo), i residui tecnici e tutti i termini che sceglie di bloccare, in più lingue contemporaneamente.
 
-Per gestire il Suo elenco di parole, vada su **Impostazioni** > **Flusso** > scheda **Parole e frasi sospette**.
+## Dove trovarla
 
-### 1\. Gestione dell'elenco di parole
+Vada su **Settings** > **Flow** e scorra fino al blocco **Suspicious Words & Phrases**. Le impostazioni si applicano a tutti i Suoi flussi.
 
-Fozzels è preconfigurato con gli artefatti IA più comuni (`#html`, `note:`, `sorry`, ecc.). Può:
+![Impostazioni di Suspicious Words & Phrases](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/v2-01-settings.png)
 
--   **Attivare/disattivare i termini:** è sufficiente deselezionare i tag che non Le servono.
+## Come funziona la corrispondenza
 
--   **Aggiungere termini personalizzati:** digiti qualsiasi parola o frase (ad es. nomi di concorrenti, termini sensibili specifici del marchio) e prema **Invio**.
+Per impostazione predefinita, una parola viene trovata solo come parola intera. Aggiunga `*` all'inizio o alla fine per ampliare la ricerca. Maiuscole e minuscole non contano mai.
 
--   **Supporto multilingue:** può aggiungere "stop-word" in qualsiasi lingua. Ciò è estremamente utile per i negozi internazionali in cui occorre monitorare contemporaneamente errori specifici per diverse localizzazioni (ad es. l'inglese "sorry" e l'olandese "let op").
+| Voce | Cosa trova |
+| --- | --- |
+| `bright` | solo _bright_, non _brightness_ né _ultrabright_ |
+| `bright*` | anche _brightness_ e _brightly_ |
+| `*bright` | anche _ultrabright_ |
+| `*bright*` | il testo in qualsiasi punto, compreso _ultrabrightness_ |
+| `bri*ght` | il testo esatto `bri*ght` — `*` funziona solo all'inizio o alla fine |
 
-![](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/NHbocGjhOveF2KEQmoSh5o7YOuzzP33eaA.png)
+Le stesse regole valgono per le frasi. Ad esempio, `antwoord` non segnala mai _verantwoorde_, `antwoord*` segnala anche _antwoorden_ e `*seo*` viene trovato ovunque, perfino dentro _museo_.
 
-## Come funziona: gestione dinamica dello stato
+## Cosa viene segnalato
 
-Il sistema opera in **tempo reale**. Non appena un termine del Suo elenco compare in un testo generato:
+Il controllo si basa su tre fonti: le parole predefinite, gli schemi integrati e le Sue parole.
 
--   Il prodotto viene contrassegnato con lo **stato "Sospetto"**.
+### Parole sospette predefinite
 
--   Le parole segnalate vengono **evidenziate direttamente nell'editor di testo**.
+Fozzels include un elenco già pronto di artefatti comuni dell'IA in diverse lingue, come `*sorry*`, `*please*`, `*note:*`, `*markdown*`, `*<html*`, `*Let op:*` e `*het spijt me*`. Deselezioni le parole che non Le servono e non verranno più segnalate.
 
--   Questo Le consente di scegliere: **modificare manualmente**, **rigenerare** il contenuto oppure **modificare le Sue impostazioni** per rimuovere la segnalazione.
+### Schemi integrati
 
-### Correzioni di massa istantanee
+Gli schemi integrati cercano la _forma_ di un commento dell'IA, non una parola precisa. Intercettano formulazioni che il modello non ha mai usato prima, come:
 
-La vera forza di questa funzione risiede nella sua natura dinamica. Se uno stato "Sospetto" è stato attivato per errore (ad es. ha aggiunto "sorry" come stop-word, ma poi ha lanciato un marchio chiamato _"Sorry Boy"_), non deve modificare centinaia di descrizioni:
+- "Let's" o "Let me" davanti a un verbo, come in _"Let's re-verify"_
+- Un controllo annunciato, come in _"One last check"_ o _"Final check"_
+- Una domanda sul testo stesso, come in _"Is the wording accurate?"_
+- Un risultato consegnato, come in _"Final answer"_ o _"Here is the"_
+- Caratteri contati, come in _"59 chars"_ o _"character limit"_
+- Le istruzioni citate di nuovo, come in _"the prompt says"_ o _"mandatory words"_
+- La parola "I" davanti a un verbo, come in _"I forgot"_ o _"I'll use"_
 
-1.  **Disattivi o rimuova** la parola dal Suo elenco dei termini sospetti nelle Impostazioni.
+L'elenco completo si trova nelle impostazioni, con un esempio per ogni schema. Gli schemi non si possono modificare: faccia clic su uno schema per attivarlo o disattivarlo. Disattivi uno schema se segnala i Suoi testi.
 
-2.  Il sistema **aggiorna istantaneamente lo stato** di tutti i completamenti esistenti. Perderanno la segnalazione "Sospetto" e saranno subito pronti per la sincronizzazione di massa.
+Gli schemi in grigio partono disattivati. Corrispondono a forme che anche i testi normali usano, come una domanda in una FAQ di prodotto o una riga che inizia con _Great,_. Li attivi solo se preferisce rivedere alcune delle Sue frasi piuttosto che lasciarsi sfuggire quei commenti.
 
-![](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/bnDUh3Fj25UmysKHVdUAyM4Kh5Ev2TWvzg.png)
+### Le Sue parole
 
-##
-Efficienza nell'Elenco batch totale giornaliero
+In **Add your own suspicious words** digiti una parola o una frase e prema **Enter**. Lo usi per nomi di concorrenti, termini sensibili del marchio o errori tipici di una lingua. Può mescolare più lingue nello stesso elenco, cosa utile per i negozi che pubblicano in più localizzazioni.
 
-Abbiamo ottimizzato il Suo spazio di lavoro con un filtro dedicato per semplificare i controlli quotidiani:
+## Come funziona la segnalazione
 
--   **Mostra solo sospetti:** utilizzi questo interruttore nell'**Elenco batch totale giornaliero** per isolare istantaneamente ogni risultato che richiede la Sua attenzione.
+Ogni nuova generazione viene controllata in base alle Sue impostazioni attuali, appena viene creata. Quando c'è una corrispondenza:
 
--   Invece di esaminare l'intero batch, può concentrarsi specificamente sugli elementi segnalati, vedere le parole evidenziate e decidere se correggere il testo o perfezionare il Suo elenco globale di parole per sbloccare l'intero batch in una sola volta.
+- Il completamento riceve lo stato **Suspicious**.
+- Le parole trovate vengono **evidenziate** nell'editor di testo, così vede subito cosa ha causato la segnalazione.
+- Decide Lei cosa fare: **modificare** il testo manualmente, **rigenerarlo** oppure **modificare l'elenco** se la segnalazione è un falso allarme.
 
-## Forzare un aggiornamento (Aggiorna segnalazione sospetti)
+Nell'elenco dei completamenti, un risultato segnalato appare così. La parola trovata (qui _hello_) è evidenziata nel testo. Il pulsante **Sync Now** mostra un'icona di avviso e il messaggio _"Completion looks suspicious, possible AI recommendations found."_
 
-Sebbene lo stato si aggiorni dinamicamente, può sempre avviare manualmente un ricalcolo per una parte più ampia del Suo catalogo. Nel Suo **Elenco contenuti**, selezioni i prodotti e utilizzi l'**azione di massa "Aggiorna segnalazione sospetti"** per analizzarli nuovamente in base alle Sue impostazioni più recenti.
+![Un completamento sospetto nell'elenco dei completamenti](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/v2-02-suspicious-completion.png)
 
-### Riepilogo
+Un completamento di questo tipo non va sincronizzato così com'è. Lo rigeneri oppure modifichi il testo per eliminare le parole segnalate.
 
-Questa funzione funge da "centro di comando" per la qualità dei contenuti. Che si tratti di intercettare problemi tecnici o di gestire la sicurezza del marchio oltre i confini nazionali, ha sempre il pieno controllo su ciò che viene pubblicato nel Suo negozio.
+Per rivedere solo gli elementi segnalati, attivi **Show only suspicious** nella **Daily Total Batch List**. Salta i risultati corretti e passa direttamente ai testi che richiedono attenzione.
+
+## Aggiornare i completamenti esistenti
+
+Modificare l'elenco influisce solo sulle nuove generazioni. I completamenti già esistenti **non** vengono ricontrollati automaticamente: il loro stato Suspicious resta invariato finché non lo ricalcola.
+
+Per applicare le nuove impostazioni ai testi esistenti:
+
+1.  Apra la **Content Completion List** dell'attributo che vuole controllare.
+2.  Selezioni i prodotti da ricontrollare.
+3.  Apra il menu **Actions** e scelga **Update Suspicious Flag**.
+
+![Update Suspicious Flag nel menu Actions](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/v2-03-update-suspicious-flag.png)
+
+I completamenti selezionati vengono analizzati di nuovo in base al Suo elenco e agli schemi attuali. I prodotti che non corrispondono più perdono lo stato Suspicious e sono pronti per la sincronizzazione.
+
+**Esempio:** ha aggiunto `sorry` come parola sospetta, poi ha lanciato un marchio chiamato _Sorry Boy_. Ora centinaia di descrizioni sono segnalate. Rimuova o deselezioni `sorry` in Settings, poi esegua **Update Suspicious Flag** su quei prodotti: le segnalazioni scompaiono e può sincronizzarli in blocco senza modificare ogni testo.
+
+## Suggerimenti
+
+- Inizi con parole intere e aggiunga `*` solo quando Le servono le varianti. `*seo*` trova anche _museo_, e questo può segnalare testi normali.
+- Se uno schema integrato continua a segnalare testi corretti nel Suo settore, lo disattivi invece di modificare i testi uno per uno.
+- Dopo ogni modifica all'elenco, esegua **Update Suspicious Flag** sui prodotti che vuole ricontrollare.
+
+Usati insieme, l'elenco di parole, gli schemi e l'azione di massa Le offrono un unico posto per controllare cosa arriva nel Suo negozio, in ogni flusso e in ogni lingua.

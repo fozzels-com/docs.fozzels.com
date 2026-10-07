@@ -1,64 +1,104 @@
 ---
 id: '103000390709'
-title: '4.7.4  Verdächtige Wörter & Ausdrücke: Fortgeschrittene Inhaltqualitätskontrolle'
+title: '4.7.4 Verdächtige Wörter & Ausdrücke: Fortgeschrittene Inhaltsqualitätskontrolle'
 sidebar_position: 21
 slug: /content-creation-flows/suspicious-words-phrases-advanced-content-quality-control
-description: Die Funktion "Verdächtige Wörter & Ausdrücke" ist mehr als nur ein einfaches Validierungsfilter - es ist ein ausgefeiltes Werkzeug zur Verwaltung von Workflows mit hohem Inhaltsvolumen.
+description: >-
+  Die Funktion Verdächtige Wörter & Ausdrücke kennzeichnet generierte Texte, die
+  Wörter, Ausdrücke oder kommentarähnliche Muster enthalten, die Sie nicht
+  veröffentlichen möchten, damit Sie sie vor der Veröffentlichung prüfen können.
 keywords:
 - Arbeitsablauf
 ---
 
-Die Funktion **Verdächtige Wörter & Ausdrücke** ist mehr als nur ein einfaches Validierungsfilter - es ist ein ausgefeiltes Werkzeug zur Verwaltung von Workflows mit hohem Inhaltsvolumen. Es stellt sicher, dass Ihre Produktbeschreibungen professionell bleiben, indem es KI-Halluzinationen, technische Artefakte oder unerwünschte Begriffe gleichzeitig über mehrere Sprachen hinweg kennzeichnet.
+Die Funktion **Suspicious Words & Phrases** kennzeichnet generierte Texte, die Wörter, Ausdrücke oder kommentarähnliche Muster enthalten, die Sie nicht veröffentlichen möchten. Gekennzeichnete Vervollständigungen erhalten den Status **Suspicious**. So können Sie sie filtern und prüfen, bevor sie live gehen.
 
-## Konfiguration: Globale & mehrsprachige Kontrolle
+Sie erkennt KI-Artefakte (Entschuldigungen, Hinweise an den Leser, übrig gebliebenes Markup), technische Überreste und alle Begriffe, die Sie sperren möchten, in allen Sprachen gleichzeitig.
 
-Um Ihre Wortliste zu verwalten, navigieren Sie zu **Einstellungen** > **Flow** > Registerkarte **Verdächtige Wörter & Ausdrücke**.
+## Wo Sie die Funktion finden
 
-### 1\. Verwalten der Wortliste
+Gehen Sie zu **Settings** > **Flow** und scrollen Sie zum Block **Suspicious Words & Phrases**. Die Einstellungen gelten global für alle Ihre Flows.
 
-Fozzels ist mit gemeinsamen KI-Artefakten (`#html`, `note:`, `sorry`, etc.) vorkonfiguriert. Sie können:
+![Einstellungen für Suspicious Words & Phrases](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/v2-01-settings.png)
 
--   **Bedingungen ein-/ausschalten:** Deaktivieren Sie einfach die Tags, die Sie nicht benötigen.
+## Wie der Abgleich funktioniert
 
--   **Benutzerdefinierte Begriffe hinzufügen:** Geben Sie ein beliebiges Wort oder einen Ausdruck ein (z. B. Konkurrentennamen, brandspezifische vertrauliche Begriffe) und drücken Sie die **Eingabetaste**.
+Ein Wort wird standardmäßig als ganzes Wort gefunden. Setzen Sie `*` an den Anfang oder an das Ende, um die Suche zu erweitern. Groß- und Kleinschreibung spielt nie eine Rolle.
 
--   **Unterstützung für mehrere Sprachen:** Sie können "Stoppwörter" in jeder Sprache hinzufügen. Dies ist unglaublich nützlich für internationale Shops, in denen Sie spezifische Fehler für verschiedene Lokalisierungen gleichzeitig verfolgen müssen (z. B. englisches "sorry" vs. niederländisches "let op").
+| Eintrag | Was gefunden wird |
+| --- | --- |
+| `bright` | nur _bright_, nicht _brightness_ oder _ultrabright_ |
+| `bright*` | auch _brightness_ und _brightly_ |
+| `*bright` | auch _ultrabright_ |
+| `*bright*` | der Text an beliebiger Stelle, auch in _ultrabrightness_ |
+| `bri*ght` | genau der Text `bri*ght` — `*` funktioniert nur am Anfang oder am Ende |
 
-![](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/NHbocGjhOveF2KEQmoSh5o7YOuzzP33eaA.png)
+Dieselben Regeln gelten für Ausdrücke. Zum Beispiel kennzeichnet `antwoord` niemals _verantwoorde_, `antwoord*` kennzeichnet auch _antwoorden_, und `*seo*` wird überall gefunden, sogar in _museo_.
 
-## Funktionsweise: Dynamische Statusverwaltung
+## Was gekennzeichnet wird
 
-Das System arbeitet **in Echtzeit**. Sobald ein Begriff aus Ihrer Liste in einem generierten Text auftaucht:
+Drei Quellen speisen die Prüfung: Standardwörter, integrierte Muster und Ihre eigenen Wörter.
 
--   Das Produkt wird mit einem **"Verdächtig" Status** gekennzeichnet.
+### Verdächtige Standardwörter
 
--   Die gekennzeichneten Wörter werden **direkt im Text-Editor hervorgehoben**.
+Fozzels bringt eine fertige Liste häufiger KI-Artefakte in mehreren Sprachen mit, zum Beispiel `*sorry*`, `*please*`, `*note:*`, `*markdown*`, `*<html*`, `*Let op:*` und `*het spijt me*`. Deaktivieren Sie jedes Wort, das Sie nicht brauchen. Es wird dann nicht mehr gekennzeichnet.
 
--   Dies gibt Ihnen die Wahl: **manuell bearbeiten**, den Inhalt **neu generieren** oder **Ihre Einstellungen anpassen**, um die Kennzeichnung zu löschen.
+### Integrierte Muster
 
-### Sofortige Massenkorrektionen
+Integrierte Muster suchen nach der _Form_ eines KI-Kommentars statt nach einem exakten Wort. Sie erkennen auch Formulierungen, die das Modell noch nie verwendet hat, zum Beispiel:
 
-Die wahre Kraft dieses Features liegt in seiner dynamischen Natur. Falls ein "Verdächtig" Status versehentlich ausgelöst wurde (z. B. Sie haben "sorry" als Stoppwort hinzugefügt, aber dann eine Marke namens _"Sorry Boy"_ gestartet), müssen Sie nicht hunderte Beschreibungen bearbeiten:
+- "Let's" oder "Let me" vor einem Verb, wie in _"Let's re-verify"_
+- Eine abgezählte Prüfung, wie in _"One last check"_ oder _"Final check"_
+- Eine Frage zum Text selbst, wie in _"Is the wording accurate?"_
+- Ein übergebenes Ergebnis, wie in _"Final answer"_ oder _"Here is the"_
+- Gezählte Zeichen, wie in _"59 chars"_ oder _"character limit"_
+- Die zitierten Anweisungen, wie in _"the prompt says"_ oder _"mandatory words"_
+- Das Wort "I" vor einem Verb, wie in _"I forgot"_ oder _"I'll use"_
 
-1.  **Deaktivieren oder entfernen** Sie das Wort aus Ihrer Verdächtig-Liste in den Einstellungen.
+Die vollständige Liste finden Sie in den Einstellungen, mit einem Beispiel zu jedem Muster. Muster lassen sich nicht bearbeiten. Klicken Sie auf ein Muster, um es ein- oder auszuschalten. Schalten Sie ein Muster aus, wenn es Ihre eigenen Texte kennzeichnet.
 
-2.  Das System **aktualisiert den Status sofort** für alle bestehenden Vervollständigungen. Sie verlieren die "Verdächtig" Kennzeichnung und sind sofort zur Massensynchronisierung bereit.
+Die ausgegrauten Muster sind zunächst ausgeschaltet. Sie erkennen Formen, die auch normale Texte verwenden, zum Beispiel eine Frage in einer Produkt-FAQ oder eine Zeile, die mit _Great,_ beginnt. Schalten Sie ein solches Muster nur ein, wenn Sie lieber einige Ihrer eigenen Sätze prüfen, als diese Kommentare zu übersehen.
 
-![](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/bnDUh3Fj25UmysKHVdUAyM4Kh5Ev2TWvzg.png)
+### Ihre eigenen Wörter
 
-##
-Effizienz in der täglichen Gesamt-Batch-Liste
+Geben Sie unter **Add your own suspicious words** ein Wort oder einen Ausdruck ein und drücken Sie **Enter**. Nutzen Sie dies für Namen von Wettbewerbern, sensible Markenbegriffe oder Fehler, die nur in einer Sprache auftreten. Sie können in einer Liste mehrere Sprachen mischen. Das hilft Shops, die in mehreren Sprachversionen veröffentlichen.
 
-Wir haben Ihren Arbeitsbereich mit einem dedizierten Filter optimiert, um Ihre täglichen Prüfungen zu rationalisieren:
+## Wie die Kennzeichnung funktioniert
 
--   **Nur verdächtige anzeigen:** Verwenden Sie diesen Schalter in der **täglichen Gesamt-Batch-Liste**, um jedes Ergebnis sofort zu isolieren, das Ihre Aufmerksamkeit benötigt.
+Jede neue Generierung wird direkt nach der Erstellung anhand Ihrer aktuellen Einstellungen geprüft. Bei einem Treffer gilt Folgendes:
 
--   Anstatt die gesamte Charge zu überprüfen, können Sie sich gezielt auf gekennzeichnete Elemente konzentrieren, die hervorgehobenen Wörter sehen und entscheiden, ob Sie den Text korrigieren oder Ihre globale Wortliste verfeinern möchten, um die gesamte Charge auf einmal zu löschen.
+- Die Vervollständigung erhält den Status **Suspicious**.
+- Die gefundenen Wörter werden im Text-Editor **hervorgehoben**, sodass Sie sofort sehen, was die Kennzeichnung ausgelöst hat.
+- Sie entscheiden, was zu tun ist: den Text **manuell bearbeiten**, ihn **neu generieren** oder **die Liste anpassen**, wenn die Kennzeichnung ein Fehlalarm ist.
 
-## Erzwungenes Update (Verdächtig-Kennzeichnung aktualisieren)
+In der Vervollständigungsliste sieht ein gekennzeichnetes Ergebnis so aus. Das gefundene Wort (hier _hello_) ist im Text hervorgehoben. Die Schaltfläche **Sync Now** zeigt ein Warnsymbol und die Meldung _"Completion looks suspicious, possible AI recommendations found."_
 
-Während der Status dynamisch aktualisiert wird, können Sie immer eine Neuberechnung für Ihren breiteren Katalog manuell auslösen. Wählen Sie in Ihrer **Inhaltsliste** die Produkte aus und verwenden Sie die **Massenaktion: "Verdächtig-Kennzeichnung aktualisieren"**, um sie gegen Ihre aktuellsten Einstellungen erneut zu scannen.
+![Eine verdächtige Vervollständigung in der Vervollständigungsliste](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/v2-02-suspicious-completion.png)
 
-### Zusammenfassung
+Eine solche Vervollständigung sollte nicht unverändert synchronisiert werden. Generieren Sie sie neu oder bearbeiten Sie den Text, um die gekennzeichneten Wörter zu entfernen.
 
-Dieses Feature dient als Ihr "Kommandozentrum" für Inhaltsqualität. Egal ob Sie technische Probleme beheben oder Brand Safety über internationale Grenzen hinweg verwalten, Sie haben immer die vollständige Kontrolle über das, was auf Ihrem Store veröffentlicht wird.
+Um nur gekennzeichnete Elemente zu prüfen, aktivieren Sie **Show only suspicious** in der **Daily Total Batch List**. So überspringen Sie die unauffälligen Ergebnisse und gehen direkt zu den Texten, die Ihre Aufmerksamkeit brauchen.
+
+## Bestehende Vervollständigungen aktualisieren
+
+Änderungen an der Liste wirken sich nur auf neue Generierungen aus. Bereits vorhandene Vervollständigungen werden **nicht** automatisch erneut geprüft. Ihr Suspicious-Status bleibt unverändert, bis Sie ihn neu berechnen.
+
+So wenden Sie Ihre neuen Einstellungen auf bestehende Texte an:
+
+1.  Öffnen Sie die **Content Completion List** für das Attribut, das Sie prüfen möchten.
+2.  Wählen Sie die Produkte aus, die erneut geprüft werden sollen.
+3.  Öffnen Sie das Menü **Actions** und wählen Sie **Update Suspicious Flag**.
+
+![Update Suspicious Flag im Menü Actions](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/v2-03-update-suspicious-flag.png)
+
+Die ausgewählten Vervollständigungen werden erneut anhand Ihrer aktuellen Liste und Muster gescannt. Produkte, die nicht mehr passen, verlieren den Status Suspicious und sind bereit zur Synchronisierung.
+
+**Beispiel:** Sie haben `sorry` als verdächtiges Wort hinzugefügt und dann eine Marke namens _Sorry Boy_ eingeführt. Hunderte Beschreibungen sind nun gekennzeichnet. Entfernen Sie `sorry` in den Einstellungen oder deaktivieren Sie es und führen Sie dann **Update Suspicious Flag** für diese Produkte aus. Die Kennzeichnungen verschwinden, und Sie können die Produkte gesammelt synchronisieren, ohne jeden Text zu bearbeiten.
+
+## Tipps
+
+- Beginnen Sie mit ganzen Wörtern und fügen Sie `*` nur hinzu, wenn Sie Varianten brauchen. `*seo*` findet auch _museo_, was normale Texte kennzeichnen kann.
+- Wenn ein integriertes Muster in Ihrer Nische ständig gute Texte kennzeichnet, schalten Sie es aus, statt Texte einzeln zu bearbeiten.
+- Führen Sie nach jeder Änderung der Liste **Update Suspicious Flag** für die Produkte aus, die erneut geprüft werden sollen.
+
+Zusammen geben Ihnen Wortliste, Muster und Massenaktion eine zentrale Stelle, um zu steuern, was in Ihren Shop gelangt, über alle Flows und alle Sprachen hinweg.
