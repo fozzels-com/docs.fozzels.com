@@ -28,8 +28,7 @@ Die Duplizierung ermöglicht es Ihnen, umfassende Konfigurationen (Filter, Promp
 
 ![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/SQ3APzXi6qMf8Vz9_U8bAVr6_tdKhvNCRg.png)
 
-####
-1.2. Store-Auswahl (falls zutreffend)
+#### 1.2. Store-Auswahl (falls zutreffend)
 
 -   **Einzelne Store-Integration:** Falls nur ein Store integriert ist, wird der duplizierte Flow sofort erstellt.
 

@@ -8,7 +8,6 @@ description: Wir bemühen uns sicherzustellen, dass die Arbeit mit großen Daten
 
 Wir bemühen uns sicherzustellen, dass die Arbeit mit großen Datenmengen nicht nur schnell ist, sondern auch vollständig kontrollierbar und intuitiv. Version 5.10 konzentriert sich auf die Verbesserung der Qualität visueller Daten und auf eine **deutlich erhöhte Leistung und Benutzerfreundlichkeit unseres Fozzels-Dienstes.**
 
-##
 
 Leistungssteigerung und Datenqualität
 
@@ -40,8 +39,7 @@ Wir haben die Benutzeroberfläche verbessert, um die Verwaltung großer Kataloge
 -   **Spalten-Kontrolle in „Speichern & Vorschau":** Der Block **„Spaltensichtbarkeit"** wurde zur Vorschautabelle hinzugefügt (**Speichern & Vorschau**). Dies ermöglicht es Ihnen, nur die notwendigen Attribute anzuzeigen und Probleme mit übermäßig großen Tabellen zu beheben.
     ![](/img/kb/fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/2xUkAX-SxZ6mayNDh5A91b3m2AkKS4mDFw.png)
 
-###
-3\. Bildverwaltung und visuelle Qualität
+### 3\. Bildverwaltung und visuelle Qualität
 
 -   **Sauberer visueller Katalog:** Das System **ignoriert und zeigt jetzt nicht mehr** ungültige (fehlerhafte) oder leere Bild-URLs im Katalog, in Berichten und in Generierungslisten an. Verabschieden Sie sich von fehlerhaften Bildern — Ihre Daten sehen jetzt tadellos aus.
 
@@ -62,8 +60,7 @@ Wir haben die Benutzeroberfläche verbessert, um die Verwaltung großer Kataloge
 
 -   **Zuverlässigkeit bei Massenaktionen:** Wir haben ein kleineres Problem behoben, das gelegentlich dazu führte, dass das Gitter leer blieb, wenn keine Elemente ausgewählt waren. Die Arbeit mit Massenaktionen ist jetzt noch zuverlässiger.
 
-##
- Im Hintergrund: Stabilität und Moderne
+## Im Hintergrund: Stabilität und Moderne
 
 -   **Gezielte Integrationsstabilisierung:** Notwendige Fixes wurden implementiert, um die Stabilität und Funktionalität von Integrationen mit den Plattformen **WooCommerce, EK Retail und Shopware** zu verbessern und zuverlässigen Betrieb für Clients mit diesen spezifischen Setups sicherzustellen.
 

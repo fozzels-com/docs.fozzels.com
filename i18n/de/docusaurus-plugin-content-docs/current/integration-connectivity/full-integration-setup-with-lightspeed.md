@@ -22,21 +22,18 @@ Sie müssen auf Ihr Lightspeed-Konto zugreifen, um das erforderliche API-Schlüs
 3. **Suchen** und **wählen** Sie "API-Schlüssel" oder "Entwickler".
     ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/MZv-XXhmVP6BJaa1Bodx1omwsE79Sz8QMg.png)
 
-####
-**Schritt 2: Erstellen Sie einen neuen API-Schlüssel**
+#### Schritt 2: Erstellen Sie einen neuen API-Schlüssel
 
 1. **Klicken** Sie auf die Schaltfläche "API-Schlüssel hinzufügen" oder "Neuer Schlüssel".
 
 2. **Benennen** Sie die Integration eindeutig (z. B. Fozzels Integration).
 
-#### ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/C88N5mBpcnAN8OkGn8_qwt9UDUb2JF1Z9w.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/C88N5mBpcnAN8OkGn8_qwt9UDUb2JF1Z9w.png)
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/AzUkWXCCt69kJBjU9LTQpJgW0iLlNd56yw.png)
 
-####
 
-####
-**Schritt 3: Berechtigungen festlegen (Scopes)**
+#### Schritt 3: Berechtigungen festlegen (Scopes)
 
 Die Einstellungsseite für die neue Verbindung wird automatisch geöffnet. Sie **müssen** die erforderlichen Berechtigungen für Fozzels auswählen.
 ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/CioSxLGTyO3ZE1aF8NeArPcp8qx-oz22mw.png)
@@ -50,7 +47,6 @@ Die Einstellungsseite für die neue Verbindung wird automatisch geöffnet. Sie *
 
 Hinweis: Die Gewährung von "Schreibzugriff" ermöglicht Fozzels, Daten in Ihrem Lightspeed-Shop zu aktualisieren und eine bidirektionale Synchronisierung zu gewährleisten.)
 
-####
 ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/qQg2365EfWu2BevBccdOrXyc1jnZs_p1Pg.png)**Schritt 4: Aktivierung und Kopieren der Schlüssel**
 
 1. Schalten Sie in der oberen rechten Ecke der Berechtigungseinstellungsseite den Umschalter **ein** (aktivieren Sie diesen API-Schlüssel).
@@ -99,7 +95,7 @@ Füllen Sie auf der Seite "Neue Integration erstellen" folgende Felder aus:
 
 6. **Cluster:** **Wählen** Sie den entsprechenden Cluster (Region), in dem Ihr Lightspeed-Shop gehostet wird.
 
-#### ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/rmiVHOPB99FOtO7FZUQ0_YI_ma2jqnnB1w.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/rmiVHOPB99FOtO7FZUQ0_YI_ma2jqnnB1w.png)
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-lightspeed/HY4qeR3DTL_8O1hm3il8lNhcNpKi2XECUw.png)
 

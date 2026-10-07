@@ -8,8 +8,7 @@ description: Estamos emocionados de presentar la Versión 5.11RC3 — nuestra ac
 
 ### Estamos emocionados de presentar la Versión 5.11RC3 — nuestra actualización más grande enfocada en impulsar tu productividad, confiabilidad de datos y, lo más importante, ¡libertad creativa! Estamos agregando herramientas potentes para que puedas gestionar tu contenido al nivel de una operación de comercio electrónico grande.
 
-#
-Más Control: Confiabilidad de Datos Garantizada
+# Más Control: Confiabilidad de Datos Garantizada
 
 Esta sección está dedicada a características que aseguran la operación sin interrupciones y confiable de tu contenido.
 
@@ -28,8 +27,7 @@ Dónde encontrarlo: Se aplica automáticamente a todo el contenido generado.
 
 ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/R6XcxeLbDHc7UHcAbX496csmdnGMXv0g8w.png)
 
-##
-Libertad Creativa: Ampliando Capacidades de Contenido
+## Libertad Creativa: Ampliando Capacidades de Contenido
 
 Hemos eliminado las restricciones de formato para que puedas crear páginas de producto más complejas y visualmente atractivas.
 
@@ -40,8 +38,7 @@ Hemos eliminado las restricciones de formato para que puedas crear páginas de p
         Dónde encontrarlo: Configuración → Recursos → Flujo → Etiquetas HTML Permitidas para Generación de Texto de IA.
 ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/JbEdknAUCQnVDCW8gy1e-sz9XhUWKJaoRA.png)
 
-##
-Más Velocidad: Optimizando Flujos de Trabajo
+## Más Velocidad: Optimizando Flujos de Trabajo
 
 Estas mejoras te ahorran tiempo y simplifican la navegación, especialmente cuando trabajas con muchas tiendas.
 
@@ -74,9 +71,8 @@ _en Configuración de Flujo_
 ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/FNRATw5cXTUFy_K0w-IcB_g4ODMxm7pYLA.png)
 _en Flujo_
 
-## ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/lJB-c9wW0J601aASmTChpSLO3oir83wBUQ.png)
+![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/lJB-c9wW0J601aASmTChpSLO3oir83wBUQ.png)
 
-##
 
 ## Personalización e Incorporación
 

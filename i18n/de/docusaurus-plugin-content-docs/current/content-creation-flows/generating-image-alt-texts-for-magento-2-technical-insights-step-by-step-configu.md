@@ -30,8 +30,7 @@ Um dem System die Berechtigung zu erteilen, Daten in diesen Slot zu überschreib
 ![](/img/kb/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/ryugiLjaej08TONBWZC6dvmgdeHvEKzJOA.png)
 ![](/img/kb/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/vj3HVtE0gIyKK1lMzn0NeLCwxHle8IT1Cg.png)
 
-##
-Schritt 2. Flow-Initialisierung & Attributzuordnung
+## Schritt 2. Flow-Initialisierung & Attributzuordnung
 
 1.  Gehen Sie zum Abschnitt **Content Flows** und klicken Sie auf die Schaltfläche **Flow erstellen** (oder wählen Sie Zielprodukte direkt aus Ihrer Katalogansicht aus und klicken Sie auf **Aktionen → Flow erstellen**).
 

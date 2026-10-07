@@ -8,8 +8,7 @@ description: Estamos entusiasmados em apresentar a Versão 5.11RC3 — nossa mai
 
 ### Estamos entusiasmados em apresentar a Versão 5.11RC3 — nossa maior atualização focada em aumentar sua produtividade, confiabilidade de dados e, mais importante, liberdade criativa! Estamos adicionando ferramentas poderosas para que você possa gerenciar seu conteúdo no nível de uma grande operação de e-commerce.
 
-#
-Mais Controle: Confiabilidade de Dados Garantida
+# Mais Controle: Confiabilidade de Dados Garantida
 
 Esta seção é dedicada a recursos que garantem a operação perfeita e confiável do seu conteúdo.
 
@@ -28,8 +27,7 @@ Onde encontrar: Aplicado automaticamente a todo conteúdo gerado.
 
 ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/R6XcxeLbDHc7UHcAbX496csmdnGMXv0g8w.png)
 
-##
-Liberdade Criativa: Expandindo Capacidades de Conteúdo
+## Liberdade Criativa: Expandindo Capacidades de Conteúdo
 
 Removemos restrições de formatação para que você possa criar páginas de produtos mais complexas e visualmente atrativas.
 
@@ -40,8 +38,7 @@ Crie conteúdo sem limites! Adicione suas próprias tags HTML confiáveis (ifram
         Onde encontrar: Configurações → Recursos → Fluxo → Tags HTML Permitidas para Geração de Texto de IA.
 ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/JbEdknAUCQnVDCW8gy1e-sz9XhUWKJaoRA.png)
 
-##
-Mais Velocidade: Otimizando Fluxos de Trabalho
+## Mais Velocidade: Otimizando Fluxos de Trabalho
 
 Essas melhorias economizam seu tempo e simplificam a navegação, especialmente ao trabalhar com muitas lojas.
 
@@ -74,9 +71,8 @@ _em Configurações de Fluxo_
 ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/FNRATw5cXTUFy_K0w-IcB_g4ODMxm7pYLA.png)
 _no Fluxo_
 
-## ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/lJB-c9wW0J601aASmTChpSLO3oir83wBUQ.png)
+![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/lJB-c9wW0J601aASmTChpSLO3oir83wBUQ.png)
 
-##
 
 ## Personalização e Incorporação
 

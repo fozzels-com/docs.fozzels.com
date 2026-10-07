@@ -10,8 +10,7 @@ Ao gerenciar grandes integrações de catálogo, controlar **quando** e **com qu
 
 Com as configurações de **Agendamento de Pull Global** e **Pull Throttling**, você pode agendar horários de sincronização para evitar o pico de tráfego da loja e ajustar pausas de API para evitar erros de limite de taxa.
 
-##
-Onde Encontrar Essas Configurações
+## Onde Encontrar Essas Configurações
 
 1.  Faça login em **Fozzels**.
 
@@ -33,9 +32,9 @@ O Agendamento de Pull Global permite que você defina um único horário mestre 
 
 > ? **Melhor Prática:** Defina seu agendamento de pull durante horas de pico (por exemplo, tarde da noite ou início da manhã) quando o tráfego do website é mais baixo para minimizar qualquer carga potencial no backend da sua loja.
 
-##
 ![](/img/kb/data-import-and-quality/how-to-configure-global-pull-schedule-api-throttling/fyrAZkK-2BnIOTIwMM32cLL1domLcyE4rg.png)
-2\. Pull Throttling (Atrasos Entre Requisições)
+
+## 2\. Pull Throttling (Atrasos Entre Requisições)
 
 Limites de Taxa de API são restrições impostas por plataformas como Shopify, Magento, VTEX ou outras para evitar que servidores sejam sobrecarregados por muitas requisições ao mesmo tempo.
 

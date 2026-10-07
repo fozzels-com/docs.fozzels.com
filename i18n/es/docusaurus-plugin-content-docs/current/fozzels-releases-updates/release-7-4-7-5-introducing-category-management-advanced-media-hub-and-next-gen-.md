@@ -81,8 +81,7 @@ Basándonos directamente en comentarios de usuarios, hemos reimaginado y renovad
 
 -   **Árboles de categorías de próxima generación:** para admitir operaciones de categorías escaladas, implementamos un selector múltiple de `vista de árbol` interactivo equipado con etiquetas de acceso rápido y lógica condicional flexible (`Y` / `O`).
 
-###
-Ecosistema e integraciones
+### Ecosistema e integraciones
 
 #### **Magento: validación de selección múltiple y gestión avanzada de activos multimedia**
 
@@ -98,8 +97,7 @@ Ecosistema e integraciones
 
 2.  _Modo forzado:_ un ciclo de reescritura completa y optimización ejecutado en todos los activos de imagen en el lote seleccionado.
 
-####
-**Shopify y Shopware: filtrado de atributos simplificado**
+#### Shopify y Shopware: filtrado de atributos simplificado
 
 -   **Optimización del flujo de datos:** hemos realizado una auditoría técnica y limpieza de las matrices de configuración del filtro para Shopify y Shopware. Solo los operadores lógicos relevantes y completamente funcionales ahora se exponen a la interfaz, acelerando significativamente los flujos de trabajo de segmentación de catálogos.
 

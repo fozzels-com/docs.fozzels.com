@@ -53,8 +53,7 @@ Nach dem Speichern müssen Sie die Sprachliste von Ihrer WordPress-Website abruf
     ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/POzdAldcqgEXxkAsgSEbnJLTDF9nzoogmg.png)
     ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/rgGtdO9cFLCfJOPmQs1SQc5NKnlyOx59Ag.png)
 
-###
-3. Katalog-Synchronisierung
+### 3. Katalog-Synchronisierung
 
 Dies ist der letzte und wichtigste Schritt, um Produkte sichtbar zu machen:
 
@@ -62,8 +61,7 @@ Dies ist der letzte und wichtigste Schritt, um Produkte sichtbar zu machen:
 
 ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/S0333OKK3WCPquO5CYoLzBkvWJVsJRbG4w.png)
 
-##
-Die Super-Power-Kombination: WPML + ACF + AIOSEO
+## Die Super-Power-Kombination: WPML + ACF + AIOSEO
 
 Fozzels ermöglicht Ihnen, WPML mit branchenführenden Plugins zu kombinieren, um maximale Automatisierung zu erreichen. Dies ist der "Gold Standard" für professionelle E-Commerce:
 

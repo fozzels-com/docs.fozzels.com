@@ -88,7 +88,6 @@ Você deve criar uma nova integração e definir permissões específicas no seu
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/Pj-HIMnlhJNvqDzEYmDckrL3xvLalFhsfw.png)
 
-##
 
 ## Parte 3: Ativação de Fozzels e Sincronização de Dados
 
@@ -117,11 +116,9 @@ Após confirmar as alterações, prossiga para criar a integração no Fozzels.
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/M9c13tHfbMEfpo7QsFt_Q6DvUljm-1jM1Q.png)![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/UvSS02f-tz_5sjBViKw7tq0kWJRti5mSvA.png)
 
-####
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/RrDkikq2qamOno3s8JmMIrJfno5S5gpIew.png)
 
-####
 
 ### Etapa 9: Preencha os Detalhes de Conexão
 
@@ -153,7 +150,6 @@ _![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/FvEC
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/d3dKR2OUZS7d-iiP2ptuZXFlu9JQKqz93A.png)
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/gjRG-nmFAybUytQo_B_QzBZew6ZY5FygNQ.png)
 
-####
 
 ### Etapa 11: Extraia Produtos e Verifique
 

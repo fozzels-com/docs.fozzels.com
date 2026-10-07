@@ -15,8 +15,9 @@ Questa funzionalità Le consente di definire con precisione quali tag HTML posso
 
 Definendo questo elenco, sblocca potenti possibilità per generare contenuti con formattazioni specifiche o per incorporare contenuti multimediali direttamente nel testo generato.
 
-## ![](/img/kb/content-creation-flows/allowed-html-tags-for-ai-text-generation/KsO3jFsp7Ytx48uE5alhlIVzvjfJd8Trzw.png)
-Come il sistema elabora i tag
+![](/img/kb/content-creation-flows/allowed-html-tags-for-ai-text-generation/KsO3jFsp7Ytx48uE5alhlIVzvjfJd8Trzw.png)
+
+## Come il sistema elabora i tag
 
 Il sistema funziona come un filtro di sicurezza:
 

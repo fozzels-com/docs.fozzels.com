@@ -29,8 +29,7 @@ Navigieren Sie zu den Systemeinstellungen.
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/NE3HjkKRNa353OQJJBzR8eeF_Y9XA9Mi_w.png)
 
-###
-4. Klicken Sie auf "Benutzer & Berechtigungen"
+### 4. Klicken Sie auf "Benutzer & Berechtigungen"
 
 Wählen Sie die Option Integrationen aus dem Systemmenü.
 
@@ -103,8 +102,7 @@ Geben Sie einen Namen für die Integration ein. Öffnen Sie dann das Dropdown-Me
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/DZY9Dx_ZSKux2NMqdZxEYkFXqeT3JeZVlg.png)
 
-###
-12. Kopieren Sie die Access Key ID
+### 12. Kopieren Sie die Access Key ID
 
 Klicken Sie auf das Kopiersymbol neben der **Access Key ID**, um es in die Zwischenablage zu kopieren. Fügen Sie diesen Schlüssel in ein Textdokument ein, um ihn zu schützen - Sie benötigen ihn in Teil 2.
 
@@ -128,7 +126,6 @@ Die Integration ist jetzt erstellt und aktiv.
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/ddwo4oRoStm6_leYM-OMhtbNWvrs2B5OkA.png)
 
-###
 
 # Teil 2: Verbinden Sie Fozzels mit Shopware 6
 
@@ -138,8 +135,7 @@ Nachdem Sie die Integration in Shopware erstellt haben, konfigurieren Sie die Ve
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/QNYGtnmJc1jLtdHtrac2heMnCvr8OeCjOw.png)
 
-###
-**2.** Klicken Sie auf "Integrationen"
+### **2.** Klicken Sie auf "Integrationen"
     Klicken Sie im Menü Fozzels auf Integrationen.
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/p3WWrWl5kNt7ZpAfsTGCttAeYkIT1rVN6A.png)
 3. Klicken Sie auf "Erstellen"
@@ -165,7 +161,7 @@ Füllen Sie die folgenden Felder der Reihe nach aus:
 
 **6**. Wenn alle Felder ausgefüllt sind, klicken Sie auf "Speichern". Es sollte ein Popup "Erfolg" angezeigt werden, das bestätigt, dass die Verbindung gespeichert wurde.
 
-### ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/Hx1KICwgA4nYaOgpQbjeLYyUYMAfwizHIA.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/Hx1KICwgA4nYaOgpQbjeLYyUYMAfwizHIA.png)
 
 ### 7. Aktivieren Sie die Integration
     Schalten Sie den Umschalter "Aktiv" ein, um die Integration zu aktivieren.
@@ -208,4 +204,3 @@ Hier sind einige zusätzliche Artikel, die Ihnen bei den ersten Schritten mit Fo
 
 Oder kontaktieren Sie uns direkt - wir helfen Ihnen gerne weiter!
 
-###

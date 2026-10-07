@@ -66,8 +66,7 @@ Abbiamo migliorato la comunicazione all'interno della nostra interfaccia affinch
 
 -   **Generazioni manuali stabili:** è stata corretta una discrepanza nel conteggio delle generazioni durante le esecuzioni manuali su larga scala. Le generazioni manuali mantengono ora la stessa coerenza e stabilità dei nostri cicli automatici in background.
 
-###
-Perché la versione 5.12 è importante
+### Perché la versione 5.12 è importante
 
 Questa release abbatte le barriere tra i Suoi dati e la Sua AI. Unificando **attributi ACF/SEO**, **modelli AI di più fornitori** e **alberi delle categorie consolidati**, Fozzels 5.12 offre l'ambiente di automazione più stabile e potente sul mercato.
 

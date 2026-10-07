@@ -83,8 +83,7 @@ Fozzels supports three main types of flows, each targeting a specific type of co
 
 2.  **Target:** Creation of dynamic materials for product promotion.
 
-##
-Next Steps
+## Next Steps
 
 -   **Read** our detailed guide on creating a **Content Flow** [here](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 

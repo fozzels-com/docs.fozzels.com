@@ -8,8 +8,7 @@ description: A Lista de Lotes é onde você revisa, edita e aprova o conteúdo g
 
 A Lista de Lotes é onde você revisa, edita e aprova o conteúdo gerado pelos seus fluxos antes de ser sincronizado com sua loja. Além de visualizar o resultado bruto, o Fozzels agora fornece um **Editor de Texto** integrado - uma barra de ferramentas de formatação que permite estruturar e estilizar o texto gerado.
 
-###
-1\. Acessando o Editor
+### 1\. Acessando o Editor
 
 1.  **Navegue** até a seção **Fluxos de Conteúdo** no menu do cabeçalho.
 2.  **Abra** o fluxo desejado e clique no botão **Lista de Lotes** (ou relatório diário)
@@ -18,8 +17,7 @@ A Lista de Lotes é onde você revisa, edita e aprova o conteúdo gerado pelos s
 
 ![](/img/kb/content-creation-flows/editing-content-in-the-batch-list-rich-text-editor/FKtHSS6RvegXJWbRcCdgQHsdD65GlDZauQ.png)
 
-###
-2\. Visão Geral da Barra de Ferramentas do Editor de Texto
+### 2\. Visão Geral da Barra de Ferramentas do Editor de Texto
 
 Quando o painel de edição estiver aberto, você verá uma barra de ferramentas de formatação no topo do campo de conteúdo. Contém os seguintes controles: A barra de ferramentas inclui as seguintes opções:
 

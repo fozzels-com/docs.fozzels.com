@@ -94,9 +94,9 @@ I preset sono immagini di riferimento visive che fungono da istruzioni per l'IA.
 > -   _Esempio:_ se aggiunge un preset **Prodotto** che mostra uno specifico SKU blu, l'IA potrebbe erroneamente tentare di aggiungere dettagli blu a ogni altro articolo del flusso. Scelga solo riferimenti adatti all'intera categoria di prodotti che sta elaborando.
 >
 
-####
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/FJlYttezkuyQFvSp16LDTSwFhOa5MFopmw.png)
-**1\. Limiti e capacità**
+
+#### 1\. Limiti e capacità
 
 Nella parte superiore del blocco vedrà un contatore (ad es. **8/13**).
 
@@ -121,8 +121,7 @@ Faccia clic sul pulsante **"Aggiungi preset"** per scegliere un tipo. Utilizzi i
 -   **Immagine:** utilizzata per texture, loghi o elementi specifici del marchio.
     ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/UBYhntqBETFRErz_N1DJPPrNu8VI8_uh-A.png)
 
-####
-**3\. Caricamento dei propri asset (+ Aggiungi)**
+#### 3\. Caricamento dei propri asset (+ Aggiungi)
 
 Se carica una Sua immagine (per i tipi Modello, Scena o Immagine) tramite il pulsante **\+ Aggiungi**, deve assegnare dei **valori di filtro** a quel file.
 
@@ -141,8 +140,7 @@ Questa sezione Le consente di definire con precisione l'elenco degli articoli pe
 
 > **❗ Importante:** per impostazione predefinita, quando viene creato un nuovo flusso, sono inclusi **TUTTI** i prodotti del Suo negozio. Il numero di prodotti mostrato nell'intestazione (**Filtra e seleziona prodotti - XX**) è dinamico e si aggiorna in tempo reale man mano che modifica le impostazioni.
 
-####
-**1\. Schede prodotto e selezione delle immagini**
+#### 1\. Schede prodotto e selezione delle immagini
 
 Il blocco mostra una griglia con le schede dei Suoi prodotti.
 
@@ -154,8 +152,9 @@ Il blocco mostra una griglia con le schede dei Suoi prodotti.
 
 -   Per cambiarla, è sufficiente selezionare un'altra foto e fare clic su **Salva** nel pop-up.
 
-#### ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/BsDYOnyD0cPg_dl35r0HT6YgOmKmffLBWQ.png)
-**2\. Requisiti: prodotti con immagini**
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/BsDYOnyD0cPg_dl35r0HT6YgOmKmffLBWQ.png)
+
+#### 2\. Requisiti: prodotti con immagini
 
 I prodotti che **non hanno alcuna immagine** nel Suo database vengono automaticamente esclusi da questo blocco. La generazione con IA tramite i flussi richiede una base visiva per funzionare correttamente.
 
@@ -187,8 +186,7 @@ I flussi di immagini seguono le stesse regole dei flussi di contenuto:
 
 **⚠️ Promemoria:** controlli sempre il numero finale di prodotti prima di salvare il flusso, per assicurarsi di non aver accidentalmente selezionato l'intero negozio anziché una categoria specifica.
 
-###
-**Sezione: Editor dei prompt**
+### Sezione: Editor dei prompt
 
 Il prompt è l'insieme finale di istruzioni che invia all'IA. Nel flusso di immagini, l'editor dei prompt utilizza la stessa logica avanzata del flusso di contenuto, consentendo di creare descrizioni visive di alta qualità su larga scala.
 
@@ -230,7 +228,7 @@ Passi alla scheda **Attributi (se compilati)** per vedere esattamente quali dati
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/9UcxVcuz2XFcQkCC4qSqfhHb7P0EZOtl3w.png)
 
-## ****4\. Automazione (scheda 4)****
+## **4\. Automazione (scheda 4)**
 
 La scheda **Automazione** funge da "torre di controllo" del Suo flusso. Qui definisce il ritmo di creazione dei contenuti, gestisce le politiche di pubblicazione e avvia ufficialmente il processo di generazione.
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/FYJ_qkFMdxjFIhXpgfz3GkHZs7AhNpgpwA.png)
@@ -319,8 +317,7 @@ La tabella principale a destra mostra i risultati per ciascun prodotto specifico
     -   **Sincronizza (icona del segno di spunta)**: invia istantaneamente questa specifica foto al Suo sito web.
         ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/JnEq8veB5PUb88yklirTqpIJncbmCmtUNw.png)
 
-###
-**3\. Ispezione e analisi (vista del completamento)**
+### 3\. Ispezione e analisi (vista del completamento)
 
 Facendo clic su **Visualizza** si apre una finestra per la verifica finale:
 
@@ -333,8 +330,7 @@ Facendo clic su **Visualizza** si apre una finestra per la verifica finale:
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/fy3a6eQD7I0VTvO9a0bMe2FSSrBLMGe4_A.png)
 
-###
-**4\. Modifiche e rigenerazione**
+### 4\. Modifiche e rigenerazione
 
 Se non è soddisfatto di un risultato, utilizzi l'icona **Rigenera** (freccia circolare):
 
@@ -347,8 +343,7 @@ Se non è soddisfatto di un risultato, utilizzi l'icona **Rigenera** (freccia ci
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/ipoM6y0fgh9G7Rpm1mmCt7mWXvyDn2JikQ.png)
 
-###
-**5\. Sincronizzazione con il negozio**
+### 5\. Sincronizzazione con il negozio
 
 Poiché l'automazione completa è attualmente disattivata per garantire la qualità, è Lei a decidere quando pubblicare i contenuti:
 
@@ -360,8 +355,7 @@ Poiché l'automazione completa è attualmente disattivata per garantire la quali
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/c9uHBa_kSFHkR_YXg2rBCu-uOXq4xMWgVw.png)
 
-###
-**Buona fortuna e buona creazione!**
+### Buona fortuna e buona creazione!
 
 Congratulazioni! Ora dispone di tutti gli strumenti per padroneggiare il **flusso di immagini di Fozzels**. Questo è il Suo spazio per trasformare le idee in contenuti visivi di alta qualità in pochi clic.
 

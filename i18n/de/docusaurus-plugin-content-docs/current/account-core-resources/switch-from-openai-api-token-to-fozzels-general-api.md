@@ -58,7 +58,6 @@ Sie können derzeit aus den folgenden KI-Modellen wählen:
 
 ![Alle in Fozzels verfügbaren KI-Modelle](/img/kb/account-core-resources/switch-from-openai-api-token-to-fozzels-general-api/AU9GwQ3QT_bYnbdVWdVFZXcOrtjOBOSAAQ.jpg)
 
-##
 
 ## Was Sie Schritt für Schritt tun müssen
 

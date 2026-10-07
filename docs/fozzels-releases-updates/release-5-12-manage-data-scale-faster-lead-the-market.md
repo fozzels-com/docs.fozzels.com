@@ -66,8 +66,7 @@ We have improved the communication within our interface to ensure you always kno
 
 -   **Stable Manual Generations:** Fixed a discrepancy in generation counts during large-scale manual runs. Manual generations now maintain the same consistency and stability as our automated background cycles.
 
-###
-Why Version 5.12 Matters
+### Why Version 5.12 Matters
 
 This release breaks down the silos between your data and your AI. By unifying **ACF/SEO attributes**, **multi-vendor AI models**, and **consolidated category trees**, Fozzels 5.12 provides the most stable and powerful automation environment on the market.
 

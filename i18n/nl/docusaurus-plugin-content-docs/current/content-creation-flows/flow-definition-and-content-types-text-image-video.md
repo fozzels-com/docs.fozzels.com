@@ -80,8 +80,7 @@ Fozzels ondersteunt drie hoofdflowtypen, elk gericht op een specifiek type inhou
 
 2.  **Doel:** Het maken van dynamische materialen voor productpromotie.
 
-##
-Volgende stappen
+## Volgende stappen
 
 -   **Lees** onze gedetailleerde gids over het maken van een **inhoudsflow** [hier](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 

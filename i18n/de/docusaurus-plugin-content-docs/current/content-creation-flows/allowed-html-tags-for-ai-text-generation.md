@@ -12,8 +12,9 @@ Diese Funktion ermöglicht es Ihnen, genau zu definieren, welche HTML-Tags in de
 
 Durch die Definition dieser Liste schalten Sie mächtige Möglichkeiten frei, um Inhalte mit spezifischer Formatierung zu generieren oder Multimedia direkt in den generierten Text einzubetten.
 
-## ![](/img/kb/content-creation-flows/allowed-html-tags-for-ai-text-generation/KsO3jFsp7Ytx48uE5alhlIVzvjfJd8Trzw.png)
-Wie das System Tags verarbeitet
+![](/img/kb/content-creation-flows/allowed-html-tags-for-ai-text-generation/KsO3jFsp7Ytx48uE5alhlIVzvjfJd8Trzw.png)
+
+## Wie das System Tags verarbeitet
 
 Das System funktioniert als Sicherheitsfilter:
 

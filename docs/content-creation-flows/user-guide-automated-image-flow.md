@@ -94,9 +94,9 @@ Presets are visual reference images that act as instructions for the AI. They es
 > -   _Example:_ If you add a **Product** preset showing a specific blue SKU, the AI might mistakenly attempt to add blue details to every other item in the flow. Only choose references that are appropriate for the entire category of products you are processing.
 >
 
-####
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/FJlYttezkuyQFvSp16LDTSwFhOa5MFopmw.png)
-**1\. Limits and Capacity**
+
+#### 1\. Limits and Capacity
 
 At the top of the block, you will see a counter (e.g., **8/13**).
 
@@ -121,8 +121,7 @@ Click the **"Add preset"** button to choose a type. Use the **Filter System** to
 -   **Image:** Used for textures, logos, or specific branding elements.
     ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/UBYhntqBETFRErz_N1DJPPrNu8VI8_uh-A.png)
 
-####
-**3\. Uploading Your Own Assets (+ Add)**
+#### 3\. Uploading Your Own Assets (+ Add)
 
 If you upload your own image (for Model, Scene, or Image types) via the **\+ Add** button, you must assign **Filter Values** to that file.
 
@@ -141,8 +140,7 @@ This section allows you to precisely define the list of items for which the AI w
 
 > **❗ Important:** By default, when a new flow is created, **ALL** products from your store are included. The product count shown in the header (**Filter & Select Products - XX**) is dynamic and will update in real-time as you adjust your settings.
 
-####
-**1\. Product Cards & Image Selection**
+#### 1\. Product Cards & Image Selection
 
 The block displays a grid of your product cards.
 
@@ -154,8 +152,9 @@ The block displays a grid of your product cards.
 
 -   To change it, simply select a different photo and click **Save** in the pop-up.
 
-#### ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/BsDYOnyD0cPg_dl35r0HT6YgOmKmffLBWQ.png)
-**2\. Requirements: Products with Images**
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/BsDYOnyD0cPg_dl35r0HT6YgOmKmffLBWQ.png)
+
+#### 2\. Requirements: Products with Images
 
 Products that **do not have any images** in your database are automatically excluded from this block. AI generation through flows requires a visual base to function correctly.
 
@@ -187,8 +186,7 @@ Image Flows follow the same rules as Content Flows:
 
 **⚠️ Reminder:** Always double-check the final product count before saving your flow to ensure you haven't accidentally targeted your entire store instead of a specific category.
 
-###
-**Section: Prompt Editor**
+### Section: Prompt Editor
 
 The Prompt is the final set of instructions you send to the AI. In Image Flow, the prompt editor utilizes the same advanced logic as Content Flow, enabling the creation of high-quality visual descriptions at scale.
 
@@ -230,7 +228,7 @@ Switch to the **Attributes (if filled)** tab to see exactly which data is curren
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/9UcxVcuz2XFcQkCC4qSqfhHb7P0EZOtl3w.png)
 
-## ****4\. Automation (Tab 4)****
+## **4\. Automation (Tab 4)**
 
 The **Automation** tab serves as the "Control Tower" for your flow. This is where you define the pace of content creation, manage publishing policies, and officially launch the generation process.
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/FYJ_qkFMdxjFIhXpgfz3GkHZs7AhNpgpwA.png)
@@ -319,8 +317,7 @@ The main table on the right displays the outcomes for each specific product:
     -   **Sync (Checkmark icon)**: Instantly sends this specific photo to your website.
         ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/JnEq8veB5PUb88yklirTqpIJncbmCmtUNw.png)
 
-###
-**3\. Inspection and Analysis (Completion View)**
+### 3\. Inspection and Analysis (Completion View)
 
 Clicking **View** opens a window for final verification:
 
@@ -333,8 +330,7 @@ Clicking **View** opens a window for final verification:
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/fy3a6eQD7I0VTvO9a0bMe2FSSrBLMGe4_A.png)
 
-###
-**4\. Adjustments and Regeneration**
+### 4\. Adjustments and Regeneration
 
 If you are not satisfied with a result, use the **Regenerate** icon (circular arrow):
 
@@ -347,8 +343,7 @@ If you are not satisfied with a result, use the **Regenerate** icon (circular ar
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/ipoM6y0fgh9G7Rpm1mmCt7mWXvyDn2JikQ.png)
 
-###
-**5\. Store Synchronization**
+### 5\. Store Synchronization
 
 Since full automation is currently disabled to ensure quality, you decide when to publish content:
 
@@ -360,8 +355,7 @@ Since full automation is currently disabled to ensure quality, you decide when t
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/c9uHBa_kSFHkR_YXg2rBCu-uOXq4xMWgVw.png)
 
-###
-**Good Luck and Happy Creating!**
+### Good Luck and Happy Creating!
 
 Congratulations! You are now fully equipped to master **Fozzels Image Flow**. This is your space to transform ideas into high-quality visual content in just a few clicks.
 

@@ -80,8 +80,7 @@ Fozzels unterstützt drei Haupttypen von Flows, die jeweils auf einen bestimmten
 
 2.  **Ziel:** Erstellung dynamischer Materialien für die Produktförderung.
 
-##
-Nächste Schritte
+## Nächste Schritte
 
 -   **Lesen Sie** unseren detaillierten Leitfaden zum Erstellen eines **Content Flows** [hier](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 

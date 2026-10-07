@@ -33,8 +33,7 @@ Per concedere al sistema il permesso di sovrascrivere e inserire dati in questo 
 ![](/img/kb/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/ryugiLjaej08TONBWZC6dvmgdeHvEKzJOA.png)
 ![](/img/kb/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/vj3HVtE0gIyKK1lMzn0NeLCwxHle8IT1Cg.png)
 
-##
-Passo 2. Inizializzazione del flusso e mappatura degli attributi
+## Passo 2. Inizializzazione del flusso e mappatura degli attributi
 
 1.  Vada alla sezione **Flussi di contenuti** e clicchi sul pulsante **Crea** **flusso** (oppure selezioni i prodotti di destinazione direttamente dalla vista del catalogo e clicchi su **Azioni → Crea flusso**).
 

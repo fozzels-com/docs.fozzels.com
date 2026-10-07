@@ -88,7 +88,6 @@ Sie müssen eine neue Integration erstellen und spezifische Berechtigungen in Ih
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/Pj-HIMnlhJNvqDzEYmDckrL3xvLalFhsfw.png)
 
-##
 
 ## Teil 3: Fozzels-Aktivierung und Datensynchronisierung
 
@@ -117,11 +116,9 @@ Nach Bestätigung der Änderungen können Sie mit dem Erstellen der Integration 
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/M9c13tHfbMEfpo7QsFt_Q6DvUljm-1jM1Q.png)![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/UvSS02f-tz_5sjBViKw7tq0kWJRti5mSvA.png)
 
-####
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/RrDkikq2qamOno3s8JmMIrJfno5S5gpIew.png)
 
-####
 
 ### Schritt 9: Verbindungsdetails ausfüllen
 
@@ -153,7 +150,6 @@ _![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/FvEC
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/d3dKR2OUZS7d-iiP2ptuZXFlu9JQKqz93A.png)
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/gjRG-nmFAybUytQo_B_QzBZew6ZY5FygNQ.png)
 
-####
 
 ### Schritt 11: Produkte abrufen und überprüfen
 

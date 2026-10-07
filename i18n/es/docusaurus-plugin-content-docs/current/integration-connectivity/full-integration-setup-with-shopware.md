@@ -29,8 +29,7 @@ Ve a la configuración del sistema.
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/NE3HjkKRNa353OQJJBzR8eeF_Y9XA9Mi_w.png)
 
-###
-4. Haz clic en "Usuarios y permisos"
+### 4. Haz clic en "Usuarios y permisos"
 
 Selecciona la opción Integraciones del menú Sistema.
 
@@ -103,8 +102,7 @@ Introduce un nombre para la integración. Luego abre el menú desplegable "Roles
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/DZY9Dx_ZSKux2NMqdZxEYkFXqeT3JeZVlg.png)
 
-###
-12. Copia el ID de clave de acceso
+### 12. Copia el ID de clave de acceso
 
 Haz clic en el icono de copia junto al **ID de clave de acceso** para copiarlo en tu portapapeles. Pega esta clave en un documento de texto para salvaguardarla — la necesitarás en la parte 2.
 
@@ -128,7 +126,6 @@ La integración ahora está creada y activa.
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/ddwo4oRoStm6_leYM-OMhtbNWvrs2B5OkA.png)
 
-###
 
 # Parte 2: Conecta Fozzels a Shopware 6
 
@@ -138,8 +135,7 @@ Ahora que has creado la integración en Shopware, configurarás la conexión en 
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/QNYGtnmJc1jLtdHtrac2heMnCvr8OeCjOw.png)
 
-###
-**2.** Haz clic en "Integraciones"
+### **2.** Haz clic en "Integraciones"
     En el menú de Fozzels, haz clic en Integraciones.
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/p3WWrWl5kNt7ZpAfsTGCttAeYkIT1rVN6A.png)
 3. Haz clic en "Crear"
@@ -165,7 +161,7 @@ Rellena los siguientes campos en orden:
 
 **6.** Cuando todos los campos estén rellenos, haz clic en "Guardar". Deberías ver un pop-up de "Éxito" confirmando que la conexión fue guardada.
 
-### ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/Hx1KICwgA4nYaOgpQbjeLYyUYMAfwizHIA.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/Hx1KICwgA4nYaOgpQbjeLYyUYMAfwizHIA.png)
 
 ### 7. Activa la integración
     Cambia el interruptor "Activo" a encendido para activar la integración.
@@ -208,4 +204,3 @@ Aquí hay algunos artículos adicionales que pueden ayudarte a comenzar con Fozz
 
 ¡O contáctanos directamente - siempre estamos felices de ayudar!
 
-###

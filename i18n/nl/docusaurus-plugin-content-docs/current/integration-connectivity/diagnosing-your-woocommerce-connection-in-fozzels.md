@@ -6,7 +6,6 @@ slug: /integration-connectivity/diagnosing-your-woocommerce-connection-in-fozzel
 description: Als u een banner "Connection Issues Detected" ziet nadat u uw WooCommerce integratie hebt opgeslagen, zal dit artikel u helpen begrijpen wat elk bericht betekent a
 ---
 
-#
 
 Als u een banner **"Connection Issues Detected"** ziet nadat u uw WooCommerce integratie hebt opgeslagen, zal dit artikel u helpen begrijpen wat elk bericht betekent en hoe dit op te lossen.
 

@@ -8,8 +8,7 @@ description: We zijn blij om release 5.11RC3 te introduceren — onze grootste u
 
 ### We zijn blij om release 5.11RC3 te introduceren — onze grootste update gericht op het verhogen van uw productiviteit, gegevensbeschikbaarheid en vooral creativiteit! We voegen krachtige hulpmiddelen toe zodat u inhoud kunt beheren op het niveau van een grote e-commerce-bewerking.
 
-#
-Meer controle: gegarandeerde gegevensbescherming
+# Meer controle: gegarandeerde gegevensbescherming
 
 Dit gedeelte is gewijd aan functies die zorgen voor naadloze en betrouwbare werking van uw inhoud.
 
@@ -28,8 +27,7 @@ Waar u het kunt vinden: automatisch toegepast op alle gegenereerde inhoud.
 
 ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/R6XcxeLbDHc7UHcAbX496csmdnGMXv0g8w.png)
 
-##
-Creatieve vrijheid: uitbreiden van inhoudsmogelijkheden
+## Creatieve vrijheid: uitbreiden van inhoudsmogelijkheden
 
 We hebben opmaakbeperkingen verwijderd zodat u meer complexe en visueel aantrekkelijke productpagina's kunt maken.
 
@@ -40,8 +38,7 @@ Maak inhoud zonder limieten! Voeg uw eigen (aangepaste) vertrouwde HTML-tags (if
         Waar u het kunt vinden: Settings → Resources → Flow → Allowed HTML Tags for AI Text Generation.
 ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/JbEdknAUCQnVDCW8gy1e-sz9XhUWKJaoRA.png)
 
-##
-Meer snelheid: workflows optimaliseren
+## Meer snelheid: workflows optimaliseren
 
 Deze verbeteringen besparen u tijd en vereenvoudigen de navigatie, vooral wanneer u met veel winkels werkt.
 
@@ -74,9 +71,8 @@ _in Flow-instellingen_
 ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/FNRATw5cXTUFy_K0w-IcB_g4ODMxm7pYLA.png)
 _in Flow_
 
-## ![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/lJB-c9wW0J601aASmTChpSLO3oir83wBUQ.png)
+![](/img/kb/fozzels-releases-updates/release-5-11-rc3-update-report-control-speed-and-creativity/lJB-c9wW0J601aASmTChpSLO3oir83wBUQ.png)
 
-##
 
 ## Personalisatie en Onboarding
 

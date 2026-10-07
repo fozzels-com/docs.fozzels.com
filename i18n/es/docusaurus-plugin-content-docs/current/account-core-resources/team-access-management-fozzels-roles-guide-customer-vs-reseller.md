@@ -56,7 +56,6 @@ La conexión entre cuentas se establece a través de una invitación, que **siem
 
 ![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/27tRV3zXZo-Sd-xnfdD2Npqj9U3_8fWR5A.png)
 
-###
 ![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/qLafAoXrVGuUXACbhMPMEvQ7Gjf7Xg2kCw.png)
 
 Escenario B: "Somos un nuevo equipo; ¿cómo debemos comenzar?"
@@ -92,8 +91,7 @@ Escenario B: "Somos un nuevo equipo; ¿cómo debemos comenzar?"
 
 -   **Salida:** El Revendedor puede volver a su propia cuenta a través del enlace **'Abandonar suplantación'**.
 
-##
-4. Sección Importante: Responsabilidad y Control
+## 4. Sección Importante: Responsabilidad y Control
 
 -   **Delegación de Responsabilidad:** Al aceptar la invitación, delega **responsabilidad operativa completa** por todas las acciones realizadas en esa cuenta. El Revendedor puede modificar o eliminar datos e integraciones críticas.
 

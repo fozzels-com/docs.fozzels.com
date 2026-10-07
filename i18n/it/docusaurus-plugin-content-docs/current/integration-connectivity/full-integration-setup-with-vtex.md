@@ -69,8 +69,7 @@ Gli utenti possono anche consultare la Knowledge Base ufficiale di VTEX per istr
 -   Inglese: [https://help.vtex.com/docs/tutorials/generated-keys](https://help.vtex.com/docs/tutorials/generated-keys)
 -   Spagnolo: [https://help.vtex.com/es/docs/tutorials/claves-generadas](https://help.vtex.com/es/docs/tutorials/claves-generadas)
 
-##
-Parte 2. Configurazione sul lato Fozzels
+## Parte 2. Configurazione sul lato Fozzels
 
 Una volta pronte le credenziali API, configuri la connessione in Fozzels.
 

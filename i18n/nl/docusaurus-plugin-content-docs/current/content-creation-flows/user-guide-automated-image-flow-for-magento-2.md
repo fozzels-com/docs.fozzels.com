@@ -73,8 +73,9 @@ Magento-thema's vertrouwen zwaar op precieze afbeeldingsafmetingen om indelingss
 
 3.  **Het voorbeeldpaneel:** Het interactieve rechterpaneel geeft dynamisch een visuaal bijsnijdkader, de doelbestandsindeling en berekent de **geschatte grootte** (bestandsgewicht) en **geschatte tokens** (generatiekosten) per afbeeldingsaanvraag.
 
-## ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/Ked7uS5641FdzLgFJkkyBLIIB44pYiuh5Q.png)
-3. Magento-catalogusfiltering en prompting (tabblad 3)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/Ked7uS5641FdzLgFJkkyBLIIB44pYiuh5Q.png)
+
+## 3. Magento-catalogusfiltering en prompting (tabblad 3)
 
 Dit gedeelte fungeert als de creatieve hersenen van uw Magento-stroom, waarmee u producten dynamisch kunt filteren en inheemse attributen in uw prompts kunt injecteren.
 
@@ -127,7 +128,7 @@ Dit tabblad bepaalt hoe uw media-assets in eerste instantie in de wachtrij worde
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/zAHGFiGSaSobL-Deg00nawI92l2RDf4wzw.png)
 
-## 5. ****Stroomactivering en uitvoering****
+## 5. **Stroomactivering en uitvoering**
 
 Zodra u alle toewijzingsvelden op tabblad 4 hebt voltooid, is uw geautomatiseerde pijplijn klaar voor implementatie. Gebruik de volgende stappen om de generatiemotor in te starten:
 
@@ -172,8 +173,9 @@ Als u op het **oogpictogram** klikt, wordt onze gestroomlijnde, naast-elkaar ove
 
 -   **Accepteer en volgende:** Keurt de versie goed, vergrendelt uw aangepaste Magento-metagegevensoverrides en **opent onmiddellijk het volgende afbeelding in uw batchenwachtrij**.
 
-## ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/fghCPbvdab9wtI-u0AWAUQPsuXIrvMCEPg.png)
-6. Bulkacties en lokale ZIP-exporten
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/fghCPbvdab9wtI-u0AWAUQPsuXIrvMCEPg.png)
+
+## 6. Bulkacties en lokale ZIP-exporten
 
 Fozzels biedt totale gegevensportabiliteit over uw visuele inventaris. U kunt batches rechtstreeks naar Magento pushen of mappen lokaal exporteren.
 

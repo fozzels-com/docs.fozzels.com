@@ -16,33 +16,36 @@ Estamos derrubando as barreiras entre plataformas. Se sua plataforma de e-commer
 -   Acesso Completo a Recursos: Uma vez carregado, você pode usar filtros embutidos ou avançados, construir conjuntos de produtos e executar Content, Image ou Video Flows como com qualquer conexão CMS nativa.
 -   Re-importação Flexível: Como não há canal de sincronização direta para arquivos brutos, você pode facilmente baixar seus dados de texto e mídia totalmente gerados da guia Export para fazer upload manualmente em sua loja.
 
-Filtragem no Nível de Integração Shopware
+## Filtragem no Nível de Integração Shopware
+
 Continuamos escalando nossas ferramentas inteligentes de gerenciamento de catálogo, trazendo controle no nível de integração para o ecossistema Shopware.
 
 -   Condições de Product Pull: Filtre itens desnecessários diretamente dentro da guia de configuração Websites and Stores antes mesmo de chegarem ao seu espaço de trabalho Fozzels.
 -   Grupos Lógicos Avançados: Utilize operadores AND/OR e grupos de condição para definir regras precisas, como verificar se um item pai está presente ou excluir padrões de nomenclatura específicos.
 -   Espaço de Trabalho Limpo: Mantenha seu sistema organizado e economize limites de recursos puxando apenas os produtos exatos que precisam de otimização agora.
 
-Sincronização de Imagem Next Chapter
+## Sincronização de Imagem Next Chapter
+
 Nossa integração com Next Chapter atingiu um marco importante, apresentando comunicação de mídia totalmente automatizada bidirecional.
 
 -   Entrega Automatizada de Ativos: Anteriormente, as imagens geradas precisavam ser baixadas e re-carregadas para Next Chapter manualmente. Agora, Fozzels envia novos visuais diretamente para sua loja.
 -   Atualizações Instantâneas de Storefront: Assim que seus Image Flows completam suas tarefas criativas, os gráficos resultantes aparecem automaticamente no seu catálogo de produtos ao vivo.
 
-Ordenação Avançada de Slot de Mídia
+## Ordenação Avançada de Slot de Mídia
+
 Tenha controle absoluto sobre como seu conteúdo visual é apresentado em sua vitrine. Este recurso agora é totalmente suportado em Shopify, Magento 2, WooCommerce e Next Chapter.
 
 -   Posicionamento Preciso: Em vez de automaticamente empurrar novas imagens para o final da galeria de produtos, você pode agora especificar seu local de slot exato (1, 2, 3... n).
 -   Controle de Hero Image: Defina suas melhores gerações de IA para ocupar automaticamente a primeira posição (Main Image) para atualizar instantaneamente suas listas de produtos e maximizar as taxas de clique.
 
-Acesso Contínuo ao Assistente de IA
+## Acesso Contínuo ao Assistente de IA
 
 Melhoramos as camadas de UI e resolvemos limitações de espaço de trabalho para garantir que suas ferramentas de IA favoritas estejam sempre acessíveis durante análises manuais de cópia.
 
 -   Overlay Clicável: O Assistente de IA permanece completamente ativo e funcional mesmo quando a janela pop-up do Completion Editor de texto está ativa em sua tela.
 -   Iterações Perfeitas: Copie segmentos de texto, instrua o assistente a reformatar ou ajustar tons e cole os resultados refinados de volta ao editor sem fechar seu pop-up ativo.
 
-Exportação em Massa ZIP
+## Exportação em Massa ZIP
 
 Gerenciar catálogos grandes manualmente agora é mais rápido do que nunca com nosso sistema abrangente de download em massa para todos os tipos de dados gerados.
 

@@ -43,8 +43,7 @@ Questa è l'**impostazione globale** che si applica a tutti i Suoi flussi, salvo
 
 ![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/et0MwVwvnIfg8GhM-81qMk3ADOAD3_M02g.png)
 
-##
-2\. Sovrascrivere la regola per un flusso specifico (scenari pratici)
+## 2\. Sovrascrivere la regola per un flusso specifico (scenari pratici)
 
 Nelle impostazioni di ciascun flusso (sezione **4 Automazione**), decide se il flusso seguirà le impostazioni globali o avrà un'eccezione:
 
@@ -54,8 +53,7 @@ Nelle impostazioni di ciascun flusso (sezione **4 Automazione**), decide se il f
 
 -   Se desidera disattivare completamente tutte le regole globali di duplicazione, veda C.
 
-####
-**Scenario A: autorizzazione completa alla generazione (nessuna restrizione) (Disattiva)**
+#### Scenario A: autorizzazione completa alla generazione (nessuna restrizione) (Disattiva)
 
 **Il Suo obiettivo:** desidera che il flusso ignori tutte le regole di duplicazione (anche se la regola globale è attiva).
 
@@ -73,8 +71,7 @@ Nelle impostazioni di ciascun flusso (sezione **4 Automazione**), decide se il f
 
 ![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/M18xs-NWnNKM3KW_n1iAHroIpfoIW3ztfg.png)
 
-####
-**Scenario B: impostazione di un limite di tempo personalizzato (Sovrascrivi)**
+#### Scenario B: impostazione di un limite di tempo personalizzato (Sovrascrivi)
 
 **Il Suo obiettivo:** desidera che questo flusso abbia un limite di tempo **diverso** dall'impostazione globale.
 

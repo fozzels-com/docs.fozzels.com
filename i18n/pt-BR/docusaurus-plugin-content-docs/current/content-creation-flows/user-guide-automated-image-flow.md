@@ -91,9 +91,9 @@ Presets são imagens de referência visual que funcionam como instruções para 
 > -   _Exemplo:_ Se você adicionar um preset de **Produto** mostrando um SKU específico azul, o IA pode erroneamente tentar adicionar detalhes azuis a cada outro item no fluxo. Escolha apenas referências que sejam apropriadas para a categoria inteira de produtos que você está processando.
 >
 
-####
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/FJlYttezkuyQFvSp16LDTSwFhOa5MFopmw.png)
-**1\. Limites e Capacidade**
+
+#### 1\. Limites e Capacidade
 
 No topo do bloco, você verá um contador (por exemplo, **8/13**).
 
@@ -118,8 +118,7 @@ Clique no botão **"Adicionar preset"** para escolher um tipo. Use o **Sistema d
 -   **Imagem:** Utilizada para texturas, logos ou elementos específicos de marca.
     ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/UBYhntqBETFRErz_N1DJPPrNu8VI8_uh-A.png)
 
-####
-**3\. Enviando Seus Próprios Ativos (+ Adicionar)**
+#### 3\. Enviando Seus Próprios Ativos (+ Adicionar)
 
 Se você enviar sua própria imagem (para tipos Modelo, Cena ou Imagem) via o botão **\+ Adicionar**, você deve atribuir **Valores de Filtro** a esse arquivo.
 
@@ -138,8 +137,7 @@ Esta seção permite que você defina com precisão a lista de itens para o qual
 
 > **❗ Importante:** Por padrão, quando um novo fluxo é criado, **TODOS** os produtos de sua loja estão incluídos. A contagem de produtos mostrada no cabeçalho (**Filtrar e Selecionar Produtos - XX**) é dinâmica e se atualizará em tempo real conforme você ajusta suas configurações.
 
-####
-**1\. Cartões de Produto e Seleção de Imagem**
+#### 1\. Cartões de Produto e Seleção de Imagem
 
 O bloco exibe uma grade de seus cartões de produto.
 
@@ -151,8 +149,9 @@ O bloco exibe uma grade de seus cartões de produto.
 
 -   Para mudá-la, simplesmente selecione uma foto diferente e clique **Salvar** na pop-up.
 
-#### ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/BsDYOnyD0cPg_dl35r0HT6YgOmKmffLBWQ.png)
-**2\. Requisitos: Produtos com Imagens**
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/BsDYOnyD0cPg_dl35r0HT6YgOmKmffLBWQ.png)
+
+#### 2\. Requisitos: Produtos com Imagens
 
 Produtos que **não possuem nenhuma imagem** em seu banco de dados são automaticamente excluídos deste bloco. A geração de IA através de fluxos requer uma base visual para funcionar corretamente.
 
@@ -184,8 +183,7 @@ Fluxos de Imagem seguem as mesmas regras que Fluxos de Conteúdo:
 
 **⚠️ Aviso:** Sempre verifique novamente a contagem final de produtos antes de salvar seu fluxo para garantir que você não tenha direcionado acidentalmente sua loja inteira em vez de uma categoria específica.
 
-###
-**Seção: Editor de Prompt**
+### Seção: Editor de Prompt
 
 O Prompt é o conjunto final de instruções que você envia ao IA. Em Fluxo de Imagem, o editor de prompt utiliza a mesma lógica avançada de Fluxo de Conteúdo, permitindo a criação de descrições visuais de alta qualidade em escala.
 
@@ -227,7 +225,7 @@ Mude para a aba **Atributos (se preenchidos)** para ver exatamente quais dados e
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/9UcxVcuz2XFcQkCC4qSqfhHb7P0EZOtl3w.png)
 
-## ****4\. Automação (Aba 4)****
+## **4\. Automação (Aba 4)**
 
 A aba **Automação** serve como a "Torre de Controle" para seu fluxo. Isto é onde você define o ritmo de criação de conteúdo, gerencia políticas de publicação e oficialmente inicia o processo de geração.
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/FYJ_qkFMdxjFIhXpgfz3GkHZs7AhNpgpwA.png)
@@ -316,8 +314,7 @@ A tabela principal à direita exibe os resultados para cada produto específico:
     -   **Sincronizar (ícone Marca)**: Instantaneamente envia esta foto específica para seu site.
         ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/JnEq8veB5PUb88yklirTqpIJncbmCmtUNw.png)
 
-###
-**3\. Inspeção e Análise (Visualização de Conclusão)**
+### 3\. Inspeção e Análise (Visualização de Conclusão)
 
 Clicar em **Ver** abre uma janela para verificação final:
 
@@ -330,8 +327,7 @@ Clicar em **Ver** abre uma janela para verificação final:
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/fy3a6eQD7I0VTvO9a0bMe2FSSrBLMGe4_A.png)
 
-###
-**4\. Ajustes e Regeneração**
+### 4\. Ajustes e Regeneração
 
 Se você não estiver satisfeito com um resultado, use o ícone **Regenerar** (seta circular):
 
@@ -344,8 +340,7 @@ Se você não estiver satisfeito com um resultado, use o ícone **Regenerar** (s
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/ipoM6y0fgh9G7Rpm1mmCt7mWXvyDn2JikQ.png)
 
-###
-**5\. Sincronização de Loja**
+### 5\. Sincronização de Loja
 
 Como automação completa está atualmente desativada para garantir qualidade, você decide quando publicar conteúdo:
 
@@ -357,8 +352,7 @@ Como automação completa está atualmente desativada para garantir qualidade, v
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/c9uHBa_kSFHkR_YXg2rBCu-uOXq4xMWgVw.png)
 
-###
-**Boa Sorte e Feliz Criação!**
+### Boa Sorte e Feliz Criação!
 
 Parabéns! Você agora está totalmente equipado para dominar o **Fluxo de Imagem Fozzels**. Este é seu espaço para transformar ideias em conteúdo visual de alta qualidade em apenas alguns cliques.
 

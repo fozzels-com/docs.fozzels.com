@@ -6,12 +6,10 @@ slug: /integration-connectivity/fozzels-shopify-app-getting-started
 description: Bedankt voor het installeren van de Fozzels Shopify App! We zijn enthousiast om u te helpen uw productinhoud te automatiseren en uren handmatig werk te besparen. Laten we u in slechts enkele minuten instellen.
 ---
 
-#
 
 Bedankt voor het installeren van de Fozzels Shopify App! We zijn enthousiast om u te helpen uw productinhoud te automatiseren en uren handmatig werk te besparen. Laten we u in slechts enkele minuten instellen.
 
-##
-Wat is de Fozzels Shopify App?
+## Wat is de Fozzels Shopify App?
 
 De Fozzels Shopify App is de officiële integratie tussen uw Shopify-winkel en het AI-platform voor inhoudsgeneratie van Fozzels. Eenmaal verbonden kan Fozzels uw producten rechtstreeks van Shopify ophalen, unieke AI-gegenereerde beschrijvingen, SEO-titels en andere inhoud voor elk product genereren en de resultaten automatisch terug naar uw winkel synchroniseren.
 
@@ -24,8 +22,7 @@ De Fozzels Shopify App is de officiële integratie tussen uw Shopify-winkel en h
 -   Genereer AI-productafbeeldingen en -video's en publiceer deze in de mediagalerij van uw winkel
 -   Beheer meerdere Shopify-markten en talen vanaf één plaats
 
-##
-Vereisten
+## Vereisten
 
 Voordat u begint, zorg ervoor dat u het volgende hebt:
 
@@ -33,16 +30,14 @@ Voordat u begint, zorg ervoor dat u het volgende hebt:
 -   Een Fozzels-account — [Meld u hier aan](https://app.fozzels.com/signup)
 -   De Fozzels-app geïnstalleerd vanuit de Shopify App Store
 
-##
-Stap 1 — De app installeren
+## Stap 1 — De app installeren
 
 1.  Ga naar de [Fozzels-apppagina](https://apps.shopify.com/fozzels) in de Shopify App Store
 2.  Klik **App toevoegen**
 3.  Controleer de aangevraagde machtigingen en klik **Installeren**
 4.  U wordt omgeleid naar het Fozzels-verbindingsscherm in uw Shopify Admin
 
-##
-Stap 2 — Verbind uw Fozzels-account
+## Stap 2 — Verbind uw Fozzels-account
 
 Zodra de app is geïnstalleerd, ziet u het scherm **Verbinden met Fozzels** in uw Shopify Admin.
 
@@ -54,8 +49,7 @@ Zodra de app is geïnstalleerd, ziet u het scherm **Verbinden met Fozzels** in u
 
 Na het aanmelden detecteert Fozzels uw winkel en opent het dialoogvenster **Shopify-integratie selecteren**.
 
-##
-Stap 3 — Maak een nieuwe integratie
+## Stap 3 — Maak een nieuwe integratie
 
 Als dit uw eerste keer is dat u verbinding maakt, klikt u op **"+ Nieuwe integratie maken"**. U wordt naar het Fozzels-dashboard geleid om de instellingen te voltooien.
 
@@ -70,8 +64,7 @@ Als dit uw eerste keer is dat u verbinding maakt, klikt u op **"+ Nieuwe integra
 
 > **Waarom OAuth?** De OAuth-methode is de gemakkelijkste en veiligste manier om verbinding te maken. Er zijn geen handmatige API-sleutels of tokens nodig — het toegangstoken wordt automatisch verschaft wanneer u via de Shopify-app verbinding maakt.
 
-##
-Stap 4 — Autoriseer de verbinding
+## Stap 4 — Autoriseer de verbinding
 
 Na het opslaan van de integratie gaat u terug naar uw Shopify Admin:
 
@@ -82,8 +75,7 @@ Na het opslaan van de integratie gaat u terug naar uw Shopify Admin:
 
 U ziet het tabblad **Integraties** bijwerken met de status **Actief**. In het Fozzels-dashboard toont de integratie **Geautoriseerd ✅** en **REST API verbonden ✅**.
 
-##
-Stap 5 — Trek uw producten op
+## Stap 5 — Trek uw producten op
 
 1.  Ga naar `app.fozzels.com` → **Integraties** → open uw Shopify-integratie
 2.  Ga naar het tabblad **Websites en winkels**
@@ -94,8 +86,7 @@ Stap 5 — Trek uw producten op
 
 Uw producten zijn nu beschikbaar in de Fozzels **Catalogus**, compleet met al hun attributen — klaar voor AI-inhoudsgeneratie.
 
-##
-Wat nu?
+## Wat nu?
 
 Zodra uw producten zijn opgehaald, kunt u:
 

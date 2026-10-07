@@ -69,8 +69,7 @@ Users can also refer to the official VTEX Knowledge Base for detailed instructio
 -   English: [https://help.vtex.com/docs/tutorials/generated-keys](https://help.vtex.com/docs/tutorials/generated-keys)
 -   Spanish: [https://help.vtex.com/es/docs/tutorials/claves-generadas](https://help.vtex.com/es/docs/tutorials/claves-generadas)
 
-##
-Part 2. Setup on the Fozzels Side
+## Part 2. Setup on the Fozzels Side
 
 Once your API credentials are ready, set up the connection inside Fozzels.
 

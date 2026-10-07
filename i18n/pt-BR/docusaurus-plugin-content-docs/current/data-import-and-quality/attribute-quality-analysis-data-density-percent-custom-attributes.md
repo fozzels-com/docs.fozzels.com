@@ -32,8 +32,7 @@ O processo de importação de dados começa com o comando **Pull Products**.
 
 ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/JRoTBrRsovpu033tRmysjhhnEYa-1nIkzg.png)
 
-####
-1.3. Análise de Qualidade: Percentual de Densidade de Dados
+#### 1.3. Análise de Qualidade: Percentual de Densidade de Dados
 
 Na aba **Attributes**, Fozzels calcula automaticamente a qualidade de cada campo.
 
@@ -45,8 +44,7 @@ Na aba **Attributes**, Fozzels calcula automaticamente a qualidade de cada campo
 
 ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/suceb1fs0FvE76a7CHN6A6JvqnLGLtaL2g.png)
 
-###
-Parte 2: Revisão e Configuração
+### Parte 2: Revisão e Configuração
 
 #### 2.1. Revisando Dados de Exemplo (Obter Dados de Exemplo Aleatórios)
 
@@ -69,8 +67,9 @@ Clicar no **ícone de Editar** (lápis) em um atributo abre a janela para config
 
 -   **Transform Data:** Permite **Execução de Código em Runtime** (código personalizado) no valor importado antes de ser armazenado.
 
-##### ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/XMR_zIZH_IM-p4UANnIYB8m37CATk4nhBQ.png)
-Sinalizadores Técnicos
+![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/XMR_zIZH_IM-p4UANnIYB8m37CATk4nhBQ.png)
+
+##### Sinalizadores Técnicos
 
 -   **Filterable:** Se ativado, este atributo pode ser usado para filtrar produtos no Catálogo/Lista de Lotes por seu valor.
     ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/EvbjNHS2aedS-hzos_piQd1wAtXba0rJww.png)

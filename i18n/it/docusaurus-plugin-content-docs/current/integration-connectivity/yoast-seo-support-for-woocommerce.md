@@ -43,7 +43,6 @@ Per una sincronizzazione corretta, sul Suo sito WordPress devono essere attivi *
 
 3.  Attivi l'interruttore e clicchi su **SAVE**.
 
-###
 ![](/img/kb/integration-connectivity/yoast-seo-support-for-woocommerce/Q2vuNHpeZol7txxezMoTQmPyzT3To9Rwpw.png)
 
 ### Passaggio 3: aggiornamento della struttura dei dati

@@ -91,7 +91,6 @@ You must create a new integration and define specific permissions within your Ma
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/Pj-HIMnlhJNvqDzEYmDckrL3xvLalFhsfw.png)
 
-##
 
 ## Part 3: Fozzels Activation and Data Sync
 
@@ -120,11 +119,9 @@ After confirming the changes, proceed to creating the integration in Fozzels.
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/M9c13tHfbMEfpo7QsFt_Q6DvUljm-1jM1Q.png)![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/UvSS02f-tz_5sjBViKw7tq0kWJRti5mSvA.png)
 
-####
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/RrDkikq2qamOno3s8JmMIrJfno5S5gpIew.png)
 
-####
 
 ### Step 9: Fill in Connection Details
 
@@ -156,7 +153,6 @@ _![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/FvEC
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/d3dKR2OUZS7d-iiP2ptuZXFlu9JQKqz93A.png)
 ![](/img/kb/integration-connectivity/full-integration-setup-with-magento-2/gjRG-nmFAybUytQo_B_QzBZew6ZY5FygNQ.png)
 
-####
 
 ### Step 11: Pull Products and Verify
 

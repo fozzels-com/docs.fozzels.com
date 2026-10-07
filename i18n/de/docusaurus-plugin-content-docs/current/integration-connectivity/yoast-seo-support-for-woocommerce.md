@@ -40,7 +40,6 @@ Für eine erfolgreiche Synchronisierung muss Ihre WordPress-Website **zwei aktiv
 
 3. Aktivieren Sie den Umschalter und klicken Sie auf **SPEICHERN**.
 
-###
 ![](/img/kb/integration-connectivity/yoast-seo-support-for-woocommerce/Q2vuNHpeZol7txxezMoTQmPyzT3To9Rwpw.png)
 
 ### Schritt 3: Datenstruktur-Update

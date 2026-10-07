@@ -30,8 +30,7 @@ Diese Registerkarte handhabt die primäre Verbindung und Identität Ihrer Magent
 2.  **Bestätigen Sie die Auswahl:** Bestätigen Sie Ihre Magento Store-Parameter, indem Sie auf die Schaltfläche **Absenden** am Ende der Seite klicken.
     ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/liZ6uL_K1ryZ9ltZQsCUAhG6jAYP4UqhrQ.png)
 
-##
-2\. KI-Konfiguration & Media-Gitter (Registerkarte 2)
+## 2\. KI-Konfiguration & Media-Gitter (Registerkarte 2)
 
 Auf dieser Registerkarte definieren Sie die Kern-KI-Modell-Engine und die genauen visuellen Layout-Merkmale, die für Ihre Magento-Theme-Vorlagen erforderlich sind.
 
@@ -64,8 +63,7 @@ Wählen Sie Ihr Verarbeitungsnetzwerk und spezifisches Modell aus den interaktiv
 
 -   **Grok Imagine Image Pro `PRO`:** Premium xAI-Architektur, die überlegene Bildqualität mit verbesserter Detail- und Texturgenauigkeit liefert. Unterstützt **bis zu 5 Referenzvorlagen**.
 
-###
-**Das interaktive Ausgabeformat-Gitter**
+### Das interaktive Ausgabeformat-Gitter
 
 Magento-Themes verlassen sich stark auf präzise Bilddimensionen, um Layout-Verschiebungen auf Ihrem Frontend zu verhindern. Verwenden Sie das Gitter, um genaue Pixelvorgaben festzulegen:
 
@@ -75,8 +73,9 @@ Magento-Themes verlassen sich stark auf präzise Bilddimensionen, um Layout-Vers
 
 3.  **Das Vorschau-Panel:** Das interaktive rechte Panel rendert dynamisch einen visuellen Crop-Rahmen, das Zieldateiformat und berechnet die **Ges. Größe** (Dateigröße) und **Ges. Tokens** (Generierungskosten) pro Bildanfrage.
 
-## ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/Ked7uS5641FdzLgFJkkyBLIIB44pYiuh5Q.png)
-3\. Magento-Katalog-Filterung & Prompting (Registerkarte 3)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/Ked7uS5641FdzLgFJkkyBLIIB44pYiuh5Q.png)
+
+## 3\. Magento-Katalog-Filterung & Prompting (Registerkarte 3)
 
 Dieser Abschnitt fungiert als das kreative Gehirn Ihres Magento-Flows, das es Ihnen ermöglicht, Produkte dynamisch zu filtern und native Attribute in Ihre Prompts einzufügen.
 
@@ -111,8 +110,7 @@ Dieser Abschnitt fungiert als das kreative Gehirn Ihres Magento-Flows, das es Ih
 -   **Magento-Attribut-Injektion:** Schreiben Sie Ihre Design-Anweisungen im Hauptterminal-Fenster, und nutzen Sie dann das Panel **Attribute** auf der rechten Seite. Sie können native Magento-Datenfelder (wie `Categoria`, `Color` oder `Material`) direkt in Ihren Text klicken oder per Drag & Drop einfügen. Fozzels ersetzt diese Platzhalter dynamisch durch eindeutige Werte für jedes einzelne im Batch verarbeitete Produkt.
     ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/hSKoFNYycQr--RrbjrFaaNum4tvErHYsHA.png)
 
-##
-4\. Magento-Automatisierung & Bild-Benennungskonfigurationen (Registerkarte 4)
+## 4\. Magento-Automatisierung & Bild-Benennungskonfigurationen (Registerkarte 4)
 
 Diese Registerkarte steuert, wie Ihre Media-Assets zunächst in die Warteschlange für die Verarbeitung eingefügt werden und wie sie zur Injektion in die Magento-Datenbankarchitektur strukturiert werden, um eine ordnungsgemäße Standard-Datenzuordnung und SEO-Optimierung zu gewährleisten.
 
@@ -130,9 +128,8 @@ Diese Registerkarte steuert, wie Ihre Media-Assets zunächst in die Warteschlang
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/zAHGFiGSaSobL-Deg00nawI92l2RDf4wzw.png)
 
-##
 
-## 5. ****Flow-Aktivierung & Ausführung****
+## 5. **Flow-Aktivierung & Ausführung**
 
 Sobald Sie alle Zuordnungsfelder auf Registerkarte 4 abgeschlossen haben, ist Ihre automatisierte Pipeline bereit für die Bereitstellung. Führen Sie die folgenden Schritte aus, um die Generierungs-Engine zu initialisieren:
 
@@ -177,9 +174,9 @@ Das Klicken auf das **Augensymbol** startet unsere optimierte, nebeneinander ang
 
 -   **Akzeptieren & nächste:** Genehmigt die Version, sperrt Ihre benutzerdefinierten Magento-Metadaten-Overrides und **öffnet sofort das nächste Bild** in Ihrer Batch-Warteschlange.
 
-##
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/fghCPbvdab9wtI-u0AWAUQPsuXIrvMCEPg.png)
-6\. Massenaktionen & Lokale ZIP-Exporte
+
+## 6\. Massenaktionen & Lokale ZIP-Exporte
 
 Fozzels bietet vollständige Datenportabilität über Ihren visuellen Bestand. Sie können Batches direkt zu Magento pushen oder Ordner lokal exportieren.
 
@@ -208,8 +205,7 @@ Da die Verarbeitung großer Mengen hochauflösender Bilder einige Momente dauern
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/EqkvThCVlPgUbKnTorc6vQ3Ilx2CxPOccg.png)
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/b3yz16xNhZFEKIfuUAB_xhtCTPD7feQp6w.png)
 
-##
-7\. SEO-Optimierung: Generieren von Alt-Texten für neue Bilder
+## 7\. SEO-Optimierung: Generieren von Alt-Texten für neue Bilder
 
 Zusätzlich zu visuellen Assets kann Fozzels automatisch relevante, SEO-optimierte Alt-Texte (alternative Beschreibungen) für jedes neue KI-Bild, das zu Ihrem Magento-Store gepusht wird, generieren. Dies verbessert erheblich die Ranking-Faktoren Ihres Katalogs in den Google Bildersuche-Ergebnissen.
 

@@ -36,8 +36,7 @@ Il processo di importazione dei dati inizia con il comando **Importa prodotti**.
 
 ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/JRoTBrRsovpu033tRmysjhhnEYa-1nIkzg.png)
 
-####
-1.3. Analisi della qualità: percentuale di densità dei dati
+#### 1.3. Analisi della qualità: percentuale di densità dei dati
 
 Nella scheda **Attributi**, Fozzels calcola automaticamente la qualità di ciascun campo.
 
@@ -49,8 +48,7 @@ Nella scheda **Attributi**, Fozzels calcola automaticamente la qualità di ciasc
 
 ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/suceb1fs0FvE76a7CHN6A6JvqnLGLtaL2g.png)
 
-###
-Parte 2: Revisione e configurazione
+### Parte 2: Revisione e configurazione
 
 #### 2.1. Revisione dei dati di esempio (Ottieni dati di esempio casuali)
 
@@ -73,8 +71,9 @@ Cliccando sull'**icona Modifica** (matita) di un attributo si apre la finestra p
 
 -   **Trasforma dati:** consente l'**esecuzione di codice in runtime** (codice personalizzato) sul valore importato prima che venga memorizzato.
 
-##### ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/XMR_zIZH_IM-p4UANnIYB8m37CATk4nhBQ.png)
-Flag tecnici
+![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/XMR_zIZH_IM-p4UANnIYB8m37CATk4nhBQ.png)
+
+##### Flag tecnici
 
 -   **Filtrabile:** se attivato, questo attributo può essere utilizzato per filtrare i prodotti nel catalogo/nell'elenco batch in base al suo valore.
     ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/EvbjNHS2aedS-hzos_piQd1wAtXba0rJww.png)

@@ -27,8 +27,7 @@ Esta aba trata da conexão primária e identidade de sua sequência de automaç�
 2.  **Confirme a Seleção:** Confirme seus parâmetros de loja Magento clicando no botão **Enviar** na parte inferior da página.
     ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/liZ6uL_K1ryZ9ltZQsCUAhG6jAYP4UqhrQ.png)
 
-##
-2\. Configuração de IA e Grade de Mídia (Aba 2)
+## 2\. Configuração de IA e Grade de Mídia (Aba 2)
 
 Nesta aba, você define o mecanismo de modelo de IA principal e as características exatas de layout visual necessárias para seus modelos de tema Magento.
 
@@ -61,8 +60,7 @@ Selecione sua rede de processamento e modelo específico dos cartões interativo
 
 -   **Grok Imagine Image Pro `PRO`:** Arquitetura xAI premium entregando qualidade de imagem superior com detalhe e precisão de textura aprimorados. Suporta **até 5 presets de referência**.
 
-###
-**A Grade de Formato de Saída Interativa**
+### A Grade de Formato de Saída Interativa
 
 Os temas Magento dependem muito de dimensões de imagem precisas para evitar mudanças de layout em seu frontend. Use a grade para estabelecer especificações exatas de pixels:
 
@@ -72,8 +70,9 @@ Os temas Magento dependem muito de dimensões de imagem precisas para evitar mud
 
 3.  **O Painel de Visualização:** O painel direito interativo renderiza dinamicamente um marco de recorte visual, o formato de arquivo de destino e calcula o **Est. tamanho** (peso do arquivo) e **Est. tokens** (custo de geração) por solicitação de imagem.
 
-## ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/Ked7uS5641FdzLgFJkkyBLIIB44pYiuh5Q.png)
-3\. Filtragem de Catálogo Magento e Criação de Prompt (Aba 3)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/Ked7uS5641FdzLgFJkkyBLIIB44pYiuh5Q.png)
+
+## 3\. Filtragem de Catálogo Magento e Criação de Prompt (Aba 3)
 
 Esta seção funciona como o cérebro criativo de seu fluxo Magento, permitindo que você filtre produtos dinamicamente e injete atributos nativos em seus prompts.
 
@@ -108,8 +107,7 @@ Esta seção funciona como o cérebro criativo de seu fluxo Magento, permitindo 
 -   **Injeção de Atributo Magento:** Escreva suas instruções de design dentro da janela de terminal principal, depois aproveite o **painel Atributos** no lado direito. Você pode clicar ou arrastar e soltar campos de dados nativos Magento (como `Categoria`, `Cor` ou `Material`) diretamente em seu texto. Fozzels substituirá dinamicamente estes marcadores de posição com valores únicos para cada produto individual processado no lote.
     ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/hSKoFNYycQr--RrbjrFaaNum4tvErHYsHA.png)
 
-##
-4\. Configurações de Automação Magento e Nomeação de Imagem (Aba 4)
+## 4\. Configurações de Automação Magento e Nomeação de Imagem (Aba 4)
 
 Esta aba controla como seus ativos de mídia são inicialmente enfileirados para processamento e estruturados para injeção na arquitetura do banco de dados Magento, garantindo mapeamento de dados padrão adequado e otimização de SEO.
 
@@ -127,9 +125,8 @@ Esta aba controla como seus ativos de mídia são inicialmente enfileirados para
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/zAHGFiGSaSobL-Deg00nawI92l2RDf4wzw.png)
 
-##
 
-## 5. ****Ativação e Execução do Fluxo****
+## 5. **Ativação e Execução do Fluxo**
 
 Uma vez que você completou todos os campos de mapeamento na Aba 4, seu pipeline automatizado está pronto para implantação. Use as etapas seguintes para inicializar o mecanismo de geração:
 
@@ -174,9 +171,9 @@ Clicar no **ícone Olho** abre nossa sobreposição simplificada lado a lado pro
 
 -   **Aceitar e próximo:** Aprova a versão, bloqueia suas sobrescritas de metadados Magento customizadas e **instantaneamente desliza aberta a próxima imagem** em sua fila de lote.
 
-##
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/fghCPbvdab9wtI-u0AWAUQPsuXIrvMCEPg.png)
-6\. Ações em Massa e Exportações ZIP Locais
+
+## 6\. Ações em Massa e Exportações ZIP Locais
 
 Fozzels fornece portabilidade de dados total sobre seu inventário visual. Você pode enviar lotes diretamente para Magento ou exportar pastas localmente.
 
@@ -205,8 +202,7 @@ Como processar lotes grandes de imagens de alta resolução pode levar alguns mo
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/EqkvThCVlPgUbKnTorc6vQ3Ilx2CxPOccg.png)
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/b3yz16xNhZFEKIfuUAB_xhtCTPD7feQp6w.png)
 
-##
-7\. Otimização de SEO: Gerando Textos Alt para Novas Imagens
+## 7\. Otimização de SEO: Gerando Textos Alt para Novas Imagens
 
 Além de ativos visuais, Fozzels pode gerar automaticamente textos Alt relevantes e otimizados para SEO (descrições alternativas) para cada nova imagem de IA enviada para sua loja Magento. Isto melhora significativamente os fatores de ranking de seu catálogo nos resultados de Busca de Imagem do Google.
 

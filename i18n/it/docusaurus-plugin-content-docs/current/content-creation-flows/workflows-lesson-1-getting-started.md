@@ -7,6 +7,8 @@ description: >-
   sostituiscono parole, tagliano il testo entro un limite di lunghezza o
   segnalano un risultato per la revisione manuale prima che arrivi al negozio.
   Crei il Suo primo workflow e scopra come si comporta.
+keywords:
+- flusso di lavoro
 ---
 
 I workflow controllano e modificano automaticamente i risultati generati: possono sostituire parole, tagliare il testo entro un limite di lunghezza o segnalare un risultato per la revisione manuale prima che arrivi al negozio. Lei imposta le regole una sola volta e queste si applicano a ogni nuovo risultato.

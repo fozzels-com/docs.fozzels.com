@@ -7,6 +7,8 @@ description: >-
   automatiche con i workflow, crei i prompt in un nuovo editor con anteprima in
   tempo reale e tenga gli errori dell'AI lontani dal Suo negozio con nuove
   protezioni.
+keywords:
+- flusso di lavoro
 ---
 
 Questo aggiornamento punta a farLe risparmiare tempo e a darLe più controllo sui Suoi contenuti AI. Ora può compilare fino a 13 attributi in un solo Flow, impostare regole di qualità automatiche con i workflow e creare i prompt in un nuovo editor con anteprima in tempo reale.

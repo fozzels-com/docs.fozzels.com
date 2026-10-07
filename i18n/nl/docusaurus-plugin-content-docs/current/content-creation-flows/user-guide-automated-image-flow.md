@@ -94,8 +94,9 @@ Voorinstellingen zijn visuele verwijzingsafbeeldingen die als instructies voor d
 > -   _Voorbeeld:_ Als u een **Product** voorgeset toevoegt met een specifieke blauwe SKU, zou de AI per ongeluk kunnen proberen blauwe details aan elk ander artikel in de stroom toe te voegen. Kies alleen verwijzingen die geschikt zijn voor de volledige productcategorie die u verwerkt.
 >
 
-#### ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/FJlYttezkuyQFvSp16LDTSwFhOa5MFopmw.png)
-**1. Limieten en capaciteit**
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/FJlYttezkuyQFvSp16LDTSwFhOa5MFopmw.png)
+
+#### 1. Limieten en capaciteit
 
 Boven aan het blok ziet u een teller (bijv. **8/13**).
 
@@ -151,8 +152,9 @@ Het blok toont een raster van uw productkaarten.
 
 -   Om deze te wijzigen, selecteert u gewoon een ander foto en klikt u op **opslaan** in de pop-up.
 
-#### ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/BsDYOnyD0cPg_dl35r0HT6YgOmKmffLBWQ.png)
-**2. Vereisten: Producten met afbeeldingen**
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/BsDYOnyD0cPg_dl35r0HT6YgOmKmffLBWQ.png)
+
+#### 2. Vereisten: Producten met afbeeldingen
 
 Producten die **geen afbeeldingen** in uw database hebben, worden automatisch uit dit blok uitgesloten. AI-generatie via stromen vereist een visuele basis om correct te werken.
 
@@ -226,7 +228,7 @@ Schakel naar het tabblad **Attributen (indien ingevuld)** om precies te zien wel
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/9UcxVcuz2XFcQkCC4qSqfhHb7P0EZOtl3w.png)
 
-## ****4. Automatisering (tabblad 4)****
+## **4. Automatisering (tabblad 4)**
 
 Het tabblad **Automatisering** dient als de "controle toren" voor uw stroom. Dit is waar u het tempo van inhoudsschepping bepaalt, publicatiebeleidsregels beheert en de generatieproces officieel start.
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/FYJ_qkFMdxjFIhXpgfz3GkHZs7AhNpgpwA.png)
@@ -351,7 +353,7 @@ Aangezien volledige automatisering momenteel is uitgeschakeld om kwaliteit te ga
 
 -   **⚠️ Waarschuwing**: Synchronisatie is **onomkeerbaar -** het kan niet worden geannuleerd zodra het is gestart.
 
-## ![](/img/kb/content-creation-flows/user-guide-automated-image-flow/c9uHBa_kSFHkR_YXg2rBCu-uOXq4xMWgVw.png)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow/c9uHBa_kSFHkR_YXg2rBCu-uOXq4xMWgVw.png)
 
 ### **Veel sterkte en veel plezier bij het creëren!**
 

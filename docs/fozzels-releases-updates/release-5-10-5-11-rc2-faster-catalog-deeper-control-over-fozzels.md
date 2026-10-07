@@ -11,7 +11,6 @@ description: >-
 
 We strive to ensure that working with large volumes of data is not just fast, but also fully controllable and intuitive. Version 5.10 focuses on enhancing the quality of visual data and **significantly increasing the performance and convenience of using our Fozzels service.**
 
-##
 
 Boosting Performance and Data Quality
 
@@ -43,8 +42,7 @@ We've enhanced the UX to make managing large catalogs faster and working with co
 -   **Column Control in "Save & Preview":** The **"Column visibility"** block has been added to the preview table (**Save & Preview**). This allows you to display only the necessary attributes, solving issues with overly large tables.
     ![](/img/kb/fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/2xUkAX-SxZ6mayNDh5A91b3m2AkKS4mDFw.png)
 
-###
-3\. Image Management and Visual Quality
+### 3\. Image Management and Visual Quality
 
 -   **Clean Visual Catalog:** The system now automatically **ignores and does not display** invalid (broken) or empty image URLs across the catalog, reports, and generation lists. Say goodbye to broken images — your data now looks flawless.
 
@@ -65,8 +63,7 @@ We've enhanced the UX to make managing large catalogs faster and working with co
 
 -   **Reliability in Mass Actions:** We fixed a minor issue that occasionally caused the grid to remain empty if no items were selected. Working with mass actions is now even more reliable.
 
-##
- Under the Hood: Stability and Modernity
+## Under the Hood: Stability and Modernity
 
 -   **Targeted Integration Stabilization:** Necessary fixes have been implemented to improve the stability and functionality of integrations with platforms **WooCommerce, EK Retail, and Shopware**, ensuring reliable operation for clients with these specific setups.
 

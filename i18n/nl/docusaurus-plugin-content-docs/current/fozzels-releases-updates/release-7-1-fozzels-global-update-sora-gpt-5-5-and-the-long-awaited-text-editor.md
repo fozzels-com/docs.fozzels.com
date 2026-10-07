@@ -55,7 +55,7 @@ U bepaalt exact wat u in Fozzels importeert.
 
 -   **Rommelloze Catalogus**: Geen onnodige content meer - werk alleen met items die u nu nodig hebt.
 
-### ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/_PhMY1EsCrLuw_a8c60Xdt-kc4fMyZ6gfw.png)
+![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/_PhMY1EsCrLuw_a8c60Xdt-kc4fMyZ6gfw.png)
 
 ### WordPress (WooCommerce) Doorbraak
 

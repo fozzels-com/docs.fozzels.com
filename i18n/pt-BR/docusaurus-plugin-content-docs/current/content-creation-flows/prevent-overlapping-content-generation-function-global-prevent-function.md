@@ -37,8 +37,7 @@ Esta é a **Configuração Global** que se aplica a todos os seus Fluxos, a meno
 
 ![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/et0MwVwvnIfg8GhM-81qMk3ADOAD3_M02g.png)
 
-##
-2\. Sobrescrevendo a Regra para um Fluxo Específico (Cenários Práticos)
+## 2\. Sobrescrevendo a Regra para um Fluxo Específico (Cenários Práticos)
 
 Nas configurações de cada Fluxo individual (seção **4 Automação**), você decide se ele adere às Configurações Globais ou tem uma exceção:
 
@@ -48,8 +47,7 @@ Nas configurações de cada Fluxo individual (seção **4 Automação**), você 
 
 -   Se você deseja desativar completamente todas as regras de duplicação global, consulte C.
 
-####
-**Cenário A: Permissão de Geração Completa (Sem Restrições) (Desativar)**
+#### Cenário A: Permissão de Geração Completa (Sem Restrições) (Desativar)
 
 **Seu Objetivo:** Você deseja que o Fluxo ignore todas as regras de duplicação (mesmo que a Regra Global esteja ativa).
 
@@ -67,8 +65,7 @@ Nas configurações de cada Fluxo individual (seção **4 Automação**), você 
 
 ![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/M18xs-NWnNKM3KW_n1iAHroIpfoIW3ztfg.png)
 
-####
-**Cenário B: Definindo um Limite de Tempo Personalizado (Sobrescrever)**
+#### Cenário B: Definindo um Limite de Tempo Personalizado (Sobrescrever)
 
 **Seu Objetivo:** Você deseja que este Fluxo tenha um limite de tempo **diferente** da Configuração Global.
 

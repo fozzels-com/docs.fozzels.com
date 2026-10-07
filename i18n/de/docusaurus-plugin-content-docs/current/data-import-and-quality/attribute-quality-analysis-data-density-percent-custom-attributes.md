@@ -32,8 +32,7 @@ Der Datenimportprozess beginnt mit dem Befehl **Produkte abrufen**.
 
 ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/JRoTBrRsovpu033tRmysjhhnEYa-1nIkzg.png)
 
-####
-1.3. Qualitätsanalyse: Datendichte-Prozentsatz
+#### 1.3. Qualitätsanalyse: Datendichte-Prozentsatz
 
 Auf der Registerkarte **Attribute** berechnet Fozzels automatisch die Qualität jedes Feldes.
 
@@ -45,8 +44,7 @@ Auf der Registerkarte **Attribute** berechnet Fozzels automatisch die Qualität 
 
 ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/suceb1fs0FvE76a7CHN6A6JvqnLGLtaL2g.png)
 
-###
-Teil 2: Überprüfung und Konfiguration
+### Teil 2: Überprüfung und Konfiguration
 
 #### 2.1. Überprüfung von Beispieldaten (Zufällige Beispieldaten abrufen)
 
@@ -69,8 +67,9 @@ Wenn Sie auf das Symbol **Bearbeiten** (Stift) auf einem Attribut klicken, öffn
 
 -   **Daten transformieren:** Ermöglicht die **Laufzeitcode-Ausführung** (benutzerdefinierter Code) für den importierten Wert, bevor er gespeichert wird.
 
-##### ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/XMR_zIZH_IM-p4UANnIYB8m37CATk4nhBQ.png)
-Technische Flags
+![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/XMR_zIZH_IM-p4UANnIYB8m37CATk4nhBQ.png)
+
+##### Technische Flags
 
 -   **Filterbar:** Wenn aktiviert, kann dieses Attribut zum Filtern von Produkten im Katalog/in der Batch-Liste nach seinem Wert verwendet werden.
     ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/EvbjNHS2aedS-hzos_piQd1wAtXba0rJww.png)

@@ -6,12 +6,10 @@ slug: /integration-connectivity/fozzels-shopify-app-getting-started
 description: ¡Gracias por instalar la aplicación Fozzels Shopify! Estamos emocionados de ayudarte a automatizar tu contenido de productos y ahorrar horas de trabajo manual. Vamos a configurarte
 ---
 
-#
 
 ¡Gracias por instalar la aplicación Fozzels Shopify! Estamos emocionados de ayudarte a automatizar tu contenido de productos y ahorrar horas de trabajo manual. Vamos a configurarte en solo unos minutos.
 
-##
-¿Qué es la aplicación Fozzels Shopify?
+## ¿Qué es la aplicación Fozzels Shopify?
 
 La aplicación Fozzels Shopify es la integración oficial entre tu tienda Shopify y la plataforma Fozzels de generación de contenido con IA. Una vez conectado, Fozzels puede extraer tus productos directamente de Shopify, generar descripciones únicas impulsadas por IA, títulos SEO y otro contenido para cada producto, e sincronizar automáticamente los resultados de vuelta a tu tienda.
 
@@ -24,8 +22,7 @@ La aplicación Fozzels Shopify es la integración oficial entre tu tienda Shopif
 -   Genera imágenes y vídeos de productos con IA y publícalos en la galería de medios de tu tienda
 -   Gestiona múltiples mercados de Shopify e idiomas desde un solo lugar
 
-##
-Requisitos
+## Requisitos
 
 Antes de comenzar, asegúrate de que tienes:
 
@@ -33,16 +30,14 @@ Antes de comenzar, asegúrate de que tienes:
 -   Una cuenta de Fozzels — [Regístrate aquí](https://app.fozzels.com/signup)
 -   La aplicación Fozzels instalada desde la tienda de aplicaciones de Shopify
 
-##
-Paso 1 — Instalar la aplicación
+## Paso 1 — Instalar la aplicación
 
 1.  Ve a la [página de la aplicación Fozzels](https://apps.shopify.com/fozzels) en la tienda de aplicaciones de Shopify
 2.  Haz clic en **Agregar aplicación**
 3.  Revisa los permisos solicitados y haz clic en **Instalar**
 4.  Serás redirigido a la pantalla de conexión de Fozzels dentro de tu Administrador de Shopify
 
-##
-Paso 2 — Conecta tu cuenta de Fozzels
+## Paso 2 — Conecta tu cuenta de Fozzels
 
 Una vez que la aplicación esté instalada, verás la pantalla **Conectar a Fozzels** en tu Administrador de Shopify.
 
@@ -54,8 +49,7 @@ Una vez que la aplicación esté instalada, verás la pantalla **Conectar a Fozz
 
 Después de iniciar sesión, Fozzels detectará tu tienda y abrirá el diálogo **Seleccionar integración de Shopify**.
 
-##
-Paso 3 — Crear una nueva integración
+## Paso 3 — Crear una nueva integración
 
 Si esta es la primera vez que te conectas, haz clic en **"+ Crear nueva integración"**. Serás llevado al panel de control de Fozzels para completar la configuración.
 
@@ -70,8 +64,7 @@ Si esta es la primera vez que te conectas, haz clic en **"+ Crear nueva integrac
 
 > **¿Por qué OAuth?** El método OAuth es la forma más fácil y segura de conectarse. No requiere claves API o tokens manuales — el token de acceso se proporciona automáticamente cuando te conectas a través de la aplicación Shopify.
 
-##
-Paso 4 — Autorizar la conexión
+## Paso 4 — Autorizar la conexión
 
 Después de guardar la integración, vuelve a tu Administrador de Shopify:
 
@@ -82,8 +75,7 @@ Después de guardar la integración, vuelve a tu Administrador de Shopify:
 
 Verás que la pestaña **Integraciones** se actualiza con un estado **Activo**. En el panel de control de Fozzels, la integración mostrará **Autorizado ✅** e **API REST conectada ✅**.
 
-##
-Paso 5 — Extrae tus productos
+## Paso 5 — Extrae tus productos
 
 1.  Ve a `app.fozzels.com` → **Integraciones** → abre tu integración de Shopify
 2.  Ve a la pestaña **Sitios web y tiendas**
@@ -94,8 +86,7 @@ Paso 5 — Extrae tus productos
 
 Tus productos ahora están disponibles en el **Catálogo** de Fozzels, completo con todos sus atributos — listo para la generación de contenido con IA.
 
-##
-¿Qué sigue?
+## ¿Qué sigue?
 
 Una vez que tus productos se extraigan, puedes:
 

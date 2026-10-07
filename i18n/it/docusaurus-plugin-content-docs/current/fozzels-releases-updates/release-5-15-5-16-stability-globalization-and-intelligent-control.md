@@ -22,8 +22,7 @@ Abbiamo combinato due importanti aggiornamenti per rendere il Suo flusso di lavo
 
 -   **Conformità all'API di Shopify:** Le nostre app sono state completamente aggiornate per soddisfare i più recenti requisiti di Shopify. **Nota:** se ha ricevuto un'email relativa alla scadenza del **1° aprile 2026**, non si preoccupi: ce ne siamo già occupati. Tutto è pronto per un funzionamento stabile.
 
-##
-WooCommerce: diagnostica intelligente (v5.16)
+## WooCommerce: diagnostica intelligente (v5.16)
 
 La configurazione dell'integrazione è ora trasparente e a prova di errore:
 

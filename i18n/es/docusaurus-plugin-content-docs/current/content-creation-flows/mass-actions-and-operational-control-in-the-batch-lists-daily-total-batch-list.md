@@ -33,8 +33,9 @@ Gestión de contenido mediante acciones masivas Los paneles (o lista de lotes) e
 
 -   **Regenerar, guardar y sincronizar**: Esto inicia una nueva solicitud de generación de contenido para los productos seleccionados y programa automáticamente su sincronización posterior tras la finalización exitosa.
 
-## ![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/6chuzawhzMkzp4kjQAs-Xh2lfJQ8D0uTnw.png)
-Gestión del espacio de trabajo enfocado ("Mostrar seleccionados")
+![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/6chuzawhzMkzp4kjQAs-Xh2lfJQ8D0uTnw.png)
+
+## Gestión del espacio de trabajo enfocado ("Mostrar seleccionados")
 
 La función **"Mostrar seleccionados"** es una herramienta esencial para revisar y preparar subconjuntos específicos de datos.
 

@@ -11,8 +11,7 @@ description: >-
 
 Il catalogo prodotti dispone di una funzionalità di selezione multipla che Le consente di gestire in modo efficiente grandi insiemi di articoli e di semplificare il processo di creazione di flussi mirati. Questo meccanismo di selezione è versatile e mantiene lo stato della selezione anche durante il passaggio da una pagina all'altra.
 
-##
-Meccanismo di selezione dei prodotti
+## Meccanismo di selezione dei prodotti
 
 1\. Attivazione delle caselle di controllo Quando seleziona almeno un prodotto nella tabella, si attivano due caselle di controllo:
 
@@ -41,8 +40,7 @@ Meccanismo di selezione dei prodotti
 
 ![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/_InM7cpH0oQlYi0_agOrC4lE4yKF171ZXw.png)
 
-##
-Esecuzione di azioni in batch
+## Esecuzione di azioni in batch
 
 Una volta selezionati uno o più prodotti, si attiva il menu **Azioni**, che offre strumenti per ulteriori operazioni.
 
