@@ -202,4 +202,6 @@ Innerhalb des Ergebnisses zeigt eine Warnung **Synchronization with integration 
 
 ## Was folgt als Nächstes
 
-Die nächste Lektion behandelt fortgeschrittene Funktionen: Yes/No-Verzweigungen und das Verbinden von Blöcken, Bedingungsgruppen sowie die Arbeit mit HTML-Ausgaben.
+Die nächste Lektion zeigt, wie Sie mehrere Blöcke über die Ausgänge Yes, No und Always verbinden, damit ein Workflow verschiedene Texte unterschiedlich verarbeiten kann.
+
+Fahren Sie fort mit [4.11.2. Lektion 2: Blöcke in einem Workflow kombinieren](/content-creation-flows/workflows-lesson-2-combining-blocks/).
