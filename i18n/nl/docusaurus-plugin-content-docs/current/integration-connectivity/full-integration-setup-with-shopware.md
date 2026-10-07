@@ -29,8 +29,7 @@ Ga naar systeeminstellingen.
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/NE3HjkKRNa353OQJJBzR8eeF_Y9XA9Mi_w.png)
 
-###
-4\. Klik op "Gebruikers en machtigingen"
+### 4\. Klik op "Gebruikers en machtigingen"
 
 Selecteer de optie Integraties in het menu Systeem.
 
@@ -103,8 +102,7 @@ Voer een naam voor de integratie in. Open vervolgens het vervolgkeuzemenu "Rolle
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/DZY9Dx_ZSKux2NMqdZxEYkFXqeT3JeZVlg.png)
 
-###
-12\.  Kopieer de Access Key ID
+### 12\.  Kopieer de Access Key ID
 
 Klik op het kopieerpictogram naast de **Access Key ID** om het naar het klembord te kopiëren. Plak deze sleutel in een tekstdocument voor veiligheid - u hebt deze nodig in Deel 2.
 
@@ -128,7 +126,6 @@ De integratie is nu gemaakt en actief.
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/ddwo4oRoStm6_leYM-OMhtbNWvrs2B5OkA.png)
 
-###
 
 # Deel 2: Verbind Fozzels met Shopware 6
 
@@ -138,8 +135,7 @@ Nu u de integratie in Shopware hebt gemaakt, configureert u de verbinding aan de
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/QNYGtnmJc1jLtdHtrac2heMnCvr8OeCjOw.png)
 
-###
-**2.**  Klik op "Integraties"
+### **2.**  Klik op "Integraties"
     Klik in het menu Fozzels op Integraties.
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/p3WWrWl5kNt7ZpAfsTGCttAeYkIT1rVN6A.png)
 3\. Klik op "Maken"
@@ -165,7 +161,7 @@ Vul de volgende velden in in de aangegeven volgorde:
 
 **6**. Klik op "Opslaan" wanneer alle velden zijn ingevuld. U ziet een pop-up "Succes" ter bevestiging van de opgeslagen verbinding.
 
-### ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/Hx1KICwgA4nYaOgpQbjeLYyUYMAfwizHIA.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/Hx1KICwgA4nYaOgpQbjeLYyUYMAfwizHIA.png)
 
 ### 7\. Activeer de integratie
     Zet de schakelaar "Actief" aan om de integratie te activeren.
@@ -208,4 +204,3 @@ Hier zijn enkele aanvullende artikelen die u kunnen helpen om aan de slag te gaa
 
 Of neem direct contact met ons op - we helpen u altijd graag!
 
-###

@@ -22,8 +22,7 @@ Sie sind nicht mehr auf einen einzelnen Systemzyklus beschränkt, der früher f�
 
 ![](/img/kb/data-import-and-quality/custom-pull-schedules-automation-logic/4TXxigKSz9G6RrXZnbgqjQ0N7TTKYwiwMQ.png)
 
-##
-So funktioniert es: Die Automatisierungsketten-Reaktion
+## So funktioniert es: Die Automatisierungsketten-Reaktion
 
 Es ist wichtig zu verstehen, dass der geplante Pull-Zeitpunkt der **Auslöser** für eine ganze Kette von Prozessen ist. Sobald der **Pull** Ihre Daten erfolgreich importiert, führt das System automatisch die folgenden Schritte aus:
 

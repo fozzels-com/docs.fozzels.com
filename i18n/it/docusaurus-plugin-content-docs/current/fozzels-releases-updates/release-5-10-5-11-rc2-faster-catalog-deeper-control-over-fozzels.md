@@ -12,7 +12,6 @@ description: >-
 
 Ci impegniamo affinché lavorare con grandi volumi di dati sia non solo veloce, ma anche completamente controllabile e intuitivo. La versione 5.10 si concentra sul miglioramento della qualità dei dati visivi e sull'**aumento significativo delle prestazioni e della praticità d'uso del nostro servizio Fozzels.**
 
-##
 
 Più prestazioni e qualità dei dati
 
@@ -44,8 +43,7 @@ Abbiamo migliorato la UX per rendere più rapida la gestione di cataloghi di gra
 -   **Controllo delle colonne in "Salva e anteprima":** il blocco **"Visibilità colonne"** è stato aggiunto alla tabella di anteprima (**Salva e anteprima**). Ciò Le consente di visualizzare solo gli attributi necessari, risolvendo i problemi legati a tabelle troppo grandi.
     ![](/img/kb/fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/2xUkAX-SxZ6mayNDh5A91b3m2AkKS4mDFw.png)
 
-###
-3\. Gestione delle immagini e qualità visiva
+### 3\. Gestione delle immagini e qualità visiva
 
 -   **Catalogo visivo pulito:** il sistema ora **ignora e non visualizza** automaticamente gli URL di immagini non validi (danneggiati) o vuoti nel catalogo, nei report e negli elenchi di generazione. Dica addio alle immagini danneggiate: ora i Suoi dati hanno un aspetto impeccabile.
 
@@ -66,8 +64,7 @@ Abbiamo migliorato la UX per rendere più rapida la gestione di cataloghi di gra
 
 -   **Affidabilità delle azioni di massa:** abbiamo corretto un piccolo problema che occasionalmente faceva restare vuota la griglia se non era selezionato alcun elemento. Lavorare con le azioni di massa è ora ancora più affidabile.
 
-##
- Dietro le quinte: stabilità e modernità
+## Dietro le quinte: stabilità e modernità
 
 -   **Stabilizzazione mirata delle integrazioni:** sono state apportate le correzioni necessarie per migliorare la stabilità e la funzionalità delle integrazioni con le piattaforme **WooCommerce, EK Retail e Shopware**, garantendo un funzionamento affidabile ai clienti con queste specifiche configurazioni.
 

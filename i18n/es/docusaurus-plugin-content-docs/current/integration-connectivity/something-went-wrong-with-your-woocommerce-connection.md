@@ -8,13 +8,11 @@ description: No te preocupes — la mayoría de los problemas de conexión son r
 
 No te preocupes — la mayoría de los problemas de conexión son rápidos de solucionar. Esta guía te guiará a través de los mensajes más comunes que podrías ver y exactamente qué hacer.
 
-##
 
 ## ¿Qué significa "Problemas de conexión detectados"?
 
 Cuando guardas tu integración de WooCommerce, Fozzels verifica automáticamente si todo está configurado correctamente. Si falta algo o necesita atención, verás un mensaje explicando qué hacer a continuación.
 
-##
 
 ## Conexión base
 
@@ -28,7 +26,6 @@ Cuando guardas tu integración de WooCommerce, Fozzels verifica automáticamente
 
 -   **"Error de certificado SSL."** El certificado de seguridad de tu tienda tiene un problema. Contacta a tu proveedor de alojamiento para arreglarlo.
 
-##
 
 ## ACF (Advanced Custom Fields)
 
@@ -44,8 +41,7 @@ Cuando guardas tu integración de WooCommerce, Fozzels verifica automáticamente
 
 -   **"Desajuste de versión de API REST de ACF."** Ve a **WordPress → Configuración → Enlaces permanentes → ACF to REST API** y establece la versión en **v3**.
 
-##
-WPML (Multilingüe)
+## WPML (Multilingüe)
 
 -   **"Complemento WPML no detectado."** Instala y activa el complemento **WPML Multilingual CMS** en tu sitio WordPress. Luego añade al menos un idioma en **WPML → Idiomas**.
 
@@ -53,8 +49,7 @@ WPML (Multilingüe)
 
 -   **¿Acabas de habilitar WPML?** Después de activarlo, vuelve a **Sitios web y tiendas** y haz clic en **Extraer tiendas/sitios web**, luego ejecuta nuevamente **Extraer productos**. Así es como Fozzels aprende sobre tus versiones de idioma.
 
-##
-Yoast SEO
+## Yoast SEO
 
 Yoast SEO necesita dos cosas para funcionar con Fozzels: el complemento **Yoast SEO** y nuestro **complemento conector de Fozzels**. Puedes descargar el conector desde **app.fozzels.com**.
 

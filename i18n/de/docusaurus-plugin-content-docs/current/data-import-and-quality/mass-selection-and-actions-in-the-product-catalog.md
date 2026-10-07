@@ -8,8 +8,7 @@ description: Der Produktkatalog ist mit Massenauswahl-Funktionalität ausgestatt
 
 Der Produktkatalog ist mit Massenauswahl-Funktionalität ausgestattet, die es Ihnen ermöglicht, große Elementgruppen effizient zu verwalten und den Prozess der Erstellung gezielter Flows zu optimieren. Dieser Auswahlmechanismus ist vielseitig und bewahrt den Auswahlzustand über Seitenwechsel hinweg.
 
-##
-Produktauswahl-Mechanismus
+## Produktauswahl-Mechanismus
 
 1\. Aktivierung des Kontrollkästchens Wenn Sie mindestens ein Produkt in der Tabelle auswählen, werden zwei Kontrollkästchen aktiv:
 
@@ -38,8 +37,7 @@ Produktauswahl-Mechanismus
 
 ![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/_InM7cpH0oQlYi0_agOrC4lE4yKF171ZXw.png)
 
-##
-Ausführung von Batch-Aktionen
+## Ausführung von Batch-Aktionen
 
 Sobald ein oder mehrere Produkte ausgewählt sind, wird das Menü **Aktionen** aktiviert und bietet Werkzeuge für weitere Operationen.
 

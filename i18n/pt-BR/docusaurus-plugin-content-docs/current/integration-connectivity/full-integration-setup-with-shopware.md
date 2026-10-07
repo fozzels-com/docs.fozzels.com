@@ -29,8 +29,7 @@ Navegue até as configurações do sistema.
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/NE3HjkKRNa353OQJJBzR8eeF_Y9XA9Mi_w.png)
 
-###
-4\. Clique em "Usuários e permissões"
+### 4\. Clique em "Usuários e permissões"
 
 Selecione a opção Integrações no menu Sistema.
 
@@ -103,8 +102,7 @@ Insira um nome para a integração. Em seguida, abra o menu suspenso "Funções"
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/DZY9Dx_ZSKux2NMqdZxEYkFXqeT3JeZVlg.png)
 
-###
-12\.  Copie a ID da chave de acesso
+### 12\.  Copie a ID da chave de acesso
 
 Clique no ícone copiar ao lado da **ID da chave de acesso** para copiá-la para sua área de transferência. Cole esta chave em um documento de texto para manter em segurança - você precisará dela na Parte 2.
 
@@ -128,7 +126,6 @@ A integração agora está criada e ativa.
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/ddwo4oRoStm6_leYM-OMhtbNWvrs2B5OkA.png)
 
-###
 
 # Parte 2: Conecte Fozzels ao Shopware 6
 
@@ -138,8 +135,7 @@ Agora que você criou a integração no Shopware, você configurará a conexão 
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/QNYGtnmJc1jLtdHtrac2heMnCvr8OeCjOw.png)
 
-###
-**2.**  Clique em "Integrações"
+### **2.**  Clique em "Integrações"
     No menu Fozzels, clique em Integrações.
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/p3WWrWl5kNt7ZpAfsTGCttAeYkIT1rVN6A.png)
 3\. Clique em "Criar"
@@ -165,7 +161,7 @@ Preencha os seguintes campos em ordem:
 
 **6**. Quando todos os campos estiverem preenchidos, clique em "Salvar". Você deverá ver uma pop-up de "Sucesso" confirmando que a conexão foi salva.
 
-### ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/Hx1KICwgA4nYaOgpQbjeLYyUYMAfwizHIA.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/Hx1KICwgA4nYaOgpQbjeLYyUYMAfwizHIA.png)
 
 ### 7\. Ative a integração
     Alterne o botão "Ativo" para ativar a integração.
@@ -208,4 +204,3 @@ Aqui estão alguns artigos adicionais que podem ajudá-lo a começar com Fozzels
 
 Ou entre em contato conosco diretamente - estamos sempre felizes em ajudar!
 
-###

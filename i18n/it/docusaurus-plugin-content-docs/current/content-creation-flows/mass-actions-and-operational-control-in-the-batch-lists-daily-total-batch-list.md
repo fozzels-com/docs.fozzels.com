@@ -39,8 +39,9 @@ Gestione dei contenuti tramite azioni di massa Le dashboard (o elenco batch) son
 
 -   **Rigenera, salva e sincronizza**: avvia una nuova richiesta di generazione dei contenuti per i prodotti selezionati e ne pianifica automaticamente la successiva sincronizzazione al completamento con esito positivo.
 
-## ![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/6chuzawhzMkzp4kjQAs-Xh2lfJQ8D0uTnw.png)
-Gestione dell'area di lavoro mirata ("Mostra selezionati")
+![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/6chuzawhzMkzp4kjQAs-Xh2lfJQ8D0uTnw.png)
+
+## Gestione dell'area di lavoro mirata ("Mostra selezionati")
 
 La funzione **"Mostra selezionati"** è uno strumento essenziale per esaminare e preparare sottoinsiemi specifici di dati.
 

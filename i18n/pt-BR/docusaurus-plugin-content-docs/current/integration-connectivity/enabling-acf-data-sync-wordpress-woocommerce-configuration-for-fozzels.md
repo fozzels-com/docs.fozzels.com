@@ -12,7 +12,6 @@ Este recurso permite sincronizar características de produtos únicos e estendid
 
 A integração bem-sucedida requer etapas de configuração chave tanto no WordPress quanto no Fozzels.
 
-###
 
 ## **Parte 1: Preparando Dados no WordPress (ACF e REST API)**
 
@@ -34,8 +33,7 @@ Para que a REST API funcione corretamente, a estrutura de permalink deve ser dif
 4.  Salve as alterações.
     ![](/img/kb/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/yP1swQ74nSHYKF8pRpAgezDqHmxBh4nR-A.png)
 
-###
-Etapa 2: Navegando para o Grupo de Campo ACF
+### Etapa 2: Navegando para o Grupo de Campo ACF
 
 1.  No menu WordPress, vá para **ACF** / **Field Groups**.
     ![](/img/kb/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/a7TVqQW4iMXkGcmlP1WI8nouyni5HGoKsg.png)
@@ -43,8 +41,7 @@ Etapa 2: Navegando para o Grupo de Campo ACF
 2.  Clique no nome do Grupo de Campo que contém os campos que você precisa sincronizar para seus produtos WooCommerce (por exemplo, **"Fozzels Description"**).
     ![](/img/kb/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/GH8y_bXf1Lb2RnG-_VWVmrj4XKhaFuCnRg.png)
 
-###
-Etapa 3: Configurando o Grupo de Campo para Acesso à API (Etapa Crucial)
+### Etapa 3: Configurando o Grupo de Campo para Acesso à API (Etapa Crucial)
 
 Na janela de edição do **Field Group**, verifique as regras de localização e habilite acesso à API.
 
@@ -68,8 +65,7 @@ Na janela de edição do **Field Group**, verifique as regras de localização e
 3.  Salve as alterações clicando em **Update** ou **Publish**.
     ![](/img/kb/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/lIgfpHeR7YI8Bf6W-4UvdIqtW2AQz9kqcw.png)
 
-###
-Etapa 4: Verificando a Versão da REST API do ACF
+### Etapa 4: Verificando a Versão da REST API do ACF
 
 Se você estiver usando um plugin adicional para integrar ACF na REST API (como `ACF to REST API`), você deve garantir que a versão selecionada seja compatível com Fozzels.
 

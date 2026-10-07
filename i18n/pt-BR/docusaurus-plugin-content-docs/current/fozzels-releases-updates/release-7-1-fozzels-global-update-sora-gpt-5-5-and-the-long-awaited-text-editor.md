@@ -55,8 +55,9 @@ Você decide exatamente o que importar para o Fozzels.
 
 -   Catálogo Sem Desordem: Sem mais conteúdo desnecessário - trabalhe apenas com os itens que você precisa agora.
 
-### ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/_PhMY1EsCrLuw_a8c60Xdt-kc4fMyZ6gfw.png)
-Avanço do WordPress (WooCommerce)
+![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/_PhMY1EsCrLuw_a8c60Xdt-kc4fMyZ6gfw.png)
+
+### Avanço do WordPress (WooCommerce)
 
 -   Suporte Completo de Variação: Fomos mais fundo - sincronização completa (texto e visuais) agora está disponível para cada variação individual do produto (cor, tamanho, etc.).
     ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/wd5XzSMq0IWL9gok77gfbpO7IkCENWjIcQ.png)

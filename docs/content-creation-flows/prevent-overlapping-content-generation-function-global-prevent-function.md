@@ -43,8 +43,7 @@ This is the **Global setting** that applies to all your Flows unless otherwise s
 
 ![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/et0MwVwvnIfg8GhM-81qMk3ADOAD3_M02g.png)
 
-##
-2\. Overriding the Rule for a Specific Flow (Practical Scenarios)
+## 2\. Overriding the Rule for a Specific Flow (Practical Scenarios)
 
 In the settings of each individual Flow (section **4 Automation**), you decide whether it will adhere to the Global Settings or have an exception:
 
@@ -54,8 +53,7 @@ In the settings of each individual Flow (section **4 Automation**), you decide w
 
 -   If you want to completely turn off all global duplication rules, see C.
 
-####
-**Scenario A: Full Generation Permission (No Restrictions) (Turn Off)**
+#### Scenario A: Full Generation Permission (No Restrictions) (Turn Off)
 
 **Your Goal:** You want the Flow to ignore all duplication rules (even if the Global Rule is active).
 
@@ -73,8 +71,7 @@ In the settings of each individual Flow (section **4 Automation**), you decide w
 
 ![](/img/kb/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/M18xs-NWnNKM3KW_n1iAHroIpfoIW3ztfg.png)
 
-####
-**Scenario B: Setting a Custom Time Limit (Override)**
+#### Scenario B: Setting a Custom Time Limit (Override)
 
 **Your Goal:** You want this Flow to have a time limit **different** from the Global Setting.
 

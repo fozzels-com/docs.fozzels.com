@@ -87,8 +87,7 @@ Based directly on user feedback, we have fully reimagined and overhauled the ima
 
 -   **Next-Gen Category Trees:** To support scaled category operations, we implemented an interactive `Tree View` multi-selector equipped with quick-access tags and flexible conditional logic (`AND` / `OR`).
 
-###
-Ecosystem & Integrations
+### Ecosystem & Integrations
 
 #### **Magento: Multi-Select Validation & Advanced Media Asset Management**
 
@@ -104,8 +103,7 @@ Ecosystem & Integrations
 
 2.  _Force Mode:_ A complete rewrite and optimization cycle executed across all image assets in the selected batch.
 
-####
-**Shopify & Shopware: Streamlined Attribute Filtering**
+#### Shopify & Shopware: Streamlined Attribute Filtering
 
 -   **Data Flow Optimization:** We have conducted a technical audit and clean-up of the filter configuration matrices for both Shopify and Shopware. Only relevant, fully functional logical operators are now exposed to the interface, significantly accelerating catalog segmentation workflows.
 

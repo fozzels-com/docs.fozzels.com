@@ -53,8 +53,7 @@ Zodra u deze hebt opgeslagen, moet u de taallijst van uw WordPress-site ophalen:
     ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/POzdAldcqgEXxkAsgSEbnJLTDF9nzoogmg.png)
     ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/rgGtdO9cFLCfJOPmQs1SQc5NKnlyOx59Ag.png)
 
-###
-3\. Catalogussynchronisatie
+### 3\. Catalogussynchronisatie
 
 Dit is de laatste en belangrijkste stap om producten zichtbaar te maken:
 
@@ -62,8 +61,7 @@ Dit is de laatste en belangrijkste stap om producten zichtbaar te maken:
 
 ![](/img/kb/integration-connectivity/wpml-support-for-woocommerce-multilingual-automation/S0333OKK3WCPquO5CYoLzBkvWJVsJRbG4w.png)
 
-##
-De Super-Power Combo: WPML + ACF + AIOSEO
+## De Super-Power Combo: WPML + ACF + AIOSEO
 
 Met Fozzels kunt u WPML combineren met toonaangevende plugins voor maximale automatisering. Dit is de "gouden standaard" voor professionele e-commerce:
 

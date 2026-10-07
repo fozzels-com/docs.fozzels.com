@@ -7,6 +7,8 @@ description: >-
   Questa guida tratta la creazione di un Flow, i modelli di prompt, la sua
   esecuzione, il ciclo di vita dei completamenti, i contenuti sospetti e i
   motivi per cui a volte i contenuti non vengono sincronizzati.
+keywords:
+- flusso di contenuti
 ---
 
 I Content Flow sono la funzionalità di automazione principale di Fozzels. Un Flow è una regola che genera automaticamente contenuti AI per un attributo di prodotto selezionato e riscrive il risultato nel Suo store.

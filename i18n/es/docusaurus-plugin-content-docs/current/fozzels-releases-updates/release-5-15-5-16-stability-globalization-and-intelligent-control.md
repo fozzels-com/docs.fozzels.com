@@ -18,8 +18,7 @@ Hemos combinado dos actualizaciones importantes para hacer tu flujo de trabajo d
 
 -   **Cumplimiento de la API de Shopify:** Nuestras aplicaciones se han actualizado completamente para cumplir con los últimos requisitos de Shopify. **Nota:** Si recibiste un correo electrónico sobre el plazo del **1 de abril de 2026**, no te preocupes, ya lo hemos manejado. Todo está configurado para un funcionamiento estable.
 
-##
-WooCommerce: diagnósticos inteligentes (v5.16)
+## WooCommerce: diagnósticos inteligentes (v5.16)
 
 La configuración de la integración ahora es transparente e infalible:
 

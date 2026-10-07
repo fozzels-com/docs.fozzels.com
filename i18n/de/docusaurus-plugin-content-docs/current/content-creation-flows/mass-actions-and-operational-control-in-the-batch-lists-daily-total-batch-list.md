@@ -33,8 +33,9 @@ Verwalten von Inhalten mit Massenaktionen Das Dashboard (oder die Batch-Liste) i
 
 -   **Neu generieren, Speichern & Synchronisieren**: Dies leitet eine neue Inhalts-Generierungsanfrage für die ausgewählten Produkte ein und plant automatisch deren anschließende Synchronisierung nach erfolgreichem Abschluss.
 
-## ![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/6chuzawhzMkzp4kjQAs-Xh2lfJQ8D0uTnw.png)
-Verwaltung des fokussierten Arbeitsbereichs ("Ausgewählte anzeigen")
+![](/img/kb/content-creation-flows/mass-actions-and-operational-control-in-the-batch-lists-daily-total-batch-list/6chuzawhzMkzp4kjQAs-Xh2lfJQ8D0uTnw.png)
+
+## Verwaltung des fokussierten Arbeitsbereichs ("Ausgewählte anzeigen")
 
 Die Funktion **"Ausgewählte anzeigen"** ist ein wesentliches Werkzeug zur Überprüfung und Vorbereitung bestimmter Datensubsets.
 

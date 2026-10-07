@@ -29,8 +29,7 @@ La duplicazione Le consente di riutilizzare configurazioni complete (filtri, pro
 
 ![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/SQ3APzXi6qMf8Vz9_U8bAVr6_tdKhvNCRg.png)
 
-####
-1.2. Selezione del negozio (se applicabile)
+#### 1.2. Selezione del negozio (se applicabile)
 
 -   **Integrazione con un solo negozio:** se è integrato un solo negozio, il flusso duplicato viene creato immediatamente.
 

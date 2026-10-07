@@ -30,8 +30,7 @@ This tab handles the primary connection and identity of your Magento automation 
 2.  **Confirm Selection:** Confirm your Magento store parameters by clicking the **Submit** button at the bottom of the page.
     ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/liZ6uL_K1ryZ9ltZQsCUAhG6jAYP4UqhrQ.png)
 
-##
-2\. AI Configuration & Media Grid (Tab 2)
+## 2\. AI Configuration & Media Grid (Tab 2)
 
 On this tab, you define the core AI model engine and the exact visual layout characteristics required for your Magento theme templates.
 
@@ -64,8 +63,7 @@ Select your processing network and specific model from the interactive cards on 
 
 -   **Grok Imagine Image Pro `PRO`:** Premium xAI architecture delivering superior image quality with enhanced detail and texture accuracy. Supports **up to 5 reference presets**.
 
-###
-**The Interactive Output Format Grid**
+### The Interactive Output Format Grid
 
 Magento themes rely heavily on precise image dimensions to prevent layout shifting on your frontend. Use the grid to lock down exact pixel specifications:
 
@@ -75,8 +73,9 @@ Magento themes rely heavily on precise image dimensions to prevent layout shifti
 
 3.  **The Preview Panel:** The interactive right panel dynamically renders a visual crop frame, the target file format, and calculates the **Est. size** (file weight) and **Est. tokens** (generation cost) per image request.
 
-## ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/Ked7uS5641FdzLgFJkkyBLIIB44pYiuh5Q.png)
-3\. Magento Catalog Filtering & Prompting (Tab 3)
+![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/Ked7uS5641FdzLgFJkkyBLIIB44pYiuh5Q.png)
+
+## 3\. Magento Catalog Filtering & Prompting (Tab 3)
 
 This section acts as the creative brain of your Magento flow, allowing you to filter products dynamically and inject native attributes into your prompts.
 
@@ -111,8 +110,7 @@ This section acts as the creative brain of your Magento flow, allowing you to fi
 -   **Magento Attribute Injection:** Write your design instructions inside the main terminal window, then leverage the **Attributes panel** on the right side. You can click or drag-and-drop native Magento data fields (such as `Categoria`, `Color`, or `Material`) straight into your text. Fozzels will dynamically replace these placeholders with unique values for every individual product processed in the batch.
     ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/hSKoFNYycQr--RrbjrFaaNum4tvErHYsHA.png)
 
-##
-4\. Magento Automation & Image Naming Configurations (Tab 4)
+## 4\. Magento Automation & Image Naming Configurations (Tab 4)
 
 This tab controls how your media assets are initially queued for processing and structured for injection into the Magento database architecture, ensuring proper default data-mapping and SEO optimization.
 
@@ -130,9 +128,8 @@ This tab controls how your media assets are initially queued for processing and 
 
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/zAHGFiGSaSobL-Deg00nawI92l2RDf4wzw.png)
 
-##
 
-## 5. ****Flow Activation & Execution****
+## 5. **Flow Activation & Execution**
 
 Once you have completed all mapping fields on Tab 4, your automated pipeline is ready to deploy. Use the following steps to initialize the generation engine:
 
@@ -177,9 +174,9 @@ Clicking the **Eye icon** launches our streamlined, side-by-side overlay designe
 
 -   **Accept & next:** Approves the version, locks in your customized Magento metadata overrides, and **instantly swipes open the next image** in your batch queue.
 
-##
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/fghCPbvdab9wtI-u0AWAUQPsuXIrvMCEPg.png)
-6\. Bulk Actions & Local ZIP Exports
+
+## 6\. Bulk Actions & Local ZIP Exports
 
 Fozzels provides total data portability over your visual inventory. You can push batches directly to Magento, or export folders locally.
 
@@ -208,8 +205,7 @@ Because processing large batches of high-resolution images can take a few moment
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/EqkvThCVlPgUbKnTorc6vQ3Ilx2CxPOccg.png)
 ![](/img/kb/content-creation-flows/user-guide-automated-image-flow-for-magento-2/b3yz16xNhZFEKIfuUAB_xhtCTPD7feQp6w.png)
 
-##
-7\. SEO Optimization: Generating Alt Texts for New Images
+## 7\. SEO Optimization: Generating Alt Texts for New Images
 
 In addition to visual assets, Fozzels can automatically generate relevant, SEO-optimized Alt texts (alternative descriptions) for every new AI image pushed to your Magento store. This significantly improves your catalog's ranking factors in Google Image Search results.
 

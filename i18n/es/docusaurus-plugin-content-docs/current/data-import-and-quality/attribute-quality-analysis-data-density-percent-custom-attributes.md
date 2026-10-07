@@ -32,8 +32,7 @@ El proceso de importación de datos comienza con el comando **Importar Productos
 
 ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/JRoTBrRsovpu033tRmysjhhnEYa-1nIkzg.png)
 
-####
-1.3. Análisis de Calidad: Porcentaje de Densidad de Datos
+#### 1.3. Análisis de Calidad: Porcentaje de Densidad de Datos
 
 En la pestaña **Atributos**, Fozzels calcula automáticamente la calidad de cada campo.
 
@@ -45,8 +44,7 @@ En la pestaña **Atributos**, Fozzels calcula automáticamente la calidad de cad
 
 ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/suceb1fs0FvE76a7CHN6A6JvqnLGLtaL2g.png)
 
-###
-Parte 2: Revisión y Configuración
+### Parte 2: Revisión y Configuración
 
 #### 2.1. Revisando Datos de Ejemplo (Obtener Datos de Ejemplo Aleatorios)
 
@@ -69,8 +67,9 @@ Al hacer clic en el **icono Editar** (lápiz) en un atributo, se abre la ventana
 
 -   **Transformar Datos:** Permite la **Ejecución de Código en Tiempo de Ejecución** (código personalizado) en el valor importado antes de ser almacenado.
 
-##### ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/XMR_zIZH_IM-p4UANnIYB8m37CATk4nhBQ.png)
-Indicadores Técnicos
+![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/XMR_zIZH_IM-p4UANnIYB8m37CATk4nhBQ.png)
+
+##### Indicadores Técnicos
 
 -   **Filtrable:** Si está habilitado, este atributo puede usarse para filtrar productos en el Catálogo/Lista de Lotes por su valor.
     ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/EvbjNHS2aedS-hzos_piQd1wAtXba0rJww.png)

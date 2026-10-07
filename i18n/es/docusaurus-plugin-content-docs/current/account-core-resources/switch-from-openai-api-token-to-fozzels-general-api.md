@@ -58,7 +58,6 @@ Actualmente puede elegir entre los siguientes modelos de IA:
 
 ![Todos los modelos de IA disponibles en Fozzels](/img/kb/account-core-resources/switch-from-openai-api-token-to-fozzels-general-api/AU9GwQ3QT_bYnbdVWdVFZXcOrtjOBOSAAQ.jpg)
 
-##
 
 ## Qué hacer, paso a paso
 

@@ -24,11 +24,9 @@ Non dovrà mai più temere di perdere un'ottima idea o la descrizione originale 
 -   **Ripristino immediato:** ha trovato la versione che preferisce? Basta premere "Applica" per impostarla come risultato finale e prepararla per la sincronizzazione.
     ![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/ftjZSeWj8ZmiGEJSD0J5msqJmzHI42GRcQ.png)
 
-### ![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/o4wyKSA37qAs86zH7062F7FDpxuQSMCDOw.png)
+![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/o4wyKSA37qAs86zH7062F7FDpxuQSMCDOw.png)
 
-###
 
-###
 
 ### 2\. La Sua attività, i Suoi tempi: pianificazioni del pull personalizzate e fusi orari
 
@@ -38,21 +36,17 @@ Abbiamo adattato la piattaforma al Suo ritmo locale e alle esigenze dei mercati 
 
 -   **Interfaccia localizzata:** basta calcolare le differenze rispetto all'UTC. Imposti il Suo fuso orario preferito nel profilo e ogni log, pianificazione e marca temporale nell'interfaccia di Fozzels rifletterà la Sua ora locale.
 
-### ![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/r3azU1Ib34ZclmzFNk_Zq7SICltm5fXptA.png)
+![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/r3azU1Ib34ZclmzFNk_Zq7SICltm5fXptA.png)
 
-###
 
-### ![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/ca0pGrrJcmPpGFV95DEQCd36CcJisiZrkA.png)
+![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/ca0pGrrJcmPpGFV95DEQCd36CcJisiZrkA.png)
 
-###
 
-### ![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/Mk1ohtoHOSJosIZQ5zb-3zRlF752DHZwTQ.png)
+![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/Mk1ohtoHOSJosIZQ5zb-3zRlF752DHZwTQ.png)
 
-###
 
-### ![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/fTkJXbF6hWMtERPUZDr-nC2F7-b4SnUV8A.png)
+![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/fTkJXbF6hWMtERPUZDr-nC2F7-b4SnUV8A.png)
 
-###
 
 ### 3\. Qualità senza compromessi: suite avanzata per i contenuti sospetti
 
@@ -74,7 +68,6 @@ Gestire siti WordPress multilingue è ora più semplice che mai.
 -   **Localizzazione simultanea:** generi contenuti unici e localizzati per ogni versione linguistica contemporaneamente, all'interno di un'unica integrazione.
     ![](/img/kb/fozzels-releases-updates/release-5-14-total-control-safety-global-scaling/FUyaZLFhLaA0DvUMHxc6sSnV4I7ciiI54Q.png)
 
-###
 
 ### 5\. Automazione SEO: parole chiave AIOSEO
 
@@ -82,7 +75,6 @@ Abbiamo approfondito la nostra integrazione con il plugin **All in One SEO (AIOS
 
 * * *
 
-###
 
 ### Miglioramenti e stabilità
 

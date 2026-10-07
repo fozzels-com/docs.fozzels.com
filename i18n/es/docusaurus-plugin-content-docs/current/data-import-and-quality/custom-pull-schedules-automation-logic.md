@@ -22,8 +22,7 @@ Ya no estás restringido a un único ciclo del sistema que anteriormente comenza
 
 ![](/img/kb/data-import-and-quality/custom-pull-schedules-automation-logic/4TXxigKSz9G6RrXZnbgqjQ0N7TTKYwiwMQ.png)
 
-##
-Cómo Funciona: La Reacción en Cadena de Automatización
+## Cómo Funciona: La Reacción en Cadena de Automatización
 
 Es importante entender que la hora de Extracción programada es el **disparador** para toda una cadena de procesos. Una vez que la **Extracción** importa exitosamente tus datos, el sistema ejecuta automáticamente los siguientes pasos:
 

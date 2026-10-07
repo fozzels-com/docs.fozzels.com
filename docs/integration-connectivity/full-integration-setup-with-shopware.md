@@ -31,8 +31,7 @@ Navigate to the system settings.
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/NE3HjkKRNa353OQJJBzR8eeF_Y9XA9Mi_w.png)
 
-###
-4\. Click "Users & permissions"
+### 4\. Click "Users & permissions"
 
 Select the Integrations option from the System menu.
 
@@ -105,8 +104,7 @@ Enter a name for the integration. Then open the "Roles" dropdown and select the 
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/DZY9Dx_ZSKux2NMqdZxEYkFXqeT3JeZVlg.png)
 
-###
-12\.  Copy the Access Key ID
+### 12\.  Copy the Access Key ID
 
 Click the copy icon next to the **Access Key ID** to copy it to your clipboard. Paste this key into a text document for safekeeping - you will need it in Part 2.
 
@@ -130,7 +128,6 @@ The integration is now created and active.
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/ddwo4oRoStm6_leYM-OMhtbNWvrs2B5OkA.png)
 
-###
 
 # Part 2: Connect Fozzels to Shopware 6
 
@@ -140,8 +137,7 @@ Now that you have created the integration in Shopware, you will configure the co
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/QNYGtnmJc1jLtdHtrac2heMnCvr8OeCjOw.png)
 
-###
-**2.**  Click "Integrations"
+### **2.**  Click "Integrations"
     In the Fozzels menu, click on Integrations.
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/p3WWrWl5kNt7ZpAfsTGCttAeYkIT1rVN6A.png)
 3\. Click "Create"
@@ -167,7 +163,7 @@ Fill in the following fields in order:
 
 **6**. When all fields are filled in, click "Save". You should see a "Success" pop-up confirming the connection was saved.
 
-### ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/Hx1KICwgA4nYaOgpQbjeLYyUYMAfwizHIA.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/Hx1KICwgA4nYaOgpQbjeLYyUYMAfwizHIA.png)
 
 ### 7\. Activate the integration
     Toggle the "Active" switch to on to activate the integration.
@@ -210,4 +206,3 @@ Here are some additional articles that may help you get started with Fozzels:
 
 Or reach out to us directly - we are always happy to help!
 
-###

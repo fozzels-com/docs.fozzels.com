@@ -12,8 +12,9 @@ Met deze functie kunt u precies bepalen welke HTML-tags kunnen worden gebruikt e
 
 Door deze lijst te bepalen, ontgrendelt u krachtige mogelijkheden voor het genereren van inhoud met specifieke opmaak of het rechtstreeks insluiten van multimedia in de gegenereerde tekst.
 
-## ![](/img/kb/content-creation-flows/allowed-html-tags-for-ai-text-generation/KsO3jFsp7Ytx48uE5alhlIVzvjfJd8Trzw.png)
-Hoe het systeem tags verwerkt
+![](/img/kb/content-creation-flows/allowed-html-tags-for-ai-text-generation/KsO3jFsp7Ytx48uE5alhlIVzvjfJd8Trzw.png)
+
+## Hoe het systeem tags verwerkt
 
 Het systeem werkt als een beveiligingsfilter:
 

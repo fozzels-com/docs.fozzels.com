@@ -62,8 +62,7 @@ Wir haben die Kommunikation in unserer Oberfläche verbessert, um sicherzustelle
 
 -   **Stabile manuelle Generierungen:** Behoben eine Diskrepanz in der Generierungsanzahl während großer manueller Ausführungen. Manuelle Generierungen bewahren nun die gleiche Konsistenz und Stabilität wie unsere automatisierten Hintergrund-Zyklen.
 
-###
-Warum Version 5.12 wichtig ist
+### Warum Version 5.12 wichtig ist
 
 Dieses Release durchbricht die Silos zwischen Ihren Daten und Ihrer KI. Durch die Vereinigung von **ACF/SEO-Attributen**, **Multi-Vendor-KI-Modellen** und **konsolidierten Kategoriebäumen** bietet Fozzels 5.12 die stabilste und leistungsfähigste Automatisierungsumgebung auf dem Markt.
 

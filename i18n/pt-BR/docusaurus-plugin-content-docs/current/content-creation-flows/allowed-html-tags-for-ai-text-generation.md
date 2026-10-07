@@ -12,8 +12,9 @@ Este recurso permite que você defina com precisão quais tags HTML podem ser us
 
 Ao definir essa lista, você desbloqueia possibilidades poderosas para gerar conteúdo com formatação específica ou incorporar multimídia diretamente no texto gerado.
 
-## ![](/img/kb/content-creation-flows/allowed-html-tags-for-ai-text-generation/KsO3jFsp7Ytx48uE5alhlIVzvjfJd8Trzw.png)
-Como o Sistema Processa Tags
+![](/img/kb/content-creation-flows/allowed-html-tags-for-ai-text-generation/KsO3jFsp7Ytx48uE5alhlIVzvjfJd8Trzw.png)
+
+## Como o Sistema Processa Tags
 
 O sistema funciona como um filtro de segurança:
 

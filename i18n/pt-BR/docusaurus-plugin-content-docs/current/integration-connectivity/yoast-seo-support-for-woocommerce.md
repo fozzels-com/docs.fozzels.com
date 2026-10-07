@@ -40,7 +40,6 @@ Para sincronização bem-sucedida, seu site WordPress deve ter **dois plugins at
 
 3.  Ative o alternador e clique em **SALVAR**.
 
-###
 ![](/img/kb/integration-connectivity/yoast-seo-support-for-woocommerce/Q2vuNHpeZol7txxezMoTQmPyzT3To9Rwpw.png)
 
 ### Passo 3: Atualização da estrutura de dados

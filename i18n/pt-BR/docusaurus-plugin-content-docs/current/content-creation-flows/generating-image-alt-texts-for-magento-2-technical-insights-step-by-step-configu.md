@@ -27,8 +27,7 @@ Para conceder ao sistema permissão para sobrescrever e injetar dados neste slot
 ![](/img/kb/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/ryugiLjaej08TONBWZC6dvmgdeHvEKzJOA.png)
 ![](/img/kb/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/vj3HVtE0gIyKK1lMzn0NeLCwxHle8IT1Cg.png)
 
-##
-Etapa 2. Inicialização de Fluxo e Mapeamento de Atributo
+## Etapa 2. Inicialização de Fluxo e Mapeamento de Atributo
 
 1.  Vá para a seção **Fluxos de Conteúdo** e clique no botão **Criar Fluxo** (ou selecione produtos alvo diretamente da sua visualização de catálogo e clique em **Ações → Criar Fluxo**).
 

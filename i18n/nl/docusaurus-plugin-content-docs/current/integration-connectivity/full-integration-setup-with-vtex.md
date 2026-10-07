@@ -66,8 +66,7 @@ Gebruikers kunnen ook verwijzen naar de officiële VTEX Knowledge Base voor gede
 -   Engels: [https://help.vtex.com/docs/tutorials/generated-keys](https://help.vtex.com/docs/tutorials/generated-keys)
 -   Spaans: [https://help.vtex.com/es/docs/tutorials/claves-generadas](https://help.vtex.com/es/docs/tutorials/claves-generadas)
 
-##
-Deel 2. Instellingen aan de Fozzels-zijde
+## Deel 2. Instellingen aan de Fozzels-zijde
 
 Zodra uw API-gegevens gereed zijn, stelt u de verbinding in Fozzels in.
 

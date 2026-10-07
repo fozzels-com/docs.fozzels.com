@@ -22,7 +22,7 @@ Selecteer in het zijmenu onder **MAIN/CATALOG** de optie **Categories**.
 
 Gebruik boven aan de pagina de store switcher-filters om te controleren of u de juiste store view hebt geselecteerd.
 
-### ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/1dojt8GKF7WJ4UfUGbaSXAoXnYw-c2EhlQ.png)
+![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/1dojt8GKF7WJ4UfUGbaSXAoXnYw-c2EhlQ.png)
 
 ### Stap 3. Selecteer categorieën
 
@@ -34,15 +34,15 @@ Kies de categorieën waarvoor u content wilt genereren:
 
 > _Let op:_ De selectie-interface is identiek aan de productworkflow, waardoor het proces snel en eenvoudig is.
 
-### ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/IZYD-wiFeEnNG1Ypw6QzBg6w1iNpWI5Ipg.png)
-Stap 4. Maak de Flow en configureer de hoofdinstellingen
+![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/IZYD-wiFeEnNG1Ypw6QzBg6w1iNpWI5Ipg.png)
+
+### Stap 4. Maak de Flow en configureer de hoofdinstellingen
 
 1.  Voer een duidelijke **Name** in voor de flow (bijv. _Description for Mens collection_).
 
 2.  Het veld **Entity Type** is al vooraf ingesteld op `Category`.
 
-###
-Stap 5. Kies het doelattribuut
+### Stap 5. Kies het doelattribuut
 
 Selecteer in het dropdownmenu **Attribute** het categorieattribuut waarvoor u content wilt genereren (bijv. `Description`) en sla uw selectie op.
 
@@ -59,11 +59,10 @@ Selecteer in het dropdownmenu **Attribute** het categorieattribuut waarvoor u co
 >     ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/wF2PLUJw__aF3ktzhc2gqAQN6hQeKV-Cew.png)
 >
 
-###
 
-###
 ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/jbiOnSCDha9r3SkyY9GnShc-N-ZOKbstSQ.png)
-Stap 6. AI Configuration, Prompt en starten
+
+### Stap 6. AI Configuration, Prompt en starten
 
 1.  Kies uw voorkeurs-AI-model.
 

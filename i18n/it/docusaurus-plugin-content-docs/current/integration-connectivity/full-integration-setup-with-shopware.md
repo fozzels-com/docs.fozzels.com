@@ -32,8 +32,7 @@ Vada alle impostazioni di sistema.
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/NE3HjkKRNa353OQJJBzR8eeF_Y9XA9Mi_w.png)
 
-###
-4\. Clicchi su "Utenti e permessi"
+### 4\. Clicchi su "Utenti e permessi"
 
 Selezioni l'opzione Integrazioni dal menu Sistema.
 
@@ -106,8 +105,7 @@ Inserisca un nome per l'integrazione. Quindi apra il menu a tendina "Ruoli" e se
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/DZY9Dx_ZSKux2NMqdZxEYkFXqeT3JeZVlg.png)
 
-###
-12\.  Copi l'Access Key ID
+### 12\.  Copi l'Access Key ID
 
 Clicchi sull'icona di copia accanto all'**Access Key ID** per copiarlo negli appunti. Incolli questa chiave in un documento di testo per conservarla: Le servirà nella Parte 2.
 
@@ -131,7 +129,6 @@ L'integrazione è ora creata e attiva.
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/ddwo4oRoStm6_leYM-OMhtbNWvrs2B5OkA.png)
 
-###
 
 # Parte 2: Colleghi Fozzels a Shopware 6
 
@@ -141,8 +138,7 @@ Ora che ha creato l'integrazione in Shopware, configurerà la connessione sul la
 
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/QNYGtnmJc1jLtdHtrac2heMnCvr8OeCjOw.png)
 
-###
-**2.**  Clicchi su "Integrazioni"
+### **2.**  Clicchi su "Integrazioni"
     Nel menu di Fozzels, clicchi su Integrazioni.
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/p3WWrWl5kNt7ZpAfsTGCttAeYkIT1rVN6A.png)
 3\. Clicchi su "Crea"
@@ -168,7 +164,7 @@ Compili i seguenti campi nell'ordine indicato:
 
 **6**. Una volta compilati tutti i campi, clicchi su "Salva". Dovrebbe comparire un pop-up "Operazione riuscita" che conferma il salvataggio della connessione.
 
-### ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/Hx1KICwgA4nYaOgpQbjeLYyUYMAfwizHIA.png)
+![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/Hx1KICwgA4nYaOgpQbjeLYyUYMAfwizHIA.png)
 
 ### 7\. Attivi l'integrazione
     Porti l'interruttore "Attiva" su on per attivare l'integrazione.
@@ -211,4 +207,3 @@ Ecco alcuni articoli aggiuntivi che potrebbero aiutarLa a iniziare a usare Fozze
 
 Oppure ci contatti direttamente: siamo sempre lieti di aiutarLa!
 
-###

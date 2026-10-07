@@ -58,7 +58,6 @@ U kunt momenteel kiezen uit de volgende AI-modellen:
 
 ![Alle AI-modellen beschikbaar in Fozzels](/img/kb/account-core-resources/switch-from-openai-api-token-to-fozzels-general-api/AU9GwQ3QT_bYnbdVWdVFZXcOrtjOBOSAAQ.jpg)
 
-##
 
 ## Wat u stap voor stap moet doen
 

@@ -8,8 +8,7 @@ description: Dieses Release dreht sich um Kraft und Kontrolle. Wir haben die wel
 
 Dieses Release dreht sich um Kraft und Kontrolle. Wir haben die weltweit führenden KI-Modelle integriert und die Funktionen hinzugefügt, die Sie am meisten angefordert haben, um Ihren Content-Workflow wirklich nahtlos zu gestalten.
 
-###
-Video-Revolution: Sora und Sora 2
+### Video-Revolution: Sora und Sora 2
 
 Wir freuen uns, die Unterstützung für OpenAIs fortgeschrittenste Video-Modelle bekannt zu geben, die das Spiel in Video Flow verändern.
 
@@ -18,8 +17,7 @@ Wir freuen uns, die Unterstützung für OpenAIs fortgeschrittenste Video-Modelle
 -   Video aus KI-Referenzen: Verwenden Sie mit Fozzels AI generierte Bilder als Basis (Source Image) für Ihre Videos. Perfekt für die Erstellung konsistenter Lookbooks und hochkarätiger Brand-Kampagnen.
     ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/A8OQGp-ucfpLX2OEw1bNNvP83BIOCaiXrw.png)
 
-###
-Next-Gen Intelligence für Content: GPT 5.5
+### Next-Gen Intelligence für Content: GPT 5.5
 
 Ihr Text-Inhalt wird jetzt von OpenAIs intelligentestem Modell angetrieben.
 
@@ -49,8 +47,7 @@ Sie können jetzt generierte Beschreibungen direkt in Fozzels bearbeiten und for
 
 ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/LFkCkbSdq7zSC98Z5shf1o9cRXrku-TJ5Q.png)
 
-###
-Smart Catalog Filtering (Shopify, Magento, Akeneo)
+### Smart Catalog Filtering (Shopify, Magento, Akeneo)
 
 Sie entscheiden genau, was Sie in Fozzels importieren.
 
@@ -58,9 +55,9 @@ Sie entscheiden genau, was Sie in Fozzels importieren.
 
 -   Ordentlicher Katalog: Keine unnötigen Inhalte mehr - arbeiten Sie nur mit den Elementen, die Sie jetzt benötigen.
 
-###
 ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/_PhMY1EsCrLuw_a8c60Xdt-kc4fMyZ6gfw.png)
-WordPress (WooCommerce) Durchbruch
+
+### WordPress (WooCommerce) Durchbruch
 
 -   Volle Variations-Unterstützung: Wir sind tiefer gegangen - vollständige Synchronisierung (sowohl Text als auch Bilder) ist jetzt für jede einzelne Produktvariante (Farbe, Größe usw.) verfügbar.
     ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/wd5XzSMq0IWL9gok77gfbpO7IkCENWjIcQ.png)
@@ -71,8 +68,7 @@ WordPress (WooCommerce) Durchbruch
 -   Queue-Transparenz: Eine neue Spalte in Image/Video-Flow-Listen zeigt die Gesamtzahl der Produkte an, die auf Generierung warten, nicht nur die Anzahl der abgeschlossenen Ergebnisse.
     ![](/img/kb/fozzels-releases-updates/release-7-1-fozzels-global-update-sora-gpt-5-5-and-the-long-awaited-text-editor/YE3FxMEvIqP_3h-GUbSCc_oNJBkqI9wRfw.png)
 
-###
-Fixes und Verbesserungen
+### Fixes und Verbesserungen
 
 -   KI-Chatbot: Verbesserte Empfindlichkeit und Genauigkeit bei der Zuordnung Ihrer spezifischen Integrationsattribute.
 

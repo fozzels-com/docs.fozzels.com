@@ -8,8 +8,7 @@ description: De batchlijst is waar u de inhoud die door uw flows wordt gegeneree
 
 De batchlijst is waar u de inhoud die door uw flows wordt gegenereerd, beoordeelt, bewerkt en goedkeurt voordat deze naar uw winkel wordt gesynchroniseerd. Naast het weergeven van het onbewerkte resultaat, biedt Fozzels nu een ingebouwde **teksteditor** - een opmaakwerkbalk waarmee u de gegenereerde tekst kunt structureren en stileren.
 
-###
-1\. De editor openen
+### 1\. De editor openen
 
 1.  **Navigeer** naar de sectie **Inhoudsflows** in het headermenu.
 2.  **Open** de gewenste flow en klik op de knop **Batchlijst** (of dagrapport)
@@ -18,8 +17,7 @@ De batchlijst is waar u de inhoud die door uw flows wordt gegenereerd, beoordeel
 
 ![](/img/kb/content-creation-flows/editing-content-in-the-batch-list-rich-text-editor/FKtHSS6RvegXJWbRcCdgQHsdD65GlDZauQ.png)
 
-###
-2\. Overzicht van de teksteditor-werkbalk
+### 2\. Overzicht van de teksteditor-werkbalk
 
 Zodra het bewerkingspaneel is geopend, ziet u een opmaakwerkbalk boven het inhoudsveld. Het bevat de volgende besturingselementen: de werkbalk bevat de volgende opties:
 

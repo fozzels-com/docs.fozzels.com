@@ -16,33 +16,36 @@ Wir bauen die Barrieren zwischen Plattformen ab. Wenn Ihre E-Commerce-Plattform 
 -   Vollständiger Feature-Zugang: Nach dem Hochladen können Sie Inline- oder erweiterte Filter verwenden, Produktgruppen erstellen und Content-, Image- oder Video-Flows ausführen, genau wie bei jeder nativen CMS-Verbindung.
 -   Flexibler Reimport: Da es keinen direkten Synchronisierungs-Rückkanal für Raw-Dateien gibt, können Sie Ihre vollständig generierten Text- und Mediendaten einfach aus der Export-Registerkarte herunterladen, um sie manuell zu Ihrem Store hochzuladen.
 
-Shopware Integrations-Level-Filterung
+## Shopware Integrations-Level-Filterung
+
 Wir skalieren weiterhin unsere intelligenten Katalogverwaltungs-Tools und bringen Integrations-Level-Kontrolle zum Shopware-Ökosystem.
 
 -   Produktabruf-Bedingungen: Filtern Sie unnötige Elemente direkt in der Registerkarte Websites und Stores-Konfiguration heraus, bevor sie überhaupt zu Ihrem Fozzels-Arbeitsbereich gelangen.
 -   Erweiterte logische Gruppen: Nutzen Sie AND/OR-Operatoren und Bedingungsgruppen, um präzise Regeln festzulegen, wie z. B. die Überprüfung, ob ein übergeordnetes Element vorhanden ist, oder den Ausschluss spezifischer Benennungsmuster.
 -   Sauberer Arbeitsbereich: Halten Sie Ihr System in Ordnung und sparen Sie Ressourcenlimits, indem Sie nur die genauen Produkte abrufen, die gerade eine Optimierung benötigen.
 
-Next Chapter Image Sync Back
+## Next Chapter Image Sync Back
+
 Unsere Integration mit Next Chapter hat einen wichtigen Meilenstein erreicht und führt eine vollständig automatisierte, bidirektionale Media-Kommunikation ein.
 
 -   Automatisierte Asset-Bereitstellung: Zuvor mussten generierte Bilder manuell zu Next Chapter heruntergeladen und erneut hochgeladen werden. Jetzt schiebt Fozzels neue Bilder direkt zu Ihrem Store.
 -   Sofortiges Storefront-Update: Sobald Ihre Image-Flows ihre kreativen Aufgaben abschließen, erscheinen die resultierenden Grafiken automatisch in Ihrem Live-Produktkatalog.
 
-Advanced Media Slot Ordering
+## Advanced Media Slot Ordering
+
 Take absolute control over how your visual content is presented on your storefront. This feature is now fully supported across Shopify, Magento 2, WooCommerce, and Next Chapter.
 
 -   Präzisions-Positionierung: Anstatt neue Bilder automatisch zum Ende der Produktgalerie zu schieben, können Sie jetzt ihre genaue Slot-Position angeben (1, 2, 3... n).
 -   Hero-Image-Kontrolle: Legen Sie Ihre besten KI-Generierungen fest, um automatisch die erste Position (Hauptbild) zu belegen und Ihre Produktlisten sofort aufzufrischen und die Click-Through-Raten zu maximieren.
 
-Kontinuierlicher KI-Assistent-Zugang
+## Kontinuierlicher KI-Assistent-Zugang
 
 Wir haben Benutzeroberflächen-Ebenen verbessert und Arbeitsbereich-Einschränkungen behoben, um sicherzustellen, dass Ihre Lieblings-KI-Tools während der manuellen Copy-Überprüfungen immer erreichbar sind.
 
 -   Klickbares Overlay: Der KI-Assistent bleibt vollständig aktiv und funktionsfähig, auch wenn das Text-Completion-Editor-Pop-up-Fenster auf Ihrem Bildschirm aktiv ist.
 -   Nahtlose Iterationen: Kopieren Sie Text-Segmente, weisen Sie den Assistenten an, sie neu zu formatieren oder Töne anzupassen, und fügen Sie die verarbeiteten Ergebnisse direkt in den Editor zurück, ohne Ihr aktives Pop-up zu schließen.
 
-Bulk ZIP Export
+## Bulk ZIP Export
 
 Verwaltung großer Kataloge ist jetzt schneller denn je mit unserem umfassenden Bulk-Download-System für alle generierten Datentypen.
 

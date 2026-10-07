@@ -28,8 +28,7 @@ Duplication allows you to reuse comprehensive configurations (filters, prompts, 
 
 ![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/SQ3APzXi6qMf8Vz9_U8bAVr6_tdKhvNCRg.png)
 
-####
-1.2. Store Selection (If Applicable)
+#### 1.2. Store Selection (If Applicable)
 
 -   **Single Store Integration:** If only one store is integrated, the duplicate Flow is created immediately.
 

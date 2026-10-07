@@ -32,8 +32,7 @@ To grant the system permission to overwrite and inject data into this slot, you 
 ![](/img/kb/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/ryugiLjaej08TONBWZC6dvmgdeHvEKzJOA.png)
 ![](/img/kb/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/vj3HVtE0gIyKK1lMzn0NeLCwxHle8IT1Cg.png)
 
-##
-Step 2. Flow Initialization & Attribute Mapping
+## Step 2. Flow Initialization & Attribute Mapping
 
 1.  Go to the **Content Flows** section and click the **Create** **Flow** button (or select target products directly from your catalog view and click **Actions → Create Flow**).
 

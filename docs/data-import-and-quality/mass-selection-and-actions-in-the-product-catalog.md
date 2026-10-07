@@ -11,8 +11,7 @@ description: >-
 
 The Product Catalog is equipped with mass selection functionality, enabling you to efficiently manage large sets of items and streamline the process of creating targeted Flows. This selection mechanism is versatile and preserves the selection state across page transitions.
 
-##
-Product Selection Mechanism
+## Product Selection Mechanism
 
 1\. Checkbox Activation When you select at least one product in the table, two checkboxes become active:
 
@@ -41,8 +40,7 @@ Product Selection Mechanism
 
 ![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/_InM7cpH0oQlYi0_agOrC4lE4yKF171ZXw.png)
 
-##
-Executing Batch Actions
+## Executing Batch Actions
 
 Once one or more products are selected, the **Actions** menu activates, offering tools for further operations.
 

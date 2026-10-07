@@ -21,7 +21,7 @@ In the side menu under **MAIN/CATALOG**, select **Categories**.
 
 At the top of the page, use the store switcher filters to ensure you have selected the correct store view.
 
-### ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/1dojt8GKF7WJ4UfUGbaSXAoXnYw-c2EhlQ.png)
+![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/1dojt8GKF7WJ4UfUGbaSXAoXnYw-c2EhlQ.png)
 
 ### Step 3. Select Categories
 
@@ -33,15 +33,15 @@ Choose the categories you want to generate content for:
 
 > _Note:_ The selection interface is identical to the product workflow, making the process quick and easy.
 
-### ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/IZYD-wiFeEnNG1Ypw6QzBg6w1iNpWI5Ipg.png)
-Step 4. Create the Flow & Configure Main Settings
+![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/IZYD-wiFeEnNG1Ypw6QzBg6w1iNpWI5Ipg.png)
+
+### Step 4. Create the Flow & Configure Main Settings
 
 1.  Enter a clear **Name** for the flow (e.g., _Description for Mens collection_).
 
 2.  The **Entity Type** field will already be pre-selected as `Category`.
 
-###
-Step 5. Choose the Target Attribute
+### Step 5. Choose the Target Attribute
 
 Select the category attribute you want to generate content for (e.g., `Description`) from the **Attribute** dropdown, then save your selection.
 
@@ -58,11 +58,10 @@ Select the category attribute you want to generate content for (e.g., `Descripti
 >     ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/wF2PLUJw__aF3ktzhc2gqAQN6hQeKV-Cew.png)
 >
 
-###
 
-###
 ![](/img/kb/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/jbiOnSCDha9r3SkyY9GnShc-N-ZOKbstSQ.png)
-Step 6. AI Configuration, Prompt & Launch
+
+### Step 6. AI Configuration, Prompt & Launch
 
 1.  Choose your preferred AI model.
 

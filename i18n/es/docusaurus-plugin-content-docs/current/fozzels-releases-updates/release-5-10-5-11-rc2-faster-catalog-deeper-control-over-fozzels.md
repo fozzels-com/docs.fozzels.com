@@ -8,7 +8,6 @@ description: Nos esforzamos por asegurar que trabajar con grandes volúmenes de 
 
 Nos esforzamos por asegurar que trabajar con grandes volúmenes de datos no sea solo rápido, sino también completamente controlable e intuitivo. La Versión 5.10 se enfoca en mejorar la calidad de los datos visuales e **incrementar significativamente el rendimiento y la conveniencia del uso de nuestro servicio Fozzels.**
 
-##
 
 Mejorando el Rendimiento y la Calidad de Datos
 
@@ -40,8 +39,7 @@ Hemos mejorado la UX para hacer que gestionar catálogos grandes sea más rápid
 -   **Control de Columna en "Guardar y Vista Previa":** El bloque **"Visibilidad de columnas"** ha sido agregado a la tabla de vista previa (**Guardar y Vista Previa**). Esto te permite mostrar solo los atributos necesarios, resolviendo problemas con tablas demasiado grandes.
     ![](/img/kb/fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/2xUkAX-SxZ6mayNDh5A91b3m2AkKS4mDFw.png)
 
-###
-3. Gestión de Imágenes y Calidad Visual
+### 3. Gestión de Imágenes y Calidad Visual
 
 -   **Catálogo Visual Limpio:** El sistema ahora **ignora automáticamente y no muestra** URLs de imágenes inválidas (rotas) o vacías en todo el catálogo, informes y listas de generación. Di adiós a las imágenes rotas — tus datos ahora se ven impecables.
 
@@ -62,8 +60,7 @@ Hemos mejorado la UX para hacer que gestionar catálogos grandes sea más rápid
 
 -   **Confiabilidad en Acciones Masivas:** Hemos corregido un problema menor que ocasionalmente causaba que la cuadrícula permaneciera vacía si no se seleccionaban elementos. Trabajar con acciones masivas es ahora aún más confiable.
 
-##
- Bajo el Capó: Estabilidad y Modernidad
+## Bajo el Capó: Estabilidad y Modernidad
 
 -   **Estabilización de Integración Dirigida:** Se han implementado correcciones necesarias para mejorar la estabilidad y funcionalidad de las integraciones con plataformas **WooCommerce, EK Retail y Shopware**, asegurando un funcionamiento confiable para clientes con estas configuraciones específicas.
 

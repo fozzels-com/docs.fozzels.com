@@ -32,8 +32,7 @@ Het gegevensimportproces begint met de opdracht **Pull Products**.
 
 ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/JRoTBrRsovpu033tRmysjhhnEYa-1nIkzg.png)
 
-####
-1.3. Kwaliteitsanalyse: gegevensdichtheidspercentage
+#### 1.3. Kwaliteitsanalyse: gegevensdichtheidspercentage
 
 Op het tabblad **Attributen** berekent Fozzels automatisch de kwaliteit van elk veld.
 
@@ -45,8 +44,7 @@ Op het tabblad **Attributen** berekent Fozzels automatisch de kwaliteit van elk 
 
 ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/suceb1fs0FvE76a7CHN6A6JvqnLGLtaL2g.png)
 
-###
-Deel 2: Beoordeling en configuratie
+### Deel 2: Beoordeling en configuratie
 
 #### 2.1. Voorbeeldgegevens beoordelen (willekeurige voorbeeldgegevens ophalen)
 
@@ -69,8 +67,9 @@ Als u op het pictogram **Bewerken** (potlood) op een kenmerk klikt, wordt het ve
 
 -   **Transformeer gegevens:** Maakt **Runtime-codeuitvoering** (aangepaste code) op de geïmporteerde waarde mogelijk voordat deze wordt opgeslagen.
 
-##### ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/XMR_zIZH_IM-p4UANnIYB8m37CATk4nhBQ.png)
-Technische vlaggen
+![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/XMR_zIZH_IM-p4UANnIYB8m37CATk4nhBQ.png)
+
+##### Technische vlaggen
 
 -   **Filterbaar:** Indien ingeschakeld, kan dit kenmerk worden gebruikt om producten in de catalogus/batchlijst op waarde te filteren.
     ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/EvbjNHS2aedS-hzos_piQd1wAtXba0rJww.png)

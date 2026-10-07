@@ -62,8 +62,7 @@ We hebben de communicatie in onze interface verbeterd om ervoor te zorgen dat u 
 
 -   **Stabiele handmatige generaties:** Opgelost een verschil in generatietelling tijdens grootschalige handmatige runs. Handmatige generaties behouden nu dezelfde consistentie en stabiliteit als onze geautomatiseerde achtergrondc
 
-###
-Waarom versie 5.12 van belang is
+### Waarom versie 5.12 van belang is
 
 Deze release breekt de compartimenten tussen uw gegevens en uw AI af. Door **ACF/SEO-kenmerken**, **multi-leverancier AI-modellen** en **geconsolideerde categoriestructuren** samen te voegen, biedt Fozzels 5.12 de meest stabiele en krachtige automatiseringsomgeving op de markt.
 

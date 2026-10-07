@@ -8,8 +8,7 @@ description: El Catálogo de Productos está equipado con funcionalidad de selec
 
 El Catálogo de Productos está equipado con funcionalidad de selección masiva, permitiéndote gestionar eficientemente grandes conjuntos de elementos y simplificar el proceso de crear Flujos dirigidos. Este mecanismo de selección es versátil y preserva el estado de selección entre transiciones de página.
 
-##
-Mecanismo de Selección de Productos
+## Mecanismo de Selección de Productos
 
 1. Activación de Casillas de Verificación Cuando seleccionas al menos un producto en la tabla, dos casillas de verificación se activan:
 
@@ -38,8 +37,7 @@ Mecanismo de Selección de Productos
 
 ![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/_InM7cpH0oQlYi0_agOrC4lE4yKF171ZXw.png)
 
-##
-Ejecutando Acciones por Lotes
+## Ejecutando Acciones por Lotes
 
 Una vez que se selecciona uno o más productos, el menú **Acciones** se activa, ofreciendo herramientas para operaciones adicionales.
 

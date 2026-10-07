@@ -10,8 +10,7 @@ Al gestionar integraciones de catálogos grandes, controlar **cuándo** y **con 
 
 Con las configuraciones de **Programación Global de Extracción** y **Limitación de Extracción**, puedes programar tiempos de sincronización para evitar el tráfico máximo de la tienda y ajustar pausas de API para evitar errores de limitación de velocidad.
 
-##
-Dónde Encontrar Estas Configuraciones
+## Dónde Encontrar Estas Configuraciones
 
 1.  Inicia sesión en **Fozzels**.
 
@@ -33,9 +32,9 @@ La Programación Global de Extracción te permite definir un único tiempo maest
 
 > ? **Mejor Práctica:** Configura tu programación de extracción durante horas fuera de pico (p. ej., tarde en la noche o temprano en la mañana) cuando el tráfico del sitio web es más bajo para minimizar cualquier carga potencial en el backend de tu tienda.
 
-##
 ![](/img/kb/data-import-and-quality/how-to-configure-global-pull-schedule-api-throttling/fyrAZkK-2BnIOTIwMM32cLL1domLcyE4rg.png)
-2. Limitación de Extracción (Retrasos Entre Solicitudes)
+
+## 2. Limitación de Extracción (Retrasos Entre Solicitudes)
 
 Los Límites de Velocidad de API son restricciones impuestas por plataformas como Shopify, Magento, VTEX u otras para evitar que los servidores se vean abrumados por demasiadas solicitudes a la vez.
 

@@ -12,7 +12,6 @@ description: >-
   organico automatizzando elementi SEO fondamentali
 ---
 
-###
 
 **All in One SEO (AIOSEO)** è il principale plugin WordPress progettato per migliorare il posizionamento nei motori di ricerca e generare traffico organico automatizzando elementi SEO fondamentali come i meta tag e le anteprime social.
 
@@ -47,8 +46,7 @@ Si assicuri che il plugin SEO principale sia attivo sul Suo sito WooCommerce:
 4.  **Verifichi i campi:** apra un prodotto qualsiasi in **Prodotti**. Scorra fino al blocco **AIOSEO Settings**. Dovrebbe vedere i campi standard per _Product Title_ e _Meta Description_.
     ![](/img/kb/integration-connectivity/fozzels-integration-with-aioseo-for-woocommerce-the-complete-setup-guide/4W7ZOYoadym76bmWhy2HAYsmk5KklKq6ZQ.png)
 
-###
-Passaggio 2: installi il plugin "AIOSEO API Sync by Fozzels"
+### Passaggio 2: installi il plugin "AIOSEO API Sync by Fozzels"
 
 Le impostazioni standard di AIOSEO consentono agli strumenti esterni soltanto di leggere i dati. Per **sincronizzare** i contenuti generati con il Suo negozio, deve installare il nostro connettore specifico:
 

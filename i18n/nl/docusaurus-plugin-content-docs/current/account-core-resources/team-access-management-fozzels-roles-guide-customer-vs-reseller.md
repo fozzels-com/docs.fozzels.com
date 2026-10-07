@@ -56,7 +56,6 @@ De verbinding tussen accounts wordt tot stand gebracht via een uitnodiging, die 
 
 ![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/27tRV3zXZo-Sd-xnfdD2Npqj9U3_8fWR5A.png)
 
-###
 ![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/qLafAoXrVGuUXACbhMPMEvQ7Gjf7Xg2kCw.png)
 
 Scenario B: "We zijn een nieuw team; hoe moeten we beginnen?"
@@ -92,8 +91,7 @@ Scenario B: "We zijn een nieuw team; hoe moeten we beginnen?"
 
 -   **Afsluiten:** De reseller kan terugkeren naar zijn eigen account via de koppeling **'Impersonering verlaten'**.
 
-##
-4\. Belangrijk onderdeel: verantwoordelijkheid en controle
+## 4\. Belangrijk onderdeel: verantwoordelijkheid en controle
 
 -   **Delegatie van verantwoordelijkheid:** Door de uitnodiging te accepteren, delegeert u **volledige operationele verantwoordelijkheid** voor alle acties in die account. De reseller kan kritieke gegevens en integraties wijzigen of verwijderen.
 

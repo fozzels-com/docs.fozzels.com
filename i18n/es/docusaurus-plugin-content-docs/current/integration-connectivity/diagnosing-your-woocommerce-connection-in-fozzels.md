@@ -6,12 +6,10 @@ slug: /integration-connectivity/diagnosing-your-woocommerce-connection-in-fozzel
 description: Si ves un letrero "Se detectaron problemas de conexión" después de guardar tu integración de WooCommerce, este artículo te ayudará a entender qué significa cada mensaje
 ---
 
-#
 
 Si ves un letrero **"Se detectaron problemas de conexión"** después de guardar tu integración de WooCommerce, este artículo te ayudará a entender qué significa cada mensaje y cómo solucionarlo.
 
-##
-Cómo funciona el diagnóstico
+## Cómo funciona el diagnóstico
 
 Cada vez que guardas tu integración, Fozzels comprueba automáticamente la conexión a tu tienda de WooCommerce y el estado de los complementos habilitados. Si falta algo o está mal configurado, verás una notificación con una descripción del problema y los pasos para resolverlo.
 
@@ -21,8 +19,7 @@ Hay tres tipos de notificaciones:
 -   **Advertencia**: la integración puede funcionar, pero algo puede causar problemas o limitar la funcionalidad.
 -   **Noticia**: mensaje informativo, no se requiere acción estrictamente pero se recomienda.
 
-##
-Mensajes de conexión base
+## Mensajes de conexión base
 
 Estos mensajes aparecen independientemente de qué complementos tengas habilitados.
 
@@ -41,8 +38,7 @@ Estos mensajes aparecen independientemente de qué complementos tengas habilitad
 -   **"Error de certificado SSL. Asegúrate de que tu tienda usa un certificado HTTPS válido."**
     El certificado SSL de tu tienda es inválido o ha expirado. Comunícate con tu proveedor de hosting para renovar o reemplazar el certificado.
 
-##
-ACF (campos personalizados avanzados)
+## ACF (campos personalizados avanzados)
 
 Estos mensajes aparecen cuando el alterador **Habilitar ACF** está activado en Fozzels.
 
@@ -64,8 +60,7 @@ Estos mensajes aparecen cuando el alterador **Habilitar ACF** está activado en 
 -   **"Error de coincidencia de versión de API de ACF. Se requiere la versión v3."**
     Si estás usando el complemento **ACF to REST API**, debe estar establecido en v3. Ve a **WordPress → Configuración → Enlaces permanentes → ACF to REST API** y establece la **Versión de solicitud** en **v3**.
 
-##
-WPML (multilingüe)
+## WPML (multilingüe)
 
 Estos mensajes aparecen cuando el alterador **Habilitar WPML** está activado en Fozzels.
 

@@ -8,7 +8,6 @@ description: We streven ernaar ervoor te zorgen dat het werken met grote hoeveel
 
 We streven ernaar ervoor te zorgen dat het werken met grote hoeveelheden gegevens niet alleen snel is, maar ook volledig controleerbaar en intuïtief. Versie 5.10 richt zich op het verbeteren van de kwaliteit van visuele gegevens en het **aanzienlijk verhogen van de prestaties en het gemak van het gebruik van onze Fozzels-service.**
 
-##
 
 Prestaties en gegevenslkwaliteit verbeteren
 
@@ -40,8 +39,7 @@ We hebben de UX verbeterd om het beheer van grote catalogi sneller en het werken
 -   **Kolombesturing in "Opslaan en voorbeeld":** het blok **"Column visibility"** is toegevoegd aan de voorbeeldtabel (**Save & Preview**). Dit stelt u in staat om alleen de noodzakelijke kenmerken weer te geven en lost problemen met extreem grote tabellen op.
     ![](/img/kb/fozzels-releases-updates/release-5-10-5-11-rc2-faster-catalog-deeper-control-over-fozzels/2xUkAX-SxZ6mayNDh5A91b3m2AkKS4mDFw.png)
 
-###
-3\. Afbeeldingenmanagement en visuele kwaliteit
+### 3\. Afbeeldingenmanagement en visuele kwaliteit
 
 -   **Schone visuele catalogus:** het systeem **negeert nu automatisch en toont ongeldig (verbroken) of lege afbeeldings-URL's niet** in de catalogus, rapporten en generatielijsten. Zeg aarwel tegen verbroken afbeeldingen — uw gegevens zien er nu onberispelijk uit.
 
@@ -62,8 +60,7 @@ We hebben de UX verbeterd om het beheer van grote catalogi sneller en het werken
 
 -   **Betrouwbaarheid in massabewerkingen:** we hebben een klein probleem opgelost dat af en toe ertoe leidde dat het raster leeg bleef als geen items waren geselecteerd. Het werken met massabewerkingen is nu nog betrouwbaarder.
 
-##
- Onder de motorkap: stabiliteit en moderniteit
+## Onder de motorkap: stabiliteit en moderniteit
 
 -   **Gerichte integratiestabilisatie:** noodzakelijke fixes zijn geïmplementeerd om de stabiliteit en functionaliteit van integraties met platforms **WooCommerce, EK Retail en Shopware** te verbeteren, wat zorgt voor betrouwbare werking voor clients met deze specifieke instellingen.
 

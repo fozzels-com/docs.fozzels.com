@@ -11,8 +11,7 @@ description: >-
 
 L'elenco batch è il luogo in cui esamina, modifica e approva i contenuti generati dai Suoi flussi prima che vengano sincronizzati con il Suo negozio. Oltre alla visualizzazione del risultato grezzo, Fozzels offre ora un **Editor di testo** integrato: una barra degli strumenti di formattazione che Le consente di strutturare e definire lo stile del testo generato.
 
-###
-1\. Accesso all'editor
+### 1\. Accesso all'editor
 
 1.  **Vada** alla sezione **Flussi di contenuti** nel menu dell'intestazione.
 2.  **Apra** il flusso desiderato e clicchi sul pulsante **Elenco batch** (o sul report giornaliero)
@@ -21,8 +20,7 @@ L'elenco batch è il luogo in cui esamina, modifica e approva i contenuti genera
 
 ![](/img/kb/content-creation-flows/editing-content-in-the-batch-list-rich-text-editor/FKtHSS6RvegXJWbRcCdgQHsdD65GlDZauQ.png)
 
-###
-2\. Panoramica della barra degli strumenti dell'editor di testo
+### 2\. Panoramica della barra degli strumenti dell'editor di testo
 
 Una volta aperto il pannello di modifica, vedrà una barra degli strumenti di formattazione nella parte superiore del campo del contenuto. Contiene i seguenti comandi: La barra degli strumenti include le seguenti opzioni:
 

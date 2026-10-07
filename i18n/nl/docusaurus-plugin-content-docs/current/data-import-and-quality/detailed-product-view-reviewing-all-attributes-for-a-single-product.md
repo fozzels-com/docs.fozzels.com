@@ -11,8 +11,7 @@ De gedetailleerde weergave biedt een duidelijke, uitgebreide gegevensbron en een
 ![](/img/kb/data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product/Y6d99F7m8alZx-La1jyfRP0DHNj4Qn4qNA.png)
 ![](/img/kb/data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product/GPecd3ztvlI1KnKq4bB9i0h_ujlKxqbk0A.png)
 
-###
-Toegang tot de gedetailleerde weergave
+### Toegang tot de gedetailleerde weergave
 
 De gedetailleerde productweergave is strategisch toegankelijk op meerdere locaties in het Fozzels-platform om snelle toegang tot kernproductgegevens te garanderen:
 
@@ -22,8 +21,7 @@ De gedetailleerde productweergave is strategisch toegankelijk op meerdere locati
 2\. Directe navigatie: toegang wordt meestal geïnitieerd door op een unieke productidentificatie (zoals de SKU of product-ID) te klikken of door op de miniatuuraafbeelding van het product te klikken.
 ![](/img/kb/data-import-and-quality/detailed-product-view-reviewing-all-attributes-for-a-single-product/QPXZYuU1rbS9KlQlcpm_jYQK6E3G_-9z3A.png)
 
-###
-Waardestellling voor de gebruiker
+### Waardestellling voor de gebruiker
 
 De gedetailleerde productweergave biedt twee primaire voordelen: gegevenshelderheid en visuele volledigheid.
 

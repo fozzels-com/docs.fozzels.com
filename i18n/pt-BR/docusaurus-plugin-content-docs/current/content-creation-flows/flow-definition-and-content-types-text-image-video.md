@@ -80,8 +80,7 @@ O Fozzels suporta três tipos principais de fluxos, cada um visando um tipo espe
 
 2.  **Alvo:** Criação de materiais dinâmicos para promoção de produtos.
 
-##
-Próximos Passos
+## Próximos Passos
 
 -   **Leia** nosso guia detalhado sobre como criar um **Fluxo de Conteúdo** [aqui](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 

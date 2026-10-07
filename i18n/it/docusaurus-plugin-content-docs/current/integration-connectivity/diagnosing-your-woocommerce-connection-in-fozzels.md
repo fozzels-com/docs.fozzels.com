@@ -9,12 +9,10 @@ description: >-
   ciascun messaggio e
 ---
 
-#
 
 Se vede un banner **"Rilevati problemi di connessione"** dopo aver salvato la Sua integrazione WooCommerce, questo articolo La aiuterà a capire cosa significa ciascun messaggio e come risolvere il problema.
 
-##
-Come funziona la diagnosi
+## Come funziona la diagnosi
 
 Ogni volta che salva la Sua integrazione, Fozzels verifica automaticamente la connessione al Suo negozio WooCommerce e lo stato degli eventuali plugin abilitati. Se qualcosa manca o non è configurato correttamente, vedrà una notifica con una descrizione del problema e i passaggi per risolverlo.
 
@@ -24,8 +22,7 @@ Esistono tre tipi di notifiche:
 -   **Avviso** — l'integrazione può funzionare, ma qualcosa potrebbe causare problemi o limitarne le funzionalità.
 -   **Nota** — messaggio informativo; nessun intervento è strettamente necessario, ma è consigliato.
 
-##
-Messaggi della connessione di base
+## Messaggi della connessione di base
 
 Questi messaggi compaiono indipendentemente dai plugin abilitati.
 
@@ -44,8 +41,7 @@ Questi messaggi compaiono indipendentemente dai plugin abilitati.
 -   **"Errore del certificato SSL. Si assicuri che il Suo negozio utilizzi un certificato HTTPS valido."**
     Il certificato SSL del Suo negozio non è valido o è scaduto. Contatti il Suo provider di hosting per rinnovare o sostituire il certificato.
 
-##
-ACF (Advanced Custom Fields)
+## ACF (Advanced Custom Fields)
 
 Questi messaggi compaiono quando l'interruttore **Abilita ACF** è attivato in Fozzels.
 
@@ -67,8 +63,7 @@ Questi messaggi compaiono quando l'interruttore **Abilita ACF** è attivato in F
 -   **"Versione della ACF REST API non corrispondente. È richiesta la versione v3."**
     Se utilizza il plugin **ACF to REST API**, deve essere impostato su v3. Vada su **WordPress → Impostazioni → Permalink → ACF to REST API** e imposti la **Request Version** su **v3**.
 
-##
-WPML (multilingua)
+## WPML (multilingua)
 
 Questi messaggi compaiono quando l'interruttore **Abilita WPML** è attivato in Fozzels.
 

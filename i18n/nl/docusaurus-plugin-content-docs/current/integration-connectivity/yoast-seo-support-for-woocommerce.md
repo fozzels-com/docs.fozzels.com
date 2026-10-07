@@ -40,7 +40,6 @@ Voor succesvolle synchronisatie moet uw WordPress-site **twee actieve plugins** 
 
 3.  Schakel de schakelaar in en klik **OPSLAAN**.
 
-###
 ![](/img/kb/integration-connectivity/yoast-seo-support-for-woocommerce/Q2vuNHpeZol7txxezMoTQmPyzT3To9Rwpw.png)
 
 ### Stap 3: Gegevensstructuur bijwerken

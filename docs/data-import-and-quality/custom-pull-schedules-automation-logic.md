@@ -24,8 +24,7 @@ You are no longer restricted to a single system cycle that previously started at
 
 ![](/img/kb/data-import-and-quality/custom-pull-schedules-automation-logic/4TXxigKSz9G6RrXZnbgqjQ0N7TTKYwiwMQ.png)
 
-##
-How It Works: The Automation Chain Reaction
+## How It Works: The Automation Chain Reaction
 
 It is important to understand that the scheduled Pull time is the **trigger** for an entire chain of processes. Once the **Pull** successfully imports your data, the system automatically executes the following steps:
 

@@ -8,6 +8,8 @@ description: >-
   Il passaggio di configurazione AI (Step 2 nella modifica del Flow) è la fase
   più critica per definire le prestazioni e il profilo di costo di un Content
   Flow. Determina
+keywords:
+- flusso di contenuti
 ---
 
 Il passaggio di configurazione AI (Step 2 nella modifica del Flow) è la fase più critica per definire le prestazioni e il profilo di costo di un Content Flow. Determina la scelta del motore di AI generativa, le sue capacità specializzate e i suoi vincoli operativi. In questa fase gli utenti devono prendere decisioni strategiche, bilanciando qualità dell'output, complessità del compito (ad es. requisiti multimodali) e ottimizzazione dei costi dei token.

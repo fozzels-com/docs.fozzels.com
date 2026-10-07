@@ -36,8 +36,7 @@ The data import process begins with the **Pull Products** command.
 
 ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/JRoTBrRsovpu033tRmysjhhnEYa-1nIkzg.png)
 
-####
-1.3. Quality Analysis: Data Density Percent
+#### 1.3. Quality Analysis: Data Density Percent
 
 On the **Attributes** tab, Fozzels automatically calculates the quality of each field.
 
@@ -49,8 +48,7 @@ On the **Attributes** tab, Fozzels automatically calculates the quality of each 
 
 ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/suceb1fs0FvE76a7CHN6A6JvqnLGLtaL2g.png)
 
-###
-Part 2: Review and Configuration
+### Part 2: Review and Configuration
 
 #### 2.1. Reviewing Example Data (Get Random Example Data)
 
@@ -73,8 +71,9 @@ Clicking the **Edit icon** (pencil) on an attribute opens the window for advance
 
 -   **Transform Data:** Allows **Runtime Code Execution** (custom code) on the imported value before it is stored.
 
-##### ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/XMR_zIZH_IM-p4UANnIYB8m37CATk4nhBQ.png)
-Technical Flags
+![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/XMR_zIZH_IM-p4UANnIYB8m37CATk4nhBQ.png)
+
+##### Technical Flags
 
 -   **Filterable:** If enabled, this attribute can be used to filter products in the Catalog/Batch List by its value.
     ![](/img/kb/data-import-and-quality/attribute-quality-analysis-data-density-percent-custom-attributes/EvbjNHS2aedS-hzos_piQd1wAtXba0rJww.png)

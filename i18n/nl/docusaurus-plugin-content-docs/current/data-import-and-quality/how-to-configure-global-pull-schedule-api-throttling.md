@@ -10,8 +10,7 @@ Bij het beheren van grote catalogusintegraties is het controleren van **wanneer*
 
 Met de instellingen **Global Pull Schedule** en **Pull Throttling** kunt u synctijdstippelingen plannen om piekverkeer in de winkel te voorkomen en API-pauzes aanpassen om throttlingfouten te voorkomen.
 
-##
-Waar u deze instellingen vindt
+## Waar u deze instellingen vindt
 
 1.  Meld u aan bij **Fozzels**.
 
@@ -33,9 +32,9 @@ Met het globale Pull-schema kunt u één moment instellen voor Fozzels om automa
 
 > ? **Best practice:** stel uw Pull-schema in op rustige uren (bijv. laat in de avond of vroeg in de ochtend) als het websiteverkeer het laagst is om mogelijke belasting op de backend van uw winkel te minimaliseren.
 
-##
 ![](/img/kb/data-import-and-quality/how-to-configure-global-pull-schedule-api-throttling/fyrAZkK-2BnIOTIwMM32cLL1domLcyE4rg.png)
-2\. Pull Throttling (vertragingen tussen aanvragen)
+
+## 2\. Pull Throttling (vertragingen tussen aanvragen)
 
 API-tarieflimieten zijn beperkingen die door platforms zoals Shopify, Magento, VTEX en anderen worden ingesteld om te voorkomen dat servers worden overspoeld door te veel aanvragen tegelijk.
 

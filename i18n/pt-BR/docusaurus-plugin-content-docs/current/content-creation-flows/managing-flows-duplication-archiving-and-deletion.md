@@ -26,8 +26,7 @@ A Duplicação permite reutilizar configurações abrangentes (filtros, prompts,
 
 ![](/img/kb/content-creation-flows/managing-flows-duplication-archiving-and-deletion/SQ3APzXi6qMf8Vz9_U8bAVr6_tdKhvNCRg.png)
 
-####
-1.2. Seleção de Loja (Se Aplicável)
+#### 1.2. Seleção de Loja (Se Aplicável)
 
 -   **Integração de Loja Única:** Se apenas uma loja está integrada, o Fluxo duplicado é criado imediatamente.
 

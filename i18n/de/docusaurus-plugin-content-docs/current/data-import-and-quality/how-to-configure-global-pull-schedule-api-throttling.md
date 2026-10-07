@@ -10,8 +10,7 @@ Bei der Verwaltung großer Katalogintegrationen ist die Kontrolle darüber, **wa
 
 Mit den Einstellungen **Globaler Pull-Zeitplan** und **Pull-Drosselung** können Sie Synchronisierungszeiten planen, um Spitzenlastverkehr auf dem Shop zu vermeiden, und API-Pausen anpassen, um Rate-Limiting-Fehler zu verhindern.
 
-##
-Wo Sie diese Einstellungen finden
+## Wo Sie diese Einstellungen finden
 
 1.  Melden Sie sich bei **Fozzels** an.
 
@@ -33,9 +32,9 @@ Der Globale Pull-Zeitplan ermöglicht es Ihnen, einen einzigen, übergeordneten 
 
 > ? **Best Practice:** Legen Sie Ihren Pull-Zeitplan außerhalb der Spitzenlastzeiten fest (z. B. spät nachts oder früh morgens), wenn der Website-Verkehr am niedrigsten ist, um mögliche Belastungen auf Ihrem Store-Backend zu minimieren.
 
-##
 ![](/img/kb/data-import-and-quality/how-to-configure-global-pull-schedule-api-throttling/fyrAZkK-2BnIOTIwMM32cLL1domLcyE4rg.png)
-2\. Pull-Drosselung (Verzögerungen zwischen Anfragen)
+
+## 2\. Pull-Drosselung (Verzögerungen zwischen Anfragen)
 
 API-Ratenlimits sind Beschränkungen, die von Plattformen wie Shopify, Magento, VTEX und anderen verhängt werden, um zu verhindern, dass Server durch zu viele Anfragen auf einmal überwältigt werden.
 

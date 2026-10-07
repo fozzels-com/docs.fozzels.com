@@ -6,12 +6,10 @@ slug: /integration-connectivity/diagnosing-your-woocommerce-connection-in-fozzel
 description: Se você vir um banner "Connection Issues Detected" após salvar sua integração WooCommerce, este artigo o ajudará a entender o que cada mensagem significa
 ---
 
-#
 
 Se você vir um banner **"Connection Issues Detected"** após salvar sua integração WooCommerce, este artigo o ajudará a entender o que cada mensagem significa e como corrigi-lo.
 
-##
-Como Funciona o Diagnóstico
+## Como Funciona o Diagnóstico
 
 Toda vez que você salva sua integração, o Fozzels verifica automaticamente a conexão com sua loja WooCommerce e o status de qualquer plugin habilitado. Se algo estiver faltando ou mal configurado, você verá uma notificação com uma descrição do problema e os passos para resolvê-lo.
 
@@ -21,8 +19,7 @@ Existem três tipos de notificações:
 -   **Warning** — a integração pode funcionar, mas algo pode causar problemas ou limitar a funcionalidade.
 -   **Notice** — mensagem informativa, nenhuma ação é estritamente necessária mas recomendada.
 
-##
-Mensagens de Conexão Base
+## Mensagens de Conexão Base
 
 Essas mensagens aparecem independentemente de quais plugins você tenha habilitado.
 
@@ -41,8 +38,7 @@ Essas mensagens aparecem independentemente de quais plugins você tenha habilita
 -   **"SSL certificate error. Ensure your store uses a valid HTTPS certificate."**
     O certificado SSL de sua loja é inválido ou expirou. Entre em contato com seu provedor de hospedagem para renovar ou substituir o certificado.
 
-##
-ACF (Advanced Custom Fields)
+## ACF (Advanced Custom Fields)
 
 Essas mensagens aparecem quando o toggle **Enable ACF** está ativado no Fozzels.
 
@@ -64,8 +60,7 @@ Essas mensagens aparecem quando o toggle **Enable ACF** está ativado no Fozzels
 -   **"ACF REST API version mismatch. Version v3 is required."**
     Se você estiver usando o plugin **ACF to REST API**, ele deve estar definido para v3. Vá para **WordPress → Settings → Permalinks → ACF to REST API** e defina a **Request Version** para **v3**.
 
-##
-WPML (Multilingual)
+## WPML (Multilingual)
 
 Essas mensagens aparecem quando o toggle **Enable WPML** está ativado no Fozzels.
 

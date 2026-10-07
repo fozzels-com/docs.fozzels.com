@@ -8,8 +8,7 @@ description: De productcatalogus is uitgerust met massaselectiefunctionaliteit, 
 
 De productcatalogus is uitgerust met massaselectiefunctionaliteit, waarmee u efficiënt grote reeksen items kunt beheren en het proces van het maken van doelgerichte Flows kunt stroomlijnen. Dit selectiemechanisme is veelzijdig en behoudt de selectiestatus bij paginavergangen.
 
-##
-Productselectiemechanisme
+## Productselectiemechanisme
 
 1\. Checkbox-activering Wanneer u ten minste één product in de tabel selecteert, worden twee selectievakjes actief:
 
@@ -38,8 +37,7 @@ Productselectiemechanisme
 
 ![](/img/kb/data-import-and-quality/mass-selection-and-actions-in-the-product-catalog/_InM7cpH0oQlYi0_agOrC4lE4yKF171ZXw.png)
 
-##
-Batch-acties uitvoeren
+## Batch-acties uitvoeren
 
 Zodra één of meer producten zijn geselecteerd, wordt het menu **Acties** geactiveerd, met hulpmiddelen voor verdere bewerkingen.
 

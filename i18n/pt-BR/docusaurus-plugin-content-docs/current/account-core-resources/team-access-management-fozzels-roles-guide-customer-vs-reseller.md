@@ -56,7 +56,6 @@ A conexão entre contas é estabelecida por meio de um convite, que é **sempre 
 
 ![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/27tRV3zXZo-Sd-xnfdD2Npqj9U3_8fWR5A.png)
 
-###
 ![](/img/kb/account-core-resources/team-access-management-fozzels-roles-guide-customer-vs-reseller/qLafAoXrVGuUXACbhMPMEvQ7Gjf7Xg2kCw.png)
 
 Cenário B: "Somos uma nova equipe; como devemos começar?"

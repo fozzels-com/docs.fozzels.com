@@ -42,7 +42,6 @@ For successful synchronization, your WordPress site must have **two active plugi
 
 3.  Enable the toggle and click **SAVE**.
 
-###
 ![](/img/kb/integration-connectivity/yoast-seo-support-for-woocommerce/Q2vuNHpeZol7txxezMoTQmPyzT3To9Rwpw.png)
 
 ### Step 3: Data Structure Update

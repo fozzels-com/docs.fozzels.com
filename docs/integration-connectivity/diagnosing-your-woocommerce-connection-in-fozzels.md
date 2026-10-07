@@ -8,12 +8,10 @@ description: >-
   integration, this article will help you understand what each message means a
 ---
 
-#
 
 If you see a **"Connection Issues Detected"** banner after saving your WooCommerce integration, this article will help you understand what each message means and how to fix it.
 
-##
-How the Diagnosis Works
+## How the Diagnosis Works
 
 Every time you save your integration, Fozzels automatically checks the connection to your WooCommerce store and the status of any enabled plugins. If something is missing or misconfigured, you will see a notification with a description of the issue and the steps to resolve it.
 
@@ -23,8 +21,7 @@ There are three types of notifications:
 -   **Warning** — the integration can work, but something may cause issues or limit functionality.
 -   **Notice** — informational message, no action is strictly required but recommended.
 
-##
-Base Connection Messages
+## Base Connection Messages
 
 These messages appear regardless of which plugins you have enabled.
 
@@ -43,8 +40,7 @@ These messages appear regardless of which plugins you have enabled.
 -   **"SSL certificate error. Ensure your store uses a valid HTTPS certificate."**
     Your store's SSL certificate is invalid or expired. Contact your hosting provider to renew or replace the certificate.
 
-##
-ACF (Advanced Custom Fields)
+## ACF (Advanced Custom Fields)
 
 These messages appear when the **Enable ACF** toggle is turned on in Fozzels.
 
@@ -66,8 +62,7 @@ These messages appear when the **Enable ACF** toggle is turned on in Fozzels.
 -   **"ACF REST API version mismatch. Version v3 is required."**
     If you are using the **ACF to REST API** plugin, it must be set to v3. Go to **WordPress → Settings → Permalinks → ACF to REST API** and set the **Request Version** to **v3**.
 
-##
-WPML (Multilingual)
+## WPML (Multilingual)
 
 These messages appear when the **Enable WPML** toggle is turned on in Fozzels.
 

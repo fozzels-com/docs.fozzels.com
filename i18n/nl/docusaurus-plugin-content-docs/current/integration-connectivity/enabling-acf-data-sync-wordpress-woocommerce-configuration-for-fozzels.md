@@ -12,7 +12,6 @@ Met deze functie kunt u unieke en uitgebreide productkenmerken (zoals technische
 
 Voor succesvolle integratie zijn belangrijke configuratiestappen in zowel WordPress als Fozzels vereist.
 
-###
 
 ## **Deel 1: Gegevens voorbereiden in WordPress (ACF en REST API)**
 
@@ -34,8 +33,7 @@ Voor de REST API om correct te functioneren, moet de permalinkstructuur verschil
 4.  Sla de wijzigingen op.
     ![](/img/kb/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/yP1swQ74nSHYKF8pRpAgezDqHmxBh4nR-A.png)
 
-###
-Stap 2: Navigeren naar de ACF-veldgroep
+### Stap 2: Navigeren naar de ACF-veldgroep
 
 1.  Ga in het WordPress-menu naar **ACF** / **Veldgroepen**.
     ![](/img/kb/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/a7TVqQW4iMXkGcmlP1WI8nouyni5HGoKsg.png)
@@ -43,8 +41,7 @@ Stap 2: Navigeren naar de ACF-veldgroep
 2.  Klik op de naam van de veldgroep die de velden bevat die u wilt synchroniseren voor uw WooCommerce-producten (bijvoorbeeld **"Fozzels Beschrijving"**).
     ![](/img/kb/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/GH8y_bXf1Lb2RnG-_VWVmrj4XKhaFuCnRg.png)
 
-###
-Stap 3: De veldgroep configureren voor API-toegang (cruciale stap)
+### Stap 3: De veldgroep configureren voor API-toegang (cruciale stap)
 
 Controleer in het venster **Veldgroep bewerken** de locatieregels en schakel API-toegang in.
 
@@ -68,8 +65,7 @@ Controleer in het venster **Veldgroep bewerken** de locatieregels en schakel API
 3.  Sla de wijzigingen op door op **Bijwerken** of **Publiceren** te klikken.
     ![](/img/kb/integration-connectivity/enabling-acf-data-sync-wordpress-woocommerce-configuration-for-fozzels/lIgfpHeR7YI8Bf6W-4UvdIqtW2AQz9kqcw.png)
 
-###
-Stap 4: ACF REST API-versie controleren
+### Stap 4: ACF REST API-versie controleren
 
 Als u een extra plugin gebruikt om ACF in de REST API te integreren (zoals `ACF to REST API`), moet u ervoor zorgen dat de geselecteerde versie compatibel is met Fozzels.
 
