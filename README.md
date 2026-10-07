@@ -41,3 +41,11 @@ GIT_USER=<Your GitHub username> npm run deploy
 ```
 
 If you are using GitHub Pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+## Translations
+
+The Help Center is published in English plus `de`, `nl`, `es`, `pt-BR`, `it` and `fr`.
+Translations live in `i18n/<locale>/`. `npm run translate` (`scripts/translate.mjs`) translates new or changed articles;
+`node scripts/check-locale.mjs <locale>` checks that a locale mirrors `docs/` (files, slugs, images, links, headings).
+
+Adding a language, and known pitfalls: see `.claude/docs/lessons.md`.

@@ -38,6 +38,7 @@ const LOCALES = {
     notes: 'Use the informal register (você). Keep prices in Euro (€) and dates as DD/MM/YYYY.',
   },
   it: {name: 'Italian', notes: 'Use the formal register (Lei).'},
+  fr: {name: 'French', notes: 'Use the formal register (vous).'},
 };
 
 // Fall back to .env so the key never has to be typed on the command line.

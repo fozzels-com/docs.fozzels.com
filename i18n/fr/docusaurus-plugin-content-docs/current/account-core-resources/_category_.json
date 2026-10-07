@@ -1,0 +1,9 @@
+{
+  "label": "Compte et ressources principales",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "slug": "/account-core-resources",
+    "description": "Articles de la section Compte et ressources principales."
+  }
+}
