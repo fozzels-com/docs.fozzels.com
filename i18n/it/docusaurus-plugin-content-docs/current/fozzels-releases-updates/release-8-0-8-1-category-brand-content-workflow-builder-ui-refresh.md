@@ -9,6 +9,8 @@ description: >-
   release si concentra sull'ampliamento delle capacità di generazione dei
   contenuti, aggiungendo flessibilità nella personalizzazione dei flussi di
   lavoro
+keywords:
+- flusso di lavoro
 ---
 
 Siamo lieti di presentare l'aggiornamento v8.0 e v8.1 di Fozzels. Questa release si concentra sull'ampliamento delle capacità di generazione dei contenuti, sull'aggiunta di flessibilità nella personalizzazione dei flussi di lavoro, sul rafforzamento della sicurezza dei dati e sul rinnovamento dell'interfaccia della piattaforma.

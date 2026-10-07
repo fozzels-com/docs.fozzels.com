@@ -7,6 +7,8 @@ description: >-
   remplacer des mots, couper un texte à une limite de longueur ou signaler un
   résultat pour une vérification manuelle avant qu'il n'arrive dans la boutique.
   Créez votre premier workflow et découvrez son fonctionnement.
+keywords:
+- flux de travail
 ---
 
 Les Workflows vérifient et modifient automatiquement les résultats générés : ils peuvent remplacer des mots, couper un texte à une limite de longueur ou signaler un résultat pour une vérification manuelle avant qu'il n'arrive dans la boutique. Vous définissez les règles une seule fois, et elles s'appliquent à chaque nouveau résultat.

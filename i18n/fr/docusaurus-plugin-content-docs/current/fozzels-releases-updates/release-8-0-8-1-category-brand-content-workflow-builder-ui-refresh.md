@@ -9,6 +9,8 @@ description: >-
   Cette version vise à élargir les capacités de génération de contenu, à offrir
   plus de souplesse dans la personnalisation des
   workflows
+keywords:
+- flux de travail
 ---
 
 Nous sommes ravis de vous présenter la mise à jour v8.0 et v8.1 de Fozzels. Cette version vise à élargir les capacités de génération de contenu, à offrir plus de souplesse dans la personnalisation des workflows, à renforcer la sécurité des données et à rafraîchir l'interface de la plateforme.

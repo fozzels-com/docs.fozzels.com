@@ -7,6 +7,8 @@ description: >-
   La Batch List est l'endroit où vous vérifiez, modifiez et approuvez le contenu
   généré par vos flux avant sa synchronisation avec votre boutique. En plus de
   consulter le résultat brut, Fozzels propose désormais
+keywords:
+- liste des lots
 ---
 
 La Batch List est l'endroit où vous vérifiez, modifiez et approuvez le contenu généré par vos flux avant sa synchronisation avec votre boutique. En plus de consulter le résultat brut, Fozzels propose désormais un **Text Editor** intégré : une barre d'outils de mise en forme qui vous permet de structurer et de styliser le texte généré.

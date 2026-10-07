@@ -8,6 +8,8 @@ description: >-
   Nous avons regroupé deux mises à jour majeures pour rendre votre workflow de
   contenu plus fiable et vos capacités de synchronisation illimitées.
   Internationalisation et excellence SEO
+keywords:
+- flux de travail
 ---
 
 Nous avons regroupé deux mises à jour majeures pour rendre votre workflow de contenu plus fiable et vos capacités de synchronisation illimitées.

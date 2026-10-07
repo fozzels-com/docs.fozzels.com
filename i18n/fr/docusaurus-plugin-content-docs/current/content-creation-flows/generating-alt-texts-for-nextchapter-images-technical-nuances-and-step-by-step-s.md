@@ -10,6 +10,8 @@ description: >-
   Puisque vous connaissez déjà les principes de base de la configuration des
   flux de contenu (Product Content Flows) dans Fozzels, cette instruction se
   concentre…
+keywords:
+- flux de contenu
 ---
 
 Puisque vous connaissez déjà les principes de base de la configuration des flux de contenu (Product Content Flows) dans Fozzels, cette instruction se concentre exclusivement sur les spécificités de l'architecture NextChapter : l'utilisation de l'attribut système **product\_media\_gallery** et l'optimisation des coûts en tokens lors du traitement par batch des galeries de médias.

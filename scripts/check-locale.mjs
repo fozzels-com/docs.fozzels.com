@@ -5,7 +5,9 @@
  * For every file in docs/ the translated copy under
  * i18n/<locale>/docusaurus-plugin-content-docs/current/ must exist, keep the
  * same frontmatter keys and the same id/slug/sidebar_position, and keep the
- * same images, link targets, code fences and heading levels. A very short or
+ * same images, link targets, code fences and heading levels. A translation may
+ * add a `keywords` key (native-language search aliases, see
+ * scripts/add-search-keywords.mjs); that is not a difference. A very short or
  * very long translation is flagged too, because it usually means a translator
  * skipped or duplicated a section. Files that exist only in the locale are
  * reported as extra.
@@ -54,8 +56,15 @@ function fmValue(fm, key) {
     .replace(/^(['"])(.*)\1$/, '$2');
 }
 
+/**
+ * Frontmatter keys, minus `keywords`: translations add that key on purpose.
+ */
 function fmKeys(fm) {
-  return [...fm.matchAll(/^(\w+):/gm)].map((m) => m[1]).sort().join(',');
+  return [...fm.matchAll(/^(\w+):/gm)]
+    .map((m) => m[1])
+    .filter((k) => k !== 'keywords')
+    .sort()
+    .join(',');
 }
 
 function all(text, re) {

@@ -7,6 +7,8 @@ description: >-
   Image Flow pour Magento est un outil d'automatisation spécialisé, de niveau
   entreprise, conçu pour la génération massive d'images par IA, le mappage
   automatisé des métadonnées et la synchronisation directe
+keywords:
+- "flux d'images"
 ---
 
 **Image Flow pour Magento** est un outil d'automatisation spécialisé, de niveau entreprise, conçu pour la génération massive d'images par IA, le mappage automatisé des métadonnées et la synchronisation directe avec votre catalogue Magento. En configurant ce flux, vous mettez en place un pipeline autonome qui surveille votre boutique Magento, traite des milliers de produits et met à jour votre site de manière dynamique selon des critères de filtrage avancés.

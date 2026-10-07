@@ -10,6 +10,8 @@ description: >-
   Puisque vous maîtrisez déjà les mécanismes de base de la configuration des
   Product Content Flows dans Fozzels, ce manuel technique se concentre
   exclusivement sur
+keywords:
+- flux de contenu
 ---
 
 Puisque vous maîtrisez déjà les mécanismes de base de la configuration des Product Content Flows dans Fozzels, ce manuel technique se concentre exclusivement sur l'architecture propre à Magento 2 : l'interaction avec l'attribut `product_media_gallery` du système et l'optimisation de la consommation de tokens lors du traitement en masse des galeries de médias.

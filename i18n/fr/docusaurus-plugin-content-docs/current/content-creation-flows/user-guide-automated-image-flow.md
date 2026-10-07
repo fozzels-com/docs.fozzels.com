@@ -7,6 +7,8 @@ description: >-
   Image Flow est un outil professionnel conçu pour la génération en masse et la
   synchronisation d'images produit grâce à l'IA. En configurant un flux une
   seule fois, vous établis
+keywords:
+- "flux d'images"
 ---
 
 **Image Flow** est un outil professionnel conçu pour la génération en masse et la synchronisation d'images produit grâce à l'IA. En configurant un flux une seule fois, vous établissez un système autonome qui traite des milliers de produits, y compris les nouveaux articles ajoutés à votre boutique par la suite, grâce à un filtrage dynamique basé sur des conditions.

@@ -6,6 +6,8 @@ description: >-
   Le Completion Report est un aperçu quotidien de tous les contenus générés par
   l'IA dans vos Flows : il indique ce qui a été généré, confirmé et envoyé vers
   votre boutique un jour donné.
+keywords:
+- liste des lots
 ---
 
 Le Completion Report est un aperçu quotidien de tous les contenus générés par l'IA dans vos Flows : il indique ce qui a été généré, confirmé et envoyé vers votre boutique un jour donné.

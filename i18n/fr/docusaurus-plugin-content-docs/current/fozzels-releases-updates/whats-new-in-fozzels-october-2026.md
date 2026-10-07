@@ -7,6 +7,8 @@ description: >-
   qualité automatiques avec les Workflows, créez vos prompts dans un nouvel
   éditeur avec aperçu en direct et protégez votre boutique des erreurs de l'IA
   grâce à de nouveaux garde-fous.
+keywords:
+- flux de travail
 ---
 
 Cette mise à jour a pour but de vous faire gagner du temps et de vous donner plus de contrôle sur votre contenu IA. Vous pouvez désormais renseigner jusqu'à 13 attributs dans un seul Flow, configurer des règles de qualité automatiques avec les Workflows et créer vos prompts dans un nouvel éditeur avec aperçu en direct.

@@ -33,7 +33,9 @@ Used for `it` (FOZ-2533) and `fr` (FOZ-2548).
 6. Translate every file in `docs/` (articles and `_category_.json`) into
    `i18n/<l>/docusaurus-plugin-content-docs/current/` with the same relative
    path. Keep `id`, `slug` and `sidebar_position` unchanged.
-7. `node scripts/check-locale.mjs <l>` must report 0 problems. Then do a full
+7. Add native search keywords: extend `GLOSSARY` in
+   `scripts/add-search-keywords.mjs`, run it for the locale.
+8. `node scripts/check-locale.mjs <l>` must report 0 problems. Then do a full
    `npx -y yarn@1.22.22 build` (all locales) and click through `/<l>/` locally.
 
 ## Numbered lessons
@@ -55,11 +57,22 @@ Used for `it` (FOZ-2533) and `fr` (FOZ-2548).
 5. **Stopping a local `docusaurus serve`**: `pkill -f "docusaurus serve …"`
    inside a compound shell command also kills that shell. Kill by port PID
    (`ss -ltnp | grep :PORT`).
-6. **Older locales are not fully in sync** (found by `check-locale.mjs` in
-   FOZ-2548): `pimcore-datahub-exposing-published-and-image-gallery.md` is
-   missing in de/nl/es/pt-BR, and some de/nl/es/pt-BR articles have extra
-   frontmatter keys (e.g. `keywords`) or different heading levels. Run the
-   check per locale before relying on parity.
+6. **Translated articles carry a `keywords` key on purpose** (Yaroslav,
+   2026-08-03). Translations keep English product nouns ("Content Flow",
+   "Image Flow", "Batch List"), so the `keywords` frontmatter adds the native
+   search terms ("Bildfluss", "flux de contenu"). A term is only tagged when the
+   English term is in the translated title or description; tagging on the body
+   put the alias on most articles and made it useless for ranking. It is not
+   drift: `check-locale.mjs` ignores it. For a new locale, add its aliases to
+   `GLOSSARY` in `scripts/add-search-keywords.mjs` and run
+   `node scripts/add-search-keywords.mjs <l>` (FOZ-2548 first flagged these
+   keys as drift by mistake).
+   **Articles added later need translating into every locale.** The Pimcore
+   DataHub article (added 2026-09-24) was missing in de/nl/es/pt-BR until
+   FOZ-2548. `translate.mjs` does that when it can run; otherwise translate by
+   hand and run `check-locale.mjs` for every locale. Remaining differences in
+   de/nl/es/pt-BR are heading levels, caused by untidy headings in the
+   imported English source (empty `##`, numbered sub-steps as plain text).
 7. **Compare YAML values, not their layout.** `slug: >-` folded onto the next
    line equals a plain one-line `slug:`; a text diff of frontmatter reports
    false mismatches.

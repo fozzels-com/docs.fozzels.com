@@ -7,6 +7,8 @@ description: >-
   Les Content Flows automatisés de Fozzels vous permettent de générer et de
   synchroniser automatiquement le contenu produit en arrière-plan, sans avoir à
   déclencher
+keywords:
+- flux de contenu
 ---
 
 Les Content Flows automatisés de Fozzels vous permettent de générer et de synchroniser automatiquement le contenu produit en arrière-plan, sans avoir à déclencher les tâches manuellement chaque jour.

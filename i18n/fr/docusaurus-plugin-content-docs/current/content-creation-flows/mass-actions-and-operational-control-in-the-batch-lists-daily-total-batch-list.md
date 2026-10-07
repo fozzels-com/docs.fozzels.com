@@ -10,6 +10,8 @@ description: >-
   Gérer le contenu avec les actions de masse. Les Dashboards (ou Batch List)
   sont votre outil principal pour gérer rapidement le contenu. Cette
   fonctionnalité d'actions de masse est disponible
+keywords:
+- liste des lots
 ---
 
 Gérer le contenu avec les actions de masse. Les Dashboards (ou Batch List) sont votre outil principal pour gérer rapidement le contenu. **Cette fonctionnalité d'actions de masse est disponible à la fois dans la vue d'ensemble Daily Total Batch List et dans la vue détaillée Batch List.** Avec la fonction **Mass Actions**, vous pouvez appliquer simultanément à un grand nombre de produits des opérations essentielles telles que la confirmation, la régénération et la synchronisation. Vous gagnez ainsi un temps considérable, car il n'est plus nécessaire de traiter chaque élément individuellement.

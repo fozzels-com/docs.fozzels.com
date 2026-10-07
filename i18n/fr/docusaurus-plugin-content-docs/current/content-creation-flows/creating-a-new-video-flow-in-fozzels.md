@@ -7,6 +7,9 @@ description: >-
   La fonctionnalité Video Flow est un Content Flow spécialisé dédié à la
   génération de courtes vidéos haute fidélité pour la présentation des produits.
   La création d'un Video F
+keywords:
+- flux vidéo
+- flux de contenu
 ---
 
 La fonctionnalité Video Flow est un Content Flow spécialisé dédié à la génération de courtes vidéos haute fidélité pour la présentation des produits. La création d'un Video Flow comprend trois grandes phases : la configuration de base (sélection du modèle), la sélection des ressources (produit et image) et la rédaction précise du prompt. En raison du coût de calcul élevé de la génération vidéo, la précision de la configuration est essentielle pour une exécution réussie et la maîtrise des coûts.

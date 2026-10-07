@@ -10,6 +10,8 @@ description: >-
   Nous sommes ravis de vous présenter la version 7.6 de Fozzels ! Cette version
   apporte une toute nouvelle intégration de plateforme, un accès approfondi aux
   données de catégories et d'images, des
+keywords:
+- flux de travail
 ---
 
 Nous sommes ravis de vous présenter la version 7.6 de Fozzels ! Cette version apporte une toute nouvelle intégration de plateforme, un accès approfondi aux données de catégories et d'images, des contrôles précis de la synchronisation et des Pulls d'API, ainsi que d'importantes améliorations des workflows de génération d'images par IA. Découvrez toutes les nouveautés ci-dessous.

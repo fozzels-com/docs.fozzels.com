@@ -8,6 +8,8 @@ description: >-
   le prompt est l'élément d'entrée le plus critique. Contrairement à la
   génération de texte, les modèles vidéo exigent un niveau de précision bien
   supérieur pour
+keywords:
+- flux vidéo
 ---
 
 Pour les Video Flows qui utilisent des modèles spécialisés comme Gemini Veo 3, le prompt est l'élément d'entrée le plus critique. Contrairement à la génération de texte, les modèles vidéo exigent un niveau de précision bien supérieur pour traduire des concepts textuels en une séquence visuelle cohérente.

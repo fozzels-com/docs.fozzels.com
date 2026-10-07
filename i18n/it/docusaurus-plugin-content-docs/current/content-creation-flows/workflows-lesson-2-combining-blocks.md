@@ -6,6 +6,8 @@ description: >-
   Un workflow può contenere più blocchi collegati tra loro. Il risultato di
   ogni blocco decide quale blocco viene eseguito dopo, quindi un solo workflow
   può gestire testi diversi in modi diversi.
+keywords:
+- flusso di lavoro
 ---
 
 Un workflow può contenere più blocchi collegati tra loro. Il risultato di ogni blocco decide quale blocco viene eseguito dopo, quindi un solo workflow può gestire testi diversi in modi diversi.

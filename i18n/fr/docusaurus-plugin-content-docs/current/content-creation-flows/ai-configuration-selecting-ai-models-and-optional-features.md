@@ -8,6 +8,8 @@ description: >-
   L'étape AI Configuration (étape 2 de la modification d'un Flow) est la phase
   la plus critique pour définir le profil de performance et de coût d'un Content
   Flow. Elle détermine
+keywords:
+- flux de contenu
 ---
 
 L'étape AI Configuration (étape 2 de la modification d'un Flow) est la phase la plus critique pour définir le profil de performance et de coût d'un Content Flow. Elle détermine le choix du moteur d'IA générative, de ses capacités spécialisées et de ses contraintes opérationnelles. Les utilisateurs doivent prendre ici des décisions stratégiques, en arbitrant entre la qualité des résultats, la complexité de la tâche (par ex. besoins multimodaux) et l'optimisation du coût en tokens.

@@ -7,6 +7,8 @@ description: >-
   Ce guide détaille les méthodes de gestion des Content Flows existants, en
   particulier la duplication pour gagner du temps de configuration, ainsi que la
   maintenance générale des flux (archivage et suppr
+keywords:
+- flux de contenu
 ---
 
 Ce guide détaille les méthodes de gestion des Content Flows existants, en particulier la duplication pour gagner du temps de configuration, ainsi que la maintenance générale des flux (archivage et suppression).

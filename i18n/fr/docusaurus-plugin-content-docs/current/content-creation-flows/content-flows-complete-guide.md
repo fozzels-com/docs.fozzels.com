@@ -7,6 +7,8 @@ description: >-
   Fozzels. Ce guide couvre la création d'un Flow, les modèles de prompt, son
   exécution, le cycle de vie des complétions, le contenu suspect et les raisons
   pour lesquelles un contenu ne se synchronise parfois pas.
+keywords:
+- flux de contenu
 ---
 
 Les Content Flows sont la fonctionnalité d'automatisation centrale de Fozzels. Un Flow est une règle qui génère automatiquement du contenu IA pour un attribut produit sélectionné et réécrit le résultat dans votre boutique.

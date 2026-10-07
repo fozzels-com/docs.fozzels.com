@@ -7,6 +7,8 @@ description: >-
   connectée. Découvrez comment le parcourir, filtrer les produits avec le
   condition query builder et créer un Content Flow ciblé à partir d'une
   sélection.
+keywords:
+- flux de contenu
 ---
 
 Le Catalog affiche tous les produits récupérés depuis votre boutique connectée. C'est votre vue centrale des données produit dans Fozzels.

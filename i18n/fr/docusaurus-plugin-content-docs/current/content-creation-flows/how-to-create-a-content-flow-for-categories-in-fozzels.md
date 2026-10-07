@@ -7,6 +7,8 @@ description: >-
   Créer un Content Flow pour les catégories est pratiquement identique au
   travail sur les produits : l'interface est familière, pratique et intuitive.
   Voici un guide pas à pas
+keywords:
+- flux de contenu
 ---
 
 Créer un Content Flow pour les catégories est pratiquement identique au travail sur les produits : l'interface est familière, pratique et intuitive. Voici un guide pas à pas pour configurer et lancer la génération de contenu pour vos catégories.

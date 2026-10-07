@@ -7,6 +7,8 @@ description: >-
   Le Content Flow est au cœur de l'automatisation dans Fozzels. Il indique à
   Fozzels sur quels produits travailler, quels attributs remplir, quel modèle
   d'IA utiliser et quelles instructions lui donner.
+keywords:
+- flux de contenu
 ---
 
 Le Content Flow est au cœur de l'automatisation dans Fozzels. Il indique à Fozzels sur quels produits travailler, quels attributs remplir, quel modèle d'IA utiliser et quelles instructions lui donner. Fozzels génère, met à jour et synchronise ensuite le contenu de vos produits.
