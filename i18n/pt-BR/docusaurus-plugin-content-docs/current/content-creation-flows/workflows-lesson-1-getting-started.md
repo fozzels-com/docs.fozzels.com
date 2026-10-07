@@ -202,6 +202,6 @@ Dentro do resultado, um aviso **Synchronization with integration is disabled** m
 
 ## Próximos passos
 
-A próxima lição aborda recursos avançados: ramificações Yes/No e conexão entre blocks, grupos de condições e trabalho com saída em HTML.
+A próxima lição mostra como conectar vários blocks com as saídas Yes, No e Always, para que um único workflow trate textos diferentes de formas diferentes.
 
 Continue com [4.11.2. Lição 2: Combinando blocks em um workflow](/content-creation-flows/workflows-lesson-2-combining-blocks/).

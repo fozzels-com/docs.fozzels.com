@@ -201,6 +201,6 @@ Inside the result, a **Synchronization with integration is disabled** warning sh
 
 ## What's next
 
-The next lesson covers advanced features: Yes/No branches and connecting blocks, condition groups, and working with HTML output.
+The next lesson shows how to connect several blocks with the Yes, No and Always outputs, so one workflow can handle different texts in different ways.
 
 Continue with [4.11.2. Lesson 2: Combining Blocks in One Workflow](/content-creation-flows/workflows-lesson-2-combining-blocks/).

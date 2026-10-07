@@ -202,6 +202,6 @@ Dentro del resultado, un aviso **Synchronization with integration is disabled** 
 
 ## Qué sigue
 
-La siguiente lección trata funciones avanzadas: ramas Yes/No y conexión de bloques, grupos de condiciones, y trabajo con salida HTML.
+La siguiente lección muestra cómo conectar varios bloques con las salidas Yes, No y Always, para que un mismo workflow trate textos distintos de forma distinta.
 
 Continúe con [4.11.2. Lección 2: combinar bloques en un workflow](/content-creation-flows/workflows-lesson-2-combining-blocks/).
