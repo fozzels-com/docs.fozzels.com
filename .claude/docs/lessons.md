@@ -63,3 +63,5 @@ Used for `it` (FOZ-2533) and `fr` (FOZ-2548).
 7. **Compare YAML values, not their layout.** `slug: >-` folded onto the next
    line equals a plain one-line `slug:`; a text diff of frontmatter reports
    false mismatches.
+8. **Testing search locally**: `/<l>/search?q=…` redirects to `/<l>/search/`
+   and drops the query. Use `/<l>/search/?q=…` (trailing slash) (FOZ-2548).
