@@ -3,136 +3,254 @@ id: '103000367976'
 title: 4.1.2. Crear un Nuevo Flujo de Contenido y Configuración Inicial.
 sidebar_position: 2
 slug: /content-creation-flows/creating-a-new-content-flow-and-initial-settings
-description: El Flujo de Contenido es el núcleo de la automatización dentro de Fozzels. Es un conjunto de instrucciones que define cómo el sistema debe usar el modelo de IA seleccionado para automat
+description: >-
+  El Flow de contenido es el núcleo de la automatización dentro de Fozzels. Le
+  indica a Fozzels en qué productos trabajar, qué atributos rellenar, qué modelo
+  de IA usar y qué instrucciones darle.
 ---
 
-El Flujo de Contenido es el núcleo de la automatización dentro de Fozzels. Es un conjunto de instrucciones que define cómo el sistema debe usar el modelo de IA seleccionado para generar, actualizar y sincronizar automáticamente textos para sus productos.
+El Flow de contenido es el núcleo de la automatización dentro de Fozzels. Le indica a Fozzels en qué productos trabajar, qué atributos rellenar, qué modelo de IA usar y qué instrucciones darle. Fozzels genera, actualiza y sincroniza entonces el contenido de sus productos.
 
-## 1. Crear un Nuevo Flujo de Contenido
+Un Flow puede rellenar varios atributos a la vez. Usted elige un **atributo principal** al crear el Flow y, más adelante, puede añadir hasta 12 más. Todos se generan juntos en una sola solicitud de IA por producto.
 
-1.  **Inicie sesión** en su cuenta de Fozzels.
+Esta guía le acompaña por los cuatro pasos de un Flow, con un ejemplo: un Flow que escribe una **Description**, una **Short Description** y una **Meta Description** para productos de mujer que tienen fotos pero todavía no tienen descripción.
 
-2.  **Vaya** a la sección de **Flujos de Contenido** en el menú de encabezado.
+## 1\. Crear un nuevo Flow
 
-3.  **Seleccione** la tienda deseada de la lista desplegable **"Elegir tienda"**.
+1.  En el menú lateral, en **AI Flows**, haga clic en **Content Flows**. Se abre la lista de Flows.
 
-4.  **Haga clic** en el botón **"Nuevo Flujo de Producto"**.
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/dkNQlB5ollDUkXSZvdTsa61-fyN6j1hZdg.png)
+2.  En la parte superior, compruebe la integración, el sitio web y la tienda. Si tiene más de uno, elija el que necesita en la lista desplegable. Si solo tiene uno, ya está seleccionado.
 
-5.  **Ingrese** el nombre del flujo en el campo **Nombre** (por ejemplo, _Mi Primer flujo de contenido_).
+3.  Haga clic en **New Product Flow** en la esquina superior derecha.
+    ![Lista de Flows con el botón New Product Flow](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-01-new-product-flow-button.png)
 
-6.  **Seleccione** el atributo a actualizar de la lista desplegable **Atributo** (por ejemplo, _Descripción_).
+4.  Introduzca un **Name** para el Flow, por ejemplo _Mi primer flujo de contenido_.
 
-7.  **Haga clic** en el botón **Guardar**.
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/qDGTsHq3b5SDyDecYwdbl9fFgzUk1HDQpA.png)
+5.  En **Entity Type**, elija **Product**. Para generar contenido para categorías, consulte [4.9.1 Cómo crear un Flow de contenido para categorías](/content-creation-flows/how-to-create-a-content-flow-for-categories-in-fozzels/).
+    ![Create New Product Flow: elección del tipo de entidad](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-02-entity-type.png)
 
-8.  **Verifique** que el nuevo flujo aparezca en la lista de Flujos.
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/ebU6dS9TViRZcxsQAbYNYjTpKnW-jd9Rvg.png)
+6.  En **Attribute**, elija el **atributo principal** que rellenará el Flow. Puede escribir para buscar, por ejemplo _description_.
+    ![Búsqueda del atributo principal](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-03-main-attribute-search.png)
 
-## 2. Configuración de IA y Modelo (Pestaña 2: Configuración de IA)
+7.  Haga clic en **Save**.
+    ![Formulario del nuevo Flow listo para guardar](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-04-new-flow-save.png)
 
-1.  **Navegue** a la pestaña **Configuración de IA** (O **Siguiente paso**).
+:::tip
+**Elija como principal el atributo más extenso**, por ejemplo la descripción completa. En los resultados, el atributo principal tiene el editor completo con vista previa, mientras que los atributos adicionales se muestran debajo.
+:::
 
-2.  **Elija** el proveedor de IA (por ejemplo, _OpenAI | ChatGPT_ o _Google | Gemini_).
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/n9NN2mBe7EPu1HcyBY-Xasfs5m2pHHEdaA.png)
+:::note
+**¿Va a generar textos alternativos de imágenes?** Elija **Media Gallery** como atributo. Consulte [4.3.2.a Textos alternativos para Magento 2](/content-creation-flows/generating-image-alt-texts-for-magento-2-technical-insights-step-by-step-configu/) y [4.3.2.b Textos alternativos para NextChapter](/content-creation-flows/generating-alt-texts-for-nextchapter-images-technical-nuances-and-step-by-step-s/).
+:::
 
-3.  **Seleccione** el modelo de IA deseado (por ejemplo, _GPT-4o (nuevo)_ o _Gemini 2.5 Flash Preview_) haciendo clic en el mosaico correspondiente.
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/TcZLY49TXUXTtDOIhsZe2EoRUodTwkNTMg.png)
+## 2. AI Configuration
 
-4.  **Habilite** características de enriquecimiento opcionales, como **Habilitar Búsqueda Web**, si es necesario.
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/Hw53qskGZ3nBjK7FjvvsOEEDFznDFpSOpQ.png)
+Después de guardar, Fozzels abre el paso **AI Configuration**. A partir de ahora, la parte superior de la página muestra el interruptor **Active flow** y el nombre del Flow. Haga clic en el lápiz junto al nombre para cambiarlo.
 
-5.  **Establezca** la cantidad de imágenes (de 1 a 5) en el campo **Cantidad de imágenes** que la IA utilizará para análisis y generación de contenido (opcional).
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/csny9IgMXvADkHUZbDWfxWYWVQcbXer2wg.png)
+1.  En **AI Provider Selection**, elija el proveedor: OpenAI | ChatGPT, Anthropic, xAI o Google | Gemini.
+    ![Elección del proveedor de IA](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-05-ai-provider.png)
 
-6.  **Asegúrese** de que la función **Cambio de Tamaño de Imagen** esté habilitada (recomendado para prevenir errores con archivos grandes, lea más sobre Cambio de tamaño de imagen [aquí](/content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation/)).
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/h9tWKVAiOCFtONtDB2tWqYyXwNm8CJR4-g.png)
+2.  En **Model**, haga clic en un mosaico de modelo. Cada mosaico muestra el precio por 1K tokens de entrada y de salida, el precio de una búsqueda web, si el modelo puede leer imágenes de productos y si admite búsqueda web. Consulte [4.2.1 Configuración de IA](/content-creation-flows/ai-configuration-selecting-ai-models-and-optional-features/).
 
-7.  **Establezca** el valor máximo de tokens (**Máx tokens**) para generación.
-**_![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/TRNywCO8dEOrABpWxX3SZsrBiU9IPpD3Bw.png)_**
+3.  Opcional: marque **Enable Web Search** si su prompt pide a la IA que busque información en línea, por ejemplo en la página de su producto.
 
-8.  **Seleccione** el estilo de texto deseado (**Estilos de texto**) de la lista desplegable (por ejemplo, _Publicidad_ o _Creativo_)**.**
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/6COvPEOCPMjqptoEaqLECdel__NHP7_q6w.png)
+4.  Opcional: en **Image Usage**, defina el **Image count** (hasta 5). La IA analizará entonces ese número de imágenes del producto, en el orden en que llegan desde su integración. Más imágenes consumen más tokens. Déjelo vacío para usar solo el texto del prompt.
 
-9.  **Seleccione** el tono de texto deseado (**Tonos de texto**) de la lista desplegable (por ejemplo, _Formal_ o _Entusiasmado_).
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/EdX6_M7Fbou3VQRhLIAMcVccLkQ0LXcrJg.png)
+5.  Mantenga activada la opción **Enable Image Resize**. Fozzels reduce entonces las imágenes que pesan más de 2 MB y que, o bien no son JPEG, o bien tienen más de 2048 píxeles de ancho o de alto. Consulte [4.2.2 Optimización de imágenes](/content-creation-flows/ai-configuration-image-optimization-resize-rationale-and-implementation/).
+    ![Mosaicos de modelo, búsqueda web, uso de imágenes y cambio de tamaño de imagen](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-06-model-and-image-settings.png)
 
-10.  **Haga clic** en el botón **Guardar** para guardar la configuración.
+6.  Opcional: elija uno o más **Text styles** (por ejemplo _Creativo_, _Informativo_) y **Text tones** (por ejemplo _Inspirador_).
+    ![Estilos y tonos de texto](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-07-text-styles-tones.png)
 
-## 3. Selección de Producto y Creación de Indicación (Pestaña 3: Selección de Flujo e Indicación)
+7.  Haga clic en **Save** y después en **Next step**.
 
-1.  **Navegue** a la pestaña **Selección de Flujo e Indicación**.
+:::note
+**Image Resize cuesta una pequeña tarifa por imagen, pero desactivarlo no siempre evita el cambio de tamaño.** Las imágenes muy grandes se reducen y se cobran igualmente de forma automática, con todos los proveedores de IA. Sin ello, la generación fallaría con un error, o la IA escribiría en su contenido algo como «No puedo ver la imagen».
+:::
 
-2.  **Active** el flujo **marcando** la casilla **Flujo activo**.
+Puede volver a esta configuración en cualquier momento, incluso después de que el Flow haya empezado a generar.
 
-3.  **Seleccione** el atributo para generación en el campo **Atributo** (debe coincidir con el paso 1.6).
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/vNOY4ePi2dZDPZTVgzFsZeKva-Ff-TZTEg.png)
+## 3\. Flow Selection & Prompt
 
-4.  Aplicar filtrado:
-    4.1. **Utilice** la sección de filtros para limitar los productos para los que se generará contenido.
-    4.2. **Seleccione** un atributo (por ejemplo, _Color_ o _SKU_), defina el operador (Igual, Contiene, Está vacío, etc.), e ingrese el valor. 4.3. Precaución: Si no se aplican filtros, el contenido se generará para **TODOS** los productos actualmente en su tienda.
-**![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/vv-HKjbxUtsGgQ1_c0yv_cdOSFcWpAzKDQ.png)**
+### 3.1 Compruebe el atributo principal y su formato
 
-5.  **Cree** la instrucción (indicación) para la IA:
-    5.1. **Escriba** el texto de indicación principal en el campo Indicación central. _El campo de indicación no puede estar vacío._
-    5.2. **Inserte** datos de productos estáticos (por ejemplo, _Nombre del Producto_ o _SKU_) haciendo clic o arrastrando elementos de la sección Atributos.
-    5.3. **Agregue** lógica dinámica (por ejemplo, _SI Color es Azul_) para generación de contenido condicional utilizando la sección Atributos (si está completada).
-    5.4. **Priorice** elementos con un porcentaje de Densidad de Datos alto para garantizar una generación de contenido exitosa en la mayoría de los productos.
-    5.5 Lea más sobre cómo crear una indicación y usar la herramienta Arrastrar y soltar [aquí](/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor/).
-    5.6 Lea más sobre cómo guardar y cargar una indicación creada como plantilla [aquí](/account-core-resources/resources-prompt-templates-locating-and-using-saved-templates/).
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/1NaIIRbS4Q7wdMA8cA0jKSnoBsh-XUgdJg.png)
+En la parte superior verá el atributo principal que eligió en el paso 1.
 
-6.  **Haga clic** en **"Guardar y Vista Previa"** para ver los productos que cumplen con las condiciones (verá el conteo total de productos).
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/o0INO3KlijbtEPCvPvScfTbViWXrJonVtw.png)
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/tlD_Xv4nww_sdHQbtB-nYMnM7ys3UZ9TnQ.png)
+Decida si el resultado debe contener HTML. Haga clic en el botón del ojo junto al atributo. En la ventana **Edit attribute**, desmarque **Allow HTML** si necesita texto sin formato y sin marcado, y haga clic en **Save**. Consulte [4.7.3 Etiquetas HTML permitidas](/content-creation-flows/allowed-html-tags-for-ai-text-generation/).
 
-7.  **Haga clic** en el botón **Generar Ahora** en la ventana emergente de vista previa para ejecutar una generación de prueba.
-    _![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/MF2Dc75ZZc1YdfVh3W57H-gtKgAR4Jq1XA.png)_
+![Ventana Edit attribute con Allow HTML](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-08-edit-attribute-allow-html.png)
 
-## 4. Configuración de Automatización (Pestaña 4: Automatización)
+:::warning
+Los demás campos de esta ventana son ajustes técnicos de su integración. No los cambie si no sabe para qué sirven. Si necesita ayuda, póngase en contacto con el soporte.
+:::
 
-1.  **Navegue** a la pestaña **Automatización**.
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/jT9iQbF_psMmhbveX_odN1GaB7VTK988lQ.png)
+### 3.2 Seleccione los productos
 
-3.  **Establezca** la cantidad de productos para los que se creará contenido por ejecución en el campo **Cantidad de productos para crear contenido por día** (por ejemplo, 10).
+Use **Filter & Select Products** para elegir en qué productos trabaja el Flow. El número de productos seleccionados se muestra en el título del bloque y en la pestaña del paso 3.
 
-4.  **Marque** la casilla **Completamente automático** si desea que el texto generado sea **inmediatamente** enviado a su tienda sin confirmación. _La mayoría de los usuarios inicialmente mantienen esta opción deshabilitada para revisión manual._
+![Paso Flow Selection & Prompt: atributo principal y filtros](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-09-filter-select-products.png)
 
-5.  **Marque** la casilla **Crear automáticamente un nuevo texto cuando un atributo de un producto cambia en su tienda** para asegurar regeneración cuando se actualicen los datos fuente.
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/rELhAfupqnLV-KmzzijdZcKzYqPy7Y6TlQ.png)
+- Haga clic en **Add condition** para añadir un filtro: elija un atributo, un operador y un valor.
+- Elija **All conditions** (deben cumplirse todas las condiciones) o **Any condition** (basta con una).
+- Haga clic en **Add condition group** para combinar condiciones de formas más complejas.
 
-6.  **Habilite** la función de prevención de superposición de contenido (si no es su primer flujo de contenido) (opcional)
+**Ejemplo.** Para escribir descripciones de productos de mujer que tienen fotos y todavía no tienen descripción:
 
--   Puede establecer un período de tiempo (**horas, días, semanas, meses o años**) para evitar que el sistema genere nuevo contenido para el atributo de producto específico si un flujo anterior ya lo ha manejado.
+| Atributo | Operador | Valor |
+| --- | --- | --- |
+| Categories | is one of | Women |
+| Media Gallery | has an image | Yes |
+| Description | is empty | |
 
-    -   **Bueno saberlo:** Aún contaremos los resultados de generación pasada para prevenir duplicados, incluso si el flujo que los creó fue eliminado o archivado.
-        ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/bKuoDyZad0Su9sGZC5HVmzZt78JZK3cag.png)
+![Ejemplo de filtro: productos de mujer con imágenes y sin descripción](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-10-filter-example.png)
 
-7.  **Haga clic** en el botón **Guardar**.
+:::warning
+Si no define ninguna condición, el Flow usa **todos** los productos de la tienda.
+:::
 
-8.  **Ejecute** el flujo:
+:::tip
+Para no sobrescribir contenido que ya tiene, añada un filtro como **Description is empty** para el atributo que genera.
+:::
 
--   **Planificar y Cerrar:** La generación se agregará a la cola y se lanzará al día siguiente, después del grupo de productos automático nocturno.
+Para ver todas las opciones de filtro, consulte [Filtrado de productos para la generación de contenido](/data-import-and-quality/product-filtering-for-content-generation/).
 
-    -   **Ejecutar Ahora:** La generación se iniciará inmediatamente (para la cantidad de productos especificada en el campo _Cantidad de productos para crear contenido por día_).
-        ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/DR3WD6p7OkbQJcJEUgwKTj-yuvy7HCtong.png)
+#### Guarde sus filtros para reutilizarlos
 
-## 5. Revisión de Resultados (Lista de Lotes)
+Si planea más Flows para los mismos productos, por ejemplo descripciones, metaetiquetas y textos alternativos, guarde los filtros una sola vez:
 
-1.  **Haga clic** en el botón **Lista de Lotes** en el Flujo actual para ver los lotes generados.
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/s3rLqx0aN3qf63h0ohkm2ITtcQ4dpVGSgw.png)
+1.  Haga clic en **Filter set → Save as new**.
+    ![Menú Filter set](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-11-filter-set-menu.png)
 
-2.  **Revise** los datos generados en la columna **Atributo de Destino**.
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/krPPKGK1WQcRrrduGQVGEUUTkyNLOhI_2w.png)
+2.  Introduzca un nombre, por ejemplo _Mujer - descripciones vacías_, y haga clic en **Save**.
+    ![Guardar un conjunto de filtros](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-12-filter-set-save.png)
 
-3.  **Si es necesario**, **edite** el texto generado haciendo clic en él (en modo Mostrar HTML).
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/iiy9xDUPUbNJaN3Dv19ByLztRC6SuuFw_A.png)
+3.  El conjunto aparece ahora en el menú **Filter set**. Haga clic en él para aplicarlo, o en la papelera para eliminarlo.
+    ![Conjunto de filtros guardado en el menú](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-13-filter-set-saved.png)
 
-4.  **Haga clic** en **"Guardar y sincronizar"** para enviar manualmente el contenido confirmado a su tienda.
+Los conjuntos de filtros guardados están disponibles en todos los lugares donde filtra productos: en las integraciones, en el catálogo y en los Flows. También puede combinar un conjunto guardado con condiciones adicionales.
 
-5.  **Nota:** Si Fozzels marca el contenido como **"sospechoso,"** no se puede sincronizar sin regeneración previa. **Regenere** el contenido hasta que cumpla con los requisitos de verificación.
-    ![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/VlcFFEZm3jLMa2CfL0wyEj6i5l4B1n9sYA.png)
+### 3.3 Escriba el prompt
 
-![](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/lSusJ64-jIyhQStOHHai5u5y8pwWE2YoWw.png)
+En la sección **Prompt**, escriba las instrucciones para la IA y añádales datos del producto:
 
-6. **Lea** más sobre revisión de resultados, sincronización manual y manejo de errores en el contenido generado [aquí](/content-creation-flows/tracking-of-the-generated-results-dashboard/).
+- Escriba `/` en el editor, o haga clic en un atributo del panel **Attributes** o arrástrelo. Cada atributo se añade como una línea de condición, por lo que se omite en los productos donde está vacío.
+- Use **Snippets**, como **Attribute list**, para añadir con un clic un bloque ya preparado de datos del producto.
+- Revise la **Preview** a la derecha. Se actualiza mientras escribe y muestra el prompt final para un producto real. Use **&lt; &gt;** para comprobar varios productos.
+- Para reutilizar un prompt en otros Flows, use **Save as template** y **Load**.
+
+![Editor de prompt con la Preview en vivo](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-14-prompt-editor-preview.png)
+
+Para la guía completa, consulte [4.3.2 Configuración y uso del prompt](/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor/).
+
+:::warning
+No use como entrada del prompt los atributos que está generando. Por ejemplo, si el Flow escribe la Description, no inserte el atributo Description en el prompt. En un Flow con varios atributos, esto se aplica a cada uno de ellos. Consulte [Detección de recursión](/data-import-and-quality/recursion-detection-preventing-infinite-content-generation/).
+:::
+
+#### Compruebe si hay funciones desactivadas
+
+Al guardar, Fozzels comprueba si su prompt necesita una función que está desactivada en este Flow. Por ejemplo:
+
+- el prompt pide a la IA que analice las imágenes del producto, pero no se ha definido ningún **Image count**;
+- el prompt pide a la IA que lea la página de su producto, pero **Enable Web Search** está desactivado.
+
+Aparece entonces una advertencia encima de los pasos. Haga clic en **Open AI Configuration** para activar la función, o en **Ask Jane** para recibir ayuda del asistente de IA.
+
+![Advertencia sobre funciones desactivadas en este Flow](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-15-disabled-features-warning.png)
+
+### 3.4 Rellene más atributos en el mismo Flow
+
+Debajo del prompt, en **Additional attributes to fill**, puede añadir hasta 12 atributos más. Todos los atributos del Flow se generan juntos en una sola solicitud de IA por producto, de modo que los datos del producto y las imágenes se envían una sola vez.
+
+1.  Elija un atributo en la lista desplegable y haga clic en **Add attribute**.
+    ![Añadir un atributo adicional](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-16-additional-attribute-add.png)
+
+2.  En **Instruction for this attribute**, escriba lo que debe producir la IA. El campo funciona como el editor del prompt principal, con la Preview, el panel Attributes y los Snippets. Cuando la instrucción está completa, la fila muestra **Prompt set**.
+    ![Instrucción para Short Description](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-17-instruction-short-description.png)
+
+3.  Haga clic en el ojo de la fila para abrir los ajustes del atributo. Para los meta títulos y las meta descripciones, desmarque **Allow HTML**, porque deben ser texto sin formato.
+    ![Instrucción para Meta Description](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-18-instruction-meta-description.png)
+
+4.  Repita el proceso para cada atributo y guarde.
+
+:::tip
+Dé a cada atributo un límite de longitud claro, por ejemplo _2–3 frases, 35–60 palabras_ para una descripción corta o _120–160 caracteres, nunca más de 160_ para una meta descripción.
+:::
+
+### 3.5 Pruebe el prompt
+
+Antes de ejecutar el Flow, pruebe lo que genera la IA en unos pocos productos.
+
+1.  En la parte inferior del paso, haga clic en **Save and Preview**.
+    ![Botón Save and Preview](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-19-save-and-preview.png)
+
+2.  Se abre una tabla con los productos seleccionados. Haga clic en una celda de la columna **Prompt** para ver el prompt completo que recibirá la IA. En un Flow con varios atributos, cada atributo aparece bajo su propio encabezado con su propia instrucción. Haga clic en **Copy to Clipboard** para copiarlo.
+    ![Tabla de generación de prueba](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-20-test-generation-table.png)
+    ![Prompt completo enviado a la IA](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-21-test-generation-prompt.png)
+
+3.  Haga clic en **Generate Now** en la fila de un producto. El resultado se abre en una ventana, con cada atributo bajo su propio encabezado. Haga clic en **Show HTML** para ver el marcado.
+    ![Resultado de la generación de prueba](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-22-test-generation-result.png)
+
+:::info
+Una generación de prueba es **gratuita** y **no** inicia el Flow. El resultado no se guarda, así que, si desea conservarlo, haga clic en **Copy to Clipboard** antes de cerrar la ventana.
+:::
+
+Ajuste el prompt y pruebe de nuevo hasta que el resultado le satisfaga. Después haga clic en **Next step**.
+
+## 4. Automation
+
+![Ajustes de automatización](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-23-automation-settings.png)
+
+| Ajuste | Qué hace |
+| --- | --- |
+| **Amount of products to create content for per day** | Cuántos productos procesa el Flow cada día, hasta 500 |
+| **Fully automatic** | El contenido generado se confirma y se envía a su tienda de inmediato, sin revisión manual. El contenido marcado como sospechoso se retiene igualmente para su revisión. Solo funciona cuando el Flow está activo |
+| **Confidence threshold** | Opcional, de 0.1 a 1.0. La IA indica qué tan segura está de cada valor. Los valores por debajo del umbral se retienen para revisión en lugar de enviarse automáticamente. Cuanto más alto es el umbral, más contenido debe revisar. Déjelo vacío para desactivarlo. Es útil junto con **Fully automatic** |
+| **Automatically create a new text when an attribute of a product changes in your store** | Vuelve a generar el contenido cuando cambia en su tienda un atributo usado en el prompt |
+| **Prevent double content generation with other Flows** | Evita que un producto reciba contenido nuevo si otro Flow ya lo generó. Elija **Inherit** (usar su configuración global), **Override** (definir un período solo para este Flow) o **Turn Off**. Consulte [4.4.1 Evitar la generación de contenido superpuesta](/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/) |
+| **Workflows** | Acciones adicionales opcionales para este Flow. Los Workflows se ejecutan de arriba abajo; arrástrelos o use las flechas para cambiar el orden. Consulte [4.11.1 Workflows](/content-creation-flows/workflows-lesson-1-getting-started/) |
+
+:::tip
+La mayoría de los usuarios empiezan con **Fully automatic** desactivado y revisan a mano los primeros resultados.
+:::
+
+### Inicie el Flow
+
+1.  Active **Active flow** en la parte superior de la página. Los botones de inicio solo están disponibles para un Flow activo.
+
+2.  Elija cómo empezar:
+
+| Opción | Qué ocurre |
+| --- | --- |
+| **Plan & Close** | El Flow empieza al día siguiente, después de la actualización nocturna del catálogo. Después procesa cada día la **Amount of products per day** hasta que todos los productos seleccionados estén listos |
+| **Run Now** (flecha junto a **Plan & Close**) | El Flow procesa de inmediato los primeros **10 productos**. Después continúa con el calendario diario |
+
+![Prevención de duplicados, workflows y botones de inicio](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-24-launch-buttons.png)
+
+Un Flow activo también recoge, después de cada actualización nocturna, los productos nuevos que cumplen sus filtros. Para una lista de comprobación completa previa al inicio, consulte [4.1.2.a Cómo configurar Flows de contenido de IA automatizados](/content-creation-flows/how-to-set-up-automated-ai-content-flows/).
+
+## 5\. Revise los resultados en la Batch List
+
+1.  Haga clic en **Batch List** en la parte inferior de cualquier paso del Flow. En un Flow con varios atributos, cada atributo tiene su propia columna, así que verá todos los resultados de un producto en una sola fila.
+    ![Batch List con una columna por atributo](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-25-batch-list.png)
+
+2.  Haga clic en cualquier valor generado para abrir la ventana **Edit completion result**:
+    - El atributo principal está arriba, con **Enable Editor**, **Show HTML** y una vista previa.
+    - Los demás atributos aparecen debajo, en **Other attributes filled by this Flow**. Expanda cada uno para leerlo y editarlo. Los atributos de tipo select y multiselect se editan con una lista desplegable.
+
+    ![Ventana Edit completion result](/img/kb/content-creation-flows/creating-a-new-content-flow-and-initial-settings/v2-26-edit-completion-result.png)
+
+3.  Edite el texto si es necesario y haga clic en **Save**.
+
+4.  Active **Batch Confirmed** y haga clic en **Save & Sync** para enviar el contenido a su tienda. Mientras el resultado no esté confirmado, la sincronización está desactivada. En un Flow **Fully automatic**, los resultados se confirman por usted.
+
+Otros botones de la ventana:
+
+- **Regenerate** genera el contenido de nuevo. Siempre vuelve a generar **todos** los atributos del Flow juntos.
+- **Show Revisions** muestra versiones anteriores. Consulte [4.8.1 Historial de finalización de contenido](/content-creation-flows/content-completion-history-revision-history-version-control/).
+- **Copy to Clipboard** copia el contenido.
+
+### Contenido sospechoso
+
+Si un resultado no supera los controles de calidad de Fozzels, las partes problemáticas se resaltan en amarillo y el resultado no se sincroniza. Puede corregir a mano las partes resaltadas y guardar, lo cual no tiene coste, o hacer clic en **Regenerate** para generar de nuevo todos los atributos. Consulte [4.7.4 Palabras y frases sospechosas](/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/).
+
+Para más información sobre la revisión y la sincronización de resultados, consulte [4.7.1 Seguimiento de los resultados generados](/content-creation-flows/tracking-of-the-generated-results-dashboard/) y [4.7.5 Edición de contenido en la Batch List](/content-creation-flows/editing-content-in-the-batch-list-rich-text-editor/).

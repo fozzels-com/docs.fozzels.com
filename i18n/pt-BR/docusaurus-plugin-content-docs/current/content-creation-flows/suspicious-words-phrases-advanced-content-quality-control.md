@@ -3,60 +3,100 @@ id: '103000390709'
 title: '4.7.4 Palavras e Frases Suspeitas: Controle Avançado de Qualidade de Conteúdo'
 sidebar_position: 21
 slug: /content-creation-flows/suspicious-words-phrases-advanced-content-quality-control
-description: A funcionalidade Palavras e Frases Suspeitas é mais do que um simples filtro de validação - é uma ferramenta sofisticada para gerenciar fluxos de trabalho de conteúdo em alto volume
+description: >-
+  O recurso Suspicious Words & Phrases sinaliza textos gerados que contêm
+  palavras, frases ou padrões de comentário que você não quer publicar, para que
+  você possa revisá-los antes de irem ao ar.
 ---
 
-A funcionalidade **Palavras e Frases Suspeitas** é mais do que um simples filtro de validação - é uma ferramenta sofisticada para gerenciar fluxos de trabalho de conteúdo em alto volume. Ela garante que suas descrições de produto permaneçam profissionais sinalizando alucinações de IA, artefatos técnicos ou termos indesejados em múltiplos idiomas simultaneamente.
+O recurso **Suspicious Words & Phrases** sinaliza textos gerados que contêm palavras, frases ou padrões de comentário que você não quer publicar. Os completions sinalizados recebem o status **Suspicious**, para que você possa filtrá-los e revisá-los antes de irem ao ar.
 
-## Configuração: Controle Global e Multilíngue
+Ele detecta artefatos de IA (pedidos de desculpas, notas para o leitor, marcação que sobrou), restos técnicos e quaisquer termos que você escolher bloquear, em vários idiomas ao mesmo tempo.
 
-Para gerenciar sua lista de palavras, navegue até **Configurações** > **Fluxo** > aba **Palavras e Frases Suspeitas**.
+## Onde encontrar
 
-### 1\. Gerenciando a Lista de Palavras
+Vá em **Settings** > **Flow** e role até o bloco **Suspicious Words & Phrases**. As configurações valem globalmente para todos os seus fluxos.
 
-Fozzels vem pré-configurado com artefatos de IA comuns (`#html`, `note:`, `desculpas`, etc.). Você pode:
+![Configurações de Suspicious Words & Phrases](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/v2-01-settings.png)
 
--   **Ativar/desativar termos:** Simplesmente desmarque as tags que você não precisa.
+## Como a correspondência funciona
 
--   **Adicionar termos personalizados:** Digite qualquer palavra ou frase (por exemplo, nomes de concorrentes, termos sensíveis específicos da marca) e pressione **Enter**.
+Por padrão, uma palavra é encontrada apenas como palavra inteira. Adicione `*` no início ou no fim para ampliar a busca. Maiúsculas e minúsculas nunca importam.
 
--   **Suporte Multilíngue:** Você pode adicionar "palavras de parada" em qualquer idioma. Isto é incrivelmente útil para lojas internacionais onde você precisa rastrear erros específicos para diferentes localizações (por exemplo, "desculpas" em inglês vs. "let op" em holandês) ao mesmo tempo.
+| Entrada | O que ela encontra |
+| --- | --- |
+| `bright` | apenas _bright_, não _brightness_ nem _ultrabright_ |
+| `bright*` | também _brightness_ e _brightly_ |
+| `*bright` | também _ultrabright_ |
+| `*bright*` | o texto em qualquer posição, inclusive _ultrabrightness_ |
+| `bri*ght` | exatamente o texto `bri*ght` — o `*` só funciona no início ou no fim |
 
-![](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/NHbocGjhOveF2KEQmoSh5o7YOuzzP33eaA.png)
+As mesmas regras valem para frases. Por exemplo, `antwoord` nunca sinaliza _verantwoorde_, `antwoord*` também sinaliza _antwoorden_, e `*seo*` é encontrado em qualquer posição, até dentro de _museo_.
 
-## Como Funciona: Gerenciamento Dinâmico de Status
+## O que é sinalizado
 
-O sistema opera em **tempo real**. Assim que um termo da sua lista aparece em um texto gerado:
+Três fontes alimentam a verificação: palavras padrão, padrões integrados e suas próprias palavras.
 
--   O produto é marcado com um status **"Suspeito"**.
+### Palavras suspeitas padrão
 
--   As palavras sinalizadas são **destacadas diretamente no editor de texto**.
+O Fozzels vem com uma lista pronta de artefatos de IA comuns em vários idiomas, como `*sorry*`, `*please*`, `*note:*`, `*markdown*`, `*<html*`, `*Let op:*` e `*het spijt me*`. Desmarque qualquer palavra de que você não precise, e ela deixa de ser sinalizada.
 
--   Isto lhe dá a opção: **editar manualmente**, **regenerar** o conteúdo, ou **ajustar suas configurações** para limpar o sinalizador.
+### Padrões integrados
 
-### Correções em Massa Instantâneas
+Os padrões integrados procuram o _formato_ de um comentário de IA, e não uma palavra exata. Eles pegam formulações que o modelo nunca usou antes, como:
 
-O verdadeiro poder desta funcionalidade está em sua natureza dinâmica. Se um status "Suspeito" foi acionado por erro (por exemplo, você adicionou "desculpas" como uma palavra de parada, mas depois lançou uma marca chamada _"Sorry Boy"_), você não precisa editar centenas de descrições:
+- "Let's" ou "Let me" antes de um verbo, como em _"Let's re-verify"_
+- Uma verificação sendo contada, como em _"One last check"_ ou _"Final check"_
+- Uma pergunta sobre o próprio texto, como em _"Is the wording accurate?"_
+- Um resultado entregue, como em _"Final answer"_ ou _"Here is the"_
+- Caracteres sendo contados, como em _"59 chars"_ ou _"character limit"_
+- As instruções citadas de volta, como em _"the prompt says"_ ou _"mandatory words"_
+- A palavra "I" antes de um verbo, como em _"I forgot"_ ou _"I'll use"_
 
-1.  **Desative ou remova** a palavra da sua lista de Suspeitos em Configurações.
+A lista completa está nas configurações, com um exemplo em cada padrão. Os padrões não podem ser editados — clique em um para ativá-lo ou desativá-lo. Desative um padrão se ele sinalizar o seu próprio texto.
 
-2.  O sistema **atualiza instantaneamente o status** para todos os completamentos existentes. Eles perderão o sinalizador "Suspeito" e ficarão prontos para sincronização em massa imediatamente.
+Os padrões em cinza começam desativados. Eles correspondem a formatos que textos comuns também usam, como uma pergunta em um FAQ de produto ou uma linha que começa com _Great,_. Ative um deles só se você preferir revisar algumas frases suas a deixar passar esses comentários.
 
-![](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/bnDUh3Fj25UmysKHVdUAyM4Kh5Ev2TWvzg.png)
+### Suas próprias palavras
 
-##
-Eficiência na Lista de Lotes Total Diária
+Em **Add your own suspicious words**, digite uma palavra ou frase e pressione **Enter**. Use esse campo para nomes de concorrentes, termos sensíveis da marca ou erros específicos de um idioma. Você pode misturar idiomas na mesma lista, o que ajuda lojas que publicam em vários idiomas.
 
-Otimizamos seu espaço de trabalho com um filtro dedicado para agilizar seus controles diários:
+## Como a sinalização funciona
 
--   **Mostrar apenas suspeitos:** Use este botão na **Lista de Lotes Total Diária** para isolar instantaneamente todos os resultados que precisam de sua atenção.
+Cada nova geração é verificada com as suas configurações atuais assim que é criada. Quando há uma correspondência:
 
--   Em vez de revisar todo o lote, você pode se concentrar especificamente em itens sinalizados, ver as palavras destacadas, e decidir se deseja corrigir o texto ou refinar sua lista de palavras global para limpar todo o lote de uma vez.
+- O completion recebe o status **Suspicious**.
+- As palavras encontradas são **destacadas** no editor de texto, para que você veja na hora o que causou a sinalização.
+- Você decide o que fazer: **editar** o texto manualmente, **regenerá-lo** ou **ajustar a lista** se a sinalização for um alarme falso.
 
-## Forçando uma Atualização (Atualizar Sinalizador Suspeito)
+Na lista de completions, um resultado sinalizado tem esta aparência. A palavra encontrada (aqui, _hello_) aparece destacada no texto. O botão **Sync Now** mostra um ícone de alerta e a mensagem _"Completion looks suspicious, possible AI recommendations found."_
 
-Embora o status se atualize dinamicamente, você sempre pode disparar manualmente um recálculo para seu catálogo mais amplo. Na sua **Lista de Conteúdo**, selecione os produtos e use a **Ação em Massa: "Atualizar Sinalizador Suspeito"** para re-verificar-los contra suas configurações mais atuais.
+![Um completion suspeito na lista de completions](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/v2-02-suspicious-completion.png)
 
-### Resumo
+Um completion assim não deve ser sincronizado como está. Regenere-o ou edite o texto para remover as palavras sinalizadas.
 
-Esta funcionalidade funciona como seu "centro de comando" para qualidade de conteúdo. Se você está capturando problemas técnicos ou gerenciando segurança de marca em fronteiras internacionais, você está sempre em controle total do que é publicado na sua loja.
+Para revisar apenas os itens sinalizados, ative **Show only suspicious** na **Daily Total Batch List**. Você pula os resultados limpos e vai direto aos textos que precisam de atenção.
+
+## Atualizando completions existentes
+
+Mudar a lista afeta apenas as novas gerações. Os completions que já existem **não** são verificados de novo automaticamente — o status Suspicious deles continua como estava até você recalculá-lo.
+
+Para aplicar suas novas configurações aos textos existentes:
+
+1.  Abra a **Content Completion List** do atributo que você quer verificar.
+2.  Selecione os produtos a verificar de novo.
+3.  Abra o menu **Actions** e escolha **Update Suspicious Flag**.
+
+![Update Suspicious Flag no menu Actions](/img/kb/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control/v2-03-update-suspicious-flag.png)
+
+Os completions selecionados são analisados de novo com a sua lista e os seus padrões atuais. Os produtos que não correspondem mais perdem o status Suspicious e ficam prontos para sincronizar.
+
+**Exemplo:** você adicionou `sorry` como palavra suspeita e depois lançou uma marca chamada _Sorry Boy_. Centenas de descrições agora estão sinalizadas. Remova ou desmarque `sorry` em Settings e execute **Update Suspicious Flag** nesses produtos — as sinalizações desaparecem, e você pode sincronizá-los em massa sem editar cada texto.
+
+## Dicas
+
+- Comece com palavras inteiras e adicione `*` apenas quando precisar de variações. `*seo*` também pega _museo_, o que pode sinalizar textos normais.
+- Se um padrão integrado continua sinalizando textos bons no seu nicho, desative-o em vez de editar os textos um por um.
+- Depois de cada mudança na lista, execute **Update Suspicious Flag** nos produtos que você quer verificar de novo.
+
+Usados em conjunto, a lista de palavras, os padrões e a ação em massa dão a você um único lugar para controlar o que chega à sua loja — em todos os fluxos e em todos os idiomas.

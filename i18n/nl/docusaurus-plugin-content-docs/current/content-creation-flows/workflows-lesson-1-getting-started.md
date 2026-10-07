@@ -202,4 +202,6 @@ Binnen het resultaat toont een **Synchronization with integration is disabled**-
 
 ## Wat volgt hierna
 
-De volgende les behandelt geavanceerde functies: Yes/No-vertakkingen en het verbinden van blokken, voorwaardegroepen, en werken met HTML-output.
+De volgende les laat zien hoe u meerdere blokken verbindt met de uitgangen Yes, No en Always, zodat één workflow verschillende teksten op verschillende manieren kan verwerken.
+
+Ga verder met [4.11.2. Les 2: Blokken combineren in één workflow](/content-creation-flows/workflows-lesson-2-combining-blocks/).
