@@ -203,3 +203,5 @@ Binnen het resultaat toont een **Synchronization with integration is disabled**-
 ## Wat volgt hierna
 
 De volgende les behandelt geavanceerde functies: Yes/No-vertakkingen en het verbinden van blokken, voorwaardegroepen, en werken met HTML-output.
+
+Ga verder met [4.11.2. Les 2: Blokken combineren in één workflow](/content-creation-flows/workflows-lesson-2-combining-blocks/).

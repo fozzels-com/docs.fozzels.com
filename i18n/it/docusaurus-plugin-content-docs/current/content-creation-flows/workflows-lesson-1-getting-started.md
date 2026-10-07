@@ -203,3 +203,5 @@ All'interno del risultato, un avviso **Synchronization with integration is disab
 ## Prossimi passi
 
 La prossima lezione tratta le funzionalità avanzate: rami Yes/No e collegamento dei blocchi, gruppi di condizioni e lavoro con output HTML.
+
+Continui con [4.11.2. Lezione 2: combinare i blocchi in un workflow](/content-creation-flows/workflows-lesson-2-combining-blocks/).
