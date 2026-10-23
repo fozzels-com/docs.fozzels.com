@@ -133,8 +133,6 @@ Goed om te weten:
 
 Goed om te weten: als een Flow voor een andere store view dit attribuut in zijn prompt gebruikt en automatisch een nieuwe tekst maakt wanneer een attribuut wijzigt, ziet die Flow de nieuwe standaardwaarde als een wijziging en genereert hij nieuwe teksten voor producten zonder eigen waarde.
 
-Meer hierover in [4.1.2.c Gegenereerde content synchroniseren naar alle store views in Magento 2](/content-creation-flows/sync-generated-content-to-all-store-views-magento-2/).
-
 ### Magento en NextChapter
 
 **Bestaande productfoto's vervangen.** Nieuwe gegenereerde afbeeldingen kunnen nu de huidige productfoto's vervangen, en de vervanging wordt na synchronisatie correct weergegeven in de mediagalerij van Fozzels.

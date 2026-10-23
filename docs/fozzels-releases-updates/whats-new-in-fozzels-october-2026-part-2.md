@@ -132,8 +132,6 @@ Good to know:
 
 Good to know: if a Flow for another store view uses this attribute in its prompt and automatically creates a new text when an attribute changes, it will treat the new default as a change and generate new texts for products without their own value.
 
-Read more in [4.1.2.c How to Sync Generated Content to All Store Views in Magento 2](/content-creation-flows/sync-generated-content-to-all-store-views-magento-2/).
-
 ### Magento and NextChapter
 
 **Replace existing product photos.** New generated images can now replace the current product photos, and the replacement shows correctly in the Fozzels media gallery after syncing.

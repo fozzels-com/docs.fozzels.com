@@ -133,8 +133,6 @@ Buono a sapersi:
 
 Buono a sapersi: se un Flow per un'altra store view usa questo attributo nel prompt e crea automaticamente un nuovo testo quando un attributo cambia, considererà il nuovo valore predefinito come una modifica e genererà nuovi testi per i prodotti senza un proprio valore.
 
-Maggiori dettagli in [4.1.2.c Come sincronizzare i contenuti generati con tutte le store view in Magento 2](/content-creation-flows/sync-generated-content-to-all-store-views-magento-2/).
-
 ### Magento e NextChapter
 
 **Sostituzione delle foto prodotto esistenti.** Le nuove immagini generate possono ora sostituire le foto prodotto attuali e la sostituzione viene mostrata correttamente nella galleria media di Fozzels dopo la sincronizzazione.

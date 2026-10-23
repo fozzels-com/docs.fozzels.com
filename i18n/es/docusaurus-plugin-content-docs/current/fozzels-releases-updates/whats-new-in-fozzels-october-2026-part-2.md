@@ -133,8 +133,6 @@ Conviene saber:
 
 Conviene saber: si un Flow de otra vista de tienda usa este atributo en su prompt y crea automáticamente un nuevo texto cuando cambia un atributo, tratará el nuevo valor predeterminado como un cambio y generará nuevos textos para los productos que no tengan valor propio.
 
-Más información en [4.1.2.c Cómo sincronizar el contenido generado con todas las store views en Magento 2](/content-creation-flows/sync-generated-content-to-all-store-views-magento-2/).
-
 ### Magento y NextChapter
 
 **Sustituya las fotos de producto existentes.** Las nuevas imágenes generadas ahora pueden sustituir a las fotos de producto actuales, y la sustitución se muestra correctamente en la galería de medios de Fozzels tras la sincronización.

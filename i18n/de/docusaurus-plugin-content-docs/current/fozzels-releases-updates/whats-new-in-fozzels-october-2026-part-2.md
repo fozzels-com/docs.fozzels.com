@@ -133,8 +133,6 @@ Gut zu wissen:
 
 Gut zu wissen: Wenn ein Flow für eine andere Store-Ansicht dieses Attribut in seinem Prompt verwendet und bei einer Attributänderung automatisch einen neuen Text erstellt, wertet er den neuen Standardwert als Änderung und generiert neue Texte für Produkte ohne eigenen Wert.
 
-Mehr dazu in [4.1.2.c Generierte Inhalte in Magento 2 mit allen Store Views synchronisieren](/content-creation-flows/sync-generated-content-to-all-store-views-magento-2/).
-
 ### Magento und NextChapter
 
 **Bestehende Produktfotos ersetzen.** Neu generierte Bilder können jetzt die aktuellen Produktfotos ersetzen, und der Austausch wird nach der Synchronisierung korrekt in der Fozzels-Mediengalerie angezeigt.

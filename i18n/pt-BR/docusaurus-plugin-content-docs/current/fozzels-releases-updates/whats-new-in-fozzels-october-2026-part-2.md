@@ -133,8 +133,6 @@ Os Image Flows têm uma nova opção: **Process the product again when its sourc
 
 É bom saber: se um Flow de outra store view usa esse atributo no prompt e cria automaticamente um novo texto quando um atributo muda, ele vai tratar o novo valor padrão como uma alteração e gerar novos textos para os produtos sem valor próprio.
 
-Saiba mais em [4.1.2.c Como sincronizar o conteúdo gerado com todas as store views no Magento 2](/content-creation-flows/sync-generated-content-to-all-store-views-magento-2/).
-
 ### Magento e NextChapter
 
 **Substitua as fotos de produto existentes.** As novas imagens geradas agora podem substituir as fotos atuais do produto, e a substituição aparece corretamente na galeria de mídia do Fozzels depois da sincronização.
