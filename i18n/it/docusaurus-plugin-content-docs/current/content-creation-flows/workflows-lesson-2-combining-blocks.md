@@ -130,3 +130,7 @@ Per il Test 1, sostituisca "cake" nel prompt con un altro prodotto, per esempio 
 :::tip
 Prima di salvare, segua ogni percorso sull'area di lavoro con il dito: "se il testo contiene X, dove va dopo?". Una linea mancante è il motivo più comune per cui un blocco non viene mai eseguito.
 :::
+
+La prossima lezione mostra come far controllare all'IA ogni testo generato e far generare di nuovo automaticamente i testi non utilizzabili.
+
+Continui con [4.11.3. Lezione 3: controllo automatico con IA e rigenerazione](/content-creation-flows/workflows-lesson-3-ai-check-and-regeneration/).
