@@ -130,3 +130,7 @@ For Test 1, replace "cake" in the prompt with another product, for example "swee
 :::tip
 Before saving, follow each path on the canvas with your finger: "if the text has X, where does it go next?" A missing line is the most common reason a block never runs.
 :::
+
+The next lesson shows how to let AI check every generated text and generate unusable texts again automatically.
+
+Continue with [4.11.3. Lesson 3: Automatic AI Check and Regeneration](/content-creation-flows/workflows-lesson-3-ai-check-and-regeneration/).
