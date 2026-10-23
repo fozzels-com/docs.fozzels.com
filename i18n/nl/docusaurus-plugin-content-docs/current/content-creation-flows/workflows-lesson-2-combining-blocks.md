@@ -130,3 +130,7 @@ Vervang voor Test 1 "cake" in de prompt door een ander product, bijvoorbeeld "sw
 :::tip
 Volg vóór het opslaan elk pad op het canvas met uw vinger: "als de tekst X bevat, waar gaat het dan naartoe?" Een ontbrekende lijn is de meest voorkomende reden dat een blok nooit wordt uitgevoerd.
 :::
+
+De volgende les laat zien hoe u elke gegenereerde tekst door AI laat controleren en onbruikbare teksten automatisch opnieuw laat genereren.
+
+Ga verder met [4.11.3. Les 3: Automatische AI-controle en hergeneratie](/content-creation-flows/workflows-lesson-3-ai-check-and-regeneration/).
