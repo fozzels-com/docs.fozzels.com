@@ -19,11 +19,15 @@ Il fornitore PIM potrebbe dover riavviare i propri servizi. Lo contatti per conf
 
 ## Fozzels non riesce a stabilire una connessione REST API con il mio store Shopware.
 
-Ricontrolli l'Access Key ID e la Secure Access Key. Se sono corrette, il problema riguarda probabilmente le autorizzazioni di accesso. Nell'amministrazione di Shopware vada in Settings → System → Integrations, apra l'integrazione Fozzels, attivi l'interruttore **Administrator** e salvi.
+Ricontrolli l'Access Key ID e la Secret Access Key. Se sono corrette, il problema riguarda molto probabilmente i permessi del ruolo collegato all'integrazione Fozzels. Confronti quel ruolo con i permessi della [guida all'installazione](/integration-connectivity/full-integration-setup-with-shopware).
 
-## Fozzels richiede l'accesso da Administrator in Shopware, ma ho dubbi sulla privacy.
+Per capire rapidamente se la causa sono i permessi, attivi l'interruttore **Administrator**: nell'amministrazione di Shopware vada in Settings → System → Integrations, apra l'integrazione Fozzels, attivi **Administrator** e salvi. Fozzels ha così tutti i diritti sull'integrazione e la connessione funzionerà. Se funziona, al ruolo mancava un permesso. Può lasciare Administrator attivo, oppure correggere il ruolo e disattivarlo di nuovo.
 
-Il ruolo Administrator è attualmente necessario affinché Fozzels possa leggere i dati dei prodotti. Se concedere l'accesso amministrativo completo La preoccupa, contatti il team Fozzels per valutare se sia possibile una configurazione più restrittiva.
+## Devo dare a Fozzels l'accesso da Administrator in Shopware?
+
+No. È sufficiente un ruolo con i permessi della [guida all'installazione](/integration-connectivity/full-integration-setup-with-shopware). L'interruttore **Administrator** è facoltativo: dà a Fozzels tutti i diritti sull'integrazione, il che è utile quando una connessione fallisce e vuole escludere permessi mancanti.
+
+In ogni caso, Fozzels legge e scrive solo dati di prodotto. Fozzels non legge mai i dati dei clienti.
 
 ## "Pull Websites and Stores" fallisce con `403 FRAMEWORK__MISSING_PRIVILEGE_ERROR` in Shopware.
 
