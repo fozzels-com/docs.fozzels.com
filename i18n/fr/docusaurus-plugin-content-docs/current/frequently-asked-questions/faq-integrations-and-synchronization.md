@@ -19,11 +19,19 @@ Le fournisseur de PIM devra peut-être redémarrer ses services. Contactez-le po
 
 ## Fozzels ne parvient pas à établir de connexion REST API avec ma boutique Shopware.
 
-Vérifiez à nouveau l'Access Key ID et la Secure Access Key. Si elles sont correctes, le problème vient probablement des autorisations d'accès. Dans l'administration Shopware, allez dans Settings → System → Integrations, ouvrez l'intégration Fozzels, activez l'interrupteur **Administrator** et enregistrez.
+Vérifiez l'Access Key ID et la Secret Access Key. Si elles sont correctes, le problème vient très probablement des autorisations du rôle lié à l'intégration Fozzels. Comparez ce rôle avec les autorisations du [guide d'installation](/integration-connectivity/full-integration-setup-with-shopware).
 
-## Fozzels exige un accès Administrator dans Shopware, mais je m'inquiète pour la confidentialité.
+Pour savoir rapidement si les autorisations sont en cause, activez l'interrupteur **Administrator** : dans l'administration Shopware, allez dans Settings → System → Integrations, ouvrez l'intégration Fozzels, activez **Administrator** et enregistrez. Fozzels dispose alors de tous les droits sur l'intégration, et la connexion fonctionnera. Si c'est le cas, il manquait une autorisation au rôle. Vous pouvez laisser Administrator activé, ou corriger le rôle puis le désactiver.
 
-Le rôle Administrator est actuellement requis pour que Fozzels puisse lire les données produit. Si l'octroi d'un accès administrateur complet vous préoccupe, contactez l'équipe Fozzels pour discuter de la possibilité d'une configuration plus restreinte.
+## Dois-je donner à Fozzels un accès Administrator dans Shopware ?
+
+Non. Un rôle avec les autorisations du [guide d'installation](/integration-connectivity/full-integration-setup-with-shopware) suffit. L'interrupteur **Administrator** est facultatif : il donne à Fozzels tous les droits sur l'intégration, ce qui est utile lorsqu'une connexion échoue et que vous voulez exclure un problème d'autorisations.
+
+Dans tous les cas, Fozzels lit et écrit uniquement des données produit. Fozzels ne lit jamais les données clients.
+
+## « Pull Websites and Stores » échoue avec `403 FRAMEWORK__MISSING_PRIVILEGE_ERROR` dans Shopware.
+
+Fozzels peut se connecter, mais il manque des autorisations au rôle lié à l'intégration Fozzels. En plus des autorisations du [guide d'installation](/integration-connectivity/full-integration-setup-with-shopware), Fozzels a besoin de `language:read` et `locale:read`. Shopware les ajoute automatiquement lorsqu'un rôle est enregistré dans Settings → System → Users & permissions, mais elles peuvent manquer si le rôle a été créé par API, un plugin ou un script. Solution : ouvrez le rôle à cet endroit et cliquez à nouveau sur **Save**, ou activez l'interrupteur **Administrator** sur l'intégration. Cliquez ensuite à nouveau sur « Pull Websites and Stores ».
 
 ## Mes clés API sont invalides. Que dois-je vérifier ?
 
