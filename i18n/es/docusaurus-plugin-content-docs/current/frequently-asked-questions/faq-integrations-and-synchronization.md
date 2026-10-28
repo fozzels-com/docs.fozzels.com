@@ -22,6 +22,10 @@ Verifique dos veces el ID de Clave de Acceso y Clave de Acceso Seguro. Si son co
 
 Actualmente se requiere el rol Administrador para que Fozzels lea datos de producto. Si otorgar acceso de administrador completo es una preocupación, póngase en contacto con el equipo de Fozzels para discutir si es posible una configuración más restringida.
 
+## "Pull Websites and Stores" falla con `403 FRAMEWORK__MISSING_PRIVILEGE_ERROR` en Shopware.
+
+Fozzels puede iniciar sesión, pero al rol vinculado a la integración de Fozzels le faltan permisos. Además de los permisos de la [guía de configuración](/integration-connectivity/full-integration-setup-with-shopware), Fozzels necesita `language:read` y `locale:read`. Shopware los añade automáticamente al guardar un rol en Configuración → Sistema → Usuarios y permisos, pero pueden faltar si el rol se creó por API, un plugin o un script. Solución: abra el rol allí y haga clic de nuevo en **Guardar**, o active el toggle **Administrator** en la integración. Después, haga clic de nuevo en "Pull Websites and Stores".
+
 ## Mis claves API son inválidas. ¿Qué debo verificar?
 
 Asegúrese de enviar el tipo de clave correcto (clave de Integración que comienza con `SWIA...`, no una clave de Canal de Ventas). Verifique que la clave secreta no fue truncada durante copiar/pegar. Intente crear una nueva Integración y enviar claves frescas.
