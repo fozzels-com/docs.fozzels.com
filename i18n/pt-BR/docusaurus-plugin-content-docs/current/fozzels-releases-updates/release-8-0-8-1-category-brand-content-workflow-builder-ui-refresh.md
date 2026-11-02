@@ -6,6 +6,29 @@ slug: /fozzels-releases-updates/release-8-0-8-1-category-brand-content-workflow-
 description: Estamos animados em apresentar a atualização v8.0 e v8.1 do Fozzels. Esta release foca em ampliar os recursos de geração de conteúdo, adicionar flexibilidade
 keywords:
 - fluxo de trabalho
+whats_new:
+  released_at: 2026-08-03
+  items:
+    - tag: new
+      area: 'Category & Brand Flows'
+      title: 'Conteúdo para categorias e marcas'
+      body: 'Gere descrições, meta títulos e meta descrições para páginas de categoria e de marca no Shopware e no Magento 2.'
+    - tag: new
+      area: Workflows
+      title: 'Workflow Builder'
+      body: 'Crie regras com blocos de condição, grupo e ação que encurtam textos ou os seguram para revisão antes da sincronização.'
+    - tag: improved
+      area: Interface
+      title: 'Nova navegação lateral'
+      body: 'Os módulos ficam agrupados por seções em uma barra lateral que você pode recolher, e a barra superior ficou mais limpa.'
+    - tag: new
+      area: 'Help Center'
+      title: 'Help Center público'
+      body: 'Guias passo a passo sobre integrações, workflows, mapeamento e modelos de IA, em vários idiomas.'
+    - tag: improved
+      area: 'Content Flows'
+      title: 'Controle do HTML'
+      body: 'Desligue o editor visual para manter o código gerado exatamente como está. HTML quebrado ou sem fechamento agora bloqueia a sincronização.'
 ---
 
 Estamos animados em apresentar a atualização v8.0 e v8.1 do Fozzels. Esta release foca em ampliar os recursos de geração de conteúdo, adicionar flexibilidade na personalização de fluxos de trabalho, reforçar a segurança dos dados e renovar a interface da plataforma.

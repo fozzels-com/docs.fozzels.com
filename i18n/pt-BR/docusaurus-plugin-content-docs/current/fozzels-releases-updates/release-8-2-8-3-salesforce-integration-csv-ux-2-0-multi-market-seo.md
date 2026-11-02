@@ -4,6 +4,30 @@ title: Release 8.2-8.3 - Integração com Salesforce, CSV UX 2.0 e SEO multimerc
 sidebar_position: 17
 slug: /fozzels-releases-updates/release-8-2-8-3-salesforce-integration-csv-ux-2-0-multi-market-seo
 description: As releases v8.2 e v8.3 trazem avanços importantes em integrações Enterprise, uma reformulação completa do módulo CSV, mais recursos de SEO multilíngue…
+whats_new:
+  released_at: 2026-08-15
+  items:
+    - tag: new
+      area: Integrações
+      title: 'Salesforce Commerce Cloud'
+      body: 'Gere e sincronize conteúdo HTML, meta tags e atributos para produtos e páginas de categoria.'
+      image: /img/kb/fozzels-releases-updates/release-8-2-8-3-salesforce-integration-csv-ux-2-0-multi-market-seo/gijc0EWvFlC1zyvnpAeXsONb3oKC7iTWEQ.png
+    - tag: improved
+      area: Integrações
+      title: 'Importação CSV redesenhada'
+      body: 'Um mapeamento mais claro e uma galeria de mídia que mostra as imagens direto na tabela.'
+    - tag: new
+      area: Shopify
+      title: 'Textos ALT por mercado'
+      body: 'Textos ALT diferentes para a mesma imagem por idioma e mercado, com suporte a Shopify Markets e LangShop.'
+    - tag: new
+      area: VTEX
+      title: 'Filtro por estoque'
+      body: 'Ignore produtos sem estoque já na integração e use créditos de IA só com o inventário ativo.'
+    - tag: fixed
+      area: Integrações
+      title: 'Sincronização com o Katana PIM'
+      body: 'A troca de dados nos dois sentidos com o Katana PIM voltou a funcionar de forma confiável.'
 ---
 
 As releases **v8.2 e v8.3** trazem avanços importantes em **integrações Enterprise**, uma reformulação completa do **módulo CSV**, mais recursos de SEO multilíngue para o Shopify e uma lógica de filtragem por estoque aprimorada.

@@ -6,6 +6,38 @@ description: >-
   Vul tot 13 attributen in met één Flow, stel automatische kwaliteitsregels in
   met Workflows, bouw prompts in een nieuwe editor met live voorbeeld en houd
   AI-fouten uit uw winkel dankzij nieuwe beveiligingen.
+whats_new:
+  released_at: 2026-10-07
+  items:
+    - tag: new
+      area: 'Content Flows'
+      title: 'Tot 13 attributen in één Flow'
+      body: 'Eén Flow vult een hoofdattribuut plus tot 12 andere in één AI-verzoek, en de Batch List toont elk in een eigen kolom.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026/01-additional-attributes.png
+    - tag: new
+      area: Workflows
+      title: 'Automatische kwaliteitsregels'
+      body: 'Stel eenmalig ALS / DAN-regels in om tekst te vervangen, in te korten of een resultaat als verdacht te markeren voordat het uw shop bereikt.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026/04-workflow-editor.png
+    - tag: new
+      area: 'Content Flows'
+      title: 'Nieuwe prompteditor met live voorbeeld'
+      body: 'Attributen en voorwaarden verschijnen als blokken, en het voorbeeld toont tijdens het typen de exacte prompt voor een echt product.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026/05-prompt-editor.png
+    - tag: new
+      area: 'Content Flows'
+      title: 'Herbruikbare promptsnippets'
+      body: 'Sla uw tone of voice of attributenlijsten één keer op en voeg ze toe aan elke prompt. Wijzig een snippet en elke Flow die het gebruikt, volgt.'
+    - tag: improved
+      area: 'Content Flows'
+      title: 'Veiligere AI-content'
+      body: 'Een betrouwbaarheidsdrempel, slimmere detectie van verdachte content en waarschuwingen voor uitgeschakelde functies houden AI-fouten uit uw shop.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026/07-confidence-threshold.png
+    - tag: new
+      area: Catalogus
+      title: 'Opgeslagen filtersets'
+      body: 'Sla een filtercombinatie één keer op en pas die met één klik toe in integraties, de catalogus en Flows.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026/12-filter-set-save.png
 ---
 
 Deze update draait om tijdwinst en meer controle over uw AI-content. U kunt nu tot 13 attributen invullen met één Flow, automatische kwaliteitsregels instellen met Workflows en prompts bouwen in een nieuwe editor met live voorbeeld.

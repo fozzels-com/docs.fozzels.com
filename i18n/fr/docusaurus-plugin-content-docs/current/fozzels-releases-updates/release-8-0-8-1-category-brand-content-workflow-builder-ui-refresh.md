@@ -11,6 +11,29 @@ description: >-
   workflows
 keywords:
 - flux de travail
+whats_new:
+  released_at: 2026-08-03
+  items:
+    - tag: new
+      area: 'Category & Brand Flows'
+      title: 'Du contenu pour les catégories et les marques'
+      body: 'Générez des descriptions, des méta-titres et des méta-descriptions pour les pages de catégorie et de marque dans Shopware et Magento 2.'
+    - tag: new
+      area: Workflows
+      title: 'Workflow Builder'
+      body: "Créez des règles à partir de blocs de condition, de groupe et d'action qui tronquent les textes ou les retiennent pour relecture avant la synchronisation."
+    - tag: improved
+      area: Interface
+      title: 'Nouvelle navigation latérale'
+      body: 'Les modules sont regroupés par section dans une barre latérale repliable, et la barre supérieure est épurée.'
+    - tag: new
+      area: 'Help Center'
+      title: 'Help Center public'
+      body: "Des guides pas à pas sur les intégrations, les workflows, le mapping et les modèles d'IA, en plusieurs langues."
+    - tag: improved
+      area: 'Content Flows'
+      title: 'Contrôle du HTML'
+      body: "Désactivez l'éditeur visuel pour conserver le code généré à l'identique. Le HTML cassé ou non fermé bloque désormais la synchronisation."
 ---
 
 Nous sommes ravis de vous présenter la mise à jour v8.0 et v8.1 de Fozzels. Cette version vise à élargir les capacités de génération de contenu, à offrir plus de souplesse dans la personnalisation des workflows, à renforcer la sécurité des données et à rafraîchir l'interface de la plateforme.

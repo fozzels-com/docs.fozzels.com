@@ -8,6 +8,29 @@ description: >-
   We're excited to introduce the v8.0 & v8.1 update to Fozzels. This release
   focuses on expanding content generation capabilities, adding workflow
   customizat
+whats_new:
+  released_at: 2026-08-03
+  items:
+    - tag: new
+      area: 'Category & Brand Flows'
+      title: 'Content for categories and brands'
+      body: 'Generate descriptions, meta titles and meta descriptions for category and brand pages in Shopware and Magento 2.'
+    - tag: new
+      area: Workflows
+      title: 'Workflow Builder'
+      body: 'Build rules from condition, group and action blocks that truncate texts or hold them for review before syncing.'
+    - tag: improved
+      area: Interface
+      title: 'New sidebar navigation'
+      body: 'Modules are grouped into sections in a sidebar you can collapse, and the top bar is decluttered.'
+    - tag: new
+      area: 'Help Center'
+      title: 'Public Help Center'
+      body: 'Step-by-step guides for integrations, workflows, mapping and AI models, in several languages.'
+    - tag: improved
+      area: 'Content Flows'
+      title: 'HTML control'
+      body: 'Turn off the visual editor to keep the exact generated code, and broken or unclosed HTML now blocks the sync.'
 ---
 
 We're excited to introduce the v8.0 & v8.1 update to Fozzels. This release focuses on expanding content generation capabilities, adding workflow customization flexibility, strengthening data safety, and refreshing the platform interface.
