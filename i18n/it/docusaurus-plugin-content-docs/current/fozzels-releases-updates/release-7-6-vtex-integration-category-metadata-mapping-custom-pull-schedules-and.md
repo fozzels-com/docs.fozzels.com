@@ -11,6 +11,34 @@ description: >-
   Siamo lieti di presentare la versione 7.6 di Fozzels! Questa release introduce
   una nuova integrazione con una piattaforma, un accesso più approfondito ai dati
   di categorie e immagini
+whats_new:
+  released_at: 2026-07-27
+  items:
+    - tag: new
+      area: Integrazioni
+      title: 'Integrazione VTEX'
+      body: 'Colleghi il Suo shop VTEX, generi metadati e descrizioni prodotto localizzate e li sincronizzi di ritorno.'
+      image: /img/kb/fozzels-releases-updates/release-7-6-vtex-integration-category-metadata-mapping-custom-pull-schedules-and/JeeYUTgzrDD4RFn6wxHSi6jZ-acbmBcdaA.png
+    - tag: new
+      area: Integrazioni
+      title: 'Dati di categoria nei prompt'
+      body: 'ID, slug e URL delle categorie di Shopware, Magento e Shopify ora possono essere usati nei prompt e nella mappatura degli attributi.'
+      image: /img/kb/fozzels-releases-updates/release-7-6-vtex-integration-category-metadata-mapping-custom-pull-schedules-and/78evdNuNxdhrkRFpX3fpJGb7klpmmoKEPg.png
+    - tag: new
+      area: Integrazioni
+      title: 'Pianificazione e limitazione del pull'
+      body: "Imposti nelle impostazioni dell'integrazione una pianificazione globale del pull e pause personalizzate tra le richieste API."
+      image: /img/kb/fozzels-releases-updates/release-7-6-vtex-integration-category-metadata-mapping-custom-pull-schedules-and/w_q1iVvLQ4_jGLRNGQhA-5vLAxBSxtN1Lw.png
+    - tag: improved
+      area: Magento
+      title: 'Più filtri di pull e immagini da CDN'
+      body: 'Filtri le importazioni Magento per stato e visibilità, e recuperi le immagini dei prodotti dal Suo dominio CDN.'
+      image: /img/kb/fozzels-releases-updates/release-7-6-vtex-integration-category-metadata-mapping-custom-pull-schedules-and/MsFGGxKTaRkrmyvnCBxWgi7AL-5ZhZlIZA.png
+    - tag: improved
+      area: 'Image Flow'
+      title: 'Più immagini di riferimento'
+      body: "Combini più foto del prodotto con più preset di stile in un'unica generazione per risultati più precisi."
+      image: /img/kb/fozzels-releases-updates/release-7-6-vtex-integration-category-metadata-mapping-custom-pull-schedules-and/yi5rCHSv4ILYH-5KRotagmpmvTiuiDP_LQ.png
 ---
 
 Siamo lieti di presentare la versione 7.6 di Fozzels! Questa release introduce una nuova integrazione con una piattaforma, un accesso più approfondito ai dati di categorie e immagini, controlli precisi sulla sincronizzazione e sul pull tramite API e importanti miglioramenti ai flussi di lavoro di generazione delle immagini con l'IA. Scopra di seguito tutte le nuove funzionalità.

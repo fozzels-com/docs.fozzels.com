@@ -10,6 +10,22 @@ const require = createRequire(import.meta.url);
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+// Release notes are numbered oldest first, so a new one simply takes the next
+// sidebar_position. Readers want the latest release on top, so the sidebar and
+// the category page list that one category in reverse.
+function newestReleasesFirst(items) {
+  return items.map((item) => {
+    if (item.type !== 'category') {
+      return item;
+    }
+    const children = newestReleasesFirst(item.items);
+    if (item.link?.slug === '/fozzels-releases-updates') {
+      children.reverse();
+    }
+    return {...item, items: children};
+  });
+}
+
 const siteUrl = process.env.SITE_URL ?? 'https://docs.fozzels.com';
 const siteBaseUrl = process.env.BASE_URL ?? '/';
 
@@ -123,6 +139,9 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/', // Serve the docs at the site root (help-center style)
+          async sidebarItemsGenerator({defaultSidebarItemsGenerator, ...args}) {
+            return newestReleasesFirst(await defaultSidebarItemsGenerator(args));
+          },
         },
         blog: false,
         theme: {
