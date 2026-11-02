@@ -4,6 +4,34 @@ title: Release 7.6 - Integração VTEX, Mapeamento de Metadados de Categoria, Cr
 sidebar_position: 15
 slug: /fozzels-releases-updates/release-7-6-vtex-integration-category-metadata-mapping-custom-pull-schedules-and
 description: Estamos empolgados em apresentar a versão 7.6 do Fozzels! Esta versão traz uma nova integração de plataforma, acessibilidade mais profunda de dados de categoria e imagem, sincronização precisa
+whats_new:
+  released_at: 2026-07-27
+  items:
+    - tag: new
+      area: Integrações
+      title: 'Integração com a VTEX'
+      body: 'Conecte sua loja VTEX, gere metadados e descrições de produto localizadas e sincronize tudo de volta.'
+      image: /img/kb/fozzels-releases-updates/release-7-6-vtex-integration-category-metadata-mapping-custom-pull-schedules-and/JeeYUTgzrDD4RFn6wxHSi6jZ-acbmBcdaA.png
+    - tag: new
+      area: Integrações
+      title: 'Dados de categoria nos prompts'
+      body: 'IDs, slugs e URLs de categoria do Shopware, Magento e Shopify agora podem ser usados nos prompts e no mapeamento de atributos.'
+      image: /img/kb/fozzels-releases-updates/release-7-6-vtex-integration-category-metadata-mapping-custom-pull-schedules-and/78evdNuNxdhrkRFpX3fpJGb7klpmmoKEPg.png
+    - tag: new
+      area: Integrações
+      title: 'Agendamento e limitação do pull'
+      body: 'Defina nas configurações da integração um agendamento global do pull e pausas próprias entre as requisições à API.'
+      image: /img/kb/fozzels-releases-updates/release-7-6-vtex-integration-category-metadata-mapping-custom-pull-schedules-and/w_q1iVvLQ4_jGLRNGQhA-5vLAxBSxtN1Lw.png
+    - tag: improved
+      area: Magento
+      title: 'Mais filtros de pull e imagens via CDN'
+      body: 'Filtre as importações do Magento por status e visibilidade, e busque as imagens dos produtos no seu próprio domínio de CDN.'
+      image: /img/kb/fozzels-releases-updates/release-7-6-vtex-integration-category-metadata-mapping-custom-pull-schedules-and/MsFGGxKTaRkrmyvnCBxWgi7AL-5ZhZlIZA.png
+    - tag: improved
+      area: 'Image Flows'
+      title: 'Várias imagens de referência'
+      body: 'Combine várias fotos do produto com vários presets de estilo em uma única geração para resultados mais precisos.'
+      image: /img/kb/fozzels-releases-updates/release-7-6-vtex-integration-category-metadata-mapping-custom-pull-schedules-and/yi5rCHSv4ILYH-5KRotagmpmvTiuiDP_LQ.png
 ---
 
 Estamos empolgados em apresentar a versão 7.6 do Fozzels! Esta versão traz uma nova integração de plataforma, acessibilidade mais profunda de dados de categoria e imagem, sincronização precisa e controles de pull de API, e atualizações significativas para fluxos de geração de imagens de IA. Explore todos os novos recursos abaixo.

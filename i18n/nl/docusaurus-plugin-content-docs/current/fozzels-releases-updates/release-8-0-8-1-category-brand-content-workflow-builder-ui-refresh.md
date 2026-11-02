@@ -6,6 +6,29 @@ slug: /fozzels-releases-updates/release-8-0-8-1-category-brand-content-workflow-
 description: We zijn verheugd de v8.0 & v8.1 update van Fozzels te introduceren. Deze release richt zich op het uitbreiden van mogelijkheden voor contentgeneratie, flexibiliteit
 keywords:
 - werkstroom
+whats_new:
+  released_at: 2026-08-03
+  items:
+    - tag: new
+      area: 'Category & Brand Flows'
+      title: 'Content voor categorieën en merken'
+      body: "Genereer beschrijvingen, metatitels en metabeschrijvingen voor categorie- en merkpagina's in Shopware en Magento 2."
+    - tag: new
+      area: Workflows
+      title: 'Workflow Builder'
+      body: 'Bouw regels uit voorwaarde-, groeps- en actieblokken die teksten inkorten of vóór synchronisatie vasthouden voor controle.'
+    - tag: improved
+      area: Interface
+      title: 'Nieuwe zijbalknavigatie'
+      body: 'Modules zijn per sectie gegroepeerd in een inklapbare zijbalk, en de bovenbalk is opgeruimd.'
+    - tag: new
+      area: 'Help Center'
+      title: 'Openbaar Help Center'
+      body: 'Stapsgewijze handleidingen voor integraties, workflows, mapping en AI-modellen, in meerdere talen.'
+    - tag: improved
+      area: 'Content Flows'
+      title: HTML-controle
+      body: 'Schakel de visuele editor uit om de gegenereerde code exact te behouden. Kapotte of niet-gesloten HTML blokkeert nu de synchronisatie.'
 ---
 
 We zijn verheugd de v8.0 & v8.1 update van Fozzels te introduceren. Deze release richt zich op het uitbreiden van mogelijkheden voor contentgeneratie, flexibiliteit in workflowaanpassing, betere databeveiliging en een vernieuwde interface van het platform.

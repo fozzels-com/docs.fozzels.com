@@ -7,6 +7,38 @@ description: >-
   automatische Qualitätsregeln ein, erstellen Sie Prompts in einem neuen Editor
   mit Live-Vorschau und halten Sie KI-Fehler dank neuer Schutzmaßnahmen aus
   Ihrem Shop fern.
+whats_new:
+  released_at: 2026-10-07
+  items:
+    - tag: new
+      area: 'Content Flows'
+      title: 'Bis zu 13 Attribute in einem Flow'
+      body: 'Ein Flow füllt ein Hauptattribut und bis zu 12 weitere in einer einzigen KI-Anfrage, und die Batch List zeigt jedes in einer eigenen Spalte.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026/01-additional-attributes.png
+    - tag: new
+      area: Workflows
+      title: 'Automatische Qualitätsregeln'
+      body: 'Legen Sie einmal WENN / DANN-Regeln fest, um Text zu ersetzen, zu kürzen oder ein Ergebnis als verdächtig zu markieren, bevor es Ihren Shop erreicht.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026/04-workflow-editor.png
+    - tag: new
+      area: 'Content Flows'
+      title: 'Neuer Prompt-Editor mit Live-Vorschau'
+      body: 'Attribute und Bedingungen erscheinen als Blöcke, und die Vorschau zeigt beim Tippen den genauen Prompt für ein echtes Produkt.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026/05-prompt-editor.png
+    - tag: new
+      area: 'Content Flows'
+      title: 'Wiederverwendbare Prompt-Snippets'
+      body: 'Speichern Sie Ihre Tonalität oder Attributlisten einmal und fügen Sie sie in jeden Prompt ein. Ändern Sie ein Snippet, und jeder Flow, der es nutzt, folgt.'
+    - tag: improved
+      area: 'Content Flows'
+      title: 'Sicherere KI-Inhalte'
+      body: 'Eine Konfidenzschwelle, eine klügere Erkennung verdächtiger Inhalte und Warnungen zu deaktivierten Funktionen halten KI-Fehler aus Ihrem Shop fern.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026/07-confidence-threshold.png
+    - tag: new
+      area: Katalog
+      title: 'Gespeicherte Filtersets'
+      body: 'Speichern Sie eine Filterkombination einmal und wenden Sie sie mit einem Klick in Integrationen, im Katalog und in Flows an.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026/12-filter-set-save.png
 ---
 
 Dieses Update spart Ihnen Zeit und gibt Ihnen mehr Kontrolle über Ihre KI-Inhalte. Sie können jetzt bis zu 13 Attribute in einem Flow füllen, mit Workflows automatische Qualitätsregeln einrichten und Prompts in einem neuen Editor mit Live-Vorschau erstellen.
