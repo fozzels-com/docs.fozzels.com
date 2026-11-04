@@ -53,6 +53,7 @@
     "brace-expansion": "^1.1.21",
     "fast-uri": "^3.1.7",
     "serialize-javascript": "^7.0.5",
+    "tinypool": "^2.1.2",
     "uuid": "^11.1.1"
   }
 }
