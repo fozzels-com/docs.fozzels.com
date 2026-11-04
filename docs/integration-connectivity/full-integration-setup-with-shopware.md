@@ -86,6 +86,12 @@ You will see the permissions table with all checkboxes unchecked. Enable the fol
 
 After setting all permissions, click "Save" to save the role.
 
+:::note[Required base permissions]
+Fozzels also needs the API permissions `language:read` and `locale:read`, to read the languages of your sales channels. They have no checkbox in the permissions table: Shopware adds them automatically when you save the role on this screen.
+
+If the role was created or edited another way (by API, a plugin or a script), these two permissions can be missing. "Pull Websites and Stores" then fails with `403 FRAMEWORK__MISSING_PRIVILEGE_ERROR`. To fix it, open the role here and click "Save" again, or switch on the **Administrator** toggle on the integration (step 11).
+:::
+
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/A8MHLjtMTc9IvBEae-ZW8vUS8I4hag_G8A.png)
 
 ###  **9.** Go to System > Integrations

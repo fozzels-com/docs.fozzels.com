@@ -87,6 +87,12 @@ Le tableau des autorisations s'affiche, toutes les cases étant décochées. Act
 
 Après avoir défini toutes les autorisations, cliquez sur "Save" pour enregistrer le rôle.
 
+:::note[Autorisations de base requises]
+Fozzels a aussi besoin des autorisations API `language:read` et `locale:read` pour lire les langues de vos canaux de vente. Elles n'ont pas de case à cocher dans le tableau des autorisations : Shopware les ajoute automatiquement lorsque vous enregistrez le rôle sur cet écran.
+
+Si le rôle a été créé ou modifié autrement (par API, un plugin ou un script), ces deux autorisations peuvent manquer. « Pull Websites and Stores » échoue alors avec `403 FRAMEWORK__MISSING_PRIVILEGE_ERROR`. Pour corriger cela, ouvrez le rôle ici et cliquez à nouveau sur "Save", ou activez l'interrupteur **Administrator** sur l'intégration (étape 11).
+:::
+
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/A8MHLjtMTc9IvBEae-ZW8vUS8I4hag_G8A.png)
 
 ###  **9.** Accédez à System > Integrations

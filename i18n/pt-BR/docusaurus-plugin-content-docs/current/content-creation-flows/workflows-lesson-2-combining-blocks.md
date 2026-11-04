@@ -130,3 +130,7 @@ Para o Teste 1, substitua "cake" no prompt por outro produto, por exemplo "sweet
 :::tip
 Antes de salvar, siga cada caminho no canvas com o dedo: "se o texto tiver X, para onde ele vai em seguida?" Uma linha faltando é o motivo mais comum de um block nunca ser executado.
 :::
+
+A próxima lição mostra como deixar a IA verificar cada texto gerado e gerar de novo automaticamente os textos que não podem ser usados.
+
+Continue com [4.11.3. Lição 3: Verificação automática com IA e regeneração](/content-creation-flows/workflows-lesson-3-ai-check-and-regeneration/).

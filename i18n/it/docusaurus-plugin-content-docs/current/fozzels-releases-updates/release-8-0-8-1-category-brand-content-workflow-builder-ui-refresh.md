@@ -11,6 +11,29 @@ description: >-
   lavoro
 keywords:
 - flusso di lavoro
+whats_new:
+  released_at: 2026-08-03
+  items:
+    - tag: new
+      area: 'Category & Brand Flow'
+      title: 'Contenuti per categorie e marchi'
+      body: 'Generi descrizioni, meta title e meta description per le pagine di categoria e di marchio in Shopware e Magento 2.'
+    - tag: new
+      area: Workflow
+      title: 'Workflow Builder'
+      body: 'Crei regole con blocchi di condizione, gruppo e azione che accorciano i testi o li trattengono per la revisione prima della sincronizzazione.'
+    - tag: improved
+      area: Interfaccia
+      title: 'Nuova barra laterale'
+      body: 'I moduli sono raggruppati per sezioni in una barra laterale comprimibile, e la barra superiore è più ordinata.'
+    - tag: new
+      area: 'Help Center'
+      title: 'Help Center pubblico'
+      body: 'Guide passo passo su integrazioni, workflow, mappatura e modelli AI, in più lingue.'
+    - tag: improved
+      area: 'Content Flow'
+      title: "Controllo dell'HTML"
+      body: "Disattivi l'editor visuale per mantenere esattamente il codice generato. L'HTML non valido o non chiuso ora blocca la sincronizzazione."
 ---
 
 Siamo lieti di presentare l'aggiornamento v8.0 e v8.1 di Fozzels. Questa release si concentra sull'ampliamento delle capacità di generazione dei contenuti, sull'aggiunta di flessibilità nella personalizzazione dei flussi di lavoro, sul rafforzamento della sicurezza dei dati e sul rinnovamento dell'interfaccia della piattaforma.

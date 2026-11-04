@@ -7,6 +7,33 @@ description: >-
   imagens com novas configurações, exportação flexível para Excel e CSV, textos
   ALT melhores, novos modelos de IA, chat por voz com a Jane e rótulos de IA
   automáticos para imagens e vídeos.
+whats_new:
+  released_at: 2026-10-23
+  items:
+    - tag: new
+      area: Workflows
+      title: 'Regenerar com feedback'
+      body: 'Uma nova ação de workflow regenera um texto que não segue suas regras e usa o motivo como feedback, em até 3 tentativas.'
+    - tag: new
+      area: 'Image Flows'
+      title: 'Regenere imagens com novas configurações'
+      body: 'Escolha outras fotos do produto ou outro modelo de IA, ou altere o prompt e os presets de um resultado antes de gerá-lo de novo.'
+    - tag: new
+      area: Relatórios
+      title: 'Exportação para Excel e CSV'
+      body: 'Escolha exatamente quais colunas entram no arquivo, pronto para importar na sua loja ou no seu ERP.'
+    - tag: improved
+      area: 'ALT Flows'
+      title: 'Encontre textos ALT provisórios'
+      body: 'A nova condição "has an image whose ALT contains" encontra ALTs que são só um nome de arquivo, para o Fozzels escrever textos de verdade.'
+    - tag: new
+      area: Jane
+      title: 'Converse com a Jane'
+      body: 'Clique no microfone e faça sua pergunta em voz alta. A Jane pode ler a resposta para você.'
+    - tag: new
+      area: 'Modelos de IA'
+      title: 'Novos modelos de IA'
+      body: 'Gemini 4 Argon e Claude Haiku 5.5 para textos, GPT Image 2.5 e Nano Banana 2.1 para imagens, HeyGen Video 1.0 para vídeos.'
 ---
 
 A segunda parte das nossas atualizações de outubro leva o seu conteúdo a outro nível. Veja o que espera por você:

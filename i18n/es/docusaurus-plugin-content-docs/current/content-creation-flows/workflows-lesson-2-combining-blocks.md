@@ -130,3 +130,7 @@ Para la Prueba 1, sustituye "cake" en el prompt por otro producto, por ejemplo "
 :::tip
 Antes de guardar, sigue cada recorrido en el lienzo con el dedo: "si el texto tiene X, ¿adónde va después?". Una línea que falta es el motivo más habitual por el que un bloque nunca se ejecuta.
 :::
+
+La siguiente lección muestra cómo hacer que la IA compruebe cada texto generado y vuelva a generar automáticamente los textos que no sirven.
+
+Continúa con [4.11.3. Lección 3: comprobación automática con IA y regeneración](/content-creation-flows/workflows-lesson-3-ai-check-and-regeneration/).

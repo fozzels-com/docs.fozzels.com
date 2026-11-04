@@ -84,6 +84,12 @@ Você verá a tabela de permissões com todas as caixas desmarcadas. Ative as se
 
 Após definir todas as permissões, clique em "Salvar" para salvar a função.
 
+:::note[Permissões básicas necessárias]
+O Fozzels também precisa das permissões de API `language:read` e `locale:read` para ler os idiomas dos seus canais de venda. Elas não têm caixa de seleção na tabela de permissões: o Shopware as adiciona automaticamente quando você salva a função nesta tela.
+
+Se a função foi criada ou editada de outra forma (por API, um plugin ou um script), essas duas permissões podem estar faltando. Nesse caso, "Pull Websites and Stores" falha com `403 FRAMEWORK__MISSING_PRIVILEGE_ERROR`. Para corrigir, abra a função aqui e clique em "Salvar" novamente, ou ative o botão **Administrator** na integração (passo 11).
+:::
+
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/A8MHLjtMTc9IvBEae-ZW8vUS8I4hag_G8A.png)
 
 ###  **9.** Vá para Sistema > Integrações

@@ -7,6 +7,33 @@ description: >-
   genereren met nieuwe instellingen, flexibele export naar Excel en CSV, betere
   ALT-teksten, nieuwe AI-modellen, spraakchat met Jane en automatische AI-labels
   voor afbeeldingen en video's.
+whats_new:
+  released_at: 2026-10-23
+  items:
+    - tag: new
+      area: Workflows
+      title: 'Opnieuw genereren met feedback'
+      body: 'Een nieuwe workflowactie genereert een tekst die uw regels overtreedt opnieuw, met de reden als feedback, tot 3 pogingen.'
+    - tag: new
+      area: 'Image Flows'
+      title: 'Afbeeldingen opnieuw genereren met nieuwe instellingen'
+      body: "Kies andere productfoto's of een ander AI-model, of pas de prompt en presets voor één resultaat aan voordat u het opnieuw genereert."
+    - tag: new
+      area: Rapporten
+      title: 'Exporteren naar Excel en CSV'
+      body: 'Kies precies welke kolommen in het bestand komen, klaar om te importeren in uw shop of ERP.'
+    - tag: improved
+      area: 'ALT Flows'
+      title: 'Placeholder-ALT-teksten vinden'
+      body: 'De nieuwe voorwaarde "has an image whose ALT contains" vindt ALT''s die alleen een bestandsnaam zijn, zodat Fozzels echte kan schrijven.'
+    - tag: new
+      area: Jane
+      title: 'Praat met Jane'
+      body: 'Klik op de microfoon en stel uw vraag hardop. Jane kan haar antwoord aan u voorlezen.'
+    - tag: new
+      area: AI-modellen
+      title: 'Nieuwe AI-modellen'
+      body: "Gemini 4 Argon en Claude Haiku 5.5 voor teksten, GPT Image 2.5 en Nano Banana 2.1 voor afbeeldingen, HeyGen Video 1.0 voor video's."
 ---
 
 Het tweede deel van onze oktober-updates tilt uw content naar een hoger niveau. Dit staat er voor u klaar:

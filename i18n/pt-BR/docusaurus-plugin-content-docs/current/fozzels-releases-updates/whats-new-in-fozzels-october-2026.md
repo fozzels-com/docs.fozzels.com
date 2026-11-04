@@ -6,6 +6,38 @@ description: >-
   Preencha até 13 atributos em um único Flow, crie regras automáticas de
   qualidade com Workflows, monte prompts em um novo editor com pré-visualização
   ao vivo e mantenha os erros da IA longe da sua loja com novas proteções.
+whats_new:
+  released_at: 2026-10-07
+  items:
+    - tag: new
+      area: 'Content Flows'
+      title: 'Até 13 atributos em um único Flow'
+      body: 'Um Flow preenche um atributo principal e até mais 12 em uma única solicitação de IA, e a Batch List mostra cada um em sua própria coluna.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026/01-additional-attributes.png
+    - tag: new
+      area: Workflows
+      title: 'Regras de qualidade automáticas'
+      body: 'Defina uma vez regras SE / ENTÃO para substituir texto, encurtá-lo ou marcar um resultado como suspeito antes que ele chegue à sua loja.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026/04-workflow-editor.png
+    - tag: new
+      area: 'Content Flows'
+      title: 'Novo editor de prompts com prévia ao vivo'
+      body: 'Atributos e condições aparecem como blocos, e a prévia mostra o prompt exato para um produto real enquanto você digita.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026/05-prompt-editor.png
+    - tag: new
+      area: 'Content Flows'
+      title: 'Snippets de prompt reutilizáveis'
+      body: 'Salve uma vez seu tom de voz ou listas de atributos e adicione a qualquer prompt. Atualize um snippet e todos os Flows que o usam acompanham.'
+    - tag: improved
+      area: 'Content Flows'
+      title: 'Conteúdo de IA mais seguro'
+      body: 'Um limite de confiança, uma detecção mais inteligente de conteúdo suspeito e avisos sobre recursos desligados mantêm os erros da IA fora da sua loja.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026/07-confidence-threshold.png
+    - tag: new
+      area: Catálogo
+      title: 'Conjuntos de filtros salvos'
+      body: 'Salve uma combinação de filtros uma vez e aplique com um clique nas integrações, no catálogo e nos Flows.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026/12-filter-set-save.png
 ---
 
 Esta atualização é toda sobre economizar seu tempo e dar mais controle sobre o conteúdo gerado por IA. Agora você pode preencher até 13 atributos em um único Flow, criar regras automáticas de qualidade com Workflows e montar prompts em um novo editor com pré-visualização ao vivo.

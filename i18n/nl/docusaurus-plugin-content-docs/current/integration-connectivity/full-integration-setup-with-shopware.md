@@ -84,6 +84,12 @@ U ziet de tabel met machtigingen met alle selectievakjes uitgeschakeld. Schakel 
 
 Klik na het instellen van alle machtigingen op "Opslaan" om de rol op te slaan.
 
+:::note[Vereiste basismachtigingen]
+Fozzels heeft ook de API-machtigingen `language:read` en `locale:read` nodig om de talen van uw verkoopkanalen te lezen. Ze hebben geen vinkje in de machtigingentabel: Shopware voegt ze automatisch toe wanneer u de rol op dit scherm opslaat.
+
+Is de rol op een andere manier aangemaakt of bewerkt (via de API, een plugin of een script), dan kunnen deze twee machtigingen ontbreken. "Pull Websites and Stores" mislukt dan met `403 FRAMEWORK__MISSING_PRIVILEGE_ERROR`. Open in dat geval de rol hier en klik nogmaals op "Opslaan", of zet de toggle **Administrator** aan op de integratie (stap 11).
+:::
+
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/A8MHLjtMTc9IvBEae-ZW8vUS8I4hag_G8A.png)
 
 ###  **9.** Ga naar Systeem > Integraties

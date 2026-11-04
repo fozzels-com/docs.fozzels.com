@@ -87,6 +87,12 @@ Vedrà la tabella dei permessi con tutte le caselle deselezionate. Abiliti i seg
 
 Dopo aver impostato tutti i permessi, clicchi su "Salva" per salvare il ruolo.
 
+:::note[Permessi di base necessari]
+Fozzels ha bisogno anche dei permessi API `language:read` e `locale:read` per leggere le lingue dei Suoi canali di vendita. Non hanno una casella nella tabella dei permessi: Shopware li aggiunge automaticamente quando salva il ruolo in questa schermata.
+
+Se il ruolo è stato creato o modificato in altro modo (tramite API, un plugin o uno script), questi due permessi possono mancare. In tal caso "Pull Websites and Stores" fallisce con `403 FRAMEWORK__MISSING_PRIVILEGE_ERROR`. Per risolvere, apra il ruolo qui e clicchi di nuovo su "Salva", oppure attivi l'interruttore **Administrator** sull'integrazione (passo 11).
+:::
+
 ![](/img/kb/integration-connectivity/full-integration-setup-with-shopware/A8MHLjtMTc9IvBEae-ZW8vUS8I4hag_G8A.png)
 
 ###  **9.** Vada su Sistema > Integrazioni

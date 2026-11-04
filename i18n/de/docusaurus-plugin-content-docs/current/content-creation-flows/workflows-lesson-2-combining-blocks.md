@@ -130,3 +130,7 @@ Ersetzen Sie für Test 1 „cake" im Prompt durch ein anderes Produkt, zum Beisp
 :::tip
 Folgen Sie vor dem Speichern jedem Pfad auf der Zeichenfläche mit dem Finger: „Wenn der Text X enthält, wohin geht er als Nächstes?" Eine fehlende Linie ist der häufigste Grund dafür, dass ein Block nie ausgeführt wird.
 :::
+
+Die nächste Lektion zeigt, wie Sie jeden generierten Text von KI prüfen und unbrauchbare Texte automatisch neu generieren lassen.
+
+Fahren Sie fort mit [4.11.3. Lektion 3: Automatische KI-Prüfung und Neugenerierung](/content-creation-flows/workflows-lesson-3-ai-check-and-regeneration/).

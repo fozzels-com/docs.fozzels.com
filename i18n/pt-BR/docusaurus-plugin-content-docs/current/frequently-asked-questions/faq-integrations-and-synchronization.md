@@ -16,11 +16,19 @@ O provedor PIM pode precisar reiniciar seus serviços. Entre em contato com eles
 
 ## Fozzels não pode estabelecer uma conexão API REST com minha loja Shopware.
 
-Verifique novamente o Access Key ID e Secure Access Key. Se estiverem corretos, o problema é provavelmente permissões de acesso. No admin Shopware vá para Settings → System → Integrations, abra a integração Fozzels, ative o toggle **Administrator** e salve.
+Verifique o Access Key ID e o Secret Access Key. Se estiverem corretos, o problema provavelmente está nas permissões da função vinculada à integração Fozzels. Compare essa função com as permissões do [guia de configuração](/integration-connectivity/full-integration-setup-with-shopware).
 
-## Fozzels exige acesso Administrator em Shopware mas estou preocupado com privacidade.
+Para descobrir rapidamente se as permissões são a causa, ative o toggle **Administrator**: no admin Shopware vá para Settings → System → Integrations, abra a integração Fozzels, ative **Administrator** e salve. O Fozzels passa a ter todos os direitos na integração, então a conexão vai funcionar. Se funcionar, faltava uma permissão na função. Você pode deixar Administrator ativado, ou corrigir a função e desativá-lo novamente.
 
-O papel Administrator é atualmente necessário para Fozzels ler dados de produtos. Se conceder acesso total de admin é uma preocupação, entre em contato com o time Fozzels para discutir se uma configuração mais restrita é possível.
+## Preciso dar ao Fozzels acesso Administrator no Shopware?
+
+Não. Uma função com as permissões do [guia de configuração](/integration-connectivity/full-integration-setup-with-shopware) é suficiente. O toggle **Administrator** é opcional: ele dá ao Fozzels todos os direitos na integração, o que é útil quando uma conexão falha e você quer descartar permissões faltando.
+
+Em qualquer caso, o Fozzels apenas lê e grava dados de produtos. O Fozzels nunca lê dados de clientes.
+
+## "Pull Websites and Stores" falha com `403 FRAMEWORK__MISSING_PRIVILEGE_ERROR` no Shopware.
+
+O Fozzels consegue fazer login, mas faltam permissões à função vinculada à integração Fozzels. Além das permissões do [guia de configuração](/integration-connectivity/full-integration-setup-with-shopware), o Fozzels precisa de `language:read` e `locale:read`. O Shopware as adiciona automaticamente quando uma função é salva em Settings → System → Users & permissions, mas elas podem faltar se a função foi criada por API, um plugin ou um script. Solução: abra a função ali e clique em **Salvar** novamente, ou ative o toggle **Administrator** na integração. Depois, clique novamente em "Pull Websites and Stores".
 
 ## Minhas chaves de API são inválidas. O que devo verificar?
 
