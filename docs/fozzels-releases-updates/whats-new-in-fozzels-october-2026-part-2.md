@@ -9,31 +9,43 @@ description: >-
 whats_new:
   released_at: 2026-10-23
   items:
+    - area: 'Overview'
+      title: 'October 2026, part 2: results that meet your standards'
+      body: 'Texts that keep improving until they follow your rules, image regeneration with new settings, flexible Excel and CSV export and real ALT texts instead of placeholders. Here''s what''s new.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/01-cover.jpg
     - tag: new
-      area: Workflows
-      title: 'Regenerate with feedback'
-      body: 'A new workflow action regenerates a text that breaks your rules and uses the reason as feedback, up to 3 attempts.'
+      area: 'Filters'
+      title: 'Paste a list into your filters'
+      body: 'Paste EANs or SKUs from Excel into an "is one of" or "is not one of" condition and click Split to turn them into separate values.'
     - tag: new
-      area: 'Image Flows'
-      title: 'Regenerate images with new settings'
-      body: 'Pick other product photos, another AI model, or change the prompt and presets for one result before generating it again.'
-    - tag: new
-      area: Reports
+      area: 'Reports'
       title: 'Export to Excel and CSV'
-      body: 'Choose exactly which columns go into the file, ready to import into your shop or ERP.'
-    - tag: improved
-      area: 'ALT Flows'
-      title: 'Find placeholder ALT texts'
-      body: 'The new condition "has an image whose ALT contains" finds ALTs that are just a file name, so Fozzels can write real ones.'
+      body: 'Choose which columns go into the file. Name the text column after the attribute code, and the file is ready to import into your shop or ERP.'
     - tag: new
-      area: Jane
-      title: 'Talk to Jane'
-      body: 'Click the microphone and ask your question out loud. Jane can read her answer back to you.'
+      area: 'ALT Flows'
+      title: 'Real ALT texts instead of "IMG_2045.jpg"'
+      body: 'The new condition "has an image whose ALT contains" finds placeholder ALTs, for example ones containing ".jpg", so Fozzels can write real ones.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/04-alt-contains-condition.png
     - tag: new
       area: 'AI models'
       title: 'New AI models'
-      body: 'Gemini 4 Argon and Claude Haiku 5.5 for texts, GPT Image 2.5 and Nano Banana 2.1 for images, HeyGen Video 1.0 for videos.'
+      body: 'Gemini 4 Argon and Claude Haiku 5.5 for texts, GPT Image 2.5 Flare and Sunburst and Nano Banana 2.1 for images, HeyGen Video 1.0 for videos. GPT-4.1 and GPT Image 1 are retired.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/06-new-ai-models.png
+    - tag: new
+      area: 'Workflows'
+      title: 'Regenerate with feedback'
+      body: 'Add this action to a workflow block, and Fozzels regenerates a text that breaks your rules, using the reason as feedback, up to 3 times. AI validation is charged separately.'
+    - tag: new
+      area: 'Image Flows'
+      title: 'Regenerate images with new settings'
+      body: 'Pick other product photos, another AI model, or change the prompt and presets for one result. The new image replaces the previous one.'
+    - area: 'Feedback'
+      title: 'Thank you for using Fozzels'
+      body: 'Got an idea or a wish for the next release? Share it with Jane in the app or email support@fozzels.com.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/10-share-your-idea.png
 ---
+
+![What's new in Fozzels, October 2026, part 2](/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/01-cover.jpg)
 
 The second part of our October updates takes your content to the next level. Here's what's waiting for you:
 
@@ -51,6 +63,8 @@ Here's everything that's new and how to use it.
 
 Workflows can now regenerate a text automatically when it doesn't meet your requirements. Add the new action **Regenerate with feedback** to any workflow block: the text is held for review together with the reason, and Fozzels generates it again in the background using that feedback. Under **Maximum regenerations**, you choose how many attempts to allow, up to 3.
 
+<video controls muted playsInline preload="metadata" width="100%" title="AI check and regeneration in a workflow" src="/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/02-regenerate-with-feedback.mp4"></video>
+
 If you use AI validation (the **AI validation fails** condition), the additional AI requests for the check are charged separately.
 
 **Even without a workflow.** If you haven't set up such a workflow, Fozzels still regenerates texts marked as suspicious, but without feedback, following the regular suspicious content rules, and not right away but in the next generation round.
@@ -59,7 +73,9 @@ If you use AI validation (the **AI validation fails** condition), the additional
 
 ### Flexible export to Excel and CSV
 
-You can now export results to Excel or CSV and choose exactly which columns go into the file, for example just the SKU and the generated description. Name the generated text column after the attribute code, and the file is ready to import into your shop or ERP. Fozzels remembers your selection for next time.
+You can now export results to Excel or CSV and choose exactly which columns go into the file, for example just the SKU and the generated description. Name the generated text column after the attribute code, and the file is ready to import into your shop or ERP. Fozzels remembers your selection for next time. For step-by-step instructions, see [4.7.6 Exporting Generated Content to Excel and CSV](/content-creation-flows/exporting-generated-content-to-excel-and-csv/).
+
+<video controls muted playsInline preload="metadata" width="100%" title="Exporting generated content to Excel and CSV" src="/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/03-export-excel-csv.mp4"></video>
 
 ### Regenerate images with new settings
 
@@ -79,11 +95,15 @@ Often an image's ALT is technically filled in, but it's just a placeholder: a fi
 
 ALT Flows now have a new Media Gallery condition, **has an image whose ALT contains**. For example, enter ".jpg", and Fozzels finds every image whose ALT is just a file name and generates meaningful ALT texts for them. To include images with no ALT at all, add a condition group with "has an image with an empty ALT" and your ALT condition, and set it to "Any condition".
 
+![Media Gallery condition: has an image whose ALT contains .jpg](/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/04-alt-contains-condition.png)
+
 ### AI labels in generated images and videos
 
 Every image and video generated by Fozzels now carries a built-in, machine-readable label that marks it as AI-generated, in line with the transparency requirements of the EU AI Act. The label is stored in the file's metadata, so it's invisible to shoppers and doesn't change how your images look, but it stays in place after syncing to your shop.
 
 For images, you can also see it in Fozzels: the result's version history shows the step **Labelled as AI-generated**.
+
+![Version history with the step Labelled as AI-generated](/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/05-labelled-as-ai-generated.png)
 
 **Why it matters:** you can use AI visuals in your shop with confidence, without adding labels manually.
 
@@ -94,6 +114,8 @@ You can now speak to Jane instead of typing. Click the microphone in the chat fi
 ### New AI models
 
 We keep expanding our model lineup as soon as AI providers release new models, so you can always choose the best fit for each task.
+
+![New AI models: Gemini 4 Argon, Claude Haiku 5.5, GPT Image 2.5 Flare and Sunburst, Nano Banana 2.1, HeyGen](/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/06-new-ai-models.png)
 
 **For texts**
 
@@ -112,6 +134,8 @@ We keep expanding our model lineup as soon as AI providers release new models, s
 **For videos**
 
 **HeyGen Video 1.0.** A much more affordable alternative to Veo.
+
+<video controls muted playsInline preload="metadata" width="100%" title="HeyGen Video 1.0 in your Video Flows" src="/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/07-heygen-video.mp4"></video>
 
 We also retired the older GPT-4.1 and GPT Image 1 models.
 
@@ -141,6 +165,10 @@ Good to know:
 
 ## Reports and filters
 
+**Paste a whole list into your filters.** Copy a list of values, for example EANs or SKUs from Excel, and paste it straight into an "is one of" or "is not one of" condition. Click **Split**, and every item becomes a separate value. No more typing values one by one.
+
+<video controls muted playsInline preload="metadata" width="100%" title="Pasting a list of values into a flow filter and splitting it" src="/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/08-paste-list-into-filters.mp4"></video>
+
 **Errors at a glance.** In the generation report, the "Display only with errors" filter now shows only failed generations, with the actual error message instead of "Unknown error occurred".
 
 **Notifications after a repull.** When you repull products with a mass action, you now get a notification with the result right away.
@@ -157,6 +185,8 @@ Good to know:
 
 **Texts for all store views.** Turn on **Also save as the default value for all store views**, and each push saves the text to the Flow's store view and, as the default, to every other store view. Store views with their own value for the attribute keep showing it.
 
+![Automation tab with the option Also save as the default value for all store views](/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/09-store-views-default.webp)
+
 Good to know: if a Flow for another store view uses this attribute in its prompt and automatically creates a new text when an attribute changes, it will treat the new default as a change and generate new texts for products without their own value.
 
 ### Magento and NextChapter
@@ -170,3 +200,5 @@ Good to know: if a Flow for another store view uses this attribute in its prompt
 ### CSV / Raw File
 
 Files with hidden characters at the start, which made the first column name appear in quotes, are now read correctly.
+
+![Got an idea? Share it with Jane in the app or email support@fozzels.com](/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/10-share-your-idea.png)
