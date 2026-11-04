@@ -11,29 +11,31 @@ whats_new:
   released_at: 2026-10-23
   items:
     - tag: new
-      area: Workflows
+      area: 'Filters'
+      title: 'Plak een lijst in uw filters'
+      body: 'Plak EAN''s of SKU''s uit Excel in een "is one of"- of "is not one of"-voorwaarde en klik op Split om er aparte waarden van te maken.'
+    - tag: new
+      area: 'Rapporten'
+      title: 'Exporteren naar Excel en CSV'
+      body: 'Kies welke kolommen in het bestand komen. Geef de tekstkolom de naam van de attribuutcode, en het bestand is klaar om te importeren in uw shop of ERP.'
+    - tag: new
+      area: 'ALT Flows'
+      title: 'Echte ALT-teksten in plaats van "IMG_2045.jpg"'
+      body: 'De nieuwe voorwaarde "has an image whose ALT contains" vindt placeholder-ALT''s, bijvoorbeeld met ".jpg", zodat Fozzels echte kan schrijven.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/04-alt-contains-condition.png
+    - tag: new
+      area: 'AI-modellen'
+      title: 'Nieuwe AI-modellen'
+      body: 'Gemini 4 Argon en Claude Haiku 5.5 voor teksten, GPT Image 2.5 Flare en Sunburst en Nano Banana 2.1 voor afbeeldingen, HeyGen Video 1.0 voor video''s. GPT-4.1 en GPT Image 1 zijn uitgefaseerd.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/06-new-ai-models.png
+    - tag: new
+      area: 'Workflows'
       title: 'Opnieuw genereren met feedback'
-      body: 'Een nieuwe workflowactie genereert een tekst die uw regels overtreedt opnieuw, met de reden als feedback, tot 3 pogingen.'
+      body: 'Voeg deze actie toe aan een workflowblok, en Fozzels genereert een tekst die uw regels overtreedt opnieuw, met de reden als feedback, tot 3 keer. AI-validatie wordt apart berekend.'
     - tag: new
       area: 'Image Flows'
       title: 'Afbeeldingen opnieuw genereren met nieuwe instellingen'
-      body: "Kies andere productfoto's of een ander AI-model, of pas de prompt en presets voor één resultaat aan voordat u het opnieuw genereert."
-    - tag: new
-      area: Rapporten
-      title: 'Exporteren naar Excel en CSV'
-      body: 'Kies precies welke kolommen in het bestand komen, klaar om te importeren in uw shop of ERP.'
-    - tag: improved
-      area: 'ALT Flows'
-      title: 'Placeholder-ALT-teksten vinden'
-      body: 'De nieuwe voorwaarde "has an image whose ALT contains" vindt ALT''s die alleen een bestandsnaam zijn, zodat Fozzels echte kan schrijven.'
-    - tag: new
-      area: Jane
-      title: 'Praat met Jane'
-      body: 'Klik op de microfoon en stel uw vraag hardop. Jane kan haar antwoord aan u voorlezen.'
-    - tag: new
-      area: AI-modellen
-      title: 'Nieuwe AI-modellen'
-      body: "Gemini 4 Argon en Claude Haiku 5.5 voor teksten, GPT Image 2.5 en Nano Banana 2.1 voor afbeeldingen, HeyGen Video 1.0 voor video's."
+      body: 'Kies andere productfoto''s of een ander AI-model, of pas de prompt en presets voor één resultaat aan. De nieuwe afbeelding vervangt de vorige.'
 ---
 
 ![Nieuw in Fozzels, oktober 2026, deel 2](/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/01-cover.jpg)

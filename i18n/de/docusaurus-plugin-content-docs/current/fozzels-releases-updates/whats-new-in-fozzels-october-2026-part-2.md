@@ -11,29 +11,31 @@ whats_new:
   released_at: 2026-10-23
   items:
     - tag: new
-      area: Workflows
+      area: 'Filter'
+      title: 'Listen in Filter einfügen'
+      body: 'Fügen Sie EANs oder SKUs aus Excel in eine „is one of“- oder „is not one of“-Bedingung ein und klicken Sie auf Split, um daraus einzelne Werte zu machen.'
+    - tag: new
+      area: 'Berichte'
+      title: 'Export nach Excel und CSV'
+      body: 'Wählen Sie, welche Spalten in die Datei kommen. Benennen Sie die Textspalte nach dem Attributcode, und die Datei ist bereit für den Import in Ihren Shop oder Ihr ERP.'
+    - tag: new
+      area: 'ALT Flows'
+      title: 'Echte ALT-Texte statt „IMG_2045.jpg“'
+      body: 'Die neue Bedingung „has an image whose ALT contains“ findet Platzhalter-ALTs, zum Beispiel mit „.jpg“, damit Fozzels echte schreiben kann.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/04-alt-contains-condition.png
+    - tag: new
+      area: 'KI-Modelle'
+      title: 'Neue KI-Modelle'
+      body: 'Gemini 4 Argon und Claude Haiku 5.5 für Texte, GPT Image 2.5 Flare und Sunburst sowie Nano Banana 2.1 für Bilder, HeyGen Video 1.0 für Videos. GPT-4.1 und GPT Image 1 wurden eingestellt.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/06-new-ai-models.png
+    - tag: new
+      area: 'Workflows'
       title: 'Mit Feedback neu generieren'
-      body: 'Eine neue Workflow-Aktion generiert einen Text, der gegen Ihre Regeln verstößt, mit dem Grund als Feedback neu, bis zu 3 Versuche.'
+      body: 'Fügen Sie diese Aktion einem Workflow-Block hinzu, und Fozzels generiert einen Text, der gegen Ihre Regeln verstößt, mit dem Grund als Feedback neu, bis zu 3-mal. Die KI-Prüfung wird separat berechnet.'
     - tag: new
       area: 'Image Flows'
       title: 'Bilder mit neuen Einstellungen neu generieren'
-      body: 'Wählen Sie andere Produktfotos oder ein anderes KI-Modell, oder ändern Sie Prompt und Presets für ein einzelnes Ergebnis, bevor Sie es neu generieren.'
-    - tag: new
-      area: Berichte
-      title: 'Export nach Excel und CSV'
-      body: 'Wählen Sie genau, welche Spalten in die Datei kommen, bereit für den Import in Ihren Shop oder Ihr ERP.'
-    - tag: improved
-      area: 'ALT Flows'
-      title: 'Platzhalter-ALT-Texte finden'
-      body: 'Die neue Bedingung „has an image whose ALT contains“ findet ALTs, die nur ein Dateiname sind, damit Fozzels echte schreiben kann.'
-    - tag: new
-      area: Jane
-      title: 'Mit Jane sprechen'
-      body: 'Klicken Sie auf das Mikrofon und stellen Sie Ihre Frage laut. Jane kann Ihnen ihre Antwort vorlesen.'
-    - tag: new
-      area: KI-Modelle
-      title: 'Neue KI-Modelle'
-      body: 'Gemini 4 Argon und Claude Haiku 5.5 für Texte, GPT Image 2.5 und Nano Banana 2.1 für Bilder, HeyGen Video 1.0 für Videos.'
+      body: 'Wählen Sie andere Produktfotos oder ein anderes KI-Modell, oder ändern Sie Prompt und Presets für ein einzelnes Ergebnis. Das neue Bild ersetzt das bisherige.'
 ---
 
 ![Neues in Fozzels, Oktober 2026, Teil 2](/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/01-cover.jpg)

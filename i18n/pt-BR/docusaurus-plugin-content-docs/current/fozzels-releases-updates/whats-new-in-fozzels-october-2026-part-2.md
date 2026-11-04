@@ -11,29 +11,31 @@ whats_new:
   released_at: 2026-10-23
   items:
     - tag: new
-      area: Workflows
-      title: 'Regenerar com feedback'
-      body: 'Uma nova ação de workflow regenera um texto que não segue suas regras e usa o motivo como feedback, em até 3 tentativas.'
+      area: 'Filtros'
+      title: 'Cole uma lista nos seus filtros'
+      body: 'Cole EANs ou SKUs do Excel em uma condição "is one of" ou "is not one of" e clique em Split para transformá-los em valores separados.'
     - tag: new
-      area: 'Image Flows'
-      title: 'Regenere imagens com novas configurações'
-      body: 'Escolha outras fotos do produto ou outro modelo de IA, ou altere o prompt e os presets de um resultado antes de gerá-lo de novo.'
-    - tag: new
-      area: Relatórios
+      area: 'Relatórios'
       title: 'Exportação para Excel e CSV'
-      body: 'Escolha exatamente quais colunas entram no arquivo, pronto para importar na sua loja ou no seu ERP.'
-    - tag: improved
-      area: 'ALT Flows'
-      title: 'Encontre textos ALT provisórios'
-      body: 'A nova condição "has an image whose ALT contains" encontra ALTs que são só um nome de arquivo, para o Fozzels escrever textos de verdade.'
+      body: 'Escolha quais colunas entram no arquivo. Dê à coluna de texto o nome do código do atributo, e o arquivo fica pronto para importar na sua loja ou no seu ERP.'
     - tag: new
-      area: Jane
-      title: 'Converse com a Jane'
-      body: 'Clique no microfone e faça sua pergunta em voz alta. A Jane pode ler a resposta para você.'
+      area: 'ALT Flows'
+      title: 'ALTs de verdade em vez de "IMG_2045.jpg"'
+      body: 'A nova condição "has an image whose ALT contains" encontra ALTs provisórios, por exemplo os que contêm ".jpg", para o Fozzels escrever textos de verdade.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/04-alt-contains-condition.png
     - tag: new
       area: 'Modelos de IA'
       title: 'Novos modelos de IA'
-      body: 'Gemini 4 Argon e Claude Haiku 5.5 para textos, GPT Image 2.5 e Nano Banana 2.1 para imagens, HeyGen Video 1.0 para vídeos.'
+      body: 'Gemini 4 Argon e Claude Haiku 5.5 para textos, GPT Image 2.5 Flare e Sunburst e Nano Banana 2.1 para imagens, HeyGen Video 1.0 para vídeos. Desativamos o GPT-4.1 e o GPT Image 1.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/06-new-ai-models.png
+    - tag: new
+      area: 'Workflows'
+      title: 'Regenerar com feedback'
+      body: 'Adicione esta ação a um block de workflow, e o Fozzels regenera um texto que não segue suas regras usando o motivo como feedback, até 3 vezes. A validação com IA é cobrada à parte.'
+    - tag: new
+      area: 'Image Flows'
+      title: 'Regenere imagens com novas configurações'
+      body: 'Escolha outras fotos do produto ou outro modelo de IA, ou altere o prompt e os presets de um resultado. A nova imagem substitui a anterior.'
 ---
 
 ![Novidades no Fozzels, outubro de 2026, parte 2](/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/01-cover.jpg)
