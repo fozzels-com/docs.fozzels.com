@@ -17,10 +17,12 @@ whats_new:
       area: 'Filters'
       title: 'Paste a list into your filters'
       body: 'Paste EANs or SKUs from Excel into an "is one of" or "is not one of" condition and click Split to turn them into separate values.'
+      video: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/08-paste-list-into-filters.mp4
     - tag: new
       area: 'Reports'
       title: 'Export to Excel and CSV'
       body: 'Choose which columns go into the file. Name the text column after the attribute code, and the file is ready to import into your shop or ERP.'
+      video: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/03-export-excel-csv.mp4
     - tag: new
       area: 'ALT Flows'
       title: 'Real ALT texts instead of "IMG_2045.jpg"'
@@ -35,6 +37,7 @@ whats_new:
       area: 'Workflows'
       title: 'Regenerate with feedback'
       body: 'Add this action to a workflow block, and Fozzels regenerates a text that breaks your rules, using the reason as feedback, up to 3 times. AI validation is charged separately.'
+      video: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/02-regenerate-with-feedback.mp4
     - tag: new
       area: 'Image Flows'
       title: 'Regenerate images with new settings'

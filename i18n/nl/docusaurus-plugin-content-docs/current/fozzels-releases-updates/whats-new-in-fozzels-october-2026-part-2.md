@@ -18,10 +18,12 @@ whats_new:
       area: 'Filters'
       title: 'Plak een lijst in uw filters'
       body: 'Plak EAN''s of SKU''s uit Excel in een "is one of"- of "is not one of"-voorwaarde en klik op Split om er aparte waarden van te maken.'
+      video: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/08-paste-list-into-filters.mp4
     - tag: new
       area: 'Rapporten'
       title: 'Exporteren naar Excel en CSV'
       body: 'Kies welke kolommen in het bestand komen. Geef de tekstkolom de naam van de attribuutcode, en het bestand is klaar om te importeren in uw shop of ERP.'
+      video: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/03-export-excel-csv.mp4
     - tag: new
       area: 'ALT Flows'
       title: 'Echte ALT-teksten in plaats van "IMG_2045.jpg"'
@@ -36,6 +38,7 @@ whats_new:
       area: 'Workflows'
       title: 'Opnieuw genereren met feedback'
       body: 'Voeg deze actie toe aan een workflowblok, en Fozzels genereert een tekst die uw regels overtreedt opnieuw, met de reden als feedback, tot 3 keer. AI-validatie wordt apart berekend.'
+      video: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/02-regenerate-with-feedback.mp4
     - tag: new
       area: 'Image Flows'
       title: 'Afbeeldingen opnieuw genereren met nieuwe instellingen'
