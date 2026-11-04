@@ -18,10 +18,12 @@ whats_new:
       area: 'Filtri'
       title: 'Incolli un elenco nei filtri'
       body: 'Incolli EAN o SKU da Excel in una condizione "is one of" o "is not one of" e clicchi su Split per trasformarli in valori separati.'
+      video: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/08-paste-list-into-filters.mp4
     - tag: new
       area: 'Report'
       title: 'Esportazione in Excel e CSV'
       body: 'Scelga quali colonne inserire nel file. Dia alla colonna del testo il nome del codice attributo e il file è pronto da importare nel Suo shop o ERP.'
+      video: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/03-export-excel-csv.mp4
     - tag: new
       area: 'ALT Flow'
       title: 'ALT veri invece di "IMG_2045.jpg"'
@@ -36,6 +38,7 @@ whats_new:
       area: 'Workflow'
       title: 'Rigenera con feedback'
       body: 'Aggiunga questa azione a un blocco del workflow e Fozzels rigenera un testo che non rispetta le Sue regole, usando il motivo come feedback, fino a 3 volte. La validazione AI è addebitata a parte.'
+      video: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/02-regenerate-with-feedback.mp4
     - tag: new
       area: 'Image Flow'
       title: 'Rigeneri le immagini con nuove impostazioni'

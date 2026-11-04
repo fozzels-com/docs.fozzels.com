@@ -18,10 +18,12 @@ whats_new:
       area: 'Filtros'
       title: 'Cole uma lista nos seus filtros'
       body: 'Cole EANs ou SKUs do Excel em uma condição "is one of" ou "is not one of" e clique em Split para transformá-los em valores separados.'
+      video: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/08-paste-list-into-filters.mp4
     - tag: new
       area: 'Relatórios'
       title: 'Exportação para Excel e CSV'
       body: 'Escolha quais colunas entram no arquivo. Dê à coluna de texto o nome do código do atributo, e o arquivo fica pronto para importar na sua loja ou no seu ERP.'
+      video: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/03-export-excel-csv.mp4
     - tag: new
       area: 'ALT Flows'
       title: 'ALTs de verdade em vez de "IMG_2045.jpg"'
@@ -36,6 +38,7 @@ whats_new:
       area: 'Workflows'
       title: 'Regenerar com feedback'
       body: 'Adicione esta ação a um block de workflow, e o Fozzels regenera um texto que não segue suas regras usando o motivo como feedback, até 3 vezes. A validação com IA é cobrada à parte.'
+      video: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/02-regenerate-with-feedback.mp4
     - tag: new
       area: 'Image Flows'
       title: 'Regenere imagens com novas configurações'
