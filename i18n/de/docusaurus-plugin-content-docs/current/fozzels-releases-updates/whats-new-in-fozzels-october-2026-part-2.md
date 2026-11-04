@@ -10,8 +10,7 @@ description: >-
 whats_new:
   released_at: 2026-10-23
   items:
-    - tag: new
-      area: 'Überblick'
+    - area: 'Überblick'
       title: 'Oktober 2026, Teil 2: Ergebnisse nach Ihren Standards'
       body: 'Texte, die so lange verbessert werden, bis sie Ihren Regeln folgen, Bildneugenerierung mit neuen Einstellungen, flexibler Excel- und CSV-Export und echte ALT-Texte statt Platzhaltern. Das ist neu.'
       image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/01-cover.jpg
@@ -41,8 +40,7 @@ whats_new:
       area: 'Image Flows'
       title: 'Bilder mit neuen Einstellungen neu generieren'
       body: 'Wählen Sie andere Produktfotos oder ein anderes KI-Modell, oder ändern Sie Prompt und Presets für ein einzelnes Ergebnis. Das neue Bild ersetzt das bisherige.'
-    - tag: new
-      area: 'Feedback'
+    - area: 'Feedback'
       title: 'Danke, dass Sie Fozzels nutzen'
       body: 'Haben Sie eine Idee oder einen Wunsch für das nächste Release? Teilen Sie ihn Jane in der App mit oder schreiben Sie an support@fozzels.com.'
       image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/10-share-your-idea.png

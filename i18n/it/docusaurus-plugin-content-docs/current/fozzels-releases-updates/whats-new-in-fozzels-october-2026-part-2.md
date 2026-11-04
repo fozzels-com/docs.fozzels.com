@@ -10,8 +10,7 @@ description: >-
 whats_new:
   released_at: 2026-10-23
   items:
-    - tag: new
-      area: 'Panoramica'
+    - area: 'Panoramica'
       title: 'Ottobre 2026, parte 2: risultati all''altezza dei Suoi standard'
       body: 'Testi che vengono migliorati finché non rispettano le Sue regole, rigenerazione delle immagini con nuove impostazioni, esportazione flessibile in Excel e CSV e testi ALT veri al posto dei segnaposto. Ecco le novità.'
       image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/01-cover.jpg
@@ -41,8 +40,7 @@ whats_new:
       area: 'Image Flow'
       title: 'Rigeneri le immagini con nuove impostazioni'
       body: 'Scelga altre foto del prodotto o un altro modello AI, oppure modifichi prompt e preset di un singolo risultato. La nuova immagine sostituisce la precedente.'
-    - tag: new
-      area: 'Feedback'
+    - area: 'Feedback'
       title: 'Grazie per usare Fozzels'
       body: 'Ha un''idea o un desiderio per il prossimo rilascio? Lo condivida con Jane nell''app o scriva a support@fozzels.com.'
       image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/10-share-your-idea.png
