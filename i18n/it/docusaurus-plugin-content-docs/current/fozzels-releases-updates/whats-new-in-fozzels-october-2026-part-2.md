@@ -36,6 +36,8 @@ whats_new:
       body: 'Gemini 4 Argon e Claude Haiku 5.5 per i testi, GPT Image 2.5 e Nano Banana 2.1 per le immagini, HeyGen Video 1.0 per i video.'
 ---
 
+![Novità in Fozzels, ottobre 2026, parte 2](/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/01-cover.jpg)
+
 La seconda parte dei nostri aggiornamenti di ottobre porta i Suoi contenuti a un livello superiore. Ecco che cosa La aspetta:
 
 - **Un nuovo livello di qualità dei risultati.** Un nuovo tipo di workflow con validazione e feedback dell'AI: Fozzels controlla i Suoi testi e continua a perfezionarli finché non sono corretti.
@@ -52,6 +54,8 @@ Ecco tutte le novità e come iniziare a usarle.
 
 I workflow possono ora rigenerare automaticamente un testo quando non soddisfa i Suoi requisiti. Aggiunga la nuova azione **Regenerate with feedback** a qualsiasi blocco del workflow: il testo viene trattenuto per la revisione insieme al motivo e Fozzels lo genera di nuovo in background usando quel feedback. In **Maximum regenerations** sceglie quanti tentativi consentire, fino a 3.
 
+<video controls muted playsInline preload="metadata" width="100%" title="Controllo AI e rigenerazione in un workflow" src="/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/02-regenerate-with-feedback.mp4"></video>
+
 Se usa la validazione AI (la condizione **AI validation fails**), le richieste AI aggiuntive per il controllo vengono addebitate separatamente.
 
 **Anche senza workflow.** Se non ha impostato un workflow di questo tipo, Fozzels rigenera comunque i testi segnalati come sospetti, ma senza feedback, secondo le normali regole sui contenuti sospetti, e non subito ma nel successivo ciclo di generazione.
@@ -61,6 +65,8 @@ Se usa la validazione AI (la condizione **AI validation fails**), le richieste A
 ### Esportazione flessibile in Excel e CSV
 
 Ora può esportare i risultati in Excel o CSV e scegliere esattamente quali colonne inserire nel file, per esempio solo lo SKU e la descrizione generata. Dia alla colonna del testo generato il nome del codice attributo e il file è pronto da importare nel Suo negozio o nel Suo ERP. Fozzels ricorda la Sua selezione per la volta successiva.
+
+<video controls muted playsInline preload="metadata" width="100%" title="Esportare i contenuti generati in Excel e CSV" src="/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/03-export-excel-csv.mp4"></video>
 
 ### Rigenerare le immagini con nuove impostazioni
 
@@ -80,11 +86,15 @@ Spesso l'ALT di un'immagine è tecnicamente compilato, ma è solo un segnaposto:
 
 Gli ALT Flows hanno ora una nuova condizione Media Gallery, **has an image whose ALT contains**. Per esempio, inserisca ".jpg" e Fozzels trova ogni immagine il cui ALT è solo un nome di file e genera per loro testi ALT significativi. Per includere anche le immagini senza alcun ALT, aggiunga un gruppo di condizioni con "has an image with an empty ALT" e la Sua condizione ALT e lo imposti su "Any condition".
 
+![Condizione Media Gallery: has an image whose ALT contains .jpg](/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/04-alt-contains-condition.png)
+
 ### Etichette AI nelle immagini e nei video generati
 
 Ogni immagine e ogni video generato da Fozzels contiene ora un'etichetta integrata e leggibile dalle macchine che lo indica come generato dall'AI, in linea con i requisiti di trasparenza dell'AI Act dell'UE. L'etichetta è salvata nei metadati del file, quindi è invisibile ai clienti e non cambia l'aspetto delle Sue immagini, ma resta al suo posto dopo la sincronizzazione con il Suo negozio.
 
 Per le immagini può vederla anche in Fozzels: la cronologia delle versioni del risultato mostra il passaggio **Labelled as AI-generated**.
+
+![Cronologia delle versioni con il passaggio Labelled as AI-generated](/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/05-labelled-as-ai-generated.png)
 
 **Perché è importante:** può usare immagini AI nel Suo negozio in tutta tranquillità, senza aggiungere etichette manualmente.
 
@@ -95,6 +105,8 @@ Ora può parlare con Jane invece di scrivere. Clicchi sul microfono nel campo de
 ### Nuovi modelli AI
 
 Continuiamo ad ampliare la nostra offerta di modelli non appena i fornitori di AI rilasciano nuovi modelli, così può sempre scegliere quello più adatto a ogni attività.
+
+![Nuovi modelli AI: Gemini 4 Argon, Claude Haiku 5.5, GPT Image 2.5 Flare e Sunburst, Nano Banana 2.1, HeyGen](/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/06-new-ai-models.png)
 
 **Per i testi**
 
@@ -113,6 +125,8 @@ Continuiamo ad ampliare la nostra offerta di modelli non appena i fornitori di A
 **Per i video**
 
 **HeyGen Video 1.0.** Un'alternativa molto più economica a Veo.
+
+<video controls muted playsInline preload="metadata" width="100%" title="HeyGen Video 1.0 nei Suoi Video Flow" src="/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/07-heygen-video.mp4"></video>
 
 Abbiamo inoltre ritirato i modelli meno recenti GPT-4.1 e GPT Image 1.
 
@@ -142,6 +156,10 @@ Buono a sapersi:
 
 ## Report e filtri
 
+**Incolli un intero elenco nei filtri.** Copi un elenco di valori, per esempio EAN o SKU da Excel, e lo incolli direttamente in una condizione "is one of" o "is not one of". Clicchi su **Split** e ogni voce diventa un valore separato. Niente più valori digitati uno per uno.
+
+<video controls muted playsInline preload="metadata" width="100%" title="Incollare un elenco di valori in un filtro del flow e suddividerlo" src="/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/08-paste-list-into-filters.mp4"></video>
+
 **Errori a colpo d'occhio.** Nel report di generazione, il filtro "Display only with errors" ora mostra solo le generazioni non riuscite, con il messaggio di errore effettivo invece di "Unknown error occurred".
 
 **Notifiche dopo una riacquisizione.** Quando riacquisisce i prodotti con un'azione di massa, ora riceve subito una notifica con il risultato.
@@ -158,6 +176,8 @@ Buono a sapersi:
 
 **Testi per tutte le store view.** Attivi **Also save as the default value for all store views** e ogni push salva il testo nella store view del Flow e, come valore predefinito, in tutte le altre store view. Le store view con un proprio valore per l'attributo continuano a mostrarlo.
 
+![Scheda Automation con l'opzione Also save as the default value for all store views](/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/09-store-views-default.webp)
+
 Buono a sapersi: se un Flow per un'altra store view usa questo attributo nel prompt e crea automaticamente un nuovo testo quando un attributo cambia, considererà il nuovo valore predefinito come una modifica e genererà nuovi testi per i prodotti senza un proprio valore.
 
 ### Magento e NextChapter
@@ -171,3 +191,5 @@ Buono a sapersi: se un Flow per un'altra store view usa questo attributo nel pro
 ### CSV / Raw File
 
 I file con caratteri nascosti all'inizio, che facevano apparire tra virgolette il nome della prima colonna, ora vengono letti correttamente.
+
+![Ha un'idea? La condivida con Jane nell'app o scriva a support@fozzels.com](/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/10-share-your-idea.png)
