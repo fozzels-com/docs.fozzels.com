@@ -11,6 +11,11 @@ whats_new:
   released_at: 2026-10-23
   items:
     - tag: new
+      area: 'Visão geral'
+      title: 'Outubro de 2026, parte 2: resultados no seu padrão'
+      body: 'Textos que são aprimorados até seguirem as suas regras, nova geração de imagens com novas configurações, exportação flexível para Excel e CSV e textos ALT de verdade em vez de placeholders. Confira as novidades.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/01-cover.jpg
+    - tag: new
       area: 'Filtros'
       title: 'Cole uma lista nos seus filtros'
       body: 'Cole EANs ou SKUs do Excel em uma condição "is one of" ou "is not one of" e clique em Split para transformá-los em valores separados.'
@@ -36,6 +41,11 @@ whats_new:
       area: 'Image Flows'
       title: 'Regenere imagens com novas configurações'
       body: 'Escolha outras fotos do produto ou outro modelo de IA, ou altere o prompt e os presets de um resultado. A nova imagem substitui a anterior.'
+    - tag: new
+      area: 'Feedback'
+      title: 'Obrigado por usar o Fozzels'
+      body: 'Tem uma ideia ou um desejo para a próxima versão? Compartilhe com a Jane no app ou envie um e-mail para support@fozzels.com.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/10-share-your-idea.png
 ---
 
 ![Novidades no Fozzels, outubro de 2026, parte 2](/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/01-cover.jpg)

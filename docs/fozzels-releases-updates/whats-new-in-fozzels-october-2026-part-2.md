@@ -10,6 +10,11 @@ whats_new:
   released_at: 2026-10-23
   items:
     - tag: new
+      area: 'Overview'
+      title: 'October 2026, part 2: results that meet your standards'
+      body: 'Texts that keep improving until they follow your rules, image regeneration with new settings, flexible Excel and CSV export and real ALT texts instead of placeholders. Here''s what''s new.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/01-cover.jpg
+    - tag: new
       area: 'Filters'
       title: 'Paste a list into your filters'
       body: 'Paste EANs or SKUs from Excel into an "is one of" or "is not one of" condition and click Split to turn them into separate values.'
@@ -35,6 +40,11 @@ whats_new:
       area: 'Image Flows'
       title: 'Regenerate images with new settings'
       body: 'Pick other product photos, another AI model, or change the prompt and presets for one result. The new image replaces the previous one.'
+    - tag: new
+      area: 'Feedback'
+      title: 'Thank you for using Fozzels'
+      body: 'Got an idea or a wish for the next release? Share it with Jane in the app or email support@fozzels.com.'
+      image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/10-share-your-idea.png
 ---
 
 ![What's new in Fozzels, October 2026, part 2](/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/01-cover.jpg)
