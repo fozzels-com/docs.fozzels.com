@@ -74,7 +74,7 @@ Als u AI-validatie gebruikt (de voorwaarde **AI validation fails**), worden de e
 
 ### Flexibele export naar Excel en CSV
 
-U kunt resultaten nu exporteren naar Excel of CSV en precies kiezen welke kolommen in het bestand komen, bijvoorbeeld alleen de SKU en de gegenereerde beschrijving. Geef de kolom met gegenereerde tekst de naam van de attribuutcode, en het bestand is klaar om te importeren in uw winkel of ERP. Fozzels onthoudt uw selectie voor de volgende keer.
+U kunt resultaten nu exporteren naar Excel of CSV en precies kiezen welke kolommen in het bestand komen, bijvoorbeeld alleen de SKU en de gegenereerde beschrijving. Geef de kolom met gegenereerde tekst de naam van de attribuutcode, en het bestand is klaar om te importeren in uw winkel of ERP. Fozzels onthoudt uw selectie voor de volgende keer. Stapsgewijze instructies vindt u in [4.7.6 Gegenereerde content exporteren naar Excel en CSV](/content-creation-flows/exporting-generated-content-to-excel-and-csv/).
 
 <video controls muted playsInline preload="metadata" width="100%" title="Gegenereerde content exporteren naar Excel en CSV" src="/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/03-export-excel-csv.mp4"></video>
 

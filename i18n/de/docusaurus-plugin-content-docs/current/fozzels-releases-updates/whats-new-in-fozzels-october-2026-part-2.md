@@ -74,7 +74,7 @@ Wenn Sie die KI-Validierung nutzen (die Bedingung **AI validation fails**), werd
 
 ### Flexibler Export nach Excel und CSV
 
-Sie können Ergebnisse jetzt nach Excel oder CSV exportieren und genau wählen, welche Spalten in die Datei kommen, zum Beispiel nur die SKU und die generierte Beschreibung. Benennen Sie die Spalte mit dem generierten Text nach dem Attributcode, und die Datei ist bereit für den Import in Ihren Shop oder Ihr ERP. Fozzels merkt sich Ihre Auswahl für das nächste Mal.
+Sie können Ergebnisse jetzt nach Excel oder CSV exportieren und genau wählen, welche Spalten in die Datei kommen, zum Beispiel nur die SKU und die generierte Beschreibung. Benennen Sie die Spalte mit dem generierten Text nach dem Attributcode, und die Datei ist bereit für den Import in Ihren Shop oder Ihr ERP. Fozzels merkt sich Ihre Auswahl für das nächste Mal. Eine Schritt-für-Schritt-Anleitung finden Sie in [4.7.6 Generierte Inhalte nach Excel und CSV exportieren](/content-creation-flows/exporting-generated-content-to-excel-and-csv/).
 
 <video controls muted playsInline preload="metadata" width="100%" title="Generierte Inhalte nach Excel und CSV exportieren" src="/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/03-export-excel-csv.mp4"></video>
 

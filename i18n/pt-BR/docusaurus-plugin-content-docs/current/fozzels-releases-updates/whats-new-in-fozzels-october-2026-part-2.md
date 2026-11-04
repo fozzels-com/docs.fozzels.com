@@ -74,7 +74,7 @@ Se você usa a validação por IA (a condição **AI validation fails**), as sol
 
 ### Exportação flexível para Excel e CSV
 
-Agora você pode exportar resultados para Excel ou CSV e escolher exatamente quais colunas entram no arquivo, por exemplo apenas o SKU e a descrição gerada. Dê à coluna do texto gerado o nome do código do atributo, e o arquivo fica pronto para ser importado na sua loja ou no seu ERP. O Fozzels lembra a sua seleção para a próxima vez.
+Agora você pode exportar resultados para Excel ou CSV e escolher exatamente quais colunas entram no arquivo, por exemplo apenas o SKU e a descrição gerada. Dê à coluna do texto gerado o nome do código do atributo, e o arquivo fica pronto para ser importado na sua loja ou no seu ERP. O Fozzels lembra a sua seleção para a próxima vez. Para instruções passo a passo, consulte [4.7.6 Exportando conteúdo gerado para Excel e CSV](/content-creation-flows/exporting-generated-content-to-excel-and-csv/).
 
 <video controls muted playsInline preload="metadata" width="100%" title="Exportar o conteúdo gerado para Excel e CSV" src="/img/kb/fozzels-releases-updates/whats-new-in-fozzels-october-2026-part-2/03-export-excel-csv.mp4"></video>
 
