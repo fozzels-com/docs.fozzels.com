@@ -30,15 +30,15 @@ const TRANSLATABLE_FRONTMATTER = ['title', 'description', 'sidebar_label'];
 
 /** @type {Record<string, {name: string, notes: string}>} */
 const LOCALES = {
-  de: {name: 'German', notes: 'Use the formal register (Sie).'},
-  nl: {name: 'Dutch', notes: 'Use natural, professional Dutch.'},
-  es: {name: 'Spanish', notes: 'Use neutral European Spanish.'},
+  de: {name: 'German', notes: 'Use the formal register (Sie). Follow the tekom guideline for rule-based writing (Regelbasiertes Schreiben).'},
+  nl: {name: 'Dutch', notes: 'Use natural, professional Dutch with the formal u. Write at language level B1 (taalniveau B1).'},
+  es: {name: 'Spanish', notes: 'Use neutral European Spanish. Follow lenguaje claro (ISO 24495-1).'},
   'pt-BR': {
     name: 'Brazilian Portuguese',
-    notes: 'Use the informal register (você). Keep prices in Euro (€) and dates as DD/MM/YYYY.',
+    notes: 'Use the informal register (você). Keep prices in Euro (€) and dates as DD/MM/YYYY. Follow linguagem simples (ISO 24495-1).',
   },
-  it: {name: 'Italian', notes: 'Use the formal register (Lei).'},
-  fr: {name: 'French', notes: 'Use the formal register (vous).'},
+  it: {name: 'Italian', notes: 'Use the formal register (Lei). Follow linguaggio chiaro (ISO 24495-1).'},
+  fr: {name: 'French', notes: 'Use the formal register (vous). Follow Français rationalisé, the French counterpart of Simplified Technical English.'},
 };
 
 // Fall back to .env so the key never has to be typed on the command line.
@@ -107,6 +107,10 @@ async function translateBody(body, locale) {
       '- Do NOT translate or alter: code blocks, inline code, URLs, image paths, HTML/JSX tags and their attributes, ' +
       'admonition markers (:::note, :::tip, :::warning), frontmatter, or Markdown link targets.\n' +
       '- Preserve all Markdown structure, whitespace and line breaks exactly.\n' +
+      '- Write in plain language (ISO 24495-1, about CEFR B1), with the rules of ASD-STE100 Simplified Technical English ' +
+      'carried over: active voice, one topic per sentence, steps in the imperative with one instruction each, ' +
+      'at most about 25 words per step and 30 per description. Split a long sentence inside its paragraph rather than ' +
+      'go over; never drop, merge or move content. Keep app UI labels (buttons, menus, field names) as the rest of the article has them.\n' +
       '- Return ONLY the translated document with no explanation and no code fence around the whole output.',
     messages: [{role: 'user', content: body}],
   });

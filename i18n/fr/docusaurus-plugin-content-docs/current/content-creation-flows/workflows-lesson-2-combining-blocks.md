@@ -132,3 +132,7 @@ Pour le test 1, remplacez "cake" dans le prompt par un autre produit, par exempl
 :::tip
 Avant d'enregistrer, suivez chaque chemin du doigt sur le canevas : « si le texte contient X, où va-t-il ensuite ? » Une ligne manquante est la raison la plus courante pour laquelle un bloc ne s'exécute jamais.
 :::
+
+La leçon suivante montre comment faire vérifier chaque texte généré par l'IA et régénérer automatiquement les textes inutilisables.
+
+Continuez avec [4.11.3. Leçon 3 : vérification automatique par l'IA et régénération](/content-creation-flows/workflows-lesson-3-ai-check-and-regeneration/).
