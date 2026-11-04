@@ -93,6 +93,8 @@ movement — pasting, dragging, a step-by-step flow. If the article body already
   can stay in the article only.
 - Write for the customer: what they can do now, in their words. No ticket numbers,
   class names or internal terms.
+- Follow [`writing-style.md`](writing-style.md): STE for English, plain language for the
+  translations. A `body` is a description, so at most 25 words per sentence.
 - Wrap every string value in single quotes. Inside one, write an apostrophe as two
   (`'Here''s what''s new.'`). A colon followed by a space inside an unquoted value
   breaks the YAML and the whole article drops out of the pop-up without an error.
