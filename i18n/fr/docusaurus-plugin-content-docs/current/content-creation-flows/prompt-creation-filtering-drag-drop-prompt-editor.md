@@ -12,6 +12,10 @@ description: >-
 
 Le champ Prompt est l'endroit où vous rédigez les instructions que Fozzels envoie à l'IA pour chaque produit. Le nouvel éditeur vous permet de construire le prompt, d'insérer des données produit et des conditions, et de vérifier le résultat sur un produit réel, le tout sur un seul écran.
 
+:::note
+Dans les nouveaux Content Flows (novembre 2026), vous construisez le prompt principal à partir de blocs à l'étape 3, **Enrich the text**. Vous utilisez cet éditeur pour les consignes de chaque champ : cliquez sur **Edit guideline**. Les attributs, les conditions, les snippets, les modèles, la Preview et l'AI Assistant fonctionnent comme le décrit cet article. La section 1 montre l'ancienne configuration des Flows. Pour les six nouvelles étapes, consultez [4.1.2. Créer un Content Flow : les six étapes](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
+:::
+
 ## Nouveautés
 
 Si vous utilisiez l'ancien éditeur par glisser-déposer, voici les principaux changements :

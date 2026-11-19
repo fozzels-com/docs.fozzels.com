@@ -4,65 +4,58 @@ title: 4.1.2.a How to Set Up Automated AI Content Flows
 sidebar_position: 3
 slug: /content-creation-flows/how-to-set-up-automated-ai-content-flows
 description: >-
-  Automated Content Flows in Fozzels allow you to generate and synchronize
-  product content automatically in the background - without requiring you to
-  trigger
+  How to let a Content Flow generate and sync product content automatically:
+  check the Flow before the launch, set the daily limit, approval and updates
+  in the Launch step, and start the Flow.
 ---
 
-Automated Content Flows in Fozzels allow you to generate and synchronize product content automatically in the background - without requiring you to trigger tasks manually every day.
+An automated Content Flow generates product content in the background every day and sends it to your shop. You do not have to start the tasks yourself.
 
-This guide covers everything you need to know to set up, test, and run automated flows safely and efficiently.
+You set the automation in step 6 of a Content Flow, **Launch**. For a description of all six steps, see [4.1.2. Creating a Content Flow: the six-step walkthrough](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 
-## Step 1: Pre-Launch Checklist
+## Step 1: Check the Flow before the launch
 
-Before enabling automation, we strongly recommend completing these three checks to prevent errors:
+Do these three checks before you launch the Flow. They prevent errors.
 
-1.  **Verify Product Selection:** Double-check your filters in the flow setup to ensure the flow targets the exact product set you want to process.
+1. **Check the product selection.** In step 2, **What and with what?**, make sure that the selection contains only the products that you want to process.
+2. **Test the prompt.** In step 5, **Test**, generate texts for some real products. Make sure that the texts and the scores are correct.
+3. **Prevent recursion.** Do not use the field that the Flow writes to as a source in the prompt. For example, do not use `product_description` as input to generate a new `product_description`. Otherwise Fozzels can generate the text again and again.
 
-2.  **Test Your Prompt:** Run a test generation using **Save & Preview** to confirm the output meets your quality standards.
+## Step 2: Set the automation in the Launch step
 
-3.  **Avoid Prompt Recursion:** Ensure your prompt does not reference the exact attribute you are writing to (e.g., using `product_description` as an input to generate a new `product_description`). This prevents recursive generation loops.
+In step 6, **Launch**, answer three questions:
 
-## Stеp 2: Configure the Automation Settings
+1. **How many products per day?** Select 10, 25, 50 or 100, or type your own number. The limit keeps the costs and the review work small. When Fozzels completed the current selection, the Flow automatically takes new products that agree with it.
+2. **What happens with a new text?**
+    - **I approve every text first** (recommended): new texts go to your review list. Fozzels sends nothing to your shop before you approve it.
+    - **Straight to my shop**: Fozzels publishes the texts automatically. You can still edit them or go back to the previous version. Texts that Fozzels marks as suspicious always wait for your review.
+3. **If a product changes later?** Turn on the toggle to let Fozzels write a new text automatically when an attribute that the prompt uses changes in your store, for example the colour or the material. When the toggle is off, Fozzels writes a text for a product only one time.
 
-Navigate to the **Automation** tab within your Flow settings and configure the following parameters:
+Under **Advanced settings**, you can also:
 
--   **Daily Processing Limit:** Set how many products should be processed each day (up to **500 products per active flow per day**). This cap guarantees consistent and reliable execution within every 24-hour cycle.
+- set the cooldown that prevents other Flows from generating the same content again: **Use default**, **Override** or **Turn off**. For more information, see [4.4.1 Prevent Overlapping Content Generation](/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/).
+- click **Connect workflow** to add an action that runs after each text, for example a translation.
 
--   **Fully Automatic Mode (Optional):**
+## Step 3: Launch the Flow
 
--   **Enabled:** Generated content automatically gets approved and synchronized to your webshop (except items flagged by suspicious words or validation checks).
+1. Click **Launch flow**.
 
--   **Disabled:** Content is generated automatically, but remains in pending status for manual review and approval before syncing.
+    Fozzels shows the message "Your flow is running". The Flow processes products every day, up to the daily limit, until it completed all products in the selection.
 
--   **Create New Content When Attribute Values Change (Optional):** When enabled, Fozzels automatically regenerates content whenever an attribute used in your prompt is updated in your store. This keeps your content fresh with zero manual work.
+2. To start the generation immediately, open the Flow page, click the **…** menu and click **Run Now**. Fozzels starts immediately, also when the Flow already reached the daily limit for today.
 
-## Step 3: Launching Your Flow
+To continue the setup later, click **Save as draft** instead of **Launch flow**.
 
-Once your settings are configured, activate the flow and choose one of the two launch options:
+## Rules and recommendations
 
-### Option A: Plan & Close (Recommended for Background Batches)
+- **The Flow must be active.** Fozzels runs only active Flows. When you stop a Flow, Fozzels stops all scheduled runs until you start the Flow again.
+- **You can change an active Flow.** Your changes apply to all new texts. Fozzels does not change the texts that it already generated, unless you generate them again.
+- **New products join automatically.** After each catalog update, Fozzels compares the products in your store with the selection of the Flow. New products that agree with the selection, for example 20 new products in a category, go into the Flow automatically.
 
-Click **Plan & Close**. The flow will enter planned status and will automatically start processing after the next scheduled nightly catalog update, continuing daily until all matching products are processed.
+## Related articles
 
-### Option B: Run Now (Immediate Start)
-
-Click **Run Now**. Fozzels will immediately process the first **10 products** for an instant preview. After this initial batch, the flow continues on its daily scheduled automated path according to your configured daily limit.
-
-## Key Rules & Best Practices
-
--   **Active Status Required:** For a planned flow to run daily, it must remain **Active**. Deactivating the flow pauses all scheduled runs until it is re-enabled.
-
--   **Editing Active Flows:** You can edit prompt rules or settings in a planned flow at any time. Updates will apply to all future generations, while previously generated content remains untouched unless manually regenerated.
-
--   **Dynamic Product Selection:** Active planned flows automatically evaluate your store catalog after every nightly sync. If new products match your flow filters (e.g., 20 new items added to a category), they are automatically enrolled in the flow for processing.
-
-## Related Help Articles
-
--   **Suspicious Words & Quality Control:** _[4.7.4 Suspicious Words & Phrases: Advanced Content Quality Control](/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control)_
-
--   **Avoiding Recursion Warnings:** _[3.5 "Recursion detected" warning when creating a Flow](/data-import-and-quality/recursion-detection-preventing-infinite-content-generation)_
-
--   **Preventing Overlapping Flows:** _[4.4.1 Prevent Overlapping Content Generation function](/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function)_
-
--   **HTML Formatting Rules:** _[4.7.3 Allowed HTML Tags for AI Text Generation](/content-creation-flows/allowed-html-tags-for-ai-text-generation)_
+- [4.1.2. Creating a Content Flow: the six-step walkthrough](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/)
+- [4.7.4 Suspicious Words & Phrases: Advanced Content Quality Control](/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control)
+- [3.5 "Recursion detected" warning when creating a Flow](/data-import-and-quality/recursion-detection-preventing-infinite-content-generation)
+- [4.4.1 Prevent Overlapping Content Generation function](/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function)
+- [4.7.3 Allowed HTML Tags for AI Text Generation](/content-creation-flows/allowed-html-tags-for-ai-text-generation)

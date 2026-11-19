@@ -21,41 +21,20 @@ Content Flows zijn de kernautomatiseringsfunctie van Fozzels. Een Flow is een re
 
 ## Een Flow maken
 
-Ga naar [Flows](https://app.fozzels.com/completions/product/rule) → **Create Flow**
+Ga naar [Flows](https://app.fozzels.com/completions/product/rule) en maak een nieuwe Content Flow. U stelt die in met zes begeleide stappen:
 
-### Stap 1 — Winkel & doelattribuut
+1. **Store**: kies de integratie, de website en de store view.
+2. **What and with what?**: kies de velden die u wilt genereren en de producten.
+3. **Enrich the text**: kies het AI-model en bouw de prompt op uit blokken: rol, doelgroep, toon, bronnen, zoekwoorden en regels.
+4. **Fields**: stel per veld de lengte, de structuur en het formaat in.
+5. **Test**: genereer teksten voor echte producten en vergelijk de scores van de huidige tekst en de nieuwe tekst.
+6. **Launch**: stel de dagelijkse limiet in, de goedkeuring van nieuwe teksten, updates als een product verandert, en de cooldown tussen Flows.
 
-- Selecteer de winkel waarvan u producten wilt verwerken
-- Geef de Flow een naam
-- Selecteer het **target attribute** — het attribuut dat AI-gegenereerde content zal ontvangen
-  - Moet de **Mutable** vlag ingeschakeld hebben in Integration → Attributes
+Een volledige beschrijving van elke stap vindt u in [4.1.2. Een Content Flow maken: de zes stappen](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 
-### Stap 2 — AI provider
-
-- Kies AI-leverancier: OpenAI GPT-4o, Google Gemini 2.5 Flash, of Anthropic Claude
-- Selecteer een specifiek model
-- Configureer modelparameters indien nodig
-
-### Stap 3 — Producten & prompt
-
-- **Conditions** — visuele query builder om te filteren welke producten deze Flow verwerkt
-  - Voorbeeld: "description is empty AND category equals Electronics"
-  - Laat leeg om alle producten in de winkel te verwerken
-  - Een producttellingvoorvertoning toont hoeveel producten overeenkomen
-- **Prompt** — de instructie die naar AI wordt gestuurd, geschreven in de [prompteditor](/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor). Productgegevens voegt u in als **attributen**: typ `/` in de editor, of klik of sleep er een vanuit het attributenpaneel. Elk attribuut wordt vervangen door de eigen waarde van het product.
-  - Voorbeeld: _Write a product description for_ **Name** _(SKU:_ **SKU**_) in category_ **Category**, waarbij de vetgedrukte delen attributen zijn
-  - Een attribuut met een label ervoor (_Brand:_ **Brand**) hoort in een **voorwaarde** (een if-blok): de hele regel wordt weggelaten als het product geen waarde heeft, zodat er geen lege regels bij de AI terechtkomen
-
-### Stap 4 — Automatiseringsinstellingen
-
-- **Active** toggle — inschakelen/uitschakelen van de Flow
-- **Batch size** — hoeveel producten per run moeten worden verwerkt (standaard 10)
-- **Automation** toggle — wanneer AAN, wordt bevestigde content automatisch naar uw winkel gepusht zonder handmatige controle
-- **Regenerate on attribute change** — opnieuw uitvoeren wanneer bronattributen worden bijgewerkt (⚠ kan recursie veroorzaken als het doelattribuut ook een bron is)
-- **Prevent overlapping generation** — cooldown tussen regeneraties per product:
-  - **Inherit** — use globale cooldown van accountinstellingen
-  - **Override** — stel een aangepaste cooldown in voor alleen deze Flow
-  - **Turn off** — genereer altijd opnieuw, ongeacht vorige runs
+:::warning
+Staat **If a product changes later?** aan? Gebruik dan het veld waar de Flow naartoe schrijft niet als bron in de prompt. Anders kan Fozzels de tekst steeds opnieuw genereren (recursie).
+:::
 
 ---
 
@@ -95,9 +74,11 @@ Wees specifiek over:
 
 ## Een Flow uitvoeren
 
-**Run Now** — verwerkt onmiddellijk tot 10 producten. Gebruik dit om te testen of voor kleine batches.
+**Launch flow** (stap 6): de Flow verwerkt elke dag producten, tot de dagelijkse limiet, totdat de selectie klaar is. Daarna neemt de Flow nieuwe producten die bij de selectie passen.
 
-**Plan & Close** — plaatst de volledige batch in de wachtrij voor verwerking op de achtergrond. Gebruik dit voor bulk runs.
+**Run Now** (het menu **…** op de Flow-pagina): start de generatie direct, ook als de Flow de dagelijkse limiet voor vandaag al heeft bereikt.
+
+**Generate Now** (de tabel **Test** op de Flow-pagina): genereert direct content voor één product.
 
 ---
 
@@ -112,9 +93,9 @@ Elk gegenereerd item doorloopt deze fasen:
 | **Synchronized** | Succesvol gepusht naar de winkel |
 | **Suspicious** | Bevat gemarkeerde content — vereist handmatige controle voordat synchronisatie |
 
-Met **Automation AAN** — schone content wordt automatisch bevestigd en gepusht. Verdachte content wacht altijd op handmatige controle.
+Met **Straight to my shop** (stap 6) — schone content wordt automatisch bevestigd en gepusht. Verdachte content wacht altijd op handmatige controle.
 
-Met **Automation UIT** — alle content wacht tot u deze hebt gecontroleerd en bevestigd voordat u synchroniseert.
+Met **I approve every text first** (stap 6) — alle content wacht tot u deze hebt gecontroleerd en bevestigd voordat Fozzels synchroniseert.
 
 ---
 
@@ -157,7 +138,7 @@ Gemarkeerde content toont precies waarom het werd gemarkeerd. U kunt:
 | Reden | Oplossing |
 |--------|-----|
 | Flow is inactief | Schakel de Active toggle in op de Flow |
-| Niet bevestigd | Bevestig de completion (of schakel Automation in) |
+| Niet bevestigd | Bevestig de completion (of kies **Straight to my shop** in stap 6 van de Flow) |
 | Verdachte content | Controleer en goedkeuren, of bewerk en sla opnieuw op |
 | Product verwijderd uit winkel | Niets te doen — product bestaat niet meer |
 | Winkel/integratie inactief | Schakel de winkel of integratie in |

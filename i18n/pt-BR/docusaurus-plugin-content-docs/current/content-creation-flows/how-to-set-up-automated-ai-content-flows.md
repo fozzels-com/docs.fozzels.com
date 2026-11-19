@@ -1,65 +1,61 @@
 ---
 id: '103000408983'
-title: 4.1.2.a Como Configurar Fluxos de Conteúdo de IA Automatizados
+title: 4.1.2.a Como configurar Content Flows de IA automáticos
 sidebar_position: 3
 slug: /content-creation-flows/how-to-set-up-automated-ai-content-flows
-description: Os Fluxos de Conteúdo Automatizados no Fozzels permitem que você gere e sincronize o conteúdo do produto automaticamente em segundo plano - sem exigir que você dispare
+description: >-
+  Como deixar um Content Flow gerar e sincronizar conteúdo de produtos
+  automaticamente: verifique o Flow antes de lançar, defina o limite diário, a
+  aprovação e as atualizações na etapa Launch e inicie o Flow.
 ---
 
-Os Fluxos de Conteúdo Automatizados no Fozzels permitem que você gere e sincronize o conteúdo do produto automaticamente em segundo plano - sem exigir que você dispare tarefas manualmente todos os dias.
+Um Content Flow automático gera conteúdo de produtos em segundo plano todos os dias e envia esse conteúdo para a sua loja. Você não precisa iniciar as tarefas sozinho.
 
-Este guia cobre tudo o que você precisa saber para configurar, testar e executar fluxos automatizados com segurança e eficiência.
+Você configura a automação na etapa 6 de um Content Flow, **Launch**. Para uma descrição das seis etapas, veja [4.1.2. Criando um Content Flow: o passo a passo em seis etapas](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 
-## Etapa 1: Lista de Verificação Pré-Inicialização
+## Etapa 1: Verifique o Flow antes de lançar
 
-Antes de ativar a automação, recomendamos fortemente completar esses três testes para evitar erros:
+Faça estas três verificações antes de lançar o Flow. Elas evitam erros.
 
-1.  **Verifique Seleção de Produtos:** Verifique novamente seus filtros na configuração do fluxo para garantir que o fluxo direcione o conjunto exato de produtos que você deseja processar.
+1. **Verifique a seleção de produtos.** Na etapa 2, **What and with what?**, confira se a seleção tem apenas os produtos que você quer processar.
+2. **Teste o prompt.** Na etapa 5, **Test**, gere textos para alguns produtos reais. Confira se os textos e as notas estão corretos.
+3. **Evite recursão.** Não use como fonte no prompt o campo em que o Flow escreve. Por exemplo, não use `product_description` como entrada para gerar um novo `product_description`. Senão, o Fozzels pode gerar o texto de novo sem parar.
 
-2.  **Teste Seu Prompt:** Execute uma geração de teste usando **Salvar & Visualizar** para confirmar que a saída atende aos seus padrões de qualidade.
+## Etapa 2: Configure a automação na etapa Launch
 
-3.  **Evite Recursão de Prompt:** Garanta que seu prompt não referencie o atributo exato que você está escrevendo (por exemplo, usar `product_description` como entrada para gerar um novo `product_description`). Isso evita loops de geração recursiva.
+Na etapa 6, **Launch**, responda a três perguntas:
 
-## Etapa 2: Configure as Configurações de Automação
+1. **How many products per day?** Escolha 10, 25, 50 ou 100, ou digite o seu próprio número. O limite mantém baixos os custos e o trabalho de revisão. Quando o Fozzels conclui a seleção atual, o Flow pega automaticamente os produtos novos que se encaixam nela.
+2. **What happens with a new text?**
+    - **I approve every text first** (recomendado): os textos novos vão para a sua lista de revisão. O Fozzels não envia nada para a sua loja antes da sua aprovação.
+    - **Straight to my shop**: o Fozzels publica os textos automaticamente. Você ainda pode editar os textos ou voltar para a versão anterior. Textos que o Fozzels marca como suspeitos sempre esperam a sua revisão.
+3. **If a product changes later?** Ative o botão para o Fozzels escrever um texto novo automaticamente quando um atributo usado no prompt muda na sua loja, por exemplo a cor ou o material. Com o botão desativado, o Fozzels escreve o texto de um produto só uma vez.
 
-Navegue até a aba **Automação** nas configurações do seu Fluxo e configure os seguintes parâmetros:
+Em **Advanced settings**, você também pode:
 
--   **Limite de Processamento Diário:** Defina quantos produtos devem ser processados cada dia (até **500 produtos por fluxo ativo por dia**). Este limite garante execução consistente e confiável dentro de cada ciclo de 24 horas.
+- definir o cooldown que impede outros Flows de gerar o mesmo conteúdo de novo: **Use default**, **Override** ou **Turn off**. Para mais informações, veja [4.4.1 Prevenir a geração de conteúdo sobreposta](/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/).
+- clicar em **Connect workflow** para adicionar uma ação que roda depois de cada texto, por exemplo uma tradução.
 
--   **Modo Totalmente Automático (Opcional):**
+## Etapa 3: Lance o Flow
 
--   **Ativado:** O conteúdo gerado é aprovado automaticamente e sincronizado com sua loja online (exceto itens sinalizados por palavras suspeitas ou verificações de validação).
+1. Clique em **Launch flow**.
 
--   **Desativado:** O conteúdo é gerado automaticamente, mas permanece em status pendente para revisão e aprovação manual antes de sincronizar.
+    O Fozzels mostra a mensagem "Your flow is running". O Flow processa produtos todos os dias, até o limite diário, até concluir todos os produtos da seleção.
 
--   **Criar Novo Conteúdo Quando Valores de Atributo Mudarem (Opcional):** Quando ativado, o Fozzels regenera automaticamente o conteúdo sempre que um atributo usado no seu prompt é atualizado em sua loja. Isso mantém seu conteúdo fresco com zero trabalho manual.
+2. Para iniciar a geração na hora, abra a página do Flow, clique no menu **…** e clique em **Run Now**. O Fozzels começa na hora, mesmo quando o Flow já atingiu o limite diário de hoje.
 
-## Etapa 3: Iniciando Seu Fluxo
+Para continuar a configuração depois, clique em **Save as draft** em vez de **Launch flow**.
 
-Uma vez que suas configurações estão configuradas, ative o fluxo e escolha uma das duas opções de inicialização:
+## Regras e recomendações
 
-### Opção A: Planejar & Fechar (Recomendado para Lotes em Segundo Plano)
+- **O Flow precisa estar ativo.** O Fozzels roda apenas Flows ativos. Quando você para um Flow, o Fozzels para todas as execuções agendadas até você iniciar o Flow de novo.
+- **Você pode alterar um Flow ativo.** As suas alterações valem para todos os textos novos. O Fozzels não altera os textos que já gerou, a menos que você gere esses textos de novo.
+- **Produtos novos entram automaticamente.** Depois de cada atualização do catálogo, o Fozzels compara os produtos da sua loja com a seleção do Flow. Os produtos novos que se encaixam na seleção, por exemplo 20 produtos novos em uma categoria, entram no Flow automaticamente.
 
-Clique em **Planejar & Fechar**. O fluxo entrará em status planejado e começará automaticamente a processar após a próxima atualização de catálogo noturna agendada, continuando diariamente até que todos os produtos correspondentes sejam processados.
+## Artigos relacionados
 
-### Opção B: Executar Agora (Inicialização Imediata)
-
-Clique em **Executar Agora**. O Fozzels processará imediatamente os primeiros **10 produtos** para uma visualização instantânea. Após este lote inicial, o fluxo continua em seu caminho automatizado programado diário de acordo com seu limite diário configurado.
-
-## Regras Principais & Melhores Práticas
-
--   **Status Ativo Obrigatório:** Para um fluxo planejado ser executado diariamente, deve permanecer **Ativo**. Desativar o fluxo pausa todas as execuções agendadas até ser re-ativado.
-
--   **Editando Fluxos Ativos:** Você pode editar regras de prompt ou configurações em um fluxo planejado a qualquer momento. As atualizações se aplicarão a todas as gerações futuras, enquanto o conteúdo gerado anteriormente permanece inalterado a menos que seja regenerado manualmente.
-
--   **Seleção Dinâmica de Produtos:** Fluxos planejados ativos avaliam automaticamente seu catálogo de loja após cada sincronização noturna. Se novos produtos corresponderem aos seus filtros de fluxo (por exemplo, 20 novos itens adicionados a uma categoria), eles são automaticamente inscritos no fluxo para processamento.
-
-## Artigos de Ajuda Relacionados
-
--   **Palavras Suspeitas & Controle de Qualidade:** _[4.7.4 Palavras e Frases Suspeitas: Controle Avançado de Qualidade de Conteúdo](/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control)_
-
--   **Evitando Avisos de Recursão:** _[3.5 Aviso "Recursão detectada" ao criar um Fluxo](/data-import-and-quality/recursion-detection-preventing-infinite-content-generation)_
-
--   **Prevenindo Fluxos Sobrepostos:** _[4.4.1 Função Evitar Geração de Conteúdo Sobreposto](/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function)_
-
--   **Regras de Formatação HTML:** _[4.7.3 Tags HTML Permitidas para Geração de Texto de IA](/content-creation-flows/allowed-html-tags-for-ai-text-generation)_
+- [4.1.2. Criando um Content Flow: o passo a passo em seis etapas](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/)
+- [4.7.4 Palavras e frases suspeitas: controle avançado da qualidade do conteúdo](/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control)
+- [3.5 Aviso "Recursion detected" ao criar um Flow](/data-import-and-quality/recursion-detection-preventing-infinite-content-generation)
+- [4.4.1 Função para prevenir a geração de conteúdo sobreposta](/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function)
+- [4.7.3 Tags HTML permitidas na geração de texto com IA](/content-creation-flows/allowed-html-tags-for-ai-text-generation)
