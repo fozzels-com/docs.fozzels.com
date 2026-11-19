@@ -11,6 +11,10 @@ description: >-
 
 The Prompt Field is where you write the instructions Fozzels sends to the AI for each product. The new editor lets you build the prompt, insert product data and conditions, and check the result for a real product, all on one screen.
 
+:::note
+In the new Content Flows (November 2026), you build the main prompt from blocks in step 3, **Enrich the text**. You use this editor for the guidelines of each field: click **Edit guideline**. The attributes, conditions, snippets, templates, Preview and AI Assistant work as this article tells you. Section 1 shows the previous Flow setup. For the new six steps, see [4.1.2. Creating a Content Flow: the six-step walkthrough](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
+:::
+
 ## What's new
 
 If you used the previous drag & drop editor, these are the main changes:

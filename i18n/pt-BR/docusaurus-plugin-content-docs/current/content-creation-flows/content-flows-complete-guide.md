@@ -20,41 +20,20 @@ Content Flows são o recurso de automação central do Fozzels. Um Flow é uma r
 
 ## Criando um Flow
 
-Acesse [Flows](https://app.fozzels.com/completions/product/rule) → **Create Flow**
+Acesse [Flows](https://app.fozzels.com/completions/product/rule) e crie um novo Content Flow. Você configura o Flow em seis etapas guiadas:
 
-### Etapa 1 — Loja e atributo de destino
+1. **Store**: selecione a integração, o site e a store view.
+2. **What and with what?**: selecione os campos que quer gerar e os produtos.
+3. **Enrich the text**: selecione o modelo de IA e monte o prompt com blocos: função, público, tom, fontes, palavras-chave e regras.
+4. **Fields**: defina o tamanho, a estrutura e o formato de cada campo.
+5. **Test**: gere textos para produtos reais e compare as notas do texto atual e do texto novo.
+6. **Launch**: defina o limite diário, a aprovação dos textos novos, as atualizações quando um produto muda e o cooldown entre Flows.
 
-- Selecione a loja cujos produtos deseja processar
-- Dê um nome ao Flow
-- Selecione o **target attribute** — o atributo que receberá o conteúdo gerado por IA
-  - Deve ter a flag **Mutable** habilitada em Integration → Attributes
+Para uma descrição completa de cada etapa, veja [4.1.2. Criando um Content Flow: o passo a passo em seis etapas](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 
-### Etapa 2 — Provedor de IA
-
-- Escolha o fornecedor de IA: OpenAI GPT-4o, Google Gemini 2.5 Flash, ou Anthropic Claude
-- Selecione um modelo específico
-- Configure parâmetros de modelo, se necessário
-
-### Etapa 3 — Produtos e prompt
-
-- **Conditions** — construtor de consultas visuais para filtrar quais produtos este Flow processa
-  - Exemplo: "description is empty AND category equals Electronics"
-  - Deixe vazio para processar todos os produtos na loja
-  - Uma visualização de contagem de produtos mostra quantos produtos correspondem
-- **Prompt** — a instrução enviada para a IA, escrita no [editor de prompt](/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor). Os dados do produto entram como **atributos**: digite `/` no editor, ou clique ou arraste um atributo do painel de atributos. Cada atributo é substituído pelo valor do próprio produto.
-  - Exemplo: _Write a product description for_ **Name** _(SKU:_ **SKU**_) in category_ **Category**, em que as partes em negrito são atributos
-  - Um atributo com um rótulo ao lado (_Brand:_ **Brand**) deve ficar em uma **condição** (um bloco if): a linha inteira é deixada de fora quando o produto não tem valor, então nenhuma linha vazia chega à IA
-
-### Etapa 4 — Configurações de automação
-
-- **Active** toggle — habilitar/desabilitar o Flow
-- **Batch size** — quantos produtos processar por execução (padrão 10)
-- **Automation** toggle — quando ON, conteúdo confirmado é automaticamente empurrado para sua loja sem revisão manual
-- **Regenerate on attribute change** — re-executar quando atributos de origem são atualizados (⚠ pode causar recursão se o atributo de destino também for uma origem)
-- **Prevent overlapping generation** — cooldown entre regenerações por produto:
-  - **Inherit** — use cooldown global das configurações da conta
-  - **Override** — defina um cooldown customizado apenas para este Flow
-  - **Turn off** — sempre regenere independentemente de execuções anteriores
+:::warning
+Se **If a product changes later?** estiver ativado, não use como fonte no prompt o campo em que o Flow escreve. Senão, o Fozzels pode gerar o texto de novo sem parar (recursão).
+:::
 
 ---
 
@@ -94,9 +73,11 @@ Seja específico sobre:
 
 ## Executando um Flow
 
-**Run Now** — processa imediatamente até 10 produtos. Use isto para testar ou para pequenos lotes.
+**Launch flow** (etapa 6): o Flow processa produtos todos os dias, até o limite diário, até concluir a seleção. Depois, ele pega os produtos novos que se encaixam na seleção.
 
-**Plan & Close** — coloca em fila o lote completo para processamento em segundo plano. Use isto para execuções em massa.
+**Run Now** (o menu **…** na página do Flow): inicia a geração na hora, mesmo quando o Flow já atingiu o limite diário de hoje.
+
+**Generate Now** (a tabela **Test** na página do Flow): gera o conteúdo de um produto na hora.
 
 ---
 
@@ -111,9 +92,9 @@ Cada item gerado passa por esses estágios:
 | **Synchronized** | Empurrado com sucesso para a loja |
 | **Suspicious** | Contém conteúdo sinalizado — exige revisão manual antes da sincronização |
 
-Com **Automation ON** — conteúdo limpo é confirmado e empurrado automaticamente. Conteúdo suspeito sempre aguarda revisão manual.
+Com **Straight to my shop** (etapa 6) — conteúdo limpo é confirmado e empurrado automaticamente. Conteúdo suspeito sempre aguarda revisão manual.
 
-Com **Automation OFF** — todo conteúdo aguarda você revisar e confirmar antes de sincronizar.
+Com **I approve every text first** (etapa 6) — todo conteúdo aguarda você revisar e confirmar antes de sincronizar.
 
 ---
 
@@ -156,7 +137,7 @@ Conteúdo sinalizado mostra exatamente por que foi sinalizado. Você pode:
 | Motivo | Solução |
 |--------|-----|
 | Flow is inactive | Habilite o toggle Active no Flow |
-| Not confirmed | Confirme a completion (ou habilite Automation) |
+| Not confirmed | Confirme a completion (ou selecione **Straight to my shop** na etapa 6 do Flow) |
 | Suspicious content | Revise e aprove, ou edite e re-salve |
 | Product deleted from store | Nada a fazer — produto não existe mais |
 | Store/integration inactive | Habilite a loja ou integração |

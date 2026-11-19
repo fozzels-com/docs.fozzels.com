@@ -11,6 +11,10 @@ description: >-
 
 O campo de prompt é onde você escreve as instruções que o Fozzels envia para a IA para cada produto. Com o novo editor, você monta o prompt, insere dados do produto e condições e confere o resultado para um produto real, tudo em uma única tela.
 
+:::note
+Nos novos Content Flows (novembro de 2026), você monta o prompt principal com blocos na etapa 3, **Enrich the text**. Este editor serve para as diretrizes de cada campo: clique em **Edit guideline**. Os atributos, as condições, os snippets, os templates, o Preview e o AI Assistant funcionam como este artigo explica. A seção 1 mostra a configuração anterior do Flow. Para as novas seis etapas, veja [4.1.2. Criando um Content Flow: o passo a passo em seis etapas](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
+:::
+
 ## O que mudou
 
 Se você usava o editor anterior de arrastar e soltar, estas são as principais mudanças:

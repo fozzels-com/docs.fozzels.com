@@ -1,68 +1,64 @@
 ---
 id: '103000408983'
-title: 4.1.2.a Einrichtung automatisierter KI-Content-Flows
+title: 4.1.2.a Automatisierte KI-Content-Flows einrichten
 sidebar_position: 3
 slug: /content-creation-flows/how-to-set-up-automated-ai-content-flows
-description: Automatisierte Content Flows in Fozzels ermöglichen es Ihnen, Produktinhalte automatisch im Hintergrund zu generieren und zu synchronisieren - ohne dass Sie Aufgaben täglich manuell auslösen müssen.
+description: >-
+  So generiert und synchronisiert ein Content Flow Produktinhalte automatisch:
+  den Flow vor dem Start prüfen, im Schritt Launch Tageslimit, Freigabe und
+  Aktualisierungen festlegen und den Flow starten.
 keywords:
 - Inhaltsfluss
 - Content-Flow
 ---
 
-Automatisierte Content Flows in Fozzels ermöglichen es Ihnen, Produktinhalte automatisch im Hintergrund zu generieren und zu synchronisieren - ohne dass Sie Aufgaben täglich manuell auslösen müssen.
+Ein automatisierter Content Flow generiert jeden Tag im Hintergrund Produktinhalte und sendet sie an Ihren Shop. Sie müssen die Aufgaben nicht selbst starten.
 
-Dieses Handbuch behandelt alles, was Sie wissen müssen, um automatisierte Flows sicher und effizient einzurichten, zu testen und auszuführen.
+Die Automatisierung legen Sie in Schritt 6 eines Content Flows fest, **Launch**. Eine Beschreibung aller sechs Schritte finden Sie in [4.1.2. Einen Content Flow erstellen: Anleitung in sechs Schritten](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 
-## Schritt 1: Checkliste vor dem Start
+## Schritt 1: Den Flow vor dem Start prüfen
 
-Vor der Aktivierung der Automatisierung empfehlen wir dringend, diese drei Prüfungen durchzuführen, um Fehler zu vermeiden:
+Machen Sie diese drei Prüfungen, bevor Sie den Flow starten. Sie verhindern Fehler.
 
-1.  **Produktauswahl überprüfen:** Überprüfen Sie Ihre Filter in der Flow-Einrichtung doppelt, um sicherzustellen, dass der Flow auf die genaue Produktmenge abzielt, die Sie verarbeiten möchten.
+1. **Prüfen Sie die Produktauswahl.** Stellen Sie in Schritt 2, **What and with what?**, sicher, dass die Auswahl nur die Produkte enthält, die Sie verarbeiten möchten.
+2. **Testen Sie den Prompt.** Generieren Sie in Schritt 5, **Test**, Texte für einige echte Produkte. Stellen Sie sicher, dass die Texte und die Scores stimmen.
+3. **Verhindern Sie Rekursion.** Nutzen Sie das Feld, in das der Flow schreibt, nicht als Quelle im Prompt. Nutzen Sie zum Beispiel `product_description` nicht als Input für eine neue `product_description`. Sonst kann Fozzels den Text immer wieder neu generieren.
 
-2.  **Testen Sie Ihren Prompt:** Führen Sie eine Testgenerierung mit **Speichern & Vorschau** durch, um zu überprüfen, dass die Ausgabe Ihren Qualitätsstandards entspricht.
+## Schritt 2: Die Automatisierung im Schritt Launch festlegen
 
-3.  **Vermeiden Sie Prompt-Rekursion:** Stellen Sie sicher, dass Ihr Prompt das genaue Attribut, in das Sie schreiben, nicht referenziert (z. B. unter Verwendung von `product_description` als Eingabe, um eine neue `product_description` zu generieren). Dies verhindert rekursive Generierungsschleifen.
+Beantworten Sie in Schritt 6, **Launch**, drei Fragen:
 
-## Schritt 2: Konfigurieren der Automatisierungseinstellungen
+1. **How many products per day?** Wählen Sie 10, 25, 50 oder 100, oder geben Sie Ihre eigene Zahl ein. Das Limit hält die Kosten und die Prüfarbeit klein. Wenn Fozzels die aktuelle Auswahl abgeschlossen hat, nimmt der Flow automatisch neue Produkte, die zur Auswahl passen.
+2. **What happens with a new text?**
+    - **I approve every text first** (empfohlen): Neue Texte kommen in Ihre Prüfliste. Fozzels sendet nichts an Ihren Shop, bevor Sie es freigeben.
+    - **Straight to my shop**: Fozzels veröffentlicht die Texte automatisch. Sie können sie trotzdem bearbeiten oder zur vorherigen Version zurückkehren. Texte, die Fozzels als verdächtig markiert, warten immer auf Ihre Prüfung.
+3. **If a product changes later?** Schalten Sie den Schalter ein, damit Fozzels automatisch einen neuen Text schreibt, wenn sich ein Attribut im Shop ändert, das der Prompt nutzt. Zum Beispiel die Farbe oder das Material. Wenn der Schalter aus ist, schreibt Fozzels für ein Produkt nur einmal einen Text.
 
-Navigieren Sie zur Registerkarte **Automatisierung** in Ihren Flow-Einstellungen und konfigurieren Sie die folgenden Parameter:
+Unter **Advanced settings** können Sie außerdem:
 
--   **Tägliches Verarbeitungslimit:** Stellen Sie ein, wie viele Produkte täglich verarbeitet werden sollten (bis zu **500 Produkte pro aktiven Flow pro Tag**). Dieses Limit garantiert konsistente und zuverlässige Ausführung innerhalb jedes 24-Stunden-Zyklus.
+- den Cooldown festlegen, der verhindert, dass andere Flows denselben Inhalt erneut generieren: **Use default**, **Override** oder **Turn off**. Weitere Informationen finden Sie in [4.4.1 Verhinderung der doppelten Inhaltsgenerierung](/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/).
+- auf **Connect workflow** klicken, um eine Aktion hinzuzufügen, die nach jedem Text läuft, zum Beispiel eine Übersetzung.
 
--   **Vollautomatischer Modus (Optional):**
+## Schritt 3: Den Flow starten
 
--   **Aktiviert:** Generierte Inhalte werden automatisch genehmigt und mit Ihrem Webshop synchronisiert (außer Elementen, die durch verdächtige Wörter oder Validierungsprüfungen gekennzeichnet sind).
+1. Klicken Sie auf **Launch flow**.
 
--   **Deaktiviert:** Inhalte werden automatisch generiert, bleiben aber im Status "Ausstehend" für manuelle Überprüfung und Genehmigung vor der Synchronisierung.
+    Fozzels zeigt die Meldung „Your flow is running“. Der Flow verarbeitet jeden Tag Produkte bis zum Tageslimit, bis er alle Produkte der Auswahl abgeschlossen hat.
 
--   **Neue Inhalte erstellen, wenn sich Attributwerte ändern (Optional):** Falls aktiviert, generiert Fozzels Inhalte automatisch neu, wenn ein Attribut, das in Ihrem Prompt verwendet wird, in Ihrem Store aktualisiert wird. Dies hält Ihre Inhalte ohne manuelle Arbeit aktuell.
+2. Um die Generierung sofort zu starten, öffnen Sie die Flow-Seite, klicken Sie auf das Menü **…** und dann auf **Run Now**. Fozzels startet sofort, auch wenn der Flow sein Tageslimit für heute schon erreicht hat.
 
-## Schritt 3: Starten Sie Ihren Flow
+Um die Einrichtung später fortzusetzen, klicken Sie auf **Save as draft** statt auf **Launch flow**.
 
-Sobald Ihre Einstellungen konfiguriert sind, aktivieren Sie den Flow und wählen Sie eine der zwei Startoptionen:
+## Regeln und Empfehlungen
 
-### Option A: Planen & Schließen (Empfohlen für Hintergrund-Batches)
+- **Der Flow muss aktiv sein.** Fozzels führt nur aktive Flows aus. Wenn Sie einen Flow stoppen, stoppt Fozzels alle geplanten Durchläufe, bis Sie den Flow wieder starten.
+- **Sie können einen aktiven Flow ändern.** Ihre Änderungen gelten für alle neuen Texte. Fozzels ändert die Texte nicht, die es schon generiert hat, außer Sie generieren sie neu.
+- **Neue Produkte kommen automatisch dazu.** Nach jeder Katalog-Aktualisierung vergleicht Fozzels die Produkte in Ihrem Shop mit der Auswahl des Flows. Neue Produkte, die zur Auswahl passen, kommen automatisch in den Flow. Zum Beispiel 20 neue Produkte in einer Kategorie.
 
-Klicken Sie auf **Planen & Schließen**. Der Flow wechselt in den geplanten Status und startet automatisch die Verarbeitung nach der nächsten geplanten nächtlichen Katalogaktualisierung, wobei er täglich fortgesetzt wird, bis alle übereinstimmenden Produkte verarbeitet sind.
+## Verwandte Artikel
 
-### Option B: Jetzt ausführen (Sofortstart)
-
-Klicken Sie auf **Jetzt ausführen**. Fozzels verarbeitet sofort die ersten **10 Produkte** für eine sofortige Vorschau. Nach dieser anfänglichen Charge läuft der Flow nach Ihrem konfigurierten täglichen Limit auf seinem täglichen geplanten automatisierten Pfad weiter.
-
-## Wichtige Regeln & Best Practices
-
--   **Aktiver Status erforderlich:** Damit ein geplanter Flow täglich ausgeführt wird, muss er **Aktiv** bleiben. Das Deaktivieren des Flows unterbricht alle geplanten Ausführungen, bis er erneut aktiviert wird.
-
--   **Bearbeitung aktiver Flows:** Sie können Prompt-Regeln oder Einstellungen in einem geplanten Flow jederzeit bearbeiten. Updates werden auf alle zukünftigen Generierungen angewendet, während zuvor generierte Inhalte unverändert bleiben, es sei denn, sie werden manuell neu generiert.
-
--   **Dynamische Produktauswahl:** Aktive geplante Flows evaluieren Ihren Store-Katalog automatisch nach jeder nächtlichen Synchronisierung. Falls neue Produkte Ihren Flow-Filtern entsprechen (z. B. 20 neue Artikel zu einer Kategorie hinzugefügt), werden sie automatisch für die Verarbeitung in den Flow aufgenommen.
-
-## Verwandte Hilfeartikel
-
--   **Verdächtige Wörter & Qualitätskontrolle:** _[4.7.4 Verdächtige Wörter & Ausdrücke: Fortgeschrittene Content-Qualitätskontrolle](/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control)_
-
--   **Vermeiden von Rekursionswarnungen:** _[3.5 "Rekursion erkannt" Warnung beim Erstellen eines Flows](/data-import-and-quality/recursion-detection-preventing-infinite-content-generation)_
-
--   **Verhinderung überlappender Flows:** _[4.4.1 Verhinderung von Inhalts-Doppelgenerierung Funktion](/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function)_
-
--   **HTML-Formatierungsregeln:** _[4.7.3 Erlaubte HTML-Tags für KI-Textgenerierung](/content-creation-flows/allowed-html-tags-for-ai-text-generation)_
+- [4.1.2. Einen Content Flow erstellen: Anleitung in sechs Schritten](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/)
+- [4.7.4 Verdächtige Wörter & Ausdrücke: Fortgeschrittene Inhaltsqualitätskontrolle](/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control)
+- [3.5. Rekursionserkennung: Verhinderung unendlicher Inhaltsgenerierung](/data-import-and-quality/recursion-detection-preventing-infinite-content-generation)
+- [4.4.1 Verhinderung der doppelten Inhaltsgenerierung](/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function)
+- [4.7.3 Zulässige HTML-Tags für KI-Textgenerierung](/content-creation-flows/allowed-html-tags-for-ai-text-generation)

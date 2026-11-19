@@ -11,6 +11,10 @@ description: >-
 
 Im Prompt-Feld schreiben Sie die Anweisungen, die Fozzels für jedes Produkt an die KI sendet. Mit dem neuen Editor erstellen Sie den Prompt, fügen Produktdaten und Bedingungen ein und prüfen das Ergebnis anhand eines echten Produkts – alles auf einem Bildschirm.
 
+:::note
+In den neuen Content Flows (November 2026) bauen Sie den Hauptprompt in Schritt 3, **Enrich the text**, aus Blöcken. Diesen Editor nutzen Sie für die Leitlinien der einzelnen Felder: Klicken Sie auf **Edit guideline**. Attribute, Bedingungen, Snippets, Vorlagen, Preview und AI Assistant funktionieren so, wie dieser Artikel es beschreibt. Abschnitt 1 zeigt die bisherige Flow-Einrichtung. Die neuen sechs Schritte finden Sie in [4.1.2. Einen Content Flow erstellen: Anleitung in sechs Schritten](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
+:::
+
 ## Was ist neu
 
 Wenn Sie den bisherigen Drag-&-Drop-Editor verwendet haben, sind dies die wichtigsten Änderungen:

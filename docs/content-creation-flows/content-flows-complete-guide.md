@@ -21,41 +21,20 @@ Content Flows are the core automation feature of Fozzels. A Flow is a rule that 
 
 ## Creating a Flow
 
-Go to [Flows](https://app.fozzels.com/completions/product/rule) → **Create Flow**
+Go to [Flows](https://app.fozzels.com/completions/product/rule) and create a new Content Flow. You set it up in six guided steps:
 
-### Step 1 — Store & target attribute
+1. **Store**: select the integration, website and store view.
+2. **What and with what?**: select the fields to generate and the products.
+3. **Enrich the text**: select the AI model and build the prompt from blocks: role, audience, tone, sources, keywords and rules.
+4. **Fields**: set the length, structure and format for each field.
+5. **Test**: generate texts for real products and compare the scores of the current text and the new text.
+6. **Launch**: set the daily limit, the approval of new texts, updates when a product changes, and the cooldown between Flows.
 
-- Select the store whose products to process
-- Give the Flow a name
-- Select the **target attribute** — the attribute that will receive AI-generated content
-  - Must have the **Mutable** flag enabled in Integration → Attributes
+For a full description of each step, see [4.1.2. Creating a Content Flow: the six-step walkthrough](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 
-### Step 2 — AI provider
-
-- Choose AI vendor: OpenAI GPT-4o, Google Gemini 2.5 Flash, or Anthropic Claude
-- Select a specific model
-- Configure model parameters if needed
-
-### Step 3 — Products & prompt
-
-- **Conditions** — visual query builder to filter which products this Flow processes
-  - Example: "description is empty AND category equals Electronics"
-  - Leave empty to process all products in the store
-  - A product count preview shows how many products match
-- **Prompt** — the instruction sent to AI, written in the [prompt editor](/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor). Product data goes in as **attributes**: type `/` in the editor, or click or drag one from the Attributes panel. Each attribute is replaced with the product's own value.
-  - Example: _Write a product description for_ **Name** _(SKU:_ **SKU**_) in category_ **Category**, where the bold parts are attributes
-  - An attribute with a label beside it (_Brand:_ **Brand**) belongs in a **condition** (an if-block): the whole line is left out when the product has no value, so no empty lines reach the AI
-
-### Step 4 — Automation settings
-
-- **Active** toggle — enable/disable the Flow
-- **Batch size** — how many products to process per run (default 10)
-- **Automation** toggle — when ON, confirmed content is automatically pushed to your store without manual review
-- **Regenerate on attribute change** — re-run when source attributes are updated (⚠ can cause recursion if the target attribute is also a source)
-- **Prevent overlapping generation** — cooldown between regenerations per product:
-  - **Inherit** — use global cooldown from account settings
-  - **Override** — set a custom cooldown for this Flow only
-  - **Turn off** — always regenerate regardless of previous runs
+:::warning
+If **If a product changes later?** is on, do not use the field that the Flow writes to as a source in the prompt. Otherwise Fozzels can generate the text again and again (recursion).
+:::
 
 ---
 
@@ -95,9 +74,11 @@ Be specific about:
 
 ## Running a Flow
 
-**Run Now** — immediately processes up to 10 products. Use this to test or for small batches.
+**Launch flow** (step 6): the Flow processes products every day, up to the daily limit, until it completed the selection. Then it takes new products that agree with the selection.
 
-**Plan & Close** — queues the full batch for processing in the background. Use this for bulk runs.
+**Run Now** (the **…** menu on the Flow page): starts the generation immediately, also when the Flow already reached the daily limit for today.
+
+**Generate Now** (the **Test** table on the Flow page): generates content for one product immediately.
 
 ---
 
@@ -112,9 +93,9 @@ Each generated item goes through these stages:
 | **Synchronized** | Successfully pushed to the store |
 | **Suspicious** | Contains flagged content — requires manual review before sync |
 
-With **Automation ON** — clean content is automatically confirmed and pushed. Suspicious content always waits for manual review.
+With **Straight to my shop** (step 6) — clean content is automatically confirmed and pushed. Suspicious content always waits for manual review.
 
-With **Automation OFF** — all content waits for you to review and confirm before syncing.
+With **I approve every text first** (step 6) — all content waits for you to review and confirm before syncing.
 
 ---
 
@@ -157,7 +138,7 @@ Flagged content shows exactly why it was flagged. You can:
 | Reason | Fix |
 |--------|-----|
 | Flow is inactive | Enable the Active toggle on the Flow |
-| Not confirmed | Confirm the completion (or enable Automation) |
+| Not confirmed | Confirm the completion (or select **Straight to my shop** in step 6 of the Flow) |
 | Suspicious content | Review and approve, or edit and re-save |
 | Product deleted from store | Nothing to do — product no longer exists |
 | Store/integration inactive | Enable the store or integration |

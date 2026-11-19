@@ -21,41 +21,20 @@ Content Flows sind das Kern-Automatisierungsfeature von Fozzels. Ein Flow ist ei
 
 ## Erstellen eines Flow
 
-Gehen Sie zu [Flows](https://app.fozzels.com/completions/product/rule) → **Create Flow**
+Gehen Sie zu [Flows](https://app.fozzels.com/completions/product/rule) und erstellen Sie einen neuen Content Flow. Sie richten ihn in sechs geführten Schritten ein:
 
-### Schritt 1 — Shop & Zielattribut
+1. **Store**: Wählen Sie die Integration, die Website und die Store View.
+2. **What and with what?**: Wählen Sie die Felder, die Fozzels generiert, und die Produkte.
+3. **Enrich the text**: Wählen Sie das KI-Modell und bauen Sie den Prompt aus Blöcken: Rolle, Zielgruppe, Tonalität, Quellen, Keywords und Regeln.
+4. **Fields**: Legen Sie für jedes Feld Länge, Struktur und Format fest.
+5. **Test**: Generieren Sie Texte für echte Produkte und vergleichen Sie die Scores des aktuellen und des neuen Texts.
+6. **Launch**: Legen Sie das Tageslimit, die Freigabe neuer Texte, Aktualisierungen bei Produktänderungen und den Cooldown zwischen Flows fest.
 
-- Wählen Sie den Shop aus, dessen Produkte verarbeitet werden sollen
-- Geben Sie dem Flow einen Namen
-- Wählen Sie das **Zielattribut** — das Attribut, das KI-generierte Inhalte erhält
-  - Muss das Flag **Mutable** in Integration → Attribute aktiviert haben
+Eine vollständige Beschreibung jedes Schritts finden Sie in [4.1.2. Einen Content Flow erstellen: Anleitung in sechs Schritten](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 
-### Schritt 2 — KI-Anbieter
-
-- Wählen Sie KI-Anbieter: OpenAI GPT-4o, Google Gemini 2.5 Flash oder Anthropic Claude
-- Wählen Sie ein bestimmtes Modell
-- Konfigurieren Sie Modellparameter bei Bedarf
-
-### Schritt 3 — Produkte & Eingabeaufforderung
-
-- **Bedingungen** — visueller Abfragebuilder, um zu filtern, welche Produkte dieser Flow verarbeitet
-  - Beispiel: "description is empty AND category equals Electronics"
-  - Leer lassen, um alle Produkte im Shop zu verarbeiten
-  - Eine Produktanzahl-Vorschau zeigt, wie viele Produkte dem Filter entsprechen
-- **Prompt** — die Anweisung an die KI, geschrieben im [Prompt-Editor](/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor). Produktdaten fügen Sie als **Attribute** ein: Geben Sie `/` im Editor ein, oder klicken bzw. ziehen Sie ein Attribut aus dem Attribut-Panel. Jedes Attribut wird durch den Wert des jeweiligen Produkts ersetzt.
-  - Beispiel: _Write a product description for_ **Name** _(SKU:_ **SKU**_) in category_ **Category**, wobei die fett gedruckten Teile Attribute sind
-  - Ein Attribut mit einem Label daneben (_Brand:_ **Brand**) gehört in eine **Bedingung** (einen if-Block): Die ganze Zeile entfällt, wenn das Produkt keinen Wert hat, sodass keine leeren Zeilen an die KI gelangen
-
-### Schritt 4 — Automatisierungseinstellungen
-
-- **Aktiv**-Umschalter — aktivieren/deaktivieren Sie den Flow
-- **Stapelgröße** — wie viele Produkte pro Durchlauf verarbeitet werden (Standard 10)
-- **Automation**-Umschalter — wenn ON werden bestätigte Inhalte automatisch an Ihren Shop gesendet ohne manuelle Überprüfung
-- **Bei Attributänderung neu generieren** — erneut ausführen, wenn Quellattribute aktualisiert werden (⚠ kann zu Rekursion führen, wenn das Zielattribut auch eine Quelle ist)
-- **Überlappende Generierung verhindern** — Cooldown zwischen Regenerationen pro Produkt:
-  - **Erben** — verwenden Sie globalen Cooldown aus Kontoeinstellungen
-  - **Außer Kraft setzen** — legen Sie einen benutzerdefinierten Cooldown nur für diesen Flow fest
-  - **Ausschalten** — generieren Sie immer neu, unabhängig von bisherigen Durchläufen
+:::warning
+Wenn **If a product changes later?** eingeschaltet ist, nutzen Sie das Feld, in das der Flow schreibt, nicht als Quelle im Prompt. Sonst kann Fozzels den Text immer wieder neu generieren (Rekursion).
+:::
 
 ---
 
@@ -95,9 +74,11 @@ Seien Sie spezifisch über:
 
 ## Flow ausführen
 
-**Run Now** — verarbeitet sofort bis zu 10 Produkte. Verwenden Sie dies zum Testen oder für kleine Chargen.
+**Launch flow** (Schritt 6): Der Flow verarbeitet jeden Tag Produkte bis zum Tageslimit, bis er die Auswahl abgeschlossen hat. Danach nimmt er neue Produkte, die zur Auswahl passen.
 
-**Plan & Close** — reiht die vollständige Charge zur Verarbeitung im Hintergrund ein. Verwenden Sie dies für Massendurchläufe.
+**Run Now** (das Menü **…** auf der Flow-Seite): startet die Generierung sofort, auch wenn der Flow sein Tageslimit für heute schon erreicht hat.
+
+**Generate Now** (die Tabelle **Test** auf der Flow-Seite): generiert sofort Inhalte für ein Produkt.
 
 ---
 
@@ -112,9 +93,9 @@ Jeder generierte Artikel durchläuft diese Stadien:
 | **Synchronized** | Erfolgreich an den Shop gesendet |
 | **Suspicious** | Enthält gekennzeichnete Inhalte — erfordert manuelle Überprüfung vor Synchronisierung |
 
-Mit **Automation ON** — werden saubere Inhalte automatisch bestätigt und gesendet. Verdächtige Inhalte warten immer auf manuelle Überprüfung.
+Mit **Straight to my shop** (Schritt 6) — werden saubere Inhalte automatisch bestätigt und gesendet. Verdächtige Inhalte warten immer auf manuelle Überprüfung.
 
-Mit **Automation OFF** — warten alle Inhalte darauf, dass Sie sie überprüfen und bestätigen, bevor sie synchronisiert werden.
+Mit **I approve every text first** (Schritt 6) — warten alle Inhalte darauf, dass Sie sie überprüfen und bestätigen, bevor sie synchronisiert werden.
 
 ---
 
@@ -157,7 +138,7 @@ Gekennzeichnete Inhalte zeigen genau, warum sie gekennzeichnet wurden. Sie könn
 | Grund | Behebung |
 |--------|-----|
 | Flow ist inaktiv | Aktivieren Sie das Aktiv-Feld im Flow |
-| Nicht bestätigt | Bestätigen Sie den Abschluss (oder aktivieren Sie Automation) |
+| Nicht bestätigt | Bestätigen Sie den Abschluss (oder wählen Sie **Straight to my shop** in Schritt 6 des Flows) |
 | Verdächtige Inhalte | Überprüfen und genehmigen Sie, oder bearbeiten Sie und speichern Sie erneut |
 | Produkt aus dem Shop gelöscht | Nichts zu tun — Produkt existiert nicht mehr |
 | Shop/Integration inaktiv | Aktivieren Sie den Shop oder die Integration |
