@@ -1,65 +1,61 @@
 ---
 id: '103000408983'
-title: 4.1.2.a Instellen van geautomatiseerde AI-inhoudsstromen
+title: 4.1.2.a Geautomatiseerde AI Content Flows instellen
 sidebar_position: 3
 slug: /content-creation-flows/how-to-set-up-automated-ai-content-flows
-description: Geautomatiseerde inhoudsstromen in Fozzels stellen u in staat productinhoud automatisch op de achtergrond te genereren en synchroniseren - zonder dat u taken handmatig elke dag hoeft in te schakelen
+description: >-
+  Zo laat u een Content Flow automatisch productcontent genereren en
+  synchroniseren: controleer de Flow voor de start, stel in de stap Launch de
+  dagelijkse limiet, de goedkeuring en de updates in, en start de Flow.
 ---
 
-Geautomatiseerde inhoudsstromen in Fozzels stellen u in staat productinhoud automatisch op de achtergrond te genereren en synchroniseren - zonder dat u taken handmatig elke dag hoeft in te schakelen.
+Een geautomatiseerde Content Flow genereert elke dag op de achtergrond productcontent en stuurt die naar uw shop. U hoeft de taken niet zelf te starten.
 
-Deze gids behandelt alles wat u moet weten om geautomatiseerde stromen veilig en efficiënt in te stellen, te testen en uit te voeren.
+U stelt de automatisering in bij stap 6 van een Content Flow, **Launch**. Een beschrijving van alle zes stappen vindt u in [4.1.2. Een Content Flow maken: de zes stappen](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 
-## Stap 1: Checklist voorafgaand aan lancering
+## Stap 1: Controleer de Flow voor de start
 
-Voordat u automatisering inschakelt, raden we u ten zeerste aan deze drie controles uit te voeren om fouten te voorkomen:
+Voer deze drie controles uit voordat u de Flow start. Ze voorkomen fouten.
 
-1.  **Productgeselecteerde verificatie:** Controleer uw filters in de stroominstelling zorgvuldig om ervoor te zorgen dat de stroom exact de productset die u wilt verwerken, aanwijst.
+1. **Controleer de productselectie.** Controleer in stap 2, **What and with what?**, dat de selectie alleen de producten bevat die u wilt verwerken.
+2. **Test de prompt.** Genereer in stap 5, **Test**, teksten voor enkele echte producten. Controleer of de teksten en de scores kloppen.
+3. **Voorkom recursie.** Gebruik het veld waar de Flow naartoe schrijft niet als bron in de prompt. Gebruik bijvoorbeeld `product_description` niet als input om een nieuwe `product_description` te genereren. Anders kan Fozzels de tekst steeds opnieuw genereren.
 
-2.  **Test uw prompt:** Voer een testgeneratie uit met behulp van **Opslaan en voorbeeld bekijken** om te bevestigen dat de uitvoer aan uw kwaliteitsnormen voldoet.
+## Stap 2: Stel de automatisering in bij de stap Launch
 
-3.  **Vermijd Prompt-recursie:** Zorg ervoor dat uw prompt niet verwijst naar het exacte attribuut dat u naar schrijft (bijv. `product_description` als invoer gebruiken om een nieuwe `product_description` te genereren). Dit voorkomt recursieve generatielussen.
+Beantwoord in stap 6, **Launch**, drie vragen:
 
-## Stap 2: De automatiseringsinstellingen configureren
+1. **How many products per day?** Kies 10, 25, 50 of 100, of typ uw eigen aantal. De limiet houdt de kosten en het controlewerk klein. Als Fozzels de huidige selectie heeft afgerond, neemt de Flow automatisch nieuwe producten die bij de selectie passen.
+2. **What happens with a new text?**
+    - **I approve every text first** (aanbevolen): nieuwe teksten gaan naar uw controlelijst. Fozzels stuurt niets naar uw shop voordat u het goedkeurt.
+    - **Straight to my shop**: Fozzels publiceert de teksten automatisch. U kunt ze nog steeds bewerken of teruggaan naar de vorige versie. Teksten die Fozzels als verdacht markeert, wachten altijd op uw controle.
+3. **If a product changes later?** Zet de schakelaar aan als Fozzels automatisch een nieuwe tekst moet schrijven wanneer een attribuut dat de prompt gebruikt in uw winkel verandert, bijvoorbeeld de kleur of het materiaal. Staat de schakelaar uit, dan schrijft Fozzels maar één keer een tekst voor een product.
 
-Navigeer naar het tabblad **Automatisering** in uw Stroomsinstellingen en configureer de volgende parameters:
+Onder **Advanced settings** kunt u ook:
 
--   **Dagelijkse verwerkingslimiet:** Stel in hoeveel producten elke dag moeten worden verwerkt (tot **500 producten per actieve stroom per dag**). Deze limiet garandeert consistente en betrouwbare uitvoering binnen elke 24-uur cyclus.
+- de cooldown instellen die voorkomt dat andere Flows dezelfde content opnieuw genereren: **Use default**, **Override** of **Turn off**. Meer informatie vindt u in [4.4.1 Overlappende contentgeneratie voorkomen](/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function/).
+- op **Connect workflow** klikken om een actie toe te voegen die na elke tekst draait, bijvoorbeeld een vertaling.
 
--   **Volledig automatische modus (optioneel):**
+## Stap 3: Start de Flow
 
--   **Ingeschakeld:** Gegenereerde inhoud wordt automatisch goedgekeurd en gesynchroniseerd met uw webwinkel (met uitzondering van items die door verdachte woorden of validatiecontroles zijn gemarkeerd).
+1. Klik op **Launch flow**.
 
--   **Uitgeschakeld:** Inhoud wordt automatisch gegenereerd, maar blijft in behandeling voor handmatige beoordeling en goedkeuring voordat het wordt gesynchroniseerd.
+    Fozzels toont de melding "Your flow is running". De Flow verwerkt elke dag producten, tot de dagelijkse limiet, totdat alle producten in de selectie klaar zijn.
 
--   **Nieuw content maken wanneer attribuutwaarden wijzigen (optioneel):** Wanneer ingeschakeld, genereert Fozzels automatisch inhoud opnieuw wanneer een attribuut dat in uw prompt wordt gebruikt, in uw winkel wordt bijgewerkt. Dit houdt uw inhoud versneld met nul handmatig werk.
+2. Wilt u de generatie direct starten? Open de Flow-pagina, klik op het menu **…** en klik op **Run Now**. Fozzels start direct, ook als de Flow de dagelijkse limiet voor vandaag al heeft bereikt.
 
-## Stap 3: Uw stroom lanceren
+Wilt u later verder gaan met instellen? Klik dan op **Save as draft** in plaats van **Launch flow**.
 
-Zodra uw instellingen zijn geconfigureerd, activeert u de stroom en kiest u een van de twee lanceermogelijkheden:
+## Regels en aanbevelingen
 
-### Optie A: Plan en sluit (aanbevolen voor achtergrondloten)
+- **De Flow moet actief zijn.** Fozzels voert alleen actieve Flows uit. Als u een Flow stopt, stopt Fozzels alle geplande runs totdat u de Flow weer start.
+- **U kunt een actieve Flow wijzigen.** Uw wijzigingen gelden voor alle nieuwe teksten. Fozzels wijzigt de teksten die het al heeft gegenereerd niet, tenzij u ze opnieuw genereert.
+- **Nieuwe producten komen er automatisch bij.** Na elke update van de catalogus vergelijkt Fozzels de producten in uw winkel met de selectie van de Flow. Nieuwe producten die bij de selectie passen, bijvoorbeeld 20 nieuwe producten in een categorie, gaan automatisch in de Flow.
 
-Klik op **Plan en sluit**. De stroom krijgt een geplande status en begint automatisch met verwerking na de volgende geplande nachtelijke catalogusupdate, met voortgang tot alle overeenkomende producten zijn verwerkt.
+## Gerelateerde artikelen
 
-### Optie B: Uitvoer nu (onmiddellijke start)
-
-Klik op **Nu uitvoeren**. Fozzels verwerkt onmiddellijk de eerste **10 producten** voor een direct voorbeeld. Na deze initiële batch gaat de stroom verder op zijn dagelijkse geplande automatische pad volgens uw ingestelde dagelijkse limiet.
-
-## Belangrijkste regels en best practices
-
--   **Actieve status vereist:** Voor een geplande stroom om dagelijks uit te voeren, moet deze **Actief** blijven. Het deactiveren van de stroom onderbreekt alle geplande runs totdat deze opnieuw wordt ingeschakeld.
-
--   **Actieve stromen bewerken:** U kunt promptregels of instellingen in een geplande stroom op elk moment bewerken. Updates zijn van toepassing op alle toekomstige generaties, terwijl eerder gegenereerde inhoud ongewijzigd blijft tenzij handmatig opnieuw gegenereerd.
-
--   **Dynamische productgeselecteerde:** Actieve geplande stromen evalueren automatisch uw winkelbinding na elke nachtelijke synchronisatie. Als nieuwe producten uw stroomfilters matchen (bijv. 20 nieuwe items toegevoegd aan een categorie), worden ze automatisch ingeschreven in de stroom voor verwerking.
-
-## Gerelateerde Help-artikelen
-
--   **Verdachte woorden & Kwaliteitscontrole:** _[4.7.4 Verdachte woorden en frasen: Geavanceerde inhoudsqualiteitscontrole](/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control)_
-
--   **Recursie vermijden Waarschuwingen:** _[3.5 "Recursie gedetecteerd" waarschuwing bij het maken van een stroom](/data-import-and-quality/recursion-detection-preventing-infinite-content-generation)_
-
--   **Overlappende stromen voorkomen:** _[4.4.1 Overlappende inhoudsgenereratiefunctie voorkomen](/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function)_
-
--   **HTML-opmaakregels:** _[4.7.3 Toegestane HTML-tags voor AI-tekstgeneratie](/content-creation-flows/allowed-html-tags-for-ai-text-generation)_
+- [4.1.2. Een Content Flow maken: de zes stappen](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/)
+- [4.7.4 Verdachte woorden en frasen: geavanceerde controle van de contentkwaliteit](/content-creation-flows/suspicious-words-phrases-advanced-content-quality-control)
+- [3.5 Waarschuwing "Recursion detected" bij het maken van een Flow](/data-import-and-quality/recursion-detection-preventing-infinite-content-generation)
+- [4.4.1 Functie Overlappende contentgeneratie voorkomen](/content-creation-flows/prevent-overlapping-content-generation-function-global-prevent-function)
+- [4.7.3 Toegestane HTML-tags voor AI-tekstgeneratie](/content-creation-flows/allowed-html-tags-for-ai-text-generation)

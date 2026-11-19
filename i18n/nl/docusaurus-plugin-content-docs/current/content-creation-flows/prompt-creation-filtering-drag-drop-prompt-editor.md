@@ -11,6 +11,10 @@ description: >-
 
 In het promptveld schrijft u de instructies die Fozzels voor elk product naar de AI stuurt. Met de nieuwe editor bouwt u de prompt op, voegt u productgegevens en voorwaarden in en controleert u het resultaat voor een echt product, allemaal op één scherm.
 
+:::note
+In de nieuwe Content Flows (november 2026) bouwt u de hoofdprompt op uit blokken in stap 3, **Enrich the text**. Deze editor gebruikt u voor de richtlijnen van elk veld: klik op **Edit guideline**. De attributen, voorwaarden, snippets, sjablonen, de Preview en de AI Assistant werken zoals dit artikel beschrijft. Sectie 1 toont de vorige manier om een Flow in te stellen. De nieuwe zes stappen vindt u in [4.1.2. Een Content Flow maken: de zes stappen](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
+:::
+
 ## Wat is er nieuw
 
 Hebt u de vorige drag & drop-editor gebruikt? Dit zijn de belangrijkste wijzigingen:

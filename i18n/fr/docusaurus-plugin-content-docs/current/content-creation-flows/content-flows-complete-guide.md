@@ -24,41 +24,20 @@ Les Content Flows sont la fonctionnalité d'automatisation centrale de Fozzels. 
 
 ## Création d'un Flow
 
-Allez dans [Flows](https://app.fozzels.com/completions/product/rule) → **Create Flow**
+Allez dans [Flows](https://app.fozzels.com/completions/product/rule) et créez un nouveau Content Flow. Vous le configurez en six étapes guidées :
 
-### Étape 1 — Boutique et attribut cible
+1. **Store** : sélectionnez l'intégration, le site web et la vue de boutique.
+2. **What and with what?** : sélectionnez les champs à générer et les produits.
+3. **Enrich the text** : sélectionnez le modèle d'IA et construisez le prompt à partir de blocs : rôle, public cible, ton, sources, mots-clés et règles.
+4. **Fields** : définissez la longueur, la structure et le format de chaque champ.
+5. **Test** : générez des textes pour des produits réels et comparez les scores du texte actuel et du nouveau texte.
+6. **Launch** : définissez la limite quotidienne, l'approbation des nouveaux textes, les mises à jour quand un produit change et le délai d'attente entre les Flows.
 
-- Sélectionnez la boutique dont vous souhaitez traiter les produits
-- Donnez un nom au Flow
-- Sélectionnez l'**attribut cible** : l'attribut qui recevra le contenu généré par l'IA
-  - Il doit avoir l'indicateur **Mutable** activé dans Integration → Attributes
+Pour une description complète de chaque étape, consultez [4.1.2. Créer un Content Flow : les six étapes](/content-creation-flows/creating-a-new-content-flow-and-initial-settings/).
 
-### Étape 2 — Fournisseur d'IA
-
-- Choisissez le fournisseur d'IA : OpenAI GPT-4o, Google Gemini 2.5 Flash ou Anthropic Claude
-- Sélectionnez un modèle précis
-- Configurez les paramètres du modèle si nécessaire
-
-### Étape 3 — Produits et prompt
-
-- **Conditions** : générateur de requêtes visuel pour filtrer les produits traités par ce Flow
-  - Exemple : « description is empty AND category equals Electronics »
-  - Laissez vide pour traiter tous les produits de la boutique
-  - Un aperçu du nombre de produits indique combien correspondent
-- **Prompt** : l'instruction envoyée à l'IA, rédigée dans l'[éditeur de prompt](/content-creation-flows/prompt-creation-filtering-drag-drop-prompt-editor). Les données produit y entrent sous forme d'**attributs** : tapez `/` dans l'éditeur, ou cliquez sur un attribut ou faites-le glisser depuis le panneau Attributes. Chaque attribut est remplacé par la valeur propre à chaque produit.
-  - Exemple : _Rédige une description produit pour_ **Name** _(SKU :_ **SKU**_) dans la catégorie_ **Category**, où les parties en gras sont des attributs
-  - Un attribut accompagné d'un libellé (_Brand :_ **Brand**) doit être placé dans une **condition** (un bloc « if ») : toute la ligne est omise lorsque le produit n'a pas de valeur, de sorte qu'aucune ligne vide n'atteint l'IA
-
-### Étape 4 — Paramètres d'automatisation
-
-- Bouton **Active** : active ou désactive le Flow
-- **Batch size** : nombre de produits à traiter par exécution (10 par défaut)
-- Bouton **Automation** : lorsqu'il est activé (ON), le contenu confirmé est automatiquement envoyé vers votre boutique sans relecture manuelle
-- **Regenerate on attribute change** : relance la génération lorsque les attributs source sont mis à jour (⚠ peut provoquer une récursion si l'attribut cible est aussi une source)
-- **Prevent overlapping generation** : délai d'attente entre deux régénérations par produit :
-  - **Inherit** : utilise le délai global défini dans les paramètres du compte
-  - **Override** : définit un délai personnalisé pour ce Flow uniquement
-  - **Turn off** : régénère toujours, quelles que soient les exécutions précédentes
+:::warning
+Si l'option **If a product changes later?** est activée, n'utilisez pas comme source du prompt le champ dans lequel le Flow écrit. Sinon, Fozzels peut générer le texte encore et encore (récursion).
+:::
 
 ---
 
@@ -98,9 +77,11 @@ Soyez précis sur :
 
 ## Exécution d'un Flow
 
-**Run Now** : traite immédiatement jusqu'à 10 produits. Utilisez-le pour tester ou pour de petits batches.
+**Launch flow** (étape 6) : le Flow traite des produits chaque jour, jusqu'à la limite quotidienne, jusqu'à ce que la sélection soit terminée. Il prend ensuite les nouveaux produits qui correspondent à la sélection.
 
-**Plan & Close** : place le batch complet en file d'attente pour un traitement en arrière-plan. Utilisez-le pour les exécutions en masse.
+**Run Now** (le menu **…** de la page du Flow) : lance la génération immédiatement, même si le Flow a déjà atteint la limite quotidienne d'aujourd'hui.
+
+**Generate Now** (le tableau **Test** de la page du Flow) : génère immédiatement le contenu d'un seul produit.
 
 ---
 
@@ -115,9 +96,9 @@ Chaque élément généré passe par les étapes suivantes :
 | **Synchronized** | Envoyé avec succès vers la boutique |
 | **Suspicious** | Contient du contenu signalé : relecture manuelle requise avant la synchronisation |
 
-Avec **Automation ON** : le contenu sans problème est confirmé et envoyé automatiquement. Le contenu suspect attend toujours une relecture manuelle.
+Avec **Straight to my shop** (étape 6) : le contenu sans problème est confirmé et envoyé automatiquement. Le contenu suspect attend toujours une relecture manuelle.
 
-Avec **Automation OFF** : tout le contenu attend votre relecture et votre confirmation avant la synchronisation.
+Avec **I approve every text first** (étape 6) : tout le contenu attend votre relecture et votre confirmation avant la synchronisation.
 
 ---
 
@@ -160,7 +141,7 @@ Le contenu signalé indique précisément pourquoi il l'a été. Vous pouvez :
 | Raison | Solution |
 |--------|----------|
 | Le Flow est inactif | Activez le bouton Active du Flow |
-| Non confirmé | Confirmez la complétion (ou activez Automation) |
+| Non confirmé | Confirmez la complétion (ou sélectionnez **Straight to my shop** à l'étape 6 du Flow) |
 | Contenu suspect | Relisez et approuvez, ou modifiez et enregistrez à nouveau |
 | Produit supprimé de la boutique | Rien à faire : le produit n'existe plus |
 | Boutique/intégration inactive | Activez la boutique ou l'intégration |
