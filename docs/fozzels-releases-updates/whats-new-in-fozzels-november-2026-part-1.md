@@ -48,6 +48,7 @@ whats_new:
       title: 'Akeneo product models as parents'
       body: 'Generate one text for each product model. All its variants, such as colours and sizes, get the same text automatically.'
       image: /img/kb/fozzels-releases-updates/whats-new-in-fozzels-november-2026-part-1/12-akeneo-product-models.png
+      platforms: [akeneo]
     - tag: improved
       area: 'Image Flows'
       title: 'Accept images when you want'
