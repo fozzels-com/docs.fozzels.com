@@ -280,7 +280,7 @@ After the launch, you see the message "Your flow is running" and a button that o
 The Flow page shows all the information about the Flow on one screen:
 
 - **Product selection**: the filter that selects the products, and the number of products.
-- **System prompt**: the part of the prompt that Fozzels sends with each request, before the instructions for the fields: the role, the audience, the tone, the principles, the keywords, the words to avoid and the rules.
+- **System prompt**: the part of the prompt that Fozzels sends with each request, before the instructions for the fields: the role, the audience, the tone, the principles, the keywords, the words to avoid and the rules. For what goes in this part and what goes in the prompt for each field, see [4.3.4 Main Prompt and Prompt per Text](/content-creation-flows/main-prompt-and-prompt-per-text/).
 - **Attributes to generate**: the fields that Fozzels generates. Fozzels makes all of them in one AI request for each product, with one shared main prompt.
 - **Status**, **AI Configuration**, **Automation**, **Workflows**: the status and the progress, the model and its price, the daily limit, automatic publishing, the confidence threshold, the cooldown and the connected actions. To change a block, click its **Change** button.
 

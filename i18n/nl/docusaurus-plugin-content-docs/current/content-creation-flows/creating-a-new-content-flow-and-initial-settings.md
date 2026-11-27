@@ -280,7 +280,7 @@ Na de start ziet u de melding "Your flow is running" en een knop die de Flow-pag
 De Flow-pagina toont alle informatie over de Flow op één scherm:
 
 - **Product selection**: het filter dat de producten kiest, en het aantal producten.
-- **System prompt**: het deel van de prompt dat Fozzels met elk verzoek meestuurt, vóór de instructies voor de velden: de rol, de doelgroep, de toon, de principes, de zoekwoorden, de woorden die u wilt vermijden en de regels.
+- **System prompt**: het deel van de prompt dat Fozzels met elk verzoek meestuurt, vóór de instructies voor de velden: de rol, de doelgroep, de toon, de principes, de zoekwoorden, de woorden die u wilt vermijden en de regels. Wat in dit deel hoort en wat in de prompt per veld, leest u in [4.3.4 Hoofdprompt en prompt per tekst: zo stuurt Fozzels uw prompt](/content-creation-flows/main-prompt-and-prompt-per-text/).
 - **Attributes to generate**: de velden die Fozzels genereert. Fozzels maakt ze allemaal in één AI-verzoek per product, met één gedeelde hoofdprompt.
 - **Status**, **AI Configuration**, **Automation**, **Workflows**: de status en de voortgang, het model en de prijs ervan, de dagelijkse limiet, automatisch publiceren, de betrouwbaarheidsdrempel, de cooldown en de gekoppelde acties. Klik op de knop **Change** van een blok om het te wijzigen.
 

@@ -280,7 +280,7 @@ Depois do lançamento, você vê a mensagem "Your flow is running" e um botão q
 A página do Flow mostra todas as informações do Flow em uma tela:
 
 - **Product selection**: o filtro que seleciona os produtos e o número de produtos.
-- **System prompt**: a parte do prompt que o Fozzels envia em cada solicitação, antes das instruções dos campos: a função, o público, o tom, os princípios, as palavras-chave, as palavras a evitar e as regras.
+- **System prompt**: a parte do prompt que o Fozzels envia em cada solicitação, antes das instruções dos campos: a função, o público, o tom, os princípios, as palavras-chave, as palavras a evitar e as regras. Para saber o que vai nesta parte e o que vai no prompt de cada campo, veja [4.3.4 Prompt principal e Prompt por texto: como o Fozzels envia o seu prompt](/content-creation-flows/main-prompt-and-prompt-per-text/).
 - **Attributes to generate**: os campos que o Fozzels gera. O Fozzels cria todos eles em uma única solicitação de IA por produto, com um prompt principal comum.
 - **Status**, **AI Configuration**, **Automation**, **Workflows**: o status e o progresso, o modelo e o preço dele, o limite diário, a publicação automática, o limite de confiança, o cooldown e as ações conectadas. Para alterar um bloco, clique no botão **Change** dele.
 
